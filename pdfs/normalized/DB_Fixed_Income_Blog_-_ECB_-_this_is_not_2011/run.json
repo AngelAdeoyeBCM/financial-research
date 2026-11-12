@@ -1,0 +1,292 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fixed_Income_Blog_-_ECB_-_this_is_not_2011.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-12",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 9,
+    "referents": {
+     "claim": 3,
+     "thing": 5
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     2,
+     0
+    ],
+    "undecided_per_attempt": [
+     1,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 10,
+  "kinds": {
+   "proposition": 3,
+   "possessive": 2,
+   "pronoun": 2,
+   "vp": 1,
+   "symbol": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 1.0,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 25,
+  "cost_usd": 0.1367
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 89,
+   "end": 167,
+   "quote": "Hiking in response to a negative supply shock is, by definition, uncomfortable",
+   "name": "Hiking in response to a negative supply shock is, by definition, uncomfortable"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 461,
+   "end": 481,
+   "quote": "peripheral countries",
+   "name": "peripheral countries"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 573,
+   "end": 586,
+   "quote": "fiscal policy",
+   "name": "fiscal policy"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 938,
+   "end": 960,
+   "quote": "the parallel with 2011",
+   "name": "the parallel with 2011"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1872,
+   "end": 1899,
+   "quote": "weaker peripheral countries",
+   "name": "weaker peripheral countries"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2062,
+   "end": 2126,
+   "quote": "France is arguably the weakest link from an external perspective",
+   "name": "France is arguably the weakest link from an external perspective"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 2540,
+   "end": 2628,
+   "quote": "fiscal policy tightened materially from 2011 onwards in response to the euro area crisis",
+   "name": "fiscal policy tightened materially from 2011 onwards in response to the euro area crisis"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2944,
+   "end": 2989,
+   "quote": "Hiking in response to a negative supply shock",
+   "name": "hiking in response to a negative supply shock"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R8",
+      "type": "thing",
+      "sid": "E024",
+      "quote": "Hiking in response to a negative supply shock",
+      "name": "the ECB's hiking in response to a negative supply shock"
+     },
+     "reason": "name \"the ECB's hiking in response to a negative supply shock\" has words not in the quote: ['ecb']"
+    },
+    {
+     "item": {
+      "candidate": "C009",
+      "action": "link",
+      "referent": "R8"
+     },
+     "reason": "referent 'R8' is not in the referent table"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0336555,
+   "duration_ms": 3810,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3330,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 307,
+    "output_tokens_details": {
+     "thinking_tokens": 181
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3330,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 307,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3330,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3330
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0640949,
+   "duration_ms": 15040,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3673,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1675,
+    "output_tokens_details": {
+     "thinking_tokens": 1003
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3673,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1675,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3673,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3673
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0389001,
+   "duration_ms": 3378,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4090,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 252,
+    "output_tokens_details": {
+     "thinking_tokens": 143
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4090,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 252,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4090,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4090
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

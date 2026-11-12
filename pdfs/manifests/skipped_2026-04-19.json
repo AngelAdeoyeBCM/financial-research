@@ -1,0 +1,720 @@
+{
+  "batch_id": "2026-04-19",
+  "window": [
+    "2026-04-19",
+    "2026-04-19"
+  ],
+  "generated_at": "2026-10-29T16:28:24",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-19_2026-04-22.json",
+      "sha256": "0e20aef1914515f9c5f52652e57d983887dd26351a0e9f4da0e663e74630d557",
+      "records": 1012,
+      "dates": [
+        "2026-04-19",
+        "2026-04-22"
+      ],
+      "records_for_batch": 263
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 5,
+    "out_of_scope": 2,
+    "compiled": 0,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 48,
+    "UNSTRUCTURED_TEXT": 17,
+    "DISTORTED_TABLE": 16,
+    "MISSING_CHUNKS": 4
+  },
+  "documents": [
+    {
+      "stem": "BofA_GEMs_Viewpoint_-_Dispatch_from_DC_-_The_Iran_war_and_AI_dominate_the_debates",
+      "document": "BofA_GEMs Viewpoint - Dispatch from DC - The Iran war and AI dominate the debates.pdf",
+      "date": "2026-04-19",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 71,
+      "page_count": 23,
+      "status": "skipped",
+      "missing_indices": [
+        22,
+        32,
+        36,
+        44,
+        48
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [22, 32, 36, 44, 48]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_US_Rates_Weekly_-_Reopening_rate_cuts",
+      "document": "Citi_US Rates Weekly - Reopening rate cuts.pdf",
+      "date": "2026-04-19",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 83,
+      "page_count": 26,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        45
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 45]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: 2y 3.77% 3.83% 2.90% 2.45% 3.80% 5y 3.92% 4.05% 3.20% 2.90% 4.10%",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-3-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-3-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 210 366 40 56 0 270 10 0",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 55 60 65 70 75 80 3.5 3.6 3.7 3.8 3.9 4.0",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0% 5% 10% 15% 20% 25% 30% 35% 0% 5% 10% 15%",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -4 -3 -2 -1 0 1 2 3 Apr-25 Jun-25 Aug-25 Oct-25",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 1 0 1 2 3 Apr-25 Jun-25 Aug-25 Oct-25 Dec-25 Feb-26 Apr-26",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 14% 15% 16% 17% 18% 19% 20% -20 -10 0 10 20",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 5% 10% 15% 20%",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 20 25 30 0 5",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "75% of tokens are numeric/date values",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-10-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -5000 -4500 -4000 -3500 -3000 -2500 -2000 -1500 -1000 -500 0 Jan",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-11-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -5000 -4500 -4000 -3500 -3000 -2500 -2000 -1500 -1000 -500 0 Jan",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-11-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 1,000 -500 -400 -300 -200 -100 0 100 200",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.6156 -20 -10 0 10 20 30 40 0 1,000 2,000 3,000",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.6156 -20 -10 0 10 20 30 40 0 1,000 2,000 3,000",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -5.0 -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-14-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -5.0 -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0 Apr-16 Apr-17 Apr-18",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-14-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -5 0 5 10 15 20 25 30 35 Jan-16 Jan-17 Jan-18",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-15-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -150 -100 -50 0 50 100 150 200 250 300 Jan-16 Jan-17",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-16-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: 24 117 4,39824 55 | 3 14 1,08829 43 | 5 18 810 17 10",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-17-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "50% of tokens are numeric/date values",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-17-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-17-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -5% 0% 5% 10% 15% 20% 25% 30% Jan-2017 Jan-2018 Jan-2019 Jan-2020",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-19-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -5% 0% 5% 10% 15% 20% 25% 30% Jan-2017 Jan-2018 Jan-2019 Jan-2020",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-19-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-20-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-20-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: evelsRationale ateLong steepenerLevel swapLevel steepenerLevel flyLevel",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: flyLevel hutdownLong yearLong swapLevel curveReceive basisLevel",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ditionBuy ticksRisk ditionLong callsLevel ticksRisks ticksInvesting",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: radesLong capsLevel radesPay cautionCostless payersLevel risksLong",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ticksOne movesLong atesLevel preadLevel squeezeLong curveLevel",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: volShort scenarioStop ossSwap ossRates ossFront",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ossRates ossFront ossRates ossVolatility rofitVolatility rofitRates",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ossRates ossRates ossVolatility",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: rofitInflation ossInflation rofitRates ossRates ossInflation ossRates",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: rofitFront ossRates rofitVolatility rofitRates rofitVolatility rofitInflation",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-21-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: eepenerNov eadJan eadFeb",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1. 625 05/ 31Jan 25, 2024Apr 5, 202458",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: eadApr enerApr eadJun",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: eadJun verJun eadSep adderSep",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: volSep weekDec denerJun enerJan eepenerDec eepenerNov",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: enerJan eadApr eadJun",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: hedgeSep eepenerApr hedgeSep eadNov",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 5, 2026Feb 12, 202638 | 17, 2025Feb 20, 20264. | 5, 20263 3 $262 300k -",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-22-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45 consecutive numeric/date tokens: 0.75% Jan28 14.1 14.1 52% 2.625% May27 2.21 0.87 90% 3.875% Mar28",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-23-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45 consecutive numeric/date tokens: 4.625% May31 31.4 29.5 63% 1.375% Nov31 0.73 0.32 100% 1.375% Nov31",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-23-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2.4 52.4 48% 2.875% May49 -0.50 -0.16 2% 1.875% Feb51 52.9 53.0",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-23-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: -0.1 9 -0.69 -0.52 -7.7 -1 4.1 74% 1 2%",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-24-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-24-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 1 6.3 0.0 0.79 -0.34 -0.96 1 7.7 1 4.6 -26% 67%",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-24-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-24-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 1 6.3 0.0 0.79 -0.34 -0.96 1 7.7 1 4.6 -26% 67%",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-24-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 0.3 -0.94 0.1 2 0.79 0.7 -0.7 75% 1 3%",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-24-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-24-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48% of tokens are numeric/date values",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-24-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: orrelationBeta scoreCorrelation etaResidual coreResidual",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-25-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-25-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: scoreCorrelation etaResidual coreResidual",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-25-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1SD -1 0 1 2 3 4 5 6 7 Jan-15 Jan-17",
+          "chunk_id": "Citi_US Rates Weekly - Reopening rate cuts.pdf-25-82",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_US_Economics_-_What_you_need_to_know_for_the_week_ahead__2026-04-19",
+      "document": "DB_US Economics - What you need to know for the week ahead.pdf",
+      "date": "2026-04-19",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Comment_-_Beyond_Relief_A_Cross-Asset_View",
+      "document": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf",
+      "date": "2026-04-19",
+      "publisher": "Goldman Sachs",
+      "document_type": "Market commentary",
+      "chunk_count": 27,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        11,
+        14
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11, 14]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.70 -8 -6 -4 -2 0 2 4 6 8 -6 -4",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 8 -6 -4 -2 0",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 -0.5 0.0 0.5 1.0",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2 3 4 5 6 2 3 4 5 6 Jan-24 Jul-24",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16 18 20 2200",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 -6 -4 -2 0 2",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 -1.0",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 64 68 72 76 80 84 88 92 64 68 72 76",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "44 consecutive numeric/date tokens: 0.5 0.7 0.9 1.1 1.3 1.5 1.7 1.9 2.1 2.3 2.5 0.5",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 12 16 20 24 28 32 36 12 16 20 24 28",
+          "chunk_id": "GS_Global Markets Comment - Beyond Relief—A Cross-Asset View.pdf-12-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_All_eyes_on_Hormuz_Sunday_Tea_with_BNP_Paribas--922516",
+      "document": "Sunday_Tea_with_BNPP_All_eyes_on_Hormuz_Sunday_Tea_with_BNP_Paribas--922516.pdf",
+      "date": "2026-04-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.12 -0.42 -0.43 3.61 -5 0 5 10 2025 2026 2027 2028",
+          "chunk_id": "Sunday_Tea_with_BNPP_All_eyes_on_Hormuz_Sunday_Tea_with_BNP_Paribas--922516.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Sunday_Tea_with_BNPP_All_eyes_on_Hormuz_Sunday_Tea_with_BNP_Paribas--922516.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

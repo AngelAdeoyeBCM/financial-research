@@ -1,0 +1,195 @@
+{
+  "batch_id": "2026-06-03",
+  "window": [
+    "2026-06-03",
+    "2026-06-03"
+  ],
+  "generated_at": "2026-10-29T16:29:30",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-02_2026-06-05.json",
+      "sha256": "cf261de0dc8c056e3d4917b3c42533d1ad66bd39bd5c4caffbcbda8900ea3083",
+      "records": 2602,
+      "dates": [
+        "2026-06-02",
+        "2026-06-05"
+      ],
+      "records_for_batch": 56
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 5,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 7,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 8,
+    "MISSING_CHUNKS": 3,
+    "DISTORTED_TABLE": 2
+  },
+  "documents": [
+    {
+      "stem": "EM_rates_Entering_an_MXN_basis_flattener_trade_Trade_Idea--925574",
+      "document": "EM_rates_Entering_an_MXN_basis_flattener_trade_Trade_Idea--925574.pdf",
+      "date": "2026-06-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -40 -20 0 20 40 60 80 100 0.5 1.0 1.5 2.0",
+          "chunk_id": "EM_rates_Entering_an_MXN_basis_flattener_trade_Trade_Idea--925574.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 Jan-25 Apr-25 Jul-25 Oct-25",
+          "chunk_id": "EM_rates_Entering_an_MXN_basis_flattener_trade_Trade_Idea--925574.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_USD_overvaluation_selectively_increases_Trade_Idea--925555",
+      "document": "STEER_USD_overvaluation_selectively_increases_Trade_Idea--925555.pdf",
+      "date": "2026-06-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 3.9557 - - 3.983 (03-Jun-2026) 0.69 | 156.8700 163.3269 154.4900 - 1.94 01-Jun-2026 | 94.8150 96.6040 93.6682 - 1.01",
+          "chunk_id": "STEER_USD_overvaluation_selectively_increases_Trade_Idea--925555.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Split_USD_decisions",
+      "document": "Split USD decisions.pdf",
+      "date": "2026-06-03",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 25 Mar 2026 213.15 204.62 217.42 -1.62% | 13 May 2026 0.9915 0.9550 1.0100 -0.30% | 20 May 2026 10.785 10.200 11.020 0.00%",
+          "chunk_id": "Split USD decisions.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "Split USD decisions.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "Split USD decisions.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 75 125 175 225 275 325 0 200 400 600 Jul 22",
+          "chunk_id": "Split USD decisions.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_rates_Echoes_of_Liberation_Day_Desknote--920063",
+      "document": "US_rates_Echoes_of_Liberation_Day_Desknote--920063.pdf",
+      "date": "2026-06-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        4,
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4, 7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 -7 -6 -5",
+          "chunk_id": "US_rates_Echoes_of_Liberation_Day_Desknote--920063.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 -7 -6 -5 -4 -3",
+          "chunk_id": "US_rates_Echoes_of_Liberation_Day_Desknote--920063.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 -7 -6 -5 -4 -3",
+          "chunk_id": "US_rates_Echoes_of_Liberation_Day_Desknote--920063.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

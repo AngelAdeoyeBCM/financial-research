@@ -1,0 +1,1751 @@
+{
+  "batch_id": "2026-10-08",
+  "window": [
+    "2026-10-08",
+    "2026-10-08"
+  ],
+  "generated_at": "2026-10-29T16:32:27",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-08_2026-10-11.json",
+      "sha256": "01f81e62fb9c112089f2b21a3b0c7c71603705b6cdc0896c44a04ac2c5225f2f",
+      "records": 1910,
+      "dates": [
+        "2026-10-08",
+        "2026-10-11"
+      ],
+      "records_for_batch": 499
+    }
+  ],
+  "counts": {
+    "documents": 25,
+    "in_scope": 20,
+    "out_of_scope": 5,
+    "compiled": 1,
+    "skipped": 19,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 7,
+    "edits": 7,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 115,
+    "DISTORTED_TABLE": 40,
+    "UNSTRUCTURED_TEXT": 32,
+    "MISSING_CHUNKS": 14,
+    "NON_ENGLISH_SCRIPT": 2
+  },
+  "documents": [
+    {
+      "stem": "BC_China_AI_Watch_-_More_growth__less_reflation",
+      "document": "BC_China AI Watch - More growth, less reflation.pdf",
+      "date": "2026-10-08",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 26,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 52 71 143 187 0 50 100 150 200 2024 2025 2026E",
+          "chunk_id": "BC_China AI Watch - More growth, less reflation.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 5 6 7 8 9 30 35 40 45 50 55 60",
+          "chunk_id": "BC_China AI Watch - More growth, less reflation.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 2010 2011 2012",
+          "chunk_id": "BC_China AI Watch - More growth, less reflation.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -30 -10 10 30 50 70 90 Feb-17 Aug-17 Feb-18 Aug-18 Feb-19",
+          "chunk_id": "BC_China AI Watch - More growth, less reflation.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_State_of_the_US_Consumer_-_The_consumer_who_won_t_quit",
+      "document": "BC_State of the US Consumer - The consumer who won’t quit.pdf",
+      "date": "2026-10-08",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 39,
+      "page_count": 22,
+      "status": "skipped",
+      "missing_indices": [
+        24
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [24]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +1 212 526 0713 | +1 212 526 9882 | +1 212 412 3759",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -0.8 -0.4 0.0 0.4 0.8 1.2 1.6 Aug-25 Nov-25 Feb-26 May-26 Aug-26",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -4 0 4 8 -0.4 0.0 0.4 0.8 Aug-25 Nov-25 Feb-26 May-26",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 5 10 15 21 22 23 24 25 26",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -40% -20% 0% 20% 40% 60% 80% Jul-16 Jul-17 Jul-18 Jul-19 Jul-20",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 18% 21% 24% 27% 30% 2.0 2.5 3.0 3.5 4.0 4.5 5.0",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80%",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2007 – Sept 2026) 0% 2% 4% 6% 8% 10% 12% 14%",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-13-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 2000 – Jul 2026) - 50 100 150 200 250 300 350",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-14-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 8% 12% 8% 7% 12% 14% 16% 10% 12% 3% 6% 5%",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-15-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6 1.7",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-16-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 0 0 0 1 1 1 1 1 1 -15% -10%",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-19-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -16% -12% -8% -4% 0% 4% 8% 12% 16% 20% -2,000 -1,000",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-20-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 29%27%24%24%22%22%20%17%16%16%16%16%15%14%14%13%14%13%12%11%7%5%3% 46%46%46%46%45%45%45%45%42%46%43%40%47%42%44%44%41%42%39%38%42%35%30% 25%27%29%29%32%33%34%38%41%38%41%44%38%44%42%42%45%45%49%51%51%60%67%",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-21-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 5.3% 2.9% 1.3% 6.0% 3.2% 1.5% 7.3% 3.4% 1.6% 0.0% 1.0% 2.0%",
+          "chunk_id": "BC_State of the US Consumer - The consumer who won’t quit.pdf-22-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_U.S._Convertibles_Strategy_-_Repriced__Not_Rewritten",
+      "document": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf",
+      "date": "2026-10-08",
+      "publisher": "Barclays",
+      "document_type": "Outlook",
+      "chunk_count": 20,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        6,
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 6, 8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: 4Q26 11.2 18.8 21.5 15.2 2.5 1.4 0.0 -6.2 -5.8 -7.2 2.3",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2% -1% -1% -2% -4% -5% -7% -7% -7% -8% -14% -16%",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -13.0% -9.9% -6.3% -5.2% -3.2% -2.4% -0.5% 3.5% 6.0% 7.1% 16.5% -20.0%",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: oreWeave paceMobile extEra igitalOcean",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 53 58 114 93 30 52 89 121 134 175 0 20",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "50% of tokens are numeric/date values",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0.6 1.1 1.2 0.8 0.8 0.1 0.5 0.4 0.1 0.0 0.2 0.4",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 4Q26 266 78 270 74 311 80 0 50 100 150 200",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 4Q26 200 250 300 350 400 450 500 30-Dec-24 30-Jan-25 28-Feb-25 31-Mar-25",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-9-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-9-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -6.2 -2.0 -4.8 -8.6 -1.5 -1.8 -3.2 -3.7 -3.9 -4.0 -7.5 -16.9",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 3Q2026 2Q2026 1Q2026 2025 2024 2023 2022 2021 2020 2019",
+          "chunk_id": "BC_U.S. Convertibles Strategy - Repriced, Not Rewritten.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_CPI_Inflation_Watch_-_September_US_CPI_preview_-_Not_too_hot__not_too_cold",
+      "document": "BofA_CPI Inflation Watch - September US CPI preview - Not too hot, not too cold.pdf",
+      "date": "2026-10-08",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "BofA_CPI Inflation Watch - September US CPI preview - Not too hot, not too cold.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "193 consecutive numeric/date tokens: 2025: Jul 323.0 0.15% 2.70% 283.4 -0.32% -1.55% 322.2 0.23% 2.74% 328.7",
+          "chunk_id": "BofA_CPI Inflation Watch - September US CPI preview - Not too hot, not too cold.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BofA_CPI Inflation Watch - September US CPI preview - Not too hot, not too cold.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "254 consecutive numeric/date tokens: 4% 334.0 0.47% 4.17% 336.1 0.21% 2.82% 2026: Jun 334.0 -0.32% 3.53%",
+          "chunk_id": "BofA_CPI Inflation Watch - September US CPI preview - Not too hot, not too cold.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "35 consecutive numeric/date tokens: 345.9 0.21% 2.70% 2027: Aug 343.8 0.17% 2.64% 336.9 -0.35% 2.30% 343.0",
+          "chunk_id": "BofA_CPI Inflation Watch - September US CPI preview - Not too hot, not too cold.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_Quantitative_Global_Macro_Strategy_-_Regime_Model_update-Late-cycle_vibes_move_equities_underweight",
+      "document": "Citi_Quantitative Global Macro Strategy - Regime Model update-Late-cycle vibes move equities underweight.pdf",
+      "date": "2026-10-08",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 21,
+      "page_count": 14,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_UK_Economics_-_Autumn_2026_Budget_Preview-Keep_Calm_and_Carry_On",
+      "document": "Citi_UK Economics - Autumn 2026 Budget Preview-Keep Calm and Carry On.pdf",
+      "date": "2026-10-08",
+      "publisher": "Citi",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 19,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        11
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30 31 32 33 34 35 36 37 38 39 40 1980",
+          "chunk_id": "Citi_UK Economics - Autumn 2026 Budget Preview-Keep Calm and Carry On.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 2010 2011",
+          "chunk_id": "Citi_UK Economics - Autumn 2026 Budget Preview-Keep Calm and Carry On.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_ECB_Watcher_-_September_Accounts____Measured__was_only_temporarily_absent",
+      "document": "DB_ECB Watcher - September Accounts – “Measured” was only temporarily absent.pdf",
+      "date": "2026-10-08",
+      "publisher": "Deutsche Bank",
+      "document_type": "Central Bank Review",
+      "chunk_count": 20,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 17",
+          "chunk_id": "DB_ECB Watcher - September Accounts – “Measured” was only temporarily absent.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 15",
+          "chunk_id": "DB_ECB Watcher - September Accounts – “Measured” was only temporarily absent.pdf-3-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 8 October 2026 0% 10% 20% 30% 40% 50% 60% 70% 80%",
+          "chunk_id": "DB_ECB Watcher - September Accounts – “Measured” was only temporarily absent.pdf-7-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_UK_economic_notes_-_GDP_Nowcast_-_turn_down_for_what",
+      "document": "DB_UK economic notes - GDP Nowcast - turn down for what.pdf",
+      "date": "2026-10-08",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 18,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Equity_derivatives_Nikkei_Dividend_index_forecasts_revised_up_growth_expectations_Desknote--933311",
+      "document": "Equity_derivatives_Nikkei_Dividend_index_forecasts_revised_up_growth_expectations_Desknote--933311.pdf",
+      "date": "2026-10-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 2026 2027 2028 285A | 0.00 3.52 3.52 8035 | 0.00 4.02 2.01 6857",
+          "chunk_id": "Equity_derivatives_Nikkei_Dividend_index_forecasts_revised_up_growth_expectations_Desknote--933311.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "Equity_derivatives_Nikkei_Dividend_index_forecasts_revised_up_growth_expectations_Desknote--933311.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2026 Jan Feb Mar Jun Jul Aug Sep Dec",
+          "chunk_id": "Equity_derivatives_Nikkei_Dividend_index_forecasts_revised_up_growth_expectations_Desknote--933311.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Jan Feb Mar Jun Jul Aug Sep Dec",
+          "chunk_id": "Equity_derivatives_Nikkei_Dividend_index_forecasts_revised_up_growth_expectations_Desknote--933311.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 801 16% 954 19% 1042 9% 1175 13% Jan Feb Mar Jun",
+          "chunk_id": "Equity_derivatives_Nikkei_Dividend_index_forecasts_revised_up_growth_expectations_Desknote--933311.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 801 16% 954 19% 1042 9% 1175 13% Jan Feb Mar Jun",
+          "chunk_id": "Equity_derivatives_Nikkei_Dividend_index_forecasts_revised_up_growth_expectations_Desknote--933311.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_European_Daily_-_Italy_A_Deficit_Surprise_Challenges_the_Debt_Decline",
+      "document": "GS_European Daily - Italy—A Deficit Surprise Challenges the Debt Decline.pdf",
+      "date": "2026-10-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 10,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Macro_Commentary_-_October_8-Oil_Gains__Treasuries_Rally",
+      "document": "GS_Global Macro Commentary - October 8-Oil Gains, Treasuries Rally.pdf",
+      "date": "2026-10-08",
+      "publisher": "Morgan Stanley",
+      "document_type": "Daily",
+      "chunk_count": 27,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        12
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "64 consecutive numeric/date tokens: 2wk 2y 4.758 (1.1) 3.098 4.4 4.911 6.2 1.938 0.0 3y 4.889",
+          "chunk_id": "GS_Global Macro Commentary - October 8-Oil Gains, Treasuries Rally.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_Global Macro Commentary - October 8-Oil Gains, Treasuries Rally.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "101 consecutive numeric/date tokens: (10/7) 1.227 0.0 -- 10/28/26 3.922 3.9 (0.5) 10/29/26 2.470 2.5 (0.1)",
+          "chunk_id": "GS_Global Macro Commentary - October 8-Oil Gains, Treasuries Rally.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "GS_Global Macro Commentary - October 8-Oil Gains, Treasuries Rally.pdf-10-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Strategy_Paper_-_Investing_in_a_differentiated_Asia",
+      "document": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf",
+      "date": "2026-10-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 73,
+      "page_count": 24,
+      "status": "skipped",
+      "missing_indices": [
+        37,
+        49
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [37, 49]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 10.8 22.8 36.5 49.9 0 10 20 30 40 50 60 20",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: Oct 05, 2026 83.1 49.9 21.4 14.4 9.0 7.0 5.6 4.9 4.5",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 1988",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet ntertainmentCons areUtilities actSet",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: (05-Oct-26) 15% 20% 25% 30% 35% 40% 45% 2006 2007 2008 2009",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: (05-Oct-26) 15% 20% 25% 30% 35% 40% 45% 2006 2007 2008 2009",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 numeric rows: 44% Sep-26 44% 53% | 39% Mar-16 24% 19% | 10% Aug-11 7% 7%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 2009",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 130 127 125 133 207 267 210 197 238 336 479 0",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -60% -40% -20% 0% 20% 40% 60% 80% 100% Sep-21 Dec-21 Mar-22",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -60% -40% -20% 0% 20% 40% 60% 80% 100% Sep-21 Dec-21 Mar-22",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "43 consecutive numeric/date tokens: 3% 0% 6% 5% -1% 1% 28% 1% -4% 0% 34% 2%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 30% 19% 24% 19% 12% 18% 19% 22% 13% 18% 24% 47%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 Jan-24 Jul-24",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: -1.6% 4.8% 0.8% 0.4% 1.1% 3.2% -0.8% -0.6% -4.4% -4.6% -3.0% -3.7%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 189 5,547 462 19% -31% 63% 260% 321% 204% 238% 41% 54%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: +9% 0 200 400 600 800 1,000 1,200 1,400 1,600 1,800 2,000",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 5.1% 3.8% 11% 7% 8% 8% 12% 7% 8%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-14-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 5.1% 3.8% 11% 7% 8% 8% 12% 7% 8%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-14-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 400 1,600 6,400 25,600 20 80 320 1,280 2004 2006 2008 2010",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-15-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-15-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 6 8 10 12 14 16 18 20 Sep-16 Sep-17 Sep-18 Sep-19",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-16-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 10x 11x 12x 13x 14x 15x 16x 17x Dec-09 Dec-10 Dec-11 Dec-12",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-16-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-16-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 8.5% -47% -40% -34% -23% 0% 39% 7.9% -41% -33% -25% -13%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-17-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 11.3x 10.0% 10.5% 11.0% 11.5% 12.0% 12.5% 13.0% 13.5%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-17-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 8 10 12 14 16 18 20 Sep-21 Sep-22 Sep-23 Sep-24 Sep-25",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-17-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-17-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 891 960 1,040 1,120 39.6 69.1 89.3 102.7 30 40 50 60",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-18-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-19-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 28% 14% 7% 8% 8% 8% 8% 8% 8% 8%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-19-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 6,119 6,300 8.3x -2.6 3% 8% 891 1,120 11.3x -1.7 26% 28%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-19-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-19-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-19-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 75 100 125 150 175 200 225 250 275 300 325 350",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-20-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 75 100 125 150 175 200 225 250 275 300 325 350",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-20-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 358 5 44,326 388 23 18.0 0.7 118 49",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 189. 5 18,975 323 8 2.7 0.3 100 41",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 606 3,568 121 67 2 9.7 1.1 94 58",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 389 80,91 3 3,404 16 14.5 0.3 125 56",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 5566 62,55 2 1,758 26 12.8 1.4 107 22",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 3447 42,419 274 23 2.8 1.4 30 18",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 3360 4,012 204 24 3.3 0.7 (24) (3)",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-21-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 167.34 61,723 1,030 18.5 1.1 5.2 107 15 19 29%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 5.08 15,776 57 8.5 0.7 2.7 28 31 14 15%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 17.37 8,569 47 10.2 0.6 1.3 1,391 133 20 2%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 0 26,021 75 7.2 0.9 0.8 10 19 9 3%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 5874 14,125 75 20.7 1.3 4.3 38 13 18 5%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-22-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 9.51 291,363 268 5.0% - - 5.7 0.6 9 8 3%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 40.25 13,784 70 2.9% 9.5% 8% 12.0 2.7 17 14 3%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 23.12 3,128 17 5.5% 1.3% 9% 9.8 1.9 7 12 0%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 51900 9,729 15 4.6% 3.5% 19% 8.3 0.7 (18) 7 1%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 2465.5 43,831 82 2.3% 5.2% - 12.0 0.7 18 37 8%",
+          "chunk_id": "GS_Global Strategy Paper - Investing in a differentiated Asia.pdf-23-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Oil_Analyst_-_Incorporating_Global_Stocks_in_Our_Updated_Price_Model",
+      "document": "GS_Oil Analyst - Incorporating Global Stocks in Our Updated Price Model.pdf",
+      "date": "2026-10-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 7.9 2.3 3.4 6.5 0 1 2 3 4 5 6 7",
+          "chunk_id": "GS_Oil Analyst - Incorporating Global Stocks in Our Updated Price Model.pdf-7-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "53 consecutive numeric/date tokens: 0 2 4 6 8 10 12 0 2 4 6 8",
+          "chunk_id": "GS_Oil Analyst - Incorporating Global Stocks in Our Updated Price Model.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341",
+      "document": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf",
+      "date": "2026-10-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Chart Pack",
+      "chunk_count": 32,
+      "page_count": 20,
+      "status": "skipped",
+      "missing_indices": [
+        4,
+        17,
+        24,
+        31
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4, 17, 24, 31]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 80 98 116 134 152 170 2021 2022 2023 2024 2025 2026",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 1.2 2.4 3.6 4.8 6 Oct-25 Jan-26 Apr-26 Jul-26 Oct-26",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 90 110 130 150 170 190 210 2008 2010 2012 2014 2016",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 90 110 130 150 170 190 210 2008 2010 2012 2014 2016",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 8 16 24 32 40 2000 2002 2004 2006 2008 2010",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 1 2 3 4 5 6 -100% -60% -20% 20% 60%",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 1 2 3 4 5 6 -100% -60% -20% 20% 60%",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -2.8% -4.5% -5.5% -6.5% 90 110 130 150 170 190 210 230",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10% -1% 8% 17% 26% 35% 0% 20% 40% 60% 80% 100%",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 1 2 3 4 5 6 -100% -60% -20% 20% 60%",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 50 90 130 170 210 250 2008 2011 2014 2017 2020 2023",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.281 -10% 0% 10% 20% -2 -1.5 -1 -0.5 0 0.5 1",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -1.1% -3.8% -3.2% -4.8% 90 110 130 150 170 190 20 40",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10% -1% 8% 17% 26% 35% 0% 20% 40% 60% 80% 100%",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -2 -1 0 1 2 3 4 5 -100% -60% -20% 20%",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 50 90 130 170 210 250 2008 2011 2014 2017 2020 2023",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-12-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.097 -10% -5% 0% 5% 10% 15% -1 -0.5 0 0.5 1",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-13-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1.0% -1.8% -3.1% -6.7% 90 100 110 120 130 140 150 160",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-14-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10% -1% 8% 17% 26% 35% 0% 20% 40% 60% 80% 100%",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-15-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -0.5 0 0.5 1 1.5 2 -100% -60% -20% 20% 60% 100%",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-15-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 50 80 110 140 2008 2011 2014 2017 2020 2023 2026",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-16-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.047 -9% -6% -3% 0% 3% 6% -0.6 -0.4 -0.2 0 0.2",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-17-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 50 100 150 200 2008 2011 2014 2017 2020 2023 2026",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-18-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 80 100 120 140 Oct-23 Apr-24 Oct-24 Apr-25 Oct-25 Apr-26",
+          "chunk_id": "Liquid_alternative_strategies_Why_and_how_to_be_long_on_rates_volatility_Desknote--933341.pdf-19-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Cross-Asset_Brief_-_MSI_Turns_Positive",
+      "document": "MS_Cross-Asset Brief - MSI Turns Positive.pdf",
+      "date": "2026-10-08",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 Jan-25 Apr-25 Jul-25",
+          "chunk_id": "MS_Cross-Asset Brief - MSI Turns Positive.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 Jan-25 Apr-25 Jul-25",
+          "chunk_id": "MS_Cross-Asset Brief - MSI Turns Positive.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Japan_Economics_-_The_Price_of_Supply_Security-Japan_Keeps_Paying_Up_for_Physical_Crude",
+      "document": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf",
+      "date": "2026-10-08",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 22,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 60 70 80 90 100 110 120 130 Jan-24 Jan-25 Jan-26",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 60 70 80 90 100 110 120 130 Jan-24 Jan-25 Jan-26",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: Mar-25 Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: August 75 74 74 74 101 99 110 103 60 70 80",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-5-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 Jan-24 Jan-25 Jan-26",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -15 -10 -5 0 5 10 Jan-26 Feb-26 Mar-26 Apr-26 May-26 Jun-26",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-7-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x10, KATAKANA x16, KATAKANA-HIRAGANA x1",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-8-13",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: November 85.0 90.0 95.0 100.0 105.0 110.0 115.0 120.0 Jan-26 Apr-26 Jul-26",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x10, KATAKANA x16, KATAKANA-HIRAGANA x1",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-8-14",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 140 145 150 155 160 165 170 175 180 185 190 2024",
+          "chunk_id": "MS_Japan Economics - The Price of Supply Security-Japan Keeps Paying Up for Physical Crude.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Seeking_alpha_amid_volatility",
+      "document": "Seeking alpha amid volatility.pdf",
+      "date": "2026-10-08",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        10
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [10]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 8 October 2026 1 | 20 Aug 2026 2.99 3.1 2.95 +0.7% | 27 Aug 2026 48.14 47.29 50 +1.5%",
+          "chunk_id": "Seeking alpha amid volatility.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 27 Aug 2026 48.14 47.29 50 +1.5% | 24 Sep 2026 33.42 34 33 +0.8% | 1 Oct 2026 1.102 1.065 1.118 +1.7%",
+          "chunk_id": "Seeking alpha amid volatility.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -0.08 -0.07 -0.06 -0.05 -0.04 -0.03 -0.02 -0.01 0.00 -0.15 -0.10 -0.05",
+          "chunk_id": "Seeking alpha amid volatility.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.00 0.02 0.04 0.06 0.08 0.10 0.00 0.20 0.40 0.60 0.80 1.00",
+          "chunk_id": "Seeking alpha amid volatility.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.00 0.02 0.04 0.06 0.08 0.10 0.00 0.20 0.40 0.60 0.80 1.00",
+          "chunk_id": "Seeking alpha amid volatility.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Seeking alpha amid volatility.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 3.75% 11/05 0.50 n/a | 5.50% 10/20 -0.04 72% 25bps | 3.75% 11/04 0.49 51%",
+          "chunk_id": "Seeking alpha amid volatility.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 10 Sep 2026 3103.8 3260 23 Sep 2026 -4.53%",
+          "chunk_id": "Seeking alpha amid volatility.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -0.05 0.00 0.05 0.10 0.15 0.20 0.25 0 0.2 0.4 0.6 0.8",
+          "chunk_id": "Seeking alpha amid volatility.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_European_Economic_Perspectives_-_France-2027_budget_takeaways_and_the_question_of_ECB_support",
+      "document": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf",
+      "date": "2026-10-08",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 35,
+      "page_count": 14,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 Jan-15 Oct-16 Jul-18",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -7.0% -6.0% -5.0% -4.0% -3.0% -2.0% -1.0% 0.0% Q1 Q2 Q3 Q4",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: (35) (30) (25) (20) (15) (10) (5) 0 5 10 99 00",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: (10) (8) (6) (4) (2) 0 2 4 6 8 80 82",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2025 0 10 20 30 40 50 60 70",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 40 45 50 55 60 65 1990 1993 1996 1999 2002 2005",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 80 90 100 110 120 130 140 150 2011 2013 2015 2017",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 1.8 1.9 2.0 2.3 2.4 2.5 2.6 2.9 3.1 3.3 3.4",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 8.4 3.7 4.8 0 5 10 15 20 25 30 35 40",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 9 58.55 41.45 43 57 31 69 0 10 20 30 40",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - France-2027 budget takeaways and the question of ECB support.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_Higher_Rates_Will_Reshape_Credit_Supply_Before_Reducing_It",
+      "document": "UBS_Global Strategy - Higher Rates Will Reshape Credit Supply Before Reducing It.pdf",
+      "date": "2026-10-08",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% Jan-20 Apr-20",
+          "chunk_id": "UBS_Global Strategy - Higher Rates Will Reshape Credit Supply Before Reducing It.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% 120% Jan-24 Mar-24 May-24 Jul-24 Sep-24",
+          "chunk_id": "UBS_Global Strategy - Higher Rates Will Reshape Credit Supply Before Reducing It.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 27% 14% 17% 18% 0% 5% 10% 15% 20% 25% 30%",
+          "chunk_id": "UBS_Global Strategy - Higher Rates Will Reshape Credit Supply Before Reducing It.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -6 -5 -4 -3 -2 -1 0 1 2 3 0 5",
+          "chunk_id": "UBS_Global Strategy - Higher Rates Will Reshape Credit Supply Before Reducing It.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: $70bn 146 38 93 329 51 39 534 62 44 450 70",
+          "chunk_id": "UBS_Global Strategy - Higher Rates Will Reshape Credit Supply Before Reducing It.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

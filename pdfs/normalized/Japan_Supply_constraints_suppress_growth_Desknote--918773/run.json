@@ -1,0 +1,194 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Japan_Supply_constraints_suppress_growth_Desknote--918773.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "claim": 1,
+     "thing": 2
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 4
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "time": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 26,
+  "kinds": {
+   "deixis": 21,
+   "possessive": 3,
+   "noun_phrase": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.4864864864864865,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 44,
+  "cost_usd": 0.1102
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 4899,
+   "end": 4966,
+   "quote": "a significant expansion of domestic production capacity is unlikely",
+   "name": "a significant expansion of domestic production capacity is unlikely"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 5024,
+   "end": 5050,
+   "quote": "expansionary fiscal policy",
+   "name": "expansionary fiscal policy"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 5750,
+   "end": 5769,
+   "quote": "consumption tax cut",
+   "name": "the consumption tax cut"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.041158600000000004,
+   "duration_ms": 2846,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4616,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 157,
+    "output_tokens_details": {
+     "thinking_tokens": 144
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4616,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 157,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4616,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4616
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.069013,
+   "duration_ms": 13766,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4854,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1444,
+    "output_tokens_details": {
+     "thinking_tokens": 1027
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4854,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1444,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4854,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4854
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

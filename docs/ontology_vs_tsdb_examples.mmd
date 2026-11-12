@@ -1,0 +1,39 @@
+---
+title: QCL ids vs incolor instruments - one leaf each side, many leaves, or no QCL node
+---
+flowchart LR
+    subgraph One["one QCL leaf = one Outright"]
+        direction LR
+        a1["USD_irs_SOFR_10y@Rate"] --> b1["Outright, form swap<br/>rate:sofr, tenor 10y"]
+        a2["crv[inst[idx[USD,SOFR]]]<br/>fixing"] --> b2["RateIndex rate:sofr<br/>the market itself, no tenor"]
+        a3["inst[bond[US9128286Y11]]"] --> b3["Outright, form cash<br/>bond:ust, security ISIN"]
+        a4["inst[fut[TYM4 Comdty]]"] --> b4["Outright, form future<br/>bond:ust, contract TYM4"]
+        a5["USD_INFSWP branch"] --> b5["Outright, form swap<br/>ind:us:cpi, tenor"]
+    end
+
+    subgraph Many["no QCL node: the instrument combines leaves"]
+        direction LR
+        a6["USD_irs_SOFR_10Y@Rate<br/>minus USD_irs_SOFR_2Y@Rate"] --> b6["Curve 2s10s<br/>rate:sofr, front 2y, back 10y"]
+        a7["nominal inst[bond[ISIN]] minus TIPS inst[bond[ISIN]]<br/>or a USD_INFSWP leaf"] --> b7["Breakeven<br/>bond:ust vs bond:tips, same obligor geo:us"]
+        a8["bswp[USD,1D,ref:SOFR,libor-mat:3M]"] --> b8["Basis<br/>rate:sofr vs a 3M index<br/>registry has no USD 3M rate"]
+    end
+
+    subgraph Shape["same thing, different shape"]
+        direction LR
+        a9["EURUSD and USDEUR<br/>two root nodes"] --> b9["FXPair fx:eurusd<br/>one entity, base_id ccy:eur, quote_id ccy:usd"]
+        a10["inst[et[b,EUR ES SOV]]<br/>chain EUR_ES_SOV_2Y ... 30Y"] --> b10["SovereignBond bond:spgb<br/>currency_id ccy:eur, geography_id geo:es<br/>chain rows = Outright.tenor"]
+        a11["USD_irs_SOFR_1M ... 599M<br/>one node per tenor"] --> b11["Tenor value<br/>parsed from the mention, not stored"]
+    end
+
+    subgraph None["no QCL counterpart"]
+        direction LR
+        a12["Fed, FOMC, core PCE"] --> b12["org:fed, event:fomc,<br/>ind:us:core_pce"]
+        a13["ccy:usd issued by org:fed<br/>in geo:us"] --> b13["ref fields<br/>filter claims, never claims"]
+    end
+
+    classDef qcl fill:#fff3e0,stroke:#ef6c00,color:#000
+    classDef entity fill:#e8f5e9,stroke:#2e7d32,color:#000
+    classDef gap fill:#eeeeee,stroke:#9e9e9e,color:#555,stroke-dasharray:4 3
+    class a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11 qcl
+    class a12,a13 gap
+    class b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13 entity

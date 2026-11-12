@@ -1,0 +1,279 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/AUD_rates_Pay_June_Aug_RBA_Trade_Idea--924662.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-21",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 38,
+    "referents": {
+     "thing": 9,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 35,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "expletive": 3
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 127,
+  "kinds": {
+   "abbreviation": 41,
+   "deixis": 38,
+   "possessive": 14,
+   "pronoun": 12,
+   "symbol": 9,
+   "noun_phrase": 5,
+   "proposition": 3,
+   "demonstrative": 2,
+   "fragment": 1,
+   "vp": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.8562300319488818,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 63,
+  "cost_usd": 0.2185
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 332,
+   "end": 367,
+   "quote": "the Reserve Bank of Australia (RBA)",
+   "name": "the RBA"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 500,
+   "end": 525,
+   "quote": "April’s labor market data",
+   "name": "April’s labor market data"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2223,
+   "end": 2232,
+   "quote": "Australia",
+   "name": "Australia"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 5041,
+   "end": 5070,
+   "quote": "the recent rally in AUD rates",
+   "name": "the recent rally in AUD rates"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3489,
+   "end": 3507,
+   "quote": "consumer sentiment",
+   "name": "consumer sentiment"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1914,
+   "end": 1941,
+   "quote": "the RBA’s scenario analysis",
+   "name": "the RBA’s scenario analysis"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 6199,
+   "end": 6265,
+   "quote": "its model-based estimates of the neutral rate have been increasing",
+   "name": "its model-based estimates of the neutral rate have been increasing"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 209,
+   "end": 249,
+   "quote": "paid position in the June/Aug RBA spread",
+   "name": "the paid position in the June/Aug RBA spread"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 9177,
+   "end": 9217,
+   "quote": "oil prices in the USD80- 90/barrel range",
+   "name": "oil prices in the USD80- 90/barrel range"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 9698,
+   "end": 9778,
+   "quote": "May is a SoMP (statement on monetary policy) meeting featuring updated forecasts",
+   "name": "May is a SoMP (statement on monetary policy) meeting featuring updated forecasts"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 10015,
+   "end": 10056,
+   "quote": "the RBA holds the cash rate steady in May",
+   "name": "the RBA holds the cash rate steady in May"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 10210,
+   "end": 10228,
+   "quote": "some board members",
+   "name": "some board members"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C009",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C029",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0763718,
+   "duration_ms": 12465,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6193,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1283,
+    "output_tokens_details": {
+     "thinking_tokens": 1019
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6193,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1283,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6193,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6193
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.14214529999999997,
+   "duration_ms": 30916,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7762,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3927,
+    "output_tokens_details": {
+     "thinking_tokens": 2154
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7762,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3927,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7762,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7762
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

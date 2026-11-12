@@ -1,0 +1,23 @@
+[
+  {
+    "code": "EVIDENCE_NOT_VERBATIM",
+    "severity": "error",
+    "path": "$.evidence[18].text",
+    "message": "E019 is not a substring of the source.",
+    "suggested_action": "Copy the span exactly from the document; only whitespace may differ."
+  },
+  {
+    "code": "CUE_NOT_IN_EVIDENCE",
+    "severity": "error",
+    "path": "$.statements[22].modality_cue",
+    "message": "S023 modality cue is not found in its evidence.",
+    "suggested_action": "Copy the modality cue verbatim from one of the statement's evidence spans."
+  },
+  {
+    "code": "CUE_NOT_IN_EVIDENCE",
+    "severity": "error",
+    "path": "$.statements[103].modality_cue",
+    "message": "S104 modality cue is not found in its evidence.",
+    "suggested_action": "Copy the modality cue verbatim from one of the statement's evidence spans."
+  }
+]

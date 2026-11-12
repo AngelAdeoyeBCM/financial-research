@@ -1,0 +1,113 @@
+version: "1"
+
+id: financial_instrument_type
+type: extraction
+
+threshold: 0.5
+
+labels:
+  equity:
+    name: Equity
+    description: >-
+      A share or stock representing an ownership interest in
+      a publicly or privately held company.
+    threshold: null
+    status: active
+
+  sovereign_bond:
+    name: Sovereign government bond
+    description: >-
+      A debt security issued by a national government or its
+      treasury.
+    threshold: null
+    status: active
+
+  corporate_bond:
+    name: Corporate debt security or bond
+    description: >-
+      A debt security issued by a corporation to raise capital.
+    threshold: null
+    status: active
+
+  interest_rate_swap:
+    name: Interest rate swap contract
+    description: >-
+      A derivative contract in which two parties exchange
+      interest rate cash flows, typically fixed for floating.
+    threshold: null
+    status: active
+
+  cross_currency_swap:
+    name: Cross currency swap contract
+    description: >-
+      A derivative contract in which two parties exchange
+      principal and interest payments denominated in
+      different currencies.
+    threshold: null
+    status: active
+
+  forward_rate_agreement:
+    name: Forward rate agreement contract
+    description: >-
+      An over-the-counter contract fixing the interest rate to
+      be paid or received on a notional amount from a future
+      start date.
+    threshold: null
+    status: active
+
+  fx_spot:
+    name: Spot foreign exchange transaction
+    description: >-
+      An agreement to exchange one currency for another at the
+      prevailing rate for near-immediate settlement.
+    threshold: null
+    status: active
+
+  fx_forward:
+    name: Foreign exchange forward contract
+    description: >-
+      An agreement to exchange one currency for another at a
+      fixed rate on a specified future date.
+    threshold: null
+    status: active
+
+  fx_swap:
+    name: Foreign exchange swap contract
+    description: >-
+      An agreement combining a spot and an offsetting forward
+      foreign exchange transaction between two parties.
+    threshold: null
+    status: active
+
+  non_deliverable_forward:
+    name: Non-deliverable foreign exchange forward contract
+    description: >-
+      A forward foreign exchange contract settled in cash
+      rather than by physical delivery of the underlying
+      currency.
+    threshold: null
+    status: active
+
+  future:
+    name: Exchange-traded futures contract
+    description: >-
+      A standardized exchange-traded contract obligating the
+      purchase or sale of an underlying asset at a future date.
+    threshold: null
+    status: active
+
+  option:
+    name: Financial option contract
+    description: >-
+      A contract granting the right, but not the obligation, to
+      buy or sell an underlying asset at a specified price.
+    threshold: null
+    status: active
+
+  cds:
+    name: Credit default swap contract
+    description: >-
+      A derivative contract providing protection against the
+      default or credit event of a reference entity.
+    threshold: null
+    status: active

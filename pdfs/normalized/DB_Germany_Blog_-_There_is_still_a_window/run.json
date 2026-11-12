@@ -1,0 +1,210 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Germany_Blog_-_There_is_still_a_window.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-21",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 4
+    },
+    "leave_reasons": {},
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 15,
+  "kinds": {
+   "noun_phrase": 5,
+   "deixis": 4,
+   "symbol": 2,
+   "demonstrative": 1,
+   "pronoun": 1,
+   "proposition": 1,
+   "possessive": 1
+  },
+  "rooted_share": 0.7727272727272727,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 25,
+  "cost_usd": 0.0886
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 589,
+   "end": 596,
+   "quote": "Germany",
+   "name": "Germany"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1441,
+   "end": 1459,
+   "quote": "structural reforms",
+   "name": "structural reforms"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 2077,
+   "end": 2140,
+   "quote": "The more tangible risk to reform momentum may come from the SPD",
+   "name": "The more tangible risk to reform momentum may come from the SPD"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2270,
+   "end": 2286,
+   "quote": "Manuela Schwesig",
+   "name": "Manuela Schwesig"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2572,
+   "end": 2598,
+   "quote": "the pension reform package",
+   "name": "the pension reform package"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 616,
+   "end": 623,
+   "quote": "the CDU",
+   "name": "the CDU"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 513,
+   "end": 528,
+   "quote": "Chancellor Merz",
+   "name": "Chancellor Merz"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.030390300000000002,
+   "duration_ms": 3391,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3393,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 118,
+    "output_tokens_details": {
+     "thinking_tokens": 105
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3393,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 118,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3393,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3393
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0581884,
+   "duration_ms": 13255,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3518,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1448,
+    "output_tokens_details": {
+     "thinking_tokens": 821
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3518,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1448,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3518,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3518
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

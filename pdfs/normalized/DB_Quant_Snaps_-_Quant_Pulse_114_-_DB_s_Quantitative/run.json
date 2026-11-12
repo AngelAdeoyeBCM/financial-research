@@ -1,0 +1,395 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Quant_Snaps_-_Quant_Pulse_114_-_DB_s_Quantitative.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-21",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 21,
+    "referents": {
+     "thing": 7,
+     "claim": 2
+    },
+    "decisions": {
+     "leave": 13,
+     "link": 8
+    },
+    "leave_reasons": {
+     "not_a_reference": 10,
+     "relative": 1,
+     "expletive": 1,
+     "generic": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 31,
+  "kinds": {
+   "deixis": 13,
+   "noun_phrase": 6,
+   "symbol": 4,
+   "shell": 3,
+   "abbreviation": 3,
+   "vp": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.8765432098765432,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 9
+  },
+  "sentences": 63,
+  "cost_usd": 0.2024
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 2776,
+   "end": 2787,
+   "quote": "Quant Pulse",
+   "name": "Quant Pulse"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 260,
+   "end": 316,
+   "quote": "transcript of the Deutsche Bank Research podcast Podzept",
+   "name": "the transcript of the Deutsche Bank Research podcast Podzept"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 958,
+   "end": 1105,
+   "quote": "Markets began the week in a risk-off regime driven by inflation fears and elevated Brent crude prices, but rebounded in the second half of the week",
+   "name": "Markets began the week in a risk-off regime driven by inflation fears and elevated Brent crude prices, but rebounded in the second half of the week"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3696,
+   "end": 3714,
+   "quote": "inflation concerns",
+   "name": "the inflation concerns"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 3786,
+   "end": 3890,
+   "quote": "these fears gradually subsided as investor appetite for risk improved during the second half of the week",
+   "name": "these fears gradually subsided as investor appetite for risk improved during the second half of the week"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3668,
+   "end": 3689,
+   "quote": "another volatile week",
+   "name": "the volatile week"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4366,
+   "end": 4374,
+   "quote": "the DBSI",
+   "name": "the DBSI"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4996,
+   "end": 5009,
+   "quote": "Portfolio 365",
+   "name": "Portfolio 365"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 8293,
+   "end": 8339,
+   "quote": "Opinions, estimates, and projections discussed",
+   "name": "the opinions, estimates, and projections discussed"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "them",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we then' at 5954"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1292",
+   "message": "+28 words: {{this intra-week shift => the intra-week shift that Markets began the week in a risk-off regime driven by inflation fears and elevated Brent crude prices, but rebounded in the second half of the week}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'gflation: The Federal Reserve delivered its first interest rate hike since 2023, ra'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 's do business with companies covered in its research reports and seeks to do busine'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'o do business with companies covered in its research reports.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'and analysts from Deutsche Bank present their views.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in ' summarize the key events of last week, their implications for markets and quant stra'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'potlight last week as the Fed delivered its first rate hike since 2023 amid concern'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'Sentiment Indicator initially rose from its starting value of 69 in the first half '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'them' in \"hor's long-short strategies, as most of them delivered positive returns.\""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'sche Bank makes no representation as to its accuracy or completeness.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0545219,
+   "duration_ms": 6913,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5389,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 516,
+    "output_tokens_details": {
+     "thinking_tokens": 412
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5389,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 516,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5389,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5389
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.14785199999999998,
+   "duration_ms": 41387,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6229,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4825,
+    "output_tokens_details": {
+     "thinking_tokens": 3438
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6229,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4825,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6229,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6229
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-03-30.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 4
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "time": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 87,
+  "kinds": {
+   "deixis": 48,
+   "symbol": 33,
+   "noun_phrase": 3,
+   "demonstrative": 2,
+   "pronoun": 1
+  },
+  "rooted_share": 0.3877551020408163,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 103,
+  "cost_usd": 0.1555
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1255,
+   "end": 1267,
+   "quote": "JPY weakness",
+   "name": "JPY weakness"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 998,
+   "end": 1022,
+   "quote": "The terms-of-trade shock",
+   "name": "the terms-of-trade shock"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1628,
+   "end": 1632,
+   "quote": "PMIs",
+   "name": "PMIs"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1783,
+   "end": 1799,
+   "quote": "the energy shock",
+   "name": "the energy shock"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 293,
+   "end": 317,
+   "quote": "the Middle East conflict",
+   "name": "the Middle East conflict"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We also pay' at 1656"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We dislike' at 9098"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.06464,
+   "duration_ms": 6229,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6645,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 509,
+    "output_tokens_details": {
+     "thinking_tokens": 496
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6645,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 509,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6645,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6645
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.090852,
+   "duration_ms": 16082,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6879,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1720,
+    "output_tokens_details": {
+     "thinking_tokens": 1223
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6879,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1720,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6879,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6879
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

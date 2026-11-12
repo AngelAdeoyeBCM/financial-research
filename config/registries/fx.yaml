@@ -1,0 +1,55 @@
+# FX pairs, named in market convention. IDs: fx:<base><quote> lower.
+# Closed set: every in-scope currency against USD. Crosses: observed in corpus.
+# "EUR/USD" style is matched automatically; tenor/NDF/options are mention-level.
+
+# -- USD pairs (closed set) ---------------------------------------------------
+- {type: fx_pair, entity_id: fx:eurusd, name: EURUSD, base_id: ccy:eur, quote_id: ccy:usd, aliases: [euro-dollar]}
+- {type: fx_pair, entity_id: fx:gbpusd, name: GBPUSD, base_id: ccy:gbp, quote_id: ccy:usd, aliases: [cable]}
+- {type: fx_pair, entity_id: fx:audusd, name: AUDUSD, base_id: ccy:aud, quote_id: ccy:usd}
+- {type: fx_pair, entity_id: fx:nzdusd, name: NZDUSD, base_id: ccy:nzd, quote_id: ccy:usd}
+- {type: fx_pair, entity_id: fx:usdjpy, name: USDJPY, base_id: ccy:usd, quote_id: ccy:jpy, aliases: [dollar-yen]}
+- {type: fx_pair, entity_id: fx:usdchf, name: USDCHF, base_id: ccy:usd, quote_id: ccy:chf}
+- {type: fx_pair, entity_id: fx:usdcad, name: USDCAD, base_id: ccy:usd, quote_id: ccy:cad}
+- {type: fx_pair, entity_id: fx:usdsek, name: USDSEK, base_id: ccy:usd, quote_id: ccy:sek}
+- {type: fx_pair, entity_id: fx:usdnok, name: USDNOK, base_id: ccy:usd, quote_id: ccy:nok}
+- {type: fx_pair, entity_id: fx:usdcny, name: USDCNY, base_id: ccy:usd, quote_id: ccy:cny}
+- {type: fx_pair, entity_id: fx:usdcnh, name: USDCNH, base_id: ccy:usd, quote_id: ccy:cnh}
+- {type: fx_pair, entity_id: fx:usdhkd, name: USDHKD, base_id: ccy:usd, quote_id: ccy:hkd}
+- {type: fx_pair, entity_id: fx:usdkrw, name: USDKRW, base_id: ccy:usd, quote_id: ccy:krw}
+- {type: fx_pair, entity_id: fx:usdtwd, name: USDTWD, base_id: ccy:usd, quote_id: ccy:twd}
+- {type: fx_pair, entity_id: fx:usdinr, name: USDINR, base_id: ccy:usd, quote_id: ccy:inr}
+- {type: fx_pair, entity_id: fx:usdidr, name: USDIDR, base_id: ccy:usd, quote_id: ccy:idr}
+- {type: fx_pair, entity_id: fx:usdmyr, name: USDMYR, base_id: ccy:usd, quote_id: ccy:myr}
+- {type: fx_pair, entity_id: fx:usdphp, name: USDPHP, base_id: ccy:usd, quote_id: ccy:php}
+- {type: fx_pair, entity_id: fx:usdsgd, name: USDSGD, base_id: ccy:usd, quote_id: ccy:sgd}
+- {type: fx_pair, entity_id: fx:usdthb, name: USDTHB, base_id: ccy:usd, quote_id: ccy:thb}
+- {type: fx_pair, entity_id: fx:usdbrl, name: USDBRL, base_id: ccy:usd, quote_id: ccy:brl}
+- {type: fx_pair, entity_id: fx:usdmxn, name: USDMXN, base_id: ccy:usd, quote_id: ccy:mxn}
+- {type: fx_pair, entity_id: fx:usdclp, name: USDCLP, base_id: ccy:usd, quote_id: ccy:clp}
+- {type: fx_pair, entity_id: fx:usdcop, name: USDCOP, base_id: ccy:usd, quote_id: ccy:cop}
+- {type: fx_pair, entity_id: fx:usdzar, name: USDZAR, base_id: ccy:usd, quote_id: ccy:zar}
+- {type: fx_pair, entity_id: fx:usdtry, name: USDTRY, base_id: ccy:usd, quote_id: ccy:try}
+- {type: fx_pair, entity_id: fx:usdpln, name: USDPLN, base_id: ccy:usd, quote_id: ccy:pln}
+- {type: fx_pair, entity_id: fx:usdhuf, name: USDHUF, base_id: ccy:usd, quote_id: ccy:huf}
+- {type: fx_pair, entity_id: fx:usdczk, name: USDCZK, base_id: ccy:usd, quote_id: ccy:czk}
+- {type: fx_pair, entity_id: fx:usdils, name: USDILS, base_id: ccy:usd, quote_id: ccy:ils}
+
+# -- crosses ------------------------------------------------------------------
+- {type: fx_pair, entity_id: fx:eurjpy, name: EURJPY, base_id: ccy:eur, quote_id: ccy:jpy}
+- {type: fx_pair, entity_id: fx:eurgbp, name: EURGBP, base_id: ccy:eur, quote_id: ccy:gbp}
+- {type: fx_pair, entity_id: fx:eurchf, name: EURCHF, base_id: ccy:eur, quote_id: ccy:chf}
+- {type: fx_pair, entity_id: fx:eursek, name: EURSEK, base_id: ccy:eur, quote_id: ccy:sek}
+- {type: fx_pair, entity_id: fx:eurnok, name: EURNOK, base_id: ccy:eur, quote_id: ccy:nok}
+- {type: fx_pair, entity_id: fx:eurpln, name: EURPLN, base_id: ccy:eur, quote_id: ccy:pln}
+- {type: fx_pair, entity_id: fx:eurhuf, name: EURHUF, base_id: ccy:eur, quote_id: ccy:huf}
+- {type: fx_pair, entity_id: fx:eurczk, name: EURCZK, base_id: ccy:eur, quote_id: ccy:czk}
+- {type: fx_pair, entity_id: fx:euraud, name: EURAUD, base_id: ccy:eur, quote_id: ccy:aud}
+- {type: fx_pair, entity_id: fx:eurmxn, name: EURMXN, base_id: ccy:eur, quote_id: ccy:mxn}
+- {type: fx_pair, entity_id: fx:eurbrl, name: EURBRL, base_id: ccy:eur, quote_id: ccy:brl}
+- {type: fx_pair, entity_id: fx:audjpy, name: AUDJPY, base_id: ccy:aud, quote_id: ccy:jpy}
+- {type: fx_pair, entity_id: fx:audnzd, name: AUDNZD, base_id: ccy:aud, quote_id: ccy:nzd}
+- {type: fx_pair, entity_id: fx:gbpcad, name: GBPCAD, base_id: ccy:gbp, quote_id: ccy:cad}
+- {type: fx_pair, entity_id: fx:noksek, name: NOKSEK, base_id: ccy:nok, quote_id: ccy:sek}
+- {type: fx_pair, entity_id: fx:twdkrw, name: TWDKRW, base_id: ccy:twd, quote_id: ccy:krw}
+- {type: fx_pair, entity_id: fx:clpcop, name: CLPCOP, base_id: ccy:clp, quote_id: ccy:cop}
+- {type: fx_pair, entity_id: fx:mxncop, name: MXNCOP, base_id: ccy:mxn, quote_id: ccy:cop}

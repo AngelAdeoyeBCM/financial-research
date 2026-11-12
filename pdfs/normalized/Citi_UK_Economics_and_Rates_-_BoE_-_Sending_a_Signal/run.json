@@ -1,0 +1,375 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_UK_Economics_and_Rates_-_BoE_-_Sending_a_Signal.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-19",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 29,
+    "referents": {
+     "thing": 12,
+     "claim": 6
+    },
+    "decisions": {
+     "link": 22,
+     "leave": 7
+    },
+    "leave_reasons": {
+     "expletive": 3,
+     "not_a_reference": 1,
+     "generic": 3
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 58,
+  "kinds": {
+   "deixis": 32,
+   "noun_phrase": 7,
+   "pronoun": 6,
+   "proposition": 5,
+   "demonstrative": 4,
+   "possessive": 2,
+   "shell": 2
+  },
+  "rooted_share": 0.7421875,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 71,
+  "cost_usd": 0.2202
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 64,
+   "end": 83,
+   "quote": "The Bank of England",
+   "name": "the Bank of England"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 107,
+   "end": 135,
+   "quote": "a distinctly hawkish meeting",
+   "name": "the distinctly hawkish meeting"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 522,
+   "end": 571,
+   "quote": "The MPC delivered an unexpectedly hawkish message",
+   "name": "the MPC's unexpectedly hawkish message"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 2848,
+   "end": 2967,
+   "quote": "the communication (and specifically the absence of any dissenters) was designed to shift the ‘median’ stance of the MPC",
+   "name": "the communication (and specifically the absence of any dissenters) was designed to shift the ‘median’ stance of the MPC"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 522,
+   "end": 529,
+   "quote": "The MPC",
+   "name": "the MPC"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3926,
+   "end": 3932,
+   "quote": "a hike",
+   "name": "a hike"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3945,
+   "end": 4043,
+   "quote": "a path dependent route that sees the energy disruption as a “severe and longer-lasting constraint”",
+   "name": "the path dependent route that sees the energy disruption as a “severe and longer-lasting constraint”"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 4203,
+   "end": 4240,
+   "quote": "the politics is leading the economics",
+   "name": "the politics is leading the economics"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 4459,
+   "end": 4583,
+   "quote": "A “prolonged disruption” to supply is thus less an endstate but rather a process which the committee will continually assess",
+   "name": "A “prolonged disruption” to supply is thus less an endstate but rather a process which the committee will continually assess"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 4740,
+   "end": 4795,
+   "quote": "we already see rates in the UK as restrictive to output",
+   "name": "we already see rates in the UK as restrictive to output"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 1575,
+   "end": 1596,
+   "quote": "the Middle East shock",
+   "name": "the Middle East shock"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 4907,
+   "end": 4913,
+   "quote": "the UK",
+   "name": "the UK"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 5416,
+   "end": 5461,
+   "quote": "the lags required for monetary policy clarity",
+   "name": "the lags required for monetary policy clarity"
+  },
+  {
+   "id": "R14",
+   "type": "claim",
+   "start": 2340,
+   "end": 2370,
+   "quote": "remove all remaining cuts 2026",
+   "name": "remove all remaining cuts 2026"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 7404,
+   "end": 7427,
+   "quote": "communication from here",
+   "name": "the communication from here"
+  },
+  {
+   "id": "R17",
+   "type": "claim",
+   "start": 8190,
+   "end": 8253,
+   "quote": "it might not have intended a re-pricing of quite this magnitude",
+   "name": "it might not have intended a re-pricing of quite this magnitude"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 8280,
+   "end": 8309,
+   "quote": "the new individual paragraphs",
+   "name": "the new individual paragraphs"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 8586,
+   "end": 8602,
+   "quote": "the overall tone",
+   "name": "the overall tone"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C028",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we mean' at 4251"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we describe' at 6407"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 9",
+   "message": "'its' in 'dle East shock is stagflation and until its clear whether the “stag” or the “flatio'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0502848,
+   "duration_ms": 4238,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5343,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 323,
+    "output_tokens_details": {
+     "thinking_tokens": 310
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5343,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 323,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5343,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5343
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1699593,
+   "duration_ms": 50010,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6332,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5897,
+    "output_tokens_details": {
+     "thinking_tokens": 3853
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6332,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5897,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6332,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6332
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

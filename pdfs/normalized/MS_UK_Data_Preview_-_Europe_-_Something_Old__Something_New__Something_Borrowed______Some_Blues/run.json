@@ -1,0 +1,449 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/MS_UK_Data_Preview_-_Europe_-_Something_Old__Something_New__Something_Borrowed______Some_Blues.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-20",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 32,
+    "referents": {
+     "thing": 20,
+     "claim": 4
+    },
+    "decisions": {
+     "link": 25,
+     "leave": 7
+    },
+    "leave_reasons": {
+     "not_a_reference": 5,
+     "time": 1,
+     "relative": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 98,
+  "kinds": {
+   "deixis": 60,
+   "symbol": 10,
+   "noun_phrase": 8,
+   "possessive": 8,
+   "demonstrative": 5,
+   "proposition": 3,
+   "pronoun": 2,
+   "shell": 1,
+   "vp": 1
+  },
+  "rooted_share": 0.7795698924731183,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 5,
+   "LONG_RESOLUTION": 2
+  },
+  "sentences": 63,
+  "cost_usd": 0.2486
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1610,
+   "end": 1658,
+   "quote": "a solid decline in underlying services inflation",
+   "name": "the solid decline in underlying services inflation"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2002,
+   "end": 2023,
+   "quote": "a drop in fuel prices",
+   "name": "the drop in fuel prices"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2124,
+   "end": 2131,
+   "quote": "The ONS",
+   "name": "the ONS"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4278,
+   "end": 4308,
+   "quote": "the February inflation reading",
+   "name": "the February inflation reading"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2565,
+   "end": 2598,
+   "quote": "food inflation at 0.5%M and 3.9%Y",
+   "name": "food inflation at 0.5%M and 3.9%Y"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2910,
+   "end": 2939,
+   "quote": "large restaurant & pub chains",
+   "name": "large restaurant & pub chains"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3046,
+   "end": 3068,
+   "quote": "UK's largest pub chain",
+   "name": "UK's largest pub chain"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3157,
+   "end": 3175,
+   "quote": "average price hike",
+   "name": "the average price hike"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 3151,
+   "end": 3235,
+   "quote": "their average price hike last year was ~4-5%, whereas this year, we see it as at ~2%",
+   "name": "their average price hike last year was ~4-5%, whereas this year, we see it as at ~2%"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 3440,
+   "end": 3521,
+   "quote": "last year brought some delayed sales, which we don't see as likely to be repeated",
+   "name": "last year brought some delayed sales, which we don't see as likely to be repeated"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 4534,
+   "end": 4548,
+   "quote": "The PMI survey",
+   "name": "the PMI survey"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 4700,
+   "end": 4770,
+   "quote": "a 1 index point decline in the headline Services and Composite indices",
+   "name": "the 1 index point decline in the headline Services and Composite indices"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 4903,
+   "end": 5009,
+   "quote": "much of the PMI moves is driven by one sector - Software & IT Services - which came in at 64.6 in February",
+   "name": "much of the PMI moves is driven by one sector - Software & IT Services - which came in at 64.6 in February"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 5050,
+   "end": 5067,
+   "quote": "the UK businesses",
+   "name": "the UK businesses"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 5963,
+   "end": 6027,
+   "quote": "the Treasury contemplating \"fiscal rule changes\" or \"suspension\"",
+   "name": "the Treasury contemplating \"fiscal rule changes\" or \"suspension\""
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 6462,
+   "end": 6504,
+   "quote": "the planned rise in fuel duty in September",
+   "name": "the planned rise in fuel duty in September"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 6647,
+   "end": 6678,
+   "quote": "some support with utility bills",
+   "name": "the support with utility bills"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 7070,
+   "end": 7119,
+   "quote": "households on the cusp of receiving such payments",
+   "name": "households on the cusp of receiving such payments"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 7268,
+   "end": 7358,
+   "quote": "how to buffer the rise in corporate operational costs due to the increase in energy prices",
+   "name": "how to buffer the rise in corporate operational costs due to the increase in energy prices"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 7517,
+   "end": 7548,
+   "quote": "a potential net fiscal stimulus",
+   "name": "the potential net fiscal stimulus"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 7814,
+   "end": 7888,
+   "quote": "A net neutral fiscal intervention specifically aimed at reducing inflation",
+   "name": "the net neutral fiscal intervention specifically aimed at reducing inflation"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 8378,
+   "end": 8428,
+   "quote": "the downside risks to UK growth and fiscal outlook",
+   "name": "the downside risks to UK growth and fiscal outlook"
+  },
+  {
+   "id": "R23",
+   "type": "claim",
+   "start": 8641,
+   "end": 8800,
+   "quote": "the BoE attempts some front-loaded tightening in financial conditions, only to have to carry out a series of hikes with headline inflation rising in the summer",
+   "name": "the BoE attempts some front-loaded tightening in financial conditions, only to have to carry out a series of hikes with headline inflation rising in the summer"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 5701,
+   "end": 5705,
+   "quote": "PSNB",
+   "name": "PSNB"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "IT",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C029",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we watching' at 2092"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we peg' at 2558"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We also account' at 2650"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We amplify' at 4772"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we pencil' at 5590"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3237",
+   "message": "+26 words: {{These base effects => The base effects that large restaurant and pub chains' average price hike last year was approximately 4-5%, whereas this year, the author sees the average price hike as at approximately 2%}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 8802",
+   "message": "+27 words: {{This => That the BoE attempts some front-loaded tightening in financial conditions, only to have to carry out a series of hikes with headline inflation rising in the summer}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0548979,
+   "duration_ms": 5971,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5579,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 458,
+    "output_tokens_details": {
+     "thinking_tokens": 349
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5579,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 458,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5579,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5579
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.19373729999999997,
+   "duration_ms": 56051,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6712,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 6932,
+    "output_tokens_details": {
+     "thinking_tokens": 4539
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6712,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 6932,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6712,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6712
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

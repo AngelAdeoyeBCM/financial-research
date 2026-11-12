@@ -1,0 +1,23 @@
+[
+  {
+    "code": "EVIDENCE_NOT_VERBATIM",
+    "severity": "error",
+    "path": "$.evidence[70].text",
+    "message": "E071 is not a substring of the source.",
+    "suggested_action": "Copy the span exactly from the document; only whitespace may differ."
+  },
+  {
+    "code": "MUST_KEEP_EXCLUDED",
+    "severity": "warning",
+    "path": "$.exclusions[12]",
+    "message": "An excluded sentence looks like a prediction claim.",
+    "suggested_action": "Represent it as a statement in an argument unless it is not the author's claim."
+  },
+  {
+    "code": "MUST_KEEP_EXCLUDED",
+    "severity": "warning",
+    "path": "$.exclusions[14]",
+    "message": "An excluded sentence looks like a rating claim.",
+    "suggested_action": "Represent it as a statement in an argument unless it is not the author's claim."
+  }
+]

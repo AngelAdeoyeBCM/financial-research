@@ -1,0 +1,149 @@
+# Custom geographic groupings: set arithmetic over the regions in
+# regions.yaml, other groups and countries.
+#
+#   countries = (∪ union) ∩ (∩ intersect) − (∪ minus)
+#
+# A term is a country (ISO alpha-2, uppercase), a region key or a group key.
+# Keys must not clash with region keys (both use the geo: prefix).
+# Quote 'NO' (Norway): unquoted, YAML loads it as False.
+
+version: '2026-11-10'
+description: >-
+  Market classes and overlapping market and institutional groupings, defined
+  over the market region tree.
+
+groups:
+
+  # == Market classes ==========================================================
+  # dm, em and frontier must be disjoint (checked on load). Draft based on MSCI
+  # market classification; confirm against your own convention. Unclassified
+  # (MSCI standalone or not covered): AR, LB, RU, UA, plus smaller markets.
+
+  dm:
+    name: Developed Markets
+    union: [north_america, western_europe, nordics, AU, HK, IL, JP, NZ, SG]
+    minus: [CY, MT, IS, LU]
+
+  em:
+    name: Emerging Markets
+    union: [AE, BR, CL, CN, CO, CZ, EG, GR, HU, ID, IN, KR, KW, MX, MY, PE, PH, PL, QA, SA, TH, TR, TW, ZA]
+
+  frontier:
+    name: Frontier Markets
+    union: [BD, BH, CI, EE, HR, IS, JO, KE, KZ, LK, LT, MA, MU, NG, OM, PK, RO, RS, SI, SN, TN, VN]
+
+  # == Market groupings =========================================================
+
+  ceemea:
+    name: CEEMEA
+    union: [cee, middle_east, africa]
+
+  mena:
+    name: MENA
+    union: [middle_east, north_africa]
+
+  em_emea:
+    name: Emerging EMEA
+    union: [emea]
+    intersect: [em]
+
+  em_europe:
+    name: EM Europe
+    union: [europe]
+    intersect: [em]
+
+  europe_ex_uk:
+    name: Europe ex-UK
+    union: [europe]
+    minus: [GB]
+
+  ce3:
+    name: CE3
+    union: [CZ, HU, PL]
+
+  greater_china:
+    name: Greater China
+    union: [CN, HK, TW]
+
+  em_asia:
+    name: EM Asia
+    union: [apac]
+    intersect: [em]
+
+  apac_ex_japan:
+    name: Asia Pacific ex-Japan
+    union: [apac]
+    minus: [JP]
+
+  asia_ex_japan:
+    # AxJ, non-Japan Asia: as MSCI AC Asia ex Japan, without Australasia.
+    name: Asia ex-Japan
+    union: [asia]
+    minus: [JP]
+
+  commodity_bloc:
+    # Commodity currencies: AUD, CAD, NZD, NOK.
+    name: Commodity bloc
+    union: [AU, CA, NZ, 'NO']
+
+  # == Euro area segments =========================================================
+  # Market convention for EGBs; disjoint. Remaining members (small markets) are unassigned.
+
+  euro_area:
+    name: Euro Area
+    # Membership as of 2026-01-01 (Bulgaria joined).
+    union: [AT, BE, BG, CY, DE, EE, ES, FI, FR, GR, HR, IE, IT, LT, LU, LV, MT, NL, PT, SI, SK]
+
+  # == G-n currency blocs ==========================================================
+  # Market usage, by currency: G10 FX is USD, EUR, JPY, GBP, CHF, CAD, AUD, NZD, SEK, NOK, so it is the
+  # countries of those currencies (euro area for EUR). Not the institutional Group of Ten (BE, CA, FR, DE,
+  # IT, JP, NL, SE, CH, GB, US).
+
+  g10:
+    name: G10
+    union: [US, euro_area, JP, GB, CH, CA, AU, NZ, SE, 'NO']
+
+  g3:
+    name: G3
+    union: [US, euro_area, JP]
+
+  # == Institutional ============================================================
+
+  eu:
+    name: European Union
+    union: [euro_area, CZ, DK, HU, PL, RO, SE]
+
+  gcc:
+    name: Gulf Cooperation Council
+    union: [AE, BH, KW, OM, QA, SA]
+
+  asean:
+    name: ASEAN
+    union: [BN, ID, KH, LA, MM, MY, PH, SG, TH, TL, VN]
+
+  g7:
+    name: G7
+    union: [CA, DE, FR, GB, IT, JP, US]
+
+  g20:
+    # The 19 member countries; the EU and the African Union are members too but are not countries.
+    name: G20
+    union: [AR, AU, BR, CA, CN, DE, FR, GB, ID, IN, IT, JP, KR, MX, RU, SA, TR, US, ZA]
+
+  brics:
+    # Membership as of 2026-01-01: the original five, Egypt, Ethiopia, Iran, UAE (2024), Indonesia (2025).
+    name: BRICS
+    union: [BR, CN, IN, RU, ZA, AE, EG, ET, ID, IR]
+
+  opec:
+    # Membership as of 2026-01-01 (Angola left in 2024).
+    name: OPEC
+    union: [AE, CG, DZ, GA, GQ, IQ, IR, KW, LY, NG, SA, VE]
+
+  opec_plus:
+    name: OPEC+
+    union: [opec, AZ, BH, BN, KZ, MX, MY, OM, RU, SD, SS]
+
+  cis:
+    name: Commonwealth of Independent States
+    union: [AM, AZ, BY, KG, KZ, MD, RU, TJ, UZ]

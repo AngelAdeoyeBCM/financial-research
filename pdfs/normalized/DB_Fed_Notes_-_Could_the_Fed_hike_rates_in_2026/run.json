@@ -1,0 +1,284 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_Could_the_Fed_hike_rates_in_2026.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-13",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 13,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "relative": 3,
+     "not_a_reference": 2
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 22,
+  "kinds": {
+   "deixis": 9,
+   "noun_phrase": 5,
+   "symbol": 4,
+   "pronoun": 2,
+   "possessive": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.8813559322033898,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 44,
+  "cost_usd": 0.1277
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 99,
+   "end": 124,
+   "quote": "the 2-year Treasury yield",
+   "name": "the 2-year Treasury yield"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1954,
+   "end": 2135,
+   "quote": "to get to hikes the Fed would have to discard a strongly held narrative that a disinflationary trend is in place and that once one-off shocks dissipate inflation will be close to 2%",
+   "name": "to get to hikes the Fed would have to discard a strongly held narrative that a disinflationary trend is in place and that once one-off shocks dissipate inflation will be close to 2%"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 798,
+   "end": 841,
+   "quote": "two preconditions for a rate hike this year",
+   "name": "the two preconditions for a rate hike this year"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2731,
+   "end": 2764,
+   "quote": "the University of Michigan survey",
+   "name": "the University of Michigan survey"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4636,
+   "end": 4692,
+   "quote": "Market-based measures of long-run inflation expectations",
+   "name": "market-based measures of long-run inflation expectations"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4960,
+   "end": 4971,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4157,
+   "end": 4184,
+   "quote": "the ongoing oil price shock",
+   "name": "the ongoing oil price shock"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We summarize' at 3096"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we conclude' at 5726"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 2137",
+   "message": "+33 words: {{This => That to get to hikes the Fed would have to discard a strongly held narrative that a disinflationary trend is in place and that once one-off shocks dissipate inflation will be close to 2%}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in 'oil price shocks a ‘frack’-tion of what they once were”).'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'ct to supply-driven oil price shocks; t he remarkable stability of market-based me'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0420423,
+   "duration_ms": 4418,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4333,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 320,
+    "output_tokens_details": {
+     "thinking_tokens": 307
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4333,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 320,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4333,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4333
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0856212,
+   "duration_ms": 18856,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4836,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2286,
+    "output_tokens_details": {
+     "thinking_tokens": 1362
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4836,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2286,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4836,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4836
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

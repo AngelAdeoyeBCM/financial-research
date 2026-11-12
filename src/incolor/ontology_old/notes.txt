@@ -1,0 +1,25 @@
+TODO NOTES. Once entity resolution is in motion. We can handle states and then later claims.
+And then later arguments.
+
+@dataclass(frozen=True, kw_only=True)
+class State:
+    subject: str                     # entity id or instrument key
+    attribute: str                   # 'level', 'change', 'implied_vol'
+    value: Decimal | str
+    unit: str | None = None
+    valid_from: date | None = None   # when it holds; None = unstated
+    valid_to: date | None = None
+    event: str | None = None         # FOMC meeting id, if the note names one
+
+@dataclass(frozen=True, kw_only=True)
+class Claim:
+    source: str
+    asserted_on: date
+    state: State
+    modality: Modality               # FORECAST, REPORT, ...
+    stance: Stance = Stance.SUPPORTS
+
+hike = State(subject='ind:fed_funds_target', attribute='change',
+             value=Decimal('25'), unit='bp')
+Claim(source='note:...', asserted_on=date(2026, 10, 29),
+      state=hike, modality=Modality.FORECAST)

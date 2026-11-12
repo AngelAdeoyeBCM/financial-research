@@ -1,0 +1,210 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Bank_of_Korea_to_hike_in_July_remain_open_to_further_tightening_Desknote--927835.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-09",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 12,
+    "referents": {
+     "thing": 6
+    },
+    "decisions": {
+     "link": 11,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 28,
+  "kinds": {
+   "deixis": 16,
+   "possessive": 7,
+   "noun_phrase": 3,
+   "demonstrative": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.5319148936170213,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 35,
+  "cost_usd": 0.1076
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 119,
+   "end": 136,
+   "quote": "the Bank of Korea",
+   "name": "the Bank of Korea"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 182,
+   "end": 226,
+   "quote": "the Monetary Policy Board meeting on 16 July",
+   "name": "the Monetary Policy Board meeting on 16 July"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 908,
+   "end": 922,
+   "quote": "25bp rate hike",
+   "name": "the 25bp rate hike"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2296,
+   "end": 2321,
+   "quote": "the price diffusion index",
+   "name": "the price diffusion index"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4297,
+   "end": 4320,
+   "quote": "back-to-back rate hikes",
+   "name": "back-to-back rate hikes"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1996,
+   "end": 2011,
+   "quote": "the May meeting",
+   "name": "the May meeting"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C009",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0339257,
+   "duration_ms": 2838,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3837,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 115,
+    "output_tokens_details": {
+     "thinking_tokens": 102
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3837,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 115,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3837,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3837
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.073657,
+   "duration_ms": 16888,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4339,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1889,
+    "output_tokens_details": {
+     "thinking_tokens": 1130
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4339,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1889,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4339,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4339
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

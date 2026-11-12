@@ -1,0 +1,605 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_UK_Economics_-_The_new_Productivity_Puzzle_and_the_AI_structural_shift.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-07",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 54,
+    "referents": {
+     "thing": 21,
+     "claim": 5
+    },
+    "decisions": {
+     "link": 36,
+     "leave": 18
+    },
+    "leave_reasons": {
+     "expletive": 6,
+     "generic": 3,
+     "not_a_reference": 5,
+     "relative": 4
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 67,
+  "kinds": {
+   "deixis": 21,
+   "noun_phrase": 16,
+   "pronoun": 11,
+   "symbol": 7,
+   "demonstrative": 3,
+   "shell": 3,
+   "possessive": 3,
+   "proposition": 2,
+   "fragment": 1
+  },
+  "rooted_share": 0.9122807017543859,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 5
+  },
+  "sentences": 102,
+  "cost_usd": 0.42
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 2116,
+   "end": 2142,
+   "quote": "the UK Productivity Puzzle",
+   "name": "the UK Productivity Puzzle"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1303,
+   "end": 1325,
+   "quote": "the productivity boost",
+   "name": "the productivity boost"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 678,
+   "end": 718,
+   "quote": "15 years of sluggish productivity growth",
+   "name": "the 15 years of sluggish productivity growth"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1345,
+   "end": 1370,
+   "quote": "ICT’s pervasive use of AI",
+   "name": "ICT’s pervasive use of AI"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2548,
+   "end": 2573,
+   "quote": "the “white collar” sector",
+   "name": "the “white collar” sector"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2522,
+   "end": 2593,
+   "quote": "it is primarily driven by the “white collar” sector (excluding finance)",
+   "name": "it is primarily driven by the “white collar” sector (excluding finance)"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3699,
+   "end": 3746,
+   "quote": "Public Administration & Defence, and Healthcare",
+   "name": "Public Administration & Defence, and Healthcare"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3913,
+   "end": 3943,
+   "quote": "HMRC’s PAYE employment measure",
+   "name": "HMRC’s PAYE employment measure"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4135,
+   "end": 4166,
+   "quote": "the increase in self-employment",
+   "name": "the increase in self-employment"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4195,
+   "end": 4218,
+   "quote": "the Labour Force Survey",
+   "name": "the Labour Force Survey"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 4449,
+   "end": 4474,
+   "quote": "a pick-up in productivity",
+   "name": "the pick-up in productivity"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 4776,
+   "end": 4841,
+   "quote": "strong nominal wage increases and costly labour-market regulation",
+   "name": "strong nominal wage increases and costly labour-market regulation"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 4693,
+   "end": 4841,
+   "quote": "the catalyst has been the chronically high unit labour costs faced by firms, given strong nominal wage increases and costly labour-market regulation",
+   "name": "the catalyst has been the chronically high unit labour costs faced by firms, given strong nominal wage increases and costly labour-market regulation"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 4537,
+   "end": 4666,
+   "quote": "the fall in PAYE employees (which comes from the reliable PAYE data source) and the concurrent rise in self-employment in the LFS",
+   "name": "the fall in PAYE employees and the concurrent rise in self-employment in the LFS"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 4810,
+   "end": 4841,
+   "quote": "costly labour-market regulation",
+   "name": "costly labour-market regulation"
+  },
+  {
+   "id": "R16",
+   "type": "claim",
+   "start": 5360,
+   "end": 5483,
+   "quote": "The unintended consequence, therefore may have been to catapult UK businesses to swiftly embrace cost-cutting AI technology",
+   "name": "The unintended consequence, therefore may have been to catapult UK businesses to swiftly embrace cost-cutting AI technology"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 6368,
+   "end": 6449,
+   "quote": "“improving business operations” and “providing a product or service to customers”",
+   "name": "“improving business operations” and “providing a product or service to customers”"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 6561,
+   "end": 6563,
+   "quote": "AI",
+   "name": "AI"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 6673,
+   "end": 6702,
+   "quote": "the productivity improvements",
+   "name": "the productivity improvements"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 15,
+   "end": 70,
+   "quote": "The new Productivity Puzzle and the AI structural shift",
+   "name": "The new Productivity Puzzle and the AI structural shift"
+  },
+  {
+   "id": "R22",
+   "type": "claim",
+   "start": 8445,
+   "end": 8498,
+   "quote": "The productivity boost is predominantly driven by ICT",
+   "name": "The productivity boost is predominantly driven by ICT"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 8495,
+   "end": 8498,
+   "quote": "ICT",
+   "name": "ICT"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 9607,
+   "end": 9620,
+   "quote": "other sectors",
+   "name": "other sectors"
+  },
+  {
+   "id": "R25",
+   "type": "claim",
+   "start": 9706,
+   "end": 9779,
+   "quote": "they are catching up with respect to their slowing down employment growth",
+   "name": "they are catching up with respect to their slowing down employment growth"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 11386,
+   "end": 11392,
+   "quote": "AI use",
+   "name": "AI use"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 7626,
+   "end": 7634,
+   "quote": "ONS BICS",
+   "name": "ONS BICS"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C033",
+   "phrase": "they",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C035",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C036",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C040",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C041",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C043",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C045",
+   "phrase": "These",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C052",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we don’t' at 6930"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we document' at 7590"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4969",
+   "message": "+23 words: {{This => That the catalyst has been the chronically high unit labour costs faced by firms, given strong nominal wage increases and costly labour-market regulation}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'on sector report that three-quarters of their staff use AI on a daily basis.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'they' in 'he reverse effect on the very employees they were designed to shield (at least in th'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'their' in 'sing AI technology primarily to improve their processes, programming and data analysi'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'their' in 'al intelligence technologies as part of their daily work”.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'their' in 'sinesses reported that more than 75% of their staff use AI on a daily basis.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E101",
+      "phrase": "the survey",
+      "occurrence": 1,
+      "referent": "R27"
+     },
+     "reason": "E101 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.07650010000000002,
+   "duration_ms": 12521,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6451,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1185,
+    "output_tokens_details": {
+     "thinking_tokens": 1064
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6451,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1185,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6451,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6451
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.26685100000000006,
+   "duration_ms": 81527,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8474,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 9874,
+    "output_tokens_details": {
+     "thinking_tokens": 6728
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8474,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 9874,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8474,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8474
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0766648,
+   "duration_ms": 2093,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9172,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 82,
+    "output_tokens_details": {
+     "thinking_tokens": 55
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9172,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 82,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 9172,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9172
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

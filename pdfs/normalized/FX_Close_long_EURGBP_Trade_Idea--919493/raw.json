@@ -1,0 +1,8 @@
+{
+ "references": [
+  "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"thing\", \"sid\": \"E002\", \"quote\": \"bullish year-ahead outlook for the cross\", \"name\": \"the bullish year-ahead outlook for the cross\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E004\", \"quote\": \"results from the Gorton and Denton by-election\", \"name\": \"the Gorton and Denton by-election results\"},\n  {\"id\": \"R3\", \"type\": \"thing\", \"sid\": \"E002\", \"quote\": \"long EURGBP\"}],\n \"decisions\": [\n  {\"candidate\": \"C001\", \"action\": \"link\", \"referent\": \"R1\", \"phrase\": \"This outlook\"},\n  {\"candidate\": \"C002\", \"action\": \"link\", \"referent\": \"R2\", \"phrase\": \"This result\"}],\n \"extra\": [\n  {\"sid\": \"E007\", \"phrase\": \"the trade\", \"occurrence\": 1, \"referent\": \"R3\"},\n  {\"sid\": \"E008\", \"phrase\": \"the trade\", \"occurrence\": 1, \"referent\": \"R3\"}]}\n```"
+ ],
+ "ellipsis": [
+  "```json\n{\"items\": []}\n```\n\nI found no gaps in this document. No sentence has an auxiliary or modal left without its verb, there are no question-and-answer pairs, and none of the sentences is a fragment that continues an earlier one. Phrases like \"the trade\" and \"This result\" are references, which are handled separately, so I didn't list them."
+ ]
+}

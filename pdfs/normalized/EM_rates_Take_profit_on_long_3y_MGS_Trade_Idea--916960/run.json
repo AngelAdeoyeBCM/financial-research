@@ -1,0 +1,228 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Take_profit_on_long_3y_MGS_Trade_Idea--916960.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-20",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 4
+    },
+    "leave_reasons": {
+     "expletive": 2
+    },
+    "extra": 17,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 67,
+  "kinds": {
+   "deixis": 40,
+   "noun_phrase": 19,
+   "abbreviation": 6,
+   "pronoun": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8151260504201681,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4
+  },
+  "sentences": 34,
+  "cost_usd": 0.1257
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1745,
+   "end": 1751,
+   "quote": "2y KTB",
+   "name": "the 2y KTB"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1740,
+   "end": 1757,
+   "quote": "Long 2y KTB trade",
+   "name": "the Long 2y KTB trade"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3223,
+   "end": 3275,
+   "quote": "the Bank Negara Malaysia’s (BNM) MPC meeting in July",
+   "name": "the Bank Negara Malaysia’s (BNM) MPC meeting in July"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3182,
+   "end": 3199,
+   "quote": "Long 3y MGS trade",
+   "name": "the Long 3y MGS trade"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 1395"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We extend' at 1555"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we also extend' at 3801"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 4943"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.04184790000000001,
+   "duration_ms": 5984,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4094,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 407,
+    "output_tokens_details": {
+     "thinking_tokens": 394
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4094,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 407,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4094,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4094
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0838046,
+   "duration_ms": 21932,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4335,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2398,
+    "output_tokens_details": {
+     "thinking_tokens": 1297
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4335,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2398,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4335,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4335
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

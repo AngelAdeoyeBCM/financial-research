@@ -1,0 +1,241 @@
+{
+ "map": {
+  "arguments": [
+   {
+    "id": "A001",
+    "summary": "The Fed should hike 25bp: markets price it at about 85%, CPI all but locks it in, disappointing is costly, and the Fed has never held against such pricing.",
+    "conclusion": "P005-1",
+    "premises": [
+     "A002",
+     "P030-1",
+     "P031-1",
+     "P031-2",
+     "P080-1",
+     "P028-1",
+     "P032-3",
+     "A003"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A002",
+    "summary": "Rates price a Sept hike at about 85%, up from 35% two weeks ago, after Warsh's Jackson Hole speech and stronger labor and inflation data.",
+    "conclusion": "P013-1",
+    "premises": [
+     "P013-2",
+     "P014-1",
+     "P014-2",
+     "P014-3"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A003",
+    "summary": "The Fed's simple choice is to hike or risk a bond spike, because not hiking risks a disorderly long-end move and the bond likes orthodoxy, meaning hikes rather than buybacks.",
+    "conclusion": "P016-2",
+    "premises": [
+     "A004",
+     "P019-1",
+     "P020-1",
+     "P020-2"
+    ],
+    "conditions": [],
+    "qualifiers": [
+     "P016-1"
+    ],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P097-1",
+     "P099-1"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A004",
+    "summary": "If the Fed does not hike, it risks a disorderly long-end move: the 30Y could test 5.75%, and buybacks that stumbled out the gate would be futile.",
+    "conclusion": "P017-2",
+    "premises": [
+     "P018-1",
+     "P096-12",
+     "P096-13"
+    ],
+    "conditions": [
+     "P017-1"
+    ],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A005",
+    "summary": "A hawkish hike supports twist flattening, with higher front-end rates and 30Y yields falling on lower growth and inflation risk and a more credible Fed.",
+    "conclusion": "P009-3",
+    "premises": [
+     "A006",
+     "P089-2",
+     "P090-1",
+     "P090-2",
+     "P090-3"
+    ],
+    "conditions": [
+     "P087-1",
+     "P087-2"
+    ],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P104-1"
+    ],
+    "alternatives": [
+     "P095-3"
+    ]
+   },
+   {
+    "id": "A006",
+    "summary": "Warsh's hawkish hike supports higher front-end rates as the market raises the hike peak, pulls timing forward and pushes 2Y yields up 5-10bp.",
+    "conclusion": "P009-2",
+    "premises": [
+     "A007",
+     "P087-3",
+     "P087-4",
+     "P088-2",
+     "P089-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P103-2"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A007",
+    "summary": "Warsh likely delivers a hawkish hike, presenting as he did at Jackson Hole to support the bond, with hawkish communications and an SEP showing 50bp of 2026 hikes.",
+    "conclusion": "P009-1",
+    "premises": [
+     "P086-2",
+     "P025-2",
+     "P021-1",
+     "P022-1",
+     "P064-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [
+     "P022-2"
+    ],
+    "risks": [
+     "P061-2"
+    ],
+    "implications": [
+     "P026-3",
+     "P026-4"
+    ],
+    "alternatives": [
+     "P027-2"
+    ]
+   },
+   {
+    "id": "A008",
+    "summary": "The USD outcome depends on the Fed out-hawking expectations and G10 peers; the bar is high, and dovish language, a muddled message or restrained dots could hit the dollar.",
+    "conclusion": "P010-1",
+    "premises": [
+     "A009",
+     "P113-1",
+     "P127-1",
+     "P130-2",
+     "P131-1",
+     "P132-4",
+     "P133-1"
+    ],
+    "conditions": [],
+    "qualifiers": [
+     "P128-2"
+    ],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P119-2"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A009",
+    "summary": "With more than 3 Fed hikes priced and central banks and curves repriced globally, the bar to out-hawk expectations and G10 peers appears high.",
+    "conclusion": "P118-2",
+    "premises": [
+     "P118-1",
+     "P117-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   }
+  ]
+ },
+ "errors": [],
+ "attempts": 1,
+ "usage": [
+  {
+   "cost_usd": 0.2555305,
+   "duration_ms": 33236,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22046,
+    "cache_read_input_tokens": 2013,
+    "output_tokens": 3832,
+    "output_tokens_details": {
+     "thinking_tokens": 2285
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 22046,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3832,
+      "cache_read_input_tokens": 2013,
+      "cache_creation_input_tokens": 22046,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 22046
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

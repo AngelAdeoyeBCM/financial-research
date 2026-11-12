@@ -1,0 +1,289 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_Global_Strategy_-_Open_short_10y_Italy_vs_Germany_-_Close_short_10y_France_vs_EU.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-02",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 4,
+    "referents": {
+     "thing": 4,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 1,
+     "link": 3
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     3,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 15,
+  "kinds": {
+   "deixis": 5,
+   "noun_phrase": 3,
+   "abbreviation": 2,
+   "pronoun": 1,
+   "vp": 1,
+   "symbol": 1,
+   "possessive": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.8108108108108109,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 18,
+  "cost_usd": 0.1248
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 105,
+   "end": 117,
+   "quote": "Global rates",
+   "name": "global rates"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1452,
+   "end": 1473,
+   "quote": "the French government",
+   "name": "the French government"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1456,
+   "end": 1499,
+   "quote": "French government presented its 2027 budget",
+   "name": "the French government's 2027 budget"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 1501,
+   "end": 1645,
+   "quote": "The budget counts on higher revenues, with real spending growing at 0.6% ex inflation but slower than the economy’s rebound of 1% in real growth",
+   "name": "The budget counts on higher revenues, with real spending growing at 0.6% ex inflation but slower than the economy’s rebound of 1% in real growth"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 699,
+   "end": 716,
+   "quote": "president Lagarde",
+   "name": "president Lagarde"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1647",
+   "message": "+25 words: {{This => That the French government's 2027 budget counts on higher revenues, with real spending growing at 0.6% ex inflation but slower than the economy’s rebound of 1% in real growth}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R3",
+      "type": "thing",
+      "sid": "E007",
+      "quote": "president Lagarde",
+      "name": "ECB president Lagarde"
+     },
+     "reason": "name 'ECB president Lagarde' has words not in the quote: ['ecb']"
+    },
+    {
+     "item": {
+      "sid": "E008",
+      "phrase": "the president",
+      "occurrence": 1,
+      "referent": "R3"
+     },
+     "reason": "referent 'R3' is not in the referent table"
+    },
+    {
+     "item": {
+      "sid": "E009",
+      "phrase": "The president",
+      "occurrence": 1,
+      "referent": "R3"
+     },
+     "reason": "referent 'R3' is not in the referent table"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.035917700000000004,
+   "duration_ms": 6073,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3152,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 492,
+    "output_tokens_details": {
+     "thinking_tokens": 395
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3152,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 492,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3152,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3152
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0539617,
+   "duration_ms": 12336,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3296,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1317,
+    "output_tokens_details": {
+     "thinking_tokens": 779
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3296,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1317,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3296,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3296
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0349146,
+   "duration_ms": 3728,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3675,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 214,
+    "output_tokens_details": {
+     "thinking_tokens": 57
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3675,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 214,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3675,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3675
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BofA_UK_Watch_-_Fiscal_concerns.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-11",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 12,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "expletive": 3,
+     "not_a_reference": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 3,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 22,
+  "kinds": {
+   "deixis": 7,
+   "pronoun": 6,
+   "symbol": 3,
+   "fragment": 3,
+   "noun_phrase": 1,
+   "demonstrative": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.9420289855072463,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "MODALITY_CHANGED": 3,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 42,
+  "cost_usd": 0.1436
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 72,
+   "end": 78,
+   "quote": "Labour",
+   "name": "Labour"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2130,
+   "end": 2150,
+   "quote": "A Labour backbencher",
+   "name": "the Labour backbencher"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2638,
+   "end": 2754,
+   "quote": "Health Secretary Wes Streeting, former Deputy Prime Minister Angela Rayner and Greater Manchester Mayor Andy Burnham",
+   "name": "Wes Streeting, Angela Rayner and Andy Burnham"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4222,
+   "end": 4269,
+   "quote": "A potential defence carve out from fiscal rules",
+   "name": "the potential defence carve out from fiscal rules"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4772,
+   "end": 4778,
+   "quote": "growth",
+   "name": "growth"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 5225,
+   "end": 5351,
+   "quote": "the move higher in yields along with potentially weaker growth or higher inflation is likely to have already hurt the headroom",
+   "name": "the move higher in yields along with potentially weaker growth or higher inflation is likely to have already hurt the headroom"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 270,
+   "end": 314,
+   "quote": "losses for Labour in the May local elections",
+   "name": "the losses for Labour in the May local elections"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we don’t' at 3455"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we don’t' at 5371"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 3839",
+   "message": "dropped [] added ['if', 'whether', 'would'] in {{ => , The key uncertainty remains whether such policies, if confirmed, would be done via}}"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 4000",
+   "message": "dropped [] added ['if', 'whether', 'would'] in {{ => , The key uncertainty remains whether such policies, if confirmed, would be done via}}"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 4079",
+   "message": "dropped [] added ['whether', 'would'] in {{ => , The key uncertainty remains whether such policies, if confirmed, would be done via}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5365",
+   "message": "+21 words: {{that => that the move higher in yields along with potentially weaker growth or higher inflation is likely to have already hurt the headroom}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.06338659999999999,
+   "duration_ms": 14720,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4136,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1467,
+    "output_tokens_details": {
+     "thinking_tokens": 1055
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4136,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1467,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4136,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4136
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.08017950000000001,
+   "duration_ms": 18413,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4579,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2118,
+    "output_tokens_details": {
+     "thinking_tokens": 1274
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4579,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2118,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4579,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4579
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

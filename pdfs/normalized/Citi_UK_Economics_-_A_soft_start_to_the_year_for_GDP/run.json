@@ -1,0 +1,226 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_UK_Economics_-_A_soft_start_to_the_year_for_GDP.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-13",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 4,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 6,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "time": 2,
+     "relative": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "symbol": 4,
+   "noun_phrase": 4,
+   "deixis": 3,
+   "demonstrative": 2,
+   "shell": 1
+  },
+  "rooted_share": 0.9444444444444444,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 29,
+  "cost_usd": 0.1075
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 804,
+   "end": 852,
+   "quote": "administrative & support services, down 2.3% m/m",
+   "name": "administrative & support services, down 2.3% m/m"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1925,
+   "end": 1940,
+   "quote": "The 3M/3M print",
+   "name": "the 3M/3M print"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 2207,
+   "end": 2295,
+   "quote": "What strength we did see was offset by weakness across the machinery-electronics complex",
+   "name": "What strength we did see was offset by weakness across the machinery-electronics complex"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2557,
+   "end": 2601,
+   "quote": "a net improvement in the UK’s trade position",
+   "name": "the net improvement in the UK’s trade position"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1551,
+   "end": 1568,
+   "quote": "Production output",
+   "name": "Production output"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "IT",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0376938,
+   "duration_ms": 5268,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3643,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 382,
+    "output_tokens_details": {
+     "thinking_tokens": 369
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3643,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 382,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3643,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3643
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0697973,
+   "duration_ms": 16526,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4052,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1801,
+    "output_tokens_details": {
+     "thinking_tokens": 1146
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4052,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1801,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4052,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4052
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

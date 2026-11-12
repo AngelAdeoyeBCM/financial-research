@@ -1,0 +1,73 @@
+{
+  "batch_id": "2026-04-07",
+  "window": [
+    "2026-04-07",
+    "2026-04-07"
+  ],
+  "generated_at": "2026-10-29T16:28:05",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-07_2026-04-10.json",
+      "sha256": "25d213b1c3f3947ce9e37d20264f1ab4b26dbff8f5f0f2691e526d7e18310c8c",
+      "records": 2991,
+      "dates": [
+        "2026-04-07",
+        "2026-04-10"
+      ],
+      "records_for_batch": 84
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 2,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 1,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "MISSING_CHUNKS": 1,
+    "DISTORTED_TABLE": 1
+  },
+  "documents": [
+    {
+      "stem": "STEER_USD_selectively_overvalued_Short_EURCHF_long_USDPEN_Trade_Idea--921851",
+      "document": "STEER_USD_selectively_overvalued_Short_EURCHF_long_USDPEN_Trade_Idea--921851.pdf",
+      "date": "2026-04-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: 0.923 0.9137 0.9277 - 0.00 07-Apr-2026 | 3.4254 3.4581 3.3927 - 0.00 | 381.91 - - 377.04 (06-Apr-2026) -1.27 01-Apr-2026",
+          "chunk_id": "STEER_USD_selectively_overvalued_Short_EURCHF_long_USDPEN_Trade_Idea--921851.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

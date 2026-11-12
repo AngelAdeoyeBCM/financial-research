@@ -1,0 +1,559 @@
+{
+  "batch_id": "2026-01-11",
+  "window": [
+    "2026-01-11",
+    "2026-01-11"
+  ],
+  "generated_at": "2026-10-29T16:26:11",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-09_2026-01-12.json",
+      "sha256": "a5f02473c4a19f07f2e50e2572a8165a939b7a0092d10d1a11d7f3f4763c692d",
+      "records": 2756,
+      "dates": [
+        "2026-01-09",
+        "2026-01-12"
+      ],
+      "records_for_batch": 152
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 5,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 7,
+    "edits": 49,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 37,
+    "DISTORTED_TABLE": 13,
+    "UNSTRUCTURED_TEXT": 13,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "BC_FX___EM_Weekly_Thoughts_-_Diversification__equity__flows_and_the_dollar",
+      "document": "BC_FX & EM Weekly Thoughts - Diversification (equity) flows and the dollar.pdf",
+      "date": "2026-01-11",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 27,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        17
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 17]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +44 (0) 20 7773 2002 | +44 (0) 20 3555 6549 | +1 212 526 8954",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Diversification (equity) flows and the dollar.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 0 20 40 60 80",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Diversification (equity) flows and the dollar.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Daily_-_Launching_Our_Q4_GDP_Tracking_Estimate",
+      "document": "GS_US Daily - Launching Our Q4 GDP Tracking Estimate.pdf",
+      "date": "2026-01-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 100.0 2.5 2.1 5.1 3.7 1.0 2.4 | 67.9 2.2 2.4 3.0 3.0 1.2 2.2 | 13.8 6.6 3.6 1.8 1.8 5.8",
+          "chunk_id": "GS_US Daily - Launching Our Q4 GDP Tracking Estimate.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "GS_US Daily - Launching Our Q4 GDP Tracking Estimate.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 0 10 20 30",
+          "chunk_id": "GS_US Daily - Launching Our Q4 GDP Tracking Estimate.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 0 10 20 30",
+          "chunk_id": "GS_US Daily - Launching Our Q4 GDP Tracking Estimate.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: Q4 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 -1.0 -0.5 0.0",
+          "chunk_id": "GS_US Daily - Launching Our Q4 GDP Tracking Estimate.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 2025 0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50",
+          "chunk_id": "GS_US Daily - Launching Our Q4 GDP Tracking Estimate.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -160 -140 -120 -100 -80 -60 -40 -20 0 -160 -140 -120",
+          "chunk_id": "GS_US Daily - Launching Our Q4 GDP Tracking Estimate.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_ECONOMICS_ANALYST_-_2026_US_Economic_Outlook_-_Solid_Growth__Low_Inflation__Shaky_Labor_Market",
+      "document": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf",
+      "date": "2026-01-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Outlook",
+      "chunk_count": 33,
+      "page_count": 16,
+      "status": "skipped",
+      "missing_indices": [
+        8,
+        29
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8, 29]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00 2.25 2.50 2.75 0.25",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 2025 2026",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 2% Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 2025 2026 -6",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 4 2025 2026 -6 -4 -2 0 2 4 6 8 10",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 20",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 -3 -2 -1 0 1 2 3 4",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 1 2 3 4 0 1 2 3 4",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2.2 2.0 2.5 2.1 2.5 2.1 0.0 0.5 1.0 1.5 2.0 2.5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 -1 0",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "48 consecutive numeric/date tokens: 95 100 105 110 115 120 125 130 135 95 100 105",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.2 1.6 2.0 2.4 2.8 3.2 3.6 1.2 1.6 2.0 2.4 2.8",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -1 0 1 2 3 4 5 -1 0 1 2 3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -50 0 50 100 150 200 250 -50 0 50 100 150",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ercentPercent atePercent illionsMillions",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 2026 -3 -2 -1 0 1 2 3 4 5 6 7",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-12-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 2026 -3 -2 -1 0 1 2 3 4 5 6 7",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-12-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 -0.8 -0.6 -0.4 -0.2 0",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-13-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-14-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-15-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-15-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 60.1 59.9 59.7 59.5 59.3 59.9 59.7 59.7 59.7 59.6 59.5 59.5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 1.92 0.93 1.52 3.88 3.88 4.23 4.24 4.16 4.20 4.20 4.20 4.20",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 US Economic Outlook - Solid Growth, Low Inflation, Shaky Labor Market.pdf-15-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Australia_Macro_plus_Week_Ahead_-_While_You_Were_Away",
+      "document": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf",
+      "date": "2026-01-11",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 36,
+      "page_count": 16,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.60 0.62 0.64 0.66 0.68 0.70 0.72 2023 2024 2025 2026",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.60 0.62 0.64 0.66 0.68 0.70 0.72 2023 2024 2025 2026",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: July 90 100 110 120 130 140 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2.6 2.8 3.0 3.2 3.4 3.6 3.8 4.0 4.2 Mar-25 May-25 Jul-25",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 200 8717.8 -4.1% -0.1% -0.4% 1.6% -0.9% 0.0% 0.0% 2.1% 4.7%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet actSet",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 4 17 10 0 10 20 30 40 50 60 70 80",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: +7.4% 12MF, +9.9% -4.0% 0.0% 4.0% 8.0% 12.0% Aug-22 Nov-22 Feb-23 May-23",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 Feb-06 Feb-07 Feb-08 Feb-09",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: Dec-25 Nov-25 Oct-25 Sep-25 Aug-25 Jul-25 Jun-25 May-25 Apr-25 Mar-25",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-12-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-12-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 000s -- -21.4 41.2 11.2 -10.4 32.8 2.4 -3.2 92.5 18.7 -62.2",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-12-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-12-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 61.9 61.0 61 61 60.2 60.4 60 59.9 59.1 59.8 60.2 59.9",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-12-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-13-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-13-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-13-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 2025 2026 2027 2028 2025 2026 2027 2028 2025 2026 2027 2028",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-14-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-14-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: - 11.5 18.3 19.0 - 5.1% 2.1% 2.2%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-14-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-15-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-15-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "54% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-15-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-16-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - While You Were Away....pdf-16-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

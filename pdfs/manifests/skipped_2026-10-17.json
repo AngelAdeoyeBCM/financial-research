@@ -1,0 +1,306 @@
+{
+  "batch_id": "2026-10-17",
+  "window": [
+    "2026-10-17",
+    "2026-10-17"
+  ],
+  "generated_at": "2026-10-29T16:32:46",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-16_2026-10-19.json",
+      "sha256": "1c7039b0545c2360da8499de60928e2ed3ae04de223ec7a2ce170ed328712acb",
+      "records": 3110,
+      "dates": [
+        "2026-10-16",
+        "2026-10-19"
+      ],
+      "records_for_batch": 77
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 4,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 16,
+    "UNSTRUCTURED_TEXT": 6,
+    "DISTORTED_TABLE": 5,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "BNP_Sunday_Tea_with_BNPP_-_If_the_tide_turns",
+      "document": "BNP_Sunday Tea with BNPP - If the tide turns.pdf",
+      "date": "2026-10-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0.4% 0.5% 0.6% 0.7% 0.8% 0.9% 1.0% 1.1% 1.2% 1.3% Oct-16 Oct-19",
+          "chunk_id": "BNP_Sunday Tea with BNPP - If the tide turns.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_The_JPM_View_-_AI_gain__Cyclicals_pain__Fed_strain-Narrow_Risk-On_Leadership",
+      "document": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf",
+      "date": "2026-10-17",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 36,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "47 consecutive numeric/date tokens: -16 -14 -7 -4 -4 -2 -2 -2 -2 -2 -1 -1",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 20 40 60 80 100 120 Oct 26 Jan 27 Apr",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 2.50 3.00 3.50 4.00 4.50 5.00 5.500.6 0.7 0.8 0.9 1.0 1.1",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-5-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 20% 30% 40% 50% 60% 70% 80% 90% 100% 97 99 01",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-7-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 20% 30% 40% 50% 60% 70% 80% 90% 100% 97 99 01",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-7-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 20 25 Jan-25 Jul-25 Jan-26",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-8-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "46% of tokens are numeric/date values",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: Dec-26 96 85 105 90 359 315 382 300",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: Dec-26 96 85 105 90 359 315 382 300",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-10-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2025 2026 2027 1Q26 2Q26 3Q26 4Q26 1Q27 2Q27 2Q26 4Q26 2Q27",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-11-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-11-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 7.7 6.8 6.5 8.1 6.3 6.5 5.8 5.6 6.7 3.9 6.0 5.5",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-11-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-11-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2.5 1.9 2.3 0.4 1.1 2.3 2.3 2.3 2.8 2.0 2.2 2.2",
+          "chunk_id": "JPM_The JPM View - AI gain, Cyclicals pain, Fed strain-Narrow Risk-On Leadership.pdf-11-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_US_Rates_Strategy_-_Risk_Cracks_Revive_Treasury_Haven_Demand",
+      "document": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf",
+      "date": "2026-10-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        10,
+        18
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [10, 18]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 40,344 41,104 30,000 31,000 32,000 33,000 34,000 35,000 36,000 37,000 38,000 39,000",
+          "chunk_id": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 10/2 0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00 2.25 2.50",
+          "chunk_id": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 3.1, 26.0 -100 -80 -60 -40 -20 0 20 40 60 80",
+          "chunk_id": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -22 -131 -300 -275 -250 -225 -200 -175 -150 -125 -100 -75",
+          "chunk_id": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0.9656 3.50 3.75 4.00 4.25 4.50 4.75 5.00 5.25 5.50 2.50 2.75",
+          "chunk_id": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 4.00 4.25 4.50 4.75 5.00 5.25 5.50 2.50 2.75 3.00 3.25 3.50",
+          "chunk_id": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -0.3 1.2 -4 -3 -2 -1 0 1 2 3 4 5",
+          "chunk_id": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_US Rates Strategy - Risk Cracks Revive Treasury Haven Demand.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_If_the_tide_turns_Desknote--933817",
+      "document": "Sunday_Tea_with_BNPP_If_the_tide_turns_Desknote--933817.pdf",
+      "date": "2026-10-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0.4% 0.5% 0.6% 0.7% 0.8% 0.9% 1.0% 1.1% 1.2% 1.3% Oct-16 Oct-19",
+          "chunk_id": "Sunday_Tea_with_BNPP_If_the_tide_turns_Desknote--933817.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "batch_id": "2026-09-17",
+  "window": [
+    "2026-09-17",
+    "2026-09-17"
+  ],
+  "generated_at": "2026-10-29T16:31:50",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-14_2026-09-17.json",
+      "sha256": "3b45d86e2178bf0d0114d5f873ed7d26fb73868ab9d7abe551e3bb4e3d155015",
+      "records": 2246,
+      "dates": [
+        "2026-09-14",
+        "2026-09-17"
+      ],
+      "records_for_batch": 691
+    }
+  ],
+  "counts": {
+    "documents": 24,
+    "in_scope": 17,
+    "out_of_scope": 7,
+    "compiled": 1,
+    "skipped": 15,
+    "duplicate": 0,
+    "protected": 1,
+    "compiled_with_warnings": 1,
+    "stripped_items": 12,
+    "edits": 5,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Euro_Area_inflation_August_final_review_-_Still_an_energy_story",
+      "document": "BC_Euro Area inflation August final review - Still an energy story.pdf",
+      "date": "2026-09-17",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 16,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.636,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Global_Rates_Weekly_-_Not_enough_to_break",
+      "document": "BC_Global Rates Weekly - Not enough to break.pdf",
+      "date": "2026-09-17",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 111,
+      "page_count": 50,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.981,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_UK_Watch_-_BoE_review_-_Hawkish_hold__increasingly_nervous",
+      "document": "BofA_UK Watch - BoE review - Hawkish hold, increasingly nervous.pdf",
+      "date": "2026-09-17",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 17,
+      "page_count": 6,
+      "status": "protected",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Brazil_election_tracker_Choosing_a_fiscal_path_Desknote--932139",
+      "document": "Brazil_election_tracker_Choosing_a_fiscal_path_Desknote--932139.pdf",
+      "date": "2026-09-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 46,
+      "page_count": 24,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.818,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Fed_Notes_-_Who_s_who_in_the_September_2026_dot_plot",
+      "document": "DB_Fed Notes - Who's who in the September 2026 dot plot.pdf",
+      "date": "2026-09-17",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_European_Daily_-_BoE_Recap_Opening_the_Door_to_a_November_Hike",
+      "document": "GS_European Daily - BoE Recap—Opening the Door to a November Hike.pdf",
+      "date": "2026-09-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/GS_European_Daily_-_BoE_Recap_Opening_the_Door_to_a_November_Hike.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "39995f7deb5d4dd25adc79d61f97b7a0165aba5f",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Exhibit 1: We Maintain Our Forecast for a November Hike but See the Probability-Weighted Path Below '",
+          "chunk_id": "GS_European Daily - BoE Recap—Opening the Door to a November Hike.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "James Moberly +44(20)7774-9444 | james.r.moberly@gs.com Goldman Sachs International Sven Jari Stehn +44(20)7774-8061 | jari.stehn@gs.com Goldman Sachs International"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Investors should consider this report as only a single factor in making their investment decision."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "www.gs.com/research/hedge.html."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "17 September 2026 2 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "17 September 2026 3 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "17 September 2026 4 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Goldman Sachs Global Investment Research, Bloomberg     European Economics Team Sven Jari Stehn +44(20)7774-8061 jari.stehn@gs.com Goldman Sachs International Filippo Taddei +44(20)7774-5458 filippo.taddei@gs.com Goldman Sachs International Alexandre Stott +33(1)4212-1108 alexandre.stott@gs.com Goldman Sachs Bank Europe SE - Paris Branch James Moberly +44(20)7774-9444 james.r.moberly@gs.com Goldman Sachs International Niklas Garnadt +49(69)7532-1537 niklas.garnadt@gs.com Goldman Sachs Bank Europe SE Katya Vashkinskaya +44(20)7774-4833 katya.vashkinskaya@gs.com Goldman Sachs International Giovanni Pierdomenico +44(20)7051-6807 giovanni.pierdomenico@gs.com Goldman Sachs International"
+        }
+      ],
+      "stripped_by_section": {
+        "signature": 2,
+        "disclaimer": 6,
+        "footer": 4
+      },
+      "edits": {
+        "bullet": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " n ",
+              "after": " • "
+            },
+            {
+              "before": "n ",
+              "after": ""
+            },
+            {
+              "before": "n ",
+              "after": ""
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "European Daily: BoE Recap—Opening the Door to a November Hike ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_GLOBAL_STRATEGY_VIEWS_-_Competition_for_Capital__2",
+      "document": "GS_GLOBAL STRATEGY VIEWS - Competition for Capital (2).pdf",
+      "date": "2026-09-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.077,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_GLOBAL_STRATEGY_VIEWS_-_Competition_for_Capital",
+      "document": "GS_GLOBAL STRATEGY VIEWS - Competition for Capital.pdf",
+      "date": "2026-09-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.077,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Rates_Notes_-_BoE_Announce_Gilt-Friendly_QT_Plan",
+      "document": "GS_Global Rates Notes - BoE Announce Gilt-Friendly QT Plan.pdf",
+      "date": "2026-09-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Goal_Post_-_The_name_is_bond___rethinking_duration_in_balanced_portfolios",
+      "document": "GS_Goal Post - The name is bond — rethinking duration in balanced portfolios.pdf",
+      "date": "2026-09-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 39,
+      "page_count": 19,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.658,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Hawkish_Fed__Selective_EM_Opportunities",
+      "document": "Hawkish Fed, Selective EM Opportunities.pdf",
+      "date": "2026-09-17",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Japan_Domestic_flows_not_bullish_for_the_JPY_Desknote--932107",
+      "document": "Japan_Domestic_flows_not_bullish_for_the_JPY_Desknote--932107.pdf",
+      "date": "2026-09-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.857,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_US_Economics_and_Fixed_Income_Strategy_-_September_FOMC_Reaction_-_Further_hikes_ahead",
+      "document": "MS_US Economics and Fixed Income Strategy - September FOMC Reaction - Further hikes ahead.pdf",
+      "date": "2026-09-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 37,
+      "page_count": 20,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.838,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "SNB_preview__Peak_Dovishness",
+      "document": "SNB preview: Peak Dovishness?.pdf",
+      "date": "2026-09-17",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_UK_Economic_Comment_-_BoE_-_On_hold__we_change_our_call_for_a",
+      "document": "UBS_UK Economic Comment - BoE - On hold; we change our call for a.pdf",
+      "date": "2026-09-17",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 12,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.917,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_Claims_data_dips__starts_too",
+      "document": "UBS_US Daily Data Recap - Claims data dips, starts too.pdf",
+      "date": "2026-09-17",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.444,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Economic_Perspectives_-_US_Inflation_Monthly_-_Is_trend_CPI_or_PCE",
+      "document": "UBS_US Economic Perspectives - US Inflation Monthly - Is trend CPI or PCE.pdf",
+      "date": "2026-09-17",
+      "publisher": "UBS",
+      "document_type": "Monthly",
+      "chunk_count": 89,
+      "page_count": 37,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.719,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

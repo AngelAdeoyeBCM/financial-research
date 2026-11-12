@@ -1,0 +1,234 @@
+{
+  "batch_id": "2026-07-16",
+  "window": [
+    "2026-07-16",
+    "2026-07-16"
+  ],
+  "generated_at": "2026-10-29T16:30:34",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 80
+    }
+  ],
+  "counts": {
+    "documents": 8,
+    "in_scope": 7,
+    "out_of_scope": 1,
+    "compiled": 4,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 15,
+    "edits": 28,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 12,
+    "DISTORTED_TABLE": 6,
+    "UNSTRUCTURED_TEXT": 2,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "Carry_Returns__Value_Remains",
+      "document": "Carry Returns, Value Remains.pdf",
+      "date": "2026-07-16",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 16 July 2026 1 | 7 May 2026 84.49 79 86.5 1.9% | 25 Jun 2026 52.93 51",
+          "chunk_id": "Carry Returns, Value Remains.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 25 Jun 2026 52.93 51 | 2 Jul 2026 16.38 15.8 16.8 0.1% | 9 Jul 2026 189.7 197 186 -1.2%",
+          "chunk_id": "Carry Returns, Value Remains.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 2% 4% 13% 90% 10% 88% 50% 35% 84% 12%",
+          "chunk_id": "Carry Returns, Value Remains.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -9 -7 -5 -3 -1 1 75 80 85 90 95 100",
+          "chunk_id": "Carry Returns, Value Remains.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -9 -7 -5 -3 -1 1 75 80 85 90 95 100",
+          "chunk_id": "Carry Returns, Value Remains.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Carry Returns, Value Remains.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 3.75% 08/06 0.37 n/a | 6.00% 07/21 -0.56 67% | 3.75% 09/09 -0.13 64%",
+          "chunk_id": "Carry Returns, Value Remains.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 25 Jun 2026 94.46 95.38 9 Jul 2026 -0.93%",
+          "chunk_id": "Carry Returns, Value Remains.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -10.0 -5.0 0.0 5.0 10.0 15.0 Jul-23 Feb-24 Sep-24 Apr-25 Nov-25 Jul-26",
+          "chunk_id": "Carry Returns, Value Remains.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "China_Faster_execution_of_stimulus_ahead_Desknote--928276",
+      "document": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf",
+      "date": "2026-07-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 22,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "41 consecutive numeric/date tokens: 0 2 4 6 8 Q1 22 Q2 22 Q3 22 Q4",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2017 2018 2019 2020",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2017 2018 2019 2020",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -10 0 10 20 30 Jan-25 Feb-25 Mar-25 Apr-25 May-25 Jun-25 Jul-25",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "78 consecutive numeric/date tokens: 2,120 -424 -240 460 1,914 130 279 -1,000 -500 0 500 1,000",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.2 1.4 1.6 1.8 2.0 Aug-25 Oct-25 Dec-25 Feb-26 Apr-26 Jun-26",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.2 1.4 1.6 1.8 2.0 Aug-25 Oct-25 Dec-25 Feb-26 Apr-26 Jun-26",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-6-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 4,000 5,000 6,000 7,000 8,000 9,000 10,000 Jan-25 Apr-25 Jul-25 Oct-25 Jan-26",
+          "chunk_id": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf-7-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_rates_The_bellyweight_champion_Trade_Idea--928339",
+      "document": "US_rates_The_bellyweight_champion_Trade_Idea--928339.pdf",
+      "date": "2026-07-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -50 -45 -40 -35 -30 -25 -20 -15 -10 -5 0 Jul-25",
+          "chunk_id": "US_rates_The_bellyweight_champion_Trade_Idea--928339.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48 consecutive numeric/date tokens: 2025 -4.8 7.2 2024 -3.7 6.4 2023 2.3 12.3 2022 -21.4 -11.1",
+          "chunk_id": "US_rates_The_bellyweight_champion_Trade_Idea--928339.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

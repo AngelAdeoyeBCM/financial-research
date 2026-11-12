@@ -1,0 +1,247 @@
+{
+  "batch_id": "2026-09-15",
+  "window": [
+    "2026-09-15",
+    "2026-09-15"
+  ],
+  "generated_at": "2026-10-29T16:31:47",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-14_2026-09-17.json",
+      "sha256": "3b45d86e2178bf0d0114d5f873ed7d26fb73868ab9d7abe551e3bb4e3d155015",
+      "records": 2246,
+      "dates": [
+        "2026-09-14",
+        "2026-09-17"
+      ],
+      "records_for_batch": 63
+    }
+  ],
+  "counts": {
+    "documents": 5,
+    "in_scope": 5,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 3,
+    "edits": 7,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 15,
+    "DISTORTED_TABLE": 4,
+    "MISSING_CHUNKS": 1,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "Chile_pension_reform_What_does_the_new_AFP_regime_imply_Desknote--931929",
+      "document": "Chile_pension_reform_What_does_the_new_AFP_regime_imply_Desknote--931929.pdf",
+      "date": "2026-09-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 20,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 2 7 15 25 30 33 40 38 25 3 1",
+          "chunk_id": "Chile_pension_reform_What_does_the_new_AFP_regime_imply_Desknote--931929.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70",
+          "chunk_id": "Chile_pension_reform_What_does_the_new_AFP_regime_imply_Desknote--931929.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 Jan Feb Mar Apr May Jun",
+          "chunk_id": "Chile_pension_reform_What_does_the_new_AFP_regime_imply_Desknote--931929.pdf-3-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -150 -100 -50 0 50 0 2 4 6 8 Sep-16 Sep-18",
+          "chunk_id": "Chile_pension_reform_What_does_the_new_AFP_regime_imply_Desknote--931929.pdf-3-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "26 consecutive numeric/date tokens: 13.5 18.3 1.4 3.4 1.3 3.3 24.4 40.6 17.4 29.1 0.0 8.7",
+          "chunk_id": "Chile_pension_reform_What_does_the_new_AFP_regime_imply_Desknote--931929.pdf-4-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "26 consecutive numeric/date tokens: 10.9 14.8 10.0 13.6 7.8 10.6 18.3 30.5 13.3 22.2 0.0 6.7",
+          "chunk_id": "Chile_pension_reform_What_does_the_new_AFP_regime_imply_Desknote--931929.pdf-4-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "China_Soft_growth_raises_probability_of_measured_stimulus_in_Q4_Desknote--931905",
+      "document": "China_Soft_growth_raises_probability_of_measured_stimulus_in_Q4_Desknote--931905.pdf",
+      "date": "2026-09-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 215 September 2026 -10 -5 0 5 10 15 Jan-19 Jul-19 Jan-20",
+          "chunk_id": "China_Soft_growth_raises_probability_of_measured_stimulus_in_Q4_Desknote--931905.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 315 September 2026 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2017",
+          "chunk_id": "China_Soft_growth_raises_probability_of_measured_stimulus_in_Q4_Desknote--931905.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JGB_Earning_risk_premium_from_JGBs_Desknote--931826",
+      "document": "JGB_Earning_risk_premium_from_JGBs_Desknote--931826.pdf",
+      "date": "2026-09-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 15,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 75 80 85 90 95 100 105 110 Jan-24 Aug-24 Mar-25 Oct-25",
+          "chunk_id": "JGB_Earning_risk_premium_from_JGBs_Desknote--931826.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 1 2 3 4 5 6 Aug-21 Aug-22 Aug-23 Aug-24 Aug-25",
+          "chunk_id": "JGB_Earning_risk_premium_from_JGBs_Desknote--931826.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2.00 2.10 2.20 2.30 2.40 2.50 2.603.7 3.8 3.9 4.0 4.1 4.2",
+          "chunk_id": "JGB_Earning_risk_premium_from_JGBs_Desknote--931826.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 10 20 30 40 50 Jul-20 Jul-21 Jul-22 Jul-23 Jul-24 Jul-25",
+          "chunk_id": "JGB_Earning_risk_premium_from_JGBs_Desknote--931826.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 30% 40% 50% 60% 70% 80% 90% Jul-20 Jul-21 Jul-22 Jul-23 Jul-24",
+          "chunk_id": "JGB_Earning_risk_premium_from_JGBs_Desknote--931826.pdf-3-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931",
+      "document": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931.pdf",
+      "date": "2026-09-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 23.4 23.2 23.0 23.0 22.4 22.2 23.2 22.9",
+          "chunk_id": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 1.79 1.79 1.80 - 1.80 1.80 1.80 - 2026 2027",
+          "chunk_id": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 12.712.712.7 13.913.412.9 14.214.715.215.415.9 22.222.322.4",
+          "chunk_id": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "92 consecutive numeric/date tokens: 23.0 23.1 23.1 24.9 25.2 25.6 25.5 27.3 27.2 26.6 26.7 20",
+          "chunk_id": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 1.0% 1.5% 2.0% 2.5% 3.0% 7.0% 56.7% 55.8% 55.0% 54.2% 53.4% 7.5%",
+          "chunk_id": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025",
+          "chunk_id": "Mexico_Budget_2027_Revenue-led_consolidation_rising_debt_Desknote--931931.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

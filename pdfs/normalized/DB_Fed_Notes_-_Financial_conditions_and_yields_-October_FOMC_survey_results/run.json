@@ -1,0 +1,225 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_Financial_conditions_and_yields_-October_FOMC_survey_results.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-26",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 11,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 8
+    },
+    "leave_reasons": {
+     "not_a_reference": 2,
+     "relative": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "noun_phrase": 5,
+   "pronoun": 4,
+   "deixis": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.9714285714285714,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 32,
+  "cost_usd": 0.1057
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 365,
+   "end": 393,
+   "quote": "current financial conditions",
+   "name": "current financial conditions"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 641,
+   "end": 722,
+   "quote": "the level of the 10y UST yield that would lead to sustainably lower equity prices",
+   "name": "the level of the 10y UST yield that would lead to sustainably lower equity prices"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1396,
+   "end": 1415,
+   "quote": "the October meeting",
+   "name": "the October meeting"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4084,
+   "end": 4106,
+   "quote": "the 25bp-hike scenario",
+   "name": "the 25bp-hike scenario"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2003,
+   "end": 2030,
+   "quote": "the October meeting outcome",
+   "name": "the October meeting outcome"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 13",
+   "message": "'he' in '- In terms of t he economic impact of the policy action th'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0392648,
+   "duration_ms": 4003,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4168,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 248,
+    "output_tokens_details": {
+     "thinking_tokens": 235
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4168,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 248,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4168,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4168
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.06638880000000001,
+   "duration_ms": 12890,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4642,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1403,
+    "output_tokens_details": {
+     "thinking_tokens": 758
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4642,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1403,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4642,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4642
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

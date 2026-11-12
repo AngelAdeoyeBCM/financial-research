@@ -1,0 +1,191 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Taking_profit_on_long_AUDCAD_Trade_Idea--922411.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "thing": 4,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 3
+    },
+    "leave_reasons": {},
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 15,
+  "kinds": {
+   "deixis": 10,
+   "demonstrative": 2,
+   "noun_phrase": 2,
+   "proposition": 1
+  },
+  "rooted_share": 0.8148148148148148,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 16,
+  "cost_usd": 0.0752
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 171,
+   "end": 223,
+   "quote": "The energy price shock from the Middle East-conflict",
+   "name": "the energy price shock from the Middle East-conflict"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 427,
+   "end": 472,
+   "quote": "scope for the currency to come under pressure",
+   "name": "the scope for the currency to come under pressure"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 521,
+   "end": 605,
+   "quote": "markets have been trading headlines suggesting potential de-escalation more actively",
+   "name": "markets have been trading headlines suggesting potential de-escalation more actively"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 232,
+   "end": 239,
+   "quote": "the CAD",
+   "name": "the CAD"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 100,
+   "end": 106,
+   "quote": "AUDCAD",
+   "name": "AUDCAD"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.024050200000000004,
+   "duration_ms": 2171,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2697,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 83,
+    "output_tokens_details": {
+     "thinking_tokens": 70
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2697,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 83,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2697,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2697
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.051103800000000005,
+   "duration_ms": 12958,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2777,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1394,
+    "output_tokens_details": {
+     "thinking_tokens": 943
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2777,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1394,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2777,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2777
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

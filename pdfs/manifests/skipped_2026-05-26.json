@@ -1,0 +1,2087 @@
+{
+  "batch_id": "2026-05-26",
+  "window": [
+    "2026-05-26",
+    "2026-05-26"
+  ],
+  "generated_at": "2026-10-29T16:29:18",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-25_2026-05-28.json",
+      "sha256": "7b8c622d71e254f786506c65ba13a98e0c997c4ea4b9b2cd1ae1b500d5aef5c9",
+      "records": 668,
+      "dates": [
+        "2026-05-25",
+        "2026-05-28"
+      ],
+      "records_for_batch": 538
+    }
+  ],
+  "counts": {
+    "documents": 21,
+    "in_scope": 18,
+    "out_of_scope": 3,
+    "compiled": 2,
+    "skipped": 16,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 21,
+    "edits": 13,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 113,
+    "UNSTRUCTURED_TEXT": 80,
+    "DISTORTED_TABLE": 55,
+    "MISSING_CHUNKS": 8,
+    "NON_ENGLISH_SCRIPT": 1
+  },
+  "documents": [
+    {
+      "stem": "BC_Japan_Economic_Update_-_The_Illusion_of_realized_profits_from_FX_intervention",
+      "document": "BC_Japan Economic Update - The Illusion of realized profits from FX intervention.pdf",
+      "date": "2026-05-26",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x70, HIRAGANA x8",
+          "chunk_id": "BC_Japan Economic Update - The Illusion of realized profits from FX intervention.pdf-2-3",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 100 110 120 130 140 150 160 16 17 18 19 20",
+          "chunk_id": "BC_Japan Economic Update - The Illusion of realized profits from FX intervention.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0",
+          "chunk_id": "BC_Japan Economic Update - The Illusion of realized profits from FX intervention.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_Japan_Insight_BofA_Strategy_Monthly_-_Reassessing_Japan_equities_in_the_age_of_AI__hardware_and_physical_assets",
+      "document": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf",
+      "date": "2026-05-26",
+      "publisher": "Bank of America",
+      "document_type": "Monthly",
+      "chunk_count": 235,
+      "page_count": 90,
+      "status": "skipped",
+      "missing_indices": [
+        39,
+        61,
+        64,
+        68,
+        78,
+        98,
+        185,
+        192,
+        206,
+        221,
+        240
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [39, 61, 64, 68, 78, 98, 185, 192, 206, 221, 240]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -0.9 -1.2 -0.8 -0.4 0.0 0.4 0.8 1.2",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: -3.3 -1.4 -6.3 -4.3 -13.1 -7.4 -6.5 -8.3 -31.7 -3.4 -8.3 -6.3",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -2 0 2 4 6 8 10 12 05 06 07 08",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 8 10 88 90 92",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.028 30",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 96 98 100 102 104 106 108 110 112 114 50 100",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-10-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 240 260 280 300 320 340 360 380 10 11 12 13",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 240 260 280 300 320 340 360 380 10 11 12 13",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-11-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-11-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: -3 -2 -1 0 1 2 3 4 5 20 22 24",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-12-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 8 10 12 14 16 18 20 22 5.5 6.5 7.5 8.5",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-13-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 8 10 12 14 16 18 20 22 5.5 6.5 7.5 8.5",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-13-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 4,500 -600 -400",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-14-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 4,500 -600 -400",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-14-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -20% 0% 20% 40% 60% 80% 100% -40 -20 0 20 40",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-15-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -20% -10% 0% 10% 20% 30% 40% 50% 60% 70% 80% -40",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 20 25 30 35",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-16-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 20 25 30 35",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-16-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "45 consecutive numeric/date tokens: Jan-26 Feb-26 Mar-26 Apr-26 May-26 Jun-26 Jul-26 Aug-26 Sep-26 Oct-26 Nov-26 Dec-26",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-17-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 99 Oct-99 Nov-99 Dec-99 Jan-00 Feb-00 Mar-00 Apr-00 May-00",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-17-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-17-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 50 60 70 80 90 100 110 120 130 140 -20% -10%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-18-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-19-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-19-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "56% of tokens are numeric/date values",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-20-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-20-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "69% of tokens are numeric/date values",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-20-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-20-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "55% of tokens are numeric/date values",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-20-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-21-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "64% of tokens are numeric/date values",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-21-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-21-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "49% of tokens are numeric/date values",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-21-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 7,234 663.7 9.2 17.6 14.4 1.6 15.0 5016",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-22-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-22-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 2,721 70.0 2.6 22.1 26.7 3.0 -36.4 6178",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-22-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-22-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 824 10.0 1.2 13.5 0.0 1.5 34.0 6273",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-22-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 480 520 560 600 640 680 720 01 03 05 07 09",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-23-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 480 520 560 600 640 680 720 01 03 05 07 09",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-23-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.4 0.0 0.4 0.8 1.2 1.6 2.0 2.4 2.8 3.2 Aug-22 Aug-23",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-26-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0.7552 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 2.2 2.4",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-28-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: -10% -5% 0% 5% 10% 15% 20% 25% 30% -80% -70% -60%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-28-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 52.0 -46.2% 85.7 -11.4% 95.9 11.9% 106.5 11.0% 77",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-29-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-29-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 2,592.6 2,700.0 -4.0% 2,446.0 6.0% 2,900.6 2,738.3 5.9% 3,137.8 3,006.5 4.4%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-29-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 85.7 52.0 64.8% 85.7 0.0% 95.9 87.2 10.0% 106.5 95.2 11.9% 77",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-29-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-29-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 2.83% 3.18% 3.40% 3.71% 4.50% 5.94% 5.09% 2.83%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-31-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 2.83% 3.18% 3.40% 3.71% 4.50% 5.94% 5.09% 2.83%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-31-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: 25,000 30,000 35,000 40,000 45,000 50,000 55,000 60,000 3 4 5 6",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-31-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 12/31/2025 10,435 117.978 1,231 185 107 3/31/2026 19,080 96.050 1,833 275 174",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-32-82",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: (15%) 5.7 11.7 10.3 14.1 22.0 25.4 27.5 220.2",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-32-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "43 consecutive numeric/date tokens: 1.6% 4.8% 2.2% -1.0% -5.6% -16.1% 3.5% 6.7% 9.9% -2.0% 4.9% -0.2%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-33-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "23 consecutive numeric/date tokens: 605 481 434 468 498 637 218 232 221 220 218 216",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-35-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-35-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 1% 4% 5% 8% 50% 5% 9% -1% -1% 2% 7% 45%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-37-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-37-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-39-97",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 12.7 +11% 13.3 +49% 9.0 +6% 12.0 +23% 13.0 +2% 9.1 +7%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-41-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 16.0 +8% 13.3 +50% 15.6 +4% 12.5 -7% 13.3 -17% 12.5 -7%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-41-103",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 375.0 +6% 5.8 17.5 68.1 +1077% 5.0 1262% -9.9 na 58.0 -17%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-43-108",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 347.0 +11% 34.2 14.4 43.9 +28% 36.0 +22% 33.3 +32% 75.5 -46%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-43-109",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-43-109",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "52 consecutive numeric/date tokens: 0 40 80 120 160 200 240 280 320 360 400 440",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-43-110",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-43-110",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 40 80 120 160 1Q 2Q 3Q 4Q 1Q 2Q 3Q 4Q",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-44-112",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: 80 90 100 110 120 130 140 150 160 170 180 190",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-47-118",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 4,932 5,160 4,718 4.5% 4,200 17.4% 13,000 12,772 12,101 11,000 18.6%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-48-120",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 16,524 19,000 16,000 3.3% 16,600 -0.5% 17,200 17,400 17,700 3.1%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-48-121",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-48-121",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 20,968 20,298 3.3% 21,000 -0.2% 19,300 21,100 21,652 22,200 5.7%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-49-122",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-49-122",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 29,676 29,553 0.4% 29,800 -0.4% 28,200 32,112 33,457 35,200 -8.2%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-49-123",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-49-123",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 220 11.1 10.7 1.5 13.8 2.9 2% -9% -10% -5% 4% 2206",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-51-127",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-51-127",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 653 2.2 29.2 3.0 84.3 2.4 9% -11% -5% 2% 12% 2502",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-51-128",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-51-128",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 10 15 20 25 30 35 40 May-11 May-12 May-13 May-14 May-15",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-52-130",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 May-25 Jun-25 Jun-25 Jul-25",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-54-135",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-54-135",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "31 consecutive numeric/date tokens: Q4 282,095 291,641 271,900 9,395 21,900 -2,576 295,281 9% 30% 26,868 -50%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-56-139",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-56-139",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "31 consecutive numeric/date tokens: Q4 156,984 160,000 144,778 22,178 16,579 11,300 162,006 5% 29% 23,466 -5%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-56-140",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-56-140",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "31 consecutive numeric/date tokens: Q4 17,849 20,198 17,155 3,241 4,100 4,000 17,389 8% 26% 2,882 5%",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-56-141",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-56-141",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 70 80 90 100 110 120 130 140 150 Dec-25 Jan-26 Feb-26",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-58-145",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-58-145",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-59-146",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-59-147",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-59-148",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-59-149",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-80-216",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-80-217",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-80-218",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-81-219",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-81-220",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-82-222",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-82-223",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-82-224",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-83-225",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-83-226",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-83-227",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-84-228",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-84-229",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-85-231",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-85-232",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-86-233",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-86-234",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-87-235",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-87-236",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-88-238",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-88-239",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-89-241",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-89-242",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-90-244",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Japan Insight BofA Strategy Monthly - Reassessing Japan equities in the age of AI, hardware and physical assets.pdf-90-245",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_US_Viewpoint_-_Kevin_Warsh_primer",
+      "document": "BofA_US Viewpoint - Kevin Warsh primer.pdf",
+      "date": "2026-05-26",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 22,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        17,
+        21
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 17, 21]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: +1 646 855 9929 | +1 646 743 7013 | +1 646 743 7015",
+          "chunk_id": "BofA_US Viewpoint - Kevin Warsh primer.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 3.9 4.1 4.3 4.5 4.7 4.9 3.2 3.4 3.6 3.8 4.0 4.2",
+          "chunk_id": "BofA_US Viewpoint - Kevin Warsh primer.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.4 3.6 3.8 4.0 4.2 4.4 4.6 2022 2023 2024 2025 2026",
+          "chunk_id": "BofA_US Viewpoint - Kevin Warsh primer.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "35 consecutive numeric/date tokens: 0% 9% 6% 3% 18% 30% 33% 4% 4% 4% 13% 22%",
+          "chunk_id": "BofA_US Viewpoint - Kevin Warsh primer.pdf-8-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: May 26 Apr 26 Mar 26 Feb 26 Jan 26 95 97",
+          "chunk_id": "BofA_US Viewpoint - Kevin Warsh primer.pdf-8-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_US_Economics_-_Inflation_Weekly___Growing_focus_from_Fed_on_AI-affected_prices_in_PCE",
+      "document": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf",
+      "date": "2026-05-26",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        7,
+        11
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 7, 11]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2.73.34.13.53.32.21.31.6 3.02.73.02.92.72.82.62.6 Energy2.112.621.217.415.60.5-7.7-5.5 CPI2.62.62.82.42.52.32.02.1 Goods1.41.21.10.81.01.01.00.9 Services3.03.03.32.93.02.72.32.5",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -2 0 2 4 6 8 10 Jan-18 Jan-19 Jan-20 Jan-21 Jan-22",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 2.0 2.5 3.0 3.5 4.0 4.5 Jan-10 Jan-13 Jan-16 Jan-19 Jan-22 Jan-25",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 30 40 50 60 70 80 90 Jan-17 Jul-18 Jan-20 Jul-21 Jan-23",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 1 3 5 7 9 11 13 15 1 2 3 4",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "73 consecutive numeric/date tokens: 0.154 3.1 0.159 Nov-26 336.290 3.8 0.20 335.097 3.4 2.5 0.177 3.1",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 7 Jan-18 Jul-19 Jan-21",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Growing focus from Fed on AI-affected prices in PCE.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Fed_Watcher_-_Inflation_returns_to_driver_s_seat",
+      "document": "DB_Fed Watcher - Inflation returns to driver’s seat.pdf",
+      "date": "2026-05-26",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976",
+      "document": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf",
+      "date": "2026-05-26",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 24,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        17,
+        23
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [17, 23]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 2000000 4000000 6000000 8000000 10000000 0 5000000 10000000 15000000 20000000 25000000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 105.5 105.7 105.9 106.1 106.3 106.5 2100000 2200000 2300000 2400000 2500000 2600000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 114.5 115 115.5 116 116.5 1250000 1300000 1350000 1400000 1450000 1500000 1550000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 50 Jan-24",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 124 124.5 125 125.5 126 126.5 127 127.5 128 1440000 1490000 1540000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 124 124.5 125 125.5 126 126.5 127 127.5 128 1440000 1490000 1540000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 105 106 107 108 109 110 111 112 113 280000 300000 320000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -20 -10 0 10 20 30 40 50 Jan-24 Jul-24 Jan-25 Jul-25",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 114 115 116 117 118 119 120 500000 520000 540000 560000 580000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 50 Jan-24",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 105.5 105.7 105.9 106.1 106.3 106.5 106.7 106.9 390000 410000 430000 450000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.00 0.50 1.00 1.50 2.00 2.50 3.00 27/04/2026 04/05/2026 11/05/2026 18/05/2026",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 117 118 119 120 121 122 550000 570000 590000 610000 630000 650000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 117 118 119 120 121 122 550000 570000 590000 610000 630000 650000",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 50 Jan-24",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 0% 20% 40% 60% 80% 100% 135791113151719 | 0% 20% 40% 60% 80% 100% 135791113151719 | 0% 20% 40% 60% 80% 100% 135791113151719",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -20% 0% 20% 40% 60% 80% 100% 135791113151719",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "G10_rates_Eurex_futures_rolls_M6_U6_Desknote--924976.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Asia_Views_-_Hope_is_not_a_strategy",
+      "document": "GS_Asia Views - Hope is not a strategy.pdf",
+      "date": "2026-05-26",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 90 95 100 105 110 115 120 20 30 40 50 60",
+          "chunk_id": "GS_Asia Views - Hope is not a strategy.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0",
+          "chunk_id": "GS_Asia Views - Hope is not a strategy.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 2026 92 94 96 98 100 102 104 106 92 94 96",
+          "chunk_id": "GS_Asia Views - Hope is not a strategy.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 20 25 -20 -15",
+          "chunk_id": "GS_Asia Views - Hope is not a strategy.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 10 20 30 40 50 60 0 10 20 30 40",
+          "chunk_id": "GS_Asia Views - Hope is not a strategy.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 2026 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 -0.5 0.0 0.5",
+          "chunk_id": "GS_Asia Views - Hope is not a strategy.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Hungary___Euro_Area_Convergence_Could_Drive_A_Structural_Re-rating_in_Equities",
+      "document": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf",
+      "date": "2026-05-26",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 18,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -20 0 20 40 60 80 -20 0 20 40 60 80",
+          "chunk_id": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -20 0 20 40 60 80 -20 0 20 40 60 80",
+          "chunk_id": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: -2 0 2 4 6 8 10 12 -2 0 2 4",
+          "chunk_id": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 2.50 3.00 3.40 4.00 4.50 5.00 5.50 6.00 6.50",
+          "chunk_id": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 1.5 2.0 2.5 -0.5 0.0 0.5 1.0 1.5",
+          "chunk_id": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -10 0 10 20 30 40 -10 0 10 20 30 40",
+          "chunk_id": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -10 0 10 20 30 40 -10 0 10 20 30 40",
+          "chunk_id": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 60 80 100 120 140 160 60 80 100 120 140 160",
+          "chunk_id": "GS_Global Markets Daily - Hungary — Euro Area Convergence Could Drive A Structural Re-rating in Equities.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_USA_-_Consumer_Confidence_and_Labor_Differential_Decline_Slightly",
+      "document": "GS_USA - Consumer Confidence and Labor Differential Decline Slightly.pdf",
+      "date": "2026-05-26",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: May 19. -50 -40 -30 -20 -10 0 10 20 30 40",
+          "chunk_id": "GS_USA - Consumer Confidence and Labor Differential Decline Slightly.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS__US_Equity_Strategy_-_Weekly_Warm-up_-_Thoughts_from_the_Road_-_Part_2",
+      "document": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf",
+      "date": "2026-05-26",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 28,
+      "page_count": 15,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        16,
+        27
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 16, 27]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -50% -40% -30% -20% -10% 0% 10% 20% Jan-25 May-25 Sep-25 Jan-26",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 7% 0% 2% 4% 6% 8% 10% 12% 14% 16% 2019 2020",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 7% 0% 2% 4% 6% 8% 10% 12% 14% 16% 2019 2020",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 5.0% 3.4% 2.0% 0.7% 4.1% 3.2% 2.3% 0.6% 0% 1% 2% 3%",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-12-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-12-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "51 consecutive numeric/date tokens: 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-12-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: Jul-21 Dec-21 May-22 Oct-22 Mar-23 Aug-23 Jan-24 Jun-24 Nov-24 Apr-25 Sep-25 Feb-26",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-12-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-12-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 3000 5000 7000 9000 11000 13000 15000 17000 120 170 220 270",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-13-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 2026 2027 June 2028 2028 2026 2027 June 2028 2028",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-13-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-13-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "42 consecutive numeric/date tokens: -300 -200 -100 0 100 200 300 400 500 600 700 800",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-14-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 2021 2022 2023",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-15-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-15-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -45% -35% -25% -15% -5% 5% 15% 25% -40% -30% -20% -10%",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-15-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-15-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -50% -40% -30% -20% -10% 0% 10% 20% 30% -50% -40% -30%",
+          "chunk_id": "MS_ US Equity Strategy - Weekly Warm-up - Thoughts from the Road - Part 2.pdf-15-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "RBNZ_Preview__Hawkish_Hold",
+      "document": "RBNZ Preview: Hawkish Hold.pdf",
+      "date": "2026-05-26",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5",
+          "chunk_id": "RBNZ Preview: Hawkish Hold.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -6 -4 -2 0 2 41.00 1.50 2.00 2.50 3.00 3.50 4.00",
+          "chunk_id": "RBNZ Preview: Hawkish Hold.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "RBNZ Preview: Hawkish Hold.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_European_Economic_Perspectives_-_European_inflation_monthly_-_May_preview",
+      "document": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf",
+      "date": "2026-05-26",
+      "publisher": "UBS",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 23,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -2 0 2 4 6 8 10 12 Jan-20 Jan-21 Jan-22 Jan-23",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 0.5 0.7 0.7 0.7 0.6 0.5 0.3 0.4 0.7 0.5 0.8",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 2.1 2.1 2.1 2.1 2.1 2.1 2.1 2.1 2.1 2.1 2.1",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "222 consecutive numeric/date tokens: Jan-25 98.42 -0.27 2.52 97.66 -0.94 2.70 Feb-25 98.84 0.43 2.32 98.19",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "64 consecutive numeric/date tokens: 2.41 Apr-27 105.18 0.65 2.08 104.68 0.79 2.27 May-27 105.49 0.29 2.24",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -4 -2 0 2 4 6 8 10 12 Jan-11 Jan-14 Jan-17",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 28.6%) 1.8 1.6 1.6 1.5 1.5 1.1 1.0 0.8 1.3 0.8 1.1",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 3.0 3.1 3.0 3.0 3.0 3.0 3.0 3.0 3.0 3.1 3.1",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "224 consecutive numeric/date tokens: Jan-25 135.40 -0.11 2.98 131.86 -0.44 3.74 Feb-25 136.01 0.45 2.84 132.43",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "62 consecutive numeric/date tokens: 146.53 0.62 3.14 141.87 0.93 2.68 May-27 146.53 0.00 2.93 141.80 -0.04",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -2 -1 0 1 2 3 4 2014 2016 2018 2020 2022",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1% 0% 1% 2% 3% 4% 5% 6% 7% 8% 89 94",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "216 consecutive numeric/date tokens: Jan-25 99.88 -0.05 0.40 0.05 1.01 Feb-25 100.44 0.56 0.32 0.70 0.94",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: 0.21 0.73 -0.24 0.55 Oct-27 101.69 -0.01 0.75 0.00 0.56 Nov-27 101.53",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -4% -2% 0% 2% 4% 6% 8% 10% 12% 2020 2021 2022",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 1.3 1.2 1.6 1.4 1.2 1.2 1.3 1.1 1.1 1.4 1.7 1.6",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 2.7 1.6 1.6 1.6 1.7 1.7 1.7 1.7 1.7 1.7 2.6 2.6",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "250 consecutive numeric/date tokens: Jan 25 120.87 0.38 2.20 119.88 0.17 2.72 Feb 25 121.99 0.93",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "78 consecutive numeric/date tokens: 5 0.01 1.65 124.37 0.08 1.66 Apr 27 124.38 -0.77 1.47 123.50",
+          "chunk_id": "UBS_European Economic Perspectives - European inflation monthly - May preview.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-05-26",
+      "document": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf",
+      "date": "2026-05-26",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf-2-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_FX_-_FX_and_month-end_equity_rebalancing_-_May__26",
+      "document": "UBS_Global FX - FX and month-end equity rebalancing - May '26.pdf",
+      "date": "2026-05-26",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 5",
+          "chunk_id": "UBS_Global FX - FX and month-end equity rebalancing - May '26.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: April -12% -10% -8% -6% -4% -2% 0% 2% 4% 6% 8%",
+          "chunk_id": "UBS_Global FX - FX and month-end equity rebalancing - May '26.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -0.08 -0.06 -0.04 -0.02 0.00 0.02 0.04 0.06",
+          "chunk_id": "UBS_Global FX - FX and month-end equity rebalancing - May '26.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -0.08 -0.06 -0.04 -0.02 0.00 0.02 0.04 0.06",
+          "chunk_id": "UBS_Global FX - FX and month-end equity rebalancing - May '26.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: May 2026 -5 -4 -3 -2 -1 0 1 2 3 4",
+          "chunk_id": "UBS_Global FX - FX and month-end equity rebalancing - May '26.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_Rates_Map_-_Reality_Checks_on_Fed__AI_and",
+      "document": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf",
+      "date": "2026-05-26",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 27-Mar-26 -8 -4 -40 10 -4 | 30-Apr-26 19 7 0 28 13 | 27-Mar-26 35 32 20 45 3",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "52% of tokens are numeric/date values",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 50 2y 5y 10y",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -2 0 2 4 6 8 10 12 14 Jan-90 Jul-93 Jan-97",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: - Dec26 1 32 4 5 6 7 1.",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -3.0 0.0 3.0 6.0 9.0 12.0 Feb-91 Feb-96 Feb-01 Feb-06 Feb-11 Feb-16",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf-7-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -100 -80 -60 -40 -20 0 20 40 60 80 100 -1.0",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 3.4% 3.3 4.4 Mar-27, 3.1 Mar-28, 2.9 Dec-28, 2.9 1.0 2.0 3.0",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Reality Checks on Fed, AI and.pdf-9-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_Confidence_-_Soft__some_households_to_cut_back",
+      "document": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf",
+      "date": "2026-05-26",
+      "publisher": "UBS",
+      "document_type": "Daily",
+      "chunk_count": 15,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 66.5% 26.0% 7.4% 0% 10% 20% 30% 40% 50% 60% 70%",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 10.0% 0.0% 10.0% 72.5% 7.5% 0.0% 0.0% 0.0% 20.0% 40.0% 60.0% 80.0%",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 1977 1982 1987",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 1977 1982 1987",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 20 40 60 80 100 120 140 2000 2004 2008 2012 2016",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 20 25 00 02",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 4.2 -1.6 6.7 -9.6 | Feb Mar Apr May | 51.7 49.8 51.0 50.9",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 48.6 45.9 5.4 53.8 41 2.6 0 10 20 30 40 50",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 numeric rows: Feb Mar Apr May | 51.5 52.2 54.1 55.4 | 52.0 52.6 56.6 58.0",
+          "chunk_id": "UBS_US Daily Data Recap - Confidence - Soft, some households to cut back.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

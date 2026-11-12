@@ -1,0 +1,399 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-02-08.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 22,
+    "referents": {
+     "thing": 20,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 5,
+     "link": 15,
+     "ambiguous": 2
+    },
+    "leave_reasons": {
+     "time": 2,
+     "expletive": 2,
+     "not_a_reference": 1
+    },
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 42,
+  "kinds": {
+   "deixis": 20,
+   "possessive": 8,
+   "noun_phrase": 7,
+   "pronoun": 3,
+   "demonstrative": 2,
+   "proposition": 1,
+   "abbreviation": 1
+  },
+  "rooted_share": 0.6538461538461539,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 52,
+  "cost_usd": 0.1926
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 444,
+   "end": 523,
+   "quote": "the January employment report on Wednesday and the January CPI report on Friday",
+   "name": "the January employment report and the January CPI report"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 816,
+   "end": 897,
+   "quote": "headline (+75k forecast vs. +50k previously) and private (+75k vs. +37k) payrolls",
+   "name": "headline and private payrolls"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1474,
+   "end": 1481,
+   "quote": "the BLS",
+   "name": "the BLS"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3806,
+   "end": 3822,
+   "quote": "seasonal factors",
+   "name": "seasonal factors"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 4021,
+   "end": 4097,
+   "quote": "inflation over the second half of 2025 has the potential to be upgraded some",
+   "name": "inflation over the second half of 2025 has the potential to be upgraded some"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4116,
+   "end": 4134,
+   "quote": "some Fed officials",
+   "name": "some Fed officials"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4490,
+   "end": 4509,
+   "quote": "rental disinflation",
+   "name": "rental disinflation"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 622,
+   "end": 656,
+   "quote": "the Q4 employment cost index (ECI)",
+   "name": "the Q4 employment cost index"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5514,
+   "end": 5539,
+   "quote": "the year-over-year change",
+   "name": "the year-over-year change"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5864,
+   "end": 5883,
+   "quote": "the Fedspeak docket",
+   "name": "the Fedspeak docket"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5942,
+   "end": 5957,
+   "quote": "Governor Waller",
+   "name": "Governor Waller"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 6000,
+   "end": 6014,
+   "quote": "Governor Miran",
+   "name": "Governor Miran"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 6171,
+   "end": 6199,
+   "quote": "Atlanta Fed President Bostic",
+   "name": "Atlanta Fed President Bostic"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 6304,
+   "end": 6323,
+   "quote": "Cleveland’s Hammack",
+   "name": "Cleveland’s Hammack"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 6385,
+   "end": 6399,
+   "quote": "Dallas’s Logan",
+   "name": "Dallas’s Logan"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 6991,
+   "end": 7002,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 6821,
+   "end": 6844,
+   "quote": "a smaller balance sheet",
+   "name": "a smaller balance sheet"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 7644,
+   "end": 7659,
+   "quote": "Logan and Miran",
+   "name": "Logan and Miran"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 444,
+   "end": 473,
+   "quote": "the January employment report",
+   "name": "the January employment report"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 3421,
+   "end": 3433,
+   "quote": "headline CPI",
+   "name": "headline CPI"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 3484,
+   "end": 3488,
+   "quote": "core",
+   "name": "core"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "their",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R11",
+    "R12"
+   ]
+  },
+  {
+   "candidate": "C018",
+   "phrase": "their",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R14",
+    "R15"
+   ]
+  },
+  {
+   "candidate": "C022",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'Both will likel y reiterate their dovish leanings.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'While both of their hawkish views on rates are well known, '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.047579,
+   "duration_ms": 3933,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5135,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 272,
+    "output_tokens_details": {
+     "thinking_tokens": 264
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5135,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 272,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5135,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5135
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.14503370000000002,
+   "duration_ms": 39873,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5956,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4803,
+    "output_tokens_details": {
+     "thinking_tokens": 2974
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5956,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4803,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5956,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5956
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

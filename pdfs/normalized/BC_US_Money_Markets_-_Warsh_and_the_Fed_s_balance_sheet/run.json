@@ -1,0 +1,501 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BC_US_Money_Markets_-_Warsh_and_the_Fed_s_balance_sheet.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-30",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 44,
+    "referents": {
+     "thing": 17,
+     "claim": 6
+    },
+    "decisions": {
+     "link": 36,
+     "leave": 6,
+     "ambiguous": 2
+    },
+    "leave_reasons": {
+     "expletive": 2,
+     "relative": 4
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 46,
+  "kinds": {
+   "pronoun": 12,
+   "noun_phrase": 10,
+   "deixis": 9,
+   "possessive": 8,
+   "proposition": 4,
+   "demonstrative": 3
+  },
+  "rooted_share": 0.9354838709677419,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 2,
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 50,
+  "cost_usd": 0.264
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 54,
+   "end": 65,
+   "quote": "A Warsh Fed",
+   "name": "a Warsh Fed"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 96,
+   "end": 132,
+   "quote": "the Fed's \"ample\" reserves framework",
+   "name": "the Fed's \"ample\" reserves framework"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 321,
+   "end": 332,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 264,
+   "end": 271,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 5758,
+   "end": 5781,
+   "quote": "the Fed's balance sheet",
+   "name": "the Fed's balance sheet"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3005,
+   "end": 3010,
+   "quote": "Banks",
+   "name": "banks"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 1990,
+   "end": 1998,
+   "quote": "reserves",
+   "name": "reserves"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1463,
+   "end": 1479,
+   "quote": "an \"ample\" level",
+   "name": "the \"ample\" level"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 1951,
+   "end": 1998,
+   "quote": "major categories of liabilities beyond reserves",
+   "name": "the major categories of liabilities beyond reserves"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 2227,
+   "end": 2235,
+   "quote": "Treasury",
+   "name": "Treasury"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 2585,
+   "end": 2651,
+   "quote": "the Fed issues more cash, and currently that total is about $2.4tn",
+   "name": "the Fed issues more cash, and currently that total is about $2.4tn"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 2381,
+   "end": 2444,
+   "quote": "That currently has it targeting a quarter-end balance of $850bn",
+   "name": "That currently has it targeting a quarter-end balance of $850bn"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 3310,
+   "end": 3328,
+   "quote": "$4.5tn in payments",
+   "name": "the $4.5tn in payments"
+  },
+  {
+   "id": "R15",
+   "type": "claim",
+   "start": 3354,
+   "end": 3386,
+   "quote": "there is no netting of this flow",
+   "name": "there is no netting of this flow"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 3413,
+   "end": 3432,
+   "quote": "large payment needs",
+   "name": "large payment needs"
+  },
+  {
+   "id": "R17",
+   "type": "claim",
+   "start": 3461,
+   "end": 3532,
+   "quote": "they need to overdraw their reserve account to potentially settle these",
+   "name": "they need to overdraw their reserve account to potentially settle these"
+  },
+  {
+   "id": "R18",
+   "type": "claim",
+   "start": 3835,
+   "end": 3959,
+   "quote": "the Fed's balance sheet would increase up to twenty-fold intraday, as it extended credit to banks even on an unsecured basis",
+   "name": "the Fed's balance sheet would increase up to twenty-fold intraday, as it extended credit to banks even on an unsecured basis"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 4686,
+   "end": 4715,
+   "quote": "what the Fed defines as ample",
+   "name": "what the Fed defines as ample"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 4929,
+   "end": 4958,
+   "quote": "the largest swings in the TGA",
+   "name": "the largest swings in the TGA"
+  },
+  {
+   "id": "R21",
+   "type": "claim",
+   "start": 5128,
+   "end": 5349,
+   "quote": "A Fed chair that is aiming for a smaller balance sheet might find support for doing fewer reserve management purchases (RMPs) over time, and running repo pressures a touch higher at times, to achieve a lower balance sheet",
+   "name": "A Fed chair that is aiming for a smaller balance sheet might find support for doing fewer reserve management purchases (RMPs) over time, and running repo pressures a touch higher at times, to achieve a lower balance sheet"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 6061,
+   "end": 6105,
+   "quote": "matching the Fed's assets to its liabilities",
+   "name": "matching the Fed's assets to its liabilities"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 5556,
+   "end": 5572,
+   "quote": "the pace of RMPs",
+   "name": "the pace of RMPs"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 5739,
+   "end": 5781,
+   "quote": "the composition of the Fed's balance sheet",
+   "name": "the composition of the Fed's balance sheet"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C014",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "That",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R13",
+    "R12"
+   ]
+  },
+  {
+   "candidate": "C029",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C032",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C033",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C035",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C044",
+   "phrase": "these",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R23",
+    "R24"
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We intend' at 6665"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3961",
+   "message": "+23 words: {{This => That the Fed's balance sheet would increase up to twenty-fold intraday, as the Fed extended credit to banks even on an unsecured basis}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5422",
+   "message": "+38 words: {{This => That a Fed chair that is aiming for a smaller balance sheet might find support for doing fewer reserve management purchases (RMPs) over time, and running repo pressures a touch higher at times, to achieve a lower balance sheet}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'he' in \"For instance, he has argued that reducing the Fed's foot\""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'its' in \"ssentially matching the Fed's assets to its liabilities would mean backing reserves\""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'its' in \"support to matching the Fed's assets to its liabilities, meaning a shorter portfoli\""
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E008",
+      "phrase": "the balance sheet",
+      "occurrence": 2,
+      "referent": "R5"
+     },
+     "reason": "E008 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0426428,
+   "duration_ms": 4155,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4523,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 273,
+    "output_tokens_details": {
+     "thinking_tokens": 260
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4523,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 273,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4523,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4523
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1632729,
+   "duration_ms": 45532,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6178,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5625,
+    "output_tokens_details": {
+     "thinking_tokens": 3051
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6178,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5625,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6178,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6178
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.05813309999999999,
+   "duration_ms": 2277,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6820,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 108,
+    "output_tokens_details": {
+     "thinking_tokens": 81
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6820,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 108,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6820,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6820
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

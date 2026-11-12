@@ -1,0 +1,460 @@
+{
+  "batch_id": "2026-01-18",
+  "window": [
+    "2026-01-18",
+    "2026-01-18"
+  ],
+  "generated_at": "2026-10-29T16:26:18",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-25_2026-01-28.json",
+      "sha256": "5dfd5842e7e7518b563ed08eef4d020963b3f6596dfed2cca8eda50d9b351bc3",
+      "records": 1144,
+      "dates": [
+        "2026-01-17",
+        "2026-01-20"
+      ],
+      "records_for_batch": 64
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 3,
+    "out_of_scope": 1,
+    "compiled": 2,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 34,
+    "edits": 48,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_European_Equity_Strategy___Economics_Research_-_Tariffs_3.0",
+      "document": "BC_European Equity Strategy & Economics Research - Tariffs 3.0.pdf",
+      "date": "2026-01-18",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "compiled",
+      "output": "pdfs/BC_European_Equity_Strategy___Economics_Research_-_Tariffs_3.0.txt",
+      "asset_class_share": 0.167,
+      "fingerprint": "e398bea28896d170c1c6f277eb95a3d8f09a1d67",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: \"FIGURE 1. EU sectors' peak to trough performance post Liberation day FIGURE 2. EU exporters and tari\"",
+          "chunk_id": "BC_European Equity Strategy & Economics Research - Tariffs 3.0.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'FIGURE 3. Share of regional equity markets outperforming the US has been high in 2025 and ytd, as in'",
+          "chunk_id": "BC_European Equity Strategy & Economics Research - Tariffs 3.0.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Investors should consider this report as only a single factor in making their investment decision."
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Cross Asset Research 18 January 2026 European Equity Strategy Emmanuel Cau, CFA +44 (0)20 3134 0475 emmanuel.cau@barclays.com Barclays, UK Magesh Kumar Chandrasekaran, CFA +44 (0)20 3134 5983 magesh.kumarchandrasekaran@barclays.com Barclays, UK Emmanuel Makonga +44 (0)20 7773 2593 emmanuel.makonga@barclays.com Barclays, UK Arihanth Bohra Jain +91 (0)22 6175 1406 arihanth.bohrajain@barclays.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "+ 44 (0) 20 7773 1715 silvia.ardagna@barclays.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "+ 33 (0) 1 44583624 saadalla.nadrayazji@barclays.com"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Completed: 18-Jan-26, 21:44 GMT Released: 18-Jan-26, 21:48 GMT Restricted - External"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 January 2026 2 Barclays | European Equity Strategy & Economics Research"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 January 2026 3 Barclays | European Equity Strategy & Economics Research"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Bloomberg, Barclays Research Source: Bloomberg, Barclays Research"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 January 2026 4 Barclays | European Equity Strategy & Economics Research"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Bloomberg, Barclays Research Source: Bloomberg, Barclays Research"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 January 2026 5 Barclays | European Equity Strategy & Economics Research"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "signature": 3,
+        "footer": 7
+      },
+      "edits": {
+        "spacing": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " European Equity Strategy & Economics Research Tariffs 3.0 ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 17,
+          "examples": [
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 15,
+          "examples": [
+            {
+              "before": "'",
+              "after": "‘"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "‘"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FOR ANALYST CERTIFICATION",
+              "after": "FOR\n\n## ANALYST CERTIFICATION\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": [
+        {
+          "code": "disclaimer",
+          "context": "ment and is not an equity or debt research analyst. FOR\n\n## ANALYST CERTIFICATION\n\n(S) PLEASE SEE PAGE 6. FOR IMPORTANT EQUITY RESEARCH DISCL"
+        }
+      ]
+    },
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-01-18",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-01-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-01-18.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "085fb757e14a7b1b9cc5108178e78b306e967969",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Fedspeak Calendar Source: Deutsche Bank Research Provided for the exclusive use of cayla.b'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 2: DB US Forecast Summary Source: Deutsche Bank Research Provided for the exclusive use of ca'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 3: Data calendar and DB forecasts Source: Deutsche Bank Research Provided for the exclusive u'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 18/01/2026 15:00:12 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 18/01/2026 15:00:12 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Brett Ryan Senior US Economist +1-212-250-6294"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-20T19:07+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 January 2026 US Economic Notes Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Chief US Economist +1-212-250-6161 Justin Weidner Economist +1-212-469-1679 Amy Yang Economist +1-212-250-9959"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "www.scotusblog.com/2026/01/trump-v-cook-an-explainer/."
+        },
+        {
+          "rule": "url",
+          "section": "promotion",
+          "text": "https:// Second,"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "www.supremecourt.gov/"
+        },
+        {
+          "rule": "url",
+          "section": "promotion",
+          "text": "https:// )"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-20T19:07+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 January 2026 US Economic Notes Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-20T19:07+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 January 2026 US Economic Notes Deutsche Bank Securities Inc. Page 4"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-20T19:07+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 10,
+        "disclaimer": 9,
+        "signature": 2,
+        "promotion": 2
+      },
+      "edits": {
+        "split_word": {
+          "count": 6,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " )",
+              "after": ")"
+            },
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " What you need to know for the week ahead ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "\"",
+              "after": "“"
+            },
+            {
+              "before": "\"",
+              "after": "”"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Economics_vs_geo_politics_Sunday_Tea_with_BNP_Paribas--916708",
+      "document": "Sunday_Tea_with_BNPP_Economics_vs_geo_politics_Sunday_Tea_with_BNP_Paribas--916708.pdf",
+      "date": "2026-01-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.917,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

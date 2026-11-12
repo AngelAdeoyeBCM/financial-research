@@ -1,0 +1,524 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Lift-off_Sunday_Tea_with_BNP_Paribas--932230.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-20",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 38,
+    "referents": {
+     "thing": 24,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 33,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "relative": 2,
+     "not_a_reference": 1,
+     "time": 2
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     2,
+     0
+    ],
+    "undecided_per_attempt": [
+     1,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 86,
+  "kinds": {
+   "deixis": 48,
+   "possessive": 16,
+   "noun_phrase": 9,
+   "pronoun": 8,
+   "proposition": 2,
+   "shell": 1,
+   "symbol": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6861702127659575,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 3,
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 64,
+  "cost_usd": 0.3381
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 119,
+   "end": 126,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 583,
+   "end": 591,
+   "quote": "The FOMC",
+   "name": "the FOMC"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 710,
+   "end": 731,
+   "quote": "Fed Chair Kevin Warsh",
+   "name": "Fed Chair Kevin Warsh"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2034,
+   "end": 2096,
+   "quote": "description of the hike as removing a “dose of accommodation.”",
+   "name": "the description of the hike as removing a “dose of accommodation”"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2554,
+   "end": 2582,
+   "quote": "our 1x1.5 6m30y payer spread",
+   "name": "the 1x1.5 6m30y payer spread"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3167,
+   "end": 3184,
+   "quote": "the Bank of Japan",
+   "name": "the Bank of Japan"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3515,
+   "end": 3542,
+   "quote": "the Takaichi administration",
+   "name": "the Takaichi administration"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5179,
+   "end": 5190,
+   "quote": "Brent crude",
+   "name": "Brent crude"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5672,
+   "end": 5675,
+   "quote": "TTF",
+   "name": "TTF"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 5935,
+   "end": 6083,
+   "quote": "the decision to keep Bank Rate on hold is becoming an increasingly close call for the MPC, opening the door to a reluctant rate hike later this year",
+   "name": "the decision to keep Bank Rate on hold is becoming an increasingly close call for the MPC, opening the door to a reluctant rate hike later this year"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6481,
+   "end": 6488,
+   "quote": "the MPC",
+   "name": "the MPC"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 6176,
+   "end": 6214,
+   "quote": "a single ‘insurance ’ hike in November",
+   "name": "the single ‘insurance ’ hike in November"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7233,
+   "end": 7240,
+   "quote": "the GBP",
+   "name": "the GBP"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7518,
+   "end": 7524,
+   "quote": "EURGBP",
+   "name": "EURGBP"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 7737,
+   "end": 7760,
+   "quote": "the Swiss National Bank",
+   "name": "the Swiss National Bank"
+  },
+  {
+   "id": "R17",
+   "type": "claim",
+   "start": 7907,
+   "end": 8162,
+   "quote": "The SNB is likely to acknowledge the resilience of the global economy despite the prolonged nature of the energy price shock, and in turn, could deliver some hawkish tweaks to the guidance alongside upward revisions to its growth and inflation projections",
+   "name": "The SNB is likely to acknowledge the resilience of the global economy despite the prolonged nature of the energy price shock, and in turn, could deliver some hawkish tweaks to the guidance alongside upward revisions to its growth and inflation projections"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 8501,
+   "end": 8532,
+   "quote": "guidance around FX intervention",
+   "name": "the guidance around FX intervention"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 8678,
+   "end": 8689,
+   "quote": "USDCHF spot",
+   "name": "USDCHF spot"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 8698,
+   "end": 8725,
+   "quote": "the top of its recent range",
+   "name": "the top of its recent range"
+  },
+  {
+   "id": "R21",
+   "type": "claim",
+   "start": 8678,
+   "end": 8823,
+   "quote": "USDCHF spot is near the top of its recent range and the FX options strike map indicates little in the way of topside positioning above this point",
+   "name": "USDCHF spot is near the top of its recent range and the FX options strike map indicates little in the way of topside positioning above this point"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 8766,
+   "end": 8806,
+   "quote": "little in the way of topside positioning",
+   "name": "little in the way of topside positioning"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 9149,
+   "end": 9184,
+   "quote": "a change in the national leadership",
+   "name": "a change in the national leadership"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 9625,
+   "end": 9632,
+   "quote": "the NBH",
+   "name": "the NBH"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 11232,
+   "end": 11249,
+   "quote": "a dovish surprise",
+   "name": "a dovish surprise"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 641,
+   "end": 662,
+   "quote": "Wednesday’s rate hike",
+   "name": "Wednesday’s rate hike"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 3229,
+   "end": 3261,
+   "quote": "Friday’s monetary policy meeting",
+   "name": "Friday’s monetary policy meeting"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 7442,
+   "end": 7492,
+   "quote": "the GBP can still benefit from its yield advantage",
+   "name": "the GBP's yield advantage"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C036",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we still we' at 350"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 6098",
+   "message": "+28 words: {{this => that the decision to keep Bank Rate on hold is becoming an increasingly close call for the MPC, opening the door to a reluctant rate hike later this year}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 8176",
+   "message": "+44 words: {{this => that the SNB is likely to acknowledge the resilience of the global economy despite the prolonged nature of the energy price shock, and in turn, could deliver some hawkish tweaks to the guidance alongside upward revisions to the Swiss National Bank's growth and inflation projections}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 8932",
+   "message": "+33 words: {{this type of set-up => the type of set-up that USDCHF spot is near the top of USDCHF spot's recent range and the FX options strike map indicates little in the way of topside positioning above the top of its recent range}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 9",
+   "message": "'he' in 'Assuming t he BoE proceeds with a rate hike in Novemb'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 9",
+   "message": "'its' in 'of topside positioning above the top of its recent range (Figure 2).'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 9",
+   "message": "'its' in 'of topside positioning above the top of its recent range can signal higher-spot or '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R15",
+      "type": "thing",
+      "sid": "E043",
+      "quote": "its yield advantage",
+      "name": "the GBP's yield advantage"
+     },
+     "reason": "name \"the GBP's yield advantage\" has words not in the quote: ['gbp']"
+    },
+    {
+     "item": {
+      "candidate": "C022",
+      "action": "link",
+      "referent": "R15",
+      "phrase": "this yield advantage"
+     },
+     "reason": "referent 'R15' is not in the referent table"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0612599,
+   "duration_ms": 6017,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6384,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 450,
+    "output_tokens_details": {
+     "thinking_tokens": 437
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6384,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 450,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6384,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6384
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.19740020000000003,
+   "duration_ms": 54131,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7981,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 6601,
+    "output_tokens_details": {
+     "thinking_tokens": 3967
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7981,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 6601,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7981,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7981
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0794531,
+   "duration_ms": 4546,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8785,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 378,
+    "output_tokens_details": {
+     "thinking_tokens": 244
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8785,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 378,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8785,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8785
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

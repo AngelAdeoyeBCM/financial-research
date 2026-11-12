@@ -1,0 +1,470 @@
+{
+  "batch_id": "2026-09-23",
+  "window": [
+    "2026-09-23",
+    "2026-09-23"
+  ],
+  "generated_at": "2026-10-29T16:31:58",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-22_2026-09-25.json",
+      "sha256": "059241fc388806fd7cbafc0d417bfaa9703b038d660571d82b10272543264bac",
+      "records": 2774,
+      "dates": [
+        "2026-09-22",
+        "2026-09-25"
+      ],
+      "records_for_batch": 182
+    }
+  ],
+  "counts": {
+    "documents": 16,
+    "in_scope": 10,
+    "out_of_scope": 6,
+    "compiled": 0,
+    "skipped": 10,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 19,
+    "DISTORTED_TABLE": 11,
+    "MISSING_CHUNKS": 4,
+    "UNSTRUCTURED_TEXT": 4,
+    "TEMPLATE_TEXT": 2
+  },
+  "documents": [
+    {
+      "stem": "BC_Derivatives_Research_-_Revisiting_volatility_premia_when_bonds_stop_hedging",
+      "document": "BC_Derivatives Research - Revisiting volatility premia when bonds stop hedging.pdf",
+      "date": "2026-09-23",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        7,
+        10,
+        15,
+        20
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 7, 10, 15, 20]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BNP_US_Rates_-_Don_t_fade_this",
+      "document": "BNP_US Rates - Don’t fade this.pdf",
+      "date": "2026-09-23",
+      "publisher": "BNP Paribas",
+      "document_type": "Market commentary",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 -50 -40 -30 -20 -10",
+          "chunk_id": "BNP_US Rates - Don’t fade this.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_Euro_area_forecast_update_-_a_tougher_winter",
+      "document": "BofA_Euro area forecast update - a tougher winter.pdf",
+      "date": "2026-09-23",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +44 20 7995 1476 | +34 91 514 3053 | +33 1 8770 0292",
+          "chunk_id": "BofA_Euro area forecast update - a tougher winter.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_UK_Watch_-_UK_forecast_update_-_Hawkish_drift",
+      "document": "BofA_UK Watch - UK forecast update - Hawkish drift.pdf",
+      "date": "2026-09-23",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "118 consecutive numeric/date tokens: Aug-26 3.1 2.6 0.9 3.4 1.3 13.8 3.4 Sep-26 3.4 2.8 1.1",
+          "chunk_id": "BofA_UK Watch - UK forecast update - Hawkish drift.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 Jan-26 Jul-26 Jan-27",
+          "chunk_id": "BofA_UK Watch - UK forecast update - Hawkish drift.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 40 80 120 160 200 240 Q4 2026 Q4 2027 Q4",
+          "chunk_id": "BofA_UK Watch - UK forecast update - Hawkish drift.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_rates_Long_SAGB_R2030_funded_via_1y_FX-implieds_Trade_Idea--932518",
+      "document": "EM_rates_Long_SAGB_R2030_funded_via_1y_FX-implieds_Trade_Idea--932518.pdf",
+      "date": "2026-09-23",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 Nov-25 Jan-26 Mar-26 May-26",
+          "chunk_id": "EM_rates_Long_SAGB_R2030_funded_via_1y_FX-implieds_Trade_Idea--932518.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 223 September 2026 0% 10% 20% 30% 40% 50% 60% 2018 2019",
+          "chunk_id": "EM_rates_Long_SAGB_R2030_funded_via_1y_FX-implieds_Trade_Idea--932518.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 223 September 2026 0% 10% 20% 30% 40% 50% 60% 2018 2019",
+          "chunk_id": "EM_rates_Long_SAGB_R2030_funded_via_1y_FX-implieds_Trade_Idea--932518.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_CAD_playbook_for_Q4_Desknote--932517",
+      "document": "FX_CAD_playbook_for_Q4_Desknote--932517.pdf",
+      "date": "2026-09-23",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8",
+          "chunk_id": "FX_CAD_playbook_for_Q4_Desknote--932517.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -60 -40 -20 0 20 40 -3 -2 -1 0 1 2",
+          "chunk_id": "FX_CAD_playbook_for_Q4_Desknote--932517.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Euro_Area_PMI_-_On_a_run",
+      "document": "MS_Euro Area PMI - On a run.pdf",
+      "date": "2026-09-23",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Sep-26 Sep-26 Sep-26 Aug-26 53.1 52.0 51.7 52.0",
+          "chunk_id": "MS_Euro Area PMI - On a run.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 42 44 46 48 50 52 54 56 58 60 Jan-22 Jan-23",
+          "chunk_id": "MS_Euro Area PMI - On a run.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 40 42 44 46 48 50 52 54 56 Jan-24 May-24 Sep-24",
+          "chunk_id": "MS_Euro Area PMI - On a run.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -1.4 -1.2 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8",
+          "chunk_id": "MS_Euro Area PMI - On a run.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 42 44 46 48 50 52 54 56 58 Jan-24 May-24 Sep-24",
+          "chunk_id": "MS_Euro Area PMI - On a run.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 45 50 55 60 65 -1.8 -1.5 -1.2 -0.9 -0.6 -0.3 0.0",
+          "chunk_id": "MS_Euro Area PMI - On a run.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 40 45 50 55 60 65 70 75 80 Jan-19 Jan-20 Jan-21",
+          "chunk_id": "MS_Euro Area PMI - On a run.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8",
+          "chunk_id": "MS_Euro Area PMI - On a run.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Global_Macro_Commentary_-_September_23_-_Hot_PMIs__Weak_Auction",
+      "document": "MS_Global Macro Commentary - September 23 - Hot PMIs, Weak Auction.pdf",
+      "date": "2026-09-23",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 22,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "64 consecutive numeric/date tokens: 2wk 2y 4.897 14.4 3.325 10.2 4.903 12.5 1.848 (1.1) 3y 4.972",
+          "chunk_id": "MS_Global Macro Commentary - September 23 - Hot PMIs, Weak Auction.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "87 consecutive numeric/date tokens: (9/17) 0.977 0.0 -- 10/28/26 4.052 4.0 3.5 10/29/26 2.592 2.6 2.9",
+          "chunk_id": "MS_Global Macro Commentary - September 23 - Hot PMIs, Weak Auction.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global Macro Commentary - September 23 - Hot PMIs, Weak Auction.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "49 consecutive numeric/date tokens: 1/00/00 0.000 0.0 0.0 04/29/27 3.297 3.2 13.4 03/18/27 4.501 4.4 10.8",
+          "chunk_id": "MS_Global Macro Commentary - September 23 - Hot PMIs, Weak Auction.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global Macro Commentary - September 23 - Hot PMIs, Weak Auction.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Global Macro Commentary - September 23 - Hot PMIs, Weak Auction.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Peak_hawkishness._Now_what",
+      "document": "Peak hawkishness. Now what?.pdf",
+      "date": "2026-09-23",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 23 September 2026 1 | 12 Aug 2026 0.8540 0.8700 0.8460 +0.27% | 12 Aug 2026 196.28 175.00 196.28 +2.61%",
+          "chunk_id": "Peak hawkishness. Now what?.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 9 Sep 2026 6.9520 7.2500 6.8215 +0.77% | 16 Sep 2026 9.3385 8.9615 9.5270 -1.18% | 23 Sep 2026 90.01 85.55 91.55",
+          "chunk_id": "Peak hawkishness. Now what?.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -3 -2 -1 0 1 2 3 4",
+          "chunk_id": "Peak hawkishness. Now what?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 9 Sep 2026 6.9520 7.0044 23 Sep 2026 +0.77%",
+          "chunk_id": "Peak hawkishness. Now what?.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -5 0 5 10 15 -4 -2 0 2 4 6 Jan-10",
+          "chunk_id": "Peak hawkishness. Now what?.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: -100% -67% -33% 0% 33% 67% 100% 26/06/2026 03/07/2026 10/07/2026 17/07/2026 24/07/2026",
+          "chunk_id": "Peak hawkishness. Now what?.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -150% -100% -50% 0% 50% 100% 150% 200% 250%",
+          "chunk_id": "Peak hawkishness. Now what?.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Peak hawkishness. Now what?.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_adds_long_NZDUSD_1.8_profit_on_short_GBPUSD_Trade_Idea--932486",
+      "document": "STEER_adds_long_NZDUSD_1.8_profit_on_short_GBPUSD_Trade_Idea--932486.pdf",
+      "date": "2026-09-23",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 13,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'optional cover page'",
+          "chunk_id": "STEER_adds_long_NZDUSD_1.8_profit_on_short_GBPUSD_Trade_Idea--932486.pdf-1-1",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 0.5705 0.5814 0.565 - 0.00 | 1.3559 - - 1.3316 (23-Sep-2026) 1.79 07-Sep-2026 | 62.744 - - 62.6674 (22-Sep-2026) 0.12",
+          "chunk_id": "STEER_adds_long_NZDUSD_1.8_profit_on_short_GBPUSD_Trade_Idea--932486.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'optional cover page'",
+          "chunk_id": "STEER_adds_long_NZDUSD_1.8_profit_on_short_GBPUSD_Trade_Idea--932486.pdf-1-2",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: - - 1.3316 (23-Sep-2026) 1.79 07-Sep-2026 | 62.744 - - 62.6674 (22-Sep-2026) 0.12 | 0.7124 0.7035 0.7171 - 0.27 14-Sep-2026",
+          "chunk_id": "STEER_adds_long_NZDUSD_1.8_profit_on_short_GBPUSD_Trade_Idea--932486.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

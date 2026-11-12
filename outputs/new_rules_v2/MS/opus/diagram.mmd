@@ -1,0 +1,23 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .view{background:#c9dcf8;border-color:#1a3f8b} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · VIEW</b><div class='core view'><span>Quarter-end desk sentiment not encouraging</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A002 - VIEW</b></span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A003 - VIEW</b></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Global L/S HFs down ~1% MTD in September</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>September retail daily demand down 23% vs August</mark></span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · VIEW</b><div class='core view'><span>Rates turmoil reinforced perceived policy lack of control</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>UST 30Y at 5.51%, highest since 2004</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>US 30y fixed mortgages at 7.18%</mark></span><b>[A]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · VIEW</b><div class='core view'><span>Investors protecting P&amp;L via lower gross exposure</span><b>[A]</b></div><div class='c view'><span><b>S:</b> 2026 P&amp;L was made in Q1</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Global L/S HFs down ~1% MTD in September</mark></span><b>[A]</b></div></div>"]
+    A004["<div class='arg'><b>A004 · VIEW</b><div class='core view'><span>Awkward asymmetry into Q4</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A001 - VIEW</b></span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Hormuz headline could spark index rally, rates reversal</span><b>[S]</b></div><div class='c view'><span><b>S:</b> Client and desk FOMO is palpable</span><b>[A]</b></div></div>"]
+    A005["<div class='arg'><b>A005 · RECOMMENDATION</b><div class='core rec'><span>Use hedges to create room to run more risk</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A004 - VIEW</b></span><b>[A]</b></div></div>"]
+    A006["<div class='arg'><b>A006 · VIEW</b><div class='core view'><span>HFs leaning into less-crowded AI pockets</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Memory net positioning ~6% vs ~12% peak</mark></span><b>[A]</b></div></div>"]
+    A007["<div class='arg'><b>A007 · RECOMMENDATION</b><div class='core rec'><span>Short EU AI Agent Risk basket (MSSTARSK)</span><b>[A]</b></div><div class='c view'><span><b>S:</b> AI agent automation could threaten EU Telecoms, Classifieds, Ticketing</span><b>[S]</b></div></div>"]
+    A008["<div class='arg'><b>A008 · FORECAST</b><div class='core fc'><span>Scheme should support UK new-build demand</span><b>[H]</b></div><div class='c dp'><span><b>RA:</b> <mark>UK 'Your First Home': 2.5% deposit, 20% equity loan</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Help to Buy: completions up ~33% in 2013-2018</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>UK Homebuilders basket up ~11.5% this morning</mark></span><b>[A]</b></div></div>"]
+
+    A002 -- Supporting --> A001
+    A003 -- Supporting --> A001
+    A001 -- Supporting --> A004
+    A004 -- Supporting --> A005
+
+    classDef fc fill:#eef9ee,stroke:#1a6b3a,stroke-width:2px,color:#111111
+    classDef rec fill:#fdeeee,stroke:#8b1a1a,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A008 fc
+    class A005,A007 rec
+    class A001,A002,A003,A004,A006 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

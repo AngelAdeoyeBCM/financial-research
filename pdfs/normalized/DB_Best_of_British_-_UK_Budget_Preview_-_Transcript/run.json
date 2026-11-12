@@ -1,0 +1,610 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Best_of_British_-_UK_Budget_Preview_-_Transcript.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 78,
+    "referents": {
+     "thing": 37,
+     "claim": 9
+    },
+    "decisions": {
+     "leave": 9,
+     "link": 69
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "relative": 1,
+     "expletive": 4,
+     "generic": 1,
+     "time": 2
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 127,
+  "kinds": {
+   "deixis": 46,
+   "noun_phrase": 23,
+   "demonstrative": 19,
+   "pronoun": 17,
+   "proposition": 10,
+   "symbol": 5,
+   "possessive": 5,
+   "abbreviation": 2
+  },
+  "rooted_share": 0.9057750759878419,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 181,
+  "cost_usd": 0.4506
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 242,
+   "end": 290,
+   "quote": "transcript of the Deutsche Bank Research podcast",
+   "name": "the transcript of the Deutsche Bank Research podcast"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 316,
+   "end": 374,
+   "quote": "the upcoming UK Budget scheduled for Wednesday, 28 October",
+   "name": "the 28 October UK Budget"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2201,
+   "end": 2214,
+   "quote": "Deutsche Bank",
+   "name": "Deutsche Bank"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3313,
+   "end": 3330,
+   "quote": "Tottenham Hotspur",
+   "name": "Tottenham Hotspur"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3507,
+   "end": 3655,
+   "quote": "rising energy prices, higher borrowing costs, shrinking headroom, unfunded defense budgets, and a desire not to tax businesses or households further",
+   "name": "rising energy prices, higher borrowing costs, shrinking headroom, unfunded defense budgets, and a desire not to tax businesses or households further"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3961,
+   "end": 3978,
+   "quote": "Chancellor Healey",
+   "name": "Chancellor Healey"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 4273,
+   "end": 4384,
+   "quote": "borrowing has risen; yes, fiscal headroom buffers have been cut; and yes, the borrowing outlook looks less rosy",
+   "name": "borrowing has risen; yes, fiscal headroom buffers have been cut; and yes, the borrowing outlook looks less rosy"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4904,
+   "end": 4969,
+   "quote": "devolution, the cost of living and doing business, and investment",
+   "name": "devolution, the cost of living and doing business, and investment"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5049,
+   "end": 5059,
+   "quote": "Devolution",
+   "name": "devolution"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5188,
+   "end": 5305,
+   "quote": "the retention of business rates, and potentially a road map toward greater fiscal devolution via income tax retention",
+   "name": "the retention of business rates, and potentially a road map toward greater fiscal devolution via income tax retention"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5467,
+   "end": 5481,
+   "quote": "Cost of Living",
+   "name": "Cost of Living"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 6883,
+   "end": 6905,
+   "quote": "financial transactions",
+   "name": "financial transactions"
+  },
+  {
+   "id": "R14",
+   "type": "claim",
+   "start": 7280,
+   "end": 7331,
+   "quote": "bank taxes will likely serve as a funding mechanism",
+   "name": "bank taxes will likely serve as a funding mechanism"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 7211,
+   "end": 7228,
+   "quote": "capital gains tax",
+   "name": "capital gains tax"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 7447,
+   "end": 7461,
+   "quote": "the government",
+   "name": "the government"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 7728,
+   "end": 7761,
+   "quote": "an increase in the bank surcharge",
+   "name": "the increase in the bank surcharge"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 8195,
+   "end": 8223,
+   "quote": "surprisingly robust spending",
+   "name": "the surprisingly robust spending"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 8431,
+   "end": 8449,
+   "quote": "positive sentiment",
+   "name": "positive sentiment"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 8853,
+   "end": 8865,
+   "quote": "the election",
+   "name": "the election"
+  },
+  {
+   "id": "R21",
+   "type": "claim",
+   "start": 9076,
+   "end": 9131,
+   "quote": "This budget serves as a bridge to a larger fiscal event",
+   "name": "This budget serves as a bridge to a larger fiscal event"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 9246,
+   "end": 9277,
+   "quote": "Day-to-day departmental budgets",
+   "name": "day-to-day departmental budgets"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 9229,
+   "end": 9244,
+   "quote": "Spending Review",
+   "name": "the Spending Review"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 9577,
+   "end": 9605,
+   "quote": "National Social Care Service",
+   "name": "the National Social Care Service"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 9766,
+   "end": 9828,
+   "quote": "£25 billion to £40 billion in new spending pressures next year",
+   "name": "the £25 billion to £40 billion in new spending pressures"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 10066,
+   "end": 10077,
+   "quote": "the deficit",
+   "name": "the deficit"
+  },
+  {
+   "id": "R27",
+   "type": "claim",
+   "start": 10111,
+   "end": 10169,
+   "quote": "it will be stickier than projected in the Spring Statement",
+   "name": "it will be stickier than projected in the Spring Statement"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 11204,
+   "end": 11240,
+   "quote": "two 25-basis-point \"insurance hikes\"",
+   "name": "the two 25-basis-point \"insurance hikes\""
+  },
+  {
+   "id": "R29",
+   "type": "thing",
+   "start": 11689,
+   "end": 11704,
+   "quote": "50 basis points",
+   "name": "50 basis points"
+  },
+  {
+   "id": "R30",
+   "type": "claim",
+   "start": 11503,
+   "end": 11597,
+   "quote": "we are not seeing signs of deeply entrenched inflation spilling over into the wider CPI basket",
+   "name": "we are not seeing signs of deeply entrenched inflation spilling over into the wider CPI basket"
+  },
+  {
+   "id": "R31",
+   "type": "claim",
+   "start": 11920,
+   "end": 12021,
+   "quote": "the Bank of England can implement these insurance hikes without embarking on a prolonged hiking cycle",
+   "name": "the Bank of England can implement these insurance hikes without embarking on a prolonged hiking cycle"
+  },
+  {
+   "id": "R32",
+   "type": "thing",
+   "start": 12023,
+   "end": 12044,
+   "quote": "Recent communications",
+   "name": "the Recent communications"
+  },
+  {
+   "id": "R33",
+   "type": "thing",
+   "start": 13168,
+   "end": 13183,
+   "quote": "Fiscal Headroom",
+   "name": "Fiscal Headroom"
+  },
+  {
+   "id": "R34",
+   "type": "thing",
+   "start": 13340,
+   "end": 13357,
+   "quote": "Deficit Reduction",
+   "name": "Deficit Reduction"
+  },
+  {
+   "id": "R35",
+   "type": "claim",
+   "start": 13721,
+   "end": 13754,
+   "quote": "UK yields are at multi-year highs",
+   "name": "UK yields are at multi-year highs"
+  },
+  {
+   "id": "R36",
+   "type": "thing",
+   "start": 14052,
+   "end": 14121,
+   "quote": "over 100 basis points of hikes priced into the short end of the curve",
+   "name": "over 100 basis points of hikes priced into the short end of the curve"
+  },
+  {
+   "id": "R37",
+   "type": "thing",
+   "start": 14254,
+   "end": 14264,
+   "quote": "the market",
+   "name": "the market"
+  },
+  {
+   "id": "R38",
+   "type": "thing",
+   "start": 14702,
+   "end": 14713,
+   "quote": "our clients",
+   "name": "our clients"
+  },
+  {
+   "id": "R39",
+   "type": "claim",
+   "start": 14844,
+   "end": 14988,
+   "quote": "a small majority of respondents surprisingly expect this budget to be a market-positive event, with gilt yields declining by the end of the week",
+   "name": "a small majority of respondents surprisingly expect this budget to be a market-positive event, with gilt yields declining by the end of the week"
+  },
+  {
+   "id": "R40",
+   "type": "claim",
+   "start": 15924,
+   "end": 15996,
+   "quote": "Closer alignment has been put on the table more explicitly than expected",
+   "name": "Closer alignment has been put on the table more explicitly than expected"
+  },
+  {
+   "id": "R41",
+   "type": "thing",
+   "start": 15709,
+   "end": 15744,
+   "quote": "closer ties with the European Union",
+   "name": "closer ties with the European Union"
+  },
+  {
+   "id": "R42",
+   "type": "thing",
+   "start": 16861,
+   "end": 16867,
+   "quote": "The UK",
+   "name": "the UK"
+  },
+  {
+   "id": "R43",
+   "type": "thing",
+   "start": 17254,
+   "end": 17353,
+   "quote": "implementing the SPS (Sanitary and Phytosanitary) agreement or establishing a youth mobility scheme",
+   "name": "implementing the SPS (Sanitary and Phytosanitary) agreement or establishing a youth mobility scheme"
+  },
+  {
+   "id": "R44",
+   "type": "thing",
+   "start": 256,
+   "end": 290,
+   "quote": "the Deutsche Bank Research podcast",
+   "name": "the Deutsche Bank Research podcast"
+  },
+  {
+   "id": "R45",
+   "type": "thing",
+   "start": 18151,
+   "end": 18176,
+   "quote": "The information discussed",
+   "name": "the information discussed"
+  },
+  {
+   "id": "R46",
+   "type": "thing",
+   "start": 18354,
+   "end": 18400,
+   "quote": "Opinions, estimates, and projections discussed",
+   "name": "Opinions, estimates, and projections discussed"
+  },
+  {
+   "id": "R47",
+   "type": "thing",
+   "start": 16188,
+   "end": 16222,
+   "quote": "The upcoming summit on 20 November",
+   "name": "the summit on 20 November"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C027",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C054",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C058",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C066",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C070",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we head' at 3228"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 14990",
+   "message": "+27 words: {{This => That a small majority of respondents surprisingly expect the 28 October UK Budget to be a market-positive event, with gilt yields declining by the end of the week}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0966314,
+   "duration_ms": 9322,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9899,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 795,
+    "output_tokens_details": {
+     "thinking_tokens": 782
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9899,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 795,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 9899,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9899
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.3539213,
+   "duration_ms": 100073,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12752,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 12495,
+    "output_tokens_details": {
+     "thinking_tokens": 7589
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 12752,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 12495,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 12752,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 12752
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

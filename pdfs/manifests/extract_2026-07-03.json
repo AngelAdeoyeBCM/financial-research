@@ -1,0 +1,448 @@
+{
+  "batch_id": "2026-07-03",
+  "window": [
+    "2026-07-03",
+    "2026-07-03"
+  ],
+  "generated_at": "2026-10-29T16:30:25",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 84
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 6,
+    "out_of_scope": 1,
+    "compiled": 2,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 18,
+    "edits": 31,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "AUD_Slower_pace_of_gains_in_H2_Desknote--927538",
+      "document": "AUD_Slower_pace_of_gains_in_H2_Desknote--927538.pdf",
+      "date": "2026-07-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Beep__beep__beep",
+      "document": "Beep, beep, beep.pdf",
+      "date": "2026-07-03",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.6,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_Reflation_risks_beyond_the_war_Desknote--927526",
+      "document": "EM_Reflation_risks_beyond_the_war_Desknote--927526.pdf",
+      "date": "2026-07-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 41,
+      "page_count": 15,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.611,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Reserve_managers_bought_USD_in_Q1_IMF_COFER_Desknote--927537",
+      "document": "FX_Reserve_managers_bought_USD_in_Q1_IMF_COFER_Desknote--927537.pdf",
+      "date": "2026-07-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/FX_Reserve_managers_bought_USD_in_Q1_IMF_COFER_Desknote--927537.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "50e9c030142bb483012bacb2c5780459c77046d8",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Reserve manager allocation to USD rose in Q1 2026 USD buying: The IMF COFER (Currency Compos'",
+          "chunk_id": "FX_Reserve_managers_bought_USD_in_Q1_IMF_COFER_Desknote--927537.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 2: Net FX-valuation-adjusted change in Q1 2026 reserve manager holdings of USD Sources: IMF, BN'",
+          "chunk_id": "FX_Reserve_managers_bought_USD_in_Q1_IMF_COFER_Desknote--927537.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 4: Breakdown of changes in JPY reserves Fig. 3: Breakdown of changes in EUR reserves'",
+          "chunk_id": "FX_Reserve_managers_bought_USD_in_Q1_IMF_COFER_Desknote--927537.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "F O C U S"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Sources: IMF, BNP Paribas, Macrobond Fig."
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "L O C A L E"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "R A G L O B A L V"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Sources: IMF, BNP Paribas, Macrobond Fig."
+        }
+      ],
+      "stripped_by_section": {
+        "header": 3,
+        "disclaimer": 1,
+        "footer": 3,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Reserve managers bought USD in Q1 (IMF COFER) ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 5,
+          "examples": [
+            {
+              "before": "(1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "(2) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "(3) ",
+              "after": "\n3. "
+            },
+            {
+              "before": "(1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "(2) ",
+              "after": "\n2. "
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "India_RBI_measures_to_push_NDS_rates_lower_Desknote--927508",
+      "document": "India_RBI_measures_to_push_NDS_rates_lower_Desknote--927508.pdf",
+      "date": "2026-07-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 15,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/India_RBI_measures_to_push_NDS_rates_lower_Desknote--927508.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "40c6093bf1f92dc226724bb302038f9bcce15787",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Spread between 3y NDS and NDOIS has widened The Indian rupee non-deliverable forward (NDF) a'",
+          "chunk_id": "India_RBI_measures_to_push_NDS_rates_lower_Desknote--927508.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 2: The NDS–NDOIS spread traded around 40bp when USDINR vol was lower Fig. 3: NDS–NDOIS spread a'",
+          "chunk_id": "India_RBI_measures_to_push_NDS_rates_lower_Desknote--927508.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 4: Short-end IGBs have rallied while front-end implied yields have risen, reducing the appeal o'",
+          "chunk_id": "India_RBI_measures_to_push_NDS_rates_lower_Desknote--927508.pdf-3-13",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "L O C A L E"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "R A G L O B A L V"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "L O C A L E"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "R A G L O B A L V"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "this trade, as it corresponds to the minimum tenor for FCNR and ECB"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "this trade, as it corresponds to the minimum tenor for FCNR and ECB"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "promotion": 1,
+        "header": 4,
+        "footer": 4
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " India: RBI measures to push NDS rates lower ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 6,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 8,
+          "examples": [
+            {
+              "before": "1. ",
+              "after": "\n1. "
+            },
+            {
+              "before": "2. ",
+              "after": "\n2. "
+            },
+            {
+              "before": "3. ",
+              "after": "\n3. "
+            },
+            {
+              "before": "4. ",
+              "after": "\n4. "
+            },
+            {
+              "before": "1. ",
+              "after": "\n1. "
+            }
+          ]
+        },
+        "heading": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            },
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "JPY_rates_Belly_shifts_from_5y_to_10y_close_2s5s10s_Trade_Idea--927444",
+      "document": "JPY_rates_Belly_shifts_from_5y_to_10y_close_2s5s10s_Trade_Idea--927444.pdf",
+      "date": "2026-07-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 5,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

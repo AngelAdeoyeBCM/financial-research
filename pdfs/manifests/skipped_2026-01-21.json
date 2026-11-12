@@ -1,0 +1,230 @@
+{
+  "batch_id": "2026-01-21",
+  "window": [
+    "2026-01-21",
+    "2026-01-21"
+  ],
+  "generated_at": "2026-10-29T16:26:21",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-17_2026-01-20.json",
+      "sha256": "76c56001edd30f180fd63bd46954ee91b598b3de1d4fb87af9685988188cf41b",
+      "records": 2584,
+      "dates": [
+        "2026-01-21",
+        "2026-01-24"
+      ],
+      "records_for_batch": 80
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 6,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 6,
+    "edits": 6,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 8,
+    "MISSING_CHUNKS": 4,
+    "DISTORTED_TABLE": 4
+  },
+  "documents": [
+    {
+      "stem": "2026_still_the_year_of_the_great_divide",
+      "document": "2026 still the year of the great divide?.pdf",
+      "date": "2026-01-21",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -0.1 -0.05 0 0.05 0.1 0.15 0.30 0.80 1.30 1.80 2.30 2.80",
+          "chunk_id": "2026 still the year of the great divide?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.4141 -0.1 -0.05 0 0.05 0.1 0.15 0.2 -4.00 -3.00 -2.00 -1.00",
+          "chunk_id": "2026 still the year of the great divide?.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_UK_Watch_-_Inflation_Review_-_Upside_inflation_surprise_seals_a_February_hold",
+      "document": "BofA_UK Watch - Inflation Review - Upside inflation surprise seals a February hold.pdf",
+      "date": "2026-01-21",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: +44 20 7995 1476 | +44 20 7996 1032 | +34 91 514 3053",
+          "chunk_id": "BofA_UK Watch - Inflation Review - Upside inflation surprise seals a February hold.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -1.50 -1.00 -0.50 0.00 0.50 1.00 1.50 2018 2019 2020 2021 2022",
+          "chunk_id": "BofA_UK Watch - Inflation Review - Upside inflation surprise seals a February hold.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Jan-25 Jul-25 Jan-26",
+          "chunk_id": "BofA_UK Watch - Inflation Review - Upside inflation surprise seals a February hold.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +34 91 514 3053 | +33 1 8770 0292 | +44 20 7996 1032",
+          "chunk_id": "BofA_UK Watch - Inflation Review - Upside inflation surprise seals a February hold.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_Global_FX_Strategy_-_Quick_thoughts_across_G10",
+      "document": "Citi_Global FX Strategy - Quick thoughts across G10.pdf",
+      "date": "2026-01-21",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947",
+      "document": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947.pdf",
+      "date": "2026-01-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 21,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 15 20 25 30 35 40 45 50 55 60 65 70",
+          "chunk_id": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 10 20 30 40 50 60 Jan-22 Jan-23 Jan-24 Jan-25",
+          "chunk_id": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 180 185 190 195 200 205 210 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25",
+          "chunk_id": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947.pdf-5-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "32 consecutive numeric/date tokens: 9/22/2022 145.9 8.7 6.31% 10/21/2022 151.95 8.49 4.15% 10/24/2022 149.71 8.49 4.36%",
+          "chunk_id": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 90 100 110 120 130 140 150 160 Jul-25 Aug-25 Sep-25 Oct-25",
+          "chunk_id": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_takes_profit_on_long_NZDUSD_adds_short_USDINR_Trade_Idea--916981",
+      "document": "STEER_takes_profit_on_long_NZDUSD_adds_short_USDINR_Trade_Idea--916981.pdf",
+      "date": "2026-01-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 91.5513 90.4534 92.6625 - 0.00 | 0.5744 - - 0.5846 (20-Jan-2026) 1.77 | 10.7205 10.9339 10.6245 - -0.33",
+          "chunk_id": "STEER_takes_profit_on_long_NZDUSD_adds_short_USDINR_Trade_Idea--916981.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

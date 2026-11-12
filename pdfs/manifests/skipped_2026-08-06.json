@@ -1,0 +1,198 @@
+{
+  "batch_id": "2026-08-06",
+  "window": [
+    "2026-08-06",
+    "2026-08-06"
+  ],
+  "generated_at": "2026-10-29T16:30:49",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-05_2026-08-08.json",
+      "sha256": "add78034a3d2036acbb88b1d36e496718b544dced467d60910eecbba0fbf0776",
+      "records": 131,
+      "dates": [
+        "2026-08-05",
+        "2026-08-07"
+      ],
+      "records_for_batch": 66
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 3,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 10,
+    "DISTORTED_TABLE": 5,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "FX_Short_CLPCOP_Trade_Idea--929598",
+      "document": "FX_Short_CLPCOP_Trade_Idea--929598.pdf",
+      "date": "2026-08-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 106 August 2026 -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0 4.0 -0.8",
+          "chunk_id": "FX_Short_CLPCOP_Trade_Idea--929598.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -7.7 -6.7 -5.7 -4.7 -3.7 -2.7 -1.7 3.3 3.8 4.3 4.8 5.3",
+          "chunk_id": "FX_Short_CLPCOP_Trade_Idea--929598.pdf-1-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 206 August 2026 60 70 80 90 100 110 120 130 860",
+          "chunk_id": "FX_Short_CLPCOP_Trade_Idea--929598.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JGB_forecast_Modest_bear-flattening_as_the_BoJ_catches_up_with_the_curve_Desknote--929567",
+      "document": "JGB_forecast_Modest_bear-flattening_as_the_BoJ_catches_up_with_the_curve_Desknote--929567.pdf",
+      "date": "2026-08-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "JGB_forecast_Modest_bear-flattening_as_the_BoJ_catches_up_with_the_curve_Desknote--929567.pdf-1-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 1.57 1.65 1.75 1.95 1.95 2.05 2.25 2.25 2.50 2.60 2.60",
+          "chunk_id": "JGB_forecast_Modest_bear-flattening_as_the_BoJ_catches_up_with_the_curve_Desknote--929567.pdf-1-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 50 100 150 200 250 2y 5y 10y 20y 30y",
+          "chunk_id": "JGB_forecast_Modest_bear-flattening_as_the_BoJ_catches_up_with_the_curve_Desknote--929567.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1.00 1.25 1.50 1.75 2.00 2.25 2.50 2.75 Sep-26 Jun-27 Mar-28 Dec-28",
+          "chunk_id": "JGB_forecast_Modest_bear-flattening_as_the_BoJ_catches_up_with_the_curve_Desknote--929567.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 3.2 3.5 3.8 4.1 4.4 4.7 5.0 5.3 Aug-25 Oct-25 Dec-25 Feb-26",
+          "chunk_id": "JGB_forecast_Modest_bear-flattening_as_the_BoJ_catches_up_with_the_curve_Desknote--929567.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 21%21%22%20%",
+          "chunk_id": "JGB_forecast_Modest_bear-flattening_as_the_BoJ_catches_up_with_the_curve_Desknote--929567.pdf-3-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Short_Asia_Despite_Weak_USD",
+      "document": "Short Asia Despite Weak USD.pdf",
+      "date": "2026-08-06",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        10
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [10]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 6 August 2026 1 | 7 May 2026 84.49 79 86.5 +0.6% | 25 Jun 2026 52.93 51 55.5 +0.1%",
+          "chunk_id": "Short Asia Despite Weak USD.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 25 Jun 2026 52.93 51 55.5 +0.1% | 16 Jul 2026 3226.9 3100 3350 +4.6% | 6 Aug 2026 20685 21500 20310 -",
+          "chunk_id": "Short Asia Despite Weak USD.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 91 92 93 943.4 3.6 3.8 4.0 4.2 4.4 Jan",
+          "chunk_id": "Short Asia Despite Weak USD.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 3.75% 08/06 0.34 n/a | 5.75% 08/25 -0.57 52% 25bps | 3.75% 09/09 -0.13 62%",
+          "chunk_id": "Short Asia Despite Weak USD.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 16 Jul 2026 3226.94 3100 30 Jul 2026 +4.55%",
+          "chunk_id": "Short Asia Despite Weak USD.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 20 40 60 80 100 120 140 2.0% 2.5% 3.0% 3.5% 4.0%",
+          "chunk_id": "Short Asia Despite Weak USD.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

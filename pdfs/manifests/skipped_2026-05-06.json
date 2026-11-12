@@ -1,0 +1,367 @@
+{
+  "batch_id": "2026-05-06",
+  "window": [
+    "2026-05-06",
+    "2026-05-06"
+  ],
+  "generated_at": "2026-10-29T16:28:48",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-05_2026-05-08.json",
+      "sha256": "f5943dbb0a664b1173542add09a43a8231700b5234cd4365659a312690a0e4ab",
+      "records": 2183,
+      "dates": [
+        "2026-05-05",
+        "2026-05-08"
+      ],
+      "records_for_batch": 82
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 6,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 3,
+    "edits": 4,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 26,
+    "DISTORTED_TABLE": 4,
+    "UNSTRUCTURED_TEXT": 3,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "Climbing_the_wall_of_worry",
+      "document": "Climbing the wall of worry.pdf",
+      "date": "2026-05-06",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 15,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "Climbing the wall of worry.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Climbing the wall of worry.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Apr-25 Jul-25 Sep-25 Dec-25 Feb-26 Apr-26",
+          "chunk_id": "Climbing the wall of worry.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.99 1.01 1.03 1.05 1.07 1.09 1.11 1.13 Jan-25 Apr-25 Jul-25 Oct-25",
+          "chunk_id": "Climbing the wall of worry.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.99 1.01 1.03 1.05 1.07 1.09 1.11 1.13 Jan-25 Apr-25 Jul-25 Oct-25",
+          "chunk_id": "Climbing the wall of worry.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Climbing the wall of worry.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.9 1.0 1.1 1.2 1.3 May-23 Dec-23 Jul-24 Feb-25 Sep-25 Apr-26",
+          "chunk_id": "Climbing the wall of worry.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1.0 1.1 1.2 1.3 1.4 1.5 1.6 May-23 Dec-23 Jul-24 Feb-25 Sep-25",
+          "chunk_id": "Climbing the wall of worry.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_rates_Entering_2y_IBR_TIIE-F_spread_payer_Trade_Idea--923510",
+      "document": "EM_rates_Entering_2y_IBR_TIIE-F_spread_payer_Trade_Idea--923510.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 Jun-12 Mar-15 Dec-17",
+          "chunk_id": "EM_rates_Entering_2y_IBR_TIIE-F_spread_payer_Trade_Idea--923510.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 2019 2020",
+          "chunk_id": "EM_rates_Entering_2y_IBR_TIIE-F_spread_payer_Trade_Idea--923510.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 2019 2020",
+          "chunk_id": "EM_rates_Entering_2y_IBR_TIIE-F_spread_payer_Trade_Idea--923510.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 3.5 3.7 3.9 4.1 4.3 4.5 4.7 4.9 5.1 5.3 5.5 Jan-26",
+          "chunk_id": "EM_rates_Entering_2y_IBR_TIIE-F_spread_payer_Trade_Idea--923510.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_rates_Entering_KRW_1y_receivers_Trade_Idea--923463",
+      "document": "EM_rates_Entering_KRW_1y_receivers_Trade_Idea--923463.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 3.00% 3.00% 3.13% 3.19% 3.19% 3.25% 3.32% 3.38%",
+          "chunk_id": "EM_rates_Entering_KRW_1y_receivers_Trade_Idea--923463.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_Catching_Asia_s_dividend_wave_Desknote--923471",
+      "document": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 40,
+      "page_count": 16,
+      "status": "skipped",
+      "missing_indices": [
+        31,
+        33,
+        35,
+        38,
+        40,
+        42,
+        44,
+        46
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [31, 33, 35, 38, 40, 42, 44, 46]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0 100 200 300 400 500 0 20 40 60 80 100",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2025 1.8% 7.4% 1.0% 5.4% 2.2% 1.2% 0.7% 3.4% 1.1% 0.9% 0%",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "17 consecutive numeric/date tokens: 0.0% 0.1% 0.0% 0.0% 0.0% 0.1% 0.1% 0.1% 0.1% 0.0% 0.1% 0.0%",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "52 consecutive numeric/date tokens: 1 2 3 4 5 6 7 8 9 10 11 12",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 75 55 65 80 80 75 65 65 60 75 70 60",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -0.80 -0.60 -0.40 -0.20 0.00 0.20 0.40 0.60 0.80 Jan Feb Mar",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 Jan Feb Mar Apr",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-7-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 250 500 750 1,000 Jan Feb Mar Apr May Jun Jul",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-8-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 500 Jan",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-9-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 Jan Feb Mar Apr",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-10-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 0.00",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-11-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 500 Jan",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-12-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 Jan Feb",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-13-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 100 200 300 400 500 600 Jan Feb Mar Apr May",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-14-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 Jan Feb",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-15-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 5 10 15 20 25 30 Jan Feb Mar Apr May",
+          "chunk_id": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf-16-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_USD_remains_cheap_in_G10_rich_in_Asia_Trade_Idea--923487",
+      "document": "STEER_USD_remains_cheap_in_G10_rich_in_Asia_Trade_Idea--923487.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 0.7193 0.7133 0.7257 - -0.74 04-May-2026 | 156.8700 163.0615 154.4900 - -0.36 | 93.3638 - - 95.0622",
+          "chunk_id": "STEER_USD_remains_cheap_in_G10_rich_in_Asia_Trade_Idea--923487.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "STEER_USD_remains_cheap_in_G10_rich_in_Asia_Trade_Idea--923487.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

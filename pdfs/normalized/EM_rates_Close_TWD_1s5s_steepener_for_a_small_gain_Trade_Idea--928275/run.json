@@ -1,0 +1,191 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Close_TWD_1s5s_steepener_for_a_small_gain_Trade_Idea--928275.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "leave": 1,
+     "link": 3
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 12,
+  "kinds": {
+   "deixis": 9,
+   "possessive": 2,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.25,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 16,
+  "cost_usd": 0.0684
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1340,
+   "end": 1347,
+   "quote": "the CBC",
+   "name": "the CBC"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1436,
+   "end": 1459,
+   "quote": "Taiwan’s June inflation",
+   "name": "Taiwan’s June inflation"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 76"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we attribute' at 551"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0282558,
+   "duration_ms": 2705,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3063,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 145,
+    "output_tokens_details": {
+     "thinking_tokens": 132
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3063,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 145,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3063,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3063
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.040144900000000004,
+   "duration_ms": 6719,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3228,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 657,
+    "output_tokens_details": {
+     "thinking_tokens": 412
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3228,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 657,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3228,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3228
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

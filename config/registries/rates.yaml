@@ -1,0 +1,124 @@
+# Rates markets. Only underlyings: a rate index stands for its fixing and
+# the swap/OIS curve priced off it; a bond is one obligor's curve, either
+# sovereign_bond (obligor: the country/bloc) or non_sovereign_bond (an organization). Tenors (10y, 2y2y), forms (swap, futures,
+# swaption) and structures (2s10s, OAT-Bund) are built per mention.
+# IDs: rate:<slug>, bond:<slug>. Closed set: >=1 of each per in-scope currency.
+#
+# QLib: a rate index is idx[<currency code>,<ref_code>]; a bond curve is
+# bndcnv[<country>,<bond class>,<currency code>], derived from its fields.
+# ref_code is QLib's code within the currency, not always the market name
+# (CORRA -> OIS, FR007 -> REPO). No ref_code: QLib has no index for it, or the
+# match is unconfirmed (marked "check").
+
+# == rate indices ===========================================================
+# -- G10 --
+- {type: rate_index, entity_id: rate:sofr, name: SOFR, ref_code: SOFR, aliases: [Secured Overnight Financing Rate, USD OIS, SOFR OIS, SOFR swaps, USD swaps], currency_id: ccy:usd}
+# QLib parses EFFR and FEDFUNDS as idx[USD,OIS]
+- {type: rate_index, entity_id: rate:fed_funds, name: Fed funds, ref_code: OIS, aliases: [fed funds rate, federal funds rate, EFFR, effective fed funds, FF], currency_id: ccy:usd}
+- {type: rate_index, entity_id: rate:estr, name: €STR, ref_code: ESTR, aliases: [ESTR, €STR OIS, ESTR OIS, euro short-term rate, EUR OIS], currency_id: ccy:eur}
+- {type: rate_index, entity_id: rate:euribor, name: Euribor, ref_code: EURIBOR, aliases: [EURIBOR, EUR swaps, 6m Euribor, 3m Euribor], currency_id: ccy:eur}
+- {type: rate_index, entity_id: rate:sonia, name: SONIA, ref_code: SONIA, aliases: [GBP OIS, SONIA OIS, GBP swaps], currency_id: ccy:gbp}
+- {type: rate_index, entity_id: rate:tona, name: TONA, ref_code: TONAROIS, aliases: [TONAR, JPY OIS, TONA OIS, JPY swaps], currency_id: ccy:jpy}
+- {type: rate_index, entity_id: rate:saron, name: SARON, ref_code: SARON, aliases: [CHF OIS, CHF swaps, SNB OIS], currency_id: ccy:chf}
+- {type: rate_index, entity_id: rate:corra, name: CORRA, ref_code: OIS, aliases: [CAD OIS, CAD swaps], currency_id: ccy:cad}
+- {type: rate_index, entity_id: rate:aonia, name: AONIA, ref_code: OIS, aliases: [AUD OIS, RBA OIS], currency_id: ccy:aud}
+- {type: rate_index, entity_id: rate:bbsw, name: BBSW, ref_code: BBSW, aliases: [AUD swaps, bank bill swap rate], currency_id: ccy:aud}
+# check: QLib's idx[NZD,OIS] is a separate index from BKBM
+- {type: rate_index, entity_id: rate:bkbm, name: BKBM, ref_code: BANKBILL, aliases: [NZD swaps, NZD OIS], currency_id: ccy:nzd}
+- {type: rate_index, entity_id: rate:swestr, name: SWESTR, ref_code: SWESTR, aliases: [SEK OIS], currency_id: ccy:sek}
+- {type: rate_index, entity_id: rate:stibor, name: STIBOR, ref_code: STIBOR, aliases: [SEK swaps], currency_id: ccy:sek}
+- {type: rate_index, entity_id: rate:nowa, name: NOWA, ref_code: NOWA, aliases: [NOK OIS], currency_id: ccy:nok}
+- {type: rate_index, entity_id: rate:nibor, name: NIBOR, ref_code: NIBOR, aliases: [NOK swaps], currency_id: ccy:nok}
+# -- EM Asia --
+- {type: rate_index, entity_id: rate:fr007, name: FR007, ref_code: REPO, aliases: [7-day repo fixing, CNY IRS, CNY swaps], currency_id: ccy:cny}
+- {type: rate_index, entity_id: rate:dr001, name: DR001, aliases: [overnight depository repo rate], currency_id: ccy:cny}
+- {type: rate_index, entity_id: rate:shibor, name: SHIBOR, ref_code: SHIBOR, currency_id: ccy:cny}
+- {type: rate_index, entity_id: rate:lpr, name: LPR, aliases: [Loan Prime Rate, 1y LPR, 5y LPR], currency_id: ccy:cny}
+- {type: rate_index, entity_id: rate:cnh_hibor, name: CNH HIBOR, ref_code: HIBOR, aliases: [CNH swaps], currency_id: ccy:cnh}
+- {type: rate_index, entity_id: rate:hibor, name: HIBOR, ref_code: HIBOR, aliases: [HKD swaps], currency_id: ccy:hkd}
+- {type: rate_index, entity_id: rate:honia, name: HONIA, ref_code: HONIA, aliases: [HKD OIS], currency_id: ccy:hkd}
+- {type: rate_index, entity_id: rate:cd91, name: CD91, ref_code: CD, aliases: [KRW IRS, KRW swaps, 91-day CD rate], currency_id: ccy:krw}
+# check: QLib has idx[KRW,OIS]
+- {type: rate_index, entity_id: rate:kofr, name: KOFR, aliases: [KRW OIS], currency_id: ccy:krw}
+- {type: rate_index, entity_id: rate:taibor, name: TAIBOR, ref_code: TAIBOR, aliases: [TWD IRS, TWD swaps], currency_id: ccy:twd}
+- {type: rate_index, entity_id: rate:mibor, name: MIBOR, ref_code: OIS, aliases: [INR OIS, INR NDOIS, INR swaps], currency_id: ccy:inr}
+# check: QLib's IDR overnight index is JIINONT
+- {type: rate_index, entity_id: rate:indonia, name: IndONIA, aliases: [IDR NDS, IDR swaps], currency_id: ccy:idr}
+- {type: rate_index, entity_id: rate:jibor, name: JIBOR, ref_code: JIBOR, aliases: [Jakarta Interbank Offered Rate], currency_id: ccy:idr}
+- {type: rate_index, entity_id: rate:klibor, name: KLIBOR, ref_code: KLIBOR, aliases: [MYOR, MYR IRS, MYR swaps], currency_id: ccy:myr}
+# check: QLib has PHIBOR and PIRCORRP
+- {type: rate_index, entity_id: rate:phiref, name: PHIREF, aliases: [PHP IRS, PHP swaps], currency_id: ccy:php}
+- {type: rate_index, entity_id: rate:sora, name: SORA, ref_code: SORA, aliases: [SGD OIS, SGD swaps], currency_id: ccy:sgd}
+- {type: rate_index, entity_id: rate:thor, name: THOR, ref_code: THORON, aliases: [THB OIS, THB swaps], currency_id: ccy:thb}
+# -- LatAm --
+- {type: rate_index, entity_id: rate:cdi, name: CDI, ref_code: CDI, aliases: [DI, DI futures, BRL swaps, pre-DI], currency_id: ccy:brl}
+- {type: rate_index, entity_id: rate:tiie, name: TIIE, ref_code: TIIE, aliases: [MXN IRS, MXN swaps], currency_id: ccy:mxn}
+- {type: rate_index, entity_id: rate:tiie_fondeo, name: TIIE de Fondeo, ref_code: MXIBTIEF, aliases: [F-TIIE, TIIE Fondeo, MXN OIS], currency_id: ccy:mxn}
+# QLib's default CLP overnight index is DEPOSIT; CAMARA is listed separately
+- {type: rate_index, entity_id: rate:camara, name: Cámara, ref_code: CAMARA, aliases: [Camara, ICP, CLP OIS, CLP swaps], currency_id: ccy:clp}
+- {type: rate_index, entity_id: rate:ibr, name: IBR, ref_code: OIS, aliases: [COP OIS, COP swaps], currency_id: ccy:cop}
+# -- CEEMEA --
+- {type: rate_index, entity_id: rate:jibar, name: JIBAR, ref_code: JIBR, aliases: [ZAR FRA, ZAR FRAs, ZAR swaps, ZAR FRA curve], currency_id: ccy:zar}
+- {type: rate_index, entity_id: rate:zaronia, name: ZARONIA, ref_code: ZARONIA, aliases: [ZAR OIS], currency_id: ccy:zar}
+- {type: rate_index, entity_id: rate:tlref, name: TLREF, ref_code: TLREF, aliases: [TRY swaps], currency_id: ccy:try}
+- {type: rate_index, entity_id: rate:wibor, name: WIBOR, ref_code: WIBOR, aliases: [PLN swaps, PLN FRAs], currency_id: ccy:pln}
+# check: QLib has POLSTR and POLONIA
+- {type: rate_index, entity_id: rate:wiron, name: WIRON, aliases: [PLN OIS], currency_id: ccy:pln}
+- {type: rate_index, entity_id: rate:bubor, name: BUBOR, ref_code: BUBOR, aliases: [HUF swaps, HUF FRAs], currency_id: ccy:huf}
+- {type: rate_index, entity_id: rate:pribor, name: PRIBOR, ref_code: PRIBOR, aliases: [CZK swaps, CZK FRAs], currency_id: ccy:czk}
+- {type: rate_index, entity_id: rate:telbor, name: TELBOR, ref_code: TELBOR, aliases: [ILS swaps], currency_id: ccy:ils}
+- {type: rate_index, entity_id: rate:shir, name: SHIR, ref_code: SHIRON, aliases: [ILS OIS], currency_id: ccy:ils}
+
+# == government bond markets ==================================================
+# -- USD --
+- {type: sovereign_bond, entity_id: bond:ust, name: US Treasuries, aliases: [UST, USTs, Treasuries, Treasury, US Treasury, Treasury bond, Treasury bonds, US Treasury bonds, Treasury notes, T-bills, Treasury bills, Treasury yields, long-end Treasury yields, US yields, US long-end yields], currency_id: ccy:usd, geography_id: geo:us, issuer_id: org:us_treasury}
+- {type: sovereign_bond, entity_id: bond:tips, name: TIPS, segment: inflation_linked, aliases: [Treasury Inflation-Protected Securities, TIPS breakevens, US breakevens], currency_id: ccy:usd, geography_id: geo:us, issuer_id: org:us_treasury}
+# -- EUR --
+- {type: sovereign_bond, entity_id: bond:bund, name: Bunds, aliases: [Bund, German government bonds, DBR, Schatz, Bobl], currency_id: ccy:eur, geography_id: geo:de}
+- {type: sovereign_bond, entity_id: bond:oat, name: OATs, aliases: [OAT, French OATs, French government bonds], currency_id: ccy:eur, geography_id: geo:fr}
+- {type: sovereign_bond, entity_id: bond:btp, name: BTPs, aliases: [BTP, Italian government bonds], currency_id: ccy:eur, geography_id: geo:it}
+- {type: sovereign_bond, entity_id: bond:spgb, name: SPGBs, aliases: [SPGB, Bonos, Spanish government bonds], currency_id: ccy:eur, geography_id: geo:es}
+- {type: sovereign_bond, entity_id: bond:dsl, name: DSLs, aliases: [DSL, Dutch government bonds], currency_id: ccy:eur, geography_id: geo:nl}
+- {type: sovereign_bond, entity_id: bond:olo, name: OLOs, aliases: [OLO, Belgian government bonds], currency_id: ccy:eur, geography_id: geo:be}
+- {type: sovereign_bond, entity_id: bond:ragb, name: RAGBs, aliases: [RAGB, Austrian government bonds], currency_id: ccy:eur, geography_id: geo:at}
+- {type: sovereign_bond, entity_id: bond:pgb, name: PGBs, aliases: [PGB, Portuguese government bonds], currency_id: ccy:eur, geography_id: geo:pt}
+- {type: sovereign_bond, entity_id: bond:rfgb, name: RFGBs, aliases: [RFGB, Finnish government bonds], currency_id: ccy:eur, geography_id: geo:fi}
+- {type: sovereign_bond, entity_id: bond:irish, name: IRISH, aliases: [Irish government bonds], currency_id: ccy:eur, geography_id: geo:ie}
+- {type: sovereign_bond, entity_id: bond:ggb, name: GGBs, aliases: [GGB, Greek government bonds], currency_id: ccy:eur, geography_id: geo:gr}
+- {type: non_sovereign_bond, entity_id: bond:eu, name: EU bonds, issuer_kind: supra, aliases: [EU, EU-bonds, NGEU bonds], currency_id: ccy:eur, geography_id: geo:eu, issuer_id: org:european_commission}
+- {type: sovereign_bond, entity_id: bond:egb, name: EGBs, aliases: [EGB, European government bonds, euro govies], currency_id: ccy:eur, geography_id: geo:ea}
+# -- other G10 --
+- {type: sovereign_bond, entity_id: bond:gilt, name: Gilts, aliases: [gilt, UKT, UK government bonds], currency_id: ccy:gbp, geography_id: geo:gb, issuer_id: org:uk_dmo}
+- {type: sovereign_bond, entity_id: bond:linker, name: Index-linked gilts, segment: inflation_linked, aliases: [linkers, UK linkers, gilt linkers], currency_id: ccy:gbp, geography_id: geo:gb, issuer_id: org:uk_dmo}
+- {type: sovereign_bond, entity_id: bond:jgb, name: JGBs, aliases: [JGB, Japanese government bonds], currency_id: ccy:jpy, geography_id: geo:jp, issuer_id: org:jp_mof}
+- {type: sovereign_bond, entity_id: bond:swiss, name: Swiss government bonds, aliases: [Confederation bonds, Eidgenossen], currency_id: ccy:chf, geography_id: geo:ch}
+- {type: sovereign_bond, entity_id: bond:goc, name: Canada government bonds, aliases: [GoC, GoCs, Canadas, CA bonds], currency_id: ccy:cad, geography_id: geo:ca}
+- {type: sovereign_bond, entity_id: bond:acgb, name: ACGBs, aliases: [ACGB, Australian government bonds], currency_id: ccy:aud, geography_id: geo:au}
+- {type: sovereign_bond, entity_id: bond:nzgb, name: NZGBs, aliases: [NZGB, New Zealand government bonds], currency_id: ccy:nzd, geography_id: geo:nz}
+- {type: sovereign_bond, entity_id: bond:sgb, name: SGBs, aliases: [Swedish government bonds], currency_id: ccy:sek, geography_id: geo:se}
+- {type: sovereign_bond, entity_id: bond:ngb, name: NGBs, aliases: [Norwegian government bonds], currency_id: ccy:nok, geography_id: geo:no}
+# -- EM Asia --
+- {type: sovereign_bond, entity_id: bond:cgb, name: CGBs, aliases: [CGB, China government bonds, China government bond, Chinese government bonds], currency_id: ccy:cny, geography_id: geo:cn, issuer_id: org:cn_mof}
+- {type: sovereign_bond, entity_id: bond:dim_sum, name: Dim sum bonds, aliases: [CNH bonds, offshore CGBs], currency_id: ccy:cnh, geography_id: geo:cn}
+- {type: sovereign_bond, entity_id: bond:hkgb, name: HKGBs, aliases: [Hong Kong government bonds], currency_id: ccy:hkd, geography_id: geo:hk}
+- {type: sovereign_bond, entity_id: bond:ktb, name: KTBs, aliases: [KTB, Korea Treasury Bonds, Korean government bonds], currency_id: ccy:krw, geography_id: geo:kr, issuer_id: org:kr_moef}
+- {type: sovereign_bond, entity_id: bond:tgb, name: Taiwan government bonds, aliases: [TGBs], currency_id: ccy:twd, geography_id: geo:tw}
+- {type: sovereign_bond, entity_id: bond:igb, name: IGBs, aliases: [IGB, Indian government bonds, G-secs, GSecs], currency_id: ccy:inr, geography_id: geo:in}
+- {type: sovereign_bond, entity_id: bond:indogb, name: IndoGBs, aliases: [IndoGB, INDOGB, Indonesian government bonds], currency_id: ccy:idr, geography_id: geo:id}
+- {type: sovereign_bond, entity_id: bond:mgs, name: MGS, aliases: [Malaysian Government Securities, MGSs], currency_id: ccy:myr, geography_id: geo:my}
+- {type: sovereign_bond, entity_id: bond:rpgb, name: RPGBs, aliases: [Philippine government bonds], currency_id: ccy:php, geography_id: geo:ph}
+- {type: sovereign_bond, entity_id: bond:sgs, name: SGS, aliases: [Singapore Government Securities], currency_id: ccy:sgd, geography_id: geo:sg}
+- {type: sovereign_bond, entity_id: bond:thaigb, name: Thai government bonds, aliases: [ThaiGBs, LBs], currency_id: ccy:thb, geography_id: geo:th}
+# -- LatAm --
+- {type: sovereign_bond, entity_id: bond:ntnf, name: Brazil government bonds, aliases: [NTN-F, NTN-Fs, LTN, LTNs, Brazil local bonds], currency_id: ccy:brl, geography_id: geo:br}
+- {type: sovereign_bond, entity_id: bond:ntnb, name: NTN-B, segment: inflation_linked, aliases: [NTN-Bs], currency_id: ccy:brl, geography_id: geo:br}
+- {type: sovereign_bond, entity_id: bond:mbono, name: Mbonos, aliases: [Mbono, MBono, Mexico government bonds], currency_id: ccy:mxn, geography_id: geo:mx}
+- {type: sovereign_bond, entity_id: bond:bcp, name: Chile government bonds, aliases: [BTP-Pesos, Bonos de la Tesorería, Chile local bonds], currency_id: ccy:clp, geography_id: geo:cl}
+- {type: sovereign_bond, entity_id: bond:tes, name: TES, aliases: [Colombian TES, Colombia government bonds], currency_id: ccy:cop, geography_id: geo:co}
+# -- CEEMEA --
+- {type: sovereign_bond, entity_id: bond:sagb, name: SAGBs, aliases: [SAGB, South African government bonds], currency_id: ccy:zar, geography_id: geo:za}
+- {type: sovereign_bond, entity_id: bond:turkgb, name: TURKGBs, aliases: [Turkish government bonds], currency_id: ccy:try, geography_id: geo:tr}
+- {type: sovereign_bond, entity_id: bond:polgb, name: POLGBs, aliases: [POLGB, Polish government bonds], currency_id: ccy:pln, geography_id: geo:pl}
+- {type: sovereign_bond, entity_id: bond:hgb, name: HGBs, aliases: [REPHUN, Hungarian government bonds], currency_id: ccy:huf, geography_id: geo:hu}
+- {type: sovereign_bond, entity_id: bond:czgb, name: CZGBs, aliases: [CZGB, Czech government bonds], currency_id: ccy:czk, geography_id: geo:cz}
+- {type: sovereign_bond, entity_id: bond:ilgb, name: Israel government bonds, aliases: [ILGBs, Shahar], currency_id: ccy:ils, geography_id: geo:il}

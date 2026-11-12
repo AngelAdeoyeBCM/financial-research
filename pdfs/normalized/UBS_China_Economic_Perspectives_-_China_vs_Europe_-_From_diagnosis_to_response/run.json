@@ -1,0 +1,290 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_China_Economic_Perspectives_-_China_vs_Europe_-_From_diagnosis_to_response.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-09",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 17,
+    "referents": {
+     "thing": 9,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 11,
+     "leave": 6
+    },
+    "leave_reasons": {
+     "expletive": 4,
+     "generic": 1,
+     "not_a_reference": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 17,
+  "kinds": {
+   "deixis": 5,
+   "possessive": 4,
+   "demonstrative": 3,
+   "noun_phrase": 2,
+   "pronoun": 2,
+   "proposition": 1
+  },
+  "rooted_share": 0.8444444444444444,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 33,
+  "cost_usd": 0.1197
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1173,
+   "end": 1178,
+   "quote": "China",
+   "name": "China"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 871,
+   "end": 890,
+   "quote": "individual findings",
+   "name": "individual findings"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1441,
+   "end": 1461,
+   "quote": "further appreciation",
+   "name": "further appreciation"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1748,
+   "end": 1791,
+   "quote": "EU’s request to curb Chinese exports of EVs",
+   "name": "the EU’s request to curb Chinese exports of EVs"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1957,
+   "end": 1980,
+   "quote": "Buying more from Europe",
+   "name": "buying more from Europe"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2142,
+   "end": 2194,
+   "quote": "leaders of Germany and France made a joint statement",
+   "name": "the joint statement of leaders of Germany and France"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2424,
+   "end": 2467,
+   "quote": "European Commission President Von der Leyen",
+   "name": "European Commission President Von der Leyen"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 4214,
+   "end": 4298,
+   "quote": "China’s response had a bias to be less than proportional to avoid further escalation",
+   "name": "China’s response had a bias to be less than proportional to avoid further escalation"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4399,
+   "end": 4410,
+   "quote": "Yutong Yang",
+   "name": "Yutong Yang"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 76,
+   "end": 144,
+   "quote": "The PBOC issued a strongly worded statement on the RMB exchange rate",
+   "name": "the PBOC's strongly worded statement on the RMB exchange rate"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'its' in ' EU products are bought by consumers so its unclear how much the government can do '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0340414,
+   "duration_ms": 3698,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3644,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 199,
+    "output_tokens_details": {
+     "thinking_tokens": 186
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3644,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 199,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3644,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3644
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0857014,
+   "duration_ms": 21599,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4248,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2528,
+    "output_tokens_details": {
+     "thinking_tokens": 1452
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4248,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2528,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4248,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4248
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

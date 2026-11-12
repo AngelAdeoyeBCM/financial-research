@@ -1,0 +1,152 @@
+{
+ "map": {
+  "arguments": [
+   {
+    "id": "A001",
+    "summary": "Fed faces a hike-or-bond-spike choice: a no-hike outcome risks a disorderly long-end move, the 30Y could test 5.75%, and the bond favours orthodoxy over buybacks.",
+    "conclusion": "P016-2",
+    "premises": [
+     "P017-2",
+     "P018-1",
+     "P019-1",
+     "P020-1",
+     "P020-2"
+    ],
+    "conditions": [
+     "P017-1"
+    ],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P016-1"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A002",
+    "summary": "Fed hikes 25bp: the hike-or-spike choice, ~85% pricing, CPI locking in the hike, and raised cost of disappointing expectations support it.",
+    "conclusion": "P005-1",
+    "premises": [
+     "A001",
+     "P013-1",
+     "P030-1",
+     "P031-1",
+     "P031-2",
+     "P032-3"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "P129-1"
+    ]
+   },
+   {
+    "id": "A003",
+    "summary": "Warsh delivers a hawkish hike: the presser should resemble his Jackson Hole tone, largely to support the bond, amid hawkish communications and a 50bp SEP.",
+    "conclusion": "P009-1",
+    "premises": [
+     "P086-2",
+     "P025-2",
+     "P021-1",
+     "P022-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [
+     "P061-1",
+     "P091-2"
+    ],
+    "implications": [
+     "P009-2",
+     "P009-3"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A004",
+    "summary": "The bar for the FOMC to out-hawk expectations and other G10 central banks is high, given more than 3 hikes priced and global central bank repricing.",
+    "conclusion": "P118-2",
+    "premises": [
+     "P118-1",
+     "P117-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P119-2"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A005",
+    "summary": "The USD outcome is set by the Fed's ability to out-hawk expectations, since the dollar was subdued into the FOMC and failed to rally despite energy gains.",
+    "conclusion": "P010-1",
+    "premises": [
+     "A004",
+     "P116-1",
+     "P113-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P121-1"
+    ],
+    "alternatives": []
+   }
+  ]
+ },
+ "errors": [],
+ "attempts": 1,
+ "usage": [
+  {
+   "cost_usd": 0.01186819,
+   "duration_ms": 47858,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 21225,
+    "cache_read_input_tokens": 2859,
+    "output_tokens": 10965,
+    "output_tokens_details": {
+     "thinking_tokens": 10116
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 21225,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 10965,
+      "cache_read_input_tokens": 2859,
+      "cache_creation_input_tokens": 21225,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 21225
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+version: "1"
+
+# Structured claim task: run on one claim span at a time, not on a whole document.
+# Field keys are the output keys. Defaults are merged into each field with `<<`;
+# allow_none is true because a claim span usually omits most slots.
+x-single: &single
+  dtype: str
+  allow_multiple: false
+  allow_none: true
+  status: active
+
+id: claim_data_point
+type: structured
+name: data_point
+
+fields:
+  subject:
+    <<: *single
+    name: Subject
+    description: "The country, market, company, or instrument the data point is about."
+
+  metric:
+    <<: *single
+    name: Metric
+    description: "The statistic or measure reported, such as CPI, payrolls, or EBITDA."
+
+  value:
+    <<: *single
+    name: Value
+    description: "The reported or observed value, as written."
+
+  reference_period:
+    <<: *single
+    name: Reference period
+    description: "The period the value refers to, such as September or Q3 2026."
+
+  comparison:
+    <<: *single
+    name: Comparison
+    description: "The figure the value is compared with, as written."
+
+  comparison_type:
+    <<: *single
+    name: Comparison type
+    description: "What the value is compared against."
+    choices: [vs_consensus, vs_prior, yoy, vs_history]
+
+  surprise:
+    <<: *single
+    name: Surprise
+    description: "Whether the value came in above, below, or in line with expectations."
+    choices: [above, below, in_line]
+
+  source:
+    <<: *single
+    name: Source
+    description: "The publisher or provider of the data."

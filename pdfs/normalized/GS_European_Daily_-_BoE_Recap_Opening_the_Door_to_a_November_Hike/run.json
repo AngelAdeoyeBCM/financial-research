@@ -1,0 +1,234 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_European_Daily_-_BoE_Recap_Opening_the_Door_to_a_November_Hike.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-17",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 13,
+    "referents": {
+     "thing": 4,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 9,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "expletive": 4
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 27,
+  "kinds": {
+   "deixis": 16,
+   "pronoun": 5,
+   "demonstrative": 2,
+   "noun_phrase": 2,
+   "shell": 1,
+   "possessive": 1
+  },
+  "rooted_share": 0.7945205479452054,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 38,
+  "cost_usd": 0.1163
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1376,
+   "end": 1384,
+   "quote": "the Bank",
+   "name": "the Bank"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2158,
+   "end": 2165,
+   "quote": "The MPC",
+   "name": "the MPC"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3828,
+   "end": 3923,
+   "quote": "a multi-year plan to fully unwind the stock of gilts held for monetary policy purchases by 2034",
+   "name": "the multi-year plan to fully unwind the stock of gilts held for monetary policy purchases by 2034"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 4549,
+   "end": 4723,
+   "quote": "a continuation of the conflict in the Middle East would further increase the risk of second-round effects in the MPC’s assessment and probably require tighter monetary policy",
+   "name": "a continuation of the conflict in the Middle East would further increase the risk of second-round effects in the MPC’s assessment and probably require tighter monetary policy"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 5805,
+   "end": 5835,
+   "quote": "risks of additional tightening",
+   "name": "the risks of additional tightening"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4812",
+   "message": "+29 words: {{this regard => the regard that a continuation of the conflict in the Middle East would further increase the risk of second-round effects in the MPC’s assessment and probably require tighter monetary policy}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.04004,
+   "duration_ms": 3493,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4325,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 223,
+    "output_tokens_details": {
+     "thinking_tokens": 210
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4325,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 223,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4325,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4325
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0762397,
+   "duration_ms": 15738,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4796,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1826,
+    "output_tokens_details": {
+     "thinking_tokens": 1009
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4796,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1826,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4796,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4796
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

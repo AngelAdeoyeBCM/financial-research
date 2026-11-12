@@ -1,0 +1,199 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Fade_AUDUSD_strength_Trade_Idea--916186.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-09",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "link": 4
+    },
+    "leave_reasons": {},
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 21,
+  "kinds": {
+   "deixis": 14,
+   "pronoun": 3,
+   "noun_phrase": 3,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6206896551724138,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 20,
+  "cost_usd": 0.0772
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 183,
+   "end": 199,
+   "quote": "consensus trades",
+   "name": "consensus trades"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1381,
+   "end": 1388,
+   "quote": "the AUD",
+   "name": "the AUD"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1681,
+   "end": 1716,
+   "quote": "RBA to deliver rate hikes this year",
+   "name": "RBA rate hikes this year"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 714,
+   "end": 731,
+   "quote": "BNP Paribas STEER",
+   "name": "BNP Paribas STEER"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 746,
+   "end": 752,
+   "quote": "AUDUSD",
+   "name": "AUDUSD"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'its' in '2: AUDUSD appears rich to its STEER Fig.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0293347,
+   "duration_ms": 3209,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3142,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 167,
+    "output_tokens_details": {
+     "thinking_tokens": 159
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3142,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 167,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3142,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3142
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.047909700000000006,
+   "duration_ms": 10095,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3326,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1012,
+    "output_tokens_details": {
+     "thinking_tokens": 533
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3326,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1012,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3326,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3326
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

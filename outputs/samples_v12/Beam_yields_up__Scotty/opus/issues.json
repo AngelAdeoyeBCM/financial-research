@@ -1,0 +1,44 @@
+[
+  {
+    "code": "EVIDENCE_UNUSED",
+    "severity": "warning",
+    "path": "$.evidence[75]",
+    "message": "E076 is not referenced by any statement.",
+    "suggested_action": "Attach the span to a statement, or remove it if no claim uses it."
+  },
+  {
+    "code": "ARGUMENT_WITHOUT_RELATION",
+    "severity": "warning",
+    "path": "$.arguments[22]",
+    "message": "A023 has no relation other than observations in rationale.",
+    "suggested_action": "Add the reason, data point, risk or qualifier the text gives for the core claim, or place the core claim in the argument it serves and delete this argument."
+  },
+  {
+    "code": "ARGUMENT_WITHOUT_RELATION",
+    "severity": "warning",
+    "path": "$.arguments[23]",
+    "message": "A024 has no relation other than observations in rationale.",
+    "suggested_action": "Add the reason, data point, risk or qualifier the text gives for the core claim, or place the core claim in the argument it serves and delete this argument."
+  },
+  {
+    "code": "ARGUMENT_WITHOUT_RELATION",
+    "severity": "warning",
+    "path": "$.arguments[25]",
+    "message": "A026 has no relation other than observations in rationale.",
+    "suggested_action": "Add the reason, data point, risk or qualifier the text gives for the core claim, or place the core claim in the argument it serves and delete this argument."
+  },
+  {
+    "code": "ARGUMENT_WITHOUT_RELATION",
+    "severity": "warning",
+    "path": "$.arguments[26]",
+    "message": "A027 has no relation other than observations in rationale.",
+    "suggested_action": "Add the reason, data point, risk or qualifier the text gives for the core claim, or place the core claim in the argument it serves and delete this argument."
+  },
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[3].warrants[0]",
+    "message": "S021 is in warrants, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states a general principle; otherwise move the statement to premises."
+  }
+]

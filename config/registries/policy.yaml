@@ -1,0 +1,43 @@
+# Policy tools: levers an authority (authority_id) sets. IDs: policy:<slug>.
+# The tool's setting or status (expanded, cut, ended) is a state, not part of
+# the entity. Policy rates are indicators; the meetings and budgets that
+# decide tools are events. Bare "QT" stays unresolved: the authority is needed.
+
+# == monetary =================================================================
+# -- ECB --
+- {type: policy, entity_id: policy:ecb_app, name: APP, kind: asset_purchase, aliases: [Asset Purchase Programme, ECB APP], authority_id: org:ecb}
+- {type: policy, entity_id: policy:ecb_pepp, name: PEPP, kind: asset_purchase, aliases: [Pandemic Emergency Purchase Programme], authority_id: org:ecb}
+- {type: policy, entity_id: policy:ecb_tpi, name: TPI, kind: backstop, aliases: [Transmission Protection Instrument, ECB TPI], authority_id: org:ecb}
+- {type: policy, entity_id: policy:ecb_omt, name: OMT, kind: backstop, aliases: [Outright Monetary Transactions], authority_id: org:ecb}
+- {type: policy, entity_id: policy:ecb_ltro, name: LTRO, kind: lending_facility, aliases: [LTROs, 3Y LTRO, TLTRO, TLTROs, targeted LTRO], authority_id: org:ecb}
+- {type: policy, entity_id: policy:ecb_qt, name: ECB QT, kind: balance_sheet_runoff, aliases: [ECB balance sheet runoff, ECB quantitative tightening], authority_id: org:ecb}
+- {type: policy, entity_id: policy:ecb_structural_operations, name: ECB structural operations, kind: liquidity_operation, aliases: [structural portfolio, structural tender, structural refinancing operations], authority_id: org:ecb}
+# -- Fed --
+- {type: policy, entity_id: policy:fed_qt, name: Fed QT, kind: balance_sheet_runoff, aliases: [Fed balance sheet runoff, Fed quantitative tightening], authority_id: org:fed}
+- {type: policy, entity_id: policy:fed_on_rrp, name: ON RRP, kind: liquidity_operation, aliases: [RRP, Fed RRP, overnight reverse repo facility], authority_id: org:fed}
+- {type: policy, entity_id: policy:fed_srf, name: SRF, kind: lending_facility, aliases: [Standing Repo Facility], authority_id: org:fed}
+# -- BoE / BoJ --
+- {type: policy, entity_id: policy:boe_apf, name: APF, kind: asset_purchase, aliases: [Asset Purchase Facility, BoE APF], authority_id: org:boe}
+- {type: policy, entity_id: policy:boe_qt, name: BoE QT, kind: balance_sheet_runoff, aliases: [BoE active gilt sales, active gilt sales], authority_id: org:boe}
+- {type: policy, entity_id: policy:boj_ycc, name: YCC, kind: yield_curve_control, aliases: [yield curve control, BoJ YCC], authority_id: org:boj}
+- {type: policy, entity_id: policy:boj_jgb_purchases, name: BoJ JGB purchases, kind: asset_purchase, aliases: [BoJ bond buying, BoJ JGB buying], authority_id: org:boj}
+# -- EM --
+- {type: policy, entity_id: policy:pboc_rrr, name: RRR, kind: reserve_requirement, aliases: [reserve requirement ratio, PBOC RRR], authority_id: org:pboc}
+- {type: policy, entity_id: policy:pboc_relending, name: PBOC relending, kind: lending_facility, aliases: [relending, relending quotas], authority_id: org:pboc}
+- {type: policy, entity_id: policy:pboc_psl, name: PSL, kind: lending_facility, aliases: [pledged supplementary lending, pledged supplementary lending rate], authority_id: org:pboc}
+- {type: policy, entity_id: policy:pboc_mlf, name: MLF, kind: lending_facility, aliases: [Medium-term Lending Facility], authority_id: org:pboc}
+- {type: policy, entity_id: policy:bi_srbi, name: SRBI, kind: liquidity_operation, aliases: [Sekuritas Rupiah Bank Indonesia], authority_id: org:bi}
+
+# == macroprudential ==========================================================
+- {type: policy, entity_id: policy:us_eslr, name: eSLR, kind: macroprudential, aliases: [enhanced supplementary leverage ratio, SLR], authority_id: org:fed}
+
+# == fiscal ===================================================================
+- {type: policy, entity_id: policy:ust_buybacks, name: Treasury buybacks, kind: debt_management, aliases: [Treasury buyback operations, Treasury buyback, US Treasury buybacks, US Treasury buyback, buybacks], authority_id: org:us_treasury}
+- {type: policy, entity_id: policy:gilt_remit, name: Gilt remit, kind: debt_management, aliases: [DMO remit, gilt remit revision], authority_id: org:uk_dmo}
+- {type: policy, entity_id: policy:cn_special_lgb_quota, name: Special LGB quotas, kind: debt_management, aliases: [special LGB quotas, special local government bond quota, special LGBs], authority_id: org:cn_mof}
+- {type: policy, entity_id: policy:uk_vat, name: UK VAT, kind: tax, aliases: [VAT, value added tax], authority_id: org:hm_treasury}
+- {type: policy, entity_id: policy:uk_fuel_duty, name: Fuel duty, kind: tax, aliases: [UK fuel duty], authority_id: org:hm_treasury}
+- {type: policy, entity_id: policy:uk_corporation_tax, name: UK corporation tax, kind: tax, aliases: [corporation tax], authority_id: org:hm_treasury}
+- {type: policy, entity_id: policy:uk_cgt, name: UK capital gains tax, kind: tax, aliases: [capital gains tax, CGT], authority_id: org:hm_treasury}
+- {type: policy, entity_id: policy:uk_warm_homes_discount, name: Warm Homes Discount, kind: transfer, authority_id: org:hm_treasury}
+- {type: policy, entity_id: policy:uk_energy_price_cap, name: Ofgem price cap, kind: price_control, aliases: [energy price cap, Ofgem cap], authority_id: org:ofgem}

@@ -1,0 +1,192 @@
+{
+  "summary": {
+    "ok": true,
+    "sentences_file": "outputs/normalise_v20/haiku/sentences.jsonl",
+    "model": "haiku",
+    "prompt": "atomise_v03.md",
+    "attempts": 1,
+    "sentences": 143,
+    "targets": 126,
+    "atoms": 263,
+    "atoms_per_sentence": 2.09,
+    "claim_type": {
+      "PREDICTION": 100,
+      "VIEW": 69,
+      "OBSERVATION": 57,
+      "FORECAST": 37
+    },
+    "modality": {
+      "ASSERTED": 184,
+      "HEDGED": 56,
+      "SPECULATIVE": 23
+    },
+    "role": {
+      "statement": 201,
+      "antecedent": 32,
+      "consequent": 30
+    },
+    "formulas": 25,
+    "relations": {
+      "causal": 27,
+      "attribution": 9,
+      "contrast": 9,
+      "temporal": 3
+    },
+    "topics": 9,
+    "open_connectives": 11,
+    "errors": 0,
+    "warnings": {
+      "HEDGE_IN_TEXT": 11,
+      "UNCONSUMED_CONNECTIVE": 4,
+      "SOFT_CONNECTIVE_IN_ATOM": 2
+    },
+    "cost_usd": 0.0604
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P010-1",
+      "message": "['will']: USD outcome will be determined by Fed ability to 'out-hawk' mkt expectations and other G10 central banks."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P030",
+      "message": "['but']"
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P034-1",
+      "message": "['before']: There will be only one additional employment report before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P034-1",
+      "message": "['will']: There will be only one additional employment report before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P034-2",
+      "message": "['before']: There will be only one CPI release before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P034-2",
+      "message": "['will']: There will be only one CPI release before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P034",
+      "message": "['before']"
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P043-2",
+      "message": "['will']: The Sept FOMC meeting will still deliver an updated set of Fed projections."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P044-1",
+      "message": "['will']: The forecasts will also include policymakers' first estimates for 2029."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P065-2",
+      "message": "['should']: Warsh's prior stance is that oil shocks should be treated as one-offs."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P066-1",
+      "message": "['will']: The author will look for additional color on Warsh's reaction function."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P072",
+      "message": "['if']"
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P086-1",
+      "message": "['will']: The key question will be Warsh presser."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P103-1",
+      "message": "['likely']: The Trump admin's choice is likely."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P109-3",
+      "message": "['would']: A Fed hold with stable market pricing would represent an unprecedented dovish hold using FOMC OIS data back to '07."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P113",
+      "message": "['since']"
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P143-1",
+      "message": "['will']: USD outcome will be determined by Fed ability to 'out-hawk' mkt expectations and other G10 central banks."
+    }
+  ],
+  "usage": [
+    {
+      "cost_usd": 0.060353210000000004,
+      "duration_ms": 398700,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 7016,
+        "cache_read_input_tokens": 7671,
+        "output_tokens": 116361,
+        "output_tokens_details": {
+          "thinking_tokens": 90955
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 7016,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 116361,
+            "cache_read_input_tokens": 7671,
+            "cache_creation_input_tokens": 7016,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 7016
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "models": [
+        "claude-haiku-5-5"
+      ]
+    }
+  ]
+}

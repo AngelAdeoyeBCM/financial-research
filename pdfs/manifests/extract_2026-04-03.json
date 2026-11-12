@@ -1,0 +1,719 @@
+{
+  "batch_id": "2026-04-03",
+  "window": [
+    "2026-04-03",
+    "2026-04-03"
+  ],
+  "generated_at": "2026-10-29T16:28:02",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-03_2026-04-06.json",
+      "sha256": "933571d9746b657f458962945412e123fc6082c03c8201bcdac43e45217ff60a",
+      "records": 1058,
+      "dates": [
+        "2026-04-03",
+        "2026-04-06"
+      ],
+      "records_for_batch": 461
+    }
+  ],
+  "counts": {
+    "documents": 12,
+    "in_scope": 10,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 9,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 74,
+    "edits": 10,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_US_Economics_-_March_employment_-_A_strong_report",
+      "document": "BC_US Economics - March employment - A strong report.pdf",
+      "date": "2026-04-03",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_US_Economics_Weekly_-_Stronger_jobs_keep_attention_on_inflation",
+      "document": "Citi_US Economics Weekly - Stronger jobs keep attention on inflation.pdf",
+      "date": "2026-04-03",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 34,
+      "page_count": 18,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.72,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_US_Rates_Weekly_-_Hedging_our_bullish_lean_into_CPI",
+      "document": "Citi_US Rates Weekly - Hedging our bullish lean into CPI.pdf",
+      "date": "2026-04-03",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 43,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Commitment_of_Traders_-_Weekly_Update",
+      "document": "DB_Commitment of Traders - Weekly Update.pdf",
+      "date": "2026-04-03",
+      "publisher": "Deutsche Bank",
+      "document_type": "Positioning and flows",
+      "chunk_count": 15,
+      "page_count": 13,
+      "status": "compiled",
+      "output": "pdfs/DB_Commitment_of_Traders_-_Weekly_Update.txt",
+      "asset_class_share": 0.857,
+      "fingerprint": "8d29d4d235fe54d5eb206cd0d06c18bd94972adc",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Weekly DV01 Changes, $mm Source: C'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Weekly DV01 Changes, $mm Source: CFTC and Deutsche Bank Andrew Fu Strategist +1-212-250-17'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 2: Trader Classification Source: Commodity Futures Trading Commission Reportable Positions: C'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 3: TU contract spec net positions Figure 4: TU net positions by trader type Source: Deutsche '",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 7: TY contract spec net positions Figure 8: TY net positions by trader type Source: Deutsche '",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 11: US contract spec net positions Figure 12: US net positions by trader type Source: Deutsch'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-5-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 15: 30-day fed funds futures spec net positions Figure 16: 30-day fed funds net positions by '",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-6-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 19: 3-m SOFR futures spec net positions Figure 20: 3-m SOFR net positions by trader type Sour'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-7-8",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 21: Net DV01 changes by trader type: Dealers Figure 22: Net DV01 changes by trader type: Asse'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-8-9",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 24: 1-week change in Net DV01 positions Source: CFTC and Deutsche Bank Figure 25: 1-month cha'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-9-10",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 27: Percent of Open Interest Held by the Indicated Number of the Largest Traders Source: CFTC'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-10-11",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 28: TU top 8 traders net short (contracts, thousands) Figure 29: FV top 8 traders net short ('",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-11-12",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 37: TU, Aggregate Open Interest Figure 38: FV, Aggregate Open Interest Source: Deutsche Bank '",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-12-13",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 43: TU net position (% of OI) Figure 44: FV net position (% of OI) Source: Deutsche Bank Sour'",
+          "chunk_id": "DB_Commitment of Traders - Weekly Update.pdf-13-14",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 03/04/2026 20:50:30 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 03/04/2026 20:50:30 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "CFTC and Deutsche Bank Andrew Fu Strategist +1-212-250-1743 Steven Zeng, CFA Strategist +1-212-250-9373"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "positions by trader type Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 4"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net positions by trader type Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net positions by trader type Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 5"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net positions by trader type Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net positions by trader type Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 6"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net positions by trader type Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net positions by trader type Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 7"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net positions by trader type Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 8"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net positions by trader type Source: Deutsche Bank Source: Deutsche Bank"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: CFTC and Deutsche Bank Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 9"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "in Net DV01 positions Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "change in Net DV01 positions Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 10"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "change in Net DV01 positions Source: CFTC and Deutsche Bank"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 11"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "(contracts, thousands) Source: CFTC and Deutsche Bank Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "top 8 traders net short (contracts, thousands) Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "top 8 traders net short (contracts, thousands) Source: CFTC and Deutsche Bank Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "top 8 traders net short (contracts, thousands) Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "top 8 traders net short (contracts, thousands) Source: CFTC and Deutsche Bank Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "top 8 traders net short (contracts, thousands) Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "top 8 traders net short (contracts, thousands) Source: CFTC and Deutsche Bank Source: CFTC and Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 12"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "top 8 traders net short (contracts, thousands) Source: CFTC and Deutsche Bank"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Aggregate Open Interest Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Aggregate Open Interest Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "3 April 2026 Commitment of Traders Deutsche Bank Securities Inc. Page 13"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Aggregate Open Interest Source: Deutsche Bank Source: Deutsche Bank"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "position (% of OI) Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net position (% of OI) Source: Deutsche Bank Source: Deutsche Bank Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "net position (% of OI) Source: Deutsche Bank Source: Deutsche Bank"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-04-06T18:58+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 46,
+        "disclaimer": 27,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "manager s",
+              "after": "managers"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Weekly Update ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "\n\n▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "DB_Global_Fixed_Income_Weekly_-_Strategy_Update__2026-04-03",
+      "document": "DB_Global Fixed Income Weekly - Strategy Update.pdf",
+      "date": "2026-04-03",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 117,
+      "page_count": 61,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.776,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Japan_Economic_Notes_-_Overview_of_the_next_week__2026-04-03",
+      "document": "DB_Japan Economic Notes - Overview of the next week.pdf",
+      "date": "2026-04-03",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.9,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_US_Fixed_Income_Weekly_-_Strategy_Update__2026-04-03",
+      "document": "DB_US Fixed Income Weekly - Strategy Update.pdf",
+      "date": "2026-04-03",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 43,
+      "page_count": 25,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_EUROPEAN_ECONOMICS_ANALYST_-_Italy_Growth_Slows__Not_Stalls__Fiscal_Risk_Builds__Not_Breaks",
+      "document": "GS_EUROPEAN ECONOMICS ANALYST - Italy—Growth Slows, Not Stalls; Fiscal Risk Builds, Not Breaks.pdf",
+      "date": "2026-04-03",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.909,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Economics_Weekly_-_Jobs_vol_here_to_stay__CPI_up_next",
+      "document": "UBS_US Economics Weekly - Jobs vol here to stay, CPI up next.pdf",
+      "date": "2026-04-03",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 140,
+      "page_count": 49,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.687,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "US_March_jobs_Teeing_up_a_symmetric_policy_bias_Desknote--921778",
+      "document": "US_March_jobs_Teeing_up_a_symmetric_policy_bias_Desknote--921778.pdf",
+      "date": "2026-04-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

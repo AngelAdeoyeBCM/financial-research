@@ -1,0 +1,371 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-09-25.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-25",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 13,
+    "referents": {
+     "thing": 12,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 11
+    },
+    "leave_reasons": {
+     "time": 1,
+     "relative": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     2,
+     0
+    ],
+    "undecided_per_attempt": [
+     1,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 37,
+  "kinds": {
+   "deixis": 17,
+   "noun_phrase": 8,
+   "symbol": 5,
+   "possessive": 3,
+   "pronoun": 2,
+   "proposition": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.746031746031746,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1,
+   "UNGROUNDED_WORD": 1,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 36,
+  "cost_usd": 0.2142
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1058,
+   "end": 1079,
+   "quote": "the unemployment rate",
+   "name": "the unemployment rate"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1533,
+   "end": 1577,
+   "quote": "aggregate annual private compensation growth",
+   "name": "aggregate annual private compensation growth"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1710,
+   "end": 1746,
+   "quote": "Wednesday’s third release for Q2 GDP",
+   "name": "Wednesday’s third release for Q2 GDP"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2624,
+   "end": 2627,
+   "quote": "BEA",
+   "name": "the BEA"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3345,
+   "end": 3368,
+   "quote": "the methodology changes",
+   "name": "the methodology changes"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 3042,
+   "end": 3188,
+   "quote": "these methodology changes will likely cause July’s year-over-year rate to be revised down by two to three tenths from 3.34% closer to 3.0% or 3.1%",
+   "name": "these methodology changes will likely cause July’s year-over-year rate to be revised down by two to three tenths from 3.34% closer to 3.0% or 3.1%"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3468,
+   "end": 3500,
+   "quote": "Fed officials speaking next week",
+   "name": "the Fed officials speaking next week"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4074,
+   "end": 4092,
+   "quote": "Our identification",
+   "name": "our identification"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 653,
+   "end": 678,
+   "quote": "the September jobs report",
+   "name": "the September jobs report"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 1840,
+   "end": 1876,
+   "quote": "the BEA’s annual benchmark revisions",
+   "name": "the BEA’s annual benchmark revisions"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 2045,
+   "end": 2079,
+   "quote": "the August data on personal income",
+   "name": "the August data on personal income"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 2102,
+   "end": 2113,
+   "quote": "consumption",
+   "name": "consumption"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4869,
+   "end": 4899,
+   "quote": "base case of two further hikes",
+   "name": "the base case of two further hikes"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3224",
+   "message": "+24 words: {{This => That the methodology changes will likely cause July’s year-over-year rate to be revised down by two to three tenths from 3.34% closer to 3.0% or 3.1%}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 3507",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'enchmark revisions won’t relieve Fed of its inflation work”), the methodology chang'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in ' the forward curve (see “How high might they go?”).'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R9",
+      "type": "thing",
+      "sid": "E031",
+      "quote": "our base case of two further hikes",
+      "name": "our base case of two further hikes"
+     },
+     "reason": "quote 'our base case of two further hikes' is not in E031 as written"
+    },
+    {
+     "item": {
+      "candidate": "C013",
+      "action": "link",
+      "referent": "R9",
+      "phrase": "this view"
+     },
+     "reason": "referent 'R9' is not in the referent table"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.043613,
+   "duration_ms": 5171,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4295,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 414,
+    "output_tokens_details": {
+     "thinking_tokens": 401
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4295,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 414,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4295,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4295
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.12047240000000001,
+   "duration_ms": 34417,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4773,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4054,
+    "output_tokens_details": {
+     "thinking_tokens": 2742
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4773,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4054,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4773,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4773
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.050131699999999994,
+   "duration_ms": 3774,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5251,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 336,
+    "output_tokens_details": {
+     "thinking_tokens": 215
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5251,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 336,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5251,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5251
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

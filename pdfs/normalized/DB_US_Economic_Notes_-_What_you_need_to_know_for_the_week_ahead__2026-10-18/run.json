@@ -1,0 +1,250 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-10-18.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-18",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "claim": 3,
+     "thing": 3
+    },
+    "decisions": {
+     "leave": 5,
+     "link": 5
+    },
+    "leave_reasons": {
+     "time": 3,
+     "relative": 1,
+     "expletive": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "deixis": 7,
+   "proposition": 3,
+   "noun_phrase": 2,
+   "shell": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 1
+  },
+  "sentences": 26,
+  "cost_usd": 0.1223
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 740,
+   "end": 775,
+   "quote": "the upside surprise was broad-based",
+   "name": "the upside surprise was broad-based"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1166,
+   "end": 1244,
+   "quote": "both recreation commodities and information technology commodities were strong",
+   "name": "both recreation commodities and information technology commodities were strong"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1406,
+   "end": 1462,
+   "quote": "owners’ equivalent rent (OER) jumped from 0.19% to 0.35%",
+   "name": "owners’ equivalent rent (OER) jumped from 0.19% to 0.35%"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1882,
+   "end": 1908,
+   "quote": "September’s core PCE print",
+   "name": "September’s core PCE print"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 509,
+   "end": 517,
+   "quote": "headline",
+   "name": "headline"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 552,
+   "end": 560,
+   "quote": "core CPI",
+   "name": "core CPI"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 2592",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0336445,
+   "duration_ms": 3012,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3800,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 116,
+    "output_tokens_details": {
+     "thinking_tokens": 103
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3800,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 116,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3800,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3800
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0886286,
+   "duration_ms": 25107,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4180,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2702,
+    "output_tokens_details": {
+     "thinking_tokens": 2040
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4180,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2702,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4180,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4180
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

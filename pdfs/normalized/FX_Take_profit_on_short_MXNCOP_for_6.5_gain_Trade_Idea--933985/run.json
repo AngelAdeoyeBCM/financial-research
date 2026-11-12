@@ -1,0 +1,249 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Take_profit_on_short_MXNCOP_for_6.5_gain_Trade_Idea--933985.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-20",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 9,
+    "referents": {
+     "thing": 6
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 7
+    },
+    "leave_reasons": {
+     "expletive": 2
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 38,
+  "kinds": {
+   "deixis": 26,
+   "noun_phrase": 9,
+   "possessive": 2,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6595744680851063,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 5
+  },
+  "sentences": 31,
+  "cost_usd": 0.1081
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 67,
+   "end": 73,
+   "quote": "MXNCOP",
+   "name": "MXNCOP"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 61,
+   "end": 86,
+   "quote": "short MXNCOP NDF position",
+   "name": "the short MXNCOP NDF position"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1251,
+   "end": 1285,
+   "quote": "the favorable external environment",
+   "name": "the favorable external environment"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1954,
+   "end": 1985,
+   "quote": "further appreciation in the COP",
+   "name": "further appreciation in the COP"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2047,
+   "end": 2054,
+   "quote": "the MXN",
+   "name": "the MXN"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2400,
+   "end": 2452,
+   "quote": "outperformance of high yielders against low yielders",
+   "name": "the outperformance of high yielders against low yielders"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 49"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 148"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we trust' at 1881"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we exit' at 2490"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 3108"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0367757,
+   "duration_ms": 5313,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3542,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 377,
+    "output_tokens_details": {
+     "thinking_tokens": 364
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3542,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 377,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3542,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3542
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0713067,
+   "duration_ms": 17460,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3866,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1963,
+    "output_tokens_details": {
+     "thinking_tokens": 1122
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3866,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1963,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3866,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3866
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

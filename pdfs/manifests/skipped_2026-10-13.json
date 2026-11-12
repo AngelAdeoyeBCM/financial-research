@@ -1,0 +1,1519 @@
+{
+  "batch_id": "2026-10-13",
+  "window": [
+    "2026-10-13",
+    "2026-10-13"
+  ],
+  "generated_at": "2026-10-29T16:32:36",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-12_2026-10-15.json",
+      "sha256": "6bc0c554a5aa71bdad002e778ef8ed20583a400410915f76c269fbfebe63abe2",
+      "records": 1523,
+      "dates": [
+        "2026-10-12",
+        "2026-10-15"
+      ],
+      "records_for_batch": 354
+    }
+  ],
+  "counts": {
+    "documents": 20,
+    "in_scope": 18,
+    "out_of_scope": 2,
+    "compiled": 2,
+    "skipped": 16,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 19,
+    "edits": 18,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 100,
+    "UNSTRUCTURED_TEXT": 40,
+    "DISTORTED_TABLE": 29,
+    "MISSING_CHUNKS": 7
+  },
+  "documents": [
+    {
+      "stem": "BC_European_Equity_Factor_Insights_-_Value_leadership_hinges_on_fiscal",
+      "document": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf",
+      "date": "2026-10-13",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 30,
+      "page_count": 21,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        21,
+        25,
+        27,
+        30,
+        32,
+        35
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 21, 25, 27, 30, 32, 35]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 0 50",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 40% 45% 50% 55% 60% 65% 70% 75% 80% -150 -100 -50",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -10% -8% -6% -4% -2% 0% 2% 4% 6% 8% 10% -6%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 90 92 94 96 98 100 102 104 106 108 110 88",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1.0% 0.3% 0.2% -0.1% 0.2% 0.1% 0.2% -0.1%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1.1% -0.1% 0.0% -0.1% 0.0% -0.1% -0.2% -0.2%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0.5% 0.0% 0.5% 0.2% 0.2% 0.1% 0.2% -0.3%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -100% -80% -60% -40% -20% 0% 20% 40% 60% 80% 100%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% 0% 10% 20%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-9-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-9-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "60% of tokens are numeric/date values",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-10-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 8% 17% 4% 7% 17% 15% 25% 3% 31% 5% 10% 5%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 8% 17% 4% 7% 17% 15% 25% 3% 31% 5% 10% 5%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 7% 10% 6% 2% 11% 0% 0% 4% 5% 13% 6% 5%",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-12-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-12-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -100% -80% -60% -40% -20% 0% 20% 40% 60% 80% 100% Jun-24",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-13-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-13-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0.50x 0.55x 0.60x 0.65x 0.70x 0.75x 0.80x 0.85x 0.90x 0.95x 00 02",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-14-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-14-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 85 90 95 100 105 110 115 120 125 1 27 53",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-15-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-15-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -100% -80% -60% -40% -20% 0% 20% 40% 60% 80% 100% Jun-24",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-16-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-16-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0.80x 1.00x 1.20x 1.40x 1.60x 1.80x 2.00x 00 02 04 06 08",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-17-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-17-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 80 85 90 95 100 105 110 115 120 1 27 53",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-18-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-18-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -100% -80% -60% -40% -20% 0% 20% 40% 60% 80% 100% Jun-24",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-19-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-19-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0.80x 1.20x 1.60x 2.00x 2.40x 2.80x 3.20x 3.60x 4.00x 00 02 04",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-20-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-20-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 70 80 90 100 110 120 130 140 150 1 27 53",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-21-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Factor Insights - Value leadership hinges on fiscal.pdf-21-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_US_Equity_Factor_Insights_-_October_2026_-_Stay_the_Course",
+      "document": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf",
+      "date": "2026-10-13",
+      "publisher": "Barclays",
+      "document_type": "Monthly",
+      "chunk_count": 22,
+      "page_count": 13,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        13,
+        15,
+        18,
+        20
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 13, 15, 18, 20]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +1 212 526 0850 | +1 212 526 7328 | 1 212 526 6114",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "23 consecutive numeric/date tokens: 13% 3.5% 2.1% -3.3% -5.4% -5.4% -5.4% -0.5% -2.3% 5.5% -7.0% 0.0%",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2Q25 2Q26 -60% -40% -20% 0% 20% 40% 60% 80% 100%",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 80 90 100 110 120 130 140 150 Dec-25 Jan-26 Feb-26 Mar-26",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-5-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: -0.73 -0.78 0.34 0.40 0.95 -0.93 2013 - 2019",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 -20 -15 -10 -5 0",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-8-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 23% 28% 61% 61% 67% 83% 88% 0% 20% 40% 60% 80%",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-9-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 3.6% 3.8% 4.0% 4.2% 4.4% 4.6% 4.8% 5.0% 5.2% 5.4% Oct-23 Dec-23",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-10-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -20% -11% -2% 7% 16% 25% 34% 43% 52%",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -15% -10% -5% 0% 5% 10% 15% 20% 1Q26 2Q26 3Q26",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-12-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 3.27% 1.89% 1.34% 0.73% 0.59% 0.46% 0.45% 0.40% 0.39% 0.37% 0.16% 0.0%",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-13-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -5% -4% -3% -2% -1% 0% 1% 2% 3% 4% 2006 2010",
+          "chunk_id": "BC_US Equity Factor Insights - October 2026 - Stay the Course.pdf-14-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_US_Rates_Research_-_Flow_of_Funds_-_Bond_fund_demand_broadened",
+      "document": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf",
+      "date": "2026-10-13",
+      "publisher": "Barclays",
+      "document_type": "Positioning and Flows",
+      "chunk_count": 24,
+      "page_count": 15,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 30 35 Sep-25 Nov-25",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "52% of tokens are numeric/date values",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "52% of tokens are numeric/date values",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -20 0 20 40 60 80 100 120 140 160 180 200",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 2025 2026 0 5 10 15 20 25 Jan Feb Mar Apr",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 20 25 30 35 Jan",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 May-24 Dec-24 Jul-25 Feb-26",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 200 300 400 500 600 700 800 900 1,000 1,100 Jan-24 Apr-24",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2.7 2.9 3.1 3.3 3.5 3.7 Aug-23 Apr-24 Dec-24 Aug-25 Apr-26",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -40% -20% 0% 20% 40% 60% Jun-23 Dec-23 Jun-24 Dec-24 Jun-25 Dec-25",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 7.8% 0.1% 0.1% 2y 36% 48.4% 1.2% -0.2% -27",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -50% -40% -30% -20% -10% 0% 10% 20% 30% 40% 50% Oct-16",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 25,900 112 174 35 (97) 26 (5) 8 23",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-10-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 20% 21% 22% 23% 24% 25% 26% 27% 28% 29% Sep-16 Sep-18",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-11-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 20% 21% 22% 23% 24% 25% 26% 27% 28% 29% Sep-16 Sep-18",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-11-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 45% 47% 49% 51% 53% 55% 57% 59% 61% 63% Sep-16 Sep-18",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-12-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 80 Jan-15 Jul-16 Jan-18 Jul-19",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-13-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2,500 2,700 2,900 3,100 3,300 3,500 3,700 2016 2017 2018 2019 2020",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-14-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-14-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "57% of tokens are numeric/date values",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-14-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0 20 40 60 80 100 120 Jan-25 May-25 Sep-25 Jan-26 May-26",
+          "chunk_id": "BC_US Rates Research - Flow of Funds - Bond fund demand broadened.pdf-15-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_Euro_Area_Watch_-_Impressions_from_Italy-politics_in_focus__BTPs_put_to_the_test",
+      "document": "BofA_Euro Area Watch - Impressions from Italy-politics in focus, BTPs put to the test.pdf",
+      "date": "2026-10-13",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 18,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        13,
+        19
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 13, 19]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +44 20 7995 1476 | +39 02 6553 0365 | +44 75 2142 7901",
+          "chunk_id": "BofA_Euro Area Watch - Impressions from Italy-politics in focus, BTPs put to the test.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -4.5 -3.0 -1.5 0.0 2025 2026 2027 2028 2029",
+          "chunk_id": "BofA_Euro Area Watch - Impressions from Italy-politics in focus, BTPs put to the test.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 0.4 0.8 1.2 1-Apr-26 1-Jun-26 1-Aug-26 1-Oct-26 10y",
+          "chunk_id": "BofA_Euro Area Watch - Impressions from Italy-politics in focus, BTPs put to the test.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 0 10 20 Jan Feb Mar Apr May Jun Jul Aug",
+          "chunk_id": "BofA_Euro Area Watch - Impressions from Italy-politics in focus, BTPs put to the test.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -50 50 150 250 0 10 20 30 40 50 60 70",
+          "chunk_id": "BofA_Euro Area Watch - Impressions from Italy-politics in focus, BTPs put to the test.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 13 October 2026 11 | +39 02 6553 0365 | +34 91 514 3053",
+          "chunk_id": "BofA_Euro Area Watch - Impressions from Italy-politics in focus, BTPs put to the test.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_US_Economics_-_Existing_home_sales_soften_before_larger_Q4_decline",
+      "document": "Citi_US Economics - Existing home sales soften before larger Q4 decline.pdf",
+      "date": "2026-10-13",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 3,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 Aug-21 Aug-22 Aug-23",
+          "chunk_id": "Citi_US Economics - Existing home sales soften before larger Q4 decline.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_US_Economics_-_Inflation_Weekly___Modest_September_core_CPI",
+      "document": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf",
+      "date": "2026-10-13",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        10
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 10]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: Q3-2026 0.7% 1.3% 1.9% 2.5% 3.1% 3.7% 4.3% 4.9% 5.5% 6.1% 6.7%",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-3-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -1 0 1 2 3 4 5 Jan-18 Jul-19 Jan-21 Jul-22 Jan-24",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -2 0 2 4 6 8 10 Jan-18 Jan-19 Jan-20 Jan-21 Jan-22",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 2.0 2.5 3.0 3.5 4.0 4.5 Jan-10 Jan-13 Jan-16 Jan-19 Jan-22 Jan-25",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-5-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 30 40 50 60 70 80 90 Jan-17 Jul-18 Jan-20 Jul-21 Jan-23",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 1 3 5 7 9 11 13 15 1 2 3 4",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "113 consecutive numeric/date tokens: 0.129 2.99 0.182 Nov-26 336.620 3.9 0.17 336.273 3.7 2.42 0.129 3.00",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-7-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 7 Jan-18 Jul-19 Jan-21",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Modest September core CPI.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_US_Economics_-_The_Daily_Update_-_All_about_CPI",
+      "document": "Citi_US Economics - The Daily Update - All about CPI.pdf",
+      "date": "2026-10-13",
+      "publisher": "Citi",
+      "document_type": "Daily",
+      "chunk_count": 3,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 3.8 3.9 4.0 4.1 4.2 4.3 4.4 4.5 4.6 4.7 0 10",
+          "chunk_id": "Citi_US Economics - The Daily Update - All about CPI.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_US_Rates_Strategy_-_Shorting_September_inflation_fixings_ahead_of_CPI",
+      "document": "Citi_US Rates Strategy - Shorting September inflation fixings ahead of CPI.pdf",
+      "date": "2026-10-13",
+      "publisher": "Citi",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: Jan-26 Mar-26 May-26 Jul-26 Aug-26 Jan-25 Aug-25 Feb-26 Apr-26 -0.10% 0.10% 0.30%",
+          "chunk_id": "Citi_US Rates Strategy - Shorting September inflation fixings ahead of CPI.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573",
+      "document": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573.pdf",
+      "date": "2026-10-13",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 Jan-26 Mar-26 May-26 Jul-26",
+          "chunk_id": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 1.5 0.1 0.3 0.5 0.7 0.9 1m",
+          "chunk_id": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 40 60 80 100 120 Jun-24 Oct-24 Feb-25 Jun-25 Oct-25 Feb-26 Jun-26",
+          "chunk_id": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 213 October 2026 -10 0 10 20 30 40 50 60",
+          "chunk_id": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0.0% 0.4% 0.8% 1.2% 1.6% 2.0% 2.4% 2.8% 3.2%",
+          "chunk_id": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 313 October 2026 0 4 8 12 16 Mar-26 May-26 Jul-26 Sep-26",
+          "chunk_id": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -2.0 -1.0 0.0 1.0 2.0 3.0 Jan-25 Jul-25 Jan-26 Jul-26",
+          "chunk_id": "FX_vol_roadmap_Fiscal_spillovers_move_FX_vol_into_a_new_paradigm_Desknote--933573.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Credit_-_When_Higher_Yields_Become_Less",
+      "document": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf",
+      "date": "2026-10-13",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 13,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        7,
+        12
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7, 12]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: July 2.6 2.8 3.0 3.2 3.4 3.6 3.8 70 75 80 85",
+          "chunk_id": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.6 0.8 1.0 Jan Feb Mar Apr May Jun Jul Aug Sep",
+          "chunk_id": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.23 -100% -80% -60% -40% -20% 0% 20% 40% 60% 80% 100%",
+          "chunk_id": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -40% -30% -20% -10% 0% 10% 20% 30%",
+          "chunk_id": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 Jan-25 Apr-25 Jul-25 Oct-25",
+          "chunk_id": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 20 40 60 80 100 120 -150 -100 -50 0 50",
+          "chunk_id": "GS_Global Markets Daily - Credit - When Higher Yields Become Less.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Asia_Economics_-_The_Viewpoint-Asia_amid_higher",
+      "document": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf",
+      "date": "2026-10-13",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 0.9 1.8 -4 -3 -2 -1 0 1 2 3 4 5",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 121 60 70 80 90 100 110 120 130 Oct-90 Oct-92 Oct-94",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2008 0.0% 100.0% 200.0% 300.0% 400.0% 500.0% 600.0% 700.0%",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "55 consecutive numeric/date tokens: 20.0% 25.0% 30.0% 35.0% 40.0% Jun-94 Jun-96 Jun-98 Jun-00 Jun-02 Jun-04 Jun-06",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -4.5% -3.2% -1.0% -0.7% 1.3% 2.0% 4.0% 5.2% 9.5% 13.1% 17.7% 23.7%",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: Dec-19, 115% 111% 105% 110% 115% 120% 125% Jun-16 Jun-17 Jun-18 Jun-19",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 4.0% 9.5% -0.7% -1.0% 13.1% 2.0% -4.5% 17.7% 23.7% 1.3% -3.2% 5.2%",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "46 consecutive numeric/date tokens: -6.0 -4.0 -2.0 0.0 2.0 4.0 6.0 8.0 Dec-90 Dec-91 Dec-92 Dec-93",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Dec-20 Dec-21 Dec-22 Dec-23 Dec-24 Dec-25 Dec-26 Dec-27",
+          "chunk_id": "MS_Asia Economics - The Viewpoint-Asia amid higher.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Global_FXEM_Strategy_and_Global_Economics_-_What_FX_Moves_Are_Needed_For_External_Balance",
+      "document": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf",
+      "date": "2026-10-13",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 110,
+      "page_count": 48,
+      "status": "skipped",
+      "missing_indices": [
+        15,
+        40,
+        58,
+        61,
+        95,
+        100
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [15, 40, 58, 61, 95, 100]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -10% -8% -6% -4% -2% 0% 2% 4% 6% 8% 10% -60%",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -10% -8% -6% -4% -2% 0% 2% 4% 6% 8% 10% -60%",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "70% of tokens are numeric/date values",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 2Q26 -2.5% -1.4% -1.1% -0.05 -20% -46% | 2Q26 0.0% -0.7% 0.7% -0.19 3% 0% | 4Q25 3.5% -1.0% 4.5% -0.04 50% 50%",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -0.5 -0.3 -0.1 0.1 0.3 0.5 0.7 0.9 -1.0 -0.8 -0.6 -0.4",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -1.00 -0.80 -0.60 -0.40 -0.20 0.00 0.20 0.40",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-19-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-19-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 0.00",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-26-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -10% -8% -6% -4% -2% 0% 2% 4% 6% 8% 10% -60%",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-27-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "69% of tokens are numeric/date values",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-28-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-28-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: -2.3% 1.3% -3.6% -0.17 -21% -14% | 2Q26 -2.5% -1.4% -1.1% -0.05 -20% -46% | 2Q26 0.0% -0.7% 0.7% -0.19 3% 0%",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-28-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "29 consecutive numeric/date tokens: 50 0 1 3 24 33 31 39 51 46 46 44",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-35-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "29 consecutive numeric/date tokens: 50 -1 0 1 23 32 29 38 50 45 44 43",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-35-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "29 consecutive numeric/date tokens: -4 -54 -53 -52 -30 -21 -24 -16 -3 -8 -9 -10",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-35-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 99.5 0.87 141 0.79 1.43 9.74 0.80 1.49 100.6 0.88 145 0.80",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-38-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 4.0 31.8 4.1 59.6 17.7 5.7 21.4 1532 -30% -20% -10% 0%",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-38-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-42-109",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-43-110",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-44-111",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-46-113",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-47-114",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -0.6 -0.5 -0.4 -0.3 -0.2 -0.1 0.0 '00 '02 '04 '06 '08",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-48-115",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global FXEM Strategy and Global Economics - What FX Moves Are Needed For External Balance.pdf-48-115",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_US_Data_Pulse_-_September_Existing_Home_Sales-Moving_sideways_at_a_low_level__with_inventories_rising",
+      "document": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf",
+      "date": "2026-10-13",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 3500 4000 4500 5000 5500 6000 6500 7000 11 13 15 17",
+          "chunk_id": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: Sep 26 Aug 26 Jul 26 Jun 26 May 26 Apr 26",
+          "chunk_id": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 422,700 433,600 442,500 448,800 436,400 421,900 413,300 402,300 398,200 1.2%",
+          "chunk_id": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 300 350 400 450 500 550 600 650 700 750 800 3000",
+          "chunk_id": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -5% 0% 5% 10% 15% 20% 25% 30% 12 14 16 18",
+          "chunk_id": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_US Data Pulse - September Existing Home Sales-Moving sideways at a low level, with inventories rising.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_Goolsbee___Waller_on_AI_buildout_price_pressures",
+      "document": "UBS_US Daily Data Recap - Goolsbee & Waller on AI buildout price pressures.pdf",
+      "date": "2026-10-13",
+      "publisher": "UBS",
+      "document_type": "Daily",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 65 80 95 110 125 140 3.0 3.5 4.0 4.5 5.0 5.5",
+          "chunk_id": "UBS_US Daily Data Recap - Goolsbee & Waller on AI buildout price pressures.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 010 2012 2014 2016 2018 2020 2022 2024 2026",
+          "chunk_id": "UBS_US Daily Data Recap - Goolsbee & Waller on AI buildout price pressures.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 1 2 3 4 5 6 7 8 9 0 10 20",
+          "chunk_id": "UBS_US Daily Data Recap - Goolsbee & Waller on AI buildout price pressures.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587",
+      "document": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf",
+      "date": "2026-10-13",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 18,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 13 October 2026 0 20 40 60 80 100 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 200 300 400 500 600 -500 -250 0 250 500 750 1000",
+          "chunk_id": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -$10 $0 $10 $20 $30 $40 $50 Jan-25 Apr-25 Jul-25 Oct-25 Jan-26",
+          "chunk_id": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 numeric rows: -0.4 1.3 1.7 -0.8 | 0.5 1.2 1.1 -0.9 | 0.4 1.2 1.3 -1.8",
+          "chunk_id": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -10% -8% -6% -4% -2% 0% 2% 4% 6% 8% 10% Sep-25",
+          "chunk_id": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -20% -10% 0% 10% 20% 30% -20% -15% -10% -5% 0% 5%",
+          "chunk_id": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0.17 0.18 0.19 0.20 0.21 0.22 0.23 0.70 0.75 0.80 0.85 0.90",
+          "chunk_id": "US_equities_positioning_pulse_Can_retail_break_the_status_quo_Trade_Idea--933587.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_rates_Take_partial_profits_on_short_30y_UST_Trade_Idea--933586",
+      "document": "US_rates_Take_partial_profits_on_short_30y_UST_Trade_Idea--933586.pdf",
+      "date": "2026-10-13",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2.2 2.3 2.4 2.5 2.6 2.7 2.8 Dec-21 Dec-22 Dec-23 Dec-24 Dec-25",
+          "chunk_id": "US_rates_Take_partial_profits_on_short_30y_UST_Trade_Idea--933586.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -1.5 -1 -0.5 0 0.5 1 1.5 2 2.5 3 0 1.44",
+          "chunk_id": "US_rates_Take_partial_profits_on_short_30y_UST_Trade_Idea--933586.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Closing_INR_1s5s_steepener_Trade_Idea--926302.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-15",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 8,
+    "referents": {
+     "thing": 5,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 7,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 33,
+  "kinds": {
+   "deixis": 21,
+   "noun_phrase": 5,
+   "pronoun": 3,
+   "abbreviation": 2,
+   "demonstrative": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.8225806451612904,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 5
+  },
+  "sentences": 22,
+  "cost_usd": 0.1004
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 881,
+   "end": 912,
+   "quote": "the Reserve Bank of India (RBI)",
+   "name": "the Reserve Bank of India (RBI)"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 994,
+   "end": 1013,
+   "quote": "several FX measures",
+   "name": "the FX measures"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1289,
+   "end": 1312,
+   "quote": "USD 70-80 bn of inflows",
+   "name": "USD 70-80 bn of inflows"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1876,
+   "end": 1908,
+   "quote": "our M26 1s5s INR NDOIS steepener",
+   "name": "the M26 1s5s INR NDOIS steepener"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2401,
+   "end": 2439,
+   "quote": "our outright long position in 5y NDOIS",
+   "name": "the outright long position in 5y NDOIS"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2978,
+   "end": 3026,
+   "quote": "the rest of the curve (e.g., 2s5s) has flattened",
+   "name": "the rest of the curve (e.g., 2s5s) has flattened"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 167"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 1805"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 1867"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we recognize' at 3606"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 3941"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0330507,
+   "duration_ms": 3568,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3697,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 128,
+    "output_tokens_details": {
+     "thinking_tokens": 115
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3697,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 128,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3697,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3697
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0673644,
+   "duration_ms": 15723,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4033,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1693,
+    "output_tokens_details": {
+     "thinking_tokens": 974
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4033,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1693,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4033,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4033
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

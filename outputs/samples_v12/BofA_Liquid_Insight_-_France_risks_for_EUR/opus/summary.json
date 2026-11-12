@@ -1,0 +1,83 @@
+{
+  "doc": "BofA_Liquid_Insight_-_France_risks_for_EUR",
+  "model": "opus",
+  "example": null,
+  "taxonomy_version": "0.12",
+  "source_metadata": {
+    "Document": "BofA_Liquid Insight - France risks for EUR.pdf",
+    "Date": "2026-09-08",
+    "Source": "Bank of America",
+    "Type": "Research Note",
+    "Chunks": "19",
+    "Asset classes": "FX, Rates",
+    "Preferred share (FX/Rates)": "100%"
+  },
+  "arguments": 9,
+  "statements": 33,
+  "evidence": 44,
+  "exclusions": 4,
+  "scenarios": 0,
+  "edges": 6,
+  "scenario_links": 0,
+  "isolated": 1,
+  "max_chain": 2,
+  "types": {
+    "VIEW": 19,
+    "SUPPOSITION": 3,
+    "PREDICTION": 3,
+    "CAUSAL": 5,
+    "RATING": 1,
+    "TRADE": 2
+  },
+  "proposition_kinds": {},
+  "subkinds": {
+    "VIEW:valuation": 2,
+    "VIEW:market_state": 9,
+    "SUPPOSITION:event": 2,
+    "PREDICTION:event": 2,
+    "VIEW:event": 3,
+    "CAUSAL:market_state": 4,
+    "CAUSAL:sentiment": 1,
+    "VIEW:sentiment": 3,
+    "VIEW:positioning": 2,
+    "RATING:allocation": 1,
+    "SUPPOSITION:market_state": 1,
+    "PREDICTION:directional": 1,
+    "TRADE:open": 2
+  },
+  "modalities": {
+    "HEDGED": 12,
+    "ASSERTED": 17,
+    "HYPOTHETICAL": 3,
+    "SPECULATIVE": 1
+  },
+  "coverage": {
+    "sentences": 95,
+    "cited": 29,
+    "excluded": 1,
+    "silent": 65,
+    "must_keep": 2,
+    "must_keep_silent": 1
+  },
+  "ok": true,
+  "attempts": 1,
+  "errors": 0,
+  "warnings": 3,
+  "issue_codes": {
+    "ROLE_CUE_MISMATCH": 1,
+    "PREMISE_DUPLICATES_CORE": 1,
+    "MUST_KEEP_UNCOVERED": 1
+  },
+  "seconds": 205.4,
+  "src_chars": 20494,
+  "cost_usd": 0.6831,
+  "api_seconds": 197.1,
+  "input_tokens": 2,
+  "output_tokens": 23941,
+  "cache_read_input_tokens": 0,
+  "cache_creation_input_tokens": 25413,
+  "resolved_models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+  ]
+}

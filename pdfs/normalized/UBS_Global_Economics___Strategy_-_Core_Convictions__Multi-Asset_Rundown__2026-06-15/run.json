@@ -1,0 +1,436 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-06-15.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-15",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 17,
+    "referents": {
+     "thing": 11,
+     "claim": 4
+    },
+    "decisions": {
+     "leave": 6,
+     "link": 11
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "time": 3,
+     "expletive": 1,
+     "relative": 1
+    },
+    "extra": 7,
+    "rejected_per_attempt": [
+     3,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 100,
+  "kinds": {
+   "deixis": 47,
+   "symbol": 35,
+   "noun_phrase": 8,
+   "possessive": 4,
+   "proposition": 4,
+   "demonstrative": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.6666666666666666,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "UNGROUNDED_WORD": 3
+  },
+  "sentences": 105,
+  "cost_usd": 0.269
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 742,
+   "end": 801,
+   "quote": "how quickly and to what extent the Strait of Hormuz reopens",
+   "name": "how quickly and to what extent the Strait of Hormuz reopens"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 3382,
+   "end": 3393,
+   "quote": "Chair Warsh",
+   "name": "Chair Warsh"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1631,
+   "end": 1644,
+   "quote": "Governor Ueda",
+   "name": "Governor Ueda"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 2353,
+   "end": 2441,
+   "quote": "We have so far revised global growth lower by 30bp in '26E, and inflation higher by 90bp",
+   "name": "We have so far revised global growth lower by 30bp in '26E, and inflation higher by 90bp"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 4312,
+   "end": 4353,
+   "quote": "Chair Warsh cements expectations of hikes",
+   "name": "Chair Warsh cements expectations of hikes"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 5993,
+   "end": 6011,
+   "quote": "household products",
+   "name": "household products"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 6494,
+   "end": 6526,
+   "quote": "the sector adjusted P/E discount",
+   "name": "the sector adjusted P/E discount"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 6897,
+   "end": 6938,
+   "quote": "Flows remained supportive but decelerated",
+   "name": "Flows remained supportive but decelerated"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 6955,
+   "end": 6981,
+   "quote": "a classic late-cycle setup",
+   "name": "a classic late-cycle setup"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 7272,
+   "end": 7327,
+   "quote": "IG/HY spreads widened over the week (0/+15 to 78/267bp)",
+   "name": "IG/HY spreads widened over the week (0/+15 to 78/267bp)"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 290,
+   "end": 344,
+   "quote": "News of an apparent peace deal between the US and Iran",
+   "name": "News of an apparent peace deal between the US and Iran"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 298,
+   "end": 344,
+   "quote": "an apparent peace deal between the US and Iran",
+   "name": "the apparent peace deal between the US and Iran"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 2318,
+   "end": 2338,
+   "quote": "Middle East conflict",
+   "name": "the Middle East conflict"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 6155,
+   "end": 6176,
+   "quote": "our sector scorecards",
+   "name": "the sector scorecards"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 3241,
+   "end": 3249,
+   "quote": "the FOMC",
+   "name": "the FOMC"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 3559"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We update' at 4042"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we struggle' at 4750"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 2353",
+   "message": "not verbatim in source: ['has'] in {{We have => The author has}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 2443",
+   "message": "not verbatim in source: ['has'] in {{That => That the author has so far revised global growth lower by 30bp in '26E, and inflation higher by 90bp}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 5459",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R13",
+      "type": "thing",
+      "sid": "E030",
+      "quote": "Warsh's first FOMC"
+     },
+     "reason": "quote \"Warsh's first FOMC\" is not in E030 as written"
+    },
+    {
+     "item": {
+      "sid": "E031",
+      "phrase": "the FOMC",
+      "occurrence": 1,
+      "referent": "R13"
+     },
+     "reason": "referent 'R13' is not in the referent table"
+    },
+    {
+     "item": {
+      "sid": "E040",
+      "phrase": "the Fed meeting",
+      "occurrence": 1,
+      "referent": "R13"
+     },
+     "reason": "referent 'R13' is not in the referent table"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0606476,
+   "duration_ms": 5268,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6511,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 368,
+    "output_tokens_details": {
+     "thinking_tokens": 355
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6511,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 368,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6511,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6511
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1346094,
+   "duration_ms": 30900,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7143,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3801,
+    "output_tokens_details": {
+     "thinking_tokens": 2215
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7143,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3801,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7143,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7143
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.07370109999999999,
+   "duration_ms": 6077,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7715,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 524,
+    "output_tokens_details": {
+     "thinking_tokens": 402
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7715,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 524,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7715,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7715
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EGBs_Closing_30y_BTP_DSL_tightener_Trade_Idea--921118.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 1,
+    "referents": {
+     "claim": 1,
+     "thing": 2
+    },
+    "decisions": {
+     "ambiguous": 1
+    },
+    "leave_reasons": {},
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 9,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 2
+  },
+  "rooted_share": 0.8,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 10,
+  "cost_usd": 0.0646
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 429,
+   "end": 590,
+   "quote": "the developments in the Middle East have resulted in a paradigm shift, invalidating many of the assumptions we had embedded in our previous forecasts for spreads",
+   "name": "the developments in the Middle East have resulted in a paradigm shift, invalidating many of the assumptions we had embedded in our previous forecasts for spreads"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 749,
+   "end": 827,
+   "quote": "a further escalation, which could see BTP spreads widen even further from here",
+   "name": "a further escalation"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 69,
+   "end": 108,
+   "quote": "our long-standing 30y BTP–DSL tightener",
+   "name": "the long-standing 30y BTP–DSL tightener"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R1",
+    "R2"
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 60"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 851"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0229267,
+   "duration_ms": 2308,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2617,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 59,
+    "output_tokens_details": {
+     "thinking_tokens": 51
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2617,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 59,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2617,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2617
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0416629,
+   "duration_ms": 9072,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2648,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 974,
+    "output_tokens_details": {
+     "thinking_tokens": 609
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2648,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 974,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2648,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2648
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

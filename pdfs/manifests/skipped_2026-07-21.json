@@ -1,0 +1,326 @@
+{
+  "batch_id": "2026-07-21",
+  "window": [
+    "2026-07-21",
+    "2026-07-21"
+  ],
+  "generated_at": "2026-10-29T16:30:37",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 99
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 5,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 12,
+    "DISTORTED_TABLE": 6,
+    "UNSTRUCTURED_TEXT": 6,
+    "TEMPLATE_TEXT": 4,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "DM_rates_Take_profit_on_short_5y5y_Germany_Trade_Idea--928647",
+      "document": "DM_rates_Take_profit_on_short_5y5y_Germany_Trade_Idea--928647.pdf",
+      "date": "2026-07-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'optional cover page'",
+          "chunk_id": "DM_rates_Take_profit_on_short_5y5y_Germany_Trade_Idea--928647.pdf-1-0",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'SELECT PUBLICATION TYPE'",
+          "chunk_id": "DM_rates_Take_profit_on_short_5y5y_Germany_Trade_Idea--928647.pdf-1-1",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 3.10 3.20 3.30 3.40 3.50 Apr-26 Apr-26 May-26 Jun-26 Jun-26 Jul-26",
+          "chunk_id": "DM_rates_Take_profit_on_short_5y5y_Germany_Trade_Idea--928647.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "ECB_Preview__Hawkish_Pricing_Meets_a_Dovish_Reality",
+      "document": "ECB Preview: Hawkish Pricing Meets a Dovish Reality.pdf",
+      "date": "2026-07-21",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jul-25 Sep-25 Dec-25 Feb-26 May-26 Jul-26",
+          "chunk_id": "ECB Preview: Hawkish Pricing Meets a Dovish Reality.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558",
+      "document": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf",
+      "date": "2026-07-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 26,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: -2.3 105.98 97.21 111.77 97.21 97.21 (14 Jul 26) 12 -8.2% -988",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 0.1 0.2 0.3 0.4 0.5 0.6 May-25 Aug-25 Nov-25 Feb-26 May-26",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -1.5 -1 -0.5 0 0.5 1 Jan-25 Apr-25 Jul-25 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 27 28 29 30 31 32 33 34 35 36 37 38",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 10y 1.3 3.0892 3.175 8.6bp 79 3 3 85 10y",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "46% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 21.9 26 25 9.5 22 26 23 521/07/2026",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "42% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-9-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Pro-risk_with_stocks_defensive_with_rates_Trade_Idea--928558.pdf-9-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Reports_of_the_death_of_the_UK_labour_market_may_be_exaggerated_Desknote--928648",
+      "document": "Reports_of_the_death_of_the_UK_labour_market_may_be_exaggerated_Desknote--928648.pdf",
+      "date": "2026-07-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 62 56 53 38 9 3 64 37 44 17 12 5",
+          "chunk_id": "Reports_of_the_death_of_the_UK_labour_market_may_be_exaggerated_Desknote--928648.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -0.1 -0.2 -0.1 -0.1 -0.1 -0.1 -0.2 -0.3 -0.3 -0.3 -0.4 -0.3",
+          "chunk_id": "Reports_of_the_death_of_the_UK_labour_market_may_be_exaggerated_Desknote--928648.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587",
+      "document": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587.pdf",
+      "date": "2026-07-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80",
+          "chunk_id": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'optional cover page'",
+          "chunk_id": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587.pdf-1-2",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'guidance notes'",
+          "chunk_id": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587.pdf-1-3",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80",
+          "chunk_id": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587.pdf-1-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 800 900 1000 1100 1200 1300 1400 Jun-21 Jun-22 Jun-23 Jun-24 Jun-25",
+          "chunk_id": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 5 10 15 20 65 75 85 95 105 115 125",
+          "chunk_id": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587.pdf-2-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 5 10 15 20 65 75 85 95 105 115 125",
+          "chunk_id": "USD_JPY_xccy_US_Japan_strategic_investment_losing_steam_pay_5y5y_Trade_Idea--928587.pdf-2-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "batch_id": "2026-05-11",
+  "window": [
+    "2026-05-11",
+    "2026-05-11"
+  ],
+  "generated_at": "2026-10-29T16:28:56",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-09_2026-05-12.json",
+      "sha256": "f52e1ba2acf0549781d202b4b587b906a06c7514146af3f8fabaf921322cc0b2",
+      "records": 829,
+      "dates": [
+        "2026-05-09",
+        "2026-05-12"
+      ],
+      "records_for_batch": 629
+    }
+  ],
+  "counts": {
+    "documents": 28,
+    "in_scope": 23,
+    "out_of_scope": 5,
+    "compiled": 2,
+    "skipped": 21,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 34,
+    "edits": 13,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Inflation-Linked_Daily_-_Strikes_on_tankers",
+      "document": "BC_Inflation-Linked Daily - Strikes on tankers.pdf",
+      "date": "2026-05-11",
+      "publisher": "Barclays",
+      "document_type": "Daily",
+      "chunk_count": 76,
+      "page_count": 51,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Japan_Rates_Strategy_-_10y_JGB_auction_preview__2026-05-11",
+      "document": "BC_Japan Rates Strategy - 10y JGB auction preview.pdf",
+      "date": "2026-05-11",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_US_Economics_Research_-_April_existing_home_sales_show_slight_gain_on_multi-family_strength",
+      "document": "BC_US Economics Research - April existing home sales show slight gain on multi-family strength.pdf",
+      "date": "2026-05-11",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_United_States_-_Inflation_Markets_-_Volumes_speak_volumes",
+      "document": "BC_United States - Inflation Markets - Volumes speak volumes.pdf",
+      "date": "2026-05-11",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 6,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/BC_United_States_-_Inflation_Markets_-_Volumes_speak_volumes.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "8a73224f6fe89f1ad30b9a59216b69c9f8e8a9aa",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'FIGURE 1. Total TIPS volumes ($bn) Source: FINRA, Bloomberg, Barclays Research FIGURE 2. 5y on-the-r'",
+          "chunk_id": "BC_United States - Inflation Markets - Volumes speak volumes.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'FIGURE 3. 5y off-the-run TIPS volumes ($bn) Source: FINRA, Bloomberg, Barclays Research However, thi'",
+          "chunk_id": "BC_United States - Inflation Markets - Volumes speak volumes.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'FIGURE 5. TIPS 0-5y on-the-run volumes as % of modeled outcomes 10-day moving average Source: FINRA,'",
+          "chunk_id": "BC_United States - Inflation Markets - Volumes speak volumes.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "This document is intended for institutional investors and is not subject to all of the independence and disclosure standards applicable to debt research reports prepared for retail investors under U.S. FINRA Rule 2242. Barclays trades the securities covered in this report for its own account and on a discretionary basis on behalf of certain clients. Such trading interests may be contrary to the recommendations offered in this report."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please see analyst certifications and important disclosures beginning on page 5."
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Completed: 11-May-26, 06:17 GMT Released: 11-May-26, 11:11 GMT Restricted - External"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "FICC Research Interest Rates 11 May 2026 Jonathan Hill, CFA +1 212 526 3497 jonathan.hill@barclays.com BCI, US Apostolos Apostolou +1 212 526 5051 apostolos.apostolou@barclays.com BCI, US"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "TIPS volumes ($bn) Source: FINRA, Bloomberg, Barclays Research FIGURE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "11 May 2026 2 Barclays | United States"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "TIPS volumes ($bn) Source: FINRA, Bloomberg, Barclays Research : Inflation Markets FIGURE"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "TIPS volumes ($bn) Source: FINRA, Bloomberg, Barclays Research"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "11 May 2026 3 Barclays | United States"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "10-day moving average Source: FINRA, Bloomberg, Barclays Research : Inflation Markets FIGURE"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "volumes as % of modeled outcomes 10-day moving average Source: FINRA, Bloomberg, Barclays Research FIGURE"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "volumes as % of modeled outcomes 10-day moving average Source: FINRA, Bloomberg, Barclays Research"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "11 May 2026 4 Barclays | United States"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "footer": 10,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " :",
+              "after": ":"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "United States: Inflation Markets Volumes speak volumes ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "BofA_Liquid_Insight_-_US_Rates_-_hike_risk_underpriced",
+      "document": "BofA_Liquid Insight - US Rates - hike risk underpriced.pdf",
+      "date": "2026-05-11",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_UK_Watch_-_Fiscal_concerns",
+      "document": "BofA_UK Watch - Fiscal concerns.pdf",
+      "date": "2026-05-11",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/BofA_UK_Watch_-_Fiscal_concerns.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "b5569a44d3ce022230df6fc0eceecfc4a1071720",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "BofA Securities does and seeks to do business with issuers covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Investors should consider this report as only a single factor in making their investment decision."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Refer to important disclosures on page 4 to 5. 12972058"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Accessible version"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Timestamp: 11 May 2026 01:30AM EDT"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Unauthorized redistribution of this report is prohibited."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "This report is intended for cayla.buettner@bluecrestcapital.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "11 May 2026 Macro United Kingdom Sonali Punhani UK Economist MLI (UK) +44 20 7996 1032 sonali.punhani@bofa.com Ruben Segura-Cayuela Europe Economist BofA Europe (Madrid) +34 91 514 3053 ruben.segura-cayuela@bofa.com         2 UK"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Sonali Punhani MLI (UK) sonali.punhani@bofa.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "BofA Europe (Madrid) ruben.segura-cayuela@bofa.com"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "risk of a leadership challenge to the PM"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "rise, though the success of a challenge is not a given."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "on whether fiscal rules are adhered to and ultimately,"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "potential negative market reaction to any suggestion of fiscal laxity imply to us that breaking the fiscal rules is not a foregone conclusion."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "fiscal pressures are high, no matter who the Labour leader"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "risk of a leadership challenge to the PM"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "rise, though the success of a challenge is not a given."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "on whether fiscal rules are adhered to and ultimately,"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "potential negative market reaction to any suggestion of fiscal laxity imply to us that breaking the fiscal rules is not a foregone conclusion."
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "UK Watch | 11 May 2026 3"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "fiscal pressures are high, no matter who the Labour leader"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 5,
+        "footer": 13,
+        "signature": 3
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "UK Watch Fiscal concerns ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "2) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "3) ",
+              "after": "\n3. "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Central_Banks_set_the_pace_in_FX",
+      "document": "Central Banks set the pace in FX.pdf",
+      "date": "2026-05-11",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_European_Rates_-_The_Week_Ahead_-_11-17_May",
+      "document": "Citi_European Rates - The Week Ahead - 11-17 May.pdf",
+      "date": "2026-05-11",
+      "publisher": "Citi",
+      "document_type": "Morning note",
+      "chunk_count": 8,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Fed_Watcher_-_End_of_the_easing_bias",
+      "document": "DB_Fed Watcher - End of the easing bias.pdf",
+      "date": "2026-05-11",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_ASIA_ECONOMICS_ANALYST_-_The_AI_investment_boom_s_Asia_spillovers",
+      "document": "GS_ASIA ECONOMICS ANALYST - The AI investment boom’s Asia spillovers.pdf",
+      "date": "2026-05-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 33,
+      "page_count": 15,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.067,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_GOAL_KICKSTART_-_Sharp_risk_appetite_rebound_led_by_Tech_momentum_rally",
+      "document": "GS_GOAL KICKSTART - Sharp risk appetite rebound led by Tech momentum rally.pdf",
+      "date": "2026-05-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Market commentary",
+      "chunk_count": 45,
+      "page_count": 27,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.286,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Economic_Briefing_-_The_Weekly_Worldview_Oil_Price_Persistence_in_the_Economy",
+      "document": "GS_Global Economic Briefing - The Weekly Worldview Oil Price Persistence in the Economy.pdf",
+      "date": "2026-05-11",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.25,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Solving_for_Diesel_Shortages",
+      "document": "GS_Global Markets Daily - Solving for Diesel Shortages.pdf",
+      "date": "2026-05-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 17,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.118,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Views_-_Bending__Not_Breaking",
+      "document": "GS_Global Views - Bending, Not Breaking.pdf",
+      "date": "2026-05-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.636,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_JAPAN_ECONOMICS_ANALYST_-_Measuring_the_Wealth_Effect_of_Rising_Equity_Prices_in_Japan",
+      "document": "GS_JAPAN ECONOMICS ANALYST - Measuring the Wealth Effect of Rising Equity Prices in Japan.pdf",
+      "date": "2026-05-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 18,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.375,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_US_Daily_-_April_CPI_Preview",
+      "document": "GS_US Daily - April CPI Preview.pdf",
+      "date": "2026-05-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.375,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Japan_BoJ_QT_risks_sting_in_the_tail_for_short-term_rates_Desknote--923814",
+      "document": "Japan_BoJ_QT_risks_sting_in_the_tail_for_short-term_rates_Desknote--923814.pdf",
+      "date": "2026-05-11",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_US_Rates_Strategy_-_Inflation_Forwards_Relative_Value",
+      "document": "MS_US Rates Strategy - Inflation Forwards Relative Value.pdf",
+      "date": "2026-05-11",
+      "publisher": "Morgan Stanley",
+      "document_type": "Trade Idea",
+      "chunk_count": 17,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_US_Rates_Strategy_-_Stable_Rates_Markets_Rest_on_Fragile_Energy_Equilibrium",
+      "document": "MS_US Rates Strategy - Stable Rates Markets Rest on Fragile Energy Equilibrium.pdf",
+      "date": "2026-05-11",
+      "publisher": "Morgan Stanley",
+      "document_type": "Trade Idea",
+      "chunk_count": 14,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.846,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Quiet_Before_the_Storm_ECB_2028_funding_risks_Desknote--923681",
+      "document": "Quiet_Before_the_Storm_ECB_2028_funding_risks_Desknote--923681.pdf",
+      "date": "2026-05-11",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 42,
+      "page_count": 11,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.976,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_signals_short_USDKRW_Trade_Idea--923806",
+      "document": "STEER_signals_short_USDKRW_Trade_Idea--923806.pdf",
+      "date": "2026-05-11",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_European_Economic_Perspectives_-_Germany_-_Fiscal_stimulus_tracker_update_and__2026-05-11",
+      "document": "UBS_European Economic Perspectives - Germany - Fiscal stimulus tracker update and.pdf",
+      "date": "2026-05-11",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 37,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.364,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "US_inflation__no_shelter_from_4__inflation",
+      "document": "US inflation: no shelter from 4% inflation?.pdf",
+      "date": "2026-05-11",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.667,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

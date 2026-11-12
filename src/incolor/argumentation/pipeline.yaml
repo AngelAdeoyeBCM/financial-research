@@ -1,0 +1,22 @@
+# Default runtime configuration for the argumentation pipeline.
+# Override per run with --config PATH, --backend and --model.
+
+backend: claude                 # claude | local
+temperature: 0                  # applied to the local backend
+max_repairs: 2
+max_input_chars: 120000
+few_shot_example: tests/fixtures/gold/ms_d1_sales_argument_map_gold_v06.yaml   # path relative to repo root, or null
+schema_version: phase1-0.6
+taxonomy: null                  # path relative to repo root; null = src/incolor/argumentation/prompts/taxonomy.yaml
+claude:
+  model: null                   # null = SDK default; set explicitly when benchmarking
+local:
+  provider: ollama
+  model: qwen2.5:14b-instruct   # alternatives: qwen2.5:7b-instruct, phi4, phi3.5
+  host: http://localhost:11434
+  num_ctx: 32768
+preprocessing:
+  # Patterns are regular expressions. Patterns containing \n run before whitespace collapse (see ingest.normalise).
+  furniture_patterns:
+    - '\nOverweight\nOCDOLN\n2\n'
+    - 'Article \| \d{1,2} \w+ \d{4} \d+ THINK Economic and financial analysis'

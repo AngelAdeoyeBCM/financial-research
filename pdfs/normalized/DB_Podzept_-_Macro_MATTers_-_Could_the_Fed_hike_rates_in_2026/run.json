@@ -1,0 +1,907 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Podzept_-_Macro_MATTers_-_Could_the_Fed_hike_rates_in_2026.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-22",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 140,
+    "referents": {
+     "thing": 46,
+     "claim": 9
+    },
+    "decisions": {
+     "leave": 39,
+     "link": 101
+    },
+    "leave_reasons": {
+     "not_a_reference": 13,
+     "time": 2,
+     "expletive": 12,
+     "relative": 8,
+     "generic": 4
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 3,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 200,
+  "kinds": {
+   "deixis": 80,
+   "pronoun": 46,
+   "abbreviation": 16,
+   "noun_phrase": 15,
+   "possessive": 15,
+   "demonstrative": 13,
+   "proposition": 11,
+   "vp": 2,
+   "symbol": 1,
+   "fragment": 1
+  },
+  "rooted_share": 0.9156908665105387,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "EDIT_DROPPED_OVERLAP": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 210,
+  "cost_usd": 0.5426
+ },
+ "referents": [
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 282,
+   "end": 353,
+   "quote": "the shift in market expectations from rate cuts to potential rate hikes",
+   "name": "the shift in market expectations from rate cuts to potential rate hikes"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 580,
+   "end": 624,
+   "quote": "the broader increase in bond yields globally",
+   "name": "the broader increase in bond yields globally"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 874,
+   "end": 916,
+   "quote": "economists and analysts from Deutsche Bank",
+   "name": "economists and analysts from Deutsche Bank"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1329,
+   "end": 1354,
+   "quote": "the outlook for Fed hikes",
+   "name": "the outlook for Fed hikes"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1995,
+   "end": 2026,
+   "quote": "the prospect for Fed rate hikes",
+   "name": "the prospect for Fed rate hikes"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2691,
+   "end": 2719,
+   "quote": "one rate cut in our forecast",
+   "name": "the one rate cut in our forecast"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 2930,
+   "end": 2941,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 2809,
+   "end": 2816,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 1005,
+   "end": 1018,
+   "quote": "Macro MATTers",
+   "name": "Macro MATTers"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 3443,
+   "end": 3463,
+   "quote": "they would cut rates",
+   "name": "they would cut rates"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 3775,
+   "end": 3804,
+   "quote": "we've taken out that rate cut",
+   "name": "we've taken out that rate cut"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 3909,
+   "end": 3985,
+   "quote": "core Personal Consumption Expenditures (PCE) inflation for this year at 2.9%",
+   "name": "core Personal Consumption Expenditures (PCE) inflation for this year at 2.9%"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 3834,
+   "end": 3878,
+   "quote": "an upward revision to our inflation forecast",
+   "name": "the upward revision to our inflation forecast"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 4361,
+   "end": 4394,
+   "quote": "stabilization in the labor market",
+   "name": "the stabilization in the labor market"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 5420,
+   "end": 5454,
+   "quote": "temporary forces lifting inflation",
+   "name": "the temporary forces lifting inflation"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 6014,
+   "end": 6021,
+   "quote": "a piece",
+   "name": "the piece"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 6426,
+   "end": 6491,
+   "quote": "the output gap according to the Congressional Budget Office (CBO)",
+   "name": "the output gap according to the Congressional Budget Office (CBO)"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 6577,
+   "end": 6598,
+   "quote": "The San Francisco Fed",
+   "name": "the San Francisco Fed"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 6889,
+   "end": 6891,
+   "quote": "AI",
+   "name": "AI"
+  },
+  {
+   "id": "R22",
+   "type": "claim",
+   "start": 6979,
+   "end": 7003,
+   "quote": "it is inflationary today",
+   "name": "it is inflationary today"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 7383,
+   "end": 7400,
+   "quote": "long-run measures",
+   "name": "long-run measures"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 7452,
+   "end": 7470,
+   "quote": "short-run measures",
+   "name": "short-run measures"
+  },
+  {
+   "id": "R25",
+   "type": "claim",
+   "start": 7494,
+   "end": 7544,
+   "quote": "they are more important for price and wage setting",
+   "name": "they are more important for price and wage setting"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 8095,
+   "end": 8123,
+   "quote": "one year, one year CPI swaps",
+   "name": "one year, one year CPI swaps"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 8291,
+   "end": 8327,
+   "quote": "a higher level of core CPI inflation",
+   "name": "the higher level of core CPI inflation"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 8664,
+   "end": 8678,
+   "quote": "market pricing",
+   "name": "market pricing"
+  },
+  {
+   "id": "R29",
+   "type": "thing",
+   "start": 9255,
+   "end": 9278,
+   "quote": "the Fed's policy stance",
+   "name": "the Fed's policy stance"
+  },
+  {
+   "id": "R30",
+   "type": "thing",
+   "start": 10027,
+   "end": 10064,
+   "quote": "the neutral policy rate in real terms",
+   "name": "the neutral policy rate in real terms"
+  },
+  {
+   "id": "R31",
+   "type": "thing",
+   "start": 10123,
+   "end": 10163,
+   "quote": "the neutral rate rather in nominal terms",
+   "name": "the neutral rate in nominal terms"
+  },
+  {
+   "id": "R32",
+   "type": "thing",
+   "start": 10341,
+   "end": 10428,
+   "quote": "the nominal Fed funds rate that would be needed to achieve, for example, a 1% real rate",
+   "name": "the nominal Fed funds rate that would be needed to achieve a 1% real rate"
+  },
+  {
+   "id": "R33",
+   "type": "claim",
+   "start": 11240,
+   "end": 11325,
+   "quote": "you want to be building in something more when you're thinking about the nominal rate",
+   "name": "you want to be building in something more when you're thinking about the nominal rate"
+  },
+  {
+   "id": "R34",
+   "type": "claim",
+   "start": 12003,
+   "end": 12084,
+   "quote": "it doesn't look like the Fed is especially restrictive or restrictive at all here",
+   "name": "it doesn't look like the Fed is especially restrictive or restrictive at all here"
+  },
+  {
+   "id": "R35",
+   "type": "thing",
+   "start": 12227,
+   "end": 12277,
+   "quote": "one year and one year and one year real SOFR rates",
+   "name": "one year and one year and one year real SOFR rates"
+  },
+  {
+   "id": "R36",
+   "type": "thing",
+   "start": 12702,
+   "end": 12740,
+   "quote": "Fed estimates of the neutral real rate",
+   "name": "Fed estimates of the neutral real rate"
+  },
+  {
+   "id": "R37",
+   "type": "thing",
+   "start": 12965,
+   "end": 12977,
+   "quote": "policy rules",
+   "name": "the policy rules"
+  },
+  {
+   "id": "R38",
+   "type": "thing",
+   "start": 13588,
+   "end": 13606,
+   "quote": "current Fed policy",
+   "name": "current Fed policy"
+  },
+  {
+   "id": "R39",
+   "type": "thing",
+   "start": 13723,
+   "end": 13763,
+   "quote": "the Federal Open Market Committee (FOMC)",
+   "name": "the Federal Open Market Committee (FOMC)"
+  },
+  {
+   "id": "R40",
+   "type": "thing",
+   "start": 14257,
+   "end": 14281,
+   "quote": "the policy setting today",
+   "name": "the policy setting today"
+  },
+  {
+   "id": "R41",
+   "type": "claim",
+   "start": 14257,
+   "end": 14312,
+   "quote": "the policy setting today looks like it is accommodative",
+   "name": "the policy setting today looks like it is accommodative"
+  },
+  {
+   "id": "R42",
+   "type": "thing",
+   "start": 14467,
+   "end": 14530,
+   "quote": "President Musalem's indication that they could be accommodative",
+   "name": "President Musalem's indication that they could be accommodative"
+  },
+  {
+   "id": "R43",
+   "type": "thing",
+   "start": 15606,
+   "end": 15673,
+   "quote": "conditions that we thought could have led to rate hikes potentially",
+   "name": "the conditions that we thought could have led to rate hikes potentially"
+  },
+  {
+   "id": "R44",
+   "type": "thing",
+   "start": 15700,
+   "end": 15728,
+   "quote": "the lens of the policy rules",
+   "name": "the lens of the policy rules"
+  },
+  {
+   "id": "R45",
+   "type": "thing",
+   "start": 15826,
+   "end": 15848,
+   "quote": "a typical central bank",
+   "name": "a typical central bank"
+  },
+  {
+   "id": "R46",
+   "type": "claim",
+   "start": 16111,
+   "end": 16176,
+   "quote": "core PCE inflation were to rise at the end of this year, above 3%",
+   "name": "core PCE inflation were to rise at the end of this year, above 3%"
+  },
+  {
+   "id": "R47",
+   "type": "thing",
+   "start": 16780,
+   "end": 16799,
+   "quote": "near-term inflation",
+   "name": "near-term inflation"
+  },
+  {
+   "id": "R48",
+   "type": "thing",
+   "start": 17158,
+   "end": 17174,
+   "quote": "the labor market",
+   "name": "the labor market"
+  },
+  {
+   "id": "R49",
+   "type": "claim",
+   "start": 17234,
+   "end": 17255,
+   "quote": "it were to re-tighten",
+   "name": "it were to re-tighten"
+  },
+  {
+   "id": "R50",
+   "type": "thing",
+   "start": 18047,
+   "end": 18069,
+   "quote": "inflation expectations",
+   "name": "inflation expectations"
+  },
+  {
+   "id": "R51",
+   "type": "thing",
+   "start": 20207,
+   "end": 20230,
+   "quote": "The measure that we use",
+   "name": "the measure that we use"
+  },
+  {
+   "id": "R52",
+   "type": "thing",
+   "start": 20502,
+   "end": 20546,
+   "quote": "standard term structure model-based measures",
+   "name": "standard term structure model-based measures"
+  },
+  {
+   "id": "R53",
+   "type": "thing",
+   "start": 20904,
+   "end": 20929,
+   "quote": "the terminal rate pricing",
+   "name": "the terminal rate pricing"
+  },
+  {
+   "id": "R54",
+   "type": "thing",
+   "start": 19224,
+   "end": 19251,
+   "quote": "a big global move in yields",
+   "name": "the big global move in yields"
+  },
+  {
+   "id": "R55",
+   "type": "thing",
+   "start": 1529,
+   "end": 1599,
+   "quote": "a very significant repricing in markets over the last couple of months",
+   "name": "the very significant repricing in markets over the last couple of months"
+  },
+  {
+   "id": "R56",
+   "type": "thing",
+   "start": 21807,
+   "end": 21811,
+   "quote": "4.5%",
+   "name": "4.5%"
+  },
+  {
+   "id": "R57",
+   "type": "thing",
+   "start": 22839,
+   "end": 22861,
+   "quote": "Deutsche Bank Research",
+   "name": "Deutsche Bank Research"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C034",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C042",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C050",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C055",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C057",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C059",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C062",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C063",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C066",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C074",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C075",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C084",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C097",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C099",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C101",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C103",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C107",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C110",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C112",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C120",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C121",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C126",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C128",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C131",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C132",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C133",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C135",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C137",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C138",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C140",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We never' at 3465"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after \"We haven't\" at 17607"
+  },
+  {
+   "severity": "warning",
+   "code": "EDIT_DROPPED_OVERLAP",
+   "segment": "src 8253",
+   "message": "references edit 'those CPI swaps' -> 'one year, one year Consumer Price Index swaps' overlaps 'Consumer Price Index'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in \"President Musalem's indication that they could be accommodative makes sense in t\""
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.1286911,
+   "duration_ms": 18981,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 11181,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1879,
+    "output_tokens_details": {
+     "thinking_tokens": 1604
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 11181,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1879,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 11181,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 11181
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.4139280000000001,
+   "duration_ms": 105829,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 16224,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 14089,
+    "output_tokens_details": {
+     "thinking_tokens": 7359
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 16224,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 14089,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 16224,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 16224
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

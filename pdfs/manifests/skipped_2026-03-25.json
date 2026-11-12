@@ -1,0 +1,206 @@
+{
+  "batch_id": "2026-03-25",
+  "window": [
+    "2026-03-25",
+    "2026-03-25"
+  ],
+  "generated_at": "2026-10-29T16:27:49",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-22_2026-03-25.json",
+      "sha256": "41876a182f75276475bb5d15a2f094b5b63e6d7b8a7fbbd04093102cce686c3e",
+      "records": 903,
+      "dates": [
+        "2026-03-22",
+        "2026-03-25"
+      ],
+      "records_for_batch": 50
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 3,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 10,
+    "DISTORTED_TABLE": 4,
+    "UNSTRUCTURED_TEXT": 2,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "Japan_Supply_cut_and_foreign_demand_support_long_end_Desknote--921243",
+      "document": "Japan_Supply_cut_and_foreign_demand_support_long_end_Desknote--921243.pdf",
+      "date": "2026-03-25",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 12 33.6 5y 2.4 | 12 30.0 10y 2.6 | 12 31.2 20y 1.0",
+          "chunk_id": "Japan_Supply_cut_and_foreign_demand_support_long_end_Desknote--921243.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "47 consecutive numeric/date tokens: Q4 2025 33% 35% 35% 43% 17% 60% Q1 2026 29% 29%",
+          "chunk_id": "Japan_Supply_cut_and_foreign_demand_support_long_end_Desknote--921243.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -4 -2 -1 1 2 4 Jan-21 Dec-21 Nov-22 Oct-23 Sep-24 Aug-25",
+          "chunk_id": "Japan_Supply_cut_and_foreign_demand_support_long_end_Desknote--921243.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 50 57 64 71 78 85 150 174 198 222 246 270",
+          "chunk_id": "Japan_Supply_cut_and_foreign_demand_support_long_end_Desknote--921243.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 50,217 3,798 481 0 1 2 3 4 5 6 7 8",
+          "chunk_id": "Japan_Supply_cut_and_foreign_demand_support_long_end_Desknote--921243.pdf-4-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 50 55 60 65 70 75 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26 Mar-26",
+          "chunk_id": "Japan_Supply_cut_and_foreign_demand_support_long_end_Desknote--921243.pdf-5-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_signals_long_EURNOK_Trade_Idea--921270",
+      "document": "STEER_signals_long_EURNOK_Trade_Idea--921270.pdf",
+      "date": "2026-03-25",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 11.2616 11.426 11.1794 - 0.00 | 1.3718 1.3518 1.3882 - -0.45 23-Mar-2026 | 93.9025 91.6303 95.7561 - -0.08",
+          "chunk_id": "STEER_signals_long_EURNOK_Trade_Idea--921270.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "STEER_signals_long_EURNOK_Trade_Idea--921270.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "What_s_already_in_the_price",
+      "document": "What’s already in the price?.pdf",
+      "date": "2026-03-25",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        14
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [14]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 14 Jan 2026 7.9432 8.5000 7.9000 +3.7% | 11 Feb 2026 2.2569 2.1305 2.3140 -2.0% | 4 Mar 2026 1.5865 1.5300 1.6125 -0.24%",
+          "chunk_id": "What’s already in the price?.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "What’s already in the price?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "What’s already in the price?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.00 0.02 0.04 0.06 0.08 0.10 -0.8 -0.6 -0.4 -0.2 0 Jan-25",
+          "chunk_id": "What’s already in the price?.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.00 0.02 0.04 0.06 0.08 0.10 -0.8 -0.6 -0.4 -0.2 0 Jan-25",
+          "chunk_id": "What’s already in the price?.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3/20/2026) 2 2.05 2.1 2.15 2.2 2.25 -15 -5 5 15 25",
+          "chunk_id": "What’s already in the price?.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.9 1.0 1.1 1.2 1.3 Mar-23 Oct-23 May-24 Jan-25 Aug-25 Mar-26",
+          "chunk_id": "What’s already in the price?.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1.0 1.1 1.2 1.3 1.4 1.5 1.6 Mar-23 Oct-23 May-24 Dec-24 Aug-25",
+          "chunk_id": "What’s already in the price?.pdf-5-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

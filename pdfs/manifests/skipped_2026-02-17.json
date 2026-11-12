@@ -1,0 +1,588 @@
+{
+  "batch_id": "2026-02-17",
+  "window": [
+    "2026-02-17",
+    "2026-02-17"
+  ],
+  "generated_at": "2026-10-29T16:27:02",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-02-14_2026-02-17.json",
+      "sha256": "5c9d28a16095568eb695944b503934a21f81e2f115037d47957dadf81c224f28",
+      "records": 585,
+      "dates": [
+        "2026-02-15",
+        "2026-02-17"
+      ],
+      "records_for_batch": 194
+    }
+  ],
+  "counts": {
+    "documents": 19,
+    "in_scope": 17,
+    "out_of_scope": 2,
+    "compiled": 2,
+    "skipped": 15,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 23,
+    "edits": 24,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 26,
+    "DISTORTED_TABLE": 10,
+    "MISSING_CHUNKS": 8,
+    "UNSTRUCTURED_TEXT": 3
+  },
+  "documents": [
+    {
+      "stem": "BC_United_States_Inflation_Markets_-_Seasons_spinning__round_again__the_years_keep_rollin__by",
+      "document": "BC_United States Inflation Markets - Seasons spinning 'round again; the years keep rollin' by.pdf",
+      "date": "2026-02-17",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 12,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 Feb 26 Apr 26",
+          "chunk_id": "BC_United States Inflation Markets - Seasons spinning 'round again; the years keep rollin' by.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_UK_Watch_-_UK_Labour_market_-_Soft_labour_market_supports_our_March_cut_view",
+      "document": "BofA_UK Watch - UK Labour market - Soft labour market supports our March cut view.pdf",
+      "date": "2026-02-17",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 5,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: +44 20 7995 1476 | +44 20 7996 1032 | +34 91 514 3053",
+          "chunk_id": "BofA_UK Watch - UK Labour market - Soft labour market supports our March cut view.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 3 6 9 12 2011 2013 2015 2017 2019 2021 2023",
+          "chunk_id": "BofA_UK Watch - UK Labour market - Soft labour market supports our March cut view.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 50 200 350 500 0 20 40 60 80 100 120 140",
+          "chunk_id": "BofA_UK Watch - UK Labour market - Soft labour market supports our March cut view.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_US_Economics_-_Inflation_Weekly___Consistently_softer_inflation",
+      "document": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf",
+      "date": "2026-02-17",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        8,
+        12
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8, 12]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2.72.32.21.92.01.92.02.0 3.02.82.72.62.42.42.42.4 CPI2.62.62.52.22.32.12.12.1 Goods1.41.61.71.31.61.11.01.0 Services3.02.82.82.52.62.52.42.5 Shelter*3.22.92.92.62.62.62.52.7",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -4 -2 0 2 4 6 8 10 12 14 Jan-18 Sep-19",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -0.8 0.2 1.2 2.2 3.2 4.2 5.2 6.2 7.2 8.2 -20 -15",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -20 -10 0 10 20 30 40 50 60 70 80 Jan-18",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 30 40 50 60 70 80 90 100 Jan-17 Jul-18 Jan-20 Jul-21",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 8 10 12 Jun-18 Dec-19",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "85 consecutive numeric/date tokens: Feb-26 326.880 2.4 0.27 326.632 2.4 2.5 0.202 2.7 0.230 Mar-26 328.200",
+          "chunk_id": "Citi_US Economics - Inflation Weekly – Consistently softer inflation.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Europe_Blog_-_The_China_Price_-_Tracking_disinflation_risk_through_imports",
+      "document": "DB_Europe Blog - The China Price - Tracking disinflation risk through imports.pdf",
+      "date": "2026-02-17",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        8,
+        11
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8, 11]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Fixed_Income_Blog_-_The__AI__tail_wags_the__fiscal__dog",
+      "document": "DB_Fixed Income Blog - The (AI) tail wags the (fiscal) dog.pdf",
+      "date": "2026-02-17",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_rates_Taking_profit_on_2y_IBR_Coltes_2035_flattener_Trade_Idea--918845",
+      "document": "EM_rates_Taking_profit_on_2y_IBR_Coltes_2035_flattener_Trade_Idea--918845.pdf",
+      "date": "2026-02-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0 20 40 60 80 100 120 Dec-23 May-24 Oct-24 Mar-25 Sep-25",
+          "chunk_id": "EM_rates_Taking_profit_on_2y_IBR_Coltes_2035_flattener_Trade_Idea--918845.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_European_M_A_-_Sentiment_Improves__Debt-Funded_Deal_Boom_Unlikely",
+      "document": "GS_Global Markets Daily - European M&A - Sentiment Improves, Debt-Funded Deal Boom Unlikely.pdf",
+      "date": "2026-02-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0 5 10 15 20 25 30 10 11 12 13 14",
+          "chunk_id": "GS_Global Markets Daily - European M&A - Sentiment Improves, Debt-Funded Deal Boom Unlikely.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 200 400 600 800 1,000 1,200 1,400 1,600 10 11 12",
+          "chunk_id": "GS_Global Markets Daily - European M&A - Sentiment Improves, Debt-Funded Deal Boom Unlikely.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 37% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%",
+          "chunk_id": "GS_Global Markets Daily - European M&A - Sentiment Improves, Debt-Funded Deal Boom Unlikely.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -600 -400 -200 0 200 400 600 800 2016 2017 2018 2019",
+          "chunk_id": "GS_Global Markets Daily - European M&A - Sentiment Improves, Debt-Funded Deal Boom Unlikely.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 50 0 50 100 150 200 250 300 2016 2017 2018 2019",
+          "chunk_id": "GS_Global Markets Daily - European M&A - Sentiment Improves, Debt-Funded Deal Boom Unlikely.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPY_rates_Stop_out_of_OIS_10y_short_Trade_Idea--918812",
+      "document": "JPY_rates_Stop_out_of_OIS_10y_short_Trade_Idea--918812.pdf",
+      "date": "2026-02-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1.4 1.5 1.6 1.7 1.8 1.9 2 2.1 2.2 Oct-25 Nov-25 Dec-25",
+          "chunk_id": "JPY_rates_Stop_out_of_OIS_10y_short_Trade_Idea--918812.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Canada_-_January_CPI_-_Noisy_Headline__Encouraging_Core",
+      "document": "MS_Canada - January CPI - Noisy Headline, Encouraging Core.pdf",
+      "date": "2026-02-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 15,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1.00 -0.80 -0.60 -0.40 -0.20 0.00 0.20 0.40 0.60 75 80 85",
+          "chunk_id": "MS_Canada - January CPI - Noisy Headline, Encouraging Core.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: -8.3% -2.6% -6.5% -5.1% -8.8% -10.9% -12.06 -2.9% 9.4% 7.2% 14.6% -2.9%",
+          "chunk_id": "MS_Canada - January CPI - Noisy Headline, Encouraging Core.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2.1% 2.3% 2.8% 3.4% 3.7% 2.4% -17.64 2.4% 3.4% 3.6% 3.3% 2.1%",
+          "chunk_id": "MS_Canada - January CPI - Noisy Headline, Encouraging Core.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Morgan_Stanley_Research_-_Key_Forecasts__2026-02-17",
+      "document": "MS_Morgan Stanley Research - Key Forecasts.pdf",
+      "date": "2026-02-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Outlook",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 500 6,836 7,800 21.6x 22.0x 272 317 +12% +17%",
+          "chunk_id": "MS_Morgan Stanley Research - Key Forecasts.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 1.3 1. 1 1.3 2. 1 1.8 1. 7",
+          "chunk_id": "MS_Morgan Stanley Research - Key Forecasts.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 5.375 4.375 3.625 3.125 3.125 3.625 3.375 -0.10 0.25 0.75 1.00 1.25",
+          "chunk_id": "MS_Morgan Stanley Research - Key Forecasts.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 79 70 95 140 | 280 250 300 450 | 422 390 425 550",
+          "chunk_id": "MS_Morgan Stanley Research - Key Forecasts.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_UK_Labour_Market_-_Restrictive_Policy___Slack___Pay_Disinflation...But_How_Much_More_Is_Needed",
+      "document": "MS_UK Labour Market - Restrictive Policy = Slack = Pay Disinflation...But How Much More Is Needed.pdf",
+      "date": "2026-02-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "RBNZ_Preview__Hold_with_a_hawkish_tilt",
+      "document": "RBNZ Preview: Hold with a hawkish tilt.pdf",
+      "date": "2026-02-17",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats ediaStats riceStats",
+          "chunk_id": "RBNZ Preview: Hold with a hawkish tilt.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "RBNZ Preview: Hold with a hawkish tilt.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840",
+      "document": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840.pdf",
+      "date": "2026-02-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 15,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 1,809.8 1968.7 1972.7 +4.0 2091.0 2126.6 +35.6 2207.9 2244.9 +37.0 2336.3 2375.8",
+          "chunk_id": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 0.7% 0.9% 1.2% +0.3pp 1.7% 1.9% +0.2pp 2.1% 2.5% +0.4pp 2.5% 2.8%",
+          "chunk_id": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -10% -9% -8% -7% -6% -5% -4% -3% 2010 2011 2012 2013",
+          "chunk_id": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 25 35 45 55 2004 2005 2006 2007 2008 2009 2010 2011",
+          "chunk_id": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2.8% -5% -4% -3% -2% -1% 0% 1% 2%",
+          "chunk_id": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2.8% -5% -4% -3% -2% -1% 0% 1% 2% 3% 4%",
+          "chunk_id": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -600 -500 -400 -300 -200 -100 16 17 18 19 20 21",
+          "chunk_id": "South_Africa_2026_budget_preview_Anchor_down_Desknote--918840.pdf-4-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Strong_macro_vs._weak_micro",
+      "document": "Strong macro vs. weak micro.pdf",
+      "date": "2026-02-17",
+      "publisher": "State Street",
+      "document_type": "Market commentary",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ediaStats ediaStats ediaStats layoffsStagflation",
+          "chunk_id": "Strong macro vs. weak micro.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Economic_Data_-_Steady_Empire_survey_and_ADP_pulse",
+      "document": "UBS_US Economic Data - Steady Empire survey and ADP pulse.pdf",
+      "date": "2026-02-17",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 3,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: February 52.0 30 40 50 60 70 2002 2004 2006 2008 2010",
+          "chunk_id": "UBS_US Economic Data - Steady Empire survey and ADP pulse.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40",
+          "chunk_id": "UBS_US Economic Data - Steady Empire survey and ADP pulse.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

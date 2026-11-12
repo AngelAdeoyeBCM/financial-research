@@ -1,0 +1,78 @@
+version: "1"
+
+id: entity_type
+type: extraction
+
+threshold: 0.8
+
+labels:
+  publisher:
+    name: Publisher
+    description: >-
+      The research firm that wrote and distributes the document, such as
+      HSBC, UBS or J.P. Morgan. Not data vendors or news agencies.
+    threshold: null
+    status: active
+
+  author:
+    name: Author
+    description: >-
+      Full name of an analyst or economist credited with writing
+      the research.
+    threshold: null
+    status: active
+
+  country:
+    name: Country
+    description: >-
+      A named sovereign state or nation.
+    threshold: null
+    status: active
+
+  # organization:
+  #   name: Organization
+  #   description: >-
+  #     A named organization, institution, or formally constituted
+  #     body, other than the document's publisher.
+  #   threshold: null
+  #   status: active
+
+  # person:
+  #   name: Person
+  #   description: >-
+  #     A named individual mentioned in the document, other than
+  #     a credited author.
+  #   threshold: null
+  #   status: active
+
+  # geography:
+  #   name: Geographic entity
+  #   description: >-
+  #     A named geographical, geopolitical, or economic area
+  #     or grouping, such as a country, region, or trading bloc.
+  #   threshold: null
+  #   status: active
+
+  # market_reference:
+  #   name: Market reference
+  #   description: >-
+  #     A named financial market underlying, benchmark,
+  #     quotation, or rating designation.
+  #   threshold: null
+  #   status: active
+
+  # financial_instrument:
+  #   name: Financial instrument
+  #   description: >-
+  #     An identifiable financial security or contract, such as
+  #     a bond, equity, derivative, or currency instrument.
+  #   threshold: null
+  #   status: active
+
+  # macro_indicator:
+  #   name: Macroeconomic indicator
+  #   description: >-
+  #     A named measure of economic conditions or activity, such
+  #     as GDP, inflation, or unemployment.
+  #   threshold: null
+  #   status: active

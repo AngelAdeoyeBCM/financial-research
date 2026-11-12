@@ -1,0 +1,527 @@
+{
+  "batch_id": "2026-05-16",
+  "window": [
+    "2026-05-16",
+    "2026-05-16"
+  ],
+  "generated_at": "2026-10-29T16:29:05",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-13_2026-05-16.json",
+      "sha256": "dd9ecb55bbf79fcca2ad530245dac152afcc54bcda88ea4f67e4ec64521b85d6",
+      "records": 3533,
+      "dates": [
+        "2026-05-13",
+        "2026-05-16"
+      ],
+      "records_for_batch": 255
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 40,
+    "DISTORTED_TABLE": 15,
+    "UNSTRUCTURED_TEXT": 9,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "JPM_Global_Fixed_Income_Markets_Weekly_-_Tactically_fade_cheap_valuations",
+      "document": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf",
+      "date": "2026-05-16",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 255,
+      "page_count": 95,
+      "status": "skipped",
+      "missing_indices": [
+        14,
+        48,
+        54,
+        58,
+        87,
+        172,
+        176,
+        191,
+        204,
+        226,
+        245,
+        264
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [14, 48, 54, 58, 87, 172, 176, 191, 204, 226, 245, 264]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 3M; 60 70 80 90 100 110 120 1.80 2.00 2.20 2.40",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-33-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -40 -20 0 20 40 Jan 25 May 25 Sep 25 Jan",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-34-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2.00 2.20 2.40 2.60 2.80 3.00 Jan 25 Apr 25 Jul 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-35-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 89% -10 0 10 20 30 40 1.80 2.00 2.20 2.40 2.60",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-36-84",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -110 -100 -90 -80 -70 -60 Jan 26 Feb 26 Mar 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-37-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.2 0.5 0.4 -1.1 -0.1 0.2 0.1 -1.8 -2.5 -2.0 -1.5 -1.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-38-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 8 -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-38-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: -53% -66% -34% -80% -48% -24% March 2026",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-39-95",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 92% -20 -10 0 10 20 30 40 50 -10 0 10",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-40-97",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 91% -60 -40 -20 0 20 40 60 -1.00 -0.50 0.00 0.50",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-40-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 2.2 2.4 2.6 2.8 3.0 3.2 3.4 -20 -15 -10 -5 0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-40-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 58% -50 -48 -46 -44 -42 -40 -38 -36 -10 0 10",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-41-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -0.1 0.0 0.1 0.2 0.3 0.4 3.0 3.5 4.0 4.5 5.0 5.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-42-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 2.0 3.0 4.0 5.0 6.0 7.0 2Y 5Y 10Y 30Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-43-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 84% -2.0 -1.0 0.0 1.0 2.0 3.0 80 90 100 110 120",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-44-109",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 93% -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-45-111",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-48-118",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "43% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-48-119",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-48-119",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-48-120",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-48-121",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 16 21 23 23 17 19 17 14 12 12 11 11",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-50-125",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 92% 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 60.0 70.0 80.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-51-130",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 92% 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 60.0 70.0 80.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-51-131",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -50 -25 0 25 50 75 100 May 26 Aug 26 Nov",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-52-134",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -10 -5 0 5 10 15 May 25 Nov 25 May 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-53-137",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -10 -5 0 5 10 15 May 25 Nov 25 May 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-53-138",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-54-140",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 5/15/26 29.1 19.1 28.0 7.8 26.2 6.4 23.1 14.8 26.1 22.5 21.1",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-56-146",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -20 -10 0 10 20 30 40 May 21 May 22 May",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-56-148",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -0.7 0.0 1.5 -0.4 -0.3 0.8 0.8 1.4 0.6 -0.2 -1.0 -0.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-57-150",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 1.53 1.10 0.89 0.92 0.72 0.73 0.49 -0.03 0.25 0.51 0.63 0.50",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-57-151",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 50 60",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-58-153",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -13 -12 -11 -10 -9 Nov 25 Dec 25 Jan 26 Feb",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-59-157",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 7.4 -1.4 -13.3 6.2 1.7 7.0 0.5 0 0.4 0.8 1.2 1.6",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-59-158",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 0.191 1.19 0.30 -0.265 -2.74 | 0.001 0.52 -16.02 0.002 1.55 | 0.003 0.89 -2.12 0.001 0.37",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-59-159",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -0.004 -0.002 0.000 0.002 0.004 0.006 0.008 0.010 0.012 -0.8 -0.6 -0.4",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-60-162",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 500 1000 1500 2000 2500 3000 3500 May 23 May 24 May",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-60-163",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 08/15/25 08/22/25 -8.1 55% | 09/12/25 10/16/25 -8.4 50:50 | 03/20/26 04/02/26 9.4 50:50",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-62-167",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 03/20/25 06/13/25 -1.5 3.25% | 04/01/25 07/02/25 -5.8 100% | 06/27/25 07/17/25 1.5 88:25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-62-168",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-62-168",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 5/15 0% 5% 10% 15% 20% 25% 30% 2/27 5/14 5/15",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-64-174",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 1Y -0.05 -0.03 -0.01 0.01 0.03 0.05 0.11 0.13 0.15 0.17 0.19",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-66-181",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "49 consecutive numeric/date tokens: 2Y -16.2 0.1 -16.0 -16.0 -0.1 -16.1 3Y -21.0 0.0 -21.0 -21.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-67-184",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: -0.36 NA NA NA | 1.51 3.9 3.9 -0.01 | 0.19 70.6 70.8 0.04",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-67-185",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 6M -1.0 -0.5 0.0 0.5 1.0 1.5 Nov 25 Jan 26 Mar",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-67-186",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 6M -1.0 -0.5 0.0 0.5 1.0 1.5 Nov 25 Jan 26 Mar",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-67-187",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 2223 953 2603 1814 423 83% 0.97 | 2746 1492 3836 2727 739 43% 0.03 | 2138 1111 2468 1688 386 80% 1.17",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-68-189",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-71-198",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 80 85 90 95 100 105 110 115 Apr May Jun Jul",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-80-227",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 3.0 3.5 4.0 4.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-85-239",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 14 15 16 17",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-85-240",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 -40 -20 0 20",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-85-241",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -20 0 20 40 60 80 100 120 140 160",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-86-243",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -20 -10 0 10 20 30 40 1.0 1.5 2.0 2.5 3.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-87-246",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-89-251",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-90-254",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "65% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-91-256",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-91-256",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "75% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-91-257",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-91-257",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "53% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-91-258",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 532 0.9 2.4 -4.1 -2.3 83 1.6 119 5.8",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-92-259",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 482 2.9 2.1 -2.6 - 53 -3.5 - 5.4",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Tactically fade cheap valuations.pdf-92-260",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/US_rates_Close_SFRZ6Z7_bear_flattener_Trade_Idea--931072.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-04",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 1
+    },
+    "leave_reasons": {
+     "expletive": 1,
+     "not_a_reference": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 2,
+   "pronoun": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.8333333333333334,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 13,
+  "cost_usd": 0.0669
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 326,
+   "end": 333,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 55,
+   "end": 77,
+   "quote": "SFRZ6Z7 bear flattener",
+   "name": "the SFRZ6Z7 bear flattener"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 42"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'he' in 'In a nutshell, t he numbers are still pointing towards a st'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0257763,
+   "duration_ms": 3879,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2653,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 187,
+    "output_tokens_details": {
+     "thinking_tokens": 174
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2653,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 187,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2653,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2653
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.041106899999999995,
+   "duration_ms": 8466,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2783,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 884,
+    "output_tokens_details": {
+     "thinking_tokens": 573
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2783,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 884,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2783,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2783
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

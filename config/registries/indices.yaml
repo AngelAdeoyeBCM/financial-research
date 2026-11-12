@@ -1,0 +1,49 @@
+# Market indices. IDs: index:<slug>. `asset_class` is what the index tracks.
+# Observed in the corpus plus the main Rates/FX vol and bond-inclusion indices.
+# `code`: Bloomberg ticker root (SPX -> 'SPX Index'); for credit, QLib's
+# CdsIndexName. QLib: equity -> eqidx[<code>] when QLib defines it, fx -> ccy[<code>].
+
+# -- FX / rates ---------------------------------------------------------------
+- {type: index, entity_id: index:dxy, name: DXY, code: DXY, asset_class: fx, aliases: [US Dollar Index, dollar index, USDX]}
+- {type: index, entity_id: index:move, name: MOVE, code: MOVE, asset_class: rates, aliases: [MOVE index, ICE BofA MOVE Index]}
+- type: index
+  entity_id: index:ftse_wgbi
+  name: FTSE WGBI
+  asset_class: rates
+  aliases: [WGBI, World Government Bond Index]
+  relations: {published_by: [org:ftse_russell]}
+- {type: index, entity_id: index:gbi_em, name: GBI-EM, asset_class: rates, aliases: [JPM GBI-EM, GBI-EM Global Diversified]}
+
+# -- credit -------------------------------------------------------------------
+- {type: index, entity_id: index:itraxx_main, name: iTraxx Main, code: iTraxx Europe, asset_class: credit, aliases: [iTraxx Europe]}
+- {type: index, entity_id: index:itraxx_xover, name: iTraxx Crossover, code: iTraxx Europe Crossover, asset_class: credit, aliases: [iTraxx Xover, Xover]}
+- {type: index, entity_id: index:cdx_ig, name: CDX IG, code: CDX.NA.IG, asset_class: credit, aliases: [CDX.NA.IG]}
+- {type: index, entity_id: index:cdx_hy, name: CDX HY, code: CDX.NA.HY, asset_class: credit, aliases: [CDX.NA.HY]}
+
+# -- equity -------------------------------------------------------------------
+- {type: index, entity_id: index:spx, name: S&P 500, code: SPX, asset_class: equity, aliases: [SPX, S&P500, SP500]}
+# check: aliases cover both the Composite (CCMP) and the Nasdaq 100 (NDX)
+- {type: index, entity_id: index:nasdaq, name: NASDAQ, asset_class: equity, aliases: [Nasdaq, Nasdaq Composite, Nasdaq 100]}
+- {type: index, entity_id: index:vix, name: VIX, code: VIX, asset_class: equity, aliases: [CBOE Volatility Index, VIX index]}
+- type: index
+  entity_id: index:msci_world
+  name: MSCI World
+  code: MXWO
+  asset_class: equity
+  aliases: [MSCI World Index]
+  relations: {published_by: [org:msci]}
+- type: index
+  entity_id: index:msci_em
+  name: MSCI EM
+  code: MXEF
+  asset_class: equity
+  aliases: [MSCI Emerging Markets]
+  relations: {published_by: [org:msci]}
+- {type: index, entity_id: index:csi300, name: CSI 300, code: SHSZ300, asset_class: equity, aliases: [CSI300]}
+- {type: index, entity_id: index:csi500, name: CSI 500, asset_class: equity, aliases: [CSI500]}
+- {type: index, entity_id: index:csi800, name: CSI 800, asset_class: equity, aliases: [CSI800]}
+- {type: index, entity_id: index:hscei, name: HSCEI, code: HSCEI, asset_class: equity, aliases: [Hang Seng China Enterprises Index]}
+- {type: index, entity_id: index:taiex, name: TAIEX, code: TWSE, asset_class: equity, aliases: [TWSE, Taiwan stock index]}
+
+# -- commodity ----------------------------------------------------------------
+- {type: index, entity_id: index:ovx, name: OVX, code: OVX, asset_class: commodity, aliases: [CBOE OVX, CBOE Crude Oil Volatility Index]}

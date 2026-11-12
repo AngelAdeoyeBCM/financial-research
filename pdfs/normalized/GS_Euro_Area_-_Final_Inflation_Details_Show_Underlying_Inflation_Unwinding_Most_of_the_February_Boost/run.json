@@ -1,0 +1,252 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_Euro_Area_-_Final_Inflation_Details_Show_Underlying_Inflation_Unwinding_Most_of_the_February_Boost.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-17",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 9,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 9,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 29,
+  "kinds": {
+   "deixis": 17,
+   "possessive": 5,
+   "pronoun": 3,
+   "noun_phrase": 3,
+   "proposition": 1
+  },
+  "rooted_share": 0.5306122448979592,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 32,
+  "cost_usd": 0.1152
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 330,
+   "end": 348,
+   "quote": "Services inflation",
+   "name": "Services inflation"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 452,
+   "end": 480,
+   "quote": "the contribution from Energy",
+   "name": "the contribution from Energy"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1133,
+   "end": 1151,
+   "quote": "headline inflation",
+   "name": "headline inflation"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2456,
+   "end": 2474,
+   "quote": "Services inflation",
+   "name": "Services inflation"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2456,
+   "end": 2520,
+   "quote": "Services inflation remains the main driver of headline inflation",
+   "name": "Services inflation remains the main driver of headline inflation"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3008,
+   "end": 3031,
+   "quote": "the Energy contribution",
+   "name": "the Energy contribution"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3153,
+   "end": 3179,
+   "quote": "the transport contribution",
+   "name": "the transport contribution"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4388,
+   "end": 4406,
+   "quote": "headline inflation",
+   "name": "headline inflation"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4067,
+   "end": 4087,
+   "quote": "our medium-term path",
+   "name": "our medium-term path"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 1454,
+   "end": 1494,
+   "quote": "The final release of inflation for March",
+   "name": "The final release of inflation for March"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 6",
+   "message": "'their' in ' services) still contributing more than their historical averages (Exhibit 1).'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0401346,
+   "duration_ms": 3834,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4201,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 272,
+    "output_tokens_details": {
+     "thinking_tokens": 259
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4201,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 272,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4201,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4201
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0750963,
+   "duration_ms": 16515,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4622,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1842,
+    "output_tokens_details": {
+     "thinking_tokens": 925
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4622,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1842,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4622,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4622
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

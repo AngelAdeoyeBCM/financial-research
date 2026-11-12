@@ -1,0 +1,189 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Short_CADMXN_Trade_Idea--917784.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-02",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "link": 2
+    },
+    "leave_reasons": {},
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "deixis": 10,
+   "noun_phrase": 4
+  },
+  "rooted_share": 0.6538461538461539,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 19,
+  "cost_usd": 0.0914
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 925,
+   "end": 982,
+   "quote": "market volatility in the coming months due to uncertainty",
+   "name": "the coming months of market volatility due to uncertainty"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1193,
+   "end": 1262,
+   "quote": "the apparent difference in political favor from the US administration",
+   "name": "the apparent difference in political favor from the US administration"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 462,
+   "end": 468,
+   "quote": "CADMXN",
+   "name": "CADMXN"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 580,
+   "end": 616,
+   "quote": "the US–Mexico–Canada trade agreement",
+   "name": "the US–Mexico–Canada trade agreement"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We initiate' at 442"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0288755,
+   "duration_ms": 2897,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3110,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 157,
+    "output_tokens_details": {
+     "thinking_tokens": 149
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3110,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 157,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3110,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3110
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0625304,
+   "duration_ms": 17177,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3173,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1805,
+    "output_tokens_details": {
+     "thinking_tokens": 1359
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3173,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1805,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3173,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3173
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

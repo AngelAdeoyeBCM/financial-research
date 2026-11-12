@@ -1,0 +1,154 @@
+{
+  "batch_id": "2026-04-05",
+  "window": [
+    "2026-04-05",
+    "2026-04-05"
+  ],
+  "generated_at": "2026-10-29T16:28:03",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-03_2026-04-06.json",
+      "sha256": "933571d9746b657f458962945412e123fc6082c03c8201bcdac43e45217ff60a",
+      "records": 1058,
+      "dates": [
+        "2026-04-03",
+        "2026-04-06"
+      ],
+      "records_for_batch": 132
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 4,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 3,
+    "edits": 6,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Citrini_Strait_of_Hormuz_-_A_Citrini_Field_Trip",
+      "document": "Citrini_Strait of Hormuz - A Citrini Field Trip.pdf",
+      "date": "2026-04-05",
+      "publisher": "Citrini Research",
+      "document_type": "Research Note",
+      "chunk_count": 74,
+      "page_count": 51,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.029,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-04-05",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-04-05",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Sunday_Start_-_The_Face-Off_for_Asia_-_Energy_Prices_v_Industrial_Cycle",
+      "document": "MS_Sunday Start - The Face-Off for Asia - Energy Prices v Industrial Cycle.pdf",
+      "date": "2026-04-05",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/MS_Sunday_Start_-_The_Face-Off_for_Asia_-_Energy_Prices_v_Industrial_Cycle.txt",
+      "asset_class_share": 0.444,
+      "fingerprint": "0999e7974be0215de748ae3d7334b45d41223127",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Industrial Cycle Morgan Stanley Asia Limited Chetan Ahya Chief Asia Economist Chetan.Ahya@morganstanley.com +852 2239-7812"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For important disclosures, refer to the Disclosure Section, located at the end of this report."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "April 5, 2026 06:00 AM GMT Downloaded by cayla.buettner@bluecrestcapital.com Not for redistribution without written consent of Morgan Stanley"
+        }
+      ],
+      "stripped_by_section": {
+        "signature": 1,
+        "disclaimer": 2
+      },
+      "edits": {
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " The Face-Off for Asia: Energy Prices v ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 5,
+          "examples": [
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Inflection_points_Sunday_Tea_with_BNP_Paribas--921781",
+      "document": "Sunday_Tea_with_BNPP_Inflection_points_Sunday_Tea_with_BNP_Paribas--921781.pdf",
+      "date": "2026-04-05",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

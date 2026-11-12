@@ -1,0 +1,222 @@
+{
+  "batch_id": "2026-03-24",
+  "window": [
+    "2026-03-24",
+    "2026-03-24"
+  ],
+  "generated_at": "2026-10-29T16:27:49",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-22_2026-03-25.json",
+      "sha256": "41876a182f75276475bb5d15a2f094b5b63e6d7b8a7fbbd04093102cce686c3e",
+      "records": 903,
+      "dates": [
+        "2026-03-22",
+        "2026-03-25"
+      ],
+      "records_for_batch": 44
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 4,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 2,
+    "edits": 5,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 15,
+    "DISTORTED_TABLE": 2,
+    "MISSING_CHUNKS": 1,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212",
+      "document": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf",
+      "date": "2026-03-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 21,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        15,
+        20
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 15, 20]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 54.3 53.3 19.2 15.7 13.9 5 15 25 35 45 55 65",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 10 20 30 40 50 60 Jun-25 Jul-25 Aug-25 Sep-25 Nov-25",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "43% of tokens are numeric/date values",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 7 7 5 5 79 83 83 84 0 2 1 1",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "82 consecutive numeric/date tokens: 99 96 98 95 1 3 1 3 1 20 10 20",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 5y 10y -20 -15 -10 -5 0 5",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 16 131 43 241 4 30 18 111 8",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.5 -1.2 1.2 -2.9 0.2 0.8 2.5 2.9 2.3 -1.9 -5.7 1.8",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.5 -1.2 1.2 -2.9 0.2 0.8 2.5 2.9 2.3 -1.9 -5.7 1.8",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50%",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 39 44 49 54 Nov-25 Dec-25 Jan-26 Feb-26 Mar-26 16",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: Jan 2026 Feb Mar Apr May Jun Jul Aug Sep Oct Nov",
+          "chunk_id": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf-12-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_Short_GBPCHF_Trade_Idea--921201",
+      "document": "FX_Short_GBPCHF_Trade_Idea--921201.pdf",
+      "date": "2026-03-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.5% 1.0% 1.5% 2.0% 2.5% 3.0% 0 20 40 60 80 100",
+          "chunk_id": "FX_Short_GBPCHF_Trade_Idea--921201.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPY_rates_Reviewing_trades_post_BoJ_and_as_stress_builds_Desknote--921159",
+      "document": "JPY_rates_Reviewing_trades_post_BoJ_and_as_stress_builds_Desknote--921159.pdf",
+      "date": "2026-03-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 1.25 1.30 1.35 1.40 1.45 1.50 1.55 1.60 -10 10 30 50",
+          "chunk_id": "JPY_rates_Reviewing_trades_post_BoJ_and_as_stress_builds_Desknote--921159.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -39 -37 -35 -33 -31 -29 -27 -25 -23 -21 Oct-25 Nov-25",
+          "chunk_id": "JPY_rates_Reviewing_trades_post_BoJ_and_as_stress_builds_Desknote--921159.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 3 4 5 6 7 8 9 10 Nov-25 Dec-25 Jan-26 Feb-26",
+          "chunk_id": "JPY_rates_Reviewing_trades_post_BoJ_and_as_stress_builds_Desknote--921159.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -14 -12 -10 -8 -6 -4 -2 0 2 4 Jun-25 Aug-25",
+          "chunk_id": "JPY_rates_Reviewing_trades_post_BoJ_and_as_stress_builds_Desknote--921159.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

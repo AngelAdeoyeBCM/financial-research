@@ -1,0 +1,227 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Closing_BRL_leg_of_long_BRLCOP_position_Trade_Idea--924074.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-13",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "link": 3,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "expletive": 1
+    },
+    "extra": 8,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 31,
+  "kinds": {
+   "deixis": 20,
+   "noun_phrase": 8,
+   "possessive": 3
+  },
+  "rooted_share": 0.5185185185185185,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4
+  },
+  "sentences": 18,
+  "cost_usd": 0.0806
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 381,
+   "end": 388,
+   "quote": "the BRL",
+   "name": "the BRL"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 517,
+   "end": 524,
+   "quote": "the COP",
+   "name": "the COP"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 616,
+   "end": 648,
+   "quote": "Colombia’s presidential election",
+   "name": "Colombia’s presidential election"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 226,
+   "end": 250,
+   "quote": "our long BRLCOP position",
+   "name": "the long BRLCOP position"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We book' at 252"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 285"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 1504"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we approach' at 2361"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0273057,
+   "duration_ms": 2636,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3057,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 100,
+    "output_tokens_details": {
+     "thinking_tokens": 92
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3057,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 100,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3057,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3057
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.053268,
+   "duration_ms": 11382,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3234,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1309,
+    "output_tokens_details": {
+     "thinking_tokens": 625
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3234,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1309,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3234,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3234
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

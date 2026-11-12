@@ -1,0 +1,226 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-05-03.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-03",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 9,
+    "referents": {
+     "thing": 7
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "time": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 22,
+  "kinds": {
+   "deixis": 11,
+   "possessive": 6,
+   "noun_phrase": 4,
+   "symbol": 1
+  },
+  "rooted_share": 0.7,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 28,
+  "cost_usd": 0.12
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 253,
+   "end": 268,
+   "quote": "Iran and the US",
+   "name": "Iran and the US"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2469,
+   "end": 2472,
+   "quote": "ADP",
+   "name": "ADP"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2907,
+   "end": 2990,
+   "quote": "Monday’s factory orders (-0.1% vs. +0.1%) and Tuesday’s international trade balance",
+   "name": "Monday’s factory orders and Tuesday’s international trade balance"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4643,
+   "end": 4668,
+   "quote": "NY Fed President Williams",
+   "name": "NY Fed President Williams"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 5490,
+   "end": 5541,
+   "quote": "the Hoover Institution’s Monetary Policy Conference",
+   "name": "the Hoover Institution’s Monetary Policy Conference"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 687,
+   "end": 719,
+   "quote": "Friday’s April employment report",
+   "name": "the April employment report"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4091,
+   "end": 4117,
+   "quote": "last week’s FOMC statement",
+   "name": "last week’s FOMC statement"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'ars of missing on the inflation side of their mandate was likely behind the three reg'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.042538599999999996,
+   "duration_ms": 3273,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4626,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 226,
+    "output_tokens_details": {
+     "thinking_tokens": 213
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4626,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 226,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4626,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4626
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.077426,
+   "duration_ms": 16470,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5029,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1798,
+    "output_tokens_details": {
+     "thinking_tokens": 998
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5029,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1798,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5029,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5029
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Take_profit_on_Jan_27s29s31s_DI_fly_receiver_Trade_Idea--927103.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-26",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "thing": 7
+    },
+    "decisions": {
+     "link": 5
+    },
+    "leave_reasons": {},
+    "extra": 8,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 33,
+  "kinds": {
+   "deixis": 20,
+   "noun_phrase": 10,
+   "pronoun": 2,
+   "possessive": 1
+  },
+  "rooted_share": 0.8850574712643678,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3
+  },
+  "sentences": 30,
+  "cost_usd": 0.1159
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 639,
+   "end": 666,
+   "quote": "the oversold belly position",
+   "name": "the oversold belly position"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 3828,
+   "end": 3855,
+   "quote": "the belly oversold position",
+   "name": "the belly oversold position"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1238,
+   "end": 1281,
+   "quote": "lower oil prices and a broader risk-on mood",
+   "name": "lower oil prices and a broader risk-on mood"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1294,
+   "end": 1306,
+   "quote": "the DI curve",
+   "name": "the DI curve"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2483,
+   "end": 2519,
+   "quote": "Lula’s lead over Bolsonaro expanding",
+   "name": "Lula’s lead over Bolsonaro expanding"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 66,
+   "end": 110,
+   "quote": "our Jan 27s29s31s DI fly receiver trade idea",
+   "name": "the Jan 27s29s31s DI fly receiver trade idea"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 152,
+   "end": 184,
+   "quote": "The rally over the past few days",
+   "name": "the rally over the past few days"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 58"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 3238"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 3633"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.034020600000000005,
+   "duration_ms": 3378,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3651,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 195,
+    "output_tokens_details": {
+     "thinking_tokens": 187
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3651,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 195,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3651,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3651
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0818574,
+   "duration_ms": 21477,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3853,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2489,
+    "output_tokens_details": {
+     "thinking_tokens": 1563
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3853,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2489,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3853,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3853
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

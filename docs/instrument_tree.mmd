@@ -1,0 +1,62 @@
+---
+title: Instrument as an expression tree - spreads of anything
+---
+classDiagram
+    direction TB
+
+    class Instrument {
+        <<abstract>>
+        key()
+        outrights() leaves
+        asset_class (derived)
+    }
+    class Outright {
+        <<leaf: one quoted number>>
+        underlying_id : Market or Indicator
+        form : cash / swap / future / option
+        tenor : Tenor
+        index_tenor? : 3M
+        expiry? : 2y
+        bond_id? : ISIN
+    }
+    class Tenor {
+        start? : 0 (spot) / 6m / 1y
+        length : 10y
+    }
+    class Spread {
+        long : Instrument
+        short : Instrument
+        value = long - short
+    }
+    class MarketSpread {
+        differs on : underlying
+        10y OAT-Bund, 20y KTB-UST
+    }
+    class CurveSpread {
+        differs on : tenor (length or start)
+        2s10s, 5s30s, 1y1y-3y1y
+    }
+    class BasisSpread {
+        differs on : benchmark or index_tenor
+        SOFR-FF, Euribor 3s6s
+    }
+    class Box {
+        long, short : same-kind Spreads
+        no shared leg
+        SPGB-Bund 5s30s
+    }
+    class Fly {
+        long, short : same-kind Spreads
+        share middle leg
+        2s5s10s, ITA-FRA-GER
+    }
+
+    Instrument <|-- Outright
+    Instrument <|-- Spread
+    Spread <|-- MarketSpread
+    Spread <|-- CurveSpread
+    Spread <|-- BasisSpread
+    Spread <|-- Box
+    Spread <|-- Fly
+    Outright *-- Tenor
+    Spread o-- "2" Instrument : long, short

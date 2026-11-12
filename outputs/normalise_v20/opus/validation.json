@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "ok": true,
+    "source": "../../../samples/BofA_Sept_FOMC_-_hike_or_bond_spike.txt",
+    "model": "opus",
+    "prompt": "normalise_v20.md",
+    "date": "2026-09-14",
+    "attempts": 1,
+    "section_attempts": [],
+    "review_adopted": false,
+    "marks": 134,
+    "ref_types": {},
+    "unresolved": 0,
+    "rooted_share": 0.7692307692307693,
+    "errors": 0,
+    "warnings": {},
+    "sentences": 143,
+    "splits_mark": [],
+    "cost_usd": 0.3859
+  },
+  "issues": [],
+  "usage": [
+    {
+      "cost_usd": 0.3859216,
+      "duration_ms": 119729,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 7398,
+        "cache_read_input_tokens": 2013,
+        "output_tokens": 16286,
+        "output_tokens_details": {
+          "thinking_tokens": 10123
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 7398,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 16286,
+            "cache_read_input_tokens": 2013,
+            "cache_creation_input_tokens": 7398,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 7398
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "models": [
+        "claude-haiku-5-5",
+        "claude-opus-5-5"
+      ]
+    }
+  ]
+}

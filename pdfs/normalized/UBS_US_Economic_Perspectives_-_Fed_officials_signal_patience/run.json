@@ -1,0 +1,329 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_US_Economic_Perspectives_-_Fed_officials_signal_patience.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 43,
+    "referents": {
+     "thing": 15,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 40
+    },
+    "leave_reasons": {
+     "time": 1,
+     "expletive": 1,
+     "not_a_reference": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 45,
+  "kinds": {
+   "pronoun": 30,
+   "possessive": 8,
+   "abbreviation": 3,
+   "deixis": 2,
+   "shell": 1,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.9140625,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 54,
+  "cost_usd": 0.1817
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 27,
+   "end": 40,
+   "quote": "Fed officials",
+   "name": "Fed officials"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 487,
+   "end": 495,
+   "quote": "the FOMC",
+   "name": "the FOMC"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 549,
+   "end": 582,
+   "quote": "Vice Chair for Supervision Bowman",
+   "name": "Vice Chair for Supervision Bowman"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 736,
+   "end": 749,
+   "quote": "supply shocks",
+   "name": "supply shocks"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 461,
+   "end": 481,
+   "quote": "Vice Chair Jefferson",
+   "name": "Vice Chair Jefferson"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1654,
+   "end": 1678,
+   "quote": "the Fed's September hike",
+   "name": "the Fed's September hike"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1995,
+   "end": 2004,
+   "quote": "inflation",
+   "name": "inflation"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 650,
+   "end": 663,
+   "quote": "Governor Cook",
+   "name": "Governor Cook"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5403,
+   "end": 5415,
+   "quote": "policymakers",
+   "name": "policymakers"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4127,
+   "end": 4161,
+   "quote": "FRB of New York President Williams",
+   "name": "FRB of New York President Williams"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6613,
+   "end": 6650,
+   "quote": "FRB of Minneapolis President Kashkari",
+   "name": "FRB of Minneapolis President Kashkari"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 8018,
+   "end": 8045,
+   "quote": "Collins, Schmid, and Barkin",
+   "name": "Collins, Schmid, and Barkin"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 8371,
+   "end": 8411,
+   "quote": "inflation has been too high for too long",
+   "name": "inflation has been too high for too long"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9249,
+   "end": 9264,
+   "quote": "Governor Waller",
+   "name": "Governor Waller"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 9471,
+   "end": 9507,
+   "quote": "Federal Reserve Economic Data (FRED)",
+   "name": "Federal Reserve Economic Data (FRED)"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 9803,
+   "end": 9884,
+   "quote": "risks such as hallucinations, bias, misattribution, and erroneous interpretations",
+   "name": "risks such as hallucinations, bias, misattribution, and erroneous interpretations"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C033",
+   "phrase": "his",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'its' in 'evated in the short run before resuming its decline toward our 2 percent goal as th'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'its' in 'ury market functioning and strengthened its resilience to stress by relaxing regula'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'his' in 'r me very much.\" Kashkari also revealed his that FRB of Minneapolis President Kashk'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.055931,
+   "duration_ms": 7369,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5445,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 564,
+    "output_tokens_details": {
+     "thinking_tokens": 556
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5445,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 564,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5445,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5445
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.12577359999999999,
+   "duration_ms": 28403,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7040,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3401,
+    "output_tokens_details": {
+     "thinking_tokens": 1497
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7040,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3401,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7040,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7040
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

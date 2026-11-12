@@ -1,0 +1,146 @@
+{
+ "map": {
+  "arguments": [
+   {
+    "id": "A001",
+    "summary": "Rates pricing near 85% and strong CPI, with raised cost of disappointing, lead to the expectation that the Fed hikes 25bp.",
+    "conclusion": "P005-1",
+    "premises": [
+     "P013-1",
+     "P030-1",
+     "P031-1",
+     "P080-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": []
+   },
+   {
+    "id": "A002",
+    "summary": "The Fed's choice is hike or risk large bond spike, because not hiking risks a disorderly long end move and the bond likes orthodoxy.",
+    "conclusion": "P016-2",
+    "premises": [
+     "P017-2",
+     "P019-1",
+     "P020-1"
+    ],
+    "conditions": [
+     "P017-1"
+    ],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P018-1"
+    ]
+   },
+   {
+    "id": "A003",
+    "summary": "Warsh delivers a hawkish hike because he is expected to sound like Jackson Hole, largely to support the bond.",
+    "conclusion": "P009-1",
+    "premises": [
+     "P086-2",
+     "P025-2",
+     "P021-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [
+     "P082-1"
+    ],
+    "risks": [
+     "P027-2"
+    ],
+    "implications": [
+     "P009-2",
+     "P009-3"
+    ]
+   },
+   {
+    "id": "A004",
+    "summary": "The USD outcome depends on the Fed out-hawking expectations and G10 peers, since the bar is high with many hikes priced.",
+    "conclusion": "P010-1",
+    "premises": [
+     "P118-2",
+     "P118-1"
+    ],
+    "conditions": [],
+    "qualifiers": [
+     "P121-1"
+    ],
+    "concessions": [
+     "P113-1"
+    ],
+    "risks": [
+     "P130-2"
+    ],
+    "implications": [
+     "P119-2"
+    ]
+   },
+   {
+    "id": "A005",
+    "summary": "The SEP shows 50bps of total hikes in 2026 given an assumed hike.",
+    "conclusion": "P022-1",
+    "premises": [
+     "P045-2"
+    ],
+    "conditions": [
+     "P045-1"
+    ],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": []
+   }
+  ]
+ },
+ "errors": [],
+ "attempts": 1,
+ "usage": [
+  {
+   "cost_usd": 0.0971172,
+   "duration_ms": 5140,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22050,
+    "cache_read_input_tokens": 2013,
+    "output_tokens": 660,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 22050,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 660,
+      "cache_read_input_tokens": 2013,
+      "cache_creation_input_tokens": 22050,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 22050
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-sonnet-5-5"
+   ]
+  }
+ ]
+}

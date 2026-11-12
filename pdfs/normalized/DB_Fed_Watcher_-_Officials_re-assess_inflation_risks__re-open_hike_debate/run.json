@@ -1,0 +1,228 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Watcher_-_Officials_re-assess_inflation_risks__re-open_hike_debate.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 9,
+    "referents": {
+     "thing": 5,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 7,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "time": 1,
+     "expletive": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 16,
+  "kinds": {
+   "symbol": 7,
+   "possessive": 2,
+   "pronoun": 2,
+   "shell": 2,
+   "deixis": 2,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8809523809523809,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 55,
+  "cost_usd": 0.1327
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1065,
+   "end": 1078,
+   "quote": "SF Fed’s Daly",
+   "name": "SF Fed’s Daly"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1294,
+   "end": 1311,
+   "quote": "NY Fed’s Williams",
+   "name": "NY Fed’s Williams"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1328,
+   "end": 1431,
+   "quote": "policy is modestly restrictive, with no clear need to adjust rates in either direction in the near term",
+   "name": "policy is modestly restrictive, with no clear need to adjust rates in either direction in the near term"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 407,
+   "end": 417,
+   "quote": "Dallas Fed",
+   "name": "the Dallas Fed"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1967,
+   "end": 2023,
+   "quote": "misinterpreting low prints of their trimmed mean measure",
+   "name": "misinterpreting low prints of the trimmed mean measure"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 407,
+   "end": 425,
+   "quote": "Dallas Fed’s Logan",
+   "name": "Dallas Fed’s Logan"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 2350,
+   "end": 2431,
+   "quote": "Fed policy may have become overinsured against downside risks to the labor market",
+   "name": "Fed policy may have become overinsured against downside risks to the labor market"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0428835,
+   "duration_ms": 3507,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4760,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 179,
+    "output_tokens_details": {
+     "thinking_tokens": 166
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4760,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 179,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4760,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4760
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.08978,
+   "duration_ms": 21390,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5144,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2369,
+    "output_tokens_details": {
+     "thinking_tokens": 1634
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5144,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2369,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5144,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5144
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

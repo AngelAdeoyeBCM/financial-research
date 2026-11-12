@@ -1,0 +1,63 @@
+{
+  "batch_id": "2026-03-29",
+  "window": [
+    "2026-03-29",
+    "2026-03-29"
+  ],
+  "generated_at": "2026-10-29T16:27:55",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-26_2026-03-29.json",
+      "sha256": "e777382429e0c3f478bd97986d990ff91815037d99d5c3331d91481989ad06a3",
+      "records": 1906,
+      "dates": [
+        "2026-03-26",
+        "2026-03-29"
+      ],
+      "records_for_batch": 64
+    }
+  ],
+  "counts": {
+    "documents": 5,
+    "in_scope": 2,
+    "out_of_scope": 3,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 20,
+    "edits": 12,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 1
+  },
+  "documents": [
+    {
+      "stem": "Sunday_Tea_with_BNPP_Difficult_passage_Sunday_Tea_with_BNP_Paribas--921443",
+      "document": "Sunday_Tea_with_BNPP_Difficult_passage_Sunday_Tea_with_BNP_Paribas--921443.pdf",
+      "date": "2026-03-29",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.0% 0.5% 1.0% 1.5% 2.0% 2.5% 3.0% 3.5% 0 20 40 60",
+          "chunk_id": "Sunday_Tea_with_BNPP_Difficult_passage_Sunday_Tea_with_BNP_Paribas--921443.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

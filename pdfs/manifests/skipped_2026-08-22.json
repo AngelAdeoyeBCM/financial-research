@@ -1,0 +1,656 @@
+{
+  "batch_id": "2026-08-22",
+  "window": [
+    "2026-08-22",
+    "2026-08-22"
+  ],
+  "generated_at": "2026-10-29T16:31:05",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-21_2026-08-24.json",
+      "sha256": "2a9eb791f1ac31d6c4da7ec87628124518529776786c171c2322f1e2f38c829e",
+      "records": 2972,
+      "dates": [
+        "2026-08-21",
+        "2026-08-24"
+      ],
+      "records_for_batch": 261
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "in_scope": 2,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 39,
+    "DISTORTED_TABLE": 31,
+    "UNSTRUCTURED_TEXT": 9,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "JPM_Global_Fixed_Income_Markets_Weekly_-_Reduce_outright_duration_risk_but_keep_long_10Y_Eur_vs._US",
+      "document": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf",
+      "date": "2026-08-22",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 228,
+      "page_count": 88,
+      "status": "skipped",
+      "missing_indices": [
+        12,
+        64,
+        70,
+        82,
+        88,
+        96,
+        112,
+        131,
+        134,
+        138,
+        185,
+        195,
+        221,
+        228
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12, 64, 70, 82, 88, 96, 112, 131, 134, 138, 185, 195, 221, 228]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -5 0 5 10 15 20 25 30 35 40 45",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 0.4 31% 0.7 50% 0.8 58% -0.1 2% 10Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 0.4 31% 0.7 50% 0.8 58% -0.1 2% 10Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 39 -0.8 18% 0.9 72% -0.6 25% 0.6 33%",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-7-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 39 -0.8 18% 0.9 72% -0.6 25% 0.6 33%",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-7-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "262 consecutive numeric/date tokens: 2015 136.9 126.0 -3.3 -14.3 2.3 3.9 4.2 -3.1 -0.8 -4.9 117.3",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-8-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "53 consecutive numeric/date tokens: -12.1 -2.7 -2.7 0.0 -0.4 Apr-26 4.0 1.9 0.0 -0.2 -0.1 -0.2",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-8-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "43 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 Jan 25 Feb",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-9-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 10 13 14 15 -2 3 5 4 10 12 11 13",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-30-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 -5 0 5 10",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-31-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.0 2.0 4.0 6.0 8.0 Aug 21 Aug 22 Aug 23 Aug",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-32-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0% 40 50 60 70 80 0 10 20 30 40 50",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-33-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Aug 25 Nov 25 Feb 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-34-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -6.0 -4.0 -2.0 0.0 2.0 4.0 6.0 Aug 25 Oct 25 Dec",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-35-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 Jan 26 Feb 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-35-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 77% 3.5 4.0 4.5 5.0 5.5 6.0 6.5 3.90 4.00 4.10 4.20",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-36-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 1 Jan 2026 2.0 4.0 6.0 8.0 10.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-36-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -5.0 -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 Feb 25 May 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-37-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -5.0 -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 Feb 25 May 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-37-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 84% -1.8 -1.6 -1.4 -1.2 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 3.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-38-97",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 7 8 9 1996",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-41-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 4.11 0.98 0.414 49.5 40 | 92.6 0.1 -0.04 -5.2 0 | 2.07 0.02 0.284 4.6 0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-42-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 numeric rows: 10.0 0.2 1.1 -1.5 -0.78 -0.7 -0.6 | 2.2 2.0 0.7 0.8 -0.71 0.1 1.0 | 2.3 -1.2 0.9 -0.3 -0.15 -0.4 -0.6",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-43-110",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 1 2 3 4 5 6 Aug 21 Aug 22 Aug",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-44-113",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "146 consecutive numeric/date tokens: 2y 3y 5y 7y 10y 20y 30y 5y 10y 30y 2014 50.4",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-44-114",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 026 87.8 86.1 87.0 88.4 89.7 89.2 89.2 94.0 89.8 97.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-44-115",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 0 10 20 30 -15 -12 -9 -6 -3 0 3",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-45-118",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -75 -50 -25 0 25 50 75 100 125 150 Jun 24",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-47-123",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 08/15/25 08/22/25 -8.1 55% | 09/12/25 10/16/25 -8.4 50:50 | 03/20/26 04/02/26 9.4 50:50",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-48-126",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 08/14/25 09/09/25 1.6 100% | 08/06/25 09/19/25 -4.0 53:54 3.25 | 07/11/25 10/03/25 1.2 67:37 4.00",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-48-127",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "49 consecutive numeric/date tokens: 2Y 4.03 5.6 4.08 4.03 4.04 4.08 3Y 4.05 5.9 4.11 4.05",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-50-132",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 8/19 -60 -59 -58 -57 -56 -55 08:00 09:00 10:00 11:00 12:00",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-50-133",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "49 consecutive numeric/date tokens: 2Y -14.5 -0.7 -15.2 -15.2 -14.8 -14.5 3Y -20.2 -0.2 -20.4 -20.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-51-135",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: -0.6 -23.3 5.5 5.5 0.0 | 0.3 15.8 5.15 5.08 -0.02 | 0.1 6.6 70 70 0.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-51-136",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 Aug 25 Nov 25 Feb 26 May",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-52-139",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 8/21 0.0 0.5 1.0 1.5 2.0 2Y 3Y 5Y 7Y 10Y 20Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-52-140",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 8/21 0.0 0.5 1.0 1.5 2.0 2Y 3Y 5Y 7Y 10Y 20Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-52-141",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "53 consecutive numeric/date tokens: 6,805 0 365 365 954 2,935 2,475 19,485 Aug-26 6,805 0 365",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-53-143",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -4 -2 0 2 4 6 Mar 26 May 26 Jul 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-54-145",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 2 4 6 8 Jan 26 Mar 26 May 26 Jul",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-54-146",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "54 consecutive numeric/date tokens: 8/20 1Y 2Y 5Y 10Y 30Y 1M 1.38 1.39 1.22 1.11 1.06",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-55-148",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 27 1.24 1.21 10Y 1.27 1.25 1.22 1.23 1.20",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-55-149",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 1061 603 1196 794 169 83% 1.6 | 552 371 656 500 58 79% 0.9 | 713 184 747 473 161 96% 1.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-56-151",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-59-160",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "29 consecutive numeric/date tokens: 1.25 1.50 1.50 1.75 2Y 1.70 1.80 1.80 1.95 5Y 2.10 2.20",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-66-180",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 291.1 36.9 11.4 2.9 2.9 7.0 3.5 64.6 355.7 0.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-68-186",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: (6) (4) (2) 0 2 4 6 8 10 12 0 1",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-68-187",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-68-187",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "57 consecutive numeric/date tokens: 2.2 2.2 2.7 4.5 7.3 8.7 11.0 14.6 17.9 20.0 19.5 19.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-68-188",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-68-188",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 11 6 5 48.2 | 10.8% 3.7% 6.3% 6.7% 52.1 | 61 9 52 18.9",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-70-192",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0.5 1.7 4.2 6.0 1.6 3.3 4.6 4.8 2.9 5.0 1.4 2.7",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-71-197",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: March 2025) 141% 178% 187% 212% 204% 220% 219% 215% 100% 125%",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-72-200",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: -1,380 -1,230 -1,100 -4,660 290 100 110 570 -1,390 -1,140 -650 -2,140",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-73-203",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-73-203",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "21 consecutive numeric/date tokens: -1,380 -1,230 -1,100 -4,660 290 100 110 570 -1,390 -1,140 -650 -2,140",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-73-204",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -45 -40 -35 -30 -25 -20 1 2 3 4 5 6",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-76-212",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -45 -40 -35 -30 -25 -20 1 2 3 4 5 6",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-76-213",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 4 6 8 10 12 14 3 4 5 6 7 8",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-79-219",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0.00 0.10 0.20 0.30 0.40 0.00 0.05 0.10 0.15 0.20 0.25 0.30",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-80-222",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-84-231",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-85-234",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 527 0.6 3.0 -4.1 -2.4 83 0.7 117 5.7",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-87-237",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 484 1.6 4.0 -2.6 - 42 -3.5 - 5.3",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce outright duration risk but keep long 10Y Eur vs. US.pdf-87-238",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_The_J.P._Morgan_View_-_Crowding_Out__Steeper_Curve_-_Carry_Through_Jackson_Hole",
+      "document": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf",
+      "date": "2026-08-22",
+      "publisher": "JP Morgan",
+      "document_type": "Market commentary",
+      "chunk_count": 33,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        11
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "48 consecutive numeric/date tokens: -10 -9 -4 -1 -1 -1 -1 -1 -1 0 0 0",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: Jan 2023 15.5% 4.6% 2.0% 2.5% 3.0% 3.5% 4.0% 4.5% 5.0% 10%",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 25 26 27 28 29 30 31 32 33 34 Apr 23",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 12",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.8426 3500 4000 4500 5000 5500 0.4 0.6 0.8 1.0 1.2 1.4",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 260000 280000 300000 320000 340000 360000 380000 400000 420000 440000 -2500 -2000",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-9-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "46% of tokens are numeric/date values",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-10-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-10-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: Dec-26 94 95 90 90 312 350 305 300 166 180",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-10-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-10-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2025 2026 2027 1Q26 2Q26 3Q26 4Q26 1Q27 2Q27 4Q25 2Q26 4Q26",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-11-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-11-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 3.6 4.7 2.9 12.1 -2.5 4.3 3.6 3.0 2.8 1.3 1.9 1.7",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-11-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-11-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2.5 2.1 2.2 0.8 1.5 2.3 2.5 2.1 2.1 2.2 2.0 2.2",
+          "chunk_id": "JPM_The J.P. Morgan View - Crowding Out, Steeper Curve - Carry Through Jackson Hole.pdf-11-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

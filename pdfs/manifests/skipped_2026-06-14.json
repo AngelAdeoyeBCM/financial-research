@@ -1,0 +1,330 @@
+{
+  "batch_id": "2026-06-14",
+  "window": [
+    "2026-06-14",
+    "2026-06-14"
+  ],
+  "generated_at": "2026-10-29T16:29:50",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-14_2026-06-17.json",
+      "sha256": "7bf12f7d0a40285d595182cfd482d918daad0d31b02982169def9d9c8b470b69",
+      "records": 1582,
+      "dates": [
+        "2026-06-14",
+        "2026-06-17"
+      ],
+      "records_for_batch": 100
+    }
+  ],
+  "counts": {
+    "documents": 5,
+    "in_scope": 4,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 21,
+    "DISTORTED_TABLE": 5,
+    "MISSING_CHUNKS": 3,
+    "UNSTRUCTURED_TEXT": 3
+  },
+  "documents": [
+    {
+      "stem": "BofA_US_Viewpoint_-_Fed_watching_101-Economics_and_Rates",
+      "document": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf",
+      "date": "2026-06-14",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 37,
+      "page_count": 17,
+      "status": "skipped",
+      "missing_indices": [
+        19,
+        28,
+        31
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [19, 28, 31]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 1% 2% 3% 4% 5% 6% -5 0 5 10",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 1% 2% 3% 4% 5% 6% -5 0 5 10",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 1 2 3 4 5 6 1979 1984 1989 1994 1999",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: owellJefferson oganKashkari chmidMusalem oolsbeeBarkin",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -10% -8% -6% -4% -2% 0% 2% 4% 2006 2009 2012 2015",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -4 0 4 8 12 1990 1997 2004 2011 2018 2025",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 6777 4,480 1,965 332 3,111 2,467 801 317 0 80",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 2008",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 2008",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 15-Mar-23 8,537 62 4,276 191 331 574 538 563 131 62 131",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-14-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 14 June 2026 19 | +1 646 855 9929 | +1 202 442 7429",
+          "chunk_id": "BofA_US Viewpoint - Fed watching 101-Economics and Rates.pdf-17-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-06-14",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-06-14",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_ECONOMICS_ANALYST_-_June_FOMC_Preview_-_Leadership_Transition",
+      "document": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf",
+      "date": "2026-06-14",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 21,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: Jan-24 Jul-24 Jan-25 Jul-25 Jan-26 Jul-26 -50 0 50 100 150 200",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: Jan-24 Jul-24 Jan-25 Jul-25 Jan-26 Jul-26 -50 0 50 100 150 200",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 2027 0 1 2 3 4 5 6 7 0 1 2",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 0.0 0.2 0.4 0.6 0.8",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1.9 2.0 2.1 2.2 2.3 2.4 2.5 1.9 2.0 2.1 2.2 2.3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 1.9 2.0 2.1 2.2 2.3 2.4 2.5 1.9 2.0 2.1 2.2 2.3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 numeric rows: 2026 2026 2027 2028 | 2.2 2.3 2.1 2.0 March | 2.4 2.3 2.1 2.0",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-7-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0 6.5 1.5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ercentEnd ercentEnd ercentEnd ercentLonger",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-9-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q4 Q1 Q2 Q3 Q4 Q1 Q2",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 1,421 1,370 1,356 1,319 1,322 1,323 1,413 1,290 1,280 1,292 1,304 1,316",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-10-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-10-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 3.88 4.58 4.18 4.40 4.25 4.18 4.30 4.50 4.45 4.40 4.35 4.30",
+          "chunk_id": "GS_US ECONOMICS ANALYST - June FOMC Preview - Leadership Transition.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Central_bank_bonanza_Sunday_Tea_with_BNP_Paribas--926241",
+      "document": "Sunday_Tea_with_BNPP_Central_bank_bonanza_Sunday_Tea_with_BNP_Paribas--926241.pdf",
+      "date": "2026-06-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -0.5 -0.25 0 0.25 0.5 0.75 1 Jan-25 Apr-25 Jul-25 Oct-25 Jan-26",
+          "chunk_id": "Sunday_Tea_with_BNPP_Central_bank_bonanza_Sunday_Tea_with_BNP_Paribas--926241.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -50 -30 -10 10 30 50 Jan-25 May-25 Sep-25 Jan-26 May-26",
+          "chunk_id": "Sunday_Tea_with_BNPP_Central_bank_bonanza_Sunday_Tea_with_BNP_Paribas--926241.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

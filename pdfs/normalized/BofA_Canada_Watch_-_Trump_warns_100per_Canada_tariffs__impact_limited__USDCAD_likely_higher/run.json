@@ -1,0 +1,242 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BofA_Canada_Watch_-_Trump_warns_100per_Canada_tariffs__impact_limited__USDCAD_likely_higher.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-25",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 5,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 2
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 13,
+  "kinds": {
+   "noun_phrase": 5,
+   "deixis": 4,
+   "pronoun": 1,
+   "possessive": 1,
+   "symbol": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.8888888888888888,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 20,
+  "cost_usd": 0.1068
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 260,
+   "end": 285,
+   "quote": "US President Donald Trump",
+   "name": "US President Donald Trump"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1729,
+   "end": 1748,
+   "quote": "two interpretations",
+   "name": "the two interpretations"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1822,
+   "end": 1827,
+   "quote": "USMCA",
+   "name": "USMCA"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 2304,
+   "end": 2373,
+   "quote": "the US Senate blocked Trump‐era tariff orders on Canada twice in 2025",
+   "name": "the US Senate blocked Trump‐era tariff orders on Canada twice in 2025"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 213,
+   "end": 235,
+   "quote": "a post on Truth Social",
+   "name": "the post on Truth Social"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1232,
+   "end": 1253,
+   "quote": "a blanket 100% tariff",
+   "name": "the blanket 100% tariff"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1770,
+   "end": 1793,
+   "quote": "the July 1 USMCA review",
+   "name": "the July 1 USMCA review"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'he' in 'p added that “If Governor Carney thinks he is going to make Canada a ‘Drop Off Por'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'he' in 'ds and products into the United States, he is sorely mistaken.” Canada–China agree'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.030346599999999998,
+   "duration_ms": 3399,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3306,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 151,
+    "output_tokens_details": {
+     "thinking_tokens": 143
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3306,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 151,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3306,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3306
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.07642860000000001,
+   "duration_ms": 21372,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3570,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2339,
+    "output_tokens_details": {
+     "thinking_tokens": 1622
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3570,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2339,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3570,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3570
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

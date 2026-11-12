@@ -1,0 +1,143 @@
+{
+  "batch_id": "2026-10-06",
+  "window": [
+    "2026-10-06",
+    "2026-10-06"
+  ],
+  "generated_at": "2026-10-29T16:32:25",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-04_2026-10-07.json",
+      "sha256": "5fbd7443d54d2ee45c0d6a26bbfab09f3d7a52eb9cc1a64b5fcc2f765ba1eaa3",
+      "records": 1749,
+      "dates": [
+        "2026-10-04",
+        "2026-10-07"
+      ],
+      "records_for_batch": 38
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 2,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 8,
+    "MISSING_CHUNKS": 1,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "Japan_Balancing_fiscal_ambition_with_market_optics_Desknote--933184",
+      "document": "Japan_Balancing_fiscal_ambition_with_market_optics_Desknote--933184.pdf",
+      "date": "2026-10-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 80 100 120 140 160 180 12 13 14 15 16 17",
+          "chunk_id": "Japan_Balancing_fiscal_ambition_with_market_optics_Desknote--933184.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 1 2 3 4 5 6 2014 2015 2016 2017 2018",
+          "chunk_id": "Japan_Balancing_fiscal_ambition_with_market_optics_Desknote--933184.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_Industrials_are_running_out_of_steam",
+      "document": "US Industrials are running out of steam.pdf",
+      "date": "2026-10-06",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        13
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [13]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -0.10 -0.05 0.00 0.05 0.10 0.00 0.25 0.50 0.75 1.00 Oct-25 Feb-26",
+          "chunk_id": "US Industrials are running out of steam.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "US Industrials are running out of steam.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 50 70 90 110 130 150 170 190 '21 '22 '23 '24",
+          "chunk_id": "US Industrials are running out of steam.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 150 170 190 '21 '22 '23 '24 '25 '26",
+          "chunk_id": "US Industrials are running out of steam.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 5 10 15 -30 -15 0 15 30 45 '02 '04",
+          "chunk_id": "US Industrials are running out of steam.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -100 -80 -60 -40 -20 0 20 40 0% 20% 40% 60%",
+          "chunk_id": "US Industrials are running out of steam.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 0 20 40 60 80 100",
+          "chunk_id": "US Industrials are running out of steam.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

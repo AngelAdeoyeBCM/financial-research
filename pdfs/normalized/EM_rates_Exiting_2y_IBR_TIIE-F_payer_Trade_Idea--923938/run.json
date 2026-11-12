@@ -1,0 +1,215 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Exiting_2y_IBR_TIIE-F_payer_Trade_Idea--923938.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-12",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 3
+    },
+    "leave_reasons": {
+     "relative": 1,
+     "not_a_reference": 1
+    },
+    "extra": 7,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 19,
+  "kinds": {
+   "deixis": 9,
+   "noun_phrase": 7,
+   "possessive": 3
+  },
+  "rooted_share": 0.875,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 17,
+  "cost_usd": 0.0789
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 49,
+   "end": 78,
+   "quote": "the 2y IBR–TIIE-F payer trade",
+   "name": "the 2y IBR–TIIE-F payer trade"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 692,
+   "end": 705,
+   "quote": "The IBR curve",
+   "name": "the IBR curve"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1460,
+   "end": 1467,
+   "quote": "Banxico",
+   "name": "Banxico"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 462,
+   "end": 516,
+   "quote": "Colombia’s first-round presidential election on 31 May",
+   "name": "Colombia’s first-round presidential election on 31 May"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 41"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 1190"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.026310800000000002,
+   "duration_ms": 2372,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2958,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 90,
+    "output_tokens_details": {
+     "thinking_tokens": 77
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2958,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 90,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2958,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2958
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0525659,
+   "duration_ms": 11323,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3173,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1301,
+    "output_tokens_details": {
+     "thinking_tokens": 606
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3173,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1301,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3173,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3173
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

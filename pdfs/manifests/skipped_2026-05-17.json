@@ -1,0 +1,425 @@
+{
+  "batch_id": "2026-05-17",
+  "window": [
+    "2026-05-17",
+    "2026-05-17"
+  ],
+  "generated_at": "2026-10-29T16:29:06",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-17_2026-05-20.json",
+      "sha256": "7498cc3995179581b97c0415d8f8696849789d3eaea86d514f9273cbc0a7bb79",
+      "records": 1229,
+      "dates": [
+        "2026-05-17",
+        "2026-05-20"
+      ],
+      "records_for_batch": 124
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 5,
+    "out_of_scope": 2,
+    "compiled": 2,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 22,
+    "edits": 49,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 18,
+    "DISTORTED_TABLE": 17,
+    "UNSTRUCTURED_TEXT": 11,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "GS_US_Economics_Analyst_-_Concentration__Profits__and_the_Competitive_Landscape_Ahead_of_AI_Disruption",
+      "document": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf",
+      "date": "2026-05-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 28,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        22
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [22]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 30 40 50 60 40 50 60 70 80 90 1960 1970",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 20 40 60 80 100 0 20 40 60 80 100",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 20 40 60 80 100 0 20 40 60 80 100",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.4 0.8 1.2 1.6 2.0 50 60 70 80 90 100 1960",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.4 0.8 1.2 1.6 2.0 50 60 70 80 90 100 1960",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -1 0 1 2 3 4 5 -0.5 0.0 0.5 1.0 1.5",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0.00 0.05 0.10 0.15 0.00 0.05 0.10 0.15",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.8 1.0 1.2 1.4 1.6 1.8 2.0 0.8 1.0 1.2 1.4 1.6",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2006 2010 2014 2018 -50 -40 -30 -20 -10 0 10 -50",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2006. 0 2 4 6 8 10 0 2 4 6 8",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2000 0 5 10 15 20 0 5 10 15 20",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -0.2 -0.1 0.0 0.1 0.2 -0.2 -0.1 0.0 0.1 0.2",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-10-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 10 20 30 40 50 60 0 1 02 03 04",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q4 Q1 Q2 Q3 Q4 Q1 Q2",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 1,421 1,371 1,356 1,286 1,322 1,323 1,280 1,290 1,280 1,292 1,304 1,316",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 3.88 4.58 4.18 4.10 4.15 4.18 4.30 4.30 4.20 4.10 4.10 4.10",
+          "chunk_id": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Week_Ahead_-_May_18_-_May_24",
+      "document": "GS_US Week Ahead - May 18 - May 24.pdf",
+      "date": "2026-05-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: May 18 - May 24 17 May 2026",
+          "chunk_id": "GS_US Week Ahead - May 18 - May 24.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Australia_Macroplus_Week_Ahead_-_The_Global_Outlook",
+      "document": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf",
+      "date": "2026-05-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 40,
+      "page_count": 17,
+      "status": "skipped",
+      "missing_indices": [
+        12
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: May -- -- 80.2 | May -- -- -- | Apr 25k 15.0k 17.9k",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: May -- -- 80.2 | May -- -- -- | Apr 25k 15.0k 17.9k",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 200 8630.8 -6.2% -1.3% 0.2% -0.6% -1.8% -0.4% -1.0% 1.0% 4.2%",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet actSet",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 7 22 83 70 12 6 0 10 20 30 40 50",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ndxFin actSet actSet",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 Feb-06 Feb-07 Feb-08 Feb-09",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: Apr-26 Mar-26 Feb-26 Jan-26 Dec-25 Nov-25 Oct-25 Sep-25 Aug-25 Jul-25 Jun-25 May-25",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-13-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-13-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 000s -- 17.9 49.6 25.6 64.4 -34.7 34.2 11.1 -13.6 35.2 -5.0",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-13-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-13-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 4.77 4.66 4.18 4.19 4.06 3.81 3.55 3.49 3.33 3.34 3.21 3.28",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-13-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-14-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-14-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 2025 2026 2027 2028 2025 2026 2027 2028 2025 2026 2027 2028",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 663.0 6 99.9 758.1 831.7 663.0 647.8 680.0 739.9 -7.4% -10.3% -11.0%",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-15-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 4 5.3 406.0 439.3 450.7 45.3 400.3 429.2 443.0 -1.4% -2.3% -1.7%",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-15-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 1 2.3 2.2 16.8 22.1 12.3 -0.9 21.3 35.8 -140.3% 26.5% 61.5%",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-15-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "46% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-16-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-16-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "54% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-16-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-16-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 7.95 7.90 0.14 2.06 1.92 | 157.44 0.55 3.32 2.78 | 164.00 185.75 2.68 5.78 3.10",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-16-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-17-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf-17-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

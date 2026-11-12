@@ -1,0 +1,373 @@
+{
+  "batch_id": "2026-05-29",
+  "window": [
+    "2026-05-29",
+    "2026-05-29"
+  ],
+  "generated_at": "2026-10-29T16:29:23",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-29_2026-06-01.json",
+      "sha256": "d5f9a236e012399e149407e7e63aa2e6059fb29c556d80a5cd495b82ba26d8f6",
+      "records": 2274,
+      "dates": [
+        "2026-05-29",
+        "2026-06-01"
+      ],
+      "records_for_batch": 1214
+    }
+  ],
+  "counts": {
+    "documents": 21,
+    "in_scope": 18,
+    "out_of_scope": 3,
+    "compiled": 1,
+    "skipped": 17,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 4,
+    "edits": 7,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Global_Economics_Weekly_-_Waiting_for_the_deal",
+      "document": "BC_Global Economics Weekly - Waiting for the deal.pdf",
+      "date": "2026-05-29",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 211,
+      "page_count": 85,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.797,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Buying_the_rumour__questioning_the_news",
+      "document": "Buying the rumour, questioning the news.pdf",
+      "date": "2026-05-29",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_UK_Weekly_Digest_-_Who_s_matching_-_Labour_market_mismatches_back_at_cyclical_lows",
+      "document": "DB_UK Weekly Digest - Who's matching - Labour market mismatches back at cyclical lows.pdf",
+      "date": "2026-05-29",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Tactical_pay_5y_CNY_NDIRS_Trade_Idea--925205",
+      "document": "EM_rates_Tactical_pay_5y_CNY_NDIRS_Trade_Idea--925205.pdf",
+      "date": "2026-05-29",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.833,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_vol_Take_profit_on_short_AUDUSD_vol_Trade_Idea--925239",
+      "document": "FX_vol_Take_profit_on_short_AUDUSD_vol_Trade_Idea--925239.pdf",
+      "date": "2026-05-29",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_vol_Take_profit_on_short_AUDUSD_vol_Trade_Idea--925239.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "92860b0f86a4dc62935bb260fc016e13c5fc5283",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: 3m implied vol is near its post-2020 low Figure 2: The AUDUSD implied/realised spread has '",
+          "chunk_id": "FX_vol_Take_profit_on_short_AUDUSD_vol_Trade_Idea--925239.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "a s a s Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "R I B A S"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "A L M A R K"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app."
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ;",
+              "after": ";"
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX vol: Take profit on short AUDUSD vol ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_GLOBAL_FX_TRADER_-_Resolution_Resolve",
+      "document": "GS_GLOBAL FX TRADER - Resolution Resolve.pdf",
+      "date": "2026-05-29",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 18,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_GLOBAL_RATES_TRADER_-_Term_Premia_Take_a_Breather",
+      "document": "GS_GLOBAL RATES TRADER - Term Premia Take a Breather.pdf",
+      "date": "2026-05-29",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 31,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.968,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Heated_Rivalry_USD-CAD_and_The_USMCA_Review",
+      "document": "GS_Global Markets Daily - Heated Rivalry—USD-CAD and The USMCA Review.pdf",
+      "date": "2026-05-29",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 14,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.95,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_MORTGAGE___STRUCTURED_PRODUCTS_TRADER_-_Consumer_credit_holds__sentiment_splits",
+      "document": "GS_MORTGAGE & STRUCTURED PRODUCTS TRADER - Consumer credit holds, sentiment splits.pdf",
+      "date": "2026-05-29",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 39,
+      "page_count": 23,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.263,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Inconsistent_signs_of_a_summer_slowdown",
+      "document": "Inconsistent signs of a summer slowdown.pdf",
+      "date": "2026-05-29",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Global_Economic_Research_-_Global_Data_Watch__2026-05-29",
+      "document": "JPM_Global Economic Research - Global Data Watch.pdf",
+      "date": "2026-05-29",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 305,
+      "page_count": 88,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.754,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Global_Markets_Strategy_-_U.S._Fixed_Income_Markets_Weekly__2026-05-29",
+      "document": "JPM_Global Markets Strategy - U.S. Fixed Income Markets Weekly.pdf",
+      "date": "2026-05-29",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 415,
+      "page_count": 157,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.479,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_The_J.P._Morgan_View_-_Oil-Driven_Convexity_Optimism_-_Momentum_Intact__Buy_the_Winners",
+      "document": "JPM_The J.P. Morgan View - Oil-Driven Convexity Optimism - Momentum Intact, Buy the Winners.pdf",
+      "date": "2026-05-29",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 34,
+      "page_count": 11,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.5,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Japan_rates_Short_10y_JGB_to_fade_rebalancing_flow_Trade_Idea--925207",
+      "document": "Japan_rates_Short_10y_JGB_to_fade_rebalancing_flow_Trade_Idea--925207.pdf",
+      "date": "2026-05-29",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Euro_Area_Inflation_-_Stronger_Headline_and_Core",
+      "document": "MS_Euro Area Inflation - Stronger Headline and Core.pdf",
+      "date": "2026-05-29",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.857,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_European_Economics_Weekly_-_Still_THE_Question_in_Asia_-_Will_Europe_Deliver",
+      "document": "MS_European Economics Weekly - Still THE Question in Asia - Will Europe Deliver.pdf",
+      "date": "2026-05-29",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 16,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Japan_Economics_-_Heading_Again_Toward_Above_3per_-_CPI_Outlook_Table_Updated__after_May_Prelim._Tokyo_CPI",
+      "document": "MS_Japan Economics - Heading Again Toward Above 3per - CPI Outlook Table Updated (after May Prelim. Tokyo CPI).pdf",
+      "date": "2026-05-29",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 11,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.667,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "US_May_jobs_preview_Growing_season_Desknote--925292",
+      "document": "US_May_jobs_preview_Growing_season_Desknote--925292.pdf",
+      "date": "2026-05-29",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

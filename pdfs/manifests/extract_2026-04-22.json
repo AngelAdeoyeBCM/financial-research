@@ -1,0 +1,418 @@
+{
+  "batch_id": "2026-04-22",
+  "window": [
+    "2026-04-22",
+    "2026-04-22"
+  ],
+  "generated_at": "2026-10-29T16:28:27",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-19_2026-04-22.json",
+      "sha256": "0e20aef1914515f9c5f52652e57d983887dd26351a0e9f4da0e663e74630d557",
+      "records": 1012,
+      "dates": [
+        "2026-04-19",
+        "2026-04-22"
+      ],
+      "records_for_batch": 77
+    }
+  ],
+  "counts": {
+    "documents": 8,
+    "in_scope": 7,
+    "out_of_scope": 1,
+    "compiled": 2,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 16,
+    "edits": 23,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "EM_rates_Closing_SORA_5s10s_flattener_Trade_Idea--922665",
+      "document": "EM_rates_Closing_SORA_5s10s_flattener_Trade_Idea--922665.pdf",
+      "date": "2026-04-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Closing_SORA_5s10s_flattener_Trade_Idea--922665.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "d6d98f5c6a77ad12567ca7cfc0718aaffe4cc4be",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Change in 2y swaps vs fixing across EM Asia We close our m25, 5s10s flattener position in SO'",
+          "chunk_id": "EM_rates_Closing_SORA_5s10s_flattener_Trade_Idea--922665.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 22/04/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Closing SORA 5s10s flattener ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Entering_2y_Camara-US_spread_payer_Trade_Idea--922709",
+      "document": "EM_rates_Entering_2y_Camara-US_spread_payer_Trade_Idea--922709.pdf",
+      "date": "2026-04-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.917,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_vol_Short_AUDUSD_vol_as_May_s_bearish_seasonality_looms_Trade_Idea--922699",
+      "document": "FX_vol_Short_AUDUSD_vol_as_May_s_bearish_seasonality_looms_Trade_Idea--922699.pdf",
+      "date": "2026-04-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761",
+      "document": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf",
+      "date": "2026-04-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 6,
+      "status": "compiled",
+      "output": "pdfs/Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.txt",
+      "asset_class_share": 0.056,
+      "fingerprint": "6fbf9422a34cfe96b08a865da87783fc420ea080",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Momentum crowding scorecard Sourc'",
+          "chunk_id": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Momentum crowding scorecard Sources: Bloomberg, BNP Paribas Note: Skewness is computed as th'",
+          "chunk_id": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Sources: BNP Paribas'",
+          "chunk_id": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 3: Momentum performance versus momentum price- based crowdedness Price-based crowdedness Fig. 4'",
+          "chunk_id": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 3: Momentum performance versus momentum price- based crowdedness Price-based crowdedness Fig. 4'",
+          "chunk_id": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 5: Momentum performance versus momentum average implied skew Fig. 6: Momentum average implied s'",
+          "chunk_id": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 6: Momentum performance versus momentum valuation spread Fig. 7: Momentum valuation spread deci'",
+          "chunk_id": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf-5-16",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 9: Momentum deviation from 3y trend decile analysis Fig. 8: Momentum performance versus momentu'",
+          "chunk_id": "Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "D E E P D I V E"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "E M – L O C A L E YE S FO R A G L O B A L V IE W"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "E M – L O C A L E YE S FO R A G L O B A L V IE W"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "decile analysis Sources: Bloomberg, BNP Paribas"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "E M – L O C A L E YE S FO R A G L O B A L V IE W"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "decile analysis Sources: Bloomberg, BNP Paribas E M – L O C A L E YE S FO R A G L O B A L V IE W"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "decile analysis Sources: Bloomberg, BNP Paribas"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "E M – L O C A L E YE S FO R A G L O B A L V IE W"
+        }
+      ],
+      "stripped_by_section": {
+        "header": 1,
+        "footer": 12,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 9,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "DEEP DIVE KEY MESSAGES",
+              "after": "\n\n## DEEP DIVE KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Is_it_over_now",
+      "document": "Is it over now?.pdf",
+      "date": "2026-04-22",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_Add_long_EURNOK_to_existing_EM_trading_signals_Trade_Idea--922693",
+      "document": "STEER_Add_long_EURNOK_to_existing_EM_trading_signals_Trade_Idea--922693.pdf",
+      "date": "2026-04-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "The_Warsh_Fed__less_talk_less_guidance__but_a_billion_prices",
+      "document": "The Warsh Fed: less talk less guidance, but a billion prices.pdf",
+      "date": "2026-04-22",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

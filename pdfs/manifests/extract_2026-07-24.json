@@ -1,0 +1,286 @@
+{
+  "batch_id": "2026-07-24",
+  "window": [
+    "2026-07-24",
+    "2026-07-24"
+  ],
+  "generated_at": "2026-10-29T16:30:39",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 34
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 2,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 8,
+    "edits": 64,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BofA_Asia_Economic_Weekly_-_RBI_Threading_a_three-circuit_policy_path",
+      "document": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf",
+      "date": "2026-07-24",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 21,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.941,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Take_profit_on_paid_5y_MYR_swaps_Trade_Idea--928865",
+      "document": "EM_rates_Take_profit_on_paid_5y_MYR_swaps_Trade_Idea--928865.pdf",
+      "date": "2026-07-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Take_profit_on_paid_5y_MYR_swaps_Trade_Idea--928865.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "b2863a0a2b307f9f5df96c8ed53531d9d025a2b7",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: 5y MYR swaps have moved higher since our entry (bp) Fig. 2: 3m Klibor has also risen recentl'",
+          "chunk_id": "EM_rates_Take_profit_on_paid_5y_MYR_swaps_Trade_Idea--928865.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 24 July 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 24 JULY 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Bloomberg, Macrobond, BNP Paribas   Chandresh Jain EM Asia FX and Rates Strategist | MAR BNP Paribas Singapore Branch chandresh.jain@asia.bnpparibas.com Joey Li FX and Rates Strategist, APAC BNP Paribas Singapore Branch joey.j.li@asia.bnpparibas.com"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Take profit on paid 5y MYR swaps ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "The_fight_against_inflation_Sunday_Tea_with_BNP_Paribas--928956",
+      "document": "The_fight_against_inflation_Sunday_Tea_with_BNP_Paribas--928956.pdf",
+      "date": "2026-07-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/The_fight_against_inflation_Sunday_Tea_with_BNP_Paribas--928956.txt",
+      "asset_class_share": 0.7,
+      "fingerprint": "d58f197f3709a447858a80b2c5b0144126184e03",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 24 July 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "SUNDAY TEA WITH BNP PARIBAS 24 JULY 2026"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 24 July 2026 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "BNP Paribas Securities Corp. calvin.x.tse@us.bnpparibas.com James Egelhof Chief US Economist BNP Paribas Securities Corp. james.egelhof@us.bnpparibas.com Guneet Dhingra Head of US Rates Strategy| MAR BNP Paribas Securities Corp. guneet.dhingra@us.bnpparibas.com Jason Ying Commodities Desk Strategist| MAR BNP Paribas London Branch jason.ying@uk.bnpparibas.com Paul Hollingsworth Head of DM Economics BNP Paribas London Branch paul.hollingsworth@uk.bnpparibas.com Dani Stoilova Economist, Europe BNP Paribas London Branch dani.t.stoilova@uk.bnpparibas.com Ryutaro Kono Chief Japan Economist BNP Paribas Securities (Japan) Limited ryutaro.kono@japan.bnpparibas.com Evan Bybee Equity Derivatives Strategist, US| MAR BNP Paribas Securities Corp. evan.bybee@us.bnpparibas.com Oliver Brennan FX Volatility Strategist BNP Paribas London Branch oliver.brennan@uk.bnpparibas.com"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 24 July 2026 3"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 3,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 17,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 33,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 5,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "‘"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "OUR KEY VIEWS",
+              "after": "\n\n## OUR KEY VIEWS\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

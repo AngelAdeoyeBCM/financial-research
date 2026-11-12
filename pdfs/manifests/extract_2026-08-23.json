@@ -1,0 +1,490 @@
+{
+  "batch_id": "2026-08-23",
+  "window": [
+    "2026-08-23",
+    "2026-08-23"
+  ],
+  "generated_at": "2026-10-29T16:31:05",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-21_2026-08-24.json",
+      "sha256": "2a9eb791f1ac31d6c4da7ec87628124518529776786c171c2322f1e2f38c829e",
+      "records": 2972,
+      "dates": [
+        "2026-08-21",
+        "2026-08-24"
+      ],
+      "records_for_batch": 84
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 6,
+    "out_of_scope": 1,
+    "compiled": 2,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 26,
+    "edits": 55,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Bond_vigilant_vs._bond_vigilantes_part_two_Sunday_Tea_with_BNP_Paribas--930356",
+      "document": "Bond_vigilant_vs._bond_vigilantes_part_two_Sunday_Tea_with_BNP_Paribas--930356.pdf",
+      "date": "2026-08-23",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/Bond_vigilant_vs._bond_vigilantes_part_two_Sunday_Tea_with_BNP_Paribas--930356.txt",
+      "asset_class_share": 0.333,
+      "fingerprint": "467fb555c45c68831e92ee4e39c0fd6cee0e33a2",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Buybacks have a very limited impact on Treasury supply Fig. 2: A K shaped bond market has ta'",
+          "chunk_id": "Bond_vigilant_vs._bond_vigilantes_part_two_Sunday_Tea_with_BNP_Paribas--930356.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 21 August 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "SUNDAY TEA WITH BNP PARIBAS 23 AUGUST 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Middle East and Ukraine   Guneet Dhingra Head of US Rates Strategy BNP Paribas Securities Corp guneet.dhingra@us.bnpparibas.com James Egelhof Chief US Economist BNP Paribas Securities Corp james.egelhof@us.bnpparibas.com Britney Jackson US Economist BNP Paribas Securities Corp britney.jackson@us.bnpparibas.com Marco Iachini Equity Derivatives Strategist, US BNP Paribas Securities Corp marco.iachini@us.bnpparibas.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Europe BNP Paribas Fortis luca.pennarola@bnpparibasfortis.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Europe BNP Paribas London Branch steven.montgomery@uk.bnpparibas.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "SA fernanda.guardado@br.bnpparibas.com Aldo Spanjer Head of Commodity Strategy BNP Paribas London Branch aldo.spanjer@uk.bnpparibas.com"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 21 August 2026 2"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "footer": 1,
+        "signature": 4
+      },
+      "edits": {
+        "split_word": {
+          "count": 19,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 13,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " )",
+              "after": ")"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "unicode": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "…",
+              "after": "..."
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "\"",
+              "after": "“"
+            },
+            {
+              "before": "\"",
+              "after": "”"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 6,
+          "examples": [
+            {
+              "before": "(1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "(2) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "(3) ",
+              "after": "\n3. "
+            },
+            {
+              "before": "(4) ",
+              "after": "\n4. "
+            },
+            {
+              "before": "1) ",
+              "after": "\n1. "
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "OUR KEY VIEWS",
+              "after": "\n\n## OUR KEY VIEWS\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Citi_Japan_Developed_Markets_-_July_nationwide_CPI_-_Set_to_rise_above_2per_again",
+      "document": "Citi_Japan Developed Markets - July nationwide CPI - Set to rise above 2per again.pdf",
+      "date": "2026-08-23",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.714,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-08-23",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-08-23",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-08-23.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "74fb873bf58abda2c90be3f950d7b88dfd777674",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Data docket and DB forecasts Source: NY FRB, PHL FRB, Census, FRB, NAHB, DoL, S&P Global &'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Data docket and DB forecasts Source: NY FRB, PHL FRB, Census, FRB, NAHB, DoL, S&P Global &'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 2: Fedspeak calendar Source: FRB, Bloomberg Finance LP, Deutsche Bank Research Figure 3: DB U'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 4: Data calendar and DB forecasts Source: Deutsche Bank Research Provided for the exclusive u'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 23/08/2026 14:00:07 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 23/08/2026 14:00:07 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Brett Ryan Senior US Economist +1-212-250-6294"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-08-24T16:40+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "23 August 2026 US Economic Notes Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Chief US Economist +1-212-250-6161 Justin Weidner Economist +1-212-469-1679 Amy Yang Economist +1-212-250-9959"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-08-24T16:40+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "23 August 2026 US Economic Notes Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-08-24T16:40+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "23 August 2026 US Economic Notes Deutsche Bank Securities Inc. Page 4"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-08-24T16:40+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 8,
+        "disclaimer": 9,
+        "signature": 2
+      },
+      "edits": {
+        "split_word": {
+          "count": 6,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "focuse s",
+              "after": "focuses"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " )",
+              "after": ")"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " What you need to know for the week ahead ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "\"",
+              "after": "”"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_US_Week_Ahead_-_August_24_-_August_30",
+      "document": "GS_US Week Ahead - August 24 - August 30.pdf",
+      "date": "2026-08-23",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Federal_Reserve_Monitor_-_Jackson_Hole_-_If_you_want_to_say_less__say_less",
+      "document": "MS_Federal Reserve Monitor - Jackson Hole - If you want to say less, say less.pdf",
+      "date": "2026-08-23",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 19,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.579,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Sunday_Start_-_What_s_Next_in_Global_Macro_-_40T_of_Debt_-_Brake_or_Break",
+      "document": "MS_Sunday Start - What's Next in Global Macro - 40T of Debt - Brake or Break.pdf",
+      "date": "2026-08-23",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.857,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

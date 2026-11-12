@@ -1,0 +1,260 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Long_EURUSD_Trade_Idea--916828.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-19",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 7,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 9,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "time": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 30,
+  "kinds": {
+   "deixis": 16,
+   "noun_phrase": 5,
+   "proposition": 3,
+   "demonstrative": 2,
+   "pronoun": 2,
+   "possessive": 1,
+   "fragment": 1
+  },
+  "rooted_share": 0.8681318681318682,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 2
+  },
+  "sentences": 30,
+  "cost_usd": 0.1321
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 100,
+   "end": 106,
+   "quote": "EURUSD",
+   "name": "EURUSD"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 138,
+   "end": 234,
+   "quote": "A revival of US–EU trade tensions and the subsequent risk-off has done little to weigh on EURUSD",
+   "name": "A revival of US–EU trade tensions and the subsequent risk-off has done little to weigh on EURUSD"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 368,
+   "end": 370,
+   "quote": "EU",
+   "name": "the EU"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 767,
+   "end": 787,
+   "quote": "US tariffs on the EU",
+   "name": "US tariffs on the EU"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 328,
+   "end": 377,
+   "quote": "a Greenland-related US tariff threat to EU states",
+   "name": "the Greenland-related US tariff threat to EU states"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1245,
+   "end": 1264,
+   "quote": "the Greenland issue",
+   "name": "the Greenland issue"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1650,
+   "end": 1688,
+   "quote": "an FX transaction attached to any deal",
+   "name": "an FX transaction attached to any deal"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 1810,
+   "end": 1955,
+   "quote": "relative data, both in terms of surprise and the absolute level of strength, have moved in favour of EURUSD recently, and yet the pair has lagged",
+   "name": "relative data, both in terms of surprise and the absolute level of strength, have moved in favour of EURUSD recently, and yet the pair has lagged"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 3669,
+   "end": 3812,
+   "quote": "The BNP Paribas FX Positioning Tracker sees EURUSD positioning as largely flat currently, with longs having reduced since the start of the year",
+   "name": "The BNP Paribas FX Positioning Tracker sees EURUSD positioning as largely flat currently, with longs having reduced since the start of the year"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 3984,
+   "end": 3992,
+   "quote": "the case",
+   "name": "the case"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C008",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1957",
+   "message": "+25 words: {{This => That relative data, both in terms of surprise and the absolute level of strength, have moved in favour of EURUSD recently, and yet EURUSD has lagged}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3919",
+   "message": "+23 words: {{This => That the BNP Paribas FX Positioning Tracker sees EURUSD positioning as largely flat currently, with longs having reduced since the start of the year}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.041269299999999995,
+   "duration_ms": 5914,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4003,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 415,
+    "output_tokens_details": {
+     "thinking_tokens": 266
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4003,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 415,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4003,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4003
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.09078810000000001,
+   "duration_ms": 23377,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4400,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2713,
+    "output_tokens_details": {
+     "thinking_tokens": 1647
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4400,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2713,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4400,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4400
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

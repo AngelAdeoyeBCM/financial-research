@@ -1,0 +1,45 @@
+# EXPERIMENT 1 of 3: ONE structure, claim type is ONE choice field.
+# Source: replaces the old classification-style config/taxonomies/claim.yaml for training experiments.
+# Goal: extract each claim span from a text chunk AND label it with the right claim type
+# (view, data_point, valuation, forecast, positioning, trade_idea). Slot filling (subject, direction,
+# value, ...) is deliberately left out; see config/taxonomies/structured/ for the full per-type fields.
+# Valuation is new here; claim.yaml did not have it.
+#
+# Length budget: GLiNER2 encodes every field description alongside each text chunk. Keep descriptions
+# to ~20 words. The claim-type definitions below fold in the main disambiguation rules from claim.yaml
+# (view vs forecast, forecast vs data_point, trade_idea vs view, positioning vs data_point).
+#
+# What this version does:
+#   One structure, "claim". Each record is one claim: its source text (the anchor) plus exactly one
+#   claim_type picked from six closed choices. Two fields only, so the prompt stays short.
+# What it tests:
+#   Whether a closed-choice head can classify the claim type given the extracted span, and whether
+#   type confusion can be handled with training data alone.
+# Trade-off:
+#   GLiNER2 gives choice values NO descriptions of their own. All six definitions must be squeezed
+#   into the claim_type description, so the model leans on the choice names and fine-tuning.
+# Do not load together with v2 (both define a structure named "claim").
+version: "1"
+id: exp_claims_v1_single_choice
+type: structured
+name: claim
+mode: natural
+anchor: claim_text
+
+fields:
+  claim_text:
+    name: Claim text
+    description: "The sentence or clause stating one distinct claim, copied verbatim."
+    dtype: str
+    allow_multiple: false
+    allow_none: false
+    status: active
+
+  claim_type:
+    name: Claim type
+    description: "Kind of claim: view (opinion), forecast (future value), trade_idea (recommendation), valuation (rich/cheap), positioning (investor holdings), data_point (reported number)."
+    dtype: str
+    choices: [view, forecast, trade_idea, valuation, positioning, data_point]
+    allow_multiple: false
+    allow_none: false
+    status: active

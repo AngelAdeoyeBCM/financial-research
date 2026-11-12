@@ -1,0 +1,1051 @@
+{
+  "batch_id": "2026-09-18",
+  "window": [
+    "2026-09-18",
+    "2026-09-18"
+  ],
+  "generated_at": "2026-10-29T16:31:53",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-18_2026-09-21.json",
+      "sha256": "f534bc371164879a02af7440fb5b963dddc232084fb8162e17b6456b4c8c31b0",
+      "records": 2041,
+      "dates": [
+        "2026-09-18",
+        "2026-09-21"
+      ],
+      "records_for_batch": 1122
+    }
+  ],
+  "counts": {
+    "documents": 36,
+    "in_scope": 30,
+    "out_of_scope": 6,
+    "compiled": 3,
+    "skipped": 27,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 48,
+    "edits": 65,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Global_Economics_Weekly_-_Hawks_on_high_energy",
+      "document": "BC_Global Economics Weekly - Hawks on high energy.pdf",
+      "date": "2026-09-18",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 229,
+      "page_count": 90,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.783,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Japan_Economics_Focus_-_August_CPI_-_Core-core_still_shy_of_2",
+      "document": "BC_Japan Economics Focus - August CPI - Core-core still shy of 2.pdf",
+      "date": "2026-09-18",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.9,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Japan_Economics_Focus_-_BoJ_MPM_delivers_mixed_signals",
+      "document": "BC_Japan Economics Focus - BoJ MPM delivers mixed signals.pdf",
+      "date": "2026-09-18",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/BC_Japan_Economics_Focus_-_BoJ_MPM_delivers_mixed_signals.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "b0c73dcf8c618db3aa66bc7ba37828c9736dfdff",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please see analyst certifications and important disclosures beginning on page 4."
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "FICC Research Economics 18 September 2026"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Completed: 18-Sep-26, 09:05 GMT Released: 18-Sep-26, 09:09 GMT Restricted - External"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Naohiko Baba + 81 3 4530 1378 naohiko.baba@barclays.com BSJL, Japan Takashi Onoda +81 3 4530 5152 takashi.onoda@barclays.com BSJL, Japan"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 September 2026 2 Barclays | Japan Economics Focus"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 September 2026 3 Barclays | Japan Economics Focus"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "footer": 4,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "Japan Economics Focus BoJ MPM delivers mixed signals ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 6,
+          "examples": [
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "unicode": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "…",
+              "after": "..."
+            },
+            {
+              "before": "…",
+              "after": "..."
+            },
+            {
+              "before": "…",
+              "after": "..."
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "1. ",
+              "after": "\n1. "
+            },
+            {
+              "before": "2. ",
+              "after": "\n2. "
+            },
+            {
+              "before": "3. ",
+              "after": "\n3. "
+            }
+          ]
+        },
+        "spacing": {
+          "count": 8,
+          "examples": [
+            {
+              "before": " ",
+              "after": ""
+            },
+            {
+              "before": " ",
+              "after": ""
+            },
+            {
+              "before": " ",
+              "after": ""
+            },
+            {
+              "before": " ",
+              "after": ""
+            },
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "BC_UK_inflation_forecast_update_-_Restrictiveness_required",
+      "document": "BC_UK inflation forecast update - Restrictiveness required.pdf",
+      "date": "2026-09-18",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.667,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Asia_Economic_Weekly_-_Australia___New_Zealand_-_Weathering_El_Niño",
+      "document": "BofA_Asia Economic Weekly - Australia & New Zealand - Weathering El Niño.pdf",
+      "date": "2026-09-18",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 18,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.769,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Europe_Economic_Weekly_-_Patiently_hawkish",
+      "document": "BofA_Europe Economic Weekly - Patiently hawkish.pdf",
+      "date": "2026-09-18",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 61,
+      "page_count": 23,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.778,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Global_Economic_Weekly_-_Hiking_season_in_full_bloom",
+      "document": "BofA_Global Economic Weekly - Hiking season in full bloom.pdf",
+      "date": "2026-09-18",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 62,
+      "page_count": 24,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.611,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Japan_Macro_Watch_-_BoJ_review_-_Higher__but_still_accommodative",
+      "document": "BofA_Japan Macro Watch - BoJ review - Higher, but still accommodative.pdf",
+      "date": "2026-09-18",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_US_Economic_Weekly_-_Kevin_Warsh_and_the_parable_of_the_Chinese_farmer",
+      "document": "BofA_US Economic Weekly - Kevin Warsh and the parable of the Chinese farmer.pdf",
+      "date": "2026-09-18",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 37,
+      "page_count": 15,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.968,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Canada_Economics_Weekly_-_Markets_pricing_much_higher_rates_with_core_inflation_at_2per",
+      "document": "Citi_Canada Economics Weekly - Markets pricing much higher rates with core inflation at 2per.pdf",
+      "date": "2026-09-18",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.8,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_European_Economics_Week_Ahead_-_Week_of_21_September",
+      "document": "Citi_European Economics Week Ahead - Week of 21 September.pdf",
+      "date": "2026-09-18",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_US_Economics_Weekly_-_Hawkish_Fed_will_slow_non-AI_economy",
+      "document": "Citi_US Economics Weekly - Hawkish Fed will slow non-AI economy.pdf",
+      "date": "2026-09-18",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 23,
+      "page_count": 13,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Fed_Notes_-_How_high_might_they_go",
+      "document": "DB_Fed Notes - How high might they go.pdf",
+      "date": "2026-09-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/DB_Fed_Notes_-_How_high_might_they_go.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "cd9f2a51db931353aa308ab1b7a73046f3606634",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: The Fed’s median dots mimic a Taylor rule with r*=1.5 Source: Deutsche Bank Research. * 20'",
+          "chunk_id": "DB_Fed Notes - How high might they go.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 2: DB r-star dashboard continues to show avg. r-star 1.5-1.75% Source: FRB, FRBNY, FRB Richmo'",
+          "chunk_id": "DB_Fed Notes - How high might they go.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 18/09/2026 13:05:56 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 18/09/2026 13:05:56 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-18T18:14+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 September 2026 Fed Notes Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Chief US Economist +1-212-250-6161 Matthew Raskin Strategist +1-212-250-1741 Brett Ryan Senior US Economist +1-212-250-6294 Justin Weidner Economist +1-212-469-1679 Amy Yang Economist +1-212-250-9959"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-18T18:14+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 September 2026 Fed Notes Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-18T18:14+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 7,
+        "disclaimer": 7,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 9,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " How high might they go? ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "\n\n• ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 5,
+          "examples": [
+            {
+              "before": " ",
+              "after": ""
+            },
+            {
+              "before": " ",
+              "after": ""
+            },
+            {
+              "before": " ",
+              "after": ""
+            },
+            {
+              "before": " ",
+              "after": ""
+            },
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "DB_Fixed_Income_Blog_-_Q_A_on_EGB_spreads__valuations",
+      "document": "DB_Fixed Income Blog - Q&A on EGB spreads' valuations.pdf",
+      "date": "2026-09-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 5,
+      "status": "compiled",
+      "output": "pdfs/DB_Fixed_Income_Blog_-_Q_A_on_EGB_spreads__valuations.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "dfc7f760c35cea54f36592538012893784a402b1",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Over/under performance of the average 10y EGB spread vs PC1 Figure 2: Comparison of YTD ev'",
+          "chunk_id": "DB_Fixed Income Blog - Q&A on EGB spreads' valuations.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 3: Over/under performance of each country spread vs PC1 Source: Deutsche Bank Research, Bloom'",
+          "chunk_id": "DB_Fixed Income Blog - Q&A on EGB spreads' valuations.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 4: Over/under performance of each country spread vs avg EGB spread Source: Deutsche Bank Rese'",
+          "chunk_id": "DB_Fixed Income Blog - Q&A on EGB spreads' valuations.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Source: Deutsche Bank Research, Bloomberg Finance LP'",
+          "chunk_id": "DB_Fixed Income Blog - Q&A on EGB spreads' valuations.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 5: The beta to oil correlates with debt/GDP instead of energy imports dependency Figure 6: Co'",
+          "chunk_id": "DB_Fixed Income Blog - Q&A on EGB spreads' valuations.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 7: 10y OAT/Bund trading at a +36bp discount vs twin deficit Source: Deutsche Bank Research, B'",
+          "chunk_id": "DB_Fixed Income Blog - Q&A on EGB spreads' valuations.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 18/09/2026 15:49:35 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 18/09/2026 15:49:35 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank AG"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-18T18:18+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 September 2026 Fixed Income Blog Deutsche Bank AG Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Ioannis Sokos Strategist +44-20-754-75680"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "vs PC1 Source: Deutsche Bank Research, Bloomberg Finance LP Source: Deutsche Bank Research, Bloomberg Finance LP How"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-18T18:18+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 September 2026 Fixed Income Blog Deutsche Bank AG Page 3"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "vs PC1 Source: Deutsche Bank Research, Bloomberg Finance LP How"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Bloomberg Finance LP How"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-18T18:18+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 September 2026 Fixed Income Blog Deutsche Bank AG Page 4"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Bloomberg Finance LP,"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Bloomberg Finance LP How"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-18T18:18+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "18 September 2026 Fixed Income Blog Deutsche Bank AG Page 5"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Bloomberg Finance LP,"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-18T18:18+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 15,
+        "disclaimer": 11,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 8,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 12,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Q&A on EGB spreads' valuations ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "DB_Fixed_Income_Chart_Of_The_Day_-_Treasuries_at_5per_-_What_it_means_for_the_Yen_and_JGBs",
+      "document": "DB_Fixed Income Chart Of The Day - Treasuries at 5per - What it means for the Yen and JGBs.pdf",
+      "date": "2026-09-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Chart Pack",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Japan_Macro_-_Weekly_Macro___Fixed_Income_Strategy",
+      "document": "DB_Japan Macro - Weekly Macro & Fixed Income Strategy.pdf",
+      "date": "2026-09-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 27,
+      "page_count": 13,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.958,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Japan_Monetary_Policy_Watch_-_MPM_review_-_A_policy_shift__but_less_hawkish_than_the_market_anticipated",
+      "document": "DB_Japan Monetary Policy Watch - MPM review - A policy shift, but less hawkish than the market anticipated.pdf",
+      "date": "2026-09-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 23,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EGBs_Long_15y_Portugal_vs_Austria_to_position_for_fiscal_convergence_Trade_Idea--932214",
+      "document": "EGBs_Long_15y_Portugal_vs_Austria_to_position_for_fiscal_convergence_Trade_Idea--932214.pdf",
+      "date": "2026-09-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Europe_Weekly_Kickstart_-_Higher_rates__resilient_earnings",
+      "document": "GS_Europe Weekly Kickstart - Higher rates, resilient earnings.pdf",
+      "date": "2026-09-18",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 44,
+      "page_count": 23,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.026,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Timing_It_Right___When_to_Sell_Interest_Rates_Vol",
+      "document": "GS_Global Markets Daily - Timing It Right — When to Sell Interest Rates Vol.pdf",
+      "date": "2026-09-18",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 14,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.923,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_HOUSING_AND_MORTGAGE_MONITOR_-_Florida_finds_its_healing_power",
+      "document": "GS_HOUSING AND MORTGAGE MONITOR - Florida finds its healing power.pdf",
+      "date": "2026-09-18",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 42,
+      "page_count": 30,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.425,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_UK_Weekly_Kickstart_-_The_UK_s_Resilience_Is_Being_Tested",
+      "document": "GS_UK Weekly Kickstart - The UK's Resilience Is Being Tested.pdf",
+      "date": "2026-09-18",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 25,
+      "page_count": 15,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.042,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_FX_Markets_Weekly_-_Bullish_beta__bullish_USD_reinforced",
+      "document": "JPM_FX Markets Weekly - Bullish beta, bullish USD reinforced.pdf",
+      "date": "2026-09-18",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 132,
+      "page_count": 38,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.984,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS__US_Economics_Weekly_-_Goodbye_disinflation__hello_oil_risk_premium",
+      "document": "MS_ US Economics Weekly - Goodbye disinflation, hello oil risk premium.pdf",
+      "date": "2026-09-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 46,
+      "page_count": 19,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.6,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_BoJ_Watch___Macro_Strategy_-_September_MPM_Review_-_A_Shift_in_the_Policy_Phase",
+      "document": "MS_BoJ Watch & Macro Strategy - September MPM Review - A Shift in the Policy Phase.pdf",
+      "date": "2026-09-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 17,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Global_Macro_Commentary_-_September_17_-_Oil_Relief__Rates_Rally",
+      "document": "MS_Global Macro Commentary - September 17 - Oil Relief, Rates Rally.pdf",
+      "date": "2026-09-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Market commentary",
+      "chunk_count": 24,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.955,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Poland_Elevated_bond_supply_relies_on_local_demand_Desknote--932187",
+      "document": "Poland_Elevated_bond_supply_relies_on_local_demand_Desknote--932187.pdf",
+      "date": "2026-09-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Japan_Economics_-_August_nationwide_CPI_-_Way_station_on_the_road_back_to_2___inflation_again",
+      "document": "UBS_Japan Economics - August nationwide CPI - Way station on the road back to 2%+ inflation again.pdf",
+      "date": "2026-09-18",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.5,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Japan_Macro_Watch_-_BoJ_hikes__but_no_strong_case_for_December_yet",
+      "document": "UBS_Japan Macro Watch - BoJ hikes, but no strong case for December yet.pdf",
+      "date": "2026-09-18",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 28,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.818,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Economics_Weekly_-_A_new_FOMC_regime",
+      "document": "UBS_US Economics Weekly - A new FOMC regime.pdf",
+      "date": "2026-09-18",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 87,
+      "page_count": 30,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.859,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

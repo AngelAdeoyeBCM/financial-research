@@ -1,0 +1,301 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_UK_economic_notes_-_BoE_Recap___Marching_On.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-05",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 21,
+    "referents": {
+     "thing": 10,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 18,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "not_a_reference": 2,
+     "relative": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 39,
+  "kinds": {
+   "deixis": 17,
+   "possessive": 9,
+   "demonstrative": 3,
+   "proposition": 3,
+   "answer": 2,
+   "noun_phrase": 2,
+   "pronoun": 2,
+   "symbol": 1
+  },
+  "rooted_share": 0.8292682926829268,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 97,
+  "cost_usd": 0.2023
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 742,
+   "end": 763,
+   "quote": "the February decision",
+   "name": "the February decision"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 305,
+   "end": 345,
+   "quote": "Trade-offs across the economy are rising",
+   "name": "Trade-offs across the economy are rising"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1196,
+   "end": 1206,
+   "quote": "Bank staff",
+   "name": "Bank staff"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3636,
+   "end": 3644,
+   "quote": "the Bank",
+   "name": "the Bank"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 5709,
+   "end": 5720,
+   "quote": "Bank Agents",
+   "name": "Bank Agents"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 7044,
+   "end": 7051,
+   "quote": "the MPC",
+   "name": "the MPC"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 7410,
+   "end": 7465,
+   "quote": "target consistent wage growth is likely closer to 3.25%",
+   "name": "target consistent wage growth is likely closer to 3.25%"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 7643,
+   "end": 7679,
+   "quote": "Respondents to the latest DMP Survey",
+   "name": "Respondents to the latest DMP Survey"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 7792,
+   "end": 7865,
+   "quote": "The MPC expects productivity growth to track around 1% in the medium-term",
+   "name": "The MPC expects productivity growth to track around 1% in the medium-term"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 8107,
+   "end": 8152,
+   "quote": "the combined effect of the announced measures",
+   "name": "the combined effect of the announced measures"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 10059,
+   "end": 10088,
+   "quote": "Deputy Governor Sarah Breeden",
+   "name": "Deputy Governor Sarah Breeden"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 10371,
+   "end": 10399,
+   "quote": "Deputy Governor Dave Ramsden",
+   "name": "Deputy Governor Dave Ramsden"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 11105,
+   "end": 11149,
+   "quote": "the conditions that would keep March in play",
+   "name": "the conditions that would keep March in play"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C008",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We summarise' at 3248"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'its' in 'wn in the medium-term 3:The BoE widened its output gap projections Source:Deutsche '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0720069,
+   "duration_ms": 8359,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6704,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 858,
+    "output_tokens_details": {
+     "thinking_tokens": 610
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6704,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 858,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6704,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6704
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1303161,
+   "duration_ms": 29068,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7520,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3427,
+    "output_tokens_details": {
+     "thinking_tokens": 2206
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7520,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3427,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7520,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7520
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

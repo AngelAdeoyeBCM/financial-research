@@ -1,0 +1,318 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Perspective_-_Outlook_update_-_The__oil__drumbeat_of_war.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 17,
+    "referents": {
+     "claim": 3,
+     "thing": 11
+    },
+    "decisions": {
+     "link": 13,
+     "leave": 3,
+     "ambiguous": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "expletive": 2
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 49,
+  "kinds": {
+   "deixis": 26,
+   "noun_phrase": 8,
+   "symbol": 8,
+   "possessive": 3,
+   "shell": 2,
+   "pronoun": 2
+  },
+  "rooted_share": 0.6190476190476191,
+  "errors": 0,
+  "warnings": {
+   "EDIT_DROPPED_OVERLAP": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 57,
+  "cost_usd": 0.1973
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 220,
+   "end": 507,
+   "quote": "headwinds from the historic trade policy and tariff shock from 2025 were likely to fade over the course of this year as tariff rates fell and that growth tailwinds were set to strengthen from monetary and fiscal policy, financial conditions, robust productivity and AI-related investment",
+   "name": "headwinds from the historic trade policy and tariff shock from 2025 were likely to fade over the course of this year as tariff rates fell and that growth tailwinds were set to strengthen from monetary and fiscal policy, financial conditions, robust productivity and AI-related investment"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 893,
+   "end": 946,
+   "quote": "the adjustments to our forecast are relatively modest",
+   "name": "the adjustments to our forecast are relatively modest"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1212,
+   "end": 1266,
+   "quote": "We have modestly lowered our growth forecast this year",
+   "name": "We have modestly lowered our growth forecast this year"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1493,
+   "end": 1523,
+   "quote": "continued tailwinds for growth",
+   "name": "the continued tailwinds for growth"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1889,
+   "end": 1908,
+   "quote": "Our growth forecast",
+   "name": "our growth forecast"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 7157,
+   "end": 7181,
+   "quote": "the Trump administration",
+   "name": "the Trump administration"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 6880,
+   "end": 6922,
+   "quote": "several ongoing Section 301 investigations",
+   "name": "the ongoing Section 301 investigations"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 7700,
+   "end": 7725,
+   "quote": "Congressional Republicans",
+   "name": "Congressional Republicans"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 7737,
+   "end": 7777,
+   "quote": "a temporary federal gasoline tax holiday",
+   "name": "a temporary federal gasoline tax holiday"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 7403,
+   "end": 7429,
+   "quote": "some type of mild stimulus",
+   "name": "mild stimulus"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 8888,
+   "end": 8906,
+   "quote": "Warsh’s nomination",
+   "name": "Warsh’s nomination"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 9432,
+   "end": 9448,
+   "quote": "the labor market",
+   "name": "the labor market"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 9266,
+   "end": 9287,
+   "quote": "A rate hike this year",
+   "name": "a rate hike this year"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 4702,
+   "end": 4718,
+   "quote": "core CPI and PCE",
+   "name": "core PCE"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "they",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "those",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R9",
+    "R10"
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "EDIT_DROPPED_OVERLAP",
+   "segment": "src 515",
+   "message": "references edit 'these pillars of our outlook' -> 'the pillars of our outlook that headwinds from the historic trade policy and tariff shock from 2025 were likely to fade over the course of this year as tariff rates fell and that growth tailwinds were set to strengthen from monetary and fiscal policy, financial conditions, robust productivity and AI-related investment' overlaps \"the author's\""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in ' Unemployment rate has retraced most of its rise from late 2025 and is close to lon'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0557216,
+   "duration_ms": 5186,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5876,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 379,
+    "output_tokens_details": {
+     "thinking_tokens": 336
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5876,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 379,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5876,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5876
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1415294,
+   "duration_ms": 37508,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6563,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4382,
+    "output_tokens_details": {
+     "thinking_tokens": 2872
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6563,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4382,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6563,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6563
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

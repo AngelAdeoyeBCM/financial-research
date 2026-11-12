@@ -1,0 +1,181 @@
+{
+  "summary": {
+    "ok": true,
+    "sentences_file": "outputs/normalise_v20/opus/sentences.jsonl",
+    "model": "opus",
+    "prompt": "atomise_v03.md",
+    "attempts": 1,
+    "sentences": 143,
+    "targets": 126,
+    "atoms": 281,
+    "atoms_per_sentence": 2.23,
+    "claim_type": {
+      "PREDICTION": 139,
+      "OBSERVATION": 57,
+      "VIEW": 54,
+      "FORECAST": 31
+    },
+    "modality": {
+      "ASSERTED": 202,
+      "HEDGED": 59,
+      "SPECULATIVE": 20
+    },
+    "role": {
+      "statement": 201,
+      "consequent": 41,
+      "antecedent": 39
+    },
+    "formulas": 29,
+    "relations": {
+      "causal": 34,
+      "contrast": 10,
+      "attribution": 5,
+      "temporal": 4
+    },
+    "topics": 8,
+    "open_connectives": 9,
+    "errors": 0,
+    "warnings": {
+      "SOFT_CONNECTIVE_IN_ATOM": 4,
+      "UNCONSUMED_CONNECTIVE": 3,
+      "HEDGE_IN_TEXT": 8
+    },
+    "cost_usd": 1.0604
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P030-1",
+      "message": "['but']: Friday’s CPI data all but lock in a rate hike this week."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P030",
+      "message": "['but']"
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P034-1",
+      "message": "['before']: There will be only one additional employment report before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P034-1",
+      "message": "['will']: There will be only one additional employment report before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P034-2",
+      "message": "['before']: There will be only one CPI release before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P034-2",
+      "message": "['will']: There will be only one CPI release before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P034",
+      "message": "['before']"
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P048-2",
+      "message": "['will']: Many policymakers assume that higher rates will help quell inflation."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P049-1",
+      "message": "['will']: Whether the Fed will incorporate the PCE methodology changes into the Fed's projections is an outstanding question."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P061-1",
+      "message": "['will']: Warsh attempts a \"dovish hike\" by reassuring markets that the Fed will proceed cautiously."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P065-3",
+      "message": "['should']: Warsh's prior stance was that oil shocks should be treated as one-offs."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P066-1",
+      "message": "['will']: The author will be looking for additional color on Warsh's reaction function."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P073-1",
+      "message": "['will']: The author is curious whether Warsh will retain the tweaks to Warsh's communication style."
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P113-1",
+      "message": "['since']: Since ’07, there have been 74 meetings where the market priced some hike likelihood and the Fed held."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P113",
+      "message": "['since']"
+    }
+  ],
+  "usage": [
+    {
+      "cost_usd": 1.0603539,
+      "duration_ms": 332737,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 12659,
+        "cache_read_input_tokens": 2013,
+        "output_tokens": 47899,
+        "output_tokens_details": {
+          "thinking_tokens": 22259
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 12659,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 47899,
+            "cache_read_input_tokens": 2013,
+            "cache_creation_input_tokens": 12659,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 12659
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "models": [
+        "claude-haiku-5-5",
+        "claude-opus-5-5"
+      ]
+    }
+  ]
+}

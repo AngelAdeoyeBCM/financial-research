@@ -1,0 +1,80 @@
+---
+title: Macro and Policy branch - field? = optional, _id fields = ref() links
+---
+classDiagram
+    direction LR
+
+    namespace Macro {
+        class Measure {
+            <<registry: the concept>>
+            kind : prices / labour / activity / monetary / external / fiscal / financial
+            baskets : allowed variants
+            default_geography_id? : pce to us
+        }
+        class Indicator {
+            <<registry, key from parts>>
+            measure_id : Measure
+            geography_id : Geography
+            basket? : headline
+            source? : Organization (non-official only)
+            frequency?
+            key() IND[meas:pce|geo:us|core]
+        }
+    }
+
+    namespace Policy {
+        class PolicyTool {
+            <<registry: category policy>>
+            kind : PolicyKind
+            authority_id : Organization
+            domain (from kind)
+        }
+        class PolicyKind {
+            <<enum>>
+            asset_purchase : APP, PEPP, QE
+            balance_sheet_runoff : QT
+            lending_facility : LTRO, MLF, relending
+            backstop : TPI, OMT
+            liquidity_operation : OMOs, repo, RRP
+            reserve_requirement : RRR
+            fx_intervention
+            yield_curve_control
+            macroprudential : eSLR, LTV caps
+            tax : VAT, CGT
+            transfer : subsidies, Warm Homes
+            price_control : Ofgem cap, fuel duty
+            debt_management : gilt remit, LGB quotas
+        }
+    }
+
+    namespace Context {
+        class Geography
+        class Organization
+        class Event {
+            FOMC, UK Budget
+        }
+        class Instrument {
+            <<built per mention>>
+        }
+    }
+
+    Indicator --> Measure : measure_id
+    Indicator --> Geography : geography_id
+    Indicator ..> Organization : source (ADP, ISM, HLW)
+    Measure ..> Geography : default_geography_id
+    PolicyTool --> PolicyKind
+    PolicyTool --> Organization : authority_id
+    Event ..> PolicyTool : decides
+    Instrument ..> Indicator : positions on (inflation swaps)
+
+    classDef macro fill:#f3e5f5,stroke:#7b1fa2,color:#000
+    classDef policy fill:#fff3e0,stroke:#ef6c00,color:#000
+    classDef context fill:#eeeeee,stroke:#757575,color:#000
+    class Measure:::macro
+    class Indicator:::macro
+    class PolicyTool:::policy
+    class PolicyKind:::policy
+    class Geography:::context
+    class Organization:::context
+    class Event:::context
+    class Instrument:::context

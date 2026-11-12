@@ -1,0 +1,153 @@
+{
+  "batch_id": "2026-06-27",
+  "window": [
+    "2026-06-27",
+    "2026-06-27"
+  ],
+  "generated_at": "2026-10-29T16:30:09",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-26_2026-06-29.json",
+      "sha256": "8e555c6a98193ffbd31e2f56ce597e7b68e65c40de477bc0816544d52e3630b7",
+      "records": 1840,
+      "dates": [
+        "2026-06-26",
+        "2026-06-29"
+      ],
+      "records_for_batch": 24
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 8,
+    "DISTORTED_TABLE": 3,
+    "MISSING_CHUNKS": 1,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "UBS_US_Rates_Strategy_-_Mid-Year_Outlook",
+      "document": "UBS_US Rates Strategy - Mid-Year Outlook.pdf",
+      "date": "2026-06-27",
+      "publisher": "UBS",
+      "document_type": "Outlook",
+      "chunk_count": 24,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 50.0 -40 -20 0 20 40 60 80 100",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 Jun 1",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 Jun 19 Oct 20",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 4.2 -15.8 0.45 -6.4 4.3 2.2 | 28.4 -34.6 0.87 -6.3 4.1 2.3 | 73.1 -48.7 0.90 -6.1 4.0 0.3",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 Dec 25 Jan 26 Mar",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "38 consecutive numeric/date tokens: Jun 2026 334.73 -0.19% 3.71% 0.25% 0.25% 2.84% Jul 2026 334.48 0.01%",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2.20 2.30 2.40 2.50 2.60 2.70 2.80 Jun 25 Aug 25 Oct",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-5-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0.75 1.25 1.75 2.25 2.75 3.25 Jun 19 Jun 20 Jun 21",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-6-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: 5 222 230 235 240 225 225 235 10 220 230 230",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-6-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 3.5 3.6 3.7 3.8 3.9 4.0 4.1 4.2 4.3 4.4 2.2 2.3",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-7-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "55 consecutive numeric/date tokens: -5 0 5 10 15 May 20 Aug 20 Nov 20 Feb",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-7-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_US Rates Strategy - Mid-Year Outlook.pdf-8-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

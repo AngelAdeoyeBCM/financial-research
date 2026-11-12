@@ -1,0 +1,192 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_USA_-_GDP_Growth_Below_Consensus_Expectations__Partially_Reflecting_Shutdown_Drag__December_Core_PCE_Slightly_Above_Consensus_Expectations.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-20",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "leave": 1,
+     "link": 2
+    },
+    "leave_reasons": {
+     "relative": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "deixis": 9,
+   "noun_phrase": 3,
+   "possessive": 2
+  },
+  "rooted_share": 0.5555555555555556,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 37,
+  "cost_usd": 0.0995
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 4610,
+   "end": 4633,
+   "quote": "The future output index",
+   "name": "the future output index"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 5064,
+   "end": 5087,
+   "quote": "The future output index",
+   "name": "the future output index"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1001,
+   "end": 1028,
+   "quote": "federal government shutdown",
+   "name": "the federal government shutdown"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 604,
+   "end": 637,
+   "quote": "the Supreme Court’s tariff ruling",
+   "name": "the Supreme Court’s tariff ruling"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0401441,
+   "duration_ms": 4425,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4491,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 161,
+    "output_tokens_details": {
+     "thinking_tokens": 148
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4491,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 161,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4491,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4491
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.059368399999999995,
+   "duration_ms": 10203,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4633,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1046,
+    "output_tokens_details": {
+     "thinking_tokens": 595
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4633,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1046,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4633,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4633
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

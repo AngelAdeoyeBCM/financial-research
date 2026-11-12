@@ -1,0 +1,276 @@
+{
+  "batch_id": "2026-07-30",
+  "window": [
+    "2026-07-30",
+    "2026-07-30"
+  ],
+  "generated_at": "2026-10-29T16:30:42",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_27_31.json",
+      "sha256": "5965830b77a419f936faf0a0f8c3959f9cf37e9955607a291ba167dbba71cfc2",
+      "records": 202,
+      "dates": [
+        "2026-07-27",
+        "2026-07-31"
+      ],
+      "records_for_batch": 52
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 6,
+    "out_of_scope": 1,
+    "compiled": 2,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 7,
+    "edits": 14,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "A_month_of_two_halves",
+      "document": "A month of two halves.pdf",
+      "date": "2026-07-30",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Carry_Prevails_Despite_Fed_Headwinds",
+      "document": "Carry Prevails Despite Fed Headwinds.pdf",
+      "date": "2026-07-30",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "China_politburo_Focus_firmly_on_implementation_not_new_stimulus_Desknote--929225",
+      "document": "China_politburo_Focus_firmly_on_implementation_not_new_stimulus_Desknote--929225.pdf",
+      "date": "2026-07-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.556,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Adding_to_long_USDJPY_exposure_on_the_dip_Desknote--929229",
+      "document": "FX_Adding_to_long_USDJPY_exposure_on_the_dip_Desknote--929229.pdf",
+      "date": "2026-07-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Adding_to_long_USDJPY_exposure_on_the_dip_Desknote--929229.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "1bb429848f510a7a3eb7a2f5ade926ff1a02189c",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: JPY shorts are moderate Fig.2: Likely FY 2027 budget schedule Sources: Macrobond, BNP Pariba'",
+          "chunk_id": "FX_Adding_to_long_USDJPY_exposure_on_the_dip_Desknote--929229.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 30 July 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 30 JULY 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "MoF, BNP Paribas   Alexander Jekov Head of G10 FX Strategy, Europe BNP Paribas London Branch alexander.jekov@uk.bnpparibas.com Minh Tran FX Volatility Analyst BNP Paribas London Branch minh.5.tran@uk.bnpparibas.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "oliver.brennan@uk.bnpparibas.com"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "footer": 1,
+        "signature": 2
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 8,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FX: Adding to long USDJPY exposure on the dip ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "JPY_rates_Impact_of_rate_hikes_on_BoJ_earnings_looks_manageable_in_2026_Desknote--929189",
+      "document": "JPY_rates_Impact_of_rate_hikes_on_BoJ_earnings_looks_manageable_in_2026_Desknote--929189.pdf",
+      "date": "2026-07-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Taking_profit_on_long_USDCHF_staying_long_USDJPY_Desknote--929219",
+      "document": "Taking_profit_on_long_USDCHF_staying_long_USDJPY_Desknote--929219.pdf",
+      "date": "2026-07-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/Taking_profit_on_long_USDCHF_staying_long_USDJPY_Desknote--929219.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "2cc0ec89e8fd2bb3f98680da2e9b21f8d835e1cc",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: The market is long USD Fig. 2: USDJPY strike map shows sparse positioning above 164 Sources:'",
+          "chunk_id": "Taking_profit_on_long_USDCHF_staying_long_USDJPY_Desknote--929219.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Sources: Macrobond, BNP Paribas'",
+          "chunk_id": "Taking_profit_on_long_USDCHF_staying_long_USDJPY_Desknote--929219.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 30 July 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 30 JULY 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "30/07/2026.   Alexander Jekov Head of G10 FX Strategy, Europe BNP Paribas London Branch alexander.jekov@uk.bnpparibas.com Sam Lynton-Brown CFA Global Head of Macro Strategy BNP Paribas London Branch sam.lynton-brown@uk.bnpparibas.com Joshua Wilcock G10 FX Strategist BNP Paribas London Branch joshua.wilcock@uk.bnpparibas.com Calvin Tse Head of Americas Macro Strategy and US Economics BNP Paribas Securities Corp. calvin.x.tse@us.bnpparibas.com Ishan Gurnani G10 FX Strategist BNP Paribas Securities Corp. ishan.gurnani@us.bnpparibas.com"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "Taking profit on long USDCHF, staying long USDJPY ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

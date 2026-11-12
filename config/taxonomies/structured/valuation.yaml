@@ -1,0 +1,63 @@
+version: "1"
+
+# Structured claim task: run on one claim span at a time, not on a whole document.
+# Field keys are the output keys. Defaults are merged into each field with `<<`;
+# allow_none is true because a claim span usually omits most slots.
+x-single: &single
+  dtype: str
+  allow_multiple: false
+  allow_none: true
+  status: active
+
+id: claim_valuation
+type: structured
+name: valuation
+
+fields:
+  subject:
+    <<: *single
+    name: Subject
+    description: "The asset, market, or instrument being valued, as written."
+
+  metric:
+    <<: *single
+    name: Metric
+    description: "The valuation measure used, such as P/E, spread, real yield, or REER."
+
+  current_level:
+    <<: *single
+    name: Current level
+    description: "The current value of the valuation measure, as written."
+
+  assessment:
+    <<: *single
+    name: Assessment
+    description: "The author's judgement of the subject's valuation."
+    choices: [cheap, rich, fair, undervalued, overvalued, stretched]
+
+  wrt:
+    <<: *single
+    name: With respect to
+    description: "The benchmark the subject is compared against, such as its history, peers, or a model."
+
+  wrt_kind:
+    <<: *single
+    name: Benchmark kind
+    description: "The type of benchmark used for the comparison."
+    choices: [historical_average, percentile, peer, fair_value_model, other_asset, forward]
+
+  deviation:
+    <<: *single
+    name: Deviation
+    description: "How far the subject sits from the benchmark, such as +1.5 standard deviations."
+
+  implication:
+    <<: *single
+    name: Implication
+    description: "What the author concludes from the valuation."
+
+  attribution:
+    <<: *single
+    name: Attribution
+    description: "Whose assessment it is: the author, another named source, consensus, or market pricing."
+    choices: [author, third_party, consensus, market_implied]

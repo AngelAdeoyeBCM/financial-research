@@ -1,0 +1,51 @@
+# Rate indices: key derived currency + code -> idx:USD.SOFR. Generated 2026-11-10 from the old registry.
+# is_ois: overnight index (QLib IsOis), swapped as an OIS; else a term fixing. default_fixing: fixing tenor of a
+# swap on the index when a mention names none; 1d for an overnight index unless stated, required for a term one.
+# Policy rates are in policy_rates.yaml. QLib codes that differ are mapped in market/external/qlib.py.
+
+- {currency_id: USD, code: SOFR, name: SOFR, is_ois: true}
+- {currency_id: USD, code: FEDFUNDS, name: Fed funds, is_ois: true}
+- {currency_id: EUR, code: ESTR, name: €STR, is_ois: true}
+- {currency_id: EUR, code: EURIBOR, name: Euribor, is_ois: false, default_fixing: "6m"}
+- {currency_id: GBP, code: SONIA, name: SONIA, is_ois: true}
+- {currency_id: JPY, code: TONA, name: TONA, is_ois: true}
+- {currency_id: CHF, code: SARON, name: SARON, is_ois: true}
+- {currency_id: CAD, code: CORRA, name: CORRA, is_ois: true}
+- {currency_id: AUD, code: AONIA, name: AONIA, is_ois: true}
+- {currency_id: AUD, code: BBSW, name: BBSW, is_ois: false, default_fixing: "6m"}
+- {currency_id: NZD, code: BKBM, name: BKBM, is_ois: false, default_fixing: "3m"}
+- {currency_id: SEK, code: SWESTR, name: SWESTR, is_ois: true}
+- {currency_id: SEK, code: STIBOR, name: STIBOR, is_ois: false, default_fixing: "3m"}
+- {currency_id: NOK, code: NOWA, name: NOWA, is_ois: true}
+- {currency_id: NOK, code: NIBOR, name: NIBOR, is_ois: false, default_fixing: "6m"}
+- {currency_id: CNY, code: FR007, name: FR007, is_ois: false, default_fixing: "1w"}
+- {currency_id: CNY, code: DR001, name: DR001, is_ois: true}
+- {currency_id: CNY, code: SHIBOR, name: SHIBOR, is_ois: false, default_fixing: "3m"}
+- {currency_id: CNY, code: LPR, name: LPR, is_ois: false, default_fixing: "1y"}
+- {currency_id: CNH, code: HIBOR, name: CNH HIBOR, is_ois: false, default_fixing: "3m"}
+- {currency_id: HKD, code: HIBOR, name: HIBOR, is_ois: false, default_fixing: "3m"}
+- {currency_id: HKD, code: HONIA, name: HONIA, is_ois: true}
+- {currency_id: KRW, code: CD91, name: CD91, is_ois: false, default_fixing: "3m"}
+- {currency_id: KRW, code: KOFR, name: KOFR, is_ois: true}
+- {currency_id: TWD, code: TAIBOR, name: TAIBOR, is_ois: false, default_fixing: "3m"}
+- {currency_id: INR, code: MIBOR, name: MIBOR, is_ois: true}
+- {currency_id: IDR, code: INDONIA, name: IndONIA, is_ois: true}
+- {currency_id: IDR, code: JIBOR, name: JIBOR, is_ois: false, default_fixing: "3m"}
+- {currency_id: MYR, code: KLIBOR, name: KLIBOR, is_ois: false, default_fixing: "3m"}
+- {currency_id: PHP, code: PHIREF, name: PHIREF, is_ois: false, default_fixing: "3m"}
+- {currency_id: SGD, code: SORA, name: SORA, is_ois: true}
+- {currency_id: THB, code: THOR, name: THOR, is_ois: true}
+- {currency_id: BRL, code: CDI, name: CDI, is_ois: true}
+- {currency_id: MXN, code: TIIE, name: TIIE, is_ois: false, default_fixing: "28d"}
+- {currency_id: MXN, code: TIIEFONDEO, name: TIIE de Fondeo, is_ois: true}
+- {currency_id: CLP, code: CAMARA, name: "Cámara", is_ois: true}
+- {currency_id: COP, code: IBR, name: IBR, is_ois: true}
+- {currency_id: ZAR, code: JIBAR, name: JIBAR, is_ois: false, default_fixing: "3m"}
+- {currency_id: ZAR, code: ZARONIA, name: ZARONIA, is_ois: true}
+- {currency_id: TRY, code: TLREF, name: TLREF, is_ois: true}
+- {currency_id: PLN, code: WIBOR, name: WIBOR, is_ois: false, default_fixing: "6m"}
+- {currency_id: PLN, code: WIRON, name: WIRON, is_ois: true}
+- {currency_id: HUF, code: BUBOR, name: BUBOR, is_ois: false, default_fixing: "6m"}
+- {currency_id: CZK, code: PRIBOR, name: PRIBOR, is_ois: false, default_fixing: "6m"}
+- {currency_id: ILS, code: TELBOR, name: TELBOR, is_ois: false, default_fixing: "3m"}
+- {currency_id: ILS, code: SHIR, name: SHIR, is_ois: true}

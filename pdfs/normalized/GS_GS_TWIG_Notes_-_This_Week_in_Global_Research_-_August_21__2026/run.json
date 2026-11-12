@@ -1,0 +1,323 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_GS_TWIG_Notes_-_This_Week_in_Global_Research_-_August_21__2026.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-21",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 9,
+    "referents": {
+     "thing": 12
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "time": 1
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 89,
+  "kinds": {
+   "symbol": 59,
+   "deixis": 17,
+   "noun_phrase": 6,
+   "possessive": 3,
+   "pronoun": 2,
+   "demonstrative": 2
+  },
+  "rooted_share": 0.7647058823529411,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 62,
+  "cost_usd": 0.2878
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 215,
+   "end": 222,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 618,
+   "end": 634,
+   "quote": "The labor market",
+   "name": "the labor market"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1283,
+   "end": 1303,
+   "quote": "reduced transparency",
+   "name": "reduced transparency"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2665,
+   "end": 2686,
+   "quote": "a rough July for some",
+   "name": "a rough July for some"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3049,
+   "end": 3103,
+   "quote": "Hedge Fund VIP list of the most popular long positions",
+   "name": "the Hedge Fund VIP list of the most popular long positions"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3454,
+   "end": 3466,
+   "quote": "Mutual Funds",
+   "name": "Mutual Funds"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3959,
+   "end": 4019,
+   "quote": "a new initiative to stimulate consumption at the local level",
+   "name": "the new initiative to stimulate consumption at the local level"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5513,
+   "end": 5565,
+   "quote": "Positive results from a drug trial from MRNA and MRK",
+   "name": "the positive results from a drug trial from MRNA and MRK"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 9518,
+   "end": 9526,
+   "quote": "Luxshare",
+   "name": "Luxshare"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 9763,
+   "end": 9767,
+   "quote": "ONTO",
+   "name": "ONTO"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 9966,
+   "end": 9973,
+   "quote": "Lonking",
+   "name": "Lonking"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 10170,
+   "end": 10179,
+   "quote": "CRSR/CRCT",
+   "name": "CRSR/CRCT"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We rode' at 8621"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E057",
+      "phrase": "the US consumer hardware makers",
+      "occurrence": 1,
+      "referent": "R12"
+     },
+     "reason": "E057 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0848373,
+   "duration_ms": 8874,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9013,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 564,
+    "output_tokens_details": {
+     "thinking_tokens": 551
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9013,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 564,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 9013,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9013
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1211791,
+   "duration_ms": 18493,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9425,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2205,
+    "output_tokens_details": {
+     "thinking_tokens": 991
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9425,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2205,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 9425,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9425
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0818081,
+   "duration_ms": 2539,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9765,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 99,
+    "output_tokens_details": {
+     "thinking_tokens": 72
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9765,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 99,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 9765,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9765
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

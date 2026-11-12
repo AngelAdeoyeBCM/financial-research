@@ -1,0 +1,282 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_US_Daily_-_January_FOMC_Recap_-_Some_Signs_of_Stabilization.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-28",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 29,
+    "referents": {
+     "thing": 6,
+     "claim": 4
+    },
+    "decisions": {
+     "link": 26,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "expletive": 3
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 35,
+  "kinds": {
+   "pronoun": 15,
+   "deixis": 7,
+   "proposition": 4,
+   "possessive": 4,
+   "demonstrative": 2,
+   "noun_phrase": 1,
+   "shell": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.907563025210084,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 26,
+  "cost_usd": 0.1385
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 411,
+   "end": 419,
+   "quote": "the FOMC",
+   "name": "the FOMC"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1713,
+   "end": 1725,
+   "quote": "Chair Powell",
+   "name": "Chair Powell"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 427,
+   "end": 470,
+   "quote": "the labor market to remain stable this year",
+   "name": "the labor market to remain stable this year"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 2628,
+   "end": 2737,
+   "quote": "the labor market to remain stable this year, with the unemployment rate moving roughly sideways in the mid-4s",
+   "name": "the labor market to remain stable this year, with the unemployment rate moving roughly sideways in the mid-4s"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1263,
+   "end": 1331,
+   "quote": "the next 25bp rate cut in June, followed by a final cut in September",
+   "name": "the next 25bp rate cut in June, followed by a final cut in September"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2038,
+   "end": 2172,
+   "quote": "data since the last meeting showed a “clear improvement in the outlook for growth” and “evidence of stabilization” in the labor market",
+   "name": "data since the last meeting showed a “clear improvement in the outlook for growth” and “evidence of stabilization” in the labor market"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3533,
+   "end": 3569,
+   "quote": "the official core PCE inflation data",
+   "name": "the official core PCE inflation data"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 3803,
+   "end": 3875,
+   "quote": "the year-over-year rate would remain closer to 3% than 2% until mid-year",
+   "name": "the year-over-year rate would remain closer to 3% than 2% until mid-year"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4155,
+   "end": 4228,
+   "quote": "several questions today about the court case involving Governor Lisa Cook",
+   "name": "several questions about the court case involving Governor Lisa Cook"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 1803,
+   "end": 1834,
+   "quote": "The FOMC noted in its statement",
+   "name": "the FOMC's statement"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we and' at 404"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we and' at 2605"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 2191",
+   "message": "+22 words: {{this => that data since the last meeting showed a “clear improvement in the outlook for growth” and “evidence of stabilization” in the labor market}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0350214,
+   "duration_ms": 3509,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3669,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 238,
+    "output_tokens_details": {
+     "thinking_tokens": 225
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3669,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 238,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3669,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3669
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1034525,
+   "duration_ms": 27279,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4734,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3219,
+    "output_tokens_details": {
+     "thinking_tokens": 1735
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4734,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3219,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4734,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4734
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

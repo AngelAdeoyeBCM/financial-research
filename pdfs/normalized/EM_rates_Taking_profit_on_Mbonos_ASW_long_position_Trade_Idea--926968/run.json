@@ -1,0 +1,223 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Taking_profit_on_Mbonos_ASW_long_position_Trade_Idea--926968.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-24",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 8,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "leave": 4,
+     "link": 4
+    },
+    "leave_reasons": {
+     "not_a_reference": 3,
+     "time": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 24,
+  "kinds": {
+   "deixis": 16,
+   "noun_phrase": 4,
+   "possessive": 4
+  },
+  "rooted_share": 0.6111111111111112,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 20,
+  "cost_usd": 0.0843
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 336,
+   "end": 343,
+   "quote": "Banxico",
+   "name": "Banxico"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 379,
+   "end": 385,
+   "quote": "Mbonos",
+   "name": "Mbonos"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 73,
+   "end": 128,
+   "quote": "our 2034 Mbonos-10y TIIE-F asset swap receiver position",
+   "name": "our 2034 Mbonos-10y TIIE-F asset swap receiver position"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 201,
+   "end": 222,
+   "quote": "The asset-swap spread",
+   "name": "the asset-swap spread"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We chose' at 507"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0278861,
+   "duration_ms": 2625,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3121,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 103,
+    "output_tokens_details": {
+     "thinking_tokens": 90
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3121,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 103,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3121,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3121
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0564323,
+   "duration_ms": 12778,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3457,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1385,
+    "output_tokens_details": {
+     "thinking_tokens": 730
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3457,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1385,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3457,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3457
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

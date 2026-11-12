@@ -1,0 +1,221 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-06-07.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-07",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "thing": 4,
+     "claim": 2
+    },
+    "decisions": {
+     "leave": 1,
+     "link": 4
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 16,
+  "kinds": {
+   "deixis": 5,
+   "symbol": 4,
+   "noun_phrase": 3,
+   "shell": 2,
+   "possessive": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8648648648648649,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 20,
+  "cost_usd": 0.1115
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 978,
+   "end": 1009,
+   "quote": "the three-month diffusion index",
+   "name": "the three-month diffusion index"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1634,
+   "end": 1761,
+   "quote": "rising confidence in the labor market outlook does not extend to the inflation side of the mandate where pressures are mounting",
+   "name": "rising confidence in the labor market outlook does not extend to the inflation side of the mandate where pressures are mounting"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3364,
+   "end": 3394,
+   "quote": "limited progress toward target",
+   "name": "the limited progress toward target"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 4039,
+   "end": 4100,
+   "quote": "monetary tightening may be required if current trends persist",
+   "name": "monetary tightening may be required if current trends persist"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1814,
+   "end": 1829,
+   "quote": "Wednesday’s CPI",
+   "name": "Wednesday’s CPI"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2931,
+   "end": 2954,
+   "quote": "+0.33% for May core PCE",
+   "name": "+0.33% for May core PCE"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1771",
+   "message": "+22 words: {{this backdrop => the backdrop that rising confidence in the labor market outlook does not extend to the inflation side of the mandate where pressures are mounting}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.037037,
+   "duration_ms": 3551,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3930,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 233,
+    "output_tokens_details": {
+     "thinking_tokens": 220
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3930,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 233,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3930,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3930
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0744988,
+   "duration_ms": 18107,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4122,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2019,
+    "output_tokens_details": {
+     "thinking_tokens": 1401
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4122,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2019,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4122,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4122
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1784 @@
+{
+  "batch_id": "2026-09-07",
+  "window": [
+    "2026-09-07",
+    "2026-09-07"
+  ],
+  "generated_at": "2026-10-29T16:31:32",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-06_2026-09-09.json",
+      "sha256": "b01083231b235f6b978d0e28b585145589aad4aec7fcf9c24d1f9337c40df36a",
+      "records": 2100,
+      "dates": [
+        "2026-09-06",
+        "2026-09-09"
+      ],
+      "records_for_batch": 516
+    }
+  ],
+  "counts": {
+    "documents": 24,
+    "in_scope": 16,
+    "out_of_scope": 8,
+    "compiled": 2,
+    "skipped": 14,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 58,
+    "edits": 34,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 108,
+    "UNSTRUCTURED_TEXT": 35,
+    "GARBLED_TEXT": 35,
+    "DISTORTED_TABLE": 31,
+    "MISSING_CHUNKS": 8,
+    "NON_ENGLISH_SCRIPT": 1
+  },
+  "documents": [
+    {
+      "stem": "Citi_European_Economics_-_Back_to_School_-_Remarkable_Endurance_Likely_to_Continue",
+      "document": "Citi_European Economics - Back to School - Remarkable Endurance Likely to Continue.pdf",
+      "date": "2026-09-07",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        4,
+        7,
+        10,
+        13
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4, 7, 10, 13]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -100 -80 -60 -40 -20 0 20 40 60 80 100 Mar-22",
+          "chunk_id": "Citi_European Economics - Back to School - Remarkable Endurance Likely to Continue.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -6.0 -4.0 -2.0 0.0 2.0 4.0 6.0 8.0 10.0 2015 2017 2019",
+          "chunk_id": "Citi_European Economics - Back to School - Remarkable Endurance Likely to Continue.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 2003 2006 2009 2012 2015",
+          "chunk_id": "Citi_European Economics - Back to School - Remarkable Endurance Likely to Continue.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -10 0 10 20 30 40 50 60 70 11.0 12.0 13.0",
+          "chunk_id": "Citi_European Economics - Back to School - Remarkable Endurance Likely to Continue.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 4.0 Jan-25 Jul-25 Jan-26 Jul-26 Jan-27 Jul-27",
+          "chunk_id": "Citi_European Economics - Back to School - Remarkable Endurance Likely to Continue.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_August_dbDataInsights_survey_-_Inflation_expectations_anchored_despite_energy_shock",
+      "document": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf",
+      "date": "2026-09-07",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 54,
+      "page_count": 49,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        18,
+        25
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 18, 25]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "47 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Aug 23 Oct",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-7-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "45 consecutive numeric/date tokens: 0 1 2 3 4 5 6 Aug 23 Oct 23 Dec",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-8-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "53 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Feb 23 Apr",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-9-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: expectationsMean ataInsights keyNotes",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-10-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 1.50 1.70 1.90 2.10 2.30 2.50 2.70 2.90 Nov 25 Dec 25",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-11-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 5.0 5.5 6.0 6.5 7.0 Feb 26 Mar 26 Apr 26 May",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-12-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 5 10 15 20 25 30 22 23 24 25 26",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-13-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -5 0 5 10 15 20 25 30 35",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-14-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Aug 22 Nov 22 Feb 23",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-15-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -0.6 -0.4 -0.2 0 0.2 0.4 0.6 Aug 22 Feb 23 Aug",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-16-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "51 consecutive numeric/date tokens: 0 1 2 3 4 5 6 Feb 23 Apr 23 Jun",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-17-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights onsumerExpectation ataInsightsexpectations ataInsightsdata",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-18-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 1.2 Aug 22 Aug",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-19-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsightshouseholdsurvey ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-20-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -3 -2 -1 0 1 2 Aug 22 Feb 23 Aug 23",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-21-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-22-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 5.0 5.5 6.0 6.5 7.0 Aug-24 Nov-24 Feb-25 May-25 Aug-25 Nov-25 Feb-26",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-23-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsightshouseholdsurvey ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-24-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-25-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "49 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Apr 23 Jun 23 Aug",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-26-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 Jan 26 Feb 26",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-27-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Dec 25 Jan",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-28-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 Feb-24 Aug-24 Feb-25",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-29-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 10 20 30 40 50 60 Feb-24 Aug-24 Feb-25 Aug-25 Feb-26",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-30-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-31-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-32-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-33-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-34-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "44 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Aug 23 Oct 23 Dec 23",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-35-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Apr 23 Aug 23 Dec 23",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-36-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Apr 23 Aug 23 Dec 23",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-37-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Apr 23 Aug 23 Dec 23",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-38-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: -3 -2 -1 0 1 Aug 2022 Nov 2022 Feb 2023 May",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-39-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-40-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 5.0 5.5 6.0 6.5 7.0 Aug-24 Nov-24 Feb-25 May-25 Aug-25 Nov-25 Feb-26",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-41-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsightshousehold ataInsightshousehold",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-42-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsightshousehold",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-43-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsightshousehold ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-44-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "56 consecutive numeric/date tokens: 3 4 5 6 7 Feb-20 Sep-20 May-21 Jan-22 Feb-23 Sep-23 Apr-24",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-45-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "56 consecutive numeric/date tokens: 3 4 5 6 7 Feb-20 Sep-20 May-21 Jan-22 Feb-23 Sep-23 Apr-24",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-46-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "56 consecutive numeric/date tokens: 3 4 5 6 7 Feb-20 Sep-20 May-21 Jan-22 Feb-23 Sep-23 Apr-24",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-47-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "56 consecutive numeric/date tokens: 3 4 5 6 7 Feb-20 Sep-20 May-21 Jan-22 Feb-23 Sep-23 Apr-24",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-48-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "56 consecutive numeric/date tokens: 3 4 5 6 7 Feb-20 Sep-20 May-21 Jan-22 Feb-23 Sep-23 Apr-24",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-49-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ataInsights ataInsights ataInsights ataInsights",
+          "chunk_id": "DB_August dbDataInsights survey - Inflation expectations anchored despite energy shock.pdf-50-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Germany_Blog_-_Our_take_on_the_AfD_s_regional_election_victory",
+      "document": "DB_Germany Blog - Our take on the AfD's regional election victory.pdf",
+      "date": "2026-09-07",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Thematic_Research_-_What_are_the_biggest_market_dislocations_-_September_2026",
+      "document": "DB_Thematic Research - What are the biggest market dislocations - September 2026.pdf",
+      "date": "2026-09-07",
+      "publisher": "Deutsche Bank",
+      "document_type": "Monthly",
+      "chunk_count": 15,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2012 -20% -15% -10% -5% 0% 5% 10% 15% 2011 2016 2021",
+          "chunk_id": "DB_Thematic Research - What are the biggest market dislocations - September 2026.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -4 -2 0 2 4 6 8 10 30 40 50 60",
+          "chunk_id": "DB_Thematic Research - What are the biggest market dislocations - September 2026.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1.7 1.9 2.1 2.3 2.5 2.7 2.9 3.1 3.3 3.5 Jul-26 Aug-26",
+          "chunk_id": "DB_Thematic Research - What are the biggest market dislocations - September 2026.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1.7 1.9 2.1 2.3 2.5 2.7 2.9 3.1 3.3 3.5 Jul-26 Aug-26",
+          "chunk_id": "DB_Thematic Research - What are the biggest market dislocations - September 2026.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -5 0 5 10 15 20 25 30 35 40 Jan-25 May-25",
+          "chunk_id": "DB_Thematic Research - What are the biggest market dislocations - September 2026.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.65500 6000 6500 7000 7500",
+          "chunk_id": "DB_Thematic Research - What are the biggest market dislocations - September 2026.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.82 0 2 4 6 8 10 12 14 0 100 200",
+          "chunk_id": "DB_Thematic Research - What are the biggest market dislocations - September 2026.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "ECB_preview__The_ECB_s_path_is_clear_until_growth_blinks",
+      "document": "ECB preview: The ECB's path is clear until growth blinks.pdf",
+      "date": "2026-09-07",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2) 70 75 80 85 90 95 100 0% 20% 40% 60%",
+          "chunk_id": "ECB preview: The ECB's path is clear until growth blinks.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -100 -50 0 50 100 0.00 0.20 0.40 0.60 0.80 1.00 1.20",
+          "chunk_id": "ECB preview: The ECB's path is clear until growth blinks.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 5 0.15 0.25 1.60 1.80 2.00 2.20 2.40 2.60",
+          "chunk_id": "ECB preview: The ECB's path is clear until growth blinks.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_China_-_Property_Downturn_Keeps_Straining_Local_Government_Finances",
+      "document": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf",
+      "date": "2026-09-07",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 21,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x2",
+          "chunk_id": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf-3-6",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 20 40 60 80 100 120 0 20 40 60 80",
+          "chunk_id": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 2025 0 10 20 30 40 50 60 70 80 0 10",
+          "chunk_id": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: 2026 -60 -40 -20 0 20 40 60 80 100 -60 -40",
+          "chunk_id": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 40",
+          "chunk_id": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 40 50 60 70 80 90 100 110 40 50 60 70",
+          "chunk_id": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 80 -60 -40 -20 0",
+          "chunk_id": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 10 20 30 40 50 60 0 1 02 03 04",
+          "chunk_id": "GS_China - Property Downturn Keeps Straining Local Government Finances.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_European_Daily_-_A_More_Mixed_Q3_Activity_Picture_After_a_Firm_Q2",
+      "document": "GS_European Daily - A More Mixed Q3 Activity Picture After a Firm Q2.pdf",
+      "date": "2026-09-07",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 14,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_European Daily - A More Mixed Q3 Activity Picture After a Firm Q2.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ifoCast uroCoin uroCoin",
+          "chunk_id": "GS_European Daily - A More Mixed Q3 Activity Picture After a Firm Q2.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_GOAL_KICKSTART_-_Summer_rotation_moderation_with_higher_yields_and_commodities",
+      "document": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf",
+      "date": "2026-09-07",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 46,
+      "page_count": 27,
+      "status": "skipped",
+      "missing_indices": [
+        26,
+        28,
+        35
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [26, 28, 35]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x416",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-3-4",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 50 60 70 2Y",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x391",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-3-5",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x3",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-4-7",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: - - 1.16 1.14 1.12 1.12 -1.9 -3.6 -3.6",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: - - 94.5 96.0 97.0 97.0 1.6 2.6 2.6",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x552",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-5-9",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x14",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-5-10",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x372",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-6-11",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x404",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-7-12",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x418",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-8-13",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x21",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-8-14",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x445",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-9-15",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x289",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-9-16",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-9-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x75",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-10-17",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "17 consecutive numeric/date tokens: 55% 60% 1% 85% 1% 1% 0% 0% 0% 88% 99% 90%",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x208",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-10-18",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x267",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-11-19",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 1.2% 3.0% 2.3% 2.1% 2.4% 0.7% -0.5% -0.1% 0.3% 2.0% 0.5% 4.7%",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x233",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-11-20",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x572",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-12-21",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-12-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x61",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-12-22",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x648",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-13-23",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-13-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x233",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-13-24",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x479",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-14-25",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-14-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x414",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-15-27",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "21 consecutive numeric/date tokens: 500 0.63 0.55 0.37 0.57 0.26 0.33 0.15 0.47 0.37 -0.24 0.55",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-16-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-16-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 0.94 0.92 0.96 0.78 0.96 0.59 0.25 0.41 0.19 -0.17 0.17 0.46",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-16-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 0.83 0.99 0.64 0.59 0.61 1.00 0.97 0.77 0.99 0.23 0.37 0.20",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-16-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 34% 33% 89% 33% 77% 28% 62% 43% 70% 63% 28% 26%",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-17-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-17-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x238",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-17-33",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x358",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-18-34",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x330",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-19-36",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-19-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x665",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-20-37",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x168",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-20-38",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x535",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-21-39",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x103",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-21-40",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x404",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-22-41",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 2 4 6 8 10 12 01 03 05 07 09",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-22-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x470",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-23-43",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-23-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x4",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-23-44",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x329",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-24-45",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x419",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-25-46",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-25-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x211",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-26-47",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 100 4.3 14.0 54.7 | 55.7 8.5 23.3 95.7 | 12.3 1.1 2.5 38.8",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-26-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x309",
+          "chunk_id": "GS_GOAL KICKSTART - Summer rotation moderation with higher yields and commodities.pdf-27-48",
+          "reprocess": null,
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Equity_Strategy_-_Regional_calls_-_Non-US_is_ahead_so_far_ytd__EM_vs_DM_is_working_again",
+      "document": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf",
+      "date": "2026-09-07",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 52,
+      "page_count": 23,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        12,
+        22,
+        42
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 12, 22, 42]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -60% -40% -20% 0% 20% 40% Jan 24 Apr 24 Jul 24",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 94 99 104 109 114 Jan 26 Feb 26 Mar 26 Apr",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -10 -5 0 5 10 15 -20 -15 -10 -5 0 5",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "41 consecutive numeric/date tokens: 46 47 48 49 50 51 52 53 54 55 56 Jan",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 3.2% 3.4% 3.6% 3.8% 4.0% 4.2% 4.4% 2.8 3.0 3.2 3.4 3.6",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 18 19 20",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 04",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 9 11 13 15 17 19 21 23 25 27 1% 2%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -3% 1% 7% -18% -3% -10% 4% 7% -4% -3% -8% 4%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2.9% 2.8% 2.1% 2.1% 2.1% 0.0% 0.5% 1.0% 1.5% 2.0% 2.5% 3.0%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 90 95 100 105 110 115 120 Jan 26 Feb 26 Mar",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 50 60 12",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 97.5 98.0 98.5 99.0 99.5 100.0 100.5 101.0 101.5 102.0 102.5 -20%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -21% -4% -12% -10% 9% 9% -25% -20% -15% -10% -5% 0%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 97.0 97.5 98.0 98.5 99.0 99.5 100.0 100.5 Jan 21 Jul 21",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0.5 0.6 0.7 0.8 0.9 1.0 03 04 05 06 07 08",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-10-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 4000 5000 6000 7000 8000 9000 10000 Jan-26 Feb-26 Mar-26 Apr-26 May-26",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 12.4 4% 22% 3% 4.5% 8.4 6.8 23% 6% 19%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-14-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-14-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 13.9 1% -21% 11% 3.6% 10.2 9.8 4% -3% 22%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-14-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-14-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 8.9 0% 9% 84% 3.7% 17.4 16.0 9% 2% 84%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-14-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -7.2% -2.6% 2.8% 4.9% -15.0% -10.0% -5.0% 0.0% 5.0% 10.0%",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-15-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -50% 0% 50% 100% 150% 200% Jan 17 Jan 18 Jan 19",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-15-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: uroStoxx uroStoxx lueCrest jkpZifs",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-16-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-16-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "52% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-17-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-17-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "60% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-17-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-17-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "56% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-18-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-19-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 2026e 2027e 2028e 2026e 2027e 2028e 2026e 2027e 2028e 2026e 2027e 2028e",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-20-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-20-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 21.0 18.2 15.9 2.3% 2.6% 2.9% 11.3 10.3 9.2 5.8 5.3 4.6",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-20-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-21-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2.1 2.1 2.1 2.1 1.5 2.7 1.7 2.3 2.3 2.7 3.8 3.7",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-22-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-22-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 3-Sep-26 Sep 26 Dec 26 Mar 27 Jun 27",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-22-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-23-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Regional calls - Non-US is ahead so far ytd; EM vs DM is working again.pdf-23-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_US_Inflation_Monitor_-_CPI_Preview_-_Strong_headline__core_moves_sideways",
+      "document": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf",
+      "date": "2026-09-07",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 16,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: 0.31 0.22 0.09 0.09 0.23 0.30 0.22 0.20 0.38 0.21 -0.02 0.22",
+          "chunk_id": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0.13 0.30 0.17 0.27 0.87 0.64 0.47 -0.42 0.07 0.41 -0.60 -0.40",
+          "chunk_id": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 90 95 100 105 110 115 120 Dec-25 Jan-26 Feb-26 Mar-26 Apr-26",
+          "chunk_id": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 85 90 95 100 105 110 115 120 125 130 135 Sep-25",
+          "chunk_id": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2.00 2.50 3.00 3.50 4.00 4.50 5.00 Jan-25 Mar-25 May-25 Jul-25 Sep-25",
+          "chunk_id": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "232 consecutive numeric/date tokens: Nov-25 2.8 2.8 2.7 2.6 Nov-25 0.22 0.18 0.13 0.09 324.122 Dec-25",
+          "chunk_id": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "92 consecutive numeric/date tokens: 6 0.07 0.15 340.474 May-27 2.0 2.4 1.8 2.3 May-27 0.12 0.15",
+          "chunk_id": "MS_US Inflation Monitor - CPI Preview - Strong headline, core moves sideways.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188",
+      "document": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf",
+      "date": "2026-09-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 28,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        17,
+        20
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [17, 20]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: -2.1 156.8 154.38 161.28 151.8 154.38 (07 Sep 26) 11 -1.5% -170",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: -0.1 70.553 66.31 76.464 53.962 66.31 (07 Sep 26) 4.5 -6.0% -270",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: -1 5 -1 0 -5 0 5 10 15 -5 0 -4",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "45 consecutive numeric/date tokens: -1 5 -1 0 -5 0 5 10 15 -5 0 -4",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: 07/09/2026 -15 -10 -5 0 5 10 15 -50 -40 -30 -20",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: 07/09/2026 -15 -10 -5 0 5 10 15 -50 -40 -30 -20",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 61.8536 07/09/2026 -15 -10 -5 0 5 10 15 -50 -40 -30",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 07/09/2026 41.1% 9.4% 8.3% 1.3% 0.8% 0.1% 34.9% 4.1% 0.1%",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 112.94. 07/09/2026 40.5% 16.9% 3.2% 18.6% 8.1% 8.0% 4.8%",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-11-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Short_EURUSD_adding_risk_via_electrification_and_physical_AI_Trade_Idea--931188.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_adds_short_USDPHP_closes_long_USDJPY_Trade_Idea--931159",
+      "document": "STEER_adds_short_USDPHP_closes_long_USDJPY_Trade_Idea--931159.pdf",
+      "date": "2026-09-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 62.744 61.8536 63.6473 - 0.00 | 156.5 - - 156.09 | 3.0348 2.9416 3.0930 - 0.79 10-Aug-2026",
+          "chunk_id": "STEER_adds_short_USDPHP_closes_long_USDJPY_Trade_Idea--931159.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "72% of tokens are numeric/date values",
+          "chunk_id": "STEER_adds_short_USDPHP_closes_long_USDJPY_Trade_Idea--931159.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_inflation__Marginal_consensus_risks",
+      "document": "US inflation: Marginal consensus risks.pdf",
+      "date": "2026-09-07",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats",
+          "chunk_id": "US inflation: Marginal consensus risks.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "US inflation: Marginal consensus risks.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats",
+          "chunk_id": "US inflation: Marginal consensus risks.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "US inflation: Marginal consensus risks.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "US inflation: Marginal consensus risks.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Key_Charts_to_Watch__for_China__Q4_26",
+      "document": "“Key Charts to Watch” for China (Q4 26).pdf",
+      "date": "2026-09-07",
+      "publisher": "State Street",
+      "document_type": "Chart Pack",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 6.2 6.4 6.6 6.8 7.0 7.2 1 2 3 4 5 6",
+          "chunk_id": "“Key Charts to Watch” for China (Q4 26).pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 40 60 80 100 120 140 -1.5 -1.0 -0.5 0.0 0.5 1.0",
+          "chunk_id": "“Key Charts to Watch” for China (Q4 26).pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 25% 50% 75% 100% Feb Mar Apr May Jun Jul Aug Sep",
+          "chunk_id": "“Key Charts to Watch” for China (Q4 26).pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "“Key Charts to Watch” for China (Q4 26).pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.2% 0.2% 0.6% 1.0% 1.4% 1.8% -2% 0% 2% 4% 6% May-22",
+          "chunk_id": "“Key Charts to Watch” for China (Q4 26).pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

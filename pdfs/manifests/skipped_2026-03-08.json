@@ -1,0 +1,3873 @@
+{
+  "batch_id": "2026-03-08",
+  "window": [
+    "2026-03-08",
+    "2026-03-08"
+  ],
+  "generated_at": "2026-10-29T16:27:29",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-06_2026-03-09.json",
+      "sha256": "7978cb0442e7e30e908522e57e68db80bbac68f476e2b8146f9186c67a9030e9",
+      "records": 3686,
+      "dates": [
+        "2026-03-06",
+        "2026-03-09"
+      ],
+      "records_for_batch": 485
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 5,
+    "out_of_scope": 2,
+    "compiled": 2,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 38,
+    "edits": 33,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_TABLE": 219,
+    "UNSTRUCTURED_TEXT": 172,
+    "DISTORTED_FIGURE": 137,
+    "GARBLED_TEXT": 4,
+    "MISSING_CHUNKS": 3,
+    "NON_ENGLISH_SCRIPT": 1
+  },
+  "documents": [
+    {
+      "stem": "BC_FX___EM_Weekly_Thoughts_-_Oil_aftershocks",
+      "document": "BC_FX & EM Weekly Thoughts - Oil aftershocks.pdf",
+      "date": "2026-03-08",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 35,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        11,
+        18
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11, 18]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: +1 212 526 9380 | +44 (0) 20 7773 2002 | +44 (0) 20 3555 6549",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Oil aftershocks.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F0AC x1",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Oil aftershocks.pdf-2-3",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 92 97 102 107 112 Jan-25 Feb-25 Mar-25 Apr-25 May-25 Jun-25 Jul-25",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Oil aftershocks.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -2.8 -2.4 -2.0 -1.6 -1.2 -0.8 -0.4 0.0 0.4 0.8 1.2 1.6",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Oil aftershocks.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 -6 -4 -2 0",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Oil aftershocks.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Oil aftershocks.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Oil aftershocks.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_The_SMid_View_-_Current_events_mean_downside__the_question_is_how_much_and_for_how_long",
+      "document": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf",
+      "date": "2026-03-08",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 406,
+      "page_count": 173,
+      "status": "skipped",
+      "missing_indices": [
+        9,
+        12,
+        42,
+        48,
+        67,
+        69,
+        72,
+        79,
+        90,
+        102,
+        149,
+        167,
+        170,
+        188,
+        192,
+        196,
+        199,
+        228,
+        234,
+        256,
+        258,
+        270,
+        283,
+        331,
+        343,
+        357,
+        364,
+        375
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9, 12, 42, 48, 67, 69, 72, 79, 90, 102, 149, 167, 170, 188, 192, 196, 199, 228, 234, 256, 258, 270, 283, 331, 343, 357, 364, 375]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: -3.7% -4.7% -5.4% -5.8% -5.2% -5.2% -4.7% 0.2% -4.8% -0.8% -3.0% -7.9%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 0.3% -5.9% -4.0% -5.2% -3.6% -3.6% -2.5% -3.1% -3.9% -3.3% -3.6%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0.2% 0.7% 1.7% 0.0% 1.8% 3.9% 4.0% 1.1% 1.9% 2.1% 1.2% 3.3%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0.2% 0.7% 1.7% 0.0% 1.8% 3.9% 4.0% 1.1% 1.9% 2.1% 1.2% 3.3%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: (7%) 19 95% 0% 5.8x 8.9x (3%) 0.7x 3",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: (7%) 13 62% 57% (0%) 10.9x 17.9x 5% 2.7x 2.4x 10",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 49% 16 100% 52% 9% 59.7x 27.9x 0% 22.8x 0.7x 21",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 38% 9 33% 6% 0% 2.3x 11.5x 9% 1.6x (4.7x) 26",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 18% 12 67% 31% 4% 10.2x 18.9x 3% 3.1x 90% 3.4x 2",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 55% 7 100% 194% (12%) 3.8x 9.3x (88%) 0.6x 69% 2.4x 10",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: (1%) 10 70% 73% (7%) 11.7x 11.5x (2%) 2.8x 89% 3.0x 15",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 25% 8 88% 17% (2%) 9.2x 11.9x 0% 4.2x 100% 0.5x 25",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: (13%) 6 17% (0%) (31%) 7.8x 22.7x 7% 4.1x 100% 3.4x 33",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 19% 3 100% 39% 9% 21.8x 26.0x 1% 5.1x 63% (2.8x) 45",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-9-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 40% 9 78% 11% (1%) 11.6x 20.7x 6% 11.2x 0.1x 3",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: (6%) 11 73% 20% 4% 7.0x 14.9x 13% 1.7x 4.1x 7",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 6% 14 50% 24% (5%) 16.9x 18.8x 2% 5.4x 0.1x 18",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: (30%) 7 0% 14% (3%) 6.9x 17.6x (2%) 0.8x 1.6x 28",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 4% 20 10% (9%) (2%) 9.4x 10.7x 9% 2.1x 3.7x 37",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-10-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 351% 43% 3% 331% 28% 4% 0% 100% 200% 300% 400% 500%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-13-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: $7,289 $21 6.4% 5.6% 6.3% 2.5% 16.4x 14.2x 14.2% 3.3x -0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-14-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 08-Oct-25 18.3% 8.4% 5.2% 3.4% 7.1x 11.5x -5.5% 1.7x 1.0x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-14-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 13-Mar-24 28.8% 6.8% 6.1% 1.8% 19.2x 16.0x -8.2% 4.8x 0.6x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-14-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: $7,289 $21 6.4% 5.6% 6.3% 2.5% 16.4x 14.2x 14.2% 3.3x -0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-15-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 10-Mar-25 10.2% 3.2% 2.6% 1.5% 24.4x 19.3x 8.1% 3.7x -11.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-15-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: $7,289 $21 6.4% 5.6% 6.3% 2.5% 16.4x 14.2x 14.2% 3.3x -0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-16-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 05-Feb-26 13.4% 11.8% 14.4% 1.4% 5.9x 5.1x 20.3% 2.2x 0.7x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-16-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: $4,908 2,308 $57.7 +5% 7.0% 8.0% 1.5% 15.8x 13.8x 24% 3.8x 1.0x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-17-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 16-Sep-25 (21.0%) NA NA NA 17.9x 12.0x 35.8% 1.3x NA",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-17-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 27-Feb-26 NA 4.7% 6.4% NA 16.8x 14.7x 17.6% 5.5x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-17-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 16-Sep-25 24.7% 4.6% 6.5% NA 14.2x 12.7x 20.3% 2.0x 2.5x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-17-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-17-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: $7,004 $44.9 +1% 6.4% 7.5% 2.5% 18.7x 13.5x 56.5% 3.5x -1.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-18-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-18-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 05-Feb-26 -12.1% 14.9% 13.8% 2.6% 8.9x 8.2x 9.5% 1.6x 0.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-18-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 08-Aug-24 (63.8%) 6.4% 9.1% 3.3% 9.4x 8.5x -1.2% 1.8x 0.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-18-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: $7,004 $44.9 +1% 6.4% 7.5% 2.5% 18.7x 13.5x 56.5% 3.5x -1.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-19-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 12-Jan-26 (9.9%) 2.0% 3.9% 3.4% 15.7x 12.9x 121.4% 6.3x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-19-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 500 9.7% 23.8% 32.2x 83.7% 17.8% 7.0% 6.6%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-20-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-20-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 534.8% 9.1% 2.1% 236.3% 6.6% 1.6% 0% 100% 200% 300% 400% 500%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-22-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-22-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 76.9% 9.1% 3.6% 60.3% 6.2% 0.8% -10% 10% 30% 50% 70% 90%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-23-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-23-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 39.3% 12.9% 4.4% 45.4% 13.7% 6.8% 0.0% 10.0% 20.0% 30.0% 40.0% 50.0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-24-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-24-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "82 consecutive numeric/date tokens: Jan '80 - July '80 -11.3% 38.1% 31.7% 72.9% Jul '81 -",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-27-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "70 consecutive numeric/date tokens: Jan '80 - July '80 Jul '81 - Nov '82 Jul '90",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-27-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-27-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: -23.6% -22.2% -18.0% -23.4% -14.3% -30.4% -21.8% -21.7% -9.9% -10.0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-28-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 10.2% 13.8% 6.5% 10.9% 16.8% 7.8% 20.1% 13.9% 36.8% -7.0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-28-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-28-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 81.7% 192.6% 60.3% 93.1% 83.2% 11.3% 31.9% 16.6% -6.7% 77.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-28-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 2.00x 1.15x 1.78x 2.76x -10.9% +37.7% 3.65x 1.64x 2.29x 3.21x -37.1% -12.1%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-29-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 2.6% 1.6% 2.5% 4.0% +2.5% +61.4% 2.9% 2.2% 3.0% 4.2% -2.5% +29.8%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-29-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-29-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 19.29x 11.43x 17.31x 21.94x -10.3% +13.7% 23.21x 12.46x 17.46x 22.56x -24.8% -2.8%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-29-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-29-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 4.2% 4.7% 4.0% 4.2% 5.6% 2.0% 3.3% 6.0% 8.7% 8.8%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-30-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: -0.05% -0.06% 0.00% 0.00% 0.10% 0.06% -0.02% -0.03% -0.93% -0.46%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-30-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 44.8% 41.9% 50.1% 41.5% 49.1% 38.1% 42.9% 48.5% 46.1% 47.6%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-30-82",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 30% 43% 20% 17% 29% 13% 20% 25% 9% 42% 43% 23%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-31-84",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: 2.5 4.0 1.9 3.2 1.3 2.1 2.1 2.4 3.5 2.5 2.4 2.2",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-32-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 5.90% Jan-26 3.70% 0.0% 2.0% 4.0% 6.0% 8.0% Jan'20 Jul'20 Jan'21 Jul'21",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-32-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-32-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2017 2018 2019 2020 2021 2022 2023 2024 2025",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-33-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2017 2018 2019 2020 2021 2022 2023 2024 2025",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-33-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 8% 13% 9% 7% 6% 2% 2% 1% 2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-34-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 34% 11% 13% 6% 0% 5% 10% 15% 20% 25% 30% 35%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-36-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45% of tokens are numeric/date values",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-36-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "135 consecutive numeric/date tokens: 112 121 188 160 122 333 399 84 77 74 195 242",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-37-95",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "166 consecutive numeric/date tokens: 111 200 179 272 248 168 118 148 178 219 293 342",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-37-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 645 88 232 33 15 73 127 68 9",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-38-97",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 6,690 1,056 1,299 122 761 1,958 1,069 297 126",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-38-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-38-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 5,261 859 2,209 315 216 734 434 272 223",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-38-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-38-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: undsPassive actSet actSet",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-40-101",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.2% 1 12.9% 1 11.5% 1 1 18.4x 1.1x 2 3.5x 0.6x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-41-103",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-41-103",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.6% 2 5.8% 2 26.3% 2 2 20.3x 1.4x 1 2.4x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-41-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-41-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.9% 1 16.5% 1 24.0% 2 1 25.5x 5.6x 2 3.9x 0.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-41-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-41-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.7% 1 19.5% 1 13.0% 1 1 15.5x 0.8x 2 3.1x 0.5x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-41-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-41-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 2417 6 -2.3% 6 5.7% 7 23.5% 6 7 19.4x 4 2.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-42-107",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 3722 3 -0.4% 3 15.5% 2 19.9% 3 2 22.1x 6 4.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-42-108",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-42-108",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: 7 -3.4% 7 11.9% 6 20.1% 4 5 13.9x 1 1.6x 1",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-42-109",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "30 consecutive numeric/date tokens: -4.1% 12 -4.0% 14 23.5% 7 9 19.2x 10 2.5x 12 2.7x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-45-115",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "30 consecutive numeric/date tokens: -4.1% 13 10.0% 4 32.5% 15 8 23.5x 15 2.0x 10 2.7x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-45-116",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-45-116",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "30 consecutive numeric/date tokens: -1.5% 5 14.3% 2 23.3% 6 1 21.0x 13 1.7x 5 2.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-45-117",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-45-117",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.3% 2 13.9% 11 40.1% 11 11 18.7x -0.1x 5 2.1x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-118",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.3% 2 13.9% 11 40.1% 11 11 18.7x -0.1x 5 2.1x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-119",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-119",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -6.6% 21 -0.8% 6 28.0% 15 8 18.1x 1.7x 15 1.3x -0.6x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-120",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-120",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -4.7% 23 13.4% 21 26.6% 14 19 20.8x -3.7x 3 3.1x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-121",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-121",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -3.5% 11 6.2% 14 15.7% 5 6 21.3x -1.0x 9 2.8x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-122",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-46-122",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.6% 6 1.3% 2 39.3% 10 4 16.6x 0.2x 6 3.2x 0.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-123",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-123",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.5% 18 3.0% 8 16.9% 15 11 17.4x 2.4x 21 2.8x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-124",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-124",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -1.2% 10 -1.2% 4 14.1% 13 3 14.1x -3.2x 6 2.2x -0.5x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-125",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-125",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.8% 3 4.2% 6 17.4% 8 9 21.9x 0.6x 8 3.5x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-126",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-126",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: -1.5% 5.5% 16.9% 17 16.9x -0.5x 2.4x -0.2x 2.6% 0.3% 5.1% 1.2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-47-127",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "26 consecutive numeric/date tokens: 307 2 -0.2 1 8.7 1 14.0 2 1 20.1 1.2 2",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-48-128",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-48-128",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-49-132",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "26 consecutive numeric/date tokens: 123 1 2.8 1 15.8 1 14.0 1 1 22.0 -2.8 2",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-133",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-133",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 5.1% 1 4.3% 1 29.1% 11 6 14.4x -6.3x 2 1.6x 0.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-134",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-134",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.1% 19 3.6% 4 4.5% 1 1 15.2x -5.9x 6 1.3x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-135",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-135",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -1.3% 21 15.2% 19 16.3% 21 23 21.7x -3.9x 13 2.2x -0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-136",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-136",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.2% 17 3.2% 3 13.2% 12 6 24.3x 1.4x 24 2.6x 0.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-137",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-50-137",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 9.8 9.5 8.5 10.3 10.4 13.0 12.4 12.3 0 2 4 6",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-51-138",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-51-138",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 9.8 9.5 8.5 10.3 10.4 13.0 12.4 12.3 0 2 4 6",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-51-139",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-51-139",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -55% -30% -5% 20% 45% 70% 2006 2007 2008 2009 2010 2011",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-52-141",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-52-142",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 80 90 100 110 120 130 140 150 160 170 180 190",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-53-143",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-53-143",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "26 consecutive numeric/date tokens: 495 2 0.1 2 14.8 2 21.4 2 2 20.5 2.4 1",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-53-144",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -4.2% 5 7.9% 2 26.4% 9 6 29.1x 9.4x 10 3.1x 0.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-54-145",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-54-145",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.8% 2 12.5% 11 16.1% 9 9 21.3x 4.8x 15 5.4x 2.6x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-54-146",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-54-146",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 2.1% 1 18.3% 16 15.3% 7 11 18.4x 0.0x 4 2.2x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-54-147",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-54-147",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.4% 17 25.3% 19 24.6% 18 19 34.5x 10.9x 20 7.4x 2.0x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-54-148",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-54-148",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x3",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-55-150",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-55-153",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 60 80 100 120 140 2020 2021 2022 2023 2024 2025 2026",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-57-157",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-57-157",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "70% of tokens are numeric/date values",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-57-158",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-57-158",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: (4.0) (2.0) 0.0 2.0 4.0 6.0 8.0 Jan Feb Mar Apr May",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-58-159",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 11 34 36 18 24 33 40 25 42 33 143 32",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-58-160",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "26 consecutive numeric/date tokens: 259 2 0.1 1 19.3 2 22.6 2 2 29.3 5.8 1",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-59-161",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-59-161",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.7% 2 3.7% 11 40.7% 10 11 34.0x 7.4x 7 2.8x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-162",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-162",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.7% 4 24.6% 5 32.6% 8 6 38.3x 6.9x 6 3.6x 0.6x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-163",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-163",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.8% 3 41.7% 3 29.7% 15 4 31.2x -2.8x 7 3.8x 0.5x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-164",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-164",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.9% 6 32.9% 3 42.4% 11 9 57.2x 19.4x 11 4.6x 1.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-165",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-165",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: -1.4% 18 16.0% 20 16.2% 3 9 36.2x -8.9x 2 2.4x -1.5x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-60-166",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-63-171",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: 63.7 61.8 51.6 44.3 62.1 54.1 47.7 53.1 54.0 49.0 53.2 60.0",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-63-172",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: 57.1 56.4 55.5 52.8 57.5 54.8 54.4 50.9 52.1 51.5 51.7 51.4",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-63-173",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-64-174",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: 58.1 55.8 48.6 42.7 58.3 54.8 46.7 50.6 52.4 52.1 53.2 59.4",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-64-175",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -7.0 -6.0 -5.0 -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-65-176",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ighLow ighLow ighLow ighLow ighLow ighLow",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-66-177",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ighLow ighLow ighLow ighLow ighLow ighLow",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-66-178",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-66-178",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ighLow ighLow ighLow ighLow ighLow ighLow",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-67-179",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ighLow ighLow ighLow ighLow ighLow ighLow",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-67-180",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-67-180",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 5% -20% -10% 0% 10% 20% 30% 40% 05 07 09 11",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-68-181",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -4 -3 -2 -1 0 1 2 3 4 5 6 7",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-69-182",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: $1564 $2.9 $607 $1.5 $210 $815 $432 $686 $26182 $3299 $1014 $8831",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-69-183",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 20 40 60 80 100 120 140 Jan-70 Jul-74 Jan-79 Jul-83 Jan-88",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-70-184",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 97.6 20 30 40 50 60 70 80 90 100 110 120",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-71-185",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 120.3 60 80 100 120 140 160 180 1968 1971 1974 1977",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-71-186",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 87.1 20 30 40 50 60 70 80 90 100 110 1971",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-72-187",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F0AF x5",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-73-189",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "23 consecutive numeric/date tokens: 66.4 80.3 84.8 84.4 82.8 71.5 76.6 80.4 79.1 78.8 80.3 80.9",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-73-189",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F0AF x4, U+F0AD x7",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-73-190",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "23 consecutive numeric/date tokens: 71.3 81.4 86.0 83.3 82.3 80.2 81.7 81.0 80.2 79.7 80.4 80.7",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-73-190",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F0AD x4, U+F0AF x5",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-73-191",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "23 consecutive numeric/date tokens: 21.9 27.6 35.3 23.2 22.9 23.9 24.9 24.8 24.9 24.7 25.1 25.4",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-73-191",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-73-191",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "67 consecutive numeric/date tokens: 2025E 2026E 1.3 1.4 1.2 1.1 0.8 2.40.8 2.61.5 2.3 2.4 0.6",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-74-193",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "120 consecutive numeric/date tokens: 0.4% 6.5% 2.0% 1.7% 11.7% 1.6% 2.0% 100.0% 57.4% 42.6% 1.5 1.5",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-74-194",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 1.40% 1.30% 1.30% 1.20% 1.20% 3.75% 3.50% 3.25% 3.25% 3.25% 3.25% 15.00%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-75-195",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 3.4 2.2 -1.2 3.8 3.3 -0.5 0.4 1.1",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-76-197",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0.5 1.2 0.7 1.8 1.8 0.0 1.3 0.6",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-76-198",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-76-198",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 1184 80.2% -3.0% -2.0% -1.0% 0.0% 1.0% 2.0% 3.0% 4.0% 5.0% Jan-67",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-77-200",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-77-201",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 8.50 11.75 38% 12.5x 11.1x -12% 13.13 15.62 19% 164 168 2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-78-202",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 8.50 11.75 38% 12.5x 11.1x -12% 13.13 15.62 19% 164 168 2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-78-203",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-78-203",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "52 consecutive numeric/date tokens: Jan '26 4.3% 0.00 2.00 4.00 6.00 8.00 10.00 12.00 14.00 16.00",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-79-204",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "96 consecutive numeric/date tokens: Dec '52 - Sep '53 38 2.0% +61.5% Aug '56 - Oct",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-80-205",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "34 consecutive numeric/date tokens: 6% -24.6% Jul '90 - Oct '90 16 0.9% 1.9% Mar '00",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-80-206",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 numeric rows: 125% 4.6% 7.9% 127% | 114% 3.6% 2.4% 112% | 103% 3.8% 3.6% 103%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-81-207",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "70% of tokens are numeric/date values",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-81-208",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "93 consecutive numeric/date tokens: 88% 82% 66% 34% 45% 59% 59% 43% 43% 43% 37% 25%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-82-209",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "60 consecutive numeric/date tokens: 54% 42% 51% 39% 53% 69% 76% 30% 53% 58% 62% 45%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-82-210",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "96 consecutive numeric/date tokens: 62% 43% 49% 54% 35% 36% 53% 50% 48% 51% 51% 38%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-83-211",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "65 consecutive numeric/date tokens: 48% 49% 68% 43% 43% 33% 44% 45% 54% 61% 54% 34%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-83-212",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "99 consecutive numeric/date tokens: 61% 53% 53% 49% 35% 46% 56% 69% 56% 57% 55% 34%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-84-213",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 1 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-84-214",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 6.5% 5.8% 2.8% 5.3% 6.6% 6.1% 6.2% 5.7% 7.1% 8.0% 0% 5%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-85-215",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 5.0% 6.2% 5.0% 2.5% 3.2% 4.7% 5.4% 5.6% 5.3% 7.5% 9.3% 0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-85-216",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 5.3% 6.8% 8.1% 7.7% 7.9% 8.1% 8.8% 9.3% 0% 5% 10% 15%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-85-217",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "92 consecutive numeric/date tokens: 10.7% 0.2% 7.0% 25.5% 29.0% 16.6% 22.0% 18.1% 5.2% -2.6% 24.6% 13.6%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-86-218",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "92 consecutive numeric/date tokens: 26.8% 2.7% 4.1% 26.2% 41.9% 28.2% 25.4% 19.6% -7.0% -6.7% 29.0% 8.2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-86-219",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "93 consecutive numeric/date tokens: 27.5% 0.9% 17.3% 19.6% 29.0% 21.7% 21.3% 11.8% 4.5% -3.4% 32.0% 22.1%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-87-220",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "93 consecutive numeric/date tokens: 15.7% 6.6% 21.9% 14.5% 23.4% 19.2% 15.8% 16.6% 9.1% -2.6% 11.1% 16.0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-87-221",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "91 consecutive numeric/date tokens: 39.1% -7.5% 20.7% 50.1% 39.9% 22.5% 15.3% 1.1% 11.6% 44.8% 15.0% 21.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-88-222",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "93 consecutive numeric/date tokens: 21.9% 2.6% 21.2% 31.8% 27.6% 12.5% 26.1% 51.2% -4.9% 28.0% 32.3% 7.9%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-88-223",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "92 consecutive numeric/date tokens: 25.6% 5.9% 32.7% 29.6% 31.1% 12.1% 23.8% 31.3% -3.0% 22.3% 27.7% 6.6%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-89-224",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "89 consecutive numeric/date tokens: 4.5% 11.4% 29.5% 30.0% 28.9% 31.2% 53.4% 16.6% 24.8% 32.3% 4.4% -0.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-89-225",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: '07 1.0x 1.2x 1.1x 0.9x 1.0x 1.1x 0.7x 0.6x 0.4x 1.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-90-226",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: '07 0.9x 0.9x 1.0x 0.8x 1.1x 0.7x 1.3x 0.9x 0.7x 1.0x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-90-227",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "43 consecutive numeric/date tokens: 1.47x 1.32x 0.1x 0.6x 1.1x 1.6x 2.1x '90 '91 '92 '93 '94",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-91-229",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "43 consecutive numeric/date tokens: 1.15x 1.37x 0.0x 0.5x 1.0x 1.5x 2.0x 2.5x '91 '92 '93 '94",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-92-231",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "45 consecutive numeric/date tokens: 0.58x -0.11x -0.5x 0.0x 0.5x 1.0x 1.5x 2.0x 2.5x '90 '91 '92",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-93-233",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-93-233",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "58% of tokens are numeric/date values",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-94-236",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-94-236",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "56% of tokens are numeric/date values",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-94-237",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-94-237",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 2.00x 1.15x 1.78x 2.76x -10.9% +37.7% 3.65x 1.64x 2.29x 3.21x -37.1% -12.1%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-96-241",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 16.89x 10.05x 16.75x 20.43x -0.9% +20.9% 18.35x 11.64x 16.56x 22.44x -9.8% +22.3%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-96-242",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-96-242",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 3.58x 1.50x 2.52x 3.54x -29.6% -1.1% 5.49x 1.89x 3.19x 5.46x -41.9% -0.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-96-243",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-96-243",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 4.71x 1.28x 2.67x 5.10x -43.2% +8.3% 4.50x 1.56x 3.07x 5.59x -31.8% +24.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-96-244",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-96-244",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 1.54x 0.52x 0.94x 1.86x -38.8% +20.7% 2.49x 0.88x 1.46x 2.17x -41.4% -13.0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-97-245",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-97-245",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 3.87x 2.13x 3.36x 6.14x -13.0% +58.7% 3.92x 2.53x 4.18x 7.44x +6.6% +89.7%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-97-246",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-97-246",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 3.24x 1.48x 2.16x 3.05x -33.3% -5.9% 4.59x 2.15x 2.90x 4.78x -36.9% +4.2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-97-247",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-97-247",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 13.92x 13.63x 18.93x 29.60x +36.0% +112.6% 15.39x 11.51x 19.13x 25.29x +24.3% +64.3%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-97-248",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-97-248",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "47% of tokens are numeric/date values",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-98-249",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-98-249",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "70% of tokens are numeric/date values",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-98-250",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-98-250",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "61% of tokens are numeric/date values",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-98-251",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-98-251",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 3.0% 5.2% 5.6% 2.6% 5.7% 4.8% 5.9% 6.0% 6.2% 2.3% 5.3% 5.1%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-99-252",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "53 consecutive numeric/date tokens: 2.00x 2.24x 3.58x 3.64x 1.54x 3.42x 0.0x 1.0x 2.0x 3.0x 4.0x 5.0x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-100-253",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-100-254",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "46 consecutive numeric/date tokens: 16.9x 20.3x 22.1x 21.7x 18.8x 33.2x 16.0x 24.0x 32.0x 40.0x '90 '91",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-101-255",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "48 consecutive numeric/date tokens: 2.36x 2.40x 4.11x 4.71x 1.98x 3.40x 1.0x 2.0x 3.0x 4.0x 5.0x 6.0x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-102-257",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "49 consecutive numeric/date tokens: 0.3% 0.3% -1.0% -0.1% -0.3% -0.1% -8.0% -6.0% -4.0% -2.0% 0.0% 2.0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-103-259",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 03 '04 '05 '06 '07 '08 '09 '10 '11 '12 '13 '14",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-103-260",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-103-260",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4.7% 11.4% 20.8% -7.0% 6.0% 17.7% 11.9% 3.2% -10% 0% 10% 20%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-104-261",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 4.7% 11.4% 20.8% -7.0% 6.0% 31.0% 17.7% 11.9% 3.2% -20% 0% 20%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-104-262",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: 4.1% 5.0% 5.2% 8.9% 6.6% 5.5% 8.1% 12.2% 11.7% 6.5% 3.4% 3.5%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-105-263",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: 7.6% 7.2% 11.8% 13.1% 6.2% 15.3% 13.3% 10.8% 7.6% 11.3% 6.1% 5.5%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-105-264",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-105-264",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: 5.7% 6.3% 8.4% 4.8% 14.2% 2.3% 12.4% 15.7% 40.5% 9.1% 3.7% 8.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-106-265",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "23 consecutive numeric/date tokens: 16.9% 26.3% 19.9% 22.0% 12.7% 30.9% 26.1% 19.2% 20.1% 23.3% 11.5% 14.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-106-266",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-106-266",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "60 consecutive numeric/date tokens: 23% 25% 24% 22% 19% 18% 16% 13% 11% 10% 9% 8%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-107-267",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 28% 27% 28% 10% 15% 20% 25% 30% 35% Jan 25 Feb",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-107-268",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "62 consecutive numeric/date tokens: 26% 27% 26% 24% 29% 19% 25% 25% 25% 21% 25% 26%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-108-269",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "49 consecutive numeric/date tokens: -0.4% -1.6% -2.0% -1.3% -3.0% -0.5% -0.1% 0.9% 0.1% 0.0% 1.1% 1.3%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-109-271",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "41 consecutive numeric/date tokens: 28% 29% 30% 27% 28% 5% 10% 15% 20% 25% 30% 35%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-109-272",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "47 consecutive numeric/date tokens: 0.0% -1.3% -2.1% -0.4% -0.9% -0.8% -0.5% -1.4% -1.0% 1.4% 0.1% 0.7%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-110-273",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "63 consecutive numeric/date tokens: 19% 22% 22% 22% 24% 15% 26% 29% 32% 23% 24% 24%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-110-274",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "47 consecutive numeric/date tokens: 19% 20% 19% 19% 8% 18% 17% 18% 18% 20% 22% 19%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-111-275",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "47 consecutive numeric/date tokens: 19% 20% 19% 19% 8% 18% 17% 18% 18% 20% 22% 19%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-111-276",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "47 consecutive numeric/date tokens: -0.3% -0.7% -1.2% -1.8% -6.3% -0.5% -0.3% -0.4% -1.6% -0.2% -1.1% -1.3%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-112-277",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "27 consecutive numeric/date tokens: 25 Feb 25 Mar 25 Apr 25 May 25 Jun 25 Jul",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-112-278",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "61 consecutive numeric/date tokens: 26% 25% 26% 27% 26% 24% 23% 20% 18% 18% 16% 16%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-113-279",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "27 consecutive numeric/date tokens: 5 Feb 25 Mar 25 Apr 25 May 25 Jun 25 Jul",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-113-280",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -40 -32 -24 -16 -8 0 8 16 24 32 10 11",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-114-281",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ortugalNorway olombiaChile rabiaSouth gyptRomania ranceBelgium",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-115-282",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "91 consecutive numeric/date tokens: 1999 0 8 23 35 21 23 17 11 19 36 63",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-116-284",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 1999 2.9% 2.7% 7.6% 2.2% 0% 5% 10% 15% 20% 25% 30%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-117-285",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 5 25 45 65 85 Jan-07 Jan-10 Jan-13 Jan-16 Jan-19 Jan-22 Jan-25",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-118-286",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 21.4 20.9 21.1 21.4 21.6 22.2 22.4 22.7 23.0 23.0 19.0 20.0",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-119-287",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 10.0 13.5 17.0 20.5 24.0 27.5 31.0 34.5 38.0 41.5 45.0 2010",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-120-288",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 10.0 13.5 17.0 20.5 24.0 27.5 31.0 34.5 38.0 41.5 45.0 2010",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-121-289",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-121-289",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 10.0 13.5 17.0 20.5 24.0 27.5 31.0 34.5 38.0 41.5 45.0 2010",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-122-290",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-122-290",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 10.0 13.5 17.0 20.5 24.0 27.5 31.0 34.5 38.0 41.5 45.0 2010",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-123-291",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-123-291",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "166 consecutive numeric/date tokens: 111 200 179 272 248 168 118 148 178 219 293 342",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-124-292",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "168 consecutive numeric/date tokens: 21 44 53 88 90 62 51 48 49 66 63 73",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-124-293",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "168 consecutive numeric/date tokens: 88 150 121 172 140 78 38 50 75 89 137 165",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-125-294",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "165 consecutive numeric/date tokens: 2 3 2 3 9 12 18 38 42 54 65 69",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-125-295",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "135 consecutive numeric/date tokens: 112 121 188 160 122 333 399 84 77 74 195 242",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-126-296",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "137 consecutive numeric/date tokens: 29 28 29 33 39 71 120 19 13 8 31 49",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-126-297",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "135 consecutive numeric/date tokens: 54 76 126 96 71 240 213 42 38 41 93 92",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-127-298",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "111 consecutive numeric/date tokens: 260 304 262 216 93 140 14 7 5 2 6 0",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-127-299",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 35.0 38.5 42.0 45.5 49.0 52.5 56.0 59.5 63.0 66.5 70.0 2010",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-128-300",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 35.0 38.5 42.0 45.5 49.0 52.5 56.0 59.5 63.0 66.5 70.0 2010",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-129-301",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-129-301",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 35.0 39.0 43.0 47.0 51.0 55.0 59.0 63.0 67.0 71.0 75.0 2010",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-130-302",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-130-302",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 35.0 38.5 42.0 45.5 49.0 52.5 56.0 59.5 63.0 66.5 70.0 2010",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-131-303",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-131-303",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "98 consecutive numeric/date tokens: 272% 99% 136% 176% 213% 278% 186% 236% 568% 764% 2nd 125%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-132-304",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "57 consecutive numeric/date tokens: 18.4% 28.0% 17.8% 11.4% 7.8% 6.1% 12.3% 41.8% 28.6% 26.6% 39.3% 35.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-133-305",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 34.9% 35.7% 33.6% 28.3% 0.0% 10.0% 20.0% 30.0% 40.0% '00 '01 '02",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-133-306",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "59 consecutive numeric/date tokens: 10.7% 14.7% 5.6% 3.5% 4.2% 3.6% 10.7% 30.2% 17.9% 12.7% 22.0% 19.8%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-134-307",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "63 consecutive numeric/date tokens: 8.0% 8.0% 17.1% 20.0% 15.7% 15.9% 10.7% 6.7% 7.3% 5.2% 8.1% 29.8%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-134-308",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "71 consecutive numeric/date tokens: 30.2% 19.2% 21.0% 24.3% 31.0% 23.5% 24.7% 8.1% 45.8% 47.1% 46.3% 53.5%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-135-309",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "44 consecutive numeric/date tokens: 11.5% 11.0% 11.4% 11.2% 19.7% 15.7% 15.2% 12.7% 14.5% 13.5% 13.8% 14.1%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-135-310",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "86 consecutive numeric/date tokens: 2.6% 4.8% 9.1% 9.5% 5.3% 4.7% 3.3% 2.5% 1.6% 12.5% 4.4% 4.3%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-136-311",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "57 consecutive numeric/date tokens: 43.3% 42.0% 31.4% 18.6% 18.7% 13.3% 9.4% 35.5% 13.2% 13.8% 23.3% 23.2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-136-312",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-137-313",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -69% -25% 9% 1% -4% 0% 2% 7% 3% 0% -80% -60%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-137-314",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-137-314",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-138-315",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 49% 38% 28% 23% 16% -4% 1% 1% 7% 0% -20% 0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-138-316",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-138-316",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0 6.5 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-139-317",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 10.0 14.0 18.0 22.0 26.0 30.0 34.0 38.0 42.0 46.0 50.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-139-318",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-139-318",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-140-319",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 5.0 9.0 13.0 17.0 21.0 25.0 29.0 33.0 37.0 41.0 45.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-140-320",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-140-320",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.0 0.4 0.8 1.2 1.6 2.0 2.4 2.8 3.2 3.6 4.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-141-321",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 10.0 15.0 20.0 25.0 30.0 35.0 40.0 45.0 50.0 55.0 60.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-141-322",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-141-322",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-142-323",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.0 15.0 30.0 45.0 60.0 75.0 90.0 105.0 120.0 135.0 150.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-142-324",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-142-324",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.0 1.4 1.8 2.2 2.6 3.0 3.4 3.8 4.2 4.6 5.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-143-325",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 10.0 13.5 17.0 20.5 24.0 27.5 31.0 34.5 38.0 41.5 45.0 1990",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-143-326",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-143-326",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 01/07) 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-144-327",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "52 consecutive numeric/date tokens: 36.7% -61.8% 166.9% 39.5% -31.1% 27.6% -26.5% -20.5% -33.5% 19.2% 31.9% -14.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-144-328",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-144-328",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 20% 40% 60% 80% 100% 120% 140% 160% 180% 6/07 6/09 6/11",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-145-329",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-145-329",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 40% 60% 80% 100% 120% 140% 160% 180% 200% 6/07 6/09 6/11",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-145-330",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 2.7% 2.9% 2.5% 2.7% 12.3% -1.4% 0.2% 4.0% 1.5% 3.1% 3.3% 7.0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-147-332",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0.6% 0.8% 0.9% 1.8% 9.5% -0.8% 0.5% 3.6% -1.3% 4.4% 4.5% 6.6%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-147-333",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "129 consecutive numeric/date tokens: 61.0% 7 6.8% 7 -15.8% 7 5.4% 5 0.9% 5 198.4% 4",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-148-334",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "62 consecutive numeric/date tokens: 3.4% 7 270.0% 2 22.7% 3 72.7% 1 12.5% 1 9.5% 1",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-148-335",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 104.5% 9 15.5% 9 -1.5% 10 6.1% 4 1.2% 8 164.8% 7",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-148-336",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-148-336",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 6% 3 380.3% 2 17.5% 7 59.9% 3 24.5% 2 12.2% 3",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-148-337",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ankMaterials ankIndustrials ankHealthcare ankFinancials ankTech ankUtilities",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-149-338",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: 66% 1 31% 6 66% 2 11% 9 18% 8 21% 7",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-149-339",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: 4% 4 3% 7 5% 2 3% 5 2% 9 3% 8",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-149-340",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: -82% 24 6% 13 -5% 11 24% 2 11% 2 115% 10",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-150-341",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 124% 10 -25% 25 -34% 17 9% 11 3% 13 -12% 13",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-150-342",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-150-342",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 31% 23 26% 6 99% 2 17% 2 8% 1 108% 11",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-151-344",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 33% 22 2% 23 -27% 19 -1% 20 0% 18 371% 2",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-151-345",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-151-345",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: -28% 24 6% 18 -30% 23 -3% 23 -2% 21 47% 18",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-151-346",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: -63% 25 9% 10 96% 1 28% 1 10% 2 -22% 25",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-152-347",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 110% 11 -12% 23 -36% 18 8% 8 5% 7 223% 18",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-152-348",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-152-348",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: -57% 24 -9% 20 -61% 25 -10% 24 -3% 22 252% 13",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-152-349",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: -54% 19 2% 17 9% 8 13% 2 -5% 16 -22% 6",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-153-350",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 65% 14 -3% 19 -26% 16 -2% 11 -5% 15 297% 4",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-153-351",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-153-351",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 327% 6 18% 12 102% 8 16% 8 12% 9 63% 16",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-154-352",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 224% 15 12% 17 85% 10 12% 12 9% 11 31% 17",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-154-353",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-154-353",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: -4% 23 -1% 22 0% 24 6% 20 20% 12 29% 18",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-154-354",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 204% 10 17% 16 61% 4 23% 3 6% 4 211% 4",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-155-355",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 34% 20 15% 19 -6% 22 5% 16 0% 21 -45% 11",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-155-356",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-155-356",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 570% 2 14% 6 75% 2 9% 5 5% 6 257% 9",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-156-358",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 477% 7 8% 12 25% 13 1% 20 2% 17 261% 8",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-156-359",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-156-359",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 117% 20 8% 13 -2% 22 3% 17 1% 21 3% 17",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-156-360",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: -58.7% 11 34.9% 5 -97.7% 13 28.6% 7 33.8% 6 16.8% 8",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-157-361",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: -29.6% 13 -26.5% 12 -11.1% 10 8.2% 5 11.7% 4 -2.2% 8",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-157-362",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: -2.8% 12 2.3% 8 -4.9% 13 -0.3% 11 4.9% 2 -0.1% 10",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-157-363",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-157-363",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 1 1547 261 634 70 107 166 196 51 62",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-159-365",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 4,945 3,115 2,186 1,403 1,363 1,218 985 606 536 501 413 370",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-160-367",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 508 77 181 24 10 52 109 48 7",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-368",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-368",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 308 32 23 2 14 86 65 52 35",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-369",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-369",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 846 146 204 27 44 147 126 69 82",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-370",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-370",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 3,118 756 1,489 14 29 237 311 243 40",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-371",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-371",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 6% 10% 5% 4% 6% 2% 6% 12% 8%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-372",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-372",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 1% 0% 2% 0% 2% 0% 2% 2% 0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-161-373",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 2004 2672 7642 10912 1415 191 88 45 0 2000 4000 6000",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-162-374",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-162-374",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 9405 2554 1968 2032 7236 1623 33 34 24 17 0 1000",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-163-376",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-163-376",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 88 4 -1.7% 5 10.5% 3 40.3% 7 6 18.7x 5 1.9x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-164-377",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-164-377",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 9 6 -14.2% 8 11.9% 2 12.7% 1 1 13.9x 2 1.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-164-378",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-164-378",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 217 4 -2.7% 6 20.7% 4 19.6% 2 1 15.5x 2 2.7x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-164-379",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 517 7 -2.4% 7 5.2% 7 26.0% 5 7 20.7x 4 2.7x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-165-380",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-165-380",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 61 8 -4.2% 8 4.0% 8 26.2% 6 8 16.9x 2 1.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-165-381",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-165-381",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 232 6 -3.7% 8 14.9% 3 20.8% 4 2 14.8x 2 3.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-165-382",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 142 8 -2.2% 5 3.9% 8 21.3% 6 8 18.2x 3 2.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-166-383",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-166-383",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 74 6 -3.5% 8 24.7% 1 18.5% 5 2 15.6x 1 1.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-166-384",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-166-384",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 88 4 -1.1% 4 20.0% 1 25.3% 6 2 17.7x 2 3.7x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-166-385",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 347 8 -0.4% 5 7.0% 7 16.7% 6 6 15.6x 4 1.9x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-167-386",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-167-386",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 242 8 -2.8% 7 7.4% 8 29.6% 5 7 23.2x 4 3.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-167-387",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-167-387",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 8 6 -3.3% 8 23.9% 4 32.5% 6 6 14.8x 1 1.3x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-167-388",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 139 5 -2.1% 6 8.0% 8 14.8% 2 5 16.6x 3 2.5x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-168-389",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-168-389",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 18 2 -0.7% 3 27.9% 2 12.5% 1 1 14.0x 1 1.6x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-168-390",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-168-390",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "25 consecutive numeric/date tokens: 91 1 0.6% 2 45.6% 1 23.6% 8 5 16.6x 3 2.5x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-168-391",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 248 8 -1.1% 5 2.2% 8 16.4% 6 8 19.5x 4 1.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-169-392",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-169-392",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 38 2 -2.4% 8 13.5% 5 -4.8% 1 2 13.6x 1 1.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-169-393",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.3% 2 13.9% 11 40.1% 11 11 18.7x -0.1x 5 2.1x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-394",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-394",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -3.9% 17 -12.0% 2 28.2% 16 5 20.4x 3.9x 22 1.7x -0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-395",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-395",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.6% 5 4.1% 3 25.5% 5 3 18.9x 0.6x 6 2.1x -0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-396",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-396",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.8% 10 8.6% 9 33.6% 10 9 23.6x 0.8x 8 3.4x 0.3x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-397",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-397",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: -2.6% 5.8% 26.3% 19 20.3x 1.4x 2.4x 0.1x 2.1% 0.0% 4.1% 0.3%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-170-398",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.6% 6 1.3% 2 39.3% 10 4 16.6x 0.2x 6 3.2x 0.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-399",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-399",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.5% 2 3.5% 4 17.4% 7 3 17.4x 1.4x 10 2.7x -0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-400",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-400",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.9% 8 3.4% 3 8.8% 1 1 15.9x -0.6x 5 2.4x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-401",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-401",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.8% 3 4.2% 6 17.4% 8 9 21.9x 0.6x 8 3.5x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-402",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-402",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: -1.5% 5.5% 16.9% 17 16.9x -0.5x 2.4x -0.2x 2.6% 0.3% 5.1% 1.2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-171-403",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -4.2% 5 6.8% 2 24.8% 9 4 22.9x 0.2x 7 2.6x 0.3x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-404",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-404",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.9% 7 13.4% 6 21.0% 7 6 26.1x 4.5x 11 4.6x 1.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-405",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-405",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -1.1% 9 11.0% 4 9.6% 1 1 19.7x -2.5x 3 3.0x 0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-406",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-406",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.9% 1 17.4% 8 22.7% 8 10 27.0x 0.0x 5 5.4x 1.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-407",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-407",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: -0.4% 15.5% 19.9% 19 22.1x -0.2x 4.1x 1.3x 1.4% 0.4% 2.1% 1.1%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-408",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-172-408",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -4.2% 5 7.9% 2 26.4% 9 6 29.1x 9.4x 10 3.1x 0.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-409",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-409",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.7% 2 13.2% 7 16.7% 5 7 22.2x 4.5x 8 5.0x 2.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-410",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-410",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.7% 1 12.7% 6 13.5% 2 2 18.2x -0.2x 1 2.1x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-411",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-411",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 1.5% 5 25.2% 10 26.1% 8 9 35.8x 13.6x 11 7.6x 2.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-412",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-412",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 0.3% 15.3% 22.0% 19 21.7x 2.9x 4.7x 1.7x 2.2% -0.3% 3.4% 2.0%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-413",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-173-413",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 5.1% 1 4.3% 1 29.1% 11 6 14.4x -6.3x 2 1.6x 0.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-414",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-414",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 1.7% 12 11.8% 13 14.4% 17 13 17.9x -1.5x 20 1.5x 0.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-415",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-415",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.4% 10 13.0% 7 8.6% 2 3 19.1x -4.3x 4 1.7x 0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-416",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-416",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 1.0% 5 13.5% 9 13.6% 5 8 20.6x -1.9x 9 2.5x 0.8x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-417",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-417",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 0.7% 13.2% 12.7% 19 18.8x -2.7x 2.0x 0.5x 2.3% 0.5% 3.8% -0.7%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-418",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-174-418",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.7% 2 3.7% 11 40.7% 10 11 34.0x 7.4x 7 2.8x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-419",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-419",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.3% 8 32.8% 8 34.3% 19 11 39.6x 9.3x 18 3.3x 0.4x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-420",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-420",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.6% 11 15.5% 10 25.8% 4 9 31.7x -2.7x 2 3.1x -0.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-421",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-421",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.9% 6 32.9% 3 42.4% 11 9 57.2x 19.4x 11 4.6x 1.1x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-422",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-422",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: -1.4% 9 16.0% 9 16.2% 3 4 36.2x 15.4x 10 2.4x 0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-423",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-175-423",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 0.1% 3 7.4% 1 19.4% 3 1 16.8x 0.6x 1 2.3x 0.3x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-424",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-424",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -2.4% 18 15.7% 19 30.0% 22 21 28.4x 9.1x 18 2.8x 0.9x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-425",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-425",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -0.7% 1 11.4% 6 15.9% 2 4 22.8x 1.0x 2 3.2x 0.6x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-426",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-426",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -1.1% 4 11.6% 7 38.5% 11 9 31.6x 12.0x 11 3.7x 1.3x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-427",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-427",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: -1.5% 12.8% 26.1% 19 27.7x 7.6x 3.2x 1.0x 2.0% 0.1% 4.1% 2.4%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-428",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-176-428",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -14.2% 10 11.9% 6 12.7% 4 4 13.9x -4.3x 8 1.8x 0.0x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-429",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-429",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -4.2% 8 4.0% 4 26.2% 9 7 16.9x -3.8x 9 1.8x -0.2x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-430",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-430",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -3.5% 3 24.7% 10 18.5% 5 9 15.6x -4.9x 7 1.4x -0.5x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-431",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-431",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: -3.3% 8 23.9% 9 32.5% 10 11 14.8x -11.4x 2 1.3x -1.0x",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-432",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-432",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: -3.4% 11.9% 20.1% 19 13.9x -5.1x 1.6x -0.3x 3.6% 0.8% 4.1% 0.2%",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-433",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_The SMid View - Current events mean downside… the question is how much and for how long.pdf-177-433",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Fuel_for_thought_Sunday_Tea_with_BNP_Paribas--920123",
+      "document": "Sunday_Tea_with_BNPP_Fuel_for_thought_Sunday_Tea_with_BNP_Paribas--920123.pdf",
+      "date": "2026-03-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -0.8 -0.7 -0.6 -0.5 -0.4 -0.3 -0.2 -0.1 0.0 0.1 Q1 Q2",
+          "chunk_id": "Sunday_Tea_with_BNPP_Fuel_for_thought_Sunday_Tea_with_BNP_Paribas--920123.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 20 40 60 80 -7 -6 -5 -4 -3 -2 -1",
+          "chunk_id": "Sunday_Tea_with_BNPP_Fuel_for_thought_Sunday_Tea_with_BNP_Paribas--920123.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 -7 -6 -5 -4 -3",
+          "chunk_id": "Sunday_Tea_with_BNPP_Fuel_for_thought_Sunday_Tea_with_BNP_Paribas--920123.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

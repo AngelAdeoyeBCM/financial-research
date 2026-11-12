@@ -1,0 +1,71 @@
+version: "1"
+
+# Structured claim task: run on one claim span at a time, not on a whole document.
+# Field keys are the output keys. Defaults are merged into each field with `<<`;
+# allow_none is true because a claim span usually omits most slots.
+x-single: &single
+  dtype: str
+  allow_multiple: false
+  allow_none: true
+  status: active
+
+id: claim_view
+type: structured
+name: view
+mode: anchor
+
+fields:
+  subject:
+    <<: *single
+    name: Subject
+    description: "The instrument, market, indicator, or theme the view is about, as written."
+
+  direction:
+    <<: *single
+    name: Direction
+    description: "Expected movement of the subject as written. Do not invert for yields or spreads."
+    choices: [up, down, flat, range_bound, volatile, mixed]
+
+  stance:
+    <<: *single
+    name: Stance
+    description: "The attitude the author takes toward holding the subject."
+    choices: [bullish, bearish, neutral, overweight, underweight]
+
+  conviction:
+    <<: *single
+    name: Conviction
+    description: "Strength of belief signalled by the wording, such as 'strongly' or 'tentatively'."
+    choices: [low, medium, high]
+
+  horizon:
+    <<: *single
+    name: Horizon
+    description: "The time frame the view applies to, as written."
+
+  view_kind:
+    <<: *single
+    name: View kind
+    description: "The type of opinion expressed."
+    choices: [directional, relative, risk, policy_stance, sentiment]
+
+  preferred:
+    <<: *single
+    name: Preferred
+    description: "In a relative view, the asset or option favoured."
+
+  disfavoured:
+    <<: *single
+    name: Disfavoured
+    description: "In a relative view, the asset or option shunned."
+
+  rationale:
+    <<: *single
+    name: Rationale
+    description: "The reason or driver the author gives for the view."
+
+  attribution:
+    <<: *single
+    name: Attribution
+    description: "Whose view it is: the author, another named source, consensus, or market pricing."
+    choices: [author, third_party, consensus, market_implied]

@@ -1,0 +1,241 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Close_long_EURGBP_for_a_small_gain_Trade_Idea--924513.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-19",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 4,
+     "claim": 2
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 5
+    },
+    "leave_reasons": {
+     "relative": 1,
+     "expletive": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 17,
+  "kinds": {
+   "deixis": 9,
+   "noun_phrase": 4,
+   "proposition": 2,
+   "demonstrative": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.9215686274509803,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 10,
+  "cost_usd": 0.0877
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 51,
+   "end": 77,
+   "quote": "the long EURGBP spot trade",
+   "name": "the long EURGBP spot trade"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 263,
+   "end": 309,
+   "quote": "limited UK political risk premium in the cross",
+   "name": "the limited UK political risk premium in the cross"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 384,
+   "end": 422,
+   "quote": "the Labour party’s leadership changing",
+   "name": "the Labour party’s leadership changing"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 576,
+   "end": 588,
+   "quote": "Andy Burnham",
+   "name": "Andy Burnham"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 700,
+   "end": 848,
+   "quote": "Burnham on Monday ruled out any changes to the existing fiscal rules as well as an exemption for defence spending that he had previously put forward",
+   "name": "Burnham on Monday ruled out any changes to the existing fiscal rules as well as an exemption for defence spending that he had previously put forward"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 42,
+   "end": 105,
+   "quote": "We close the long EURGBP spot trade that was initiated on 6 May",
+   "name": "We close the long EURGBP spot trade that was initiated on 6 May"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 42"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we deem' at 1123"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 865",
+   "message": "+27 words: {{this => that Burnham on Monday ruled out any changes to the existing fiscal rules as well as an exemption for defence spending that Andy Burnham had previously put forward}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0251467,
+   "duration_ms": 2410,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2872,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 67,
+    "output_tokens_details": {
+     "thinking_tokens": 54
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2872,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 67,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2872,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2872
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.06252110000000001,
+   "duration_ms": 16254,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3130,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1822,
+    "output_tokens_details": {
+     "thinking_tokens": 1105
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3130,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1822,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3130,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3130
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

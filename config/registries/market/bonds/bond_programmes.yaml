@@ -1,0 +1,84 @@
+# Bond programmes: one issuer's bonds in one currency and coupon type. Key derived obligor + currency +
+# coupon -> bnd:us_treasury.USD.nominal. obligor_id is an issuer organization (config/registries/
+# organization): a sovereign issuer, sub-sovereign, agency or supranational; whether a programme is
+# sovereign, and its country, come from the issuer. coupon: nominal (default) | linker | floater.
+# EGBs and dim sum bonds are left out: many issuers. Hand-maintained.
+
+- {obligor_id: us_treasury, currency_id: USD, name: US Treasuries}
+- {obligor_id: us_treasury, currency_id: USD, coupon: linker, name: TIPS}
+- {obligor_id: de_finanzagentur, currency_id: EUR, name: Bunds}
+- {obligor_id: fr_aft, currency_id: EUR, name: OATs}
+- {obligor_id: it_tesoro, currency_id: EUR, name: BTPs}
+- {obligor_id: es_tesoro, currency_id: EUR, name: SPGBs}
+- {obligor_id: nl_dsta, currency_id: EUR, name: DSLs}
+- {obligor_id: be_debt_agency, currency_id: EUR, name: OLOs}
+- {obligor_id: at_oebfa, currency_id: EUR, name: RAGBs}
+- {obligor_id: pt_igcp, currency_id: EUR, name: PGBs}
+- {obligor_id: fi_treasury, currency_id: EUR, name: RFGBs}
+- {obligor_id: ie_ntma, currency_id: EUR, name: IRISH}
+- {obligor_id: gr_pdma, currency_id: EUR, name: GGBs}
+- {obligor_id: european_commission, currency_id: EUR, name: EU bonds}
+- {obligor_id: uk_dmo, currency_id: GBP, name: Gilts}
+- {obligor_id: uk_dmo, currency_id: GBP, coupon: linker, name: Index-linked gilts}
+- {obligor_id: jp_mof, currency_id: JPY, name: JGBs}
+- {obligor_id: ch_ffa, currency_id: CHF, name: Swiss government bonds}
+- {obligor_id: ca_finance, currency_id: CAD, name: Canada government bonds}
+- {obligor_id: au_aofm, currency_id: AUD, name: ACGBs}
+- {obligor_id: nz_dmo, currency_id: NZD, name: NZGBs}
+- {obligor_id: se_riksgalden, currency_id: SEK, name: SGBs}
+- {obligor_id: no_mof, currency_id: NOK, name: NGBs}
+- {obligor_id: cn_mof, currency_id: CNY, name: CGBs}
+- {obligor_id: hk_government, currency_id: HKD, name: HKGBs}
+- {obligor_id: kr_moef, currency_id: KRW, name: KTBs}
+- {obligor_id: tw_mof, currency_id: TWD, name: Taiwan government bonds}
+- {obligor_id: in_mof, currency_id: INR, name: IGBs}
+- {obligor_id: id_mof, currency_id: IDR, name: IndoGBs}
+- {obligor_id: my_mof, currency_id: MYR, name: MGS}
+- {obligor_id: ph_btr, currency_id: PHP, name: RPGBs}
+- {obligor_id: sg_government, currency_id: SGD, name: SGS}
+- {obligor_id: th_pdmo, currency_id: THB, name: Thai government bonds}
+- {obligor_id: br_tesouro, currency_id: BRL, name: Brazil government bonds}
+- {obligor_id: br_tesouro, currency_id: BRL, coupon: linker, name: NTN-B}
+- {obligor_id: mx_shcp, currency_id: MXN, name: Mbonos}
+- {obligor_id: cl_tesoreria, currency_id: CLP, name: Chile government bonds}
+- {obligor_id: co_mhcp, currency_id: COP, name: TES}
+- {obligor_id: za_treasury, currency_id: ZAR, name: SAGBs}
+- {obligor_id: tr_treasury, currency_id: TRY, name: TURKGBs}
+- {obligor_id: pl_mof, currency_id: PLN, name: POLGBs}
+- {obligor_id: hu_akk, currency_id: HUF, name: HGBs}
+- {obligor_id: cz_mof, currency_id: CZK, name: CZGBs}
+- {obligor_id: il_mof, currency_id: ILS, name: Israel government bonds}
+- {obligor_id: de_finanzagentur, currency_id: EUR, coupon: linker, name: Bund linkers}
+- {obligor_id: fr_aft, currency_id: EUR, coupon: linker, name: OAT linkers}
+- {obligor_id: it_tesoro, currency_id: EUR, coupon: linker, name: BTP linkers}
+- {obligor_id: es_tesoro, currency_id: EUR, coupon: linker, name: SPGB linkers}
+- {obligor_id: au_aofm, currency_id: AUD, coupon: linker, name: ACGB linkers}
+- {obligor_id: jp_mof, currency_id: JPY, coupon: linker, name: JGB linkers}
+- {obligor_id: ca_finance, currency_id: CAD, coupon: linker, name: Real return bonds}
+- {obligor_id: it_tesoro, currency_id: EUR, coupon: floater, name: CCTeu}
+
+# -- sub-sovereigns, agencies, supranationals ---------------------------------------------------
+- {obligor_id: nrw, currency_id: EUR, name: NRW EUR}
+- {obligor_id: hessen, currency_id: EUR, name: Hessen EUR}
+- {obligor_id: land_berlin, currency_id: EUR, name: Land Berlin EUR}
+- {obligor_id: niedersachsen, currency_id: EUR, name: Niedersachsen EUR}
+- {obligor_id: baden_wuerttemberg, currency_id: EUR, name: Baden-Württemberg EUR}
+- {obligor_id: bayern, currency_id: EUR, name: Bayern EUR}
+- {obligor_id: ontario, currency_id: CAD, name: Ontario CAD}
+- {obligor_id: quebec, currency_id: CAD, name: Quebec CAD}
+- {obligor_id: madrid, currency_id: EUR, name: Comunidad de Madrid EUR}
+- {obligor_id: kfw, currency_id: EUR, name: KfW EUR}
+- {obligor_id: rentenbank, currency_id: EUR, name: Rentenbank EUR}
+- {obligor_id: cades, currency_id: EUR, name: CADES EUR}
+- {obligor_id: unedic, currency_id: EUR, name: UNEDIC EUR}
+- {obligor_id: afd, currency_id: EUR, name: AFD EUR}
+- {obligor_id: bng, currency_id: EUR, name: BNG EUR}
+- {obligor_id: nwb, currency_id: EUR, name: NWB EUR}
+- {obligor_id: eib, currency_id: EUR, name: EIB EUR}
+- {obligor_id: esm, currency_id: EUR, name: ESM EUR}
+- {obligor_id: efsf, currency_id: EUR, name: EFSF EUR}
+- {obligor_id: world_bank, currency_id: USD, name: World Bank USD}
+- {obligor_id: adb, currency_id: USD, name: ADB USD}
+- {obligor_id: iadb, currency_id: USD, name: IADB USD}
+- {obligor_id: afdb, currency_id: USD, name: AfDB USD}
+- {obligor_id: ebrd, currency_id: USD, name: EBRD USD}

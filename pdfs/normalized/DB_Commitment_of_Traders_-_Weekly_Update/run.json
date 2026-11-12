@@ -1,0 +1,260 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Commitment_of_Traders_-_Weekly_Update.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-03",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 6,
+    "referents": {
+     "thing": 6
+    },
+    "decisions": {
+     "link": 6
+    },
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 6,
+  "kinds": {
+   "noun_phrase": 3,
+   "possessive": 2,
+   "pronoun": 1
+  },
+  "rooted_share": 1.0,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 17,
+  "cost_usd": 0.1449
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 211,
+   "end": 397,
+   "quote": "asset managers decreasing US contract exposure by $1 4.8 million in DV01, now at the lowest exposure in US since April 2024, while increasing exposures in the 5 to 10-year sectors and WN",
+   "name": "asset managers decreasing US contract exposure while increasing exposures in the 5 to 10-year sectors and WN"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 495,
+   "end": 510,
+   "quote": "Leveraged funds",
+   "name": "leveraged funds"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1017,
+   "end": 1031,
+   "quote": "Asset managers",
+   "name": "asset managers"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2011,
+   "end": 2024,
+   "quote": "daily reports",
+   "name": "the daily reports"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2218,
+   "end": 2234,
+   "quote": "a reporting firm",
+   "name": "the reporting firm"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2,
+   "end": 39,
+   "quote": "Commitment of Traders - Weekly Update",
+   "name": "the Commitment of Traders Weekly Update"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 6",
+   "message": "'its' in 'Commodity Futures Trading Commission in its weekly Commitments of Traders Reports.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E009",
+      "phrase": "The report",
+      "occurrence": 1,
+      "referent": "R6"
+     },
+     "reason": "E009 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.034026200000000006,
+   "duration_ms": 3330,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3837,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 120,
+    "output_tokens_details": {
+     "thinking_tokens": 107
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3837,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 120,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3837,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3837
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.07385860000000001,
+   "duration_ms": 17789,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4090,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2000,
+    "output_tokens_details": {
+     "thinking_tokens": 1338
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4090,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2000,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4090,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4090
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0370636,
+   "duration_ms": 2126,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4348,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 73,
+    "output_tokens_details": {
+     "thinking_tokens": 46
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4348,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 73,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4348,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4348
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

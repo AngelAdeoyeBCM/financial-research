@@ -1,0 +1,192 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Perspectives_-_Reaping_the_productivity_gains_from_prior_labor_market_tightness.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "link": 5,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "time": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 6,
+   "noun_phrase": 4,
+   "possessive": 1
+  },
+  "rooted_share": 0.7647058823529411,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 28,
+  "cost_usd": 0.0971
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 241,
+   "end": 270,
+   "quote": "a sustained productivity boom",
+   "name": "the sustained productivity boom"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 378,
+   "end": 447,
+   "quote": "productivity advanced at 4.1% and 4.9% annualized in Q 2 and Q 3 2025",
+   "name": "productivity at 4.1% and 4.9% annualized in Q 2 and Q 3 2025"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1218,
+   "end": 1278,
+   "quote": "the stable relationship between wage growth and productivity",
+   "name": "the relationship between wage growth and productivity"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3698,
+   "end": 3717,
+   "quote": "Fed Chair Greenspan",
+   "name": "Fed Chair Greenspan"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.034874,
+   "duration_ms": 3472,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3690,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 222,
+    "output_tokens_details": {
+     "thinking_tokens": 209
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3690,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 222,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3690,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3690
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0622702,
+   "duration_ms": 14200,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3921,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1489,
+    "output_tokens_details": {
+     "thinking_tokens": 986
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3921,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1489,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3921,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3921
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

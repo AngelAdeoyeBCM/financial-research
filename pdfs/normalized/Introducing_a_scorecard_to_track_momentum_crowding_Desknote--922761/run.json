@@ -1,0 +1,663 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Introducing_a_scorecard_to_track_momentum_crowding_Desknote--922761.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-22",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 78,
+    "referents": {
+     "thing": 21,
+     "claim": 7
+    },
+    "decisions": {
+     "link": 58,
+     "leave": 20
+    },
+    "leave_reasons": {
+     "not_a_reference": 9,
+     "generic": 9,
+     "relative": 2
+    },
+    "extra": 15,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 104,
+  "kinds": {
+   "noun_phrase": 27,
+   "deixis": 20,
+   "pronoun": 20,
+   "possessive": 15,
+   "symbol": 9,
+   "shell": 6,
+   "demonstrative": 3,
+   "vp": 2,
+   "proposition": 2
+  },
+  "rooted_share": 0.9505494505494505,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 12,
+   "LONG_RESOLUTION": 3,
+   "UNRESOLVED_PRONOUN": 7
+  },
+  "sentences": 143,
+  "cost_usd": 0.3863
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 253,
+   "end": 306,
+   "quote": "a four-indicator scorecard for the US momentum factor",
+   "name": "the four-indicator scorecard for the US momentum factor"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 684,
+   "end": 740,
+   "quote": "the valuation spread between momentum winners and losers",
+   "name": "the valuation spread between momentum winners and losers"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3877,
+   "end": 3909,
+   "quote": "The deviation from 3-years trend",
+   "name": "the deviation from 3-years trend"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1253,
+   "end": 1282,
+   "quote": "crowding in financial markets",
+   "name": "crowding in financial markets"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 284,
+   "end": 306,
+   "quote": "the US momentum factor",
+   "name": "the US momentum factor"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2116,
+   "end": 2170,
+   "quote": "It is a purely price-based and self-referential signal",
+   "name": "It is a purely price-based and self-referential signal"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 3095,
+   "end": 3195,
+   "quote": "A framework that relies on a single indicator will be either too slow to warn or too noisy to act on",
+   "name": "A framework that relies on a single indicator will be either too slow to warn or too noisy to act on"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3368,
+   "end": 3434,
+   "quote": "The price-based crowdedness indicator and the average implied skew",
+   "name": "the price-based crowdedness indicator and the average implied skew"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4134,
+   "end": 4169,
+   "quote": "The current scorecard configuration",
+   "name": "the current scorecard configuration"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 3197,
+   "end": 3216,
+   "quote": "The four indicators",
+   "name": "the four indicators"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 5491,
+   "end": 5503,
+   "quote": "the long leg",
+   "name": "the long leg"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 7326,
+   "end": 7368,
+   "quote": "The current configuration of the scorecard",
+   "name": "the current configuration of the scorecard"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 9136,
+   "end": 9187,
+   "quote": "the S&P 500 and four Dow Jones equity style factors",
+   "name": "the S&P 500 and four Dow Jones equity style factors"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 9354,
+   "end": 9366,
+   "quote": "the residual",
+   "name": "the residual"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 9427,
+   "end": 9512,
+   "quote": "the average pairwise correlation of these residuals across all holdings in the basket",
+   "name": "the average pairwise correlation of these residuals across all holdings in the basket"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 10009,
+   "end": 10099,
+   "quote": "a rise in residual co-movement that cannot be explained by market or factor dynamics alone",
+   "name": "the rise in residual co-movement that cannot be explained by market or factor dynamics alone"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 8591,
+   "end": 8623,
+   "quote": "a price-based proxy for crowding",
+   "name": "the price-based proxy for crowding"
+  },
+  {
+   "id": "R21",
+   "type": "claim",
+   "start": 10925,
+   "end": 10985,
+   "quote": "average three-month forward returns turn materially negative",
+   "name": "average three-month forward returns turn materially negative"
+  },
+  {
+   "id": "R22",
+   "type": "claim",
+   "start": 10806,
+   "end": 10851,
+   "quote": "The picture changes sharply in the top decile",
+   "name": "The picture changes sharply in the top decile"
+  },
+  {
+   "id": "R23",
+   "type": "claim",
+   "start": 12354,
+   "end": 12504,
+   "quote": "The upside skew is constructed as the spread between the three-month implied volatility at a 120% strike and the at-the-money (ATM) implied volatility",
+   "name": "The upside skew is constructed as the spread between the three-month implied volatility at a 120% strike and the at-the-money (ATM) implied volatility"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 12771,
+   "end": 12788,
+   "quote": "The downside skew",
+   "name": "the downside skew"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 13121,
+   "end": 13162,
+   "quote": "a single composite implied skewness score",
+   "name": "the single composite implied skewness score"
+  },
+  {
+   "id": "R26",
+   "type": "claim",
+   "start": 14003,
+   "end": 14063,
+   "quote": "the deterioration in forward momentum returns begins earlier",
+   "name": "the deterioration in forward momentum returns begins earlier"
+  },
+  {
+   "id": "R27",
+   "type": "claim",
+   "start": 16486,
+   "end": 16575,
+   "quote": "persistent inflows push winners’ valuations higher, detached from fundamental improvement",
+   "name": "persistent inflows push winners’ valuations higher, detached from fundamental improvement"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 17429,
+   "end": 17467,
+   "quote": "a three-dimensional crowding framework",
+   "name": "the three-dimensional crowding framework"
+  },
+  {
+   "id": "R29",
+   "type": "thing",
+   "start": 18350,
+   "end": 18417,
+   "quote": "a linear trend over the preceding three years of the BNPFMOM1 Index",
+   "name": "the linear trend over the preceding three years of the BNPFMOM1 Index"
+  },
+  {
+   "id": "R31",
+   "type": "thing",
+   "start": 18662,
+   "end": 18766,
+   "quote": "a clear and monotonic relationship between the deviation score and subsequent one-month momentum returns",
+   "name": "the clear and monotonic relationship between the deviation score and subsequent one-month momentum returns"
+  },
+  {
+   "id": "R32",
+   "type": "thing",
+   "start": 577,
+   "end": 595,
+   "quote": "the momentum trade",
+   "name": "the momentum trade"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C029",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C041",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C045",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C046",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C056",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C057",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C061",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C063",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C064",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C072",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C073",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we present' at 242"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we seek' at 8935"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we run' at 9079"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We then' at 9411"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we ran' at 10377"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we decompose' at 12263"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We construct' at 15286"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we retrieve' at 15330"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We compute' at 15440"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We z' at 15727"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We compute' at 18277"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we fit' at 18343"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3239",
+   "message": "+22 words: {{this limitation => the limitation that a framework that relies on a single indicator will be either too slow to warn or too noisy to act on}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 6386",
+   "message": "+22 words: {{this limitation => the limitation that a framework that relies on a single indicator will be either too slow to warn or too noisy to act on}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 12797",
+   "message": "+26 words: {{this logic => the logic that the upside skew is constructed as the spread between the three-month implied volatility at a 120% strike and the at-the-money (ATM) implied volatility}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'At its core, crowding in financial markets occ'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'nforcing: as a factor attracts inflows, its constituent stocks are bid upward, perf'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 10",
+   "message": "'their' in 'ers start to behave more in unison than their fundamentals would otherwise justify.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 10",
+   "message": "'its' in 'investors express growing conviction in its continuation through the options market'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 10",
+   "message": "'its' in ' factor’s price level has deviated from its own recent trend.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 10",
+   "message": "'its' in 'r becomes crowded, capital inflows push its price above its fundamental trajectory,'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 10",
+   "message": "'its' in 'd, capital inflows push its price above its fundamental trajectory, generating a de'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.08789179999999999,
+   "duration_ms": 7383,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9033,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 709,
+    "output_tokens_details": {
+     "thinking_tokens": 519
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9033,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 709,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 9033,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9033
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.2983984,
+   "duration_ms": 79114,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 11853,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 10083,
+    "output_tokens_details": {
+     "thinking_tokens": 5428
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 11853,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 10083,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 11853,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 11853
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

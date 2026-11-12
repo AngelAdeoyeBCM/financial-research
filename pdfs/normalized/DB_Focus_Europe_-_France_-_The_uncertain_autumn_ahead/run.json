@@ -1,0 +1,298 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Focus_Europe_-_France_-_The_uncertain_autumn_ahead.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 19,
+    "referents": {
+     "thing": 8,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 14,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "time": 2,
+     "relative": 3
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 27,
+  "kinds": {
+   "deixis": 8,
+   "pronoun": 6,
+   "noun_phrase": 5,
+   "possessive": 4,
+   "proposition": 2,
+   "shell": 1,
+   "vp": 1
+  },
+  "rooted_share": 0.8333333333333334,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNGROUNDED_WORD": 1
+  },
+  "sentences": 70,
+  "cost_usd": 0.1617
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 807,
+   "end": 813,
+   "quote": "the RN",
+   "name": "the RN"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 3336,
+   "end": 3358,
+   "quote": "any moderate overshoot",
+   "name": "any moderate overshoot"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3863,
+   "end": 3881,
+   "quote": "debt stabilisation",
+   "name": "debt stabilisation"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4632,
+   "end": 4637,
+   "quote": "Italy",
+   "name": "Italy"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 5389,
+   "end": 5438,
+   "quote": "a potential deficit target of 4.9% of GDP in 2027",
+   "name": "the potential deficit target of 4.9% of GDP in 2027"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 5847,
+   "end": 5915,
+   "quote": "the RN has incentives of its own to avoid a prolonged fiscal impasse",
+   "name": "the RN has incentives of its own to avoid a prolonged fiscal impasse"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 6725,
+   "end": 6812,
+   "quote": "the party could remain critical while ultimately declining to bring down the government",
+   "name": "the party could remain critical while ultimately declining to bring down the government"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 7307,
+   "end": 7399,
+   "quote": "the LFI candidate’s median score exceeds that of the Renew candidate in the right-hand chart",
+   "name": "the LFI candidate’s median score exceeds that of the Renew candidate in the right-hand chart"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 9211,
+   "end": 9232,
+   "quote": "PS and Place Publique",
+   "name": "PS and Place Publique"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4872,
+   "end": 4887,
+   "quote": "the 2027 budget",
+   "name": "the 2027 budget"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5917,
+   "end": 5943,
+   "quote": "Another special law regime",
+   "name": "another special law regime"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We summarize' at 8109"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 950",
+   "message": "not verbatim in source: ['discusses'] in {{we discuss => the author discusses}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0545409,
+   "duration_ms": 5427,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5609,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 428,
+    "output_tokens_details": {
+     "thinking_tokens": 331
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5609,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 428,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5609,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5609
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10714610000000001,
+   "duration_ms": 22881,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6350,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2749,
+    "output_tokens_details": {
+     "thinking_tokens": 1481
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6350,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2749,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6350,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6350
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

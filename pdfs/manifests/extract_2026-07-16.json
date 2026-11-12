@@ -1,0 +1,400 @@
+{
+  "batch_id": "2026-07-16",
+  "window": [
+    "2026-07-16",
+    "2026-07-16"
+  ],
+  "generated_at": "2026-10-29T16:30:34",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 80
+    }
+  ],
+  "counts": {
+    "documents": 8,
+    "in_scope": 7,
+    "out_of_scope": 1,
+    "compiled": 4,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 15,
+    "edits": 28,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Carry_Returns__Value_Remains",
+      "document": "Carry Returns, Value Remains.pdf",
+      "date": "2026-07-16",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "China_Faster_execution_of_stimulus_ahead_Desknote--928276",
+      "document": "China_Faster_execution_of_stimulus_ahead_Desknote--928276.pdf",
+      "date": "2026-07-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 22,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.526,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Close_TWD_1s5s_steepener_for_a_small_gain_Trade_Idea--928275",
+      "document": "EM_rates_Close_TWD_1s5s_steepener_for_a_small_gain_Trade_Idea--928275.pdf",
+      "date": "2026-07-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Close_TWD_1s5s_steepener_for_a_small_gain_Trade_Idea--928275.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "c86403e9f931797db51b7a72710640b5de1e1d6f",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Sources: Bloomberg, Macrobond, BNP Paribas'",
+          "chunk_id": "EM_rates_Close_TWD_1s5s_steepener_for_a_small_gain_Trade_Idea--928275.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " EM rates: Close TWD 1s5s steepener for a small gain ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Closing_flattener_leg_of_our_HUF_trade_Trade_Idea--928315",
+      "document": "EM_rates_Closing_flattener_leg_of_our_HUF_trade_Trade_Idea--928315.pdf",
+      "date": "2026-07-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Closing_flattener_leg_of_our_HUF_trade_Trade_Idea--928315.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "e5477da353290c5c2aaeec2c736b2611c8c5b480",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA T R A D E I D E A 16/07/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Closing flattener leg of our HUF trade ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Closing_paid_KRW_1s3s10s_fly_add_tactical_receiver_Trade_Idea--928274",
+      "document": "EM_rates_Closing_paid_KRW_1s3s10s_fly_add_tactical_receiver_Trade_Idea--928274.pdf",
+      "date": "2026-07-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Closing_paid_KRW_1s3s10s_fly_add_tactical_receiver_Trade_Idea--928274.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "532ecd1a47cb0d5b903b1d46b5ba20fa5fea9fd0",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 16/07/2026 1"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1
+      },
+      "edits": {
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Closing paid KRW 1s3s10s fly; add tactical receiver ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "FX_Closing_short_EURINR_Trade_Idea--928279",
+      "document": "FX_Closing_short_EURINR_Trade_Idea--928279.pdf",
+      "date": "2026-07-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Closing_short_EURINR_Trade_Idea--928279.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "5e3fc279cbfda33a77e7068c13ebc91b75c1e2b4",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: EURINR has risen with higher oil prices Fig. 2: BNP Paribas Global FX Positioning Tracker So'",
+          "chunk_id": "FX_Closing_short_EURINR_Trade_Idea--928279.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "a s a s Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "R I B A S"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "A L M A R K"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "the BNP Paribas Global FX Positioning Tracker"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "the BNP Paribas Global FX Positioning Tracker"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "the BNP Paribas Global FX Positioning"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "BNP Paribas Global FX Positioning Tracker"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1,
+        "footer": 4
+      },
+      "edits": {
+        "split_word": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "again st",
+              "after": "against"
+            },
+            {
+              "before": "appear s",
+              "after": "appears"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 11,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Closing short EURINR ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 4,
+          "examples": [
+            {
+              "before": "(1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "(2) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "(3) ",
+              "after": "\n3. "
+            },
+            {
+              "before": "(4) ",
+              "after": "\n4. "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "US_rates_The_bellyweight_champion_Trade_Idea--928339",
+      "document": "US_rates_The_bellyweight_champion_Trade_Idea--928339.pdf",
+      "date": "2026-07-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

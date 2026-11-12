@@ -1,0 +1,23 @@
+[
+  {
+    "code": "EVIDENCE_NOT_VERBATIM",
+    "severity": "error",
+    "path": "$.evidence[28].text",
+    "message": "E029 is not a substring of the source.",
+    "suggested_action": "Copy the span exactly from the document; only whitespace may differ."
+  },
+  {
+    "code": "EVIDENCE_NOT_VERBATIM",
+    "severity": "error",
+    "path": "$.evidence[48].text",
+    "message": "E049 is not a substring of the source.",
+    "suggested_action": "Copy the span exactly from the document; only whitespace may differ."
+  },
+  {
+    "code": "EVIDENCE_UNUSED",
+    "severity": "warning",
+    "path": "$.evidence[36]",
+    "message": "E037 is not referenced by any statement.",
+    "suggested_action": "Attach the span to a statement, or remove it if no claim uses it."
+  }
+]

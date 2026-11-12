@@ -1,0 +1,209 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Close_short_CNHTWD_Trade_Idea--925954.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-09",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 5,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 4
+    },
+    "leave_reasons": {},
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 19,
+  "kinds": {
+   "deixis": 11,
+   "noun_phrase": 4,
+   "possessive": 2,
+   "demonstrative": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.75,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 17,
+  "cost_usd": 0.0807
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 708,
+   "end": 725,
+   "quote": "several headwinds",
+   "name": "the several headwinds"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 878,
+   "end": 995,
+   "quote": "These sparked a correction in tech equities, triggering outflows from TWSE stocks and adding pressure on the currency",
+   "name": "These sparked a correction in tech equities, triggering outflows from TWSE stocks and adding pressure on the currency"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1011,
+   "end": 1018,
+   "quote": "the TWD",
+   "name": "the TWD"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1201,
+   "end": 1208,
+   "quote": "the CNH",
+   "name": "the CNH"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 91,
+   "end": 112,
+   "quote": "Tactical short CNHTWD",
+   "name": "the Tactical short CNHTWD"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 87,
+   "end": 112,
+   "quote": "FX: Tactical short CNHTWD",
+   "name": "FX: Tactical short CNHTWD"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 47"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.025748200000000002,
+   "duration_ms": 2563,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2872,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 97,
+    "output_tokens_details": {
+     "thinking_tokens": 84
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2872,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 97,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2872,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2872
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.054910799999999996,
+   "duration_ms": 13461,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3012,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1482,
+    "output_tokens_details": {
+     "thinking_tokens": 890
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3012,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1482,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3012,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3012
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

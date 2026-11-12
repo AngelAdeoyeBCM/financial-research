@@ -1,0 +1,264 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-05-10.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-10",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "claim": 1,
+     "thing": 7
+    },
+    "decisions": {
+     "link": 7,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "time": 2,
+     "not_a_reference": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 24,
+  "kinds": {
+   "deixis": 9,
+   "symbol": 5,
+   "noun_phrase": 4,
+   "possessive": 4,
+   "proposition": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.7906976744186046,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 24,
+  "cost_usd": 0.1311
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 5292,
+   "end": 5331,
+   "quote": "Easter fell in the first week of Apri l",
+   "name": "Easter fell in the first week of Apri l"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 5570,
+   "end": 5597,
+   "quote": "lowered our growth forecast",
+   "name": "the lowered growth forecast"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 6495,
+   "end": 6521,
+   "quote": "Treasury Secretary Bessent",
+   "name": "Treasury Secretary Bessent"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 6996,
+   "end": 7050,
+   "quote": "limited, but potentially more achievable, deliverables",
+   "name": "the limited, but potentially more achievable, deliverables"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 7440,
+   "end": 7453,
+   "quote": "Fed officials",
+   "name": "Fed officials"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 7604,
+   "end": 7606,
+   "quote": "US",
+   "name": "the US"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 6300,
+   "end": 6359,
+   "quote": "President Trump’s meeting with Chinese President Xi Jinping",
+   "name": "President Trump’s meeting with Chinese President Xi Jinping"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 7562,
+   "end": 7582,
+   "quote": "the Strait of Hormuz",
+   "name": "the Strait of Hormuz"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "He",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in ' will be looking for any refinements of their views considering the new labor and inf'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'his' in 'l stay on as a Governor past the end of his term as Chair.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'He' in \"sent's Chinese counterpart Vice Premier He Lifeng have held talks in advance of th\""
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.046843800000000005,
+   "duration_ms": 3836,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5143,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 232,
+    "output_tokens_details": {
+     "thinking_tokens": 224
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5143,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 232,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5143,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5143
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0842294,
+   "duration_ms": 16670,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5573,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1918,
+    "output_tokens_details": {
+     "thinking_tokens": 1083
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5573,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1918,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5573,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5573
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

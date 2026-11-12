@@ -1,0 +1,84 @@
+# Indicators: measure x geography (geography_id) x basket [x source].
+# IDs: ind:<iso2|ea|global>:<slug>. basket defaults to headline; source is set
+# only for non-official providers (ADP, ISM). Kind comes from the measure.
+# Data releases are indicators (US CPI), not events. Transforms (YoY, SA,
+# 3m annualised) and reference periods (Sep, Q2) are mention-level.
+
+# -- United States ------------------------------------------------------------
+- {type: indicator, entity_id: ind:us:cpi, name: US CPI, measure_id: meas:cpi, frequency: monthly, aliases: [US consumer prices, US headline CPI], geography_id: geo:us, relations: {published_by: [org:bls]}}
+- {type: indicator, entity_id: ind:us:core_cpi, name: US core CPI, measure_id: meas:cpi, basket: core, frequency: monthly, geography_id: geo:us, relations: {published_by: [org:bls]}}
+- {type: indicator, entity_id: ind:us:pce, name: US PCE, measure_id: meas:pce, frequency: monthly, aliases: [US PCE inflation, PCE], geography_id: geo:us, relations: {published_by: [org:bea]}}
+- {type: indicator, entity_id: ind:us:core_pce, name: US core PCE, measure_id: meas:pce, basket: core, frequency: monthly, aliases: [core PCE, core PCE inflation], geography_id: geo:us, relations: {published_by: [org:bea]}}
+- {type: indicator, entity_id: ind:us:ppi, name: US PPI, measure_id: meas:ppi, frequency: monthly, geography_id: geo:us, relations: {published_by: [org:bls]}}
+- {type: indicator, entity_id: ind:us:import_prices, name: US import prices, measure_id: meas:import_prices, frequency: monthly, geography_id: geo:us, relations: {published_by: [org:bls]}}
+- {type: indicator, entity_id: ind:us:payrolls, name: US nonfarm payrolls, measure_id: meas:payrolls, frequency: monthly, aliases: [NFP, US NFP, nonfarm payrolls, non-farm payrolls, US non-farm payrolls, US employment report, US jobs report], geography_id: geo:us, relations: {published_by: [org:bls]}}
+- {type: indicator, entity_id: ind:us:unemployment_rate, name: US unemployment rate, measure_id: meas:unemployment_rate, frequency: monthly, geography_id: geo:us, relations: {published_by: [org:bls]}}
+- {type: indicator, entity_id: ind:us:jobless_claims, name: US jobless claims, measure_id: meas:jobless_claims, frequency: weekly, aliases: [US initial jobless claims, US continuing jobless claims, initial jobless claims, continuing jobless claims], geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:jolts, name: US JOLTS, measure_id: meas:job_openings, frequency: monthly, aliases: [JOLTS, job openings and labor turnover survey], geography_id: geo:us, relations: {published_by: [org:bls]}}
+- {type: indicator, entity_id: ind:us:adp, name: ADP private payrolls, measure_id: meas:payrolls, source: org:adp, frequency: monthly, aliases: [ADP, ADP private employment, ADP employment], geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:ahe, name: US average hourly earnings, measure_id: meas:wages, frequency: monthly, aliases: [average hourly earnings, AHE], geography_id: geo:us, relations: {published_by: [org:bls]}}
+- {type: indicator, entity_id: ind:us:atlanta_fed_wage_tracker, name: Atlanta Fed Wage Tracker, measure_id: meas:wages, source: org:fed, frequency: monthly, geography_id: geo:us, relations: {published_by: [org:fed]}}
+- {type: indicator, entity_id: ind:us:gdp, name: US GDP, measure_id: meas:gdp, frequency: quarterly, aliases: [US real GDP, US GDP third release], geography_id: geo:us, relations: {published_by: [org:bea]}}
+- {type: indicator, entity_id: ind:us:ism_manufacturing, name: ISM manufacturing, measure_id: meas:pmi, basket: manufacturing, source: org:ism, frequency: monthly, aliases: [ISM manufacturing PMI], geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:ism_services, name: ISM services, measure_id: meas:pmi, basket: services, source: org:ism, frequency: monthly, aliases: [ISM services PMI, ISM non-manufacturing], geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:pmi, name: US flash PMI, measure_id: meas:pmi, basket: composite, source: org:sp_global, frequency: monthly, aliases: [S&P Global flash PMIs, S&P Global US PMI, US PMI], geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:retail_sales, name: US retail sales, measure_id: meas:retail_sales, frequency: monthly, geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:durable_goods, name: US durable goods orders, measure_id: meas:durable_goods, frequency: monthly, geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:consumer_spending, name: US consumer spending, measure_id: meas:consumer_spending, frequency: monthly, aliases: [US real consumer spending], geography_id: geo:us, relations: {published_by: [org:bea]}}
+- {type: indicator, entity_id: ind:us:housing_starts, name: US housing starts, measure_id: meas:housing, frequency: monthly, geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:nahb, name: NAHB index, measure_id: meas:housing, source: org:nahb, frequency: monthly, aliases: [NAHB housing market index, NAHB], geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:umich, name: University of Michigan survey, measure_id: meas:consumer_sentiment, frequency: monthly, aliases: [UMich, University of Michigan consumer sentiment, Michigan survey], geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:trade_balance, name: US goods trade balance, measure_id: meas:trade_balance, frequency: monthly, aliases: [US advance goods trade balance, US trade balance], geography_id: geo:us}
+- {type: indicator, entity_id: ind:us:iorb, name: IORB, measure_id: meas:policy_rate, basket: iorb, aliases: [interest on reserve balances], geography_id: geo:us, relations: {published_by: [org:fed]}}
+- {type: indicator, entity_id: ind:us:sloos, name: SLOOS, measure_id: meas:bank_lending, frequency: quarterly, aliases: [Senior Loan Officer Opinion Survey], geography_id: geo:us, relations: {published_by: [org:fed]}}
+
+# -- Euro area ----------------------------------------------------------------
+- {type: indicator, entity_id: ind:ea:hicp, name: Euro area HICP, measure_id: meas:cpi, frequency: monthly, aliases: [Eurozone HICP, EA HICP, EUR HICP, euro area inflation, Euro area HICP flash], geography_id: geo:ea, relations: {published_by: [org:eurostat]}}
+- {type: indicator, entity_id: ind:ea:core_hicp, name: Euro area core HICP, measure_id: meas:cpi, basket: core, frequency: monthly, aliases: [Eurozone core HICP, EA core HICP, core HICP], geography_id: geo:ea, relations: {published_by: [org:eurostat]}}
+- {type: indicator, entity_id: ind:ea:hicpx, name: Euro area HICPx, measure_id: meas:cpi, basket: ex_tobacco, frequency: monthly, aliases: [HICPx, EUR HICPx, HICP ex-tobacco, HICP fixings], geography_id: geo:ea, relations: {published_by: [org:eurostat]}}
+- {type: indicator, entity_id: ind:ea:ces_inflation_expectations, name: ECB CES inflation expectations, measure_id: meas:inflation_expectations, source: org:ecb, frequency: monthly, aliases: [ECB Consumer Expectations Survey, ECB CES], geography_id: geo:ea, relations: {published_by: [org:ecb]}}
+- {type: indicator, entity_id: ind:ea:wage_tracker, name: ECB wage tracker, measure_id: meas:wages, source: org:ecb, aliases: [ECB wage tracker], geography_id: geo:ea, relations: {published_by: [org:ecb]}}
+- {type: indicator, entity_id: ind:ea:gdp, name: Euro area GDP, measure_id: meas:gdp, frequency: quarterly, aliases: [Eurozone GDP, EA GDP], geography_id: geo:ea, relations: {published_by: [org:eurostat]}}
+- {type: indicator, entity_id: ind:ea:pmi, name: Euro area composite PMI, measure_id: meas:pmi, basket: composite, source: org:sp_global, frequency: monthly, aliases: [Eurozone composite PMI, EA PMI, euro area PMI, Eurozone PMI], geography_id: geo:ea}
+- {type: indicator, entity_id: ind:ea:industrial_production, name: Euro area industrial production, measure_id: meas:industrial_production, frequency: monthly, aliases: [EA industrial production, Eurozone industrial production], geography_id: geo:ea, relations: {published_by: [org:eurostat]}}
+- {type: indicator, entity_id: ind:ea:policy_rate, name: ECB deposit rate, measure_id: meas:policy_rate, basket: deposit, aliases: [deposit facility rate, DFR, ECB depo rate, ECB policy rate], geography_id: geo:ea, relations: {published_by: [org:ecb]}}
+- {type: indicator, entity_id: ind:ea:bls, name: ECB Bank Lending Survey, measure_id: meas:bank_lending, frequency: quarterly, aliases: [ECB BLS, euro area bank lending survey], geography_id: geo:ea, relations: {published_by: [org:ecb]}}
+
+# -- Euro-area countries -------------------------------------------------------
+- {type: indicator, entity_id: ind:de:hicp, name: German HICP, measure_id: meas:cpi, frequency: monthly, aliases: [Germany HICP, German CPI, Germany CPI], geography_id: geo:de}
+- {type: indicator, entity_id: ind:de:ifo, name: Ifo business climate, measure_id: meas:business_sentiment, frequency: monthly, aliases: [Ifo index, Ifo survey], geography_id: geo:de, relations: {published_by: [org:ifo]}}
+- {type: indicator, entity_id: ind:fr:cpi, name: French CPI, measure_id: meas:cpi, frequency: monthly, aliases: [France CPI, FR CPI, French HICP], geography_id: geo:fr}
+- {type: indicator, entity_id: ind:fr:gdp, name: French GDP, measure_id: meas:gdp, frequency: quarterly, aliases: [France GDP], geography_id: geo:fr}
+- {type: indicator, entity_id: ind:es:hicp, name: Spain HICP, measure_id: meas:cpi, frequency: monthly, aliases: [Spanish CPI, Spain CPI, Spanish HICP], geography_id: geo:es}
+
+# -- United Kingdom -----------------------------------------------------------
+- {type: indicator, entity_id: ind:gb:cpi, name: UK CPI, measure_id: meas:cpi, frequency: monthly, aliases: [UK inflation], geography_id: geo:gb, relations: {published_by: [org:ons]}}
+- {type: indicator, entity_id: ind:gb:rpi, name: UK RPI, measure_id: meas:rpi, frequency: monthly, geography_id: geo:gb, relations: {published_by: [org:ons]}}
+- {type: indicator, entity_id: ind:gb:shop_prices, name: BRC Shop Price Index, measure_id: meas:shop_prices, frequency: monthly, aliases: [BRC shop prices], geography_id: geo:gb}
+- {type: indicator, entity_id: ind:gb:paye_rti, name: HMRC PAYE RTI payrolls, measure_id: meas:payrolls, frequency: monthly, aliases: [HMRC PAYE RTI data, PAYE RTI, PAYE payrolls], geography_id: geo:gb, relations: {published_by: [org:hmrc]}}
+- {type: indicator, entity_id: ind:gb:lfs, name: Labour Force Survey, measure_id: meas:unemployment_rate, frequency: monthly, aliases: [LFS, UK unemployment rate], geography_id: geo:gb, relations: {published_by: [org:ons]}}
+- {type: indicator, entity_id: ind:gb:productivity, name: UK productivity, measure_id: meas:productivity, frequency: quarterly, aliases: [UK productivity (PAYE)], geography_id: geo:gb, relations: {published_by: [org:ons]}}
+- {type: indicator, entity_id: ind:gb:bics, name: ONS BICS, measure_id: meas:business_sentiment, frequency: monthly, aliases: [Business Insights and Conditions Survey, BICS], geography_id: geo:gb, relations: {published_by: [org:ons]}}
+- {type: indicator, entity_id: ind:gb:consumer_credit, name: UK consumer credit, measure_id: meas:consumer_credit, frequency: monthly, aliases: [UK consumer credit data], geography_id: geo:gb, relations: {published_by: [org:boe]}}
+- {type: indicator, entity_id: ind:gb:policy_rate, name: Bank Rate, measure_id: meas:policy_rate, aliases: [BoE Bank Rate, UK Bank Rate], geography_id: geo:gb, relations: {published_by: [org:boe]}}
+- {type: indicator, entity_id: ind:gb:cgncr, name: CGNCR, measure_id: meas:borrowing_requirement, frequency: annual, aliases: [Central Government Net Cash Requirement], geography_id: geo:gb}
+
+# -- Other DM -----------------------------------------------------------------
+- {type: indicator, entity_id: ind:jp:cpi, name: Japan CPI, measure_id: meas:cpi, frequency: monthly, aliases: [Tokyo CPI], geography_id: geo:jp}
+- {type: indicator, entity_id: ind:jp:core_cpi, name: Japan core CPI, measure_id: meas:cpi, basket: core, frequency: monthly, geography_id: geo:jp}
+- {type: indicator, entity_id: ind:jp:tankan, name: Tankan, measure_id: meas:business_sentiment, frequency: quarterly, aliases: [BoJ Tankan], geography_id: geo:jp, relations: {published_by: [org:boj]}}
+- {type: indicator, entity_id: ind:ca:cpi, name: Canada CPI, measure_id: meas:cpi, frequency: monthly, aliases: [Canadian CPI], geography_id: geo:ca}
+- {type: indicator, entity_id: ind:au:cpi, name: Australia CPI, measure_id: meas:cpi, frequency: quarterly, aliases: [Australian CPI, Australia monthly CPI], geography_id: geo:au}
+- {type: indicator, entity_id: ind:au:labour_force, name: Australia labour force, measure_id: meas:unemployment_rate, frequency: monthly, aliases: [Australia labour market data, Australia employment], geography_id: geo:au}
+- {type: indicator, entity_id: ind:ch:cpi, name: Swiss CPI, measure_id: meas:cpi, frequency: monthly, aliases: [Switzerland CPI], geography_id: geo:ch}
+- {type: indicator, entity_id: ind:ch:policy_rate, name: SNB policy rate, measure_id: meas:policy_rate, geography_id: geo:ch, relations: {published_by: [org:snb]}}
+- {type: indicator, entity_id: ind:se:cpif, name: Sweden CPIF, measure_id: meas:cpi, basket: cpif, frequency: monthly, aliases: [CPIF, Swedish CPIF], geography_id: geo:se}
+- {type: indicator, entity_id: ind:se:gdp, name: Sweden GDP, measure_id: meas:gdp, frequency: quarterly, aliases: [Swedish GDP], geography_id: geo:se}
+
+# -- EM -----------------------------------------------------------------------
+- {type: indicator, entity_id: ind:cn:gdp, name: China GDP, measure_id: meas:gdp, frequency: quarterly, aliases: [Chinese GDP], geography_id: geo:cn}
+- {type: indicator, entity_id: ind:cn:policy_rate, name: PBOC 7-day reverse repo rate, measure_id: meas:policy_rate, aliases: [7-day reverse repo rate, 7-day reverse repo, PBOC policy rate], geography_id: geo:cn, relations: {published_by: [org:pboc]}}
+- {type: indicator, entity_id: ind:th:gdp, name: Thailand GDP, measure_id: meas:gdp, frequency: quarterly, aliases: [Thai GDP], geography_id: geo:th}
+
+# -- Global -------------------------------------------------------------------
+- {type: indicator, entity_id: ind:global:cofer, name: IMF COFER, measure_id: meas:fx_reserves, frequency: quarterly, aliases: [COFER, Currency Composition of Official Foreign Exchange Reserves], geography_id: geo:global, relations: {published_by: [org:imf]}}

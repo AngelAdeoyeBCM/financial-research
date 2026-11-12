@@ -1,0 +1,217 @@
+{
+  "batch_id": "2026-06-25",
+  "window": [
+    "2026-06-25",
+    "2026-06-25"
+  ],
+  "generated_at": "2026-10-29T16:30:06",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-22_2026-06-25.json",
+      "sha256": "1a9c085a8c595324e12ba690879225daf95f3c88910886dbd4972cd9264424fd",
+      "records": 1002,
+      "dates": [
+        "2026-06-22",
+        "2026-06-25"
+      ],
+      "records_for_batch": 323
+    }
+  ],
+  "counts": {
+    "documents": 10,
+    "in_scope": 8,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 7,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 4,
+    "edits": 5,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BofA_Global_Economic_Viewpoint_-_Mid-Year_review_-_Hydration_Break",
+      "document": "BofA_Global Economic Viewpoint - Mid-Year review - Hydration Break.pdf",
+      "date": "2026-06-25",
+      "publisher": "Bank of America",
+      "document_type": "Outlook",
+      "chunk_count": 144,
+      "page_count": 48,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.746,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_UK_Watch_-_Mid-year_review_-_BoE_on_hold_in_2026__near-term_risks_still_for_a_hike",
+      "document": "BofA_UK Watch - Mid-year review - BoE on hold in 2026, near-term risks still for a hike.pdf",
+      "date": "2026-06-25",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.944,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_European_Rates_Weekly_-_Summertime",
+      "document": "Citi_European Rates Weekly - Summertime.pdf",
+      "date": "2026-06-25",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 38,
+      "page_count": 13,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.838,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Global_Asset_Allocation_-_House_Views_June_2026___Extra_Time_for_the_AI_Trade",
+      "document": "Citi_Global Asset Allocation - House Views June 2026 – Extra Time for the AI Trade.pdf",
+      "date": "2026-06-25",
+      "publisher": "Citi",
+      "document_type": "Monthly",
+      "chunk_count": 49,
+      "page_count": 28,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.413,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_Focusing_on_idiosyncrasies_Desknote--927025",
+      "document": "EM_Focusing_on_idiosyncrasies_Desknote--927025.pdf",
+      "date": "2026-06-25",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 45,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Close_receive_1y_HKD_versus_pay_1y_USD_IRS_Trade_Idea--926980",
+      "document": "EM_rates_Close_receive_1y_HKD_versus_pay_1y_USD_IRS_Trade_Idea--926980.pdf",
+      "date": "2026-06-25",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Close_receive_1y_HKD_versus_pay_1y_USD_IRS_Trade_Idea--926980.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "6b1e88893ca8e87daa2116809208b020006fcacd",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " EM rates: Close receive 1y HKD versus pay 1y USD IRS ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "unicode": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "‑",
+              "after": "‐"
+            },
+            {
+              "before": "‑",
+              "after": "‐"
+            },
+            {
+              "before": "‑",
+              "after": "‐"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Limited_Upside_for_USD_Strength",
+      "document": "Limited Upside for USD Strength.pdf",
+      "date": "2026-06-25",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Global_FX_Strategy_-_FX_and_month-end_equity_rebalancing_-_June__26",
+      "document": "UBS_Global FX Strategy - FX and month-end equity rebalancing - June '26.pdf",
+      "date": "2026-06-25",
+      "publisher": "UBS",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

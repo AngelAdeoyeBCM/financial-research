@@ -1,0 +1,211 @@
+{
+  "batch_id": "2026-06-04",
+  "window": [
+    "2026-06-04",
+    "2026-06-04"
+  ],
+  "generated_at": "2026-10-29T16:29:31",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-02_2026-06-05.json",
+      "sha256": "cf261de0dc8c056e3d4917b3c42533d1ad66bd39bd5c4caffbcbda8900ea3083",
+      "records": 2602,
+      "dates": [
+        "2026-06-02",
+        "2026-06-05"
+      ],
+      "records_for_batch": 471
+    }
+  ],
+  "counts": {
+    "documents": 13,
+    "in_scope": 9,
+    "out_of_scope": 4,
+    "compiled": 1,
+    "skipped": 8,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 2,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_UK_Politics_-_Making_Sense_of_Makerfield",
+      "document": "BC_UK Politics - Making Sense of Makerfield.pdf",
+      "date": "2026-06-04",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 67,
+      "page_count": 25,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.169,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_European_Rates_Weekly_-_Right_on_the_curve",
+      "document": "Citi_European Rates Weekly - Right on the curve.pdf",
+      "date": "2026-06-04",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 43,
+      "page_count": 15,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.902,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_US_Economic_Perspectives_-_Sideways_trend_for_inflation__uptrend_in_rates",
+      "document": "DB_US Economic Perspectives - Sideways trend for inflation, uptrend in rates.pdf",
+      "date": "2026-06-04",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Trail_stop_on_short_AUDZAR_to_entry_Trade_Idea--925632",
+      "document": "FX_Trail_stop_on_short_AUDZAR_to_entry_Trade_Idea--925632.pdf",
+      "date": "2026-06-04",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Trail_stop_on_short_AUDZAR_to_entry_Trade_Idea--925632.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "7c84c05da19a2e851d368e463d18797d7235729f",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: AUDZAR relative positioning remains long, according to our metrics We initiated a short AUDZ'",
+          "chunk_id": "FX_Trail_stop_on_short_AUDZAR_to_entry_Trade_Idea--925632.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA T R A D E I D E A 04/06/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FX: Trail stop on short AUDZAR to entry ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Japanese_Repatriation_Flows_What_Matters_Most_for_the_Yen",
+      "document": "GS_Global Markets Daily - Japanese Repatriation Flows—What Matters Most for the Yen.pdf",
+      "date": "2026-06-04",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 14,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.833,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_HOUSING_AND_MORTGAGE_MONITOR_-_Manufacturing_a_solution_to_the_housing_shortage",
+      "document": "GS_HOUSING AND MORTGAGE MONITOR - Manufacturing a solution to the housing shortage.pdf",
+      "date": "2026-06-04",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 41,
+      "page_count": 29,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.4,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Good_vs._Bad_Carry__Choose_Wisely",
+      "document": "Good vs. Bad Carry, Choose Wisely.pdf",
+      "date": "2026-06-04",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.929,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Hungary_Euro_vision_Desknote--925628",
+      "document": "Hungary_Euro_vision_Desknote--925628.pdf",
+      "date": "2026-06-04",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 32,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.931,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_ECB_Preview_-_If_in_Doubt__Hike",
+      "document": "MS_ECB Preview - If in Doubt, Hike.pdf",
+      "date": "2026-06-04",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 27,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.577,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

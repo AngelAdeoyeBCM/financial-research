@@ -1,0 +1,226 @@
+{
+ "map": {
+  "arguments": [
+   {
+    "id": "A001",
+    "summary": "The Fed's choice is hike or risk a large bond spike, because not hiking risks a disorderly long-end move that buybacks cannot stop, and bonds favour orthodoxy.",
+    "conclusion": "P016-2",
+    "premises": [
+     "P017-2",
+     "P018-2",
+     "P019-1"
+    ],
+    "conditions": [
+     "P017-1"
+    ],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A002",
+    "summary": "The Fed likely hikes 25bp, as the market prices it at about 85% and CPI all but locks in the hike.",
+    "conclusion": "P012-1",
+    "premises": [
+     "P013-1",
+     "P030-1",
+     "P031-1",
+     "A001"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [
+     "P033-1"
+    ],
+    "risks": [],
+    "implications": [
+     "P035-3"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A003",
+    "summary": "Warsh delivers a hawkish hike, since he is expected to sound like Jackson Hole, largely to support bonds.",
+    "conclusion": "P102-1",
+    "premises": [
+     "P086-2",
+     "P025-2",
+     "P074-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [
+     "P027-2"
+    ],
+    "implications": [
+     "P138-3"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A004",
+    "summary": "The USD is likely only sideways because the bar to out-hawk expectations and other G10 central banks is high with over 3 hikes priced.",
+    "conclusion": "P119-2",
+    "premises": [
+     "P118-2",
+     "P117-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [
+     "P119-1"
+    ],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A005",
+    "summary": "A Fed hold would trigger a sharp twist steepening, with long end rates reflecting inflation risk premium and Warsh credibility discount.",
+    "conclusion": "P095-3",
+    "premises": [
+     "P096-5",
+     "P096-6",
+     "P096-8",
+     "P096-9"
+    ],
+    "conditions": [
+     "P095-1"
+    ],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P096-10"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A006",
+    "summary": "A Fed hold would be unprecedented because the market has never priced such elevated hike likelihood with a Fed hold.",
+    "conclusion": "P105-3",
+    "premises": [
+     "P106-1"
+    ],
+    "conditions": [
+     "P105-1",
+     "P105-2"
+    ],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A007",
+    "summary": "The USD outcome depends on the Fed's ability to out-hawk expectations, with a Fed hold making the dollar depreciate swiftly and significantly.",
+    "conclusion": "P139-1",
+    "premises": [
+     "P129-2"
+    ],
+    "conditions": [],
+    "qualifiers": [
+     "P121-1"
+    ],
+    "concessions": [],
+    "risks": [
+     "P130-2"
+    ],
+    "implications": [],
+    "alternatives": []
+   }
+  ]
+ },
+ "errors": [],
+ "attempts": 2,
+ "usage": [
+  {
+   "cost_usd": 0.10294160000000001,
+   "duration_ms": 6760,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22669,
+    "cache_read_input_tokens": 2013,
+    "output_tokens": 988,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 22669,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 988,
+      "cache_read_input_tokens": 2013,
+      "cache_creation_input_tokens": 22669,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 22669
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-sonnet-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10635280000000001,
+   "duration_ms": 7343,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22929,
+    "cache_read_input_tokens": 2784,
+    "output_tokens": 1207,
+    "output_tokens_details": {
+     "thinking_tokens": 219
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 22929,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1207,
+      "cache_read_input_tokens": 2784,
+      "cache_creation_input_tokens": 22929,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 22929
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-sonnet-5-5"
+   ]
+  }
+ ]
+}

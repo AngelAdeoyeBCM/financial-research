@@ -1,0 +1,222 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Closing_out_long_INRIDR_Trade_Idea--919893.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-04",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 2,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "not_a_reference": 4
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 19,
+  "kinds": {
+   "deixis": 12,
+   "noun_phrase": 4,
+   "possessive": 1,
+   "pronoun": 1,
+   "vp": 1
+  },
+  "rooted_share": 0.8709677419354839,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 15,
+  "cost_usd": 0.075
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 52,
+   "end": 85,
+   "quote": "The long INRIDR 6m NDF trade idea",
+   "name": "the long INRIDR 6m NDF trade idea"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 281,
+   "end": 288,
+   "quote": "the INR",
+   "name": "the INR"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 61,
+   "end": 67,
+   "quote": "INRIDR",
+   "name": "INRIDR"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 182"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 1195"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0303911,
+   "duration_ms": 4671,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2966,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 291,
+    "output_tokens_details": {
+     "thinking_tokens": 209
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2966,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 291,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2966,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2966
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0446572,
+   "duration_ms": 8204,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3241,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 878,
+    "output_tokens_details": {
+     "thinking_tokens": 348
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3241,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 878,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3241,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3241
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

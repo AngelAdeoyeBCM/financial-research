@@ -1,0 +1,169 @@
+{
+  "batch_id": "2026-08-09",
+  "window": [
+    "2026-08-09",
+    "2026-08-09"
+  ],
+  "generated_at": "2026-10-29T16:30:50",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-09_2026-08-12.json",
+      "sha256": "f577378c1b2571b7900f26bb3b7effee300beeb9e0e2f521e14e851da1fc9983",
+      "records": 198,
+      "dates": [
+        "2026-08-09",
+        "2026-08-12"
+      ],
+      "records_for_batch": 45
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "in_scope": 1,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 0,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 4,
+    "edits": 38,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Things_are_alright_Sunday_Tea_with_BNP_Paribas--929682",
+      "document": "Things_are_alright_Sunday_Tea_with_BNP_Paribas--929682.pdf",
+      "date": "2026-08-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/Things_are_alright_Sunday_Tea_with_BNP_Paribas--929682.txt",
+      "asset_class_share": 0.889,
+      "fingerprint": "b26207031360709845ca711d1909bf2c911e5b95",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 9 August 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "SUNDAY TEA WITH BNP PARIBAS 09 AUGUST 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "BNP Paribas Securities Corp. calvin.x.tse@us.bnpparibas.com James Egelhof Chief US Economist BNP Paribas Securities Corp. james.egelhof@us.bnpparibas.com Guneet Dhingra Head of US Rates Strategy| MAR BNP Paribas Securities Corp. guneet.dhingra@us.bnpparibas.com Marco Iachini Equity Derivatives Strategist, US BNP Paribas Securities Corp marco.iachini@us.bnpparibas.com Ryutaro Kono Chief Japan Economist BNP Paribas Securities (Japan) Limited ryutaro.kono@japan.bnpparibas.com"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 9 August 2026 2"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 18,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 15,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "OUR KEY VIEWS",
+              "after": "\n\n## OUR KEY VIEWS\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

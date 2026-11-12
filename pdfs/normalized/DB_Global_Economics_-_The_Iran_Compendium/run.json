@@ -1,0 +1,373 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Global_Economics_-_The_Iran_Compendium.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-13",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 22,
+    "referents": {
+     "thing": 15,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 18,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "relative": 3,
+     "not_a_reference": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 49,
+  "kinds": {
+   "deixis": 25,
+   "possessive": 7,
+   "symbol": 5,
+   "noun_phrase": 4,
+   "pronoun": 4,
+   "demonstrative": 3,
+   "proposition": 1
+  },
+  "rooted_share": 0.7567567567567568,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 8,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 86,
+  "cost_usd": 0.1784
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 135,
+   "end": 166,
+   "quote": "the conflict in the Middle East",
+   "name": "the conflict in the Middle East"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2488,
+   "end": 2507,
+   "quote": "The Iran Compendium",
+   "name": "the Iran Compendium"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 772,
+   "end": 776,
+   "quote": "Asia",
+   "name": "Asia"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1098,
+   "end": 1111,
+   "quote": "a price shock",
+   "name": "the price shock"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1958,
+   "end": 1978,
+   "quote": "a 2026 Fed rate hike",
+   "name": "a 2026 Fed rate hike"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2233,
+   "end": 2253,
+   "quote": "the OBBBA's tax cuts",
+   "name": "the OBBBA's tax cuts"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2759,
+   "end": 2766,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2867,
+   "end": 2883,
+   "quote": "oil price shocks",
+   "name": "oil price shocks"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 3708,
+   "end": 3715,
+   "quote": "The ECB",
+   "name": "the ECB"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5938,
+   "end": 5985,
+   "quote": "Rising oil/LNG prices from Middle East tensions",
+   "name": "Rising oil/LNG prices from Middle East tensions"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6244,
+   "end": 6278,
+   "quote": "A sustained spike in energy prices",
+   "name": "a sustained spike in energy prices"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 7132,
+   "end": 7247,
+   "quote": "elevated oil prices will raise India's FY27 CPI to 4.55%, widen the current account deficit, and pressure the rupee",
+   "name": "elevated oil prices will raise India's FY27 CPI to 4.55%, widen the current account deficit, and pressure the rupee"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 8786,
+   "end": 8807,
+   "quote": "historical oil shocks",
+   "name": "historical oil shocks"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9260,
+   "end": 9264,
+   "quote": "Iran",
+   "name": "Iran"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 10297,
+   "end": 10316,
+   "quote": "geopolitical events",
+   "name": "geopolitical events"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 9747,
+   "end": 9767,
+   "quote": "the Strait of Hormuz",
+   "name": "the Strait of Hormuz"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we assess' at 457"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We present' at 4471"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We assess' at 5129"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We shift' at 5483"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We assess' at 5712"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We assess' at 7723"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We review' at 8776"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we present' at 9338"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'likely to be delayed for those still in their easing cycle (BoE) and potentially also'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0558995,
+   "duration_ms": 4480,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6130,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 285,
+    "output_tokens_details": {
+     "thinking_tokens": 277
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6130,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 285,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6130,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6130
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1224731,
+   "duration_ms": 27533,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7025,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3242,
+    "output_tokens_details": {
+     "thinking_tokens": 1812
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7025,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3242,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7025,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7025
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

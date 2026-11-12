@@ -1,0 +1,110 @@
+# Geographies. IDs: geo:<iso2> for countries, geo:<slug> for regions/blocs/groupings.
+# Regions mirror config/taxonomies/classification/market_coverage.yaml.
+# Closed set: every country behind an in-scope currency, plus euro-area members
+# and countries observed in the corpus.
+
+# -- market groupings ---------------------------------------------------------
+- {type: geography, entity_id: geo:global, name: Global, level: market_grouping, aliases: [world, global economy]}
+- {type: geography, entity_id: geo:dm, name: Developed Markets, level: market_grouping, aliases: [DM, developed markets]}
+- {type: geography, entity_id: geo:em, name: Emerging Markets, level: market_grouping, aliases: [EM, emerging markets]}
+- {type: geography, entity_id: geo:g10, name: G10, level: market_grouping, aliases: [G10 FX, G-10]}
+
+# -- regions ------------------------------------------------------------------
+- {type: geography, entity_id: geo:north_america, name: North America, level: region}
+- {type: geography, entity_id: geo:europe, name: Europe, level: region}
+- {type: geography, entity_id: geo:asia, name: Asia, level: region, aliases: [Asia Pacific, APAC, EM Asia, Asia ex-Japan]}
+- {type: geography, entity_id: geo:australasia, name: Australasia, level: region, aliases: [Antipodes]}
+- type: geography
+  entity_id: geo:latam
+  name: Latin America
+  level: region
+  aliases: [LatAm]
+  relations: {member_of: [geo:em]}
+- type: geography
+  entity_id: geo:ceemea
+  name: CEEMEA
+  level: region
+  aliases: [Central and Eastern Europe, Middle East and Africa, CEE]
+  relations: {member_of: [geo:em]}
+- type: geography
+  entity_id: geo:middle_east
+  name: Middle East
+  level: region
+  aliases: [Gulf, GCC]
+  relations: {member_of: [geo:ceemea]}
+- type: geography
+  entity_id: geo:africa
+  name: Africa
+  level: region
+  relations: {member_of: [geo:ceemea]}
+
+# -- blocs --------------------------------------------------------------------
+- type: geography
+  entity_id: geo:ea
+  name: Euro Area
+  level: bloc
+  aliases: [euro area, Eurozone, euro zone, EA, EZ, EMU]
+  relations: {member_of: [geo:europe]}
+- type: geography
+  entity_id: geo:eu
+  name: European Union
+  code: EU  # ISO 3166-1 exceptionally reserved; QLib's issuer country for EU bonds
+  level: bloc
+  aliases: [EU]
+  relations: {member_of: [geo:europe]}
+- {type: geography, entity_id: geo:g7, name: G7, level: bloc, aliases: [G-7]}
+- {type: geography, entity_id: geo:g20, name: G20, level: bloc, aliases: [G-20]}
+
+# -- countries: North America -------------------------------------------------
+- {type: geography, entity_id: geo:us, name: United States, code: US, level: country, aliases: [USA, U.S., America], relations: {member_of: [geo:north_america]}}
+- {type: geography, entity_id: geo:ca, name: Canada, code: CA, level: country, relations: {member_of: [geo:north_america]}}
+
+# -- countries: Europe (DM) ---------------------------------------------------
+- {type: geography, entity_id: geo:gb, name: United Kingdom, code: GB, level: country, aliases: [UK, Britain, Great Britain], relations: {member_of: [geo:europe]}}
+- {type: geography, entity_id: geo:ch, name: Switzerland, code: CH, level: country, relations: {member_of: [geo:europe]}}
+- {type: geography, entity_id: geo:se, name: Sweden, code: SE, level: country, relations: {member_of: [geo:europe, geo:eu]}}
+- {type: geography, entity_id: geo:no, name: Norway, code: 'NO', level: country, relations: {member_of: [geo:europe]}}
+- {type: geography, entity_id: geo:de, name: Germany, code: DE, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:fr, name: France, code: FR, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:it, name: Italy, code: IT, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:es, name: Spain, code: ES, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:nl, name: Netherlands, code: NL, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:be, name: Belgium, code: BE, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:at, name: Austria, code: AT, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:pt, name: Portugal, code: PT, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:fi, name: Finland, code: FI, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:ie, name: Ireland, code: IE, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+- {type: geography, entity_id: geo:gr, name: Greece, code: GR, level: country, relations: {member_of: [geo:ea, geo:eu]}}
+
+# -- countries: Asia / Australasia --------------------------------------------
+- {type: geography, entity_id: geo:jp, name: Japan, code: JP, level: country, relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:au, name: Australia, code: AU, level: country, relations: {member_of: [geo:australasia]}}
+- {type: geography, entity_id: geo:nz, name: New Zealand, code: NZ, level: country, relations: {member_of: [geo:australasia]}}
+- {type: geography, entity_id: geo:hk, name: Hong Kong, code: HK, level: country, relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:sg, name: Singapore, code: SG, level: country, relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:cn, name: China, code: CN, level: country, aliases: [PRC, Mainland China], relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:kr, name: South Korea, code: KR, level: country, aliases: [Korea], relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:tw, name: Taiwan, code: TW, level: country, relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:in, name: India, code: IN, level: country, relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:id, name: Indonesia, code: ID, level: country, relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:my, name: Malaysia, code: MY, level: country, relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:ph, name: Philippines, code: PH, level: country, relations: {member_of: [geo:asia]}}
+- {type: geography, entity_id: geo:th, name: Thailand, code: TH, level: country, relations: {member_of: [geo:asia]}}
+
+# -- countries: Latin America -------------------------------------------------
+- {type: geography, entity_id: geo:br, name: Brazil, code: BR, level: country, relations: {member_of: [geo:latam]}}
+- {type: geography, entity_id: geo:mx, name: Mexico, code: MX, level: country, relations: {member_of: [geo:latam]}}
+- {type: geography, entity_id: geo:cl, name: Chile, code: CL, level: country, relations: {member_of: [geo:latam]}}
+- {type: geography, entity_id: geo:co, name: Colombia, code: CO, level: country, relations: {member_of: [geo:latam]}}
+
+# -- countries: CEEMEA --------------------------------------------------------
+- {type: geography, entity_id: geo:za, name: South Africa, code: ZA, level: country, relations: {member_of: [geo:africa]}}
+- {type: geography, entity_id: geo:tr, name: Turkey, code: TR, level: country, aliases: [Türkiye, Turkiye], relations: {member_of: [geo:ceemea]}}
+- {type: geography, entity_id: geo:pl, name: Poland, code: PL, level: country, relations: {member_of: [geo:ceemea, geo:eu]}}
+- {type: geography, entity_id: geo:hu, name: Hungary, code: HU, level: country, relations: {member_of: [geo:ceemea, geo:eu]}}
+- {type: geography, entity_id: geo:cz, name: Czech Republic, code: CZ, level: country, aliases: [Czechia], relations: {member_of: [geo:ceemea, geo:eu]}}
+- {type: geography, entity_id: geo:il, name: Israel, code: IL, level: country, relations: {member_of: [geo:middle_east]}}
+- {type: geography, entity_id: geo:sa, name: Saudi Arabia, code: SA, level: country, relations: {member_of: [geo:middle_east]}}
+- {type: geography, entity_id: geo:ir, name: Iran, code: IR, level: country, relations: {member_of: [geo:middle_east]}}
+- {type: geography, entity_id: geo:ru, name: Russia, code: RU, level: country, relations: {member_of: [geo:ceemea]}}
+- {type: geography, entity_id: geo:ua, name: Ukraine, code: UA, level: country, relations: {member_of: [geo:europe]}}

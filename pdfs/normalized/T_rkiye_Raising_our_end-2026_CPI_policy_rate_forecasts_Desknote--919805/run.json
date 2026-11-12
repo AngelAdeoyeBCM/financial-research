@@ -1,0 +1,190 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/T_rkiye_Raising_our_end-2026_CPI_policy_rate_forecasts_Desknote--919805.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-03",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "link": 7
+    },
+    "leave_reasons": {},
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 32,
+  "kinds": {
+   "deixis": 20,
+   "noun_phrase": 6,
+   "possessive": 5,
+   "pronoun": 1
+  },
+  "rooted_share": 0.5510204081632653,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 40,
+  "cost_usd": 0.137
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 954,
+   "end": 968,
+   "quote": "the y/y figure",
+   "name": "the y/y figure"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2386,
+   "end": 2416,
+   "quote": "A recent CBRT inflation report",
+   "name": "the recent CBRT inflation report"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 700,
+   "end": 708,
+   "quote": "the CBRT",
+   "name": "the CBRT"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2126,
+   "end": 2165,
+   "quote": "a full percentage point to headline CPI",
+   "name": "the full percentage point to headline CPI"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2090,
+   "end": 2117,
+   "quote": "a 10% jump in energy prices",
+   "name": "the 10% jump in energy prices"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0428849,
+   "duration_ms": 3702,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4654,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 228,
+    "output_tokens_details": {
+     "thinking_tokens": 215
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4654,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 228,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4654,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4654
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0941073,
+   "duration_ms": 24050,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4992,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2647,
+    "output_tokens_details": {
+     "thinking_tokens": 1944
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4992,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2647,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4992,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4992
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

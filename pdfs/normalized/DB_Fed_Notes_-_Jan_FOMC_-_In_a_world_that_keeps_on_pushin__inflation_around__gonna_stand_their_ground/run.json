@@ -1,0 +1,476 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_Jan_FOMC_-_In_a_world_that_keeps_on_pushin__inflation_around__gonna_stand_their_ground.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 52,
+    "referents": {
+     "thing": 19,
+     "claim": 5
+    },
+    "decisions": {
+     "link": 45,
+     "ambiguous": 1,
+     "leave": 6
+    },
+    "leave_reasons": {
+     "expletive": 3,
+     "time": 1,
+     "not_a_reference": 1,
+     "relative": 1
+    },
+    "extra": 11,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 79,
+  "kinds": {
+   "deixis": 23,
+   "noun_phrase": 20,
+   "possessive": 14,
+   "pronoun": 13,
+   "shell": 6,
+   "demonstrative": 2,
+   "proposition": 1
+  },
+  "rooted_share": 0.8284518828451883,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 5,
+   "UNRESOLVED_PRONOUN": 6
+  },
+  "sentences": 80,
+  "cost_usd": 0.159
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 276,
+   "end": 288,
+   "quote": "Chair Powell",
+   "name": "Chair Powell"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 892,
+   "end": 898,
+   "quote": "policy",
+   "name": "policy"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1100,
+   "end": 1223,
+   "quote": "the Fed will remain on hold for the remainder of Chair Powell’s term and will only reduce rates once this year in September",
+   "name": "the Fed will remain on hold for the remainder of Chair Powell’s term and will only reduce rates once this year in September"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1686,
+   "end": 1699,
+   "quote": "the Committee",
+   "name": "the Committee"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2159,
+   "end": 2173,
+   "quote": "a “solid pace”",
+   "name": "a “solid pace”"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2210,
+   "end": 2230,
+   "quote": "Vice Chair Jefferson",
+   "name": "Vice Chair Jefferson"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4695,
+   "end": 4731,
+   "quote": "the Department of Justice’s subpoena",
+   "name": "the Department of Justice’s subpoena"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 5016,
+   "end": 5073,
+   "quote": "these actions were not about the testimony or renovations",
+   "name": "these actions were not about the testimony or renovations"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 674,
+   "end": 694,
+   "quote": "Governor Cook’s case",
+   "name": "Governor Cook’s case"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5761,
+   "end": 5862,
+   "quote": "whether Powell has considered remaining on the Board of Governors after his chair seat expires in May",
+   "name": "whether Powell has considered remaining on the Board of Governors after his chair seat expires in May"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5707,
+   "end": 5756,
+   "quote": "who will be the next chair of the Federal Reserve",
+   "name": "who will be the next chair of the Federal Reserve"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 4500,
+   "end": 4532,
+   "quote": "recent geopolitical developments",
+   "name": "recent geopolitical developments"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 1872,
+   "end": 1885,
+   "quote": "Fed officials",
+   "name": "Fed officials"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7849,
+   "end": 7865,
+   "quote": "Employment gains",
+   "name": "Employment gains"
+  },
+  {
+   "id": "R15",
+   "type": "claim",
+   "start": 7889,
+   "end": 7944,
+   "quote": "the breadth of those gains is still particularly narrow",
+   "name": "the breadth of those gains is still particularly narrow"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 8232,
+   "end": 8247,
+   "quote": "growth momentum",
+   "name": "growth momentum"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 8558,
+   "end": 8583,
+   "quote": "NY Fed President Williams",
+   "name": "NY Fed President Williams"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 8822,
+   "end": 8837,
+   "quote": "the latest data",
+   "name": "the latest data"
+  },
+  {
+   "id": "R19",
+   "type": "claim",
+   "start": 9816,
+   "end": 10033,
+   "quote": "shelter inflation should decline over time with the potential to undershoot pre-covid run rates and tariffs will likely manifest as a one-time price level shock that will begin to unwind in the second half of the year",
+   "name": "shelter inflation should decline over time with the potential to undershoot pre-covid run rates and tariffs will likely manifest as a one-time price level shock that will begin to unwind in the second half of the year"
+  },
+  {
+   "id": "R20",
+   "type": "claim",
+   "start": 10165,
+   "end": 10297,
+   "quote": "The government shutdown is likely to move a portion of measured inflation from 2025 to 2026 due to how the BLS dealt with price data",
+   "name": "The government shutdown is likely to move a portion of measured inflation from 2025 to 2026 due to how the BLS dealt with price data"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 11799,
+   "end": 11820,
+   "quote": "updates to LW and HLW",
+   "name": "updates to LW and HLW"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 1968,
+   "end": 1997,
+   "quote": "the January meeting statement",
+   "name": "the January meeting statement"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 1814,
+   "end": 1834,
+   "quote": "the December meeting",
+   "name": "the December meeting"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 4609,
+   "end": 4640,
+   "quote": "Chair Powell’s press conference",
+   "name": "Chair Powell’s press conference"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C016",
+   "phrase": "This",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R7",
+    "R9"
+   ]
+  },
+  {
+   "candidate": "C028",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C039",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C042",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C044",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C049",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1238",
+   "message": "+24 words: {{this view => the view that the Fed will remain on hold for the remainder of Chair Powell’s term and will only reduce rates once this year in September}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 10050",
+   "message": "+40 words: {{these stories => the stories that shelter inflation should decline over time with the potential to undershoot pre-covid run rates and tariffs will likely manifest as a one-time price level shock that will begin to unwind in the second half of the year}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 10647",
+   "message": "+23 words: {{these => that the government shutdown is likely to move a portion of measured inflation from 2025 to 2026 due to how the BLS dealt with price data}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 10710",
+   "message": "+24 words: {{these distortions => the distortions that the government shutdown is likely to move a portion of measured inflation from 2025 to 2026 due to how the BLS dealt with price data}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 10786",
+   "message": "+24 words: {{these considerations => the considerations that the government shutdown is likely to move a portion of measured inflation from 2025 to 2026 due to how the BLS dealt with price data}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'its' in 'attentive to the risks to both sides of its dual mandate and judges that downside r'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'its' in 'attentive to the risks to both sides of its dual mandate.” However, the author expe'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'his' in 'maining on the Board of Governors after his chair seat expires in May, Powell has n'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'his' in 'maining on the Board of Governors after his chair seat expires in May in the past w'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'his' in 'maining on the Board of Governors after his chair seat expires in May was raised.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'he' in 'ackdrop may have brightened somewhat, t he inflation picture has become messier si'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.010334000000000001,
+   "duration_ms": 5265,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9440,
+    "output_tokens": 395,
+    "output_tokens_details": {
+     "thinking_tokens": 382
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 395,
+      "cache_read_input_tokens": 9440,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1486908,
+   "duration_ms": 58497,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 12332,
+    "output_tokens": 7274,
+    "output_tokens_details": {
+     "thinking_tokens": 4054
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 7274,
+      "cache_read_input_tokens": 12332,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

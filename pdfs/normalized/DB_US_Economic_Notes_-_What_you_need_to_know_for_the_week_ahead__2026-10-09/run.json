@@ -1,0 +1,258 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-10-09.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-09",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "leave": 5,
+     "link": 1
+    },
+    "leave_reasons": {
+     "time": 2,
+     "not_a_reference": 3
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 10,
+  "kinds": {
+   "symbol": 4,
+   "deixis": 3,
+   "noun_phrase": 3
+  },
+  "rooted_share": 0.875,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 7
+  },
+  "sentences": 10,
+  "cost_usd": 0.0937
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 3007,
+   "end": 3042,
+   "quote": "a variety of motivations for hiking",
+   "name": "the variety of motivations for hiking"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2764,
+   "end": 2790,
+   "quote": "the September FOMC meeting",
+   "name": "the September FOMC meeting"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 645,
+   "end": 672,
+   "quote": "the October 28 FOMC meeting",
+   "name": "the October 28 FOMC meeting"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "her",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in 'Should they come in close to our expectations, this'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'ting and gather more information before their next one in December.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'st spoke at the September FOMC meeting, he outlined a relatively hawkish case for '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in 't policy is currently accommodative and they took the first move to “remove a dose o'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'as needed to combat higher inflation in their modal outlooks; “some” wanted to tighte'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'er effects from supply shocks or raised their neutral rate estimates.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'her' in ' at the October meeting in order to gat her more information on underlying trends ('"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0343106,
+   "duration_ms": 2968,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3776,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 159,
+    "output_tokens_details": {
+     "thinking_tokens": 146
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3776,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 159,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3776,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3776
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0594384,
+   "duration_ms": 12657,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4048,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1296,
+    "output_tokens_details": {
+     "thinking_tokens": 822
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4048,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1296,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4048,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4048
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

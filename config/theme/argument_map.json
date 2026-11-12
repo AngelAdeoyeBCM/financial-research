@@ -1,0 +1,80 @@
+{
+  "version": "0.12",
+  "text": "#111111",
+  "edge": { "stroke": "#333333", "label": "#9a9a9a" },
+  "claim_types": {
+    "RECOMMENDATION": { "key": "rec", "label": "Recommendation", "fill": "#f8c9c9", "stroke": "#8b1a1a", "container_fill": "#fdeeee" },
+    "TRADE": { "key": "trade", "label": "Trade", "fill": "#f8c9c9", "stroke": "#8b1a1a", "container_fill": "#fdeeee" },
+    "RATING": { "key": "rtg", "label": "Rating", "fill": "#b8e6dc", "stroke": "#00695c", "container_fill": "#e6f6f2" },
+    "VALUATION": { "key": "val", "label": "Valuation", "fill": "#e3d4f5", "stroke": "#5b2c8f", "container_fill": "#f6f0fc" },
+    "FORECAST": { "key": "fc", "label": "Forecast", "fill": "#c9ecc9", "stroke": "#1a6b3a", "container_fill": "#eef9ee" },
+    "PREDICTION": { "key": "pred", "label": "Prediction", "fill": "#fff2a8", "stroke": "#9a7d00", "container_fill": "#fffbe0" },
+    "POSITIONING": { "key": "pos", "label": "Positioning", "fill": "#f9c6e4", "stroke": "#a3196b", "container_fill": "#fdeef6" },
+    "SENTIMENT": { "key": "sent", "label": "Sentiment", "fill": "#bff0f5", "stroke": "#00838f", "container_fill": "#e8fbfd" },
+    "VIEW": { "key": "view", "label": "View", "fill": "#c9dcf8", "stroke": "#1a3f8b", "container_fill": "#eef4fd" },
+    "ASSESSMENT": { "key": "asm", "label": "Assessment", "fill": "#c9dcf8", "stroke": "#1a3f8b", "container_fill": "#eef4fd" },
+    "CAUSAL": { "key": "causal", "label": "Causal", "fill": "#fdd9b5", "stroke": "#b35900", "container_fill": "#fff1e3" },
+    "SUPPOSITION": { "key": "sup", "label": "Supposition", "fill": "#c4c9cf", "stroke": "#4f5b66", "container_fill": "#eceff2" },
+    "DATA_POINT": { "key": "dp", "label": "Data point", "fill": "#d4d4d4", "stroke": "#5f5f5f", "container_fill": "#ededed" },
+    "OBSERVATION": { "key": "obs", "label": "Observation", "fill": "#e6e6e6", "stroke": "#888888", "container_fill": "#f4f4f4" }
+  },
+  "subkind_styles": [
+    { "subkind": "valuation", "style": "VALUATION" },
+    { "subkind": "positioning", "style": "POSITIONING" },
+    { "claim_type": "PREDICTION", "subkind": "quantitative", "style": "FORECAST" }
+  ],
+  "scenario": { "key": "scn", "label": "Scenario", "fill": "#c4c9cf", "stroke": "#4f5b66", "container_fill": "#eceff2" },
+  "roles": {
+    "premises": { "abbrev": "P", "label": "Premise", "edge_label": "Premise", "edge_style": "solid" },
+    "assumptions": { "abbrev": "AS", "label": "Assumes", "edge_label": "Assumption", "edge_style": "dashed" },
+    "warrants": { "abbrev": "W", "label": "Warrant", "edge_label": "Warrant", "edge_style": "dashed" },
+    "supporting": { "abbrev": "S", "label": "Supporting", "edge_label": "Supporting", "edge_style": "solid" },
+    "rationale": { "abbrev": "RA", "label": "Rationale", "edge_label": null, "edge_style": null },
+    "risks": { "abbrev": "RI", "label": "Risk", "edge_label": "Risk", "edge_style": "solid" },
+    "conditions": { "abbrev": "CO", "label": "Condition", "edge_label": "Condition", "edge_style": "solid" },
+    "catalysts": { "abbrev": "CA", "label": "Catalyst", "edge_label": "Catalyst", "edge_style": "dashed" },
+    "qualifiers": { "abbrev": "Q", "label": "Qualifies", "edge_label": "Qualifies", "edge_style": "dashed" },
+    "concessions": { "abbrev": "CN", "label": "Concedes", "edge_label": "Concedes", "edge_style": "dashed" },
+    "implications": { "abbrev": "IM", "label": "Implication", "edge_label": "Implication", "edge_style": "dashed" },
+    "alternatives": { "abbrev": "ALT", "label": "Alternative", "edge_label": "Alternative", "edge_style": "solid" }
+  },
+  "scenario_slots": {
+    "assumptions": { "abbrev": "IF", "label": "Supposes" },
+    "implications": { "abbrev": "THEN", "label": "Implication" },
+    "recommendations": { "abbrev": "REC", "label": "Recommendation" }
+  },
+  "modalities": {
+    "HYPOTHETICAL": { "abbrev": "HY", "label": "Hypothetical" },
+    "SPECULATIVE": { "abbrev": "S", "label": "Speculative" },
+    "HEDGED": { "abbrev": "H", "label": "Hedged" },
+    "ASSERTED": { "abbrev": "A", "label": "Asserted" }
+  },
+  "proposition_kinds": {
+    "market_state": { "abbrev": "MS", "label": "Market state" },
+    "valuation": { "abbrev": "VAL", "label": "Valuation" },
+    "positioning": { "abbrev": "POS", "label": "Positioning" },
+    "sentiment": { "abbrev": "SENT", "label": "Sentiment" },
+    "event": { "abbrev": "EVT", "label": "Event" },
+    "causal_relationship": { "abbrev": "CAUSE", "label": "Causal relationship" },
+    "investment_action": { "abbrev": "ACT", "label": "Investment action" }
+  },
+  "subkinds": {
+    "market_state": { "abbrev": "MS", "label": "Market state" },
+    "valuation": { "abbrev": "VAL", "label": "Valuation" },
+    "positioning": { "abbrev": "POS", "label": "Positioning" },
+    "sentiment": { "abbrev": "SENT", "label": "Sentiment" },
+    "event": { "abbrev": "EVT", "label": "Event" },
+    "directional": { "abbrev": "DIR", "label": "Directional" },
+    "quantitative": { "abbrev": "QNT", "label": "Quantitative" },
+    "datapoint": { "abbrev": "DP", "label": "Data point" },
+    "estimate": { "abbrev": "EST", "label": "Estimate" },
+    "trade_idea": { "abbrev": "TRADE", "label": "Trade idea" },
+    "rating": { "abbrev": "RTG", "label": "Rating" },
+    "open": { "abbrev": "OPEN", "label": "Open" },
+    "maintain": { "abbrev": "HOLD", "label": "Maintain" },
+    "close": { "abbrev": "CLOSE", "label": "Close" },
+    "adjust": { "abbrev": "ADJ", "label": "Adjust" },
+    "formal": { "abbrev": "FORMAL", "label": "Formal rating" },
+    "allocation": { "abbrev": "ALLOC", "label": "Allocation" }
+  }
+}

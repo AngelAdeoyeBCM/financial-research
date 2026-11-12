@@ -1,0 +1,63 @@
+{
+  "batch_id": "2026-01-18",
+  "window": [
+    "2026-01-18",
+    "2026-01-18"
+  ],
+  "generated_at": "2026-10-29T16:26:18",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-25_2026-01-28.json",
+      "sha256": "5dfd5842e7e7518b563ed08eef4d020963b3f6596dfed2cca8eda50d9b351bc3",
+      "records": 1144,
+      "dates": [
+        "2026-01-17",
+        "2026-01-20"
+      ],
+      "records_for_batch": 64
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 3,
+    "out_of_scope": 1,
+    "compiled": 2,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 34,
+    "edits": 48,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 1
+  },
+  "documents": [
+    {
+      "stem": "Sunday_Tea_with_BNPP_Economics_vs_geo_politics_Sunday_Tea_with_BNP_Paribas--916708",
+      "document": "Sunday_Tea_with_BNPP_Economics_vs_geo_politics_Sunday_Tea_with_BNP_Paribas--916708.pdf",
+      "date": "2026-01-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -8% -4% 0% 4% 8% 12% -40 0 40 80 120",
+          "chunk_id": "Sunday_Tea_with_BNPP_Economics_vs_geo_politics_Sunday_Tea_with_BNP_Paribas--916708.pdf-2-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

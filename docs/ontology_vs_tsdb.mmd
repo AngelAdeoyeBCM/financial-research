@@ -1,0 +1,62 @@
+---
+title: QCL TSDB tree vs incolor ontology (v5) - dotted = maps to, grey = no counterpart on that side
+---
+flowchart LR
+    subgraph Q["QCL notebooks: a storage path, one node per stored series"]
+        q0["root<br/>tsdb_cat('', 'tsdb')<br/>ccys, pairs and asset buckets side by side"]
+        q1["ccy<br/>USD, EUR, CNH"]
+        q1p["pair<br/>EURUSD and USDEUR both exist"]
+        q1b["asset bucket<br/>bond, fx, eq, commodity, cdx, repo"]
+        q2["product family<br/>USD_irs, USD_SWO, USD_ycso,<br/>USD_INFSWP, USD_cap, USD_cds, USD_US"]
+        q3["index<br/>USD_irs_SOFR, _OIS, _1M, _3M, _6M"]
+        q4["tenor node<br/>USD_irs_SOFR_10Y<br/>every 1M..599M and 1Y..50Y"]
+        q5["suffix<br/>USD_irs_SOFR_10y_3M"]
+        q6["@analytic leaf<br/>@Rate @Pv01 @Dv01 @Carry @Strike"]
+        q7[("series<br/>date -> value")]
+        qrt["RT descriptor<br/>inst[bond[ISIN]], inst[fut[TYM4 Comdty]],<br/>inst[et[b,EUR ES SOV]]"]
+        qs["not a path<br/>2s10s, OAT-Bund, TIPS breakeven"]
+        qc["not in the tree<br/>Fed, FOMC, core PCE, Warsh"]
+
+        q0 --> q1 & q1p & q1b
+        q1 --> q2 --> q3 --> q4
+        q4 --> q5
+        q4 --> q6 --> q7
+    end
+
+    subgraph O["incolor: typed registry graph + instruments built per mention"]
+        o1["Currency ccy:usd<br/>a node with refs, not a root<br/>geography_id, issuer_id"]
+        o1p["FXPair fx:eurusd<br/>base_id, quote_id, one direction only"]
+        o1b["MarketKind / AssetClass<br/>labels for filtering, not parents"]
+        o2["Instrument.form + market kind<br/>swap, option, cash, future"]
+        o3["the Market a leg sits on<br/>RateIndex rate:sofr, currency_id ccy:usd<br/>SovereignBond, Indicator"]
+        o4["Tenor value object<br/>length 10y, start?<br/>never registered"]
+        o5["Tenor.start or Basis index tenor<br/>suffix meaning not yet confirmed"]
+        o6["no slot<br/>a claim names the instrument;<br/>the analytic is picked at lookup"]
+        ort["Outright.security / contract<br/>SovereignBond = currency_id + geography_id"]
+        o7["Structure subclasses<br/>Spread, Curve, Fly, Box, Basis, Breakeven<br/>legs = several leaves combined"]
+        o8["Context entities<br/>Geography, Organization, Event,<br/>Policy, Person, Measure, Indicator"]
+    end
+
+    q1 -.-> o1
+    q1p -.-> o1p
+    q1b -.-> o1b
+    q2 -.->|"family = form + kind"| o2
+    q3 -.-> o3
+    q4 -.-> o4
+    q5 -.-> o5
+    q6 -.-> o6
+    qrt -.-> ort
+    qs -.-> o7
+    qc -.-> o8
+
+    classDef tree fill:#fff3e0,stroke:#ef6c00,color:#000
+    classDef reg fill:#eef3fb,stroke:#4a6fa5,color:#000
+    classDef mention fill:#e8f5e9,stroke:#2e7d32,color:#000
+    classDef data fill:#fff8e1,stroke:#ef6c00,color:#000
+    classDef gap fill:#eeeeee,stroke:#9e9e9e,color:#555,stroke-dasharray:4 3
+    class q0,q1,q1p,q1b,q2,q3,q4,q5,q6,qrt tree
+    class q7 data
+    class qs,qc gap
+    class o1,o1p,o3,o8 reg
+    class o1b,o2,o4,o5,ort,o7 mention
+    class o6 gap

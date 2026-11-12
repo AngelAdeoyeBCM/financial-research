@@ -1,0 +1,270 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Credit_-_Covered_Bonds_and_SSA_Update_-_German_sovereign_rating__regulatory_treatment_Canadian_pension_funds.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 12,
+    "referents": {
+     "thing": 5,
+     "claim": 4
+    },
+    "decisions": {
+     "leave": 4,
+     "link": 8
+    },
+    "leave_reasons": {
+     "time": 1,
+     "not_a_reference": 2,
+     "relative": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 26,
+  "kinds": {
+   "deixis": 8,
+   "noun_phrase": 5,
+   "abbreviation": 5,
+   "possessive": 2,
+   "proposition": 2,
+   "shell": 2,
+   "symbol": 1,
+   "fragment": 1
+  },
+  "rooted_share": 0.9195402298850575,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 43,
+  "cost_usd": 0.1474
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1136,
+   "end": 1143,
+   "quote": "Germany",
+   "name": "Germany"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 3660,
+   "end": 3682,
+   "quote": "financial institutions",
+   "name": "financial institutions"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3077,
+   "end": 3090,
+   "quote": "Eurostat data",
+   "name": "the Eurostat data"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 3786,
+   "end": 3891,
+   "quote": "these institutions have also significant amounts of financial assets, which are not captured in this data",
+   "name": "these institutions have also significant amounts of financial assets, which are not captured in this data"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4115,
+   "end": 4137,
+   "quote": "Canadian pension funds",
+   "name": "Canadian pension funds"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 4637,
+   "end": 4694,
+   "quote": "their debt can be treated as an exposure to the sovereign",
+   "name": "their debt can be treated as an exposure to the sovereign"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 4774,
+   "end": 4911,
+   "quote": "the competent authority of a third country with equivalent supervisory confirms the equivalence of risk positions with sovereign exposure",
+   "name": "the competent authority of a third country with equivalent supervisory confirms the equivalence of risk positions with sovereign exposure"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 5518,
+   "end": 5571,
+   "quote": "Canadian pension funds are not PSE but are corporates",
+   "name": "Canadian pension funds are not PSE but are corporates"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1136,
+   "end": 1156,
+   "quote": "Germany's Aaa rating",
+   "name": "Germany's Aaa rating"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We cannot' at 2468"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.05642550000000001,
+   "duration_ms": 9856,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4570,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 943,
+    "output_tokens_details": {
+     "thinking_tokens": 731
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4570,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 943,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4570,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4570
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0909321,
+   "duration_ms": 21247,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5005,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2483,
+    "output_tokens_details": {
+     "thinking_tokens": 1513
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5005,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2483,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5005,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5005
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

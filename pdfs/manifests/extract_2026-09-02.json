@@ -1,0 +1,608 @@
+{
+  "batch_id": "2026-09-02",
+  "window": [
+    "2026-09-02",
+    "2026-09-02"
+  ],
+  "generated_at": "2026-10-29T16:31:23",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-02_2026-09-05.json",
+      "sha256": "753fcb6489baff025a9872699ae2b0d1d7530b99bc990de80e2a9de7a51c0ff3",
+      "records": 3222,
+      "dates": [
+        "2026-09-02",
+        "2026-09-04"
+      ],
+      "records_for_batch": 278
+    }
+  ],
+  "counts": {
+    "documents": 17,
+    "in_scope": 13,
+    "out_of_scope": 4,
+    "compiled": 3,
+    "skipped": 10,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 39,
+    "edits": 20,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BofA_Australia_Watch_-_2Q_GDP_review_-_Household_resilience_supports_a_September_RBA_hike",
+      "document": "BofA_Australia Watch - 2Q GDP review - Household resilience supports a September RBA hike.pdf",
+      "date": "2026-09-02",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Canada_Watch_-_BoC_holds_at_2.25per_as_inflation_risks_climb_and_growth_clouds_linger",
+      "document": "BofA_Canada Watch - BoC holds at 2.25per as inflation risks climb and growth clouds linger.pdf",
+      "date": "2026-09-02",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/BofA_Canada_Watch_-_BoC_holds_at_2.25per_as_inflation_risks_climb_and_growth_clouds_linger.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "9e55243c833713b4408e21d39f804da044b83472",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "BofA Securities does and seeks to do business with issuers covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Investors should consider this report as only a single factor in making their investment decision."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Refer to important disclosures on page 3 to 4. 13014921"
+        },
+        {
+          "rule": "series_header",
+          "section": "header",
+          "text": "Canada Watch"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "02 September 2026 Macro Canada Carlos Capistran LatAm and Canada Economist BofAS +1 646 743 2921 carlos.capistran@bofa.com Katie Craig Rates Strategist BofAS katie.craig@bofa.com Ralph Axel Rates Strategist BofAS ralph.axel@bofa.com John Shin FX Strategist BofAS joong.s.shin@bofa.com"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "See Team Page for List of Analysts"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Accessible version"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Timestamp: 02 September 2026 02:17PM EDT"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Unauthorized redistribution of this report is prohibited."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "This report is intended for juha.valkama@bluecrestcapital.com"
+        },
+        {
+          "rule": "series_header",
+          "section": "header",
+          "text": "Canada Watch"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Katie Craig BofAS katie.craig@bofa.com Ralph Axel BofAS ralph.axel@bofa.com"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "John Shin BofAS joong.s.shin@bofa.com"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 5,
+        "header": 2,
+        "signature": 3,
+        "footer": 3
+      },
+      "edits": {
+        "spacing": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " )",
+              "after": ")"
+            },
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "unicode": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "…",
+              "after": "..."
+            },
+            {
+              "before": "…",
+              "after": "..."
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "BofA_UK_Viewpoint_-_Back_to_School_-_Waiting_out_the_energy_shock",
+      "document": "BofA_UK Viewpoint - Back to School - Waiting out the energy shock.pdf",
+      "date": "2026-09-02",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Citi_Research_Global_Macro_Strategy_-_Open_Trade_Ideas",
+      "document": "Citi_Citi Research Global Macro Strategy - Open Trade Ideas.pdf",
+      "date": "2026-09-02",
+      "publisher": "Citi",
+      "document_type": "Trade Idea",
+      "chunk_count": 31,
+      "page_count": 11,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.774,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Japan_Monetary_Policy_Watch_-_Examining_the_BoJ_s_expedited_rate_hike_driven_by_external_pressure",
+      "document": "DB_Japan Monetary Policy Watch - Examining the BoJ's expedited rate hike driven by external pressure.pdf",
+      "date": "2026-09-02",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Japan_Rates_Strategy_-_Beyond_3per_-_Reading_the_10y_Milestone_Through_the_Futures_Market",
+      "document": "DB_Japan Rates Strategy - Beyond 3per - Reading the 10y Milestone Through the Futures Market.pdf",
+      "date": "2026-09-02",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_US_Economic_Perspectives_-_Resilient_growth_meets_sticky_inflation_in_the_latest_Beige_Book",
+      "document": "DB_US Economic Perspectives - Resilient growth meets sticky inflation in the latest Beige Book.pdf",
+      "date": "2026-09-02",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/DB_US_Economic_Perspectives_-_Resilient_growth_meets_sticky_inflation_in_the_latest_Beige_Book.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "178662f69f134f6ad78c08ae630557ca4c334fb3",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Labor market score at the neutral level Figure 2: Inflation score still elevated Source: F'",
+          "chunk_id": "DB_US Economic Perspectives - Resilient growth meets sticky inflation in the latest Beige Book.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 7: Growth sentiment remained modestly strong Figure 8: Recession probabilities at low level S'",
+          "chunk_id": "DB_US Economic Perspectives - Resilient growth meets sticky inflation in the latest Beige Book.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 02/09/2026 20:35:24 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 02/09/2026 20:35:24 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Amy Yang Economist +1-212-250-9959"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-04T15:13+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "2 September 2026 US Economic Perspectives Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Chief US Economist +1-212-250-6161 Brett Ryan Senior US Economist +1-212-250-6294 Justin Weidner Economist +1-212-469-1679"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-04T15:13+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "2 September 2026 US Economic Perspectives Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Federal Reserve Banks, Deutsche Bank Research Source: Federal Reserve Banks, Deutsche Bank Research Figure"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Federal Reserve Banks, Deutsche Bank Research Source: Federal Reserve Banks, Deutsche Bank Research Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-04T15:13+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "2 September 2026 US Economic Perspectives Deutsche Bank Securities Inc. Page 4"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Federal Reserve Banks, Deutsche Bank Research Source: Federal Reserve Banks, Deutsche Bank Research Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-04T15:13+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Federal Reserve Banks, Deutsche Bank Research Source: Federal Reserve Banks, Deutsche Bank Research"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 12,
+        "disclaimer": 9,
+        "signature": 2
+      },
+      "edits": {
+        "split_word": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "expectatio ns",
+              "after": "expectations"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " )",
+              "after": ")"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Resilient growth meets sticky inflation in the latest Beige Book ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "\n\n• ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Close_INR_1y_receiver_and_IndoGB_5y_longs_Trade_Idea--930886",
+      "document": "EM_rates_Close_INR_1y_receiver_and_IndoGB_5y_longs_Trade_Idea--930886.pdf",
+      "date": "2026-09-02",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Close_INR_1y_receiver_and_IndoGB_5y_longs_Trade_Idea--930886.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "3cf0ce947a63d690dd681ad7fada27546a3e10ef",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: INR 1y swap sold off after hawkish RBI meeting minutes and the unexpected early closure of t'",
+          "chunk_id": "EM_rates_Close_INR_1y_receiver_and_IndoGB_5y_longs_Trade_Idea--930886.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: INR 1y swap sold off after hawkish RBI meeting minutes and the unexpected early closure of t'",
+          "chunk_id": "EM_rates_Close_INR_1y_receiver_and_IndoGB_5y_longs_Trade_Idea--930886.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 2 September 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 02 SEPTEMBER 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Bloomberg, Macrobond, BNP Paribas   Chandresh Jain FX and Rates Strategist, EM Asia | MAR BNP Paribas Singapore Branch chandresh.jain@asia.bnpparibas.com Joey Li FX and Rates Strategist, APAC BNP Paribas Singapore Branch joey.j.li@asia.bnpparibas.com"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Close INR 1y receiver and IndoGB 5y longs ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "unicode": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "¼",
+              "after": "1⁄4"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_GLOBAL_OPPORTUNITY_ASSET_LOCATOR_-_Rotation_moderation___remain_OW_equities_for_12m_but_tactically_more_defensive",
+      "document": "GS_GLOBAL OPPORTUNITY ASSET LOCATOR - Rotation moderation — remain OW equities for 12m but tactically more defensive.pdf",
+      "date": "2026-09-02",
+      "publisher": "Goldman Sachs",
+      "document_type": "Outlook",
+      "chunk_count": 46,
+      "page_count": 22,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.262,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_An_Inconvenient_Time_for_EGBs",
+      "document": "GS_Global Markets Daily - An Inconvenient Time for EGBs.pdf",
+      "date": "2026-09-02",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 15,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.913,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_adds_short_USDILS_USDPHP_overvalued_EURNOK_undervalued_Trade_Idea--930912",
+      "document": "STEER_adds_short_USDILS_USDPHP_overvalued_EURNOK_undervalued_Trade_Idea--930912.pdf",
+      "date": "2026-09-02",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 13,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "South_Korea_Expansionary_fiscal_stance_to_continue_Desknote--930827",
+      "document": "South_Korea_Expansionary_fiscal_stance_to_continue_Desknote--930827.pdf",
+      "date": "2026-09-02",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Uncertainty_and_contrarian_JPY_convictions",
+      "document": "Uncertainty and contrarian JPY convictions.pdf",
+      "date": "2026-09-02",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

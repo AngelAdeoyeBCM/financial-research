@@ -1,0 +1,19 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .view{background:#c9dcf8;border-color:#1a3f8b} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · VIEW</b><div class='core view'><span>Desk sentiment into quarter-end not encouraging</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Rates turmoil reinforced perceived policy control loss</span><b>[A]</b></div><div class='c view'><span><b>S:</b> 2026 P&amp;L made in Q1; funds protecting via lower gross</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Significant drop in retail activity</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Treasury 30Y at 5.51%, mortgages 7.18%</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>HFs down ~1% MTD in September</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Retail demand down 23% from August</mark></span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · VIEW</b><div class='core view'><span>Awkward asymmetry into Q4</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A001 - VIEW</b></span><b>[A]</b></div><div class='c view'><span><b>S:</b> Clients fear missing a rally; FOMO palpable</span><b>[A]</b></div><div class='c view'><span><b>CA:</b> Hormuz headline could trigger rally and rates reversal</span><b>[S]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · RECOMMENDATION</b><div class='core rec'><span>Use hedges to run more risk</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A002 - VIEW</b></span><b>[A]</b></div></div>"]
+    A004["<div class='arg'><b>A004 · RECOMMENDATION</b><div class='core rec'><span>Short EU AI Agent Risk basket idea</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Investors imagine AI automation threatening EU sectors</span><b>[A]</b></div></div>"]
+    A005["<div class='arg'><b>A005 · FORECAST</b><div class='core fc'><span>Scheme should support new-build demand</span><b>[H]</b></div><div class='c dp'><span><b>RA:</b> <mark>UK Your First Home scheme announced</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Help to Buy lifted builder completions ~33%</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>UK Homebuilders basket up ~11.5%</mark></span><b>[A]</b></div></div>"]
+    A006["<div class='arg'><b>A006 · VIEW</b><div class='core view'><span>HFs leaning into less-crowded AI pockets</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Memory net positioning ~6% vs ~12% peak</mark></span><b>[A]</b></div></div>"]
+
+    A001 -- Supporting --> A002
+    A002 -- Supporting --> A003
+
+    classDef fc fill:#eef9ee,stroke:#1a6b3a,stroke-width:2px,color:#111111
+    classDef rec fill:#fdeeee,stroke:#8b1a1a,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A005 fc
+    class A003,A004 rec
+    class A001,A002,A006 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

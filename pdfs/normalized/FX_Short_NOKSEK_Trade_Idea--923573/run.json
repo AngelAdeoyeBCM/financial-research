@@ -1,0 +1,209 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Short_NOKSEK_Trade_Idea--923573.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-07",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 11,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 11
+    },
+    "leave_reasons": {},
+    "extra": 16,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 38,
+  "kinds": {
+   "noun_phrase": 18,
+   "deixis": 11,
+   "possessive": 4,
+   "pronoun": 3,
+   "proposition": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6545454545454545,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 25,
+  "cost_usd": 0.1122
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 129,
+   "end": 135,
+   "quote": "NOKSEK",
+   "name": "NOKSEK"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 358,
+   "end": 371,
+   "quote": "around parity",
+   "name": "around parity"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 932,
+   "end": 943,
+   "quote": "Norges Bank",
+   "name": "Norges Bank"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1015,
+   "end": 1026,
+   "quote": "May meeting",
+   "name": "the May meeting"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2265,
+   "end": 2339,
+   "quote": "market positioning for the energy trade is now well reflected in the cross",
+   "name": "market positioning for the energy trade is now well reflected in the cross"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1382,
+   "end": 1412,
+   "quote": "surprise Norges Bank rate hike",
+   "name": "the surprise Norges Bank rate hike"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1210,
+   "end": 1224,
+   "quote": "a NOKSEK short",
+   "name": "the NOKSEK short"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0310107,
+   "duration_ms": 3459,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3267,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 200,
+    "output_tokens_details": {
+     "thinking_tokens": 192
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3267,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 200,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3267,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3267
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.08120340000000001,
+   "duration_ms": 22156,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3713,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2520,
+    "output_tokens_details": {
+     "thinking_tokens": 1219
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3713,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2520,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3713,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3713
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

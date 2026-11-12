@@ -1,0 +1,184 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Take_profit_on_EURPLN_xccy_receiver_Trade_Idea--919792.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-03",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "leave": 1,
+     "link": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 9,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 2
+  },
+  "rooted_share": 0.45454545454545453,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 1
+  },
+  "sentences": 10,
+  "cost_usd": 0.0619
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 200,
+   "end": 204,
+   "quote": "12bp",
+   "name": "12bp"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 170,
+   "end": 196,
+   "quote": "EURPLN xccy basis receiver",
+   "name": "the EURPLN xccy basis receiver"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 897",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.023913200000000003,
+   "duration_ms": 2581,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2697,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 76,
+    "output_tokens_details": {
+     "thinking_tokens": 63
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2697,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 76,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2697,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2697
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.038001,
+   "duration_ms": 8092,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2789,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 734,
+    "output_tokens_details": {
+     "thinking_tokens": 490
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2789,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 734,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2789,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2789
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

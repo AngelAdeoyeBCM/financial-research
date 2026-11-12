@@ -1,0 +1,199 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Stopped_out_of_long_PLNZAR_Trade_Idea--927943.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-10",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "leave": 1,
+     "link": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 9,
+  "kinds": {
+   "deixis": 6,
+   "noun_phrase": 2,
+   "pronoun": 1
+  },
+  "rooted_share": 0.75,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 11,
+  "cost_usd": 0.0582
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 201,
+   "end": 228,
+   "quote": "NBP governor Adam Glapiński",
+   "name": "NBP governor Adam Glapiński"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 67,
+   "end": 89,
+   "quote": "long PLNZAR trade idea",
+   "name": "the long PLNZAR trade idea"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 748,
+   "end": 757,
+   "quote": "the zloty",
+   "name": "the zloty"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 55"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We therefore no' at 664"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.023083000000000003,
+   "duration_ms": 2278,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2585,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 80,
+    "output_tokens_details": {
+     "thinking_tokens": 72
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2585,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 80,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2585,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2585
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.035111,
+   "duration_ms": 6541,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2674,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 636,
+    "output_tokens_details": {
+     "thinking_tokens": 302
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2674,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 636,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2674,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2674
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+# Bond segments: many issuers' bonds of one sector in one currency, optionally one rating band. Key derived
+# currency + sector + rating -> seg:USD.corp.ig; an unset rating is left out (seg:USD.muni).
+# sector: govt | ssa | covered | corp | muni | mbs. rating: aaa | ig | hy. Written 2026-11-10; hand-maintained.
+
+# -- sovereign and sovereign-related ------------------------------------------------------------------
+- {currency_id: EUR, sector: govt, name: EGBs}
+- {currency_id: EUR, sector: ssa, name: EUR SSAs}
+- {currency_id: USD, sector: ssa, name: USD SSAs}
+# -- covered ------------------------------------------------------------------------------------------
+- {currency_id: EUR, sector: covered, name: EUR covered bonds}
+# -- corporates ---------------------------------------------------------------------------------------
+- {currency_id: USD, sector: corp, name: USD corporates}
+- {currency_id: USD, sector: corp, rating: ig, name: USD IG corporates}
+- {currency_id: USD, sector: corp, rating: hy, name: USD high yield}
+- {currency_id: EUR, sector: corp, name: EUR corporates}
+- {currency_id: EUR, sector: corp, rating: ig, name: EUR IG corporates}
+- {currency_id: EUR, sector: corp, rating: hy, name: EUR high yield}
+- {currency_id: GBP, sector: corp, rating: ig, name: GBP IG corporates}
+# -- munis and mortgages ------------------------------------------------------------------------------
+- {currency_id: USD, sector: muni, name: Munis}
+- {currency_id: USD, sector: muni, rating: aaa, name: AAA munis}
+- {currency_id: USD, sector: mbs, name: Agency MBS}

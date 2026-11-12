@@ -1,0 +1,171 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Taking_profit_on_long_USDCHF_staying_long_USDJPY_Desknote--929219.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {},
+    "decisions": {
+     "leave": 2
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "expletive": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 8,
+  "kinds": {
+   "deixis": 8
+  },
+  "rooted_share": 0.0,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 10,
+  "cost_usd": 0.0545
+ },
+ "referents": [],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we deem' at 604"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0250336,
+   "duration_ms": 2520,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2766,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 98,
+    "output_tokens_details": {
+     "thinking_tokens": 90
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2766,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 98,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2766,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2766
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.029449500000000003,
+   "duration_ms": 3947,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2854,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 280,
+    "output_tokens_details": {
+     "thinking_tokens": 193
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2854,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 280,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2854,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2854
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

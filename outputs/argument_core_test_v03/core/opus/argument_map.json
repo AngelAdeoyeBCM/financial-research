@@ -1,0 +1,342 @@
+{
+ "map": {
+  "arguments": [
+   {
+    "id": "A001",
+    "summary": "The Fed's simple choice at the Sept FOMC is to hike or risk a large bond spike, since bond price action shows the bond likes orthodoxy: hikes, not buybacks.",
+    "conclusion": "P016-2",
+    "premises": [
+     "P019-1",
+     "P020-1",
+     "P020-2"
+    ],
+    "conditions": [],
+    "qualifiers": [
+     "P016-1"
+    ],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC001",
+     "SC002"
+    ]
+   },
+   {
+    "id": "A002",
+    "summary": "The sharp rise in Sept hike pricing was catalyzed by Warsh's Jackson Hole speech and stronger labor and inflation data.",
+    "conclusion": "P079-2",
+    "premises": [
+     "P014-1",
+     "P014-2",
+     "P014-3"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A003",
+    "summary": "The Fed hikes 25bp: the hike-or-bond-spike choice, ~85% pricing, Friday's CPI, the high cost of disappointing, no precedent for holding, and the Fed's understanding of bond risk.",
+    "conclusion": "P005-1",
+    "premises": [
+     "A001",
+     "P013-1",
+     "A002",
+     "P080-1",
+     "P030-1",
+     "P031-1",
+     "P031-2",
+     "P032-3",
+     "P028-1",
+     "P097-1",
+     "P097-2",
+     "P097-3"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A004",
+    "summary": "For a hike, the rate reaction depends on the mix of Fed communications, so the Warsh presser is the key question: a hawkish or a dovish presser.",
+    "conclusion": "P086-1",
+    "premises": [
+     "P084-1",
+     "P059-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC003",
+     "SC004"
+    ]
+   },
+   {
+    "id": "A005",
+    "summary": "A hawkish hike should support the constructive long end asset swap spread view because lower growth and inflation risk and enhanced Fed credibility support UST investor confidence.",
+    "conclusion": "P104-1",
+    "premises": [
+     "P104-2",
+     "P104-3",
+     "P104-4"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A006",
+    "summary": "Warsh delivers a hawkish hike, more Jackson Hole than July, to support the bond; this supports higher front end rates and twist flattening of the UST curve.",
+    "conclusion": "P009-1",
+    "premises": [
+     "A003",
+     "A004",
+     "P086-2",
+     "P025-2",
+     "P021-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P009-2",
+     "P009-3",
+     "P103-2",
+     "A005"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A007",
+    "summary": "With more than 3 hikes priced and global central banks repricing, the bar for the Fed to out-hawk expectations and other G10 central banks is high, so the USD trades sideways.",
+    "conclusion": "P118-2",
+    "premises": [
+     "P118-1",
+     "P117-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [
+     "P119-1"
+    ],
+    "risks": [],
+    "implications": [
+     "P119-2"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A008",
+    "summary": "The USD outcome depends on the Fed out-hawking expectations and G10 peers, with two-way risk: a bullish hawkish-hike case against bearish hold or dovish-hike cases.",
+    "conclusion": "P010-1",
+    "premises": [
+     "A007",
+     "P121-1",
+     "P113-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [
+     "P128-2"
+    ],
+    "implications": [],
+    "alternatives": [
+     "SC005",
+     "SC006",
+     "SC007"
+    ]
+   }
+  ],
+  "scenarios": [
+   {
+    "id": "SC001",
+    "label": "Fed holds at Sept FOMC",
+    "assumptions": [
+     "P095-1"
+    ],
+    "implications": [
+     "P017-2",
+     "P018-1",
+     "P095-2",
+     "P095-3",
+     "P096-10",
+     "P096-11",
+     "P096-12",
+     "P105-3",
+     "P082-2"
+    ],
+    "complements": [
+     "SC002"
+    ]
+   },
+   {
+    "id": "SC002",
+    "label": "Fed hikes at Sept FOMC",
+    "assumptions": [
+     "P038-1"
+    ],
+    "implications": [
+     "P038-2",
+     "P045-2",
+     "P045-3",
+     "P058-2",
+     "P041-2"
+    ],
+    "complements": [
+     "SC001"
+    ]
+   },
+   {
+    "id": "SC003",
+    "label": "Hawkish presser, Jackson Hole Warsh",
+    "assumptions": [
+     "P087-1",
+     "P087-2"
+    ],
+    "implications": [
+     "P087-3",
+     "P087-4",
+     "P088-1",
+     "P088-2",
+     "P089-1",
+     "P089-2",
+     "P090-3",
+     "P026-4"
+    ],
+    "complements": [
+     "SC004"
+    ]
+   },
+   {
+    "id": "SC004",
+    "label": "Dovish presser, July FOMC Warsh",
+    "assumptions": [
+     "P091-2"
+    ],
+    "implications": [
+     "P091-4",
+     "P091-5",
+     "P093-1",
+     "P093-2",
+     "P094-2",
+     "P027-2",
+     "P061-2",
+     "P082-1"
+    ],
+    "complements": [
+     "SC003"
+    ]
+   },
+   {
+    "id": "SC005",
+    "label": "Bullish USD: hawkish hike and SEP",
+    "assumptions": [
+     "P124-1",
+     "P125-2",
+     "P126-1"
+    ],
+    "implications": [
+     "P127-1",
+     "P127-2",
+     "P026-3"
+    ],
+    "complements": [
+     "SC006",
+     "SC007"
+    ]
+   },
+   {
+    "id": "SC006",
+    "label": "Bearish USD: Fed holds",
+    "assumptions": [
+     "P129-1"
+    ],
+    "implications": [
+     "P129-2"
+    ],
+    "complements": [
+     "SC005",
+     "SC007"
+    ]
+   },
+   {
+    "id": "SC007",
+    "label": "Bearish USD: hike with muddled messaging",
+    "assumptions": [
+     "P132-1",
+     "P133-2"
+    ],
+    "implications": [
+     "P130-2",
+     "P132-4",
+     "P133-1"
+    ],
+    "complements": [
+     "SC005",
+     "SC006"
+    ]
+   }
+  ]
+ },
+ "errors": [],
+ "attempts": 1,
+ "usage": [
+  {
+   "cost_usd": 0.3112983,
+   "duration_ms": 55950,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22979,
+    "cache_read_input_tokens": 2013,
+    "output_tokens": 6247,
+    "output_tokens_details": {
+     "thinking_tokens": 4191
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 22979,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 6247,
+      "cache_read_input_tokens": 2013,
+      "cache_creation_input_tokens": 22979,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 22979
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

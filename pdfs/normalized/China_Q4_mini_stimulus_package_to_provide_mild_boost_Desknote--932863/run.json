@@ -1,0 +1,268 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/China_Q4_mini_stimulus_package_to_provide_mild_boost_Desknote--932863.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-29",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 15,
+    "referents": {
+     "thing": 11
+    },
+    "decisions": {
+     "link": 13,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "relative": 1,
+     "time": 1
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 41,
+  "kinds": {
+   "deixis": 22,
+   "noun_phrase": 10,
+   "possessive": 3,
+   "pronoun": 3,
+   "demonstrative": 2,
+   "symbol": 1
+  },
+  "rooted_share": 0.6619718309859155,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 46,
+  "cost_usd": 0.1541
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 487,
+   "end": 513,
+   "quote": "The People’s Bank of China",
+   "name": "the People’s Bank of China"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 731,
+   "end": 752,
+   "quote": "China’s State Council",
+   "name": "China’s State Council"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2183,
+   "end": 2200,
+   "quote": "carry-over quotas",
+   "name": "carry-over quotas"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2507,
+   "end": 2545,
+   "quote": "new policy-based financial instruments",
+   "name": "the new policy-based financial instruments"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 271,
+   "end": 320,
+   "quote": "quotas for new policy-based financial instruments",
+   "name": "the quotas for new policy-based financial instruments"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2881,
+   "end": 2906,
+   "quote": "The State Council meeting",
+   "name": "the State Council meeting"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4466,
+   "end": 4486,
+   "quote": "special LGB issuance",
+   "name": "the special LGB issuance"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4651,
+   "end": 4674,
+   "quote": "The Ministry of Finance",
+   "name": "the Ministry of Finance"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 347,
+   "end": 372,
+   "quote": "the mortgage rate subsidy",
+   "name": "the mortgage rate subsidy"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 6292,
+   "end": 6311,
+   "quote": "the property sector",
+   "name": "the property sector"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 153,
+   "end": 181,
+   "quote": "the Q4 mini stimulus package",
+   "name": "the Q4 mini stimulus package"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C007",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We don’t' at 6238"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0488421,
+   "duration_ms": 4459,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5291,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 272,
+    "output_tokens_details": {
+     "thinking_tokens": 264
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5291,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 272,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5291,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5291
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1052264,
+   "duration_ms": 22684,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5928,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2824,
+    "output_tokens_details": {
+     "thinking_tokens": 1508
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5928,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2824,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5928,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5928
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,520 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Japan_Monetary_Policy_Watch_-_BoJ_June_MPM_preview.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 60,
+    "referents": {
+     "thing": 23,
+     "claim": 5
+    },
+    "decisions": {
+     "link": 52,
+     "leave": 8
+    },
+    "leave_reasons": {
+     "expletive": 4,
+     "generic": 1,
+     "relative": 1,
+     "not_a_reference": 2
+    },
+    "extra": 8,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 82,
+  "kinds": {
+   "noun_phrase": 22,
+   "deixis": 19,
+   "possessive": 16,
+   "pronoun": 12,
+   "demonstrative": 5,
+   "abbreviation": 3,
+   "shell": 3,
+   "proposition": 2
+  },
+  "rooted_share": 0.9142857142857143,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "LONG_RESOLUTION": 3,
+   "UNGROUNDED_WORD": 1,
+   "UNRESOLVED_PRONOUN": 5
+  },
+  "sentences": 75,
+  "cost_usd": 0.413
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 114,
+   "end": 131,
+   "quote": "The Bank of Japan",
+   "name": "the Bank of Japan"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 76,
+   "end": 113,
+   "quote": "a 0.25% rate hike at the June meeting",
+   "name": "the 0.25% rate hike at the June meeting"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 411,
+   "end": 424,
+   "quote": "Governor Ueda",
+   "name": "Governor Ueda"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 383,
+   "end": 501,
+   "quote": "the strong sense of urgency Governor Ueda expressed in his June 3 speech about the risk of \"getting behind the curve.\"",
+   "name": "Governor Ueda's sense of urgency about the risk of \"getting behind the curve\""
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 862,
+   "end": 1006,
+   "quote": "the domestic corporate goods price index and inflation expectations, which the Governor is closely watching, are already indicating upside risks",
+   "name": "the domestic corporate goods price index and inflation expectations, which the Governor is closely watching, are already indicating upside risks"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1325,
+   "end": 1359,
+   "quote": "a revision to the forward guidance",
+   "name": "the revision to the forward guidance"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 97,
+   "end": 113,
+   "quote": "the June meeting",
+   "name": "the June meeting"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2791,
+   "end": 2897,
+   "quote": "any difference between the members who approve the mini-report and those who vote for the rate hike itself",
+   "name": "the difference between the members who approve the mini-report and those who vote for the rate hike itself"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 2655,
+   "end": 2688,
+   "quote": "a so-called \"mini\" outlook report",
+   "name": "the so-called \"mini\" outlook report"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 3375,
+   "end": 3505,
+   "quote": "The BoJ has so far maintained its stance of \"continuing to raise the policy rate and adjust the degree of monetary accommodation.\"",
+   "name": "the BoJ's stance of \"continuing to raise the policy rate and adjust the degree of monetary accommodation\""
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 3545,
+   "end": 3597,
+   "quote": "the phase of \"adjusting the degree of accommodation\"",
+   "name": "the phase of \"adjusting the degree of accommodation\""
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 3691,
+   "end": 3712,
+   "quote": "A policy rate of 1.0%",
+   "name": "the policy rate of 1.0%"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 4550,
+   "end": 4598,
+   "quote": "the BoJ faces a crucial communication crossroads",
+   "name": "the BoJ's crucial communication crossroads"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 8217,
+   "end": 8299,
+   "quote": "the \"de-commitment from an accommodative stance\" and \"enhanced policy flexibility\"",
+   "name": "the \"de-commitment from an accommodative stance\" and \"enhanced policy flexibility\""
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 8876,
+   "end": 9009,
+   "quote": "the Governor's view on the relationship between underlying inflation reaching 2% and the achievement of the \"price stability target.\"",
+   "name": "the Governor's view on the relationship between underlying inflation reaching 2% and the achievement of the \"price stability target\""
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 9246,
+   "end": 9266,
+   "quote": "underlying inflation",
+   "name": "underlying inflation"
+  },
+  {
+   "id": "R17",
+   "type": "claim",
+   "start": 9288,
+   "end": 9409,
+   "quote": "The recent rise in crude oil prices could push this figure up, leading to it reaching 2% while also posing an upside risk",
+   "name": "The recent rise in crude oil prices could push this figure up, leading to it reaching 2% while also posing an upside risk"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 9114,
+   "end": 9160,
+   "quote": "Interpretation of the \"price stability target\"",
+   "name": "the interpretation of the \"price stability target\""
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 10221,
+   "end": 10261,
+   "quote": "a deliberate \"behind-the-curve\" strategy",
+   "name": "the deliberate \"behind-the-curve\" strategy"
+  },
+  {
+   "id": "R20",
+   "type": "claim",
+   "start": 10799,
+   "end": 10971,
+   "quote": "the BoJ's policy reaction function is changing to become more forward-looking as inflation approaches 2%, and the need to respond more swiftly to upside risks is increasing",
+   "name": "the BoJ's policy reaction function is changing to become more forward-looking as inflation approaches 2%, and the need to respond more swiftly to upside risks is increasing"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 11403,
+   "end": 11447,
+   "quote": "Rate hike path: Maintaining a quarterly pace",
+   "name": "the quarterly pace of the rate hike path"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 12324,
+   "end": 12377,
+   "quote": "the plan already decided for the period up to Q1 2027",
+   "name": "the plan already decided for the period up to Q1 2027"
+  },
+  {
+   "id": "R23",
+   "type": "claim",
+   "start": 12620,
+   "end": 12686,
+   "quote": "the monthly purchase amount will be maintained at JPY 2.1 trillion",
+   "name": "the monthly purchase amount will be maintained at JPY 2.1 trillion"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 14009,
+   "end": 14039,
+   "quote": "the reduction of JGB purchases",
+   "name": "the reduction of JGB purchases"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 13151,
+   "end": 13183,
+   "quote": "A decision to halt the reduction",
+   "name": "the decision to halt the reduction"
+  },
+  {
+   "id": "R26",
+   "type": "claim",
+   "start": 13151,
+   "end": 13219,
+   "quote": "A decision to halt the reduction can find its own economic rationale",
+   "name": "A decision to halt the reduction can find its own economic rationale"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 13670,
+   "end": 13731,
+   "quote": "a simultaneous decision to raise rates and halt the reduction",
+   "name": "the simultaneous decision to raise rates and halt the reduction"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 14146,
+   "end": 14216,
+   "quote": "a dilemma with the serious side effect of \"doubts about independence.\"",
+   "name": "the dilemma with the serious side effect of \"doubts about independence\""
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C011",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "them",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C039",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C049",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we envision' at 5261"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we understand' at 10780"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we recognize' at 12799"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1008",
+   "message": "+21 words: {{These objective facts => The objective facts that the domestic corporate goods price index and inflation expectations, which the Governor is closely watching, are already indicating upside risks}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 3621",
+   "message": "not verbatim in source: ['s'] in {{its => the phase of \"adjusting the degree of accommodation\"'s}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 9414",
+   "message": "+24 words: {{this context => the context that the recent rise in crude oil prices could push underlying inflation up, leading to underlying inflation reaching 2% while also posing an upside risk}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 11014",
+   "message": "+28 words: {{this point => the point that the BoJ's policy reaction function is changing to become more forward-looking as inflation approaches 2%, and the need to respond more swiftly to upside risks is increasing}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'them' in 'magnitude of rate hikes when discussing them.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'their' in \"pments in the Middle East situation and their impact on Japan's economic activity and\""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'his' in \"Governor Ueda's intention, expressed in his June 3 speech, to carefully scrutinize \""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'its' in 'signal that the hiking cycle is nearing its end, and the risk of a temporary yen de'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'its' in 'implications of this change rather than its superficial interpretation.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0713072,
+   "duration_ms": 7850,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7072,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 674,
+    "output_tokens_details": {
+     "thinking_tokens": 666
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7072,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 674,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 7072,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7072
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.3417417000000001,
+   "duration_ms": 107313,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9451,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 13223,
+    "output_tokens_details": {
+     "thinking_tokens": 9102
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9451,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 13223,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 9451,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9451
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

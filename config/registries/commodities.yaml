@@ -1,0 +1,23 @@
+# Commodities. IDs: cmdty:<slug>. Observed in the corpus plus copper.
+# commodity_type: QLib CommodityType (crude, natgas, metal, power, coal, freight, agri, weather).
+# QLib: a benchmark is idx[<currency code>,<ref_code>] (set currency_id + ref_code);
+# precious metals are currencies, ccy[<code>] (set code). Umbrella terms set neither.
+
+# -- energy -------------------------------------------------------------------
+- {type: commodity, entity_id: cmdty:crude_oil, name: Crude oil, commodity_type: crude, aliases: [oil, crude, oil prices]}
+- {type: commodity, entity_id: cmdty:brent, name: Brent, commodity_type: crude, currency_id: ccy:usd, ref_code: BRENT, aliases: [Brent crude, Brent oil]}
+- {type: commodity, entity_id: cmdty:wti, name: WTI, commodity_type: crude, currency_id: ccy:usd, ref_code: WTI, aliases: [WTI crude, West Texas Intermediate]}
+# check: QLib also has NG-HENRY next to NG
+- {type: commodity, entity_id: cmdty:natural_gas, name: Natural gas, commodity_type: natgas, currency_id: ccy:usd, ref_code: NG, aliases: [gas, natgas, Henry Hub]}
+- {type: commodity, entity_id: cmdty:ttf, name: TTF, commodity_type: natgas, currency_id: ccy:eur, ref_code: TTF, aliases: [TTF gas, Dutch TTF, European gas]}
+# QLib groups gasoil with crude (ReferenceIndexGroups.Oil)
+- {type: commodity, entity_id: cmdty:gasoil, name: Gasoil, commodity_type: crude, currency_id: ccy:usd, ref_code: GASOIL, aliases: [ICE gasoil, diesel]}
+# check: QLib has JET-NWE and JET-SG
+- {type: commodity, entity_id: cmdty:jet_fuel, name: Jet fuel, commodity_type: crude, aliases: [jet kerosene]}
+
+# -- metals -------------------------------------------------------------------
+- {type: commodity, entity_id: cmdty:gold, name: Gold, commodity_type: metal, code: XAU, aliases: [bullion]}
+- {type: commodity, entity_id: cmdty:silver, name: Silver, commodity_type: metal, code: XAG}
+- {type: commodity, entity_id: cmdty:platinum, name: Platinum, commodity_type: metal, code: XPT}
+- {type: commodity, entity_id: cmdty:palladium, name: Palladium, commodity_type: metal, code: XPD}
+- {type: commodity, entity_id: cmdty:copper, name: Copper, commodity_type: metal, aliases: [HG copper, LME copper]}

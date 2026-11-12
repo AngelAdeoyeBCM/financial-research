@@ -1,0 +1,433 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Perspectives_-_Trimmed-mean_inflation_-_Target_material_or_just_a_trendy_measure.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-27",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 49,
+    "referents": {
+     "thing": 11,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 34,
+     "leave": 15
+    },
+    "leave_reasons": {
+     "not_a_reference": 9,
+     "relative": 2,
+     "generic": 1,
+     "expletive": 3
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 51,
+  "kinds": {
+   "pronoun": 14,
+   "deixis": 13,
+   "noun_phrase": 8,
+   "possessive": 7,
+   "proposition": 3,
+   "symbol": 3,
+   "vp": 1,
+   "shell": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8223684210526315,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 4
+  },
+  "sentences": 74,
+  "cost_usd": 0.2526
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 190,
+   "end": 201,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2162,
+   "end": 2204,
+   "quote": "Trimmed-mean and median inflation measures",
+   "name": "trimmed-mean and median inflation measures"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 508,
+   "end": 524,
+   "quote": "the trimmed-mean",
+   "name": "the trimmed-mean"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1684,
+   "end": 1706,
+   "quote": "food and energy prices",
+   "name": "food and energy prices"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 1932,
+   "end": 2045,
+   "quote": "core inflation has often been found to be more informative than headline about trend inflation in certain regimes",
+   "name": "core inflation has often been found to be more informative than headline about trend inflation in certain regimes"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3330,
+   "end": 3346,
+   "quote": "core CPI and PCE",
+   "name": "core CPI and PCE"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3330,
+   "end": 3396,
+   "quote": "core CPI and PCE versus their trimmed-mean and median alternatives",
+   "name": "core CPI and PCE versus their trimmed-mean and median alternatives"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4810,
+   "end": 4826,
+   "quote": "trimmed-mean PCE",
+   "name": "trimmed-mean PCE"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4551,
+   "end": 4575,
+   "quote": "post-GFC and pre - covid",
+   "name": "post-GFC and pre - covid"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 5454,
+   "end": 5627,
+   "quote": "excluding some of the “noise” of large moves in smaller categories (which do not necessarily have to be food or energy categories) can provide a clearer picture of the trend",
+   "name": "excluding some of the “noise” of large moves in smaller categories (which do not necessarily have to be food or energy categories) can provide a clearer picture of the trend"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 6355,
+   "end": 6432,
+   "quote": "these alternative measures would rise much slower than headline or core would",
+   "name": "these alternative measures would rise much slower than headline or core would"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 897,
+   "end": 904,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 8892,
+   "end": 8911,
+   "quote": "Verbrugge and Zaman",
+   "name": "Verbrugge and Zaman"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 11988,
+   "end": 12037,
+   "quote": "the eventual adoption of a target range around 2%",
+   "name": "the eventual adoption of a target range around 2%"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C027",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C032",
+   "phrase": "his",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C033",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C036",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C039",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C041",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we give' at 303"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we explore' at 5142"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we regularly' at 10198"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5653",
+   "message": "+30 words: {{this => that excluding some of the “noise” of large moves in smaller categories (which do not necessarily have to be food or energy categories) can provide a clearer picture of the trend}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'their' in 'subcomponent of CPI or PCE by their monthly inflation rate and excludes ite'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'their' in 'Generally, core CPI and PCE versus their trimmed-mean and median alternatives ha'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'his' in ' seem to have the closest distance to t his admittedly simple measure of trend infl'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'he' in ' or core, important information about t he skewness of the cross-sectional inflati'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0658788,
+   "duration_ms": 6890,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6488,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 639,
+    "output_tokens_details": {
+     "thinking_tokens": 536
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6488,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 639,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6488,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6488
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.18668169999999998,
+   "duration_ms": 47715,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8431,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5883,
+    "output_tokens_details": {
+     "thinking_tokens": 3513
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8431,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5883,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8431,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8431
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

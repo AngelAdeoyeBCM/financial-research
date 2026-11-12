@@ -1,0 +1,1618 @@
+{
+  "batch_id": "2026-05-14",
+  "window": [
+    "2026-05-14",
+    "2026-05-14"
+  ],
+  "generated_at": "2026-10-29T16:28:58",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-13_2026-05-16.json",
+      "sha256": "dd9ecb55bbf79fcca2ad530245dac152afcc54bcda88ea4f67e4ec64521b85d6",
+      "records": 3533,
+      "dates": [
+        "2026-05-13",
+        "2026-05-16"
+      ],
+      "records_for_batch": 608
+    }
+  ],
+  "counts": {
+    "documents": 23,
+    "in_scope": 17,
+    "out_of_scope": 6,
+    "compiled": 0,
+    "skipped": 17,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 147,
+    "DISTORTED_TABLE": 28,
+    "MISSING_CHUNKS": 10,
+    "UNSTRUCTURED_TEXT": 4
+  },
+  "documents": [
+    {
+      "stem": "BC_Credit_-_The_Power_of_the_Pump_-_Politics__Inflation_and_Muni_Credit",
+      "document": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf",
+      "date": "2026-05-14",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 36,
+      "page_count": 16,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        25
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 25]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: +1 212 526 9393 | +1 212 526 1672 | +1 212 526 3497",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 61% 82% 49% 0% 20% 40% 60% 80% 100%",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: $3.30 $3.50 $3.70 $3.90 $4.10 $4.30 $4.50 $4.70 $4.90 $5.10",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 20 22 24 26 28 30 32 34 Jan Feb Mar Apr",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 1 2 3 4 5 2014 2015 2016 2017 2018 2019",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 7 8 9 May-22",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: $2.50 $3.00 $3.50 $4.00 $4.50 $5.00 -15% -10% -5% 0% 5% 10%",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: $2.50 $3.00 $3.50 $4.00 $4.50 0% 5% 10% 15% 20% 25%",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-12-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: $2.50 $3.00 $3.50 $4.00 $4.50 0% 5% 10% 15% 20% 25%",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-12-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -8% -7% -6% -5% -4% -3% -2% -1% 0%",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 100 150 200 250 300 350 Mar-21 Mar-22 Mar-23 Mar-24 Mar-25 Mar-26",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-14-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 20 40 60 80 100 120 Jan-22 Jan-23 Jan-24 Jan-25 Jan-26",
+          "chunk_id": "BC_Credit - The Power of the Pump - Politics, Inflation and Muni Credit.pdf-15-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_European_Rates_Weekly_-_Scenario_positioning",
+      "document": "Citi_European Rates Weekly - Scenario positioning.pdf",
+      "date": "2026-05-14",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 42,
+      "page_count": 14,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 50 60 70 80 90 100 110 120 130 140 150 Mar",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 50 60 70 80 90 100 110 120 130 140 150 Mar",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 50 60 70 80 90 100 110 120 130 140 150 Mar",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 5 10 15 20 25 Jun26 Jul26 Sep26",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -1.2 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 '06",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.6027 -40 -30 -20 -10 0 10 20 30 40 50 0",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: - - - - - - - - - - - -",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 10 20 30 40 50 60 70 80",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: - - - - - - - - - - - -",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-9-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: Oct53 04-Dec-25 44.2 52.8 52.8 15.0 58.8 0.0 -9",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 2.875% Jan28 4-Dec-25 13.3 13.0 13.0 5 18 0.6 1",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: profit17-Apr-263.93.83.83.74.0 profit26-Mar-260.011.011.0-1633 ateEntry levelLive evelTarget topCarry",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-12-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: stop20-Mar-26181202.0202.01402020.0-21 undsHit formatChange flattenerHit",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: flattenerHit steepenerHit bondHit deliveryTake",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: inflationHit flyHit eventFeb flattenerChange steepenerHit",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: flattenerChange flyHit dissipatesBuy costExpired formatExpired restraintRisk",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-12-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: rmatExpired restraintRisk grabBuy formatHit",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-12-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: target25-Aug-2519.000.000.000.0028.500.420 target22-Aug-25155174.6174.61751459.020 ateEntry levelLive evelTarget topCarry",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-13-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: Q1 26 Q2 26 Q3 26 Q4 26 Q1 27 Q2 27",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-14-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: Q1 26 Q2 26 Q3 26 Q4 26 Q1 27 Q2 27",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-14-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-14-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 2.84 2.84 2.82 2.90 2.90 3.00 3.00 3.00 3.10 3.1010",
+          "chunk_id": "Citi_European Rates Weekly - Scenario positioning.pdf-14-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_UK_Economics_-_Andy_Burnham_-_the_path_to_power_appears",
+      "document": "Citi_UK Economics - Andy Burnham - the path to power appears.pdf",
+      "date": "2026-05-14",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        1
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [1]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Colombia_What_s_being_priced_for_the_presidential_election_Desknote--924163",
+      "document": "Colombia_What_s_being_priced_for_the_presidential_election_Desknote--924163.pdf",
+      "date": "2026-05-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 27,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -2 -1 0 1 2 3 4 5 6 7 Sep-25 Nov-25",
+          "chunk_id": "Colombia_What_s_being_priced_for_the_presidential_election_Desknote--924163.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 Sep-11 May-15",
+          "chunk_id": "Colombia_What_s_being_priced_for_the_presidential_election_Desknote--924163.pdf-2-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -30 -25 -20 -15 -10 -5 0 5 10 15 20 25",
+          "chunk_id": "Colombia_What_s_being_priced_for_the_presidential_election_Desknote--924163.pdf-3-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1000 1500 2000 2500 1500 2000 2500 3000 3500 4000 Oct-20 Mar-22",
+          "chunk_id": "Colombia_What_s_being_priced_for_the_presidential_election_Desknote--924163.pdf-4-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1000 1500 2000 2500 1500 2000 2500 3000 3500 4000 Oct-20 Mar-22",
+          "chunk_id": "Colombia_What_s_being_priced_for_the_presidential_election_Desknote--924163.pdf-4-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Europe_Blog_-_How_much_passthrough_-_The_statecontingency_of_euro_area_price_surveys",
+      "document": "DB_Europe Blog - How much passthrough - The statecontingency of euro area price surveys.pdf",
+      "date": "2026-05-14",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Europe_Blog_-_The_state_contingency_of_euro_area_price_surveys",
+      "document": "DB_Europe Blog - The state contingency of euro area price surveys.pdf",
+      "date": "2026-05-14",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EGBs_Screening_for_carry_enter_2y_OAT-SPGB_tightener_Trade_Idea--924132",
+      "document": "EGBs_Screening_for_carry_enter_2y_OAT-SPGB_tightener_Trade_Idea--924132.pdf",
+      "date": "2026-05-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 1.2 1.3 3.3 0.4 0.4 2Y | 1.0 1.3 3.4 0.3 0.4 2Y | 1.1 1.3 4.2 0.3 0.3 2Y",
+          "chunk_id": "EGBs_Screening_for_carry_enter_2y_OAT-SPGB_tightener_Trade_Idea--924132.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 0.8 1.1 11.3 0.1 0.1 3Y | 0.7 1.1 2.9 0.2 0.4 2Y | 0.9 1.0 2.2 0.4 0.5",
+          "chunk_id": "EGBs_Screening_for_carry_enter_2y_OAT-SPGB_tightener_Trade_Idea--924132.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 numeric rows: 0.6 1.0 2.0 0.3 0.5 2Y | 0.9 1.0 2.2 0.4 0.5 10Y | 0.3 0.4 1.0 0.3 0.4 2Y",
+          "chunk_id": "EGBs_Screening_for_carry_enter_2y_OAT-SPGB_tightener_Trade_Idea--924132.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2 4 6 8 10 12 Feb-26 Feb-26 Mar-26 Apr-26 Apr-26",
+          "chunk_id": "EGBs_Screening_for_carry_enter_2y_OAT-SPGB_tightener_Trade_Idea--924132.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 0.1 0.5 1.7 0.1 0.3 | 0.2 0.5 2.1 0.1 0.2 | 0.2 0.4 1.8 0.1 0.2",
+          "chunk_id": "EGBs_Screening_for_carry_enter_2y_OAT-SPGB_tightener_Trade_Idea--924132.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 2y, 3y, 5y, 7, 10y, 15y, 20y | 0.6 0.6 1.9 0.3 0.3 | 0.4 0.5 1.6 0.3 0.3",
+          "chunk_id": "EGBs_Screening_for_carry_enter_2y_OAT-SPGB_tightener_Trade_Idea--924132.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EUR_rates_vol_Striking_while_the_gamma_looks_cheap_Trade_Idea--924140",
+      "document": "EUR_rates_vol_Striking_while_the_gamma_looks_cheap_Trade_Idea--924140.pdf",
+      "date": "2026-05-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2 2.2 2.4 2.6 2.8 3 3.2 Jan-24 Jun-24 Nov-24 Apr-25 Sep-25",
+          "chunk_id": "EUR_rates_vol_Striking_while_the_gamma_looks_cheap_Trade_Idea--924140.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_Adding_EURCZK_topside_for_policy_divergence_risk_Trade_Idea--924136",
+      "document": "FX_Adding_EURCZK_topside_for_policy_divergence_risk_Trade_Idea--924136.pdf",
+      "date": "2026-05-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -10 0 10 20 30 40 50 60 70 80 90 100",
+          "chunk_id": "FX_Adding_EURCZK_topside_for_policy_divergence_risk_Trade_Idea--924136.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Why_Always_Gilts",
+      "document": "GS_Global Markets Daily - Why Always Gilts.pdf",
+      "date": "2026-05-14",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 17,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 7 8 -1 0",
+          "chunk_id": "GS_Global Markets Daily - Why Always Gilts.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 2 4 6 8 10 12 0 2 4 6 8",
+          "chunk_id": "GS_Global Markets Daily - Why Always Gilts.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 80 100 120 140 160",
+          "chunk_id": "GS_Global Markets Daily - Why Always Gilts.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: -100 -50 0 50 100 150 200 250 300 -100 -50 0",
+          "chunk_id": "GS_Global Markets Daily - Why Always Gilts.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: Sep-22 Jan-23 May-23 Sep-23 Jan-24 May-24 Sep-24 Jan-25 May-25 Sep-25 Jan-26 May-26",
+          "chunk_id": "GS_Global Markets Daily - Why Always Gilts.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Daily_-_Little_Sign_of_Labor_Market_Mismatch_So_Far",
+      "document": "GS_US Daily - Little Sign of Labor Market Mismatch So Far.pdf",
+      "date": "2026-05-14",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -200 -150 -100 -50 0 50 100 150 -200 -150 -100 -50",
+          "chunk_id": "GS_US Daily - Little Sign of Labor Market Mismatch So Far.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 60 80 100 120 140 160 180 200 60 80 100 120",
+          "chunk_id": "GS_US Daily - Little Sign of Labor Market Mismatch So Far.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 60 80 100 120 140 160 180 200 60 80 100 120",
+          "chunk_id": "GS_US Daily - Little Sign of Labor Market Mismatch So Far.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 12",
+          "chunk_id": "GS_US Daily - Little Sign of Labor Market Mismatch So Far.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 12",
+          "chunk_id": "GS_US Daily - Little Sign of Labor Market Mismatch So Far.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0.25 0.28 0.31 0.34 0.37 0.40 0.25 0.28 0.31 0.34 0.37 0.40",
+          "chunk_id": "GS_US Daily - Little Sign of Labor Market Mismatch So Far.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Going_Long_CNH_and_KRW",
+      "document": "Going Long CNH and KRW.pdf",
+      "date": "2026-05-14",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 14 May 2026 1 | 8 Jan 2026 43.05 41 45.75 5.4% | 5 Mar 2026 3.58 3.35 3.7 5.4%",
+          "chunk_id": "Going Long CNH and KRW.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 5 Mar 2026 3.58 3.35 3.7 5.4% | 19 Mar 2026 2.90 3.2 2.95 4.0% | 9 Apr 2026 5.1 4.7 5.05 2.6%",
+          "chunk_id": "Going Long CNH and KRW.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 6.2 6.4 6.6 6.8 7.0 7.2 2 4 6 8 May-16 Nov-18",
+          "chunk_id": "Going Long CNH and KRW.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 92 94 96 98 100 102 104 106 -90D -60D -30D 0D",
+          "chunk_id": "Going Long CNH and KRW.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 numeric rows: 3.50% 06/18 0.09 n/a | 6.25% 05/26 -0.42 1% | 3.75% 06/02 0.33 69%",
+          "chunk_id": "Going Long CNH and KRW.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 19 Mar 2026 2.90 3.04 14 May 2026 4.00%",
+          "chunk_id": "Going Long CNH and KRW.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -2 0 2 4 6 0 5 10 15 20 May-16 May-18",
+          "chunk_id": "Going Long CNH and KRW.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Global_Markets_Daily_-_European_bond_futures_rollover_outlook",
+      "document": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf",
+      "date": "2026-05-14",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 64,
+      "page_count": 26,
+      "status": "skipped",
+      "missing_indices": [
+        28,
+        52,
+        60
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [28, 52, 60]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 256 252 113% 227 220 0.1 17% 0.4 0.6 10Y",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 1000 2000 3000 4000 0 100 200 300 400 500 Jan",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 99% 40 45 50 55 60 1.50 1.60 1.70 1.80 1.90 2.00",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 22 16 19 10 9 3 4 2 -1 -1 -4 -2",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 10 20 30 40 -20 -18 -16 -14 -12 -10 -8",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% -20 -15 -10 -5 2.90 2.95 3.00 3.05 3.10 3.15 10Y",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 98% 426 428 430 432 434 436 2.2 2.4 2.6 2.8 3.0",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 82% 3.5 4.0 4.5 5.0 35 40 45 50 55",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 -20 -16 -12 -8 -4",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 99% 70 75 80 85 90 95 100 2.00 2.20 2.40 2.60",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -15 -10 -5 0 5 10 -20 -18 -16 -14 -12 -10",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-10-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -5 0 5 10 15 2.30 2.40 2.50 2.60 2.70 2.80 2Y",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 99% 1325 1326 1327 1328 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 -20 -18 -16 -14 -12 -10 -8",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10.0 -9.5 -9.0 -8.5 -8.0 -7.5 Jun 27 Sep 27 Dec 27",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-13-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 20 40 60 80 100 120 140 Jan 10 Jan",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-15-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 20 40 60 80 100 120 140 Jan 10 Jan 12 Jan",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-15-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 92% -10 -5 0 5 10 15 3.40 3.60 3.80 4.00 4.20",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-16-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30 40 50 60 70 80 90 May 21 May 22 May",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-17-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30 40 50 60 70 80 90 May 21 May 22 May",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-17-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1% 76 78 80 82 84 86 88 3.55 3.60 3.65 3.70",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-18-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 -25 -20 -15 -10",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-18-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.00 0.20 0.40 0.60 0.80 1.00 -40 -35 -30 -25 -20 -15",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-19-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.00 0.20 0.40 0.60 0.80 1.00 -40 -35 -30 -25 -20 -15",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-19-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 81% 20 25 30 35 40 3.75 3.80 3.85 3.90 3.95 4.00",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-20-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 98% 651 652 653 654 655 656 5.10 5.20 5.30 5.40 5.50",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-21-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 5.0 5.5 6.0 6.5 7.0 7.5 -25 -23 -21 -19 -17 -15",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-21-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 99% 0 5 10 15 20 25 2.70 2.75 2.80 2.85 2.90",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-22-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 98% 2206 2207 2208 2209 2210 2211 2212 -2.5 -2 -1.5 -1",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-23-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -5 0 5 10 15 -20 -17 -14 -11 -8 -5",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-23-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 0.5 Oct 61 5Y | 1 Jan 32 2Y | 0.875 Oct 29 5Y",
+          "chunk_id": "JPM_Global Markets Daily - European bond futures rollover outlook.pdf-24-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Global_Markets_Strategy_-_Cross_Currency_Basis_2H26_Outlook_-_Tight_ranges_with_selective_modest_widening_bias",
+      "document": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf",
+      "date": "2026-05-14",
+      "publisher": "JP Morgan",
+      "document_type": "Outlook",
+      "chunk_count": 56,
+      "page_count": 22,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        8,
+        36,
+        46
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 8, 36, 46]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 numeric rows: -1 1 -3 -9 2 -2 | -20 -23 2 -32 -20 -24 | 3 9 -6 1 8 4",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -10 -5 0 5 10 Jan 26 Feb 26 Mar 26 Apr",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 82% 11% 5% 2% 93% 5% 1% 1% 0% 20% 40% 60%",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 80% -0.20 -0.15 -0.10 -0.05 0.00 0.05 0.10 1.80 2.00 2.20 2.40",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 8 74 72 45 37 0 50 25 50 0 0 20",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2.8 3.0 3.2 3.4 3.6 3.8 4.0 Jan 26 Feb 26 Mar",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 5/12 0% 5% 10% 15% 20% 25% 30% 2/27/2026 5/12/2026",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "89 consecutive numeric/date tokens: 6,754 2 321 323 878 3,024 2,456 18,102 May-26 6,759 5 320",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-7-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -6 -4 -2 0 2 Jan 26 Feb 26 Mar 26 Apr",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-8-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 88% -40 -30 -20 -10 0 10 3500 4000 4500 5000 5500",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-9-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-9-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 Jan 24 May 24",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-10-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 5 10 15 20 25 30 0 5 10 15 20 25",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-10-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1Y 5Y 10Y 30Y 14-May-26 3 1 -",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-11-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 May 24 Nov 24 May 25",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-11-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-11-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 21% -2 0 2 4 6 8 10 -100 -80 -60 -40",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-12-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-12-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 93% -8 -6 -4 -2 0 2 -2 0 2 4 6",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-13-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-13-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-14-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-16-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-17-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-18-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-19-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-20-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-21-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: vpkzTgk cxwMbz cbmCmdd",
+          "chunk_id": "JPM_Global Markets Strategy - Cross Currency Basis 2H26 Outlook - Tight ranges with selective modest widening bias.pdf-22-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_June_2026_-_September_2026",
+      "document": "JPM_June 2026 - September 2026.pdf",
+      "date": "2026-05-14",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 64,
+      "page_count": 26,
+      "status": "skipped",
+      "missing_indices": [
+        28,
+        52,
+        60
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [28, 52, 60]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 256 252 113% 227 220 0.1 17% 0.4 0.6 10Y",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 1000 2000 3000 4000 0 100 200 300 400 500 Jan",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 99% 40 45 50 55 60 1.50 1.60 1.70 1.80 1.90 2.00",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 22 16 19 10 9 3 4 2 -1 -1 -4 -2",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 10 20 30 40 -20 -18 -16 -14 -12 -10 -8",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% -20 -15 -10 -5 2.90 2.95 3.00 3.05 3.10 3.15 10Y",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 98% 426 428 430 432 434 436 2.2 2.4 2.6 2.8 3.0",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 82% 3.5 4.0 4.5 5.0 35 40 45 50 55",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 -20 -16 -12 -8 -4",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 99% 70 75 80 85 90 95 100 2.00 2.20 2.40 2.60",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -15 -10 -5 0 5 10 -20 -18 -16 -14 -12 -10",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-10-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -5 0 5 10 15 2.30 2.40 2.50 2.60 2.70 2.80 2Y",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 99% 1325 1326 1327 1328 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 -20 -18 -16 -14 -12 -10 -8",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10.0 -9.5 -9.0 -8.5 -8.0 -7.5 Jun 27 Sep 27 Dec 27",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-13-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 20 40 60 80 100 120 140 Jan 10 Jan",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-15-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 20 40 60 80 100 120 140 Jan 10 Jan 12 Jan",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-15-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 92% -10 -5 0 5 10 15 3.40 3.60 3.80 4.00 4.20",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-16-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30 40 50 60 70 80 90 May 21 May 22 May",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-17-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30 40 50 60 70 80 90 May 21 May 22 May",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-17-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1% 76 78 80 82 84 86 88 3.55 3.60 3.65 3.70",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-18-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 -25 -20 -15 -10",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-18-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.00 0.20 0.40 0.60 0.80 1.00 -40 -35 -30 -25 -20 -15",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-19-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.00 0.20 0.40 0.60 0.80 1.00 -40 -35 -30 -25 -20 -15",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-19-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 81% 20 25 30 35 40 3.75 3.80 3.85 3.90 3.95 4.00",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-20-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 98% 651 652 653 654 655 656 5.10 5.20 5.30 5.40 5.50",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-21-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 5.0 5.5 6.0 6.5 7.0 7.5 -25 -23 -21 -19 -17 -15",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-21-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 99% 0 5 10 15 20 25 2.70 2.75 2.80 2.85 2.90",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-22-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 98% 2206 2207 2208 2209 2210 2211 2212 -2.5 -2 -1.5 -1",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-23-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -5 0 5 10 15 -20 -17 -14 -11 -8 -5",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-23-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 0.5 Oct 61 5Y | 1 Jan 32 2Y | 0.875 Oct 29 5Y",
+          "chunk_id": "JPM_June 2026 - September 2026.pdf-24-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_Client_views_-_Oil_vs_Fed_vs_ECB_vs_Carry_vs_Political_risk",
+      "document": "UBS_Global Strategy - Client views - Oil vs Fed vs ECB vs Carry vs Political risk.pdf",
+      "date": "2026-05-14",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "UBS_Global Strategy - Client views - Oil vs Fed vs ECB vs Carry vs Political risk.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_Retail_sales_to_lift_Q1_GDP__claims_still_low",
+      "document": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf",
+      "date": "2026-05-14",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 13,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 Dec Jan Feb Mar",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 274 321 0 50 100 150 200 250 300 350",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 4.51 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 2021 2022 2023",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "50% of tokens are numeric/date values",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Feb Mar Apr May Jun Jul Aug Sep",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 1.6 4.36 3.19 3.70 1.30 0.47 -0.73 -1.85 -0.58",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 1.6 -0.27 0.00 -0.21 -0.19 0.02 0.16 -0.02 -0.15",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 180 200 220 240 260 Jan-23 Jun-23 Nov-23 Apr-24 Sep-24 Feb-25 Jul-25",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1.2 1.2 1.2 1.2 1.2 1.2 1.1 1.2",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -7.5 -5.0 -2.5 0.0 2.5 5.0 7.5 1990 1994 1998 2002 2006",
+          "chunk_id": "UBS_US Daily Data Recap - Retail sales to lift Q1 GDP, claims still low.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

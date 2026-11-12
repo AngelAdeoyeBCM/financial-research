@@ -1,0 +1,312 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_Germany_Schnappschuss_-_Annual_Housing_Completions_-_From_2025_Slump_to_2026_Rebound.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-22",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 17,
+    "referents": {
+     "thing": 11,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 13,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "expletive": 1,
+     "generic": 1,
+     "relative": 1
+    },
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 52,
+  "kinds": {
+   "symbol": 17,
+   "deixis": 15,
+   "noun_phrase": 10,
+   "demonstrative": 4,
+   "shell": 2,
+   "pronoun": 1,
+   "vp": 1,
+   "possessive": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.7285714285714285,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 47,
+  "cost_usd": 0.1863
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 464,
+   "end": 496,
+   "quote": "207,000 dwellings were completed",
+   "name": "the 207,000 dwellings completed"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1074,
+   "end": 1124,
+   "quote": "the backlog to decline by 23,000 dwellings in 2025",
+   "name": "the backlog to decline by 23,000 dwellings in 2025"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1155,
+   "end": 1190,
+   "quote": "relatively low capacity utilization",
+   "name": "relatively low capacity utilization"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1748,
+   "end": 1780,
+   "quote": "Brandenburg, Berlin, and Bavaria",
+   "name": "Brandenburg, Berlin, and Bavaria"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2056,
+   "end": 2094,
+   "quote": "Saarland, Saxony-Anhalt, and Thuringia",
+   "name": "Saarland, Saxony-Anhalt, and Thuringia"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4153,
+   "end": 4173,
+   "quote": "modular construction",
+   "name": "modular construction"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 5031,
+   "end": 5058,
+   "quote": "prefabricated new dwellings",
+   "name": "prefabricated new dwellings"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5031,
+   "end": 5092,
+   "quote": "prefabricated new dwellings has been rising, with their share",
+   "name": "the share of prefabricated new dwellings"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 5175,
+   "end": 5220,
+   "quote": "this share has risen by around 0.7pp per year",
+   "name": "this share has risen by around 0.7pp per year"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 5232,
+   "end": 5304,
+   "quote": "this trend to continue, reaching 14.5% in 2026 and more than 15% in 2027",
+   "name": "this trend to continue, reaching 14.5% in 2026 and more than 15% in 2027"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5733,
+   "end": 5744,
+   "quote": "completions",
+   "name": "completions"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 692,
+   "end": 716,
+   "quote": "the construction backlog",
+   "name": "the construction backlog"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 1225,
+   "end": 1256,
+   "quote": "the interest rate shock in 2022",
+   "name": "the interest rate shock in 2022"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 441,
+   "end": 457,
+   "quote": "a sharp downturn",
+   "name": "the sharp downturn"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C007",
+   "phrase": "HE",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'HE' in 'temberg · BY is Bayern · HB is Bremen · HE is Hessen · HH is Hamburg · MV =Mecklen'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.046254,
+   "duration_ms": 5826,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4485,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 469,
+    "output_tokens_details": {
+     "thinking_tokens": 364
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4485,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 469,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4485,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4485
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1400302,
+   "duration_ms": 42085,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5121,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4891,
+    "output_tokens_details": {
+     "thinking_tokens": 3395
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5121,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4891,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5121,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5121
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Short_USDCAD_take_profit_on_GBPCAD_call_seagull_Trade_Idea--933782.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 8,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 5,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "expletive": 3
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 18,
+  "kinds": {
+   "deixis": 11,
+   "possessive": 3,
+   "noun_phrase": 2,
+   "demonstrative": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.65,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 20,
+  "cost_usd": 0.0947
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 226,
+   "end": 233,
+   "quote": "The CAD",
+   "name": "the CAD"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 848,
+   "end": 855,
+   "quote": "the BoC",
+   "name": "the BoC"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1211,
+   "end": 1288,
+   "quote": "evidence of emerging second-round impacts or a rise in inflation expectations",
+   "name": "evidence of emerging second-round impacts or a rise in inflation expectations"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1757,
+   "end": 1847,
+   "quote": "such elevated energy prices would be passed through and increase upside risks to inflation",
+   "name": "such elevated energy prices would be passed through and increase upside risks to inflation"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2010,
+   "end": 2016,
+   "quote": "USDCAD",
+   "name": "USDCAD"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 848,
+   "end": 899,
+   "quote": "the BoC to deliver a hike at its 28 October meeting",
+   "name": "the BoC's 28 October meeting"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1074,
+   "end": 1129,
+   "quote": "Canada September CPI and the Q3 Business Outlook Survey",
+   "name": "Canada September CPI and the Q3 Business Outlook Survey"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'its' in '1: USDCAD is rich versus its STEER TM fair value Fig.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0294266,
+   "duration_ms": 2543,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3216,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 134,
+    "output_tokens_details": {
+     "thinking_tokens": 121
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3216,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 134,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3216,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3216
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0653157,
+   "duration_ms": 15886,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3561,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1787,
+    "output_tokens_details": {
+     "thinking_tokens": 1053
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3561,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1787,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3561,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3561
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+5. A criterion for introducing future subtypes
+I suggest evaluating each candidate against three questions:
+1. Semantic distinctiveness: Does it describe a recognisably different kind of financial information?
+2. Schema distinctiveness: Does it require specialised fields that generic VIEW extraction would struggle to standardise?
+3. Graph utility: Does representing it separately enable meaningful aggregation, comparison, or traversal?
+POSITIONING passes all three.
+
+For instance, your graph could answer: Which institutions report crowded USD longs? How has that assessment changed? Which recommendations rely on those positioning claims?
+
+That is considerably more useful than simply collecting generic views referencing USD.
+
+7. My proposed ontology architecture
+I now think you have five major graph object types, even though you only need four claim functions.
+Graph object	Purpose
+ENTITY	The financial instrument, macro indicator, event, person, organization, or economic variable
+PROPOSITION	A normalized state, change, occurrence, action, or relationship concerning entities
+CLAIM	The source-attributed assertion, assessment, prediction, observation, or recommendation
+SCENARIO	A hypothetical context containing assumptions and potential outcomes
+SOURCE	Document, author, timestamp, and evidence/provenance
+
+Argument edges connect claims or propositions, while scenario membership edges link propositions to hypothetical contexts. You may eventually want an explicit CLAIM_ATTESTATION object to support multiple sources independently endorsing the same proposition.
+
+The major advantage of this architecture is that scenarios become queryable and comparable independently of the text in which they were described.
+
+
+Proposition kind	Definition	Example
+MARKET_STATE	Describes a measurable or qualitatively characterized economic or financial condition. The level, direction, condition, or change of a financial or economic variable.	USD is weakening. Inflation is elevated.
+VALUATION	Describes an asset's price or value relative to a valuation reference. The value of an asset relative to fair value, fundamentals, peers, or another valuation benchmark.	USD is overvalued. Equities are cheap.
+POSITIONING	Describes an attitude or outlook attributed to a participant or group. Describes the exposure held by market participants. The holdings, allocations, or exposures of identifiable market participants.	Hedge funds are net short JPY.
+SENTIMENT	Describes an attitude or outlook attributed to a participant or group. The attitudes, confidence, preferences, or outlook of market participants.	Investors are bearish on GBP.
+EVENT	Represents a discrete occurrence, whether realized, expected, or hypothetical. A discrete occurrence or potential occurrence involving an entity.	The Fed hikes rates. Trump announces tariffs.
+CAUSAL_RELATIONSHIP	Describes an asserted mechanism by which one proposition affects another. An asserted causal influence between events, variables, or states.	Higher Treasury yields support USD.
+
+from abc import ABC, abstractmethod
+import numpy as np
+
+class SeriesExtractor(ABC):
+    @abstractmethod
+    def extract(self, image) -> dict[str, np.ndarray]: ...
+
+class VLMExtractor(SeriesExtractor):
+    def __init__(self, client, model): self.client, self.model = client, model
+    def extract(self, image): ...  # prompt -> JSON -> arrays
+
+class Metric(ABC):
+    @abstractmethod
+    def compute(self, y: np.ndarray) -> dict: ...
+
+class Level(Metric):
+    def compute(self, y): return {"pctile": float((y < y[-1]).mean())}
+
+class Momentum(Metric):
+    def __init__(self, window=10): self.w = window
+    def compute(self, y): return {"slope": float(np.polyfit(range(self.w), y[-self.w:], 1)[0])}
+
+class Inflections(Metric):
+    def compute(self, y):
+        d2 = np.diff(y, 2)
+        return {"idx": np.where(np.diff(np.sign(d2)) != 0)[0].tolist()}
+
+class ChartAnalyzer:
+    def __init__(self, extractor: SeriesExtractor, metrics: list[Metric]):
+        self.extractor, self.metrics = extractor, metrics
+    def analyze(self, image):
+        return {name: {k: v for m in self.metrics for k, v in m.compute(y).items()}
+                for name, y in self.extractor.extract(image).items()}

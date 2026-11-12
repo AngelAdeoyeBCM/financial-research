@@ -1,0 +1,266 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/MS_UK_Inflation_-_Messy___but_Lower.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-18",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 16,
+    "referents": {
+     "thing": 8,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 14,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 1,
+     "not_a_reference": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 47,
+  "kinds": {
+   "deixis": 26,
+   "symbol": 5,
+   "pronoun": 5,
+   "noun_phrase": 4,
+   "possessive": 3,
+   "demonstrative": 3,
+   "proposition": 1
+  },
+  "rooted_share": 0.8026315789473685,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3
+  },
+  "sentences": 35,
+  "cost_usd": 0.1483
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 543,
+   "end": 557,
+   "quote": "Core inflation",
+   "name": "core inflation"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 319,
+   "end": 336,
+   "quote": "UK Inflation Data",
+   "name": "the UK Inflation Data"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1431,
+   "end": 1455,
+   "quote": "car and health insurance",
+   "name": "car and health insurance"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1396,
+   "end": 1455,
+   "quote": "a level-shift adjustment higher in car and health insurance",
+   "name": "the level-shift adjustment higher in car and health insurance"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2190,
+   "end": 2281,
+   "quote": "the ONS captured, it seems, a touch lower discounts in the catering category than last year",
+   "name": "the ONS captured, it seems, a touch lower discounts in the catering category than last year"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2940,
+   "end": 2947,
+   "quote": "the ONS",
+   "name": "the ONS"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3642,
+   "end": 3662,
+   "quote": "core goods inflation",
+   "name": "core goods inflation"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4696,
+   "end": 4703,
+   "quote": "The BoE",
+   "name": "the BoE"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4546,
+   "end": 4604,
+   "quote": "a drop in core inflation and a 40bp correction in headline",
+   "name": "the drop in core inflation and a 40bp correction in headline"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we struggle' at 2106"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We struggle' at 3602"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We accept' at 3719"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.039612800000000004,
+   "duration_ms": 6589,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4063,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 308,
+    "output_tokens_details": {
+     "thinking_tokens": 295
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4063,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 308,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4063,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4063
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10865989999999999,
+   "duration_ms": 30909,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4673,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3504,
+    "output_tokens_details": {
+     "thinking_tokens": 2441
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4673,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3504,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4673,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4673
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

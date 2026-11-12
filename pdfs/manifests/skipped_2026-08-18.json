@@ -1,0 +1,462 @@
+{
+  "batch_id": "2026-08-18",
+  "window": [
+    "2026-08-18",
+    "2026-08-18"
+  ],
+  "generated_at": "2026-10-29T16:30:56",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-17_2026-08-20.json",
+      "sha256": "42643769924b3af1338852b00bf3afaa0334870af5592fa49ffaa3099e8b53fb",
+      "records": 554,
+      "dates": [
+        "2026-08-17",
+        "2026-08-20"
+      ],
+      "records_for_batch": 86
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 4,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_TABLE": 18,
+    "DISTORTED_FIGURE": 15,
+    "UNSTRUCTURED_TEXT": 15,
+    "MISSING_CHUNKS": 3
+  },
+  "documents": [
+    {
+      "stem": "BofA_Global_Metals_Weekly_-_Policy_uncertainty_is_back_and_so_is_gold",
+      "document": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf",
+      "date": "2026-08-18",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 47,
+      "page_count": 17,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 87 89 91 93 95 97 99 101 103 3,000 3,500 4,000",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 110 120 130 140 150 160 170 1,000 1,500 2,000 2,500 3,000",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0% 2% 4% 6% 8% 10% 12% 14% 16% 18% 19621968197419801986199219982004201020162022 0",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 1500 3000 4500 6000 7500 9000 10500 2010 2012 2014 2015",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 1,700 2,200 2,700 3,200 3,700 4,200 4,700 20 21 22 23 24",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -2 -1 0 1 2 3 Mar-24 Jul-24 Nov-24 Mar-25 Jul-25 Nov-25",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 100 1000 10000 100000 1000000 1945 1965 1985 2005 2025 2045 60/40",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "57% of tokens are numeric/date values",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 3,261 2,900 3,500 3,750 4,000 4,000 3,500 2,631 3,292 3,813 3,250 3,058",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-14-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 175 159 147 136 125 125 113 130 153 125 121 128",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-14-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-14-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 19,300 19,500 17,500 15,000 15,000 15,000 15,000 9,563 19,328 15,000 15,000 15,657",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-14-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-14-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "49% of tokens are numeric/date values",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-16-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "52% of tokens are numeric/date values",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-16-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-16-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-16-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "46% of tokens are numeric/date values",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "50% of tokens are numeric/date values",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-17-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-17-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-17-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BofA_Global Metals Weekly - Policy uncertainty is back and so is gold.pdf-17-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "China_Summer_lull_Desknote--930107",
+      "document": "China_Summer_lull_Desknote--930107.pdf",
+      "date": "2026-08-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 2026 -10 -5 0 5 10 15 Jan-19 Jul-19 Jan-20 Jul-20 Jan-21",
+          "chunk_id": "China_Summer_lull_Desknote--930107.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2026 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2017 2018 2019",
+          "chunk_id": "China_Summer_lull_Desknote--930107.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2026 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2017 2018 2019",
+          "chunk_id": "China_Summer_lull_Desknote--930107.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "China_Summer_lull_Desknote--930107.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "G10_rates_Gilt_future_roll_U6_Z6_Desknote--930141",
+      "document": "G10_rates_Gilt_future_roll_U6_Z6_Desknote--930141.pdf",
+      "date": "2026-08-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: - 500,000 1,000,000 1,500,000 2,000,000 2,500,000 - 500,000 1,000,000 1,500,000",
+          "chunk_id": "G10_rates_Gilt_future_roll_U6_Z6_Desknote--930141.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 218/08/2026 - 200,000 400,000 600,000 800,000 1,000,000 1,200,000 1,400,000 -78 -75 -72",
+          "chunk_id": "G10_rates_Gilt_future_roll_U6_Z6_Desknote--930141.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 318/08/2026 0% 20% 40% 60% 80% 100% -20 -18 -16 -14 -12",
+          "chunk_id": "G10_rates_Gilt_future_roll_U6_Z6_Desknote--930141.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -0.10 -0.05 0.00 0.05 0.10 0.15 0.20 0.25 -15 -14 -13 -12",
+          "chunk_id": "G10_rates_Gilt_future_roll_U6_Z6_Desknote--930141.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087",
+      "document": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf",
+      "date": "2026-08-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 22,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 0.7 7526 7777.1 7953.5 7600 6 3.3% 200 6-Jul-26",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: -0.3 10.9934 10.91 10.9454 10.7751 10.91 (17 Aug 26) 25 -0.6% -154",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: -0.3 10.9934 10.91 10.9454 10.7751 10.91 (17 Aug 26) 25 -0.6% -154",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -18 -13 -8 -3 2 7 12 17 -50 -30 -10 10",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: -18 -13 -8 -3 2 7 12 17 -50 -30 -10 10",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "42% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_A_maturing_stage_of_the_risk_cycle_-_Tightening_stops_adding_SX6P_vs_SXNP_Trade_Idea--930087.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

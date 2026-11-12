@@ -1,0 +1,287 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Re-entering_long_KRW_funded_with_USD_and_CNH_Trade_Idea--916955.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-21",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 9,
+     "claim": 2
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 8
+    },
+    "leave_reasons": {
+     "relative": 2
+    },
+    "extra": 9,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 52,
+  "kinds": {
+   "deixis": 34,
+   "noun_phrase": 11,
+   "possessive": 3,
+   "proposition": 2,
+   "pronoun": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.6538461538461539,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 62,
+  "cost_usd": 0.1525
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1772,
+   "end": 1788,
+   "quote": "Korean investors",
+   "name": "Korean investors"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2872,
+   "end": 2887,
+   "quote": "Korean investor",
+   "name": "Korean investor"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1673,
+   "end": 1676,
+   "quote": "KRW",
+   "name": "KRW"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3809,
+   "end": 3825,
+   "quote": "Korean investors",
+   "name": "Korean investors"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2551,
+   "end": 2574,
+   "quote": "Short CNHKRW 6m forward",
+   "name": "the Short CNHKRW 6m forward"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 5562,
+   "end": 5609,
+   "quote": "the model fails to pass the co-integration test",
+   "name": "the model fails to pass the co-integration test"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 5913,
+   "end": 6044,
+   "quote": "the PBoC to step in after the Lunar New Year in February to temper the one-sided CNH appreciation as exporter settlement flows wane",
+   "name": "the PBoC to step in after the Lunar New Year in February to temper the one-sided CNH appreciation as exporter settlement flows wane"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 1285,
+   "end": 1291,
+   "quote": "USDKRW",
+   "name": "USDKRW"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1343,
+   "end": 1355,
+   "quote": "short USDKRW",
+   "name": "the short USDKRW"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5482,
+   "end": 5501,
+   "quote": "BNP Paribas STEERTM",
+   "name": "BNP Paribas STEERTM"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5913,
+   "end": 5921,
+   "quote": "the PBoC",
+   "name": "the PBoC"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We re' at 1656"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We re' at 2781"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We re' at 3600"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 6231",
+   "message": "+24 words: {{this => that the PBoC to step in after the Lunar New Year in February to temper the one-sided CNH appreciation as exporter settlement flows wane}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.054308800000000004,
+   "duration_ms": 6380,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5368,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 514,
+    "output_tokens_details": {
+     "thinking_tokens": 501
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5368,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 514,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5368,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5368
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.09818489999999999,
+   "duration_ms": 20808,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5813,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2513,
+    "output_tokens_details": {
+     "thinking_tokens": 1339
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5813,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2513,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5813,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5813
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

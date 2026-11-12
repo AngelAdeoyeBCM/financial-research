@@ -1,0 +1,45 @@
+version: "1"
+
+id: geography_type
+type: extraction
+
+threshold: 0.5
+
+labels:
+  country:
+    name: Country
+    description: >-
+      A named sovereign country or nation state.
+    threshold: null
+    status: active
+
+  city:
+    name: City
+    description: >-
+      A named city, town, or urban administrative area.
+    threshold: null
+    status: active
+
+  region:
+    name: Geographical region
+    description: >-
+      A named geographical region or continental area spanning
+      multiple countries, such as Europe or the Middle East.
+    threshold: null
+    status: active
+
+  economic_bloc:
+    name: Economic block
+    description: >-
+      A named economic or monetary union of countries, such as
+      the European Union or the Eurozone.
+    threshold: null
+    status: active
+
+  market_grouping:
+    name: Market grouping
+    description: >-
+      A named grouping of countries defined by shared market or
+      economic characteristics, such as emerging markets or the G7.
+    threshold: null
+    status: active

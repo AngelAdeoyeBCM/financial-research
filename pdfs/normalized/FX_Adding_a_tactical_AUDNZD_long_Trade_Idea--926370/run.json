@@ -1,0 +1,225 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Adding_a_tactical_AUDNZD_long_Trade_Idea--926370.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-15",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "claim": 3,
+     "thing": 5
+    },
+    "decisions": {
+     "link": 6
+    },
+    "leave_reasons": {},
+    "extra": 7,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 29,
+  "kinds": {
+   "deixis": 14,
+   "noun_phrase": 8,
+   "proposition": 3,
+   "symbol": 2,
+   "pronoun": 2
+  },
+  "rooted_share": 0.8428571428571429,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 30,
+  "cost_usd": 0.1141
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 1017,
+   "end": 1076,
+   "quote": "recent speeches have remained focused on risks to inflation",
+   "name": "recent speeches have remained focused on risks to inflation"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1586,
+   "end": 1601,
+   "quote": "RBNZ rate hikes",
+   "name": "the RBNZ rate hikes"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1738,
+   "end": 1820,
+   "quote": "The above local catalysts suggest risks for front-end rates in opposite directions",
+   "name": "The above local catalysts suggest risks for front-end rates in opposite directions"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1857,
+   "end": 1873,
+   "quote": "the AUDNZD cross",
+   "name": "the AUDNZD cross"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2153,
+   "end": 2345,
+   "quote": "the RBNZ’s hawkish turn reflected conflict-driven upside risks to inflation while the RBA had become hawkish beforehand, making the New Zealand front end more sensitive to a fall in oil prices",
+   "name": "the RBNZ’s hawkish turn reflected conflict-driven upside risks to inflation while the RBA had become hawkish beforehand, making the New Zealand front end more sensitive to a fall in oil prices"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3276,
+   "end": 3294,
+   "quote": "AUDNZD positioning",
+   "name": "AUDNZD positioning"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 898,
+   "end": 922,
+   "quote": "the Middle East conflict",
+   "name": "the Middle East conflict"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 175,
+   "end": 186,
+   "quote": "Q1 GDP data",
+   "name": "the Q1 GDP data"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 2347",
+   "message": "+32 words: {{This => That the RBNZ’s hawkish turn reflected conflict-driven upside risks to inflation while the RBA had become hawkish beforehand, making the New Zealand front end more sensitive to a fall in oil prices}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0315405,
+   "duration_ms": 2899,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3555,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 110,
+    "output_tokens_details": {
+     "thinking_tokens": 102
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3555,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 110,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3555,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3555
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.082601,
+   "duration_ms": 21792,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3794,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2557,
+    "output_tokens_details": {
+     "thinking_tokens": 1633
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3794,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2557,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3794,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3794
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

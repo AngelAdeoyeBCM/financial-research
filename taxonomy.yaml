@@ -1,0 +1,179 @@
+version: "1.0"
+
+# Category -> subcategories. Labels are only ever read from here.
+categories:
+  Central bank:
+    - Meeting preview/review
+    - Policy rate path
+    - Minutes and guidance
+    - FX intervention and reserves
+    - Liquidity and balance sheet
+    - Framework and independence
+  Rates:
+    - Local curve and duration
+    - Swaps and OIS
+    - Inflation-linked
+    - Real yields and term premium
+    - Auctions and supply
+    - Foreign flows and index inclusion
+    - Relative value
+  FX:
+    - Spot outlook and forecasts
+    - Carry and vol
+    - NDF and cross-currency basis
+    - Flows and positioning
+    - Regime (peg/managed float)
+    - Options and skew
+  Fiscal:
+    - Budget and deficit
+    - Debt sustainability
+    - Financing and issuance plan
+    - Subsidies and tax policy
+    - Quasi-fiscal/SOEs
+  Macro:
+    - Growth and activity
+    - Inflation
+    - External balance
+    - Labour market
+    - Commodities and terms of trade
+    - Global spillovers
+  Risk:
+    - Sovereign credit and ratings
+    - Politics and elections
+    - Geopolitics and sanctions
+    - Capital controls/regulation
+    - Contagion and stress
+    - Scenarios and tail risks
+  Unclassified:
+    - Unclassified
+
+# Category used when nothing fits (never force a fit).
+fallback_category: Unclassified
+
+document_types:
+  - daily
+  - weekly
+  - strategy
+  - trade idea
+  - event preview
+  - thematic
+
+entity_types:
+  - central_bank
+  - institution
+  - person
+  - currency
+  - instrument
+  - event
+
+review:
+  confidence_threshold: 0.7
+  min_body_chars: 200
+
+# Canonical entity name -> aliases (matched case-insensitively), so counts aggregate across documents.
+entity_aliases:
+  Fed:
+    - Federal Reserve
+    - US Federal Reserve
+    - Federal Reserve System
+    - Federal Reserve Board
+    - Federal Open Market Committee
+    - FOMC
+  ECB:
+    - European Central Bank
+    - ECB Governing Council
+  BoE:
+    - Bank of England
+    - MPC
+  BoJ:
+    - Bank of Japan
+  SNB:
+    - Swiss National Bank
+  BoC:
+    - Bank of Canada
+  RBA:
+    - Reserve Bank of Australia
+  RBNZ:
+    - Reserve Bank of New Zealand
+  Riksbank:
+    - Sveriges Riksbank
+  Norges Bank:
+    - Norges
+  PBOC:
+    - People's Bank of China
+    - PBoC
+  BCB:
+    - Banco Central do Brasil
+    - Central Bank of Brazil
+    - BCB Copom
+    - Copom
+  Banxico:
+    - Banco de Mexico
+    - Banco de México
+    - Bank of Mexico
+  SARB:
+    - South African Reserve Bank
+    - Reserve Bank of South Africa
+  RBI:
+    - Reserve Bank of India
+  BoK:
+    - Bank of Korea
+  BI:
+    - Bank Indonesia
+  BSP:
+    - Bangko Sentral ng Pilipinas
+  CBRT:
+    - Central Bank of the Republic of Turkey
+    - TCMB
+  NBP:
+    - National Bank of Poland
+  MAS:
+    - Monetary Authority of Singapore
+  US Treasury:
+    - U.S. Treasury
+    - United States Treasury
+    - Treasury Department
+    - US Treasury Department
+  IMF:
+    - International Monetary Fund
+  World Bank:
+    - The World Bank
+  BIS:
+    - Bank for International Settlements
+  OECD:
+    - Organisation for Economic Co-operation and Development
+  S&P:
+    - S&P Global Ratings
+    - Standard & Poor's
+    - S&P Global
+  Moody's:
+    - Moody's Ratings
+    - Moody's Investors Service
+  Fitch:
+    - Fitch Ratings
+  JPMorgan:
+    - J.P. Morgan
+    - JP Morgan
+    - JPM
+  Goldman Sachs:
+    - GS
+  Morgan Stanley:
+    - MS
+  Deutsche Bank:
+    - DB
+  Bank of America:
+    - BofA
+    - BoA
+    - BofA Securities
+  Citi:
+    - Citigroup
+  UBS:
+    - UBS AG
+  BNP Paribas:
+    - BNPP
+    - BNP
+  FTSE Russell:
+    - FTSE
+  JPMorgan GBI-EM:
+    - GBI-EM
+    - JPM GBI-EM

@@ -1,0 +1,211 @@
+{
+  "batch_id": "2026-10-28",
+  "window": [
+    "2026-10-28",
+    "2026-10-28"
+  ],
+  "generated_at": "2026-10-29T16:33:03",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_20261028_new/raw/browse_2026-10-28_2026-10-28.json",
+      "sha256": "f5a476aa911103957e5f21c2a8466cd75eac1156d98dcfdc1d71a81cec2ac0b4",
+      "records": 9,
+      "dates": [
+        "2026-10-28",
+        "2026-10-28"
+      ],
+      "records_for_batch": 9
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 0,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 4,
+    "edits": 28,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "AUD_rates_November_RBA_not_a_done_deal_receive_the_meeting_Trade_Idea--934400",
+      "document": "AUD_rates_November_RBA_not_a_done_deal_receive_the_meeting_Trade_Idea--934400.pdf",
+      "date": "2026-10-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/AUD_rates_November_RBA_not_a_done_deal_receive_the_meeting_Trade_Idea--934400.txt",
+      "asset_class_share": 0.882,
+      "fingerprint": "4f12185652fdc7464925173c35767bdb61e3b672",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Momentum in the trimmed mean has been around 3% annualised since the upside surprise in July'",
+          "chunk_id": "AUD_rates_November_RBA_not_a_done_deal_receive_the_meeting_Trade_Idea--934400.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 28 OCTOBER 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "128 October 2026   Joey Li FX and Rates Strategist, APAC | MAR BNP Paribas Singapore Branch joey.j.li@asia.bnpparibas.com Chandresh Jain FX and Rates Strategist, EM Asia | MAR BNP Paribas Singapore Branch chandresh.jain@asia.bnpparibas.com"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " :",
+              "after": ":"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "AUD rates: November RBA not a done deal; receive the meeting ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 11,
+          "examples": [
+            {
+              "before": "\"",
+              "after": "“"
+            },
+            {
+              "before": "\"",
+              "after": "”"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 6,
+          "examples": [
+            {
+              "before": "(1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "(2) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "3) ",
+              "after": "\n3. "
+            },
+            {
+              "before": "(1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "(2) ",
+              "after": "\n2. "
+            }
+          ]
+        },
+        "heading": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "KEY VIEWS",
+              "after": "\n\n## KEY VIEWS\n\n"
+            },
+            {
+              "before": "OUR KEY VIEWS",
+              "after": "\n\n## OUR KEY VIEWS\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

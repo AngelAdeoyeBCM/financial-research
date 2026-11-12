@@ -1,0 +1,192 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EUR_rates_Stopped_out_of_10s40s_steepener_Trade_Idea--929104.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-28",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 2,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 4
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 9,
+  "kinds": {
+   "deixis": 4,
+   "possessive": 2,
+   "pronoun": 1,
+   "noun_phrase": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.8857142857142857,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 5,
+  "cost_usd": 0.0814
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 46,
+   "end": 83,
+   "quote": "The trade idea we opened in EUR rates",
+   "name": "the EUR rates trade idea"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 423,
+   "end": 595,
+   "quote": "the recent flare-up in hostilities between the US and Iran forced the market to reconsider the impact a sustained escalation might have on energy prices and front-end rates",
+   "name": "the recent flare-up in hostilities between the US and Iran forced the market to reconsider the impact a sustained escalation might have on energy prices and front-end rates"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 709,
+   "end": 736,
+   "quote": "EUR 1y fwd 10s40s steepener",
+   "name": "the EUR 1y fwd 10s40s steepener"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 178"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 670",
+   "message": "+31 words: {{This bearish front-end move => The bearish front-end move that the recent flare-up in hostilities between the US and Iran forced the market to reconsider the impact a sustained escalation might have on energy prices and front-end rates}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0218135,
+   "duration_ms": 2709,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2450,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 66,
+    "output_tokens_details": {
+     "thinking_tokens": 58
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2450,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 66,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2450,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2450
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0596351,
+   "duration_ms": 17460,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2640,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1872,
+    "output_tokens_details": {
+     "thinking_tokens": 1455
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2640,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1872,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2640,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2640
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

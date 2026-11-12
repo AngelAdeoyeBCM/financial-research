@@ -1,0 +1,63 @@
+{
+  "batch_id": "2026-08-02",
+  "window": [
+    "2026-08-02",
+    "2026-08-02"
+  ],
+  "generated_at": "2026-10-29T16:30:46",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-01_2026-08-04.json",
+      "sha256": "0712bf24c31b6c990626c47709331b15845b552b6cebc77ae0df215baf2f4471",
+      "records": 116,
+      "dates": [
+        "2026-08-02",
+        "2026-08-04"
+      ],
+      "records_for_batch": 45
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "in_scope": 1,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 1
+  },
+  "documents": [
+    {
+      "stem": "Actions_speak_louder_than_words_Sunday_Tea_with_BNP_Paribas--929313",
+      "document": "Actions_speak_louder_than_words_Sunday_Tea_with_BNP_Paribas--929313.pdf",
+      "date": "2026-08-02",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 20 25 30 35 40 45 50 55 60 May-26 Jun-26 Jun-26",
+          "chunk_id": "Actions_speak_louder_than_words_Sunday_Tea_with_BNP_Paribas--929313.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

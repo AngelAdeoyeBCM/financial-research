@@ -1,0 +1,8 @@
+{
+ "references": [
+  "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"claim\", \"sid\": \"E020\", \"quote\": \"energy HICP might have increased by 3.7% MoM in September (after 2.9% MoM in August), led by renewed fuel-price pressures\"},\n  {\"id\": \"R2\", \"type\": \"claim\", \"sid\": \"E024\", \"quote\": \"energy HICP should hover around 20% YoY in Q4-26\"},\n  {\"id\": \"R3\", \"type\": \"thing\", \"sid\": \"E008\", \"quote\": \"one further 25bp ECB hike in December\", \"name\": \"one further 25bp ECB hike in December\"}],\n \"decisions\": [\n  {\"candidate\": \"C001\", \"action\": \"leave\", \"reason\": \"not_a_reference\"},\n  {\"candidate\": \"C002\", \"action\": \"link\", \"referent\": \"R1\", \"phrase\": \"these assumptions\", \"connective\": \"that\"},\n  {\"candidate\": \"C003\", \"action\": \"link\", \"referent\": \"R2\"},\n  {\"candidate\": \"C004\", \"action\": \"leave\", \"reason\": \"not_a_reference\"}],\n \"extra\": [\n  {\"sid\": \"E009\", \"phrase\": \"the move\", \"occurrence\": 1, \"referent\": \"R3\"},\n  {\"sid\": \"E055\", \"phrase\": \"the hike\", \"occurrence\": 1, \"referent\": \"R3\"}]}\n```"
+ ],
+ "ellipsis": [
+  "{\"items\": []}"
+ ]
+}

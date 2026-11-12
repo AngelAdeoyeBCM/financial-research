@@ -1,0 +1,688 @@
+{
+  "batch_id": "2026-09-16",
+  "window": [
+    "2026-09-16",
+    "2026-09-16"
+  ],
+  "generated_at": "2026-10-29T16:31:48",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-14_2026-09-17.json",
+      "sha256": "3b45d86e2178bf0d0114d5f873ed7d26fb73868ab9d7abe551e3bb4e3d155015",
+      "records": 2246,
+      "dates": [
+        "2026-09-14",
+        "2026-09-17"
+      ],
+      "records_for_batch": 171
+    }
+  ],
+  "counts": {
+    "documents": 10,
+    "in_scope": 9,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 9,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 55,
+    "UNSTRUCTURED_TEXT": 9,
+    "DISTORTED_TABLE": 6,
+    "MISSING_CHUNKS": 3
+  },
+  "documents": [
+    {
+      "stem": "BC_European_Equity_Strategy_-_UK_is_cheap",
+      "document": "BC_European Equity Strategy - UK is cheap.pdf",
+      "date": "2026-09-16",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 76,
+      "page_count": 34,
+      "status": "skipped",
+      "missing_indices": [
+        30,
+        47,
+        50,
+        60,
+        76
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [30, 47, 50, 60, 76]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -60 -50 -40 -30 -20 -10 0 10 20 30 10 11",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 40 50 60 70 80 90 100 110 120 130 140 65",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -20 -10 0 10 20 30 40 50 60 70 80",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -90 -60 -30 0 30 60 90 120 Jan-24 May-24 Oct-24 Mar-25",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 50 100 150 200 250 16 18 20 22 24 26",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 8 10 12 14 16 18 20 05 07 09 11 13",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-9-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0 10,000 20,000 30,000 40,000 50,000 60,000 70,000 80,000 90,000 0 50",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-10-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 100% 26% 12.5 3% 2.2 30% 15% 0.7 0.6 -3%",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 12% 5% 13.1 -6% 3.6 -19% 28% 0.7 0.9 6%",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 3% 31% 18.8 7% 5.3 56% 0.7 0.9 1.01 0.33",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-12-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-17-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-17-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -100% -50% 0% 50% 100% 150% 200% 250% 300%",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-19-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% 120% 140% 2008 2009 2010 2011",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-26-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10% 0% 10% 20% 30% 40% 50% 60% 70% 0.0% 5.0% 10.0%",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-29-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-34-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: onvaTec ssilorLuxottica rcelorMittal straZeneca",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-34-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-34-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UK is cheap.pdf-34-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_US_-_Equity_Research_-_2026_Midterm_Election_Outlook",
+      "document": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf",
+      "date": "2026-09-16",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 29,
+      "page_count": 29,
+      "status": "skipped",
+      "missing_indices": [
+        0,
+        15,
+        17,
+        23,
+        29
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [0, 15, 17, 23, 29]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Jul",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 1960 1962 1964 1966 1968 1970 1972 1974 1976 1978 1980 1982",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-3-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "93 consecutive numeric/date tokens: 4.4 10.5 15.4 0.2 22.6 0.7 23.2 2.1 9.7 18.2 7.8 5.6",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-4-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-5-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: March 13, 2025. 35% 37% 39% 41% 43% 45% 47% 49% 51%",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-6-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 33% 35% 37% 39% 41% 43% 45% 47% 49% 51% 53% Jan",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-7-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "42 consecutive numeric/date tokens: December 15, 2025 89 62 73 90 57 67 59 49 57",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-8-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -9 -10 -10 -10 -8 3 -8 -8 -12 -17 -11 1",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-9-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -35 -30 -25 -20 -15 -10 -5 0 Mar-25 May-25 Jul-25 Oct-25",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-10-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0% 5% 10% 15% 20% 25% 30% 35% Jan-25 May-25 Sep-25 Jan-26",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-11-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: June 30, 2026. September 16, 202614 16 80 40 115 126 2",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-13-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: September 16, 202615 9.0% 7.2% 8.1% 10.5% 9.5% 7.9% 5.8% 9.2% 8.8%",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-14-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "46 consecutive numeric/date tokens: 35 37 39 41 43 45 47 49 51 53 1991 1992",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-15-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "57 consecutive numeric/date tokens: 74 13 2 2 96 105 117 4550 5 27 46 18",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-17-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "60 consecutive numeric/date tokens: -45 -29 -18 -48 -4 -47 -12 -48 -15 -26 -5 -8",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-18-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -12 -10 -8 -6 -4 -2 0 2 4 6 8 10",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-19-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 1994 1998 2002 2006 2010 2014 2018 2022 -10 0 10 20",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-20-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 200",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-22-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 27 25 24 23 21 21 22 21 19 19 19 14",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-24-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "50 consecutive numeric/date tokens: -12 -6 -1 -13 3 -4 2 -5 -3 1 -8 -1",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-25-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 13.6 13.2 13.1 11.2 3.3 -6.9 2.2 1.4 -2.8 -10 -5 0",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-26-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: September 15, 2026 44 46 48 50 52 Apr-26 Jun-26 Jul-26 Aug-26",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-27-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 40 42 44 46 48 Mar-26 May-26 Jul-26 Sep-26",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-28-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: March 25, 2026. -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 -8.0",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-31-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: July 8, 2026 -4% -2% 0% 2% 4% 6% 8% 10%",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-32-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: July 8, 2026 9.41% 2.85% -3.60% 1.91% -2.83% -2.84% 2.10% 0.96% 3.00%",
+          "chunk_id": "BC_US - Equity Research - 2026 Midterm Election Outlook.pdf-33-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BOE_Preview__Is_the_cart_in_front_of_the_horse",
+      "document": "BOE Preview: Is the cart in front of the horse?.pdf",
+      "date": "2026-09-16",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 30 35 40 -1.00",
+          "chunk_id": "BOE Preview: Is the cart in front of the horse?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 30 35 40 -1.00",
+          "chunk_id": "BOE Preview: Is the cart in front of the horse?.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 1.00% 2.00% 3.00% 4.00% 5.00% 6.00% 7.00% 8.00% Jan-24 Aug-24 Mar-25 Nov-25",
+          "chunk_id": "BOE Preview: Is the cart in front of the horse?.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -0.02 -0.01 0 0.01 0.02 -0.3 -0.1 0.1 0.3 May-24 Oct-24 Apr-25",
+          "chunk_id": "BOE Preview: Is the cart in front of the horse?.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BoJ__From_cadence_to_comms",
+      "document": "BoJ: From cadence to comms.pdf",
+      "date": "2026-09-16",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -1 0 1 2 3 4 -1 0 1 2 3 4",
+          "chunk_id": "BoJ: From cadence to comms.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -2.0 0.0 2.0 4.0 6.0 Mar 19 Feb 21 Dec 22 Oct",
+          "chunk_id": "BoJ: From cadence to comms.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 Jan 26 Mar",
+          "chunk_id": "BoJ: From cadence to comms.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Germany_Risks_around_CDU_leadership_unlikely_to_derail_fiscal_policy_Desknote--931964",
+      "document": "Germany_Risks_around_CDU_leadership_unlikely_to_derail_fiscal_policy_Desknote--931964.pdf",
+      "date": "2026-09-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 7 14 21 28 35 01/2024 07/2024 01/2025 07/2025 01/2026 07/2026",
+          "chunk_id": "Germany_Risks_around_CDU_leadership_unlikely_to_derail_fiscal_policy_Desknote--931964.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 40 45%",
+          "chunk_id": "Germany_Risks_around_CDU_leadership_unlikely_to_derail_fiscal_policy_Desknote--931964.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_Dislocations_steady_ahead_of_FOMC_EURNOK_undervalued_Trade_Idea--931965",
+      "document": "STEER_Dislocations_steady_ahead_of_FOMC_EURNOK_undervalued_Trade_Idea--931965.pdf",
+      "date": "2026-09-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 1.3559 1.3222 1.3661 - 0.53 14-Sep-2026 | 364.4200 370.6220 358.3733 - 0.26 07-Sep-2026 | 62.7440 62.3686 63.6473 - -0.02",
+          "chunk_id": "STEER_Dislocations_steady_ahead_of_FOMC_EURNOK_undervalued_Trade_Idea--931965.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sept_FOMC__Rate_hikes_without_a_family_fight",
+      "document": "Sept FOMC: Rate hikes without a family fight.pdf",
+      "date": "2026-09-16",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 1 8 3 5 1 2 12 4 1 4 3 2",
+          "chunk_id": "Sept FOMC: Rate hikes without a family fight.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -0.10 0.10 0.30 0.50 0.70 0.90 '07 '11 '14 '17 '20 '23",
+          "chunk_id": "Sept FOMC: Rate hikes without a family fight.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Still_plotting_a_weaker_USD",
+      "document": "Still plotting a weaker USD.pdf",
+      "date": "2026-09-16",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 16 September 2026 1 | 12 Aug 2026 0.8540 0.8700 0.8460 +0.37% | 12 Aug 2026 196.28 175.00 196.28 3.82%",
+          "chunk_id": "Still plotting a weaker USD.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10 -5 0 5 10 15 -0.40 -0.20 0.00 0.20 0.40 0.60",
+          "chunk_id": "Still plotting a weaker USD.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 2 Sep 2026 114.12 110.70 8 Sep 2026 +3.04%",
+          "chunk_id": "Still plotting a weaker USD.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -40% -20% 0% 20% 40% 60% 80% 100% 120% 140%",
+          "chunk_id": "Still plotting a weaker USD.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -40% -20% 0% 20% 40% 60% 80% 100% 120% 140%",
+          "chunk_id": "Still plotting a weaker USD.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Still plotting a weaker USD.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Turkey__Supported_by_Carry__Challenged_by_Easing",
+      "document": "Turkey: Supported by Carry, Challenged by Easing.pdf",
+      "date": "2026-09-16",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 Sep-23 Apr-24 Nov-24",
+          "chunk_id": "Turkey: Supported by Carry, Challenged by Easing.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 Sep-23 Apr-24 Nov-24",
+          "chunk_id": "Turkey: Supported by Carry, Challenged by Easing.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -8 -6 -4 -2 0 2 4 6 8 10",
+          "chunk_id": "Turkey: Supported by Carry, Challenged by Easing.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

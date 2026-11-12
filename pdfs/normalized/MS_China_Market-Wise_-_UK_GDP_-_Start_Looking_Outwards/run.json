@@ -1,0 +1,287 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/MS_China_Market-Wise_-_UK_GDP_-_Start_Looking_Outwards.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-15",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 12,
+    "referents": {
+     "thing": 7,
+     "claim": 2
+    },
+    "decisions": {
+     "leave": 6,
+     "link": 6
+    },
+    "leave_reasons": {
+     "expletive": 3,
+     "generic": 1,
+     "time": 2
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 19,
+  "kinds": {
+   "deixis": 9,
+   "noun_phrase": 5,
+   "proposition": 2,
+   "possessive": 2,
+   "shell": 1
+  },
+  "rooted_share": 0.8589743589743589,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 2
+  },
+  "sentences": 25,
+  "cost_usd": 0.1167
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 862,
+   "end": 904,
+   "quote": "a delayed normalisation in auto production",
+   "name": "the delayed normalisation in auto production"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1786,
+   "end": 1821,
+   "quote": "white-collar services output surged",
+   "name": "white-collar services output surged"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3072,
+   "end": 3075,
+   "quote": "Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 2894,
+   "end": 3100,
+   "quote": "Not much, in any, case is priced for the BoE in the very near-term, with further cuts seen as likely to come once there is more certainty around this year's disinflation, and as Fed resumes its easing cycle",
+   "name": "Not much, in any, case is priced for the BoE in the very near-term, with further cuts seen as likely to come once there is more certainty around this year's disinflation, and as Fed resumes its easing cycle"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3305,
+   "end": 3338,
+   "quote": "high-frequency vacancy indicators",
+   "name": "high-frequency vacancy indicators"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1710,
+   "end": 1727,
+   "quote": "the November beat",
+   "name": "the November beat"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2216,
+   "end": 2244,
+   "quote": "white collar services sector",
+   "name": "the white collar services sector"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 1019,
+   "end": 1035,
+   "quote": "UK manufacturing",
+   "name": "UK manufacturing"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 3423,
+   "end": 3439,
+   "quote": "our own BoE call",
+   "name": "our own BoE call"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3180",
+   "message": "+41 words: {{this view => the view that Not much, in any, case is priced for the BoE in the very near-term, with further cuts seen as likely to come once there is more certainty around this year's disinflation, and as Fed resumes the Fed's easing cycle}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3387",
+   "message": "+40 words: {{this => that Not much, in any, case is priced for the BoE in the very near-term, with further cuts seen as likely to come once there is more certainty around this year's disinflation, and as Fed resumes the Fed's easing cycle}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0343956,
+   "duration_ms": 4551,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3446,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 297,
+    "output_tokens_details": {
+     "thinking_tokens": 284
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3446,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 297,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3446,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3446
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0823244,
+   "duration_ms": 22051,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3913,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2495,
+    "output_tokens_details": {
+     "thinking_tokens": 1492
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3913,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2495,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3913,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3913
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/MS_ECB_Reaction_-_Europe_-_Another_Step_Up.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-10",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "claim": 2,
+     "thing": 1
+    },
+    "decisions": {
+     "link": 4
+    },
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 12,
+  "kinds": {
+   "deixis": 8,
+   "proposition": 3,
+   "possessive": 1
+  },
+  "rooted_share": 0.8666666666666667,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 24,
+  "cost_usd": 0.0769
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 861,
+   "end": 956,
+   "quote": "The remark that the ECB is \"closely monitoring\" the situation, introduced in April, was dropped",
+   "name": "The remark that the ECB is \"closely monitoring\" the situation, introduced in April, was dropped"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1642,
+   "end": 1704,
+   "quote": "the path of inflation is taken higher in 2027 but also in 2028",
+   "name": "the path of inflation is taken higher in 2027 but also in 2028"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2338,
+   "end": 2378,
+   "quote": "the recent developments in energy prices",
+   "name": "the recent developments in energy prices"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.029669100000000004,
+   "duration_ms": 3631,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3171,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 172,
+    "output_tokens_details": {
+     "thinking_tokens": 164
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3171,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 172,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3171,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3171
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0472297,
+   "duration_ms": 9634,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3326,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 978,
+    "output_tokens_details": {
+     "thinking_tokens": 663
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3326,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 978,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3326,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3326
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

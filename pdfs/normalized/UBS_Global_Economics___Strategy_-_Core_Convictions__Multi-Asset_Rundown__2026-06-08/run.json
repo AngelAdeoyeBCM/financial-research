@@ -1,0 +1,290 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-06-08.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 13,
+    "referents": {
+     "thing": 8,
+     "claim": 2
+    },
+    "decisions": {
+     "leave": 5,
+     "link": 8
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "expletive": 2,
+     "time": 1,
+     "generic": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 86,
+  "kinds": {
+   "deixis": 49,
+   "symbol": 27,
+   "noun_phrase": 4,
+   "pronoun": 3,
+   "proposition": 2,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6144578313253012,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 105,
+  "cost_usd": 0.1659
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 858,
+   "end": 866,
+   "quote": "core CPI",
+   "name": "core CPI"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 2331,
+   "end": 2419,
+   "quote": "We have so far revised global growth lower by 30bp in '26E, and inflation higher by 90bp",
+   "name": "We have so far revised global growth lower by 30bp in '26E, and inflation higher by 90bp"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 4384,
+   "end": 4480,
+   "quote": "ongoing US economic outperformance alongside AI dominance can continue to attract global capital",
+   "name": "ongoing US economic outperformance alongside AI dominance can continue to attract global capital"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4706,
+   "end": 4728,
+   "quote": "repeated interventions",
+   "name": "repeated interventions"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 8126,
+   "end": 8136,
+   "quote": "Asia semis",
+   "name": "Asia semis"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 8177,
+   "end": 8182,
+   "quote": "Q2-28",
+   "name": "Q2-28"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 8271,
+   "end": 8287,
+   "quote": "Korea and Taiwan",
+   "name": "Korea and Taiwan"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 8651,
+   "end": 8669,
+   "quote": "BRL, MXN, HUF, ILS",
+   "name": "BRL, MXN, HUF, ILS"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1185,
+   "end": 1197,
+   "quote": "The majority",
+   "name": "the majority"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 2296,
+   "end": 2316,
+   "quote": "Middle East conflict",
+   "name": "Middle East conflict"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we update' at 3912"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we enter' at 4111"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.058696700000000004,
+   "duration_ms": 4916,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6332,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 343,
+    "output_tokens_details": {
+     "thinking_tokens": 330
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6332,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 343,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6332,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6332
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.107211,
+   "duration_ms": 21983,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6869,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2542,
+    "output_tokens_details": {
+     "thinking_tokens": 1603
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6869,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2542,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6869,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6869
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

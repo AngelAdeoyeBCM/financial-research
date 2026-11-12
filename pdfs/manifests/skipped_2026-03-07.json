@@ -1,0 +1,640 @@
+{
+  "batch_id": "2026-03-07",
+  "window": [
+    "2026-03-07",
+    "2026-03-07"
+  ],
+  "generated_at": "2026-10-29T16:27:27",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-06_2026-03-09.json",
+      "sha256": "7978cb0442e7e30e908522e57e68db80bbac68f476e2b8146f9186c67a9030e9",
+      "records": 3686,
+      "dates": [
+        "2026-03-06",
+        "2026-03-09"
+      ],
+      "records_for_batch": 250
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 40,
+    "DISTORTED_TABLE": 28,
+    "UNSTRUCTURED_TEXT": 12,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "JPM_Global_Fixed_Income_Markets_Weekly_-_Europe_suffers_an_energy-driven_position_wash-out__2026-03-07",
+      "document": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf",
+      "date": "2026-03-07",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 250,
+      "page_count": 90,
+      "status": "skipped",
+      "missing_indices": [
+        43,
+        50,
+        60,
+        64,
+        111,
+        119,
+        126,
+        146,
+        173,
+        203,
+        207,
+        223,
+        235
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [43, 50, 60, 64, 111, 119, 126, 146, 173, 203, 207, 223, 235]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 Jan 26 Feb 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 Jan 26 Feb 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -5.0 0.0 5.0 10.0 15.0 20.0 25.0 30.0 Jun26 Dec26 Jun27 Dec27",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 50 -1 -6 40 -1 0 -22 3 7 10Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 numeric rows: 3Y 5Y 10Y 3Y 5Y 10Y | - 1.7 12.2 - 1.2 3.4 | 6.0 6.5 6.9 3.6 4.4 3.9",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 3.00 3.20 3.40 3.60 3.80 4.00 Mar 26 Jun 26 Sep 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "64 consecutive numeric/date tokens: 2Y 1.39 -0.32 0.09 -0.98 0.37 0.17 1.54 -0.21 -0.01 2.11 0.03",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "100 consecutive numeric/date tokens: 2Y 2.37 -0.69 -0.08 0.98 -0.37 -0.17 1.18 -0.17 0.03 1.19 -0.16",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-11-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-11-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "100 consecutive numeric/date tokens: 2Y -0.15 -0.11 0.10 -1.54 0.21 0.01 -1.34 0.41 0.21 -1.32 0.42",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-11-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-11-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48 consecutive numeric/date tokens: 2Y 0.20 0.21 0.11 0.15 0.05 0.08 0.12 0.11 -0.94 -1.08 -1.04",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "112 consecutive numeric/date tokens: 2Y 0.98 -0.37 -0.17 1.13 -0.22 -0.01 1.02 -0.33 -0.12 1.06 -0.29",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "112 consecutive numeric/date tokens: 2Y -1.54 0.21 0.01 -1.38 0.36 0.16 -1.49 0.26 0.05 -1.46 0.29",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-12-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-12-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "66% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-14-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-14-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 27 50 40 31 27 21 16 15 13 10 2.00 2.20",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-31-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "41 consecutive numeric/date tokens: 0 6 10 5 7 3 4 2 4 1 2 1",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-32-82",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 94% 1.9 2.0 2.1 2.2 2.3 2.4 1.80 1.90 2.00 2.10 2.20",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-33-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 96% 40 60 80 100 120 -1.00 -0.50 0.00 0.50 1.00 1.50",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-34-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 Jan 17 Jan 19",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-34-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 2.2 2.7 2.8 -4.7 2.8 2.5 1.5 -8.3 -10 -8 -6 -4",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-36-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -30 -20 -10 0 10 Jan 25 Mar 25 May 25 Jul",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-37-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 92% -20 -10 0 10 20 30 40 50 -10 0 10",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-37-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -65 -60 -55 -50 -45 -40 Jan 25 Apr 25 Jul 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-38-103",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0.5 1.0 1.5 2.0 2.5 1 2 3 4 5 1Y 2Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-39-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 2 3 4 5 6 Jan 25 Apr 25 Jul 25 Oct",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-40-109",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 06-Mar-25 21-Mar-25 1.8 May25 | 07-Mar-25 04-Apr-25 6.0 May25 | 21-Mar-25 03-Apr-25 1.5 May25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-42-115",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-42-116",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-42-116",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-42-117",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-42-118",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 35 34 31 26 24 25 20 14 27 25 20 10",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-44-123",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 60 80 100 120 140 Apr 26 Aug 26 Dec 26 Apr",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-45-127",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 30 35 40 45",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-46-130",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 70 75 80 85 90 95 100 -10 -8 -6 -4 -2",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-46-131",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 70 75 80 85 90 95 100 -10 -8 -6 -4 -2",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-46-132",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -4 -2 0 2 4 6 Sep 25 Oct 25 Nov 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-47-134",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -4 -2 0 2 4 6 Sep 25 Oct 25 Nov 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-47-135",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 24.7 40.7 46.5 2.9 32.6 21.6 17.0 22.3 36.0 5.0 27.4 19.2",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-51-143",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 2.3 2.3 2.4 2.4 2.5 2.5 2.6 2.6 2.7 2.7 0.0 0.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-51-144",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 Mar 21 Mar 22 Mar",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-52-149",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 5.54.64.2",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-53-151",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2 1.4 -5 0 5 10 15 Feb 24 Jun 24 Oct",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-53-152",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 2.875 5/15/2052 1.6 15.7 | 4.750 5/15/2055 1.5 14 | 4.750 8/15/2055 1.5 13.9",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-54-154",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 2 4 6 8 10 12 14 16 Mar 21 Mar 22",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-54-155",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 08/15/25 08/22/25 -8.1 55% | 09/12/25 10/16/25 -8.4 50:50 | 03/20/25 06/13/25 -1.5 3.25%",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-56-159",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: 03/20/25 06/13/25 -1.5 3.25% | 04/01/25 07/02/25 -5.8 100% | 06/27/25 07/17/25 1.5 88:25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-56-160",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-56-160",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 3.38 0.18 3.56 5Y | 3.51 0.20 3.72 10Y | 3.96 0.17 4.13 30Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-58-164",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1Y 100 200 300 400 500 Mar 25 Jun 25 Sep 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-58-166",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 5.11 0.54 5.64 3.85 4.48 5.64 1.79 3.97 5.03",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-59-167",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 4.71 0.18 4.89 4.55 4.71 4.89 0.34 4.61 4.78 2/27 - 3/6",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-59-168",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 4.5 4.6 4.7 4.8 4.9 5.0 0% 2% 4% 6% 8% 10%",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-60-171",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "70 consecutive numeric/date tokens: 2Y -17.4 -0.3 -17.7 -18.1 -16.8 -15.8 2.4 -17.8 -15.9 3Y -21.8",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-61-174",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 Mar 25 Jun 25 Sep",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-61-175",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 Mar 24 Sep 24 Mar 25 Sep",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-62-177",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.5566 -60 -55 -50 -45 4.6 4.8 5 5.2 5.4 5.6",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-62-178",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-65-186",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 2026 50,000 52,000 54,000 56,000 58,000 60,000 55 60 65 70 75",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-71-208",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 74 88 95 100 106 113 120 60 70 80 90 100",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-72-211",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 73.16 72.80 72.75 74.72 1/31/2026 74.14 74.14 74.14 74.14 2/28/2026 77.16 77.16",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-73-214",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 2Q26 3Q26 4Q26 1Q27 2Y 1.35 1.40 1.45 1.45 5Y 1.70 1.75",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-74-217",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 2.2 -0.3 -2 -1 0 1 2 3",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-74-218",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "70 consecutive numeric/date tokens: 6.0 5.8 5.6 5.3 4.9 4.8 4.8 4.7 4.5 4.8 4.9 4.8",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-74-219",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 3M 6M",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-76-224",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "170 consecutive numeric/date tokens: 4/30/2025 0 0 0 7 0 0 0 0 0 0 225",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-77-227",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -0.75 -0.50 -0.25 0.00 0.25 0.50 0.75 1.00 98 03 08 13",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-82-241",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-84-247",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-85-250",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-85-250",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "65% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-86-252",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-86-252",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "75% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-86-253",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-86-253",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "52% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-86-254",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 532 0.9 2.4 -4.1 -2.3 83 1.6 119 5.8",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-87-255",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 482 2.9 2.1 -2.6 - 53 -3.5 - 5.4",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Europe suffers an energy-driven position wash-out.pdf-87-256",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

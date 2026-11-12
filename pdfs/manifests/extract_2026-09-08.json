@@ -1,0 +1,1059 @@
+{
+  "batch_id": "2026-09-08",
+  "window": [
+    "2026-09-08",
+    "2026-09-08"
+  ],
+  "generated_at": "2026-10-29T16:31:35",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-06_2026-09-09.json",
+      "sha256": "b01083231b235f6b978d0e28b585145589aad4aec7fcf9c24d1f9337c40df36a",
+      "records": 2100,
+      "dates": [
+        "2026-09-06",
+        "2026-09-09"
+      ],
+      "records_for_batch": 1408
+    }
+  ],
+  "counts": {
+    "documents": 42,
+    "in_scope": 36,
+    "out_of_scope": 6,
+    "compiled": 3,
+    "skipped": 32,
+    "duplicate": 1,
+    "protected": 0,
+    "compiled_with_warnings": 3,
+    "stripped_items": 58,
+    "edits": 44,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Bank_of_England_-_Keep_an_eye_on_my_QT__π",
+      "document": "BC_Bank of England - Keep an eye on my QT, π.pdf",
+      "date": "2026-09-08",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 19,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.895,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Japan_Economics_-_July_Maikin_wage_data_-_Wages_remain_strong__but_pass-through_to_prices_weak",
+      "document": "BC_Japan Economics - July Maikin wage data - Wages remain strong, but pass-through to prices weak.pdf",
+      "date": "2026-09-08",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Thinking_macro_-_July_Maikin_wage_data_-_Wages_remain_strong__but_pass-through_to_prices_weak",
+      "document": "BC_Thinking macro - July Maikin wage data - Wages remain strong, but pass-through to prices weak.pdf",
+      "date": "2026-09-08",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "duplicate",
+      "output": null,
+      "asset_class_share": 0.125,
+      "fingerprint": "21673e4e4cfb040b1267aed39bf6cacf6deedf40",
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Thinking_macro_-_Mismatched_inflation_narratives",
+      "document": "BC_Thinking macro - Mismatched inflation narratives.pdf",
+      "date": "2026-09-08",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/BC_Thinking_macro_-_Mismatched_inflation_narratives.txt",
+      "asset_class_share": 0.286,
+      "fingerprint": "21673e4e4cfb040b1267aed39bf6cacf6deedf40",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'FIGURE 1. 5y5y inflation swaps cross-market No conversion adjustment made to 5y5y RPI swaps. Source:'",
+          "chunk_id": "BC_Thinking macro - Mismatched inflation narratives.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'FIGURE 2. Energy weights in US inflation index baskets vs. WTI futures Source: BEA, BLS, CME, Macrob'",
+          "chunk_id": "BC_Thinking macro - Mismatched inflation narratives.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "This is a Special Report that is not an equity or a debt research report under U.S. FINRA Rules 2241-2242. (i) This author is a debt research analyst in the Fixed Income, Currencies and Commodities Research department and is neither an equity research analyst nor subject to all of the independence and disclosure standards applicable to analysts who produce debt research reports under U.S. FINRA Rule 2242."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please see analyst certifications and important disclosures beginning on page 6."
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Special Report Macro Research 8 September 2026 SIGNATURE Jonathan Hill, CFA(i)"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Completed: 04-Sep-26, 15:43 GMT Released: 08-Sep-26, 03:00 GMT Restricted - External"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "+1 212 526 3497 jonathan.hill@barclays.com BCI, US Pooja Sriram +1 212 526 0713 pooja.sriram@barclays.com BCI, US"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "8 September 2026 2 Barclays |"
+        },
+        {
+          "rule": "series_header",
+          "section": "header",
+          "text": "Thinking Macro"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "8 September 2026 3 Barclays |"
+        },
+        {
+          "rule": "series_header",
+          "section": "header",
+          "text": "Thinking Macro"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "8 September 2026 4 Barclays |"
+        },
+        {
+          "rule": "series_header",
+          "section": "header",
+          "text": "Thinking Macro"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "footer": 5,
+        "signature": 1,
+        "header": 3
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "Thinking Macro Mismatched inflation narratives ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "BC_US_Rates_Research_-_Barbelling",
+      "document": "BC_US Rates Research - Barbelling.pdf",
+      "date": "2026-09-08",
+      "publisher": "Barclays",
+      "document_type": "Positioning and flows",
+      "chunk_count": 24,
+      "page_count": 15,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.917,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Asia_Viewpoint_-_Back_to_School_-_Growth_divergence___CB_tightening_bias_remain_unchanged",
+      "document": "BofA_Asia Viewpoint - Back to School - Growth divergence & CB tightening bias remain unchanged.pdf",
+      "date": "2026-09-08",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 32,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.63,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Global_Economic_Viewpoint_-_Back_to_School_-_Surfing_the_supply_shocks",
+      "document": "BofA_Global Economic Viewpoint - Back to School - Surfing the supply shocks.pdf",
+      "date": "2026-09-08",
+      "publisher": "Bank of America",
+      "document_type": "Outlook",
+      "chunk_count": 158,
+      "page_count": 56,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.635,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Japan_Research_-_Japan_Conference_2026_-_What_we_learned",
+      "document": "BofA_Japan Research - Japan Conference 2026 - What we learned.pdf",
+      "date": "2026-09-08",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 338,
+      "page_count": 128,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.015,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Liquid_Insight_-_France_risks_for_EUR",
+      "document": "BofA_Liquid Insight - France risks for EUR.pdf",
+      "date": "2026-09-08",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Wage_update_-_Firm_wage_growth__with_limited_downside_risk_ahead",
+      "document": "BofA_Wage update - Firm wage growth, with limited downside risk ahead.pdf",
+      "date": "2026-09-08",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Japan_FX_-_Latest_JPY_rebound_unlikely_to_force_BoJ_to_pause_policy_normalization",
+      "document": "Citi_Japan FX - Latest JPY rebound unlikely to force BoJ to pause policy normalization.pdf",
+      "date": "2026-09-08",
+      "publisher": "Citi",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Rates__AI_and_Positioning_Implications_-_Latest_JPY_rebound_unlikely_to_force_BoJ_to_pause_policy_normalization",
+      "document": "Citi_Rates, AI and Positioning Implications - Latest JPY rebound unlikely to force BoJ to pause policy normalization.pdf",
+      "date": "2026-09-08",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 36,
+      "page_count": 25,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.111,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Sector_Flows_Flash_Update_-_Markets_internals_shift_back_to_Tightening_financial_conditions_fears_as_Goldilocks_hopes_fade",
+      "document": "Citi_Sector Flows Flash Update - Markets internals shift back to Tightening financial conditions fears as Goldilocks hopes fade.pdf",
+      "date": "2026-09-08",
+      "publisher": "Citi",
+      "document_type": "Positioning and flows",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/Citi_Sector_Flows_Flash_Update_-_Markets_internals_shift_back_to_Tightening_financial_conditions_fears_as_Goldilocks_hopes_fade.txt",
+      "asset_class_share": 0.167,
+      "fingerprint": "ead26d7952cd37a814e21da197c1d7488189576b",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1. Latest signal output from our flow-based relative value backtest – Health Care, Real Estat'",
+          "chunk_id": "Citi_Sector Flows Flash Update - Markets internals shift back to Tightening financial conditions fears as Goldilocks hopes fade.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 4. Last four week flows for hedge funds managers – through Friday, September 04. © 2026 Citig'",
+          "chunk_id": "Citi_Sector Flows Flash Update - Markets internals shift back to Tightening financial conditions fears as Goldilocks hopes fade.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 5. Recent sector price action is most closely correlated with the “Tightening financial condi'",
+          "chunk_id": "Citi_Sector Flows Flash Update - Markets internals shift back to Tightening financial conditions fears as Goldilocks hopes fade.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "See Appendix A-1 for Analyst Certification, Important Disclosures and Research Analyst Affiliations"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Flash | 08 Sep 2026 13:06:39 ET │ 9 pages"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Prepared for Cayla Buettner"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "08 September 2026 Citi Research 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Consumer Staples, Financials, Tech Alex SaundersAC +1-212-723-1058 alexander.saunders@citi.com Vinh VoAC +44-20-75-086-717 vinh.vo@citi.com"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "© 2026 Citigroup Inc. No redistribution without Citigroup's written permission."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Citi Research, Citi Global Equity Flows Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "© 2026 Citigroup Inc. No redistribution without Citigroup's written permission."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Citi Research, Citi Global Equity Flows"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "© 2026 Citigroup Inc. No redistribution without Citigroup's written permission."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "through Friday, September 04. Source: Citi Research, Citi Global Equity Flows Figure"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "© 2026 Citigroup Inc. No redistribution without Citigroup's written permission."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Prepared for Cayla Buettner"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "through Friday, September 04. Source: Citi Research, Citi Global Equity Flows"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "08 September 2026 Citi Research 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "© 2026 Citigroup Inc. No redistribution without Citigroup's written permission."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "© 2026 Citigroup Inc. No redistribution without Citigroup's written permission."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Prepared for Cayla Buettner"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 10,
+        "footer": 7,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Sector Flows Flash Update: Markets internals shift back to \"Tightening financial conditions\" fears as \"Goldilocks\" hopes fade ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "“",
+              "after": "\""
+            },
+            {
+              "before": "“",
+              "after": "\""
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "CITI'S TAKE",
+              "after": "\n\n## CITI'S TAKE\n\n"
+            }
+          ]
+        },
+        "run_in_label": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "Latest signal output from our flow-based relative value backtest – ",
+              "after": "\n- **Latest signal output from our flow-based relative value backtest** – "
+            },
+            {
+              "before": "Last four week flows into sectors from long-only managers – ",
+              "after": "\n- **Last four week flows into sectors from long-only managers** – "
+            },
+            {
+              "before": "Last four week flows for hedge funds managers – ",
+              "after": "\n- **Last four week flows for hedge funds managers** – "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Citi_US_Agency_MBS_-_August_Prepayment_Commentary",
+      "document": "Citi_US Agency MBS - August Prepayment Commentary.pdf",
+      "date": "2026-09-08",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 32,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.821,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_US_Economics_-_Inflation_Weekly___Critical_August_inflation_data",
+      "document": "Citi_US Economics - Inflation Weekly – Critical August inflation data.pdf",
+      "date": "2026-09-08",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.889,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Fed_Watcher_-_Family_fight_about_to_come_to_a_head",
+      "document": "DB_Fed Watcher - Family fight about to come to a head.pdf",
+      "date": "2026-09-08",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Focus_Europe_-_France_-_The_uncertain_autumn_ahead",
+      "document": "DB_Focus Europe - France - The uncertain autumn ahead.pdf",
+      "date": "2026-09-08",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/DB_Focus_Europe_-_France_-_The_uncertain_autumn_ahead.txt",
+      "asset_class_share": 0.8,
+      "fingerprint": "7ad9503a86b2838333e5e02a0bd30efab9e7b0db",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: The road to a busy Autumn Figure 2: Q2 GDP did show some rebound in the details, not in th'",
+          "chunk_id": "DB_Focus Europe - France - The uncertain autumn ahead.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 3: The r-g gap is set to get close to the levels seen during the sovereign debt crisis. The d'",
+          "chunk_id": "DB_Focus Europe - France - The uncertain autumn ahead.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 4: The cost of a special law for the 2027 deficit and a look at recent first round polls Sour'",
+          "chunk_id": "DB_Focus Europe - France - The uncertain autumn ahead.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 08/09/2026 09:05:56 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 08/09/2026 09:05:56 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank AG"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-08T19:32+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "8 September 2026 Focus Europe Deutsche Bank AG Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Deutsche Bank Research, INSEE Yacine Rouimi Senior Economist +44-20-754-71014 Mark Wall Chief Economist +44-20-754-52087"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-08T19:32+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "8 September 2026 Focus Europe Deutsche Bank AG Page 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-08T19:32+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "8 September 2026 Focus Europe Deutsche Bank AG Page 4"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-08T19:32+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 8,
+        "disclaimer": 9,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 6,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 15,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " :",
+              "after": ":"
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " France - The uncertain autumn ahead ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "i) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "ii) ",
+              "after": "\n2. "
+            }
+          ]
+        },
+        "run_in_label": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "Real e conomy – ",
+              "after": "\n- **Real e conomy** – "
+            },
+            {
+              "before": "Deficit risks – ",
+              "after": "\n- **Deficit risks** – "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "DB_Focus_Europe_-_Unsure_how_far_the_ECB_will_go_-_Our_ECB_client_survey_results",
+      "document": "DB_Focus Europe - Unsure how far the ECB will go - Our ECB client survey results.pdf",
+      "date": "2026-09-08",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 18,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Focus_Germany_-_Infrastructure_investment_and_private_capital_-_A_perfect_match",
+      "document": "DB_Focus Germany - Infrastructure investment and private capital - A perfect match.pdf",
+      "date": "2026-09-08",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 115,
+      "page_count": 45,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.029,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Thematic_Research_-_DB_CoTD_-_Make_Bonds_Boring_Again",
+      "document": "DB_Thematic Research - DB CoTD - Make Bonds Boring Again.pdf",
+      "date": "2026-09-08",
+      "publisher": "Deutsche Bank",
+      "document_type": "Chart Pack",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Disinflation_Meets_New_Headwinds",
+      "document": "Disinflation Meets New Headwinds.pdf",
+      "date": "2026-09-08",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.8,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Dutch_PF_transition_Paying_needs_decline_but_curve_needs_still_sizeable_Desknote--931231",
+      "document": "Dutch_PF_transition_Paying_needs_decline_but_curve_needs_still_sizeable_Desknote--931231.pdf",
+      "date": "2026-09-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Equity_Derivatives_Strategy_Top_10_global_trades_for_the_rest_of_2026_Trade_Idea--931201",
+      "document": "Equity_Derivatives_Strategy_Top_10_global_trades_for_the_rest_of_2026_Trade_Idea--931201.pdf",
+      "date": "2026-09-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 45,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.042,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_European_Daily_-_ECB_Has_Rstar_Risen_Further",
+      "document": "GS_European Daily - ECB—Has Rstar Risen Further.pdf",
+      "date": "2026-09-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 8,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Assessing_Sensitivity_of_EM_European_Equities_to_Natural_Gas_Shocks",
+      "document": "GS_Global Markets Daily - Assessing Sensitivity of EM European Equities to Natural Gas Shocks.pdf",
+      "date": "2026-09-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 13,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.353,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Japan_-_BOP_-_July_Inbound_Spending_Up_YoY_for_First_Time_Since_March__Trust_Banks_Net_Buyers_of_Foreign_Bonds_Again_in_August",
+      "document": "GS_Japan - BOP - July Inbound Spending Up YoY for First Time Since March; Trust Banks Net Buyers of Foreign Bonds Again in August.pdf",
+      "date": "2026-09-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.6,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Mortgage_Notes_-_August_prepay_commentary",
+      "document": "GS_Mortgage Notes - August prepay commentary.pdf",
+      "date": "2026-09-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 22,
+      "page_count": 11,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.591,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_US_Daily_-_August_CPI_Preview",
+      "document": "GS_US Daily - August CPI Preview.pdf",
+      "date": "2026-09-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.2,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Locked_In_and_Locked_Out___Little_Relief_for_Housing_Affordability",
+      "document": "JPM_Locked In and Locked Out – Little Relief for Housing Affordability.pdf",
+      "date": "2026-09-08",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 112,
+      "page_count": 44,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.337,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS__US_Equity_Strategy_-_Weekly_Warm-up_-_The_Signals_Through_the_Noise",
+      "document": "MS_ US Equity Strategy - Weekly Warm-up - The Signals Through the Noise.pdf",
+      "date": "2026-09-08",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 27,
+      "page_count": 13,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.111,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_AI_and_Economic_Transition_-_Dispelling_an_AI_Myth_-_Why_Affluent_Consumers_May_Be_Safer_Than_Advertised",
+      "document": "MS_AI and Economic Transition - Dispelling an AI Myth - Why Affluent Consumers May Be Safer Than Advertised.pdf",
+      "date": "2026-09-08",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 77,
+      "page_count": 37,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.054,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Should_Higher_Rates_Scare_Equities__It_s_complicated",
+      "document": "Should Higher Rates Scare Equities? It’s complicated.pdf",
+      "date": "2026-09-08",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 18,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.389,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-09-08",
+      "document": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf",
+      "date": "2026-09-08",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_Taking_Stock_-_London_views_on_US_labour_day",
+      "document": "UBS_Global Strategy - Taking Stock - London views on US labour day.pdf",
+      "date": "2026-09-08",
+      "publisher": "UBS",
+      "document_type": "Market commentary",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Japan_Economic_Comment_-_The_economy_remains_on_solid_footing",
+      "document": "UBS_Japan Economic Comment - The economy remains on solid footing.pdf",
+      "date": "2026-09-08",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.667,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_Small_business_optimism_falls___energy_update",
+      "document": "UBS_US Daily Data Recap - Small business optimism falls & energy update.pdf",
+      "date": "2026-09-08",
+      "publisher": "UBS",
+      "document_type": "Daily",
+      "chunk_count": 10,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.286,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

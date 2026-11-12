@@ -1,0 +1,349 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_Global_FX_Strategy_-_G10_central_bank_bonanza.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-26",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 23,
+    "referents": {
+     "thing": 13,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 16,
+     "ambiguous": 1,
+     "leave": 6
+    },
+    "leave_reasons": {
+     "relative": 1,
+     "time": 5
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 47,
+  "kinds": {
+   "deixis": 20,
+   "symbol": 10,
+   "demonstrative": 4,
+   "noun_phrase": 4,
+   "possessive": 4,
+   "pronoun": 4,
+   "shell": 1
+  },
+  "rooted_share": 0.6666666666666666,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 1
+  },
+  "sentences": 58,
+  "cost_usd": 0.1902
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 407,
+   "end": 421,
+   "quote": "Market pricing",
+   "name": "Market pricing"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 674,
+   "end": 856,
+   "quote": "CPI/PPI printed above expectations and PCE inflation – released one day after the meeting, but which Fed officials will know with reasonable certainty – should accelerate to 3.6% YoY",
+   "name": "CPI/PPI printed above expectations and PCE inflation – released one day after the meeting, but which Fed officials will know with reasonable certainty – should accelerate to 3.6% YoY"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 858,
+   "end": 1003,
+   "quote": "Upcoming GDP data is also expected to remain solid and energy prices rose over the intermeeting period as the US/Iran conflict remains unresolved",
+   "name": "Upcoming GDP data is also expected to remain solid and energy prices rose over the intermeeting period as the US/Iran conflict remains unresolved"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1005,
+   "end": 1079,
+   "quote": "These themes should push the FOMC’s discussion in a more hawkish direction",
+   "name": "These themes should push the FOMC’s discussion in a more hawkish direction"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1177,
+   "end": 1188,
+   "quote": "Chair Warsh",
+   "name": "Chair Warsh"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2063,
+   "end": 2067,
+   "quote": "FOMC",
+   "name": "the FOMC"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1732,
+   "end": 1735,
+   "quote": "USD",
+   "name": "USD"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2431,
+   "end": 2448,
+   "quote": "President Lagarde",
+   "name": "President Lagarde"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 2173,
+   "end": 2202,
+   "quote": "The backdrop into the meeting",
+   "name": "the backdrop into the meeting"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 3745,
+   "end": 3748,
+   "quote": "BoJ",
+   "name": "the BoJ"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 3912,
+   "end": 3925,
+   "quote": "Governor Ueda",
+   "name": "Governor Ueda"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 4373,
+   "end": 4383,
+   "quote": "the USDJPY",
+   "name": "the USDJPY"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 4854,
+   "end": 4896,
+   "quote": "CAD staged an impressive rally against USD",
+   "name": "CAD's impressive rally against USD"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 5867,
+   "end": 5881,
+   "quote": "Citi Economics",
+   "name": "Citi Economics"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 5897,
+   "end": 5934,
+   "quote": "the peak terminal rate for this cycle",
+   "name": "the peak terminal rate"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 6443,
+   "end": 6449,
+   "quote": "AU CPI",
+   "name": "AU CPI"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "These",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R2",
+    "R3"
+   ]
+  },
+  {
+   "candidate": "C011",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 4444",
+   "message": "not verbatim in source: ['focuses'] in {{we focus => the author focuses}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0539537,
+   "duration_ms": 7973,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4912,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 681,
+    "output_tokens_details": {
+     "thinking_tokens": 668
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4912,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 681,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4912,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4912
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1362484,
+   "duration_ms": 37586,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5908,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4376,
+    "output_tokens_details": {
+     "thinking_tokens": 2810
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5908,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4376,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5908,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5908
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

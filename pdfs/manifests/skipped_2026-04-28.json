@@ -1,0 +1,126 @@
+{
+  "batch_id": "2026-04-28",
+  "window": [
+    "2026-04-28",
+    "2026-04-28"
+  ],
+  "generated_at": "2026-10-29T16:28:35",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-27_2026-04-30.json",
+      "sha256": "bc2248dd47e4e6afd8fb5f798156fc5588eb628028fadca1b9588c8ce2ce5b08",
+      "records": 1101,
+      "dates": [
+        "2026-04-27",
+        "2026-04-30"
+      ],
+      "records_for_batch": 19
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 4,
+    "UNSTRUCTURED_TEXT": 1,
+    "DISTORTED_TABLE": 1
+  },
+  "documents": [
+    {
+      "stem": "BoC_Preview__Staying_on_hold_for_more_evidence",
+      "document": "BoC Preview: Staying on hold for more evidence.pdf",
+      "date": "2026-04-28",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -100 -50 0 50 100 -0.60 -0.10 0.40 0.90 1.40 Jan-23 Sep-23",
+          "chunk_id": "BoC Preview: Staying on hold for more evidence.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BoC Preview: Staying on hold for more evidence.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 5 10 15 20 25 30 '17 '18 '20 '22 '24",
+          "chunk_id": "BoC Preview: Staying on hold for more evidence.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "ECB_Preview__A_hawkish_pause",
+      "document": "ECB Preview: A hawkish pause?.pdf",
+      "date": "2026-04-28",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 -0.25 -0.15 -0.05",
+          "chunk_id": "ECB Preview: A hawkish pause?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_rates_Spreading_it_short_and_sweet_Desknote--923070",
+      "document": "US_rates_Spreading_it_short_and_sweet_Desknote--923070.pdf",
+      "date": "2026-04-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "90 consecutive numeric/date tokens: Feb-2026 28 69 58 70 44 42 16 25 9 Mar-2026 28",
+          "chunk_id": "US_rates_Spreading_it_short_and_sweet_Desknote--923070.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -90 -85 -80 -75 -70 -65 -60 6,200 6,300 6,400 6,500 6,600",
+          "chunk_id": "US_rates_Spreading_it_short_and_sweet_Desknote--923070.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

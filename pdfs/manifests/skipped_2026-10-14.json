@@ -1,0 +1,202 @@
+{
+  "batch_id": "2026-10-14",
+  "window": [
+    "2026-10-14",
+    "2026-10-14"
+  ],
+  "generated_at": "2026-10-29T16:32:37",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-12_2026-10-15.json",
+      "sha256": "6bc0c554a5aa71bdad002e778ef8ed20583a400410915f76c269fbfebe63abe2",
+      "records": 1523,
+      "dates": [
+        "2026-10-12",
+        "2026-10-15"
+      ],
+      "records_for_batch": 40
+    }
+  ],
+  "counts": {
+    "documents": 5,
+    "in_scope": 5,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 3,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 8,
+    "DISTORTED_TABLE": 6,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "BofA_Japan_Viewpoint_-_Inflation_expectations_take_a_breather__but_upside_risks_remain",
+      "document": "BofA_Japan Viewpoint - Inflation expectations take a breather, but upside risks remain.pdf",
+      "date": "2026-10-14",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: +81 3 6225 8592 | +81 3 6225 6257 | 01 October 2026 September",
+          "chunk_id": "BofA_Japan Viewpoint - Inflation expectations take a breather, but upside risks remain.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 05 07 09",
+          "chunk_id": "BofA_Japan Viewpoint - Inflation expectations take a breather, but upside risks remain.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 05 07 09 11 13",
+          "chunk_id": "BofA_Japan Viewpoint - Inflation expectations take a breather, but upside risks remain.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 2 4 6 8 10 12 06 08 10 12 14",
+          "chunk_id": "BofA_Japan Viewpoint - Inflation expectations take a breather, but upside risks remain.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_adds_long_EURHUF_and_short_USDTWD_Trade_Idea--933626",
+      "document": "STEER_adds_long_EURHUF_and_short_USDTWD_Trade_Idea--933626.pdf",
+      "date": "2026-10-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 363.79 368.554 359.026 - 0.00 14-Oct-2026 | 32.184 31.802 32.5706 - 0.00 | 4.3678 4.3539 4.4120 - -0.03",
+          "chunk_id": "STEER_adds_long_EURHUF_and_short_USDTWD_Trade_Idea--933626.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 4.3678 4.3539 4.4120 - -0.03 | 3.4161 - - 3.4604 (01-Oct-2026) -1.30 14-Sep-2026 | 364.42 - - 364.79 (23-Sep-2026) 0.10 23-Sep-2026",
+          "chunk_id": "STEER_adds_long_EURHUF_and_short_USDTWD_Trade_Idea--933626.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_rates_vol_Why_the_sticky_vol_Desknote--933651",
+      "document": "US_rates_vol_Why_the_sticky_vol_Desknote--933651.pdf",
+      "date": "2026-10-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 70 75 80 85 90 95 100 105 110 3.7 3.9 4.1",
+          "chunk_id": "US_rates_vol_Why_the_sticky_vol_Desknote--933651.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 5 6 7 8 9 10 11 70 75 80 85 90",
+          "chunk_id": "US_rates_vol_Why_the_sticky_vol_Desknote--933651.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "What_is_safe",
+      "document": "What is safe?.pdf",
+      "date": "2026-10-14",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 14 October 2026 1 | 23 Sep 2026 90.01 85.55 91.55 +1.16% | 7 Oct 2026 110.36 106.00 111.65 -0.26%",
+          "chunk_id": "What is safe?.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0% 25% 50% 75% 100% -15 -10 -5 0 5 10 15",
+          "chunk_id": "What is safe?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 30 Sep 2026 207.91 209.89 7 Oct 2026 -0.57%",
+          "chunk_id": "What is safe?.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.5 -0.4 -0.3 -0.2 -0.1 0 0.1 0.2 0.3 '16 '18 '20",
+          "chunk_id": "What is safe?.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: -100% -67% -33% 0% 33% 67% 100% 17/07/2026 24/07/2026 31/07/2026 07/08/2026 14/08/2026",
+          "chunk_id": "What is safe?.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -150% -100% -50% 0% 50% 100% 150% 200% 250%",
+          "chunk_id": "What is safe?.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "What is safe?.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

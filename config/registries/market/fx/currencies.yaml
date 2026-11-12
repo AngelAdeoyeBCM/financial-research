@@ -1,0 +1,348 @@
+# Currencies: key = ISO 4217 code -> ccy:<CODE>. Generated 2026-11-10 from the old registry plus currencies seen
+# >= 1 times in ledger_asset_ticker; hand-maintained from here.
+#   issuer_id         issuing central bank: the QLib CentralBankCode, then the old registry's issuer_id as
+#                     written there (org:fed; config/registries/currencies.yaml, merged in 2026-11-11)
+#   default_ois_id    the index "<CCY> OIS" means; default_ibor_id the index "<CCY> IBOR swaps" means. A bare
+#                     "<CCY> swap" takes the IBOR default where there is one, else the OIS default.
+#   non_deliverable   forwards settle as NDFs (QLib NonDeliverable)
+#   onshore_id        the onshore currency of an offshore one (QLib OnShoreCcyCode: CNH -> CNY)
+#   anchor_code         the currency it is pegged to or follows (hand-curated; QLib's meeting currency is a
+#                     USD placeholder for every currency without its own meetings)
+# References hold bare keys (PBOC, CNY, CNH.HIBOR); the loader adds the org:/ccy:/idx: prefix.
+
+AED:
+  name: UAE Dirham
+  issuer_id: [CBUAE]
+  anchor_code: USD
+
+ARS:
+  name: Argentine Peso
+  issuer_id: [BCRA]
+  non_deliverable: true
+
+AUD:
+  name: Australian Dollar
+  issuer_id: [RBA, org:rba]
+  default_ois_id: AUD.AONIA
+  default_ibor_id: AUD.BBSW
+
+BGN:  # replaced by EUR on 2026-01-01; kept for earlier research
+  name: Bulgarian Lev
+  issuer_id: [BNB]
+  anchor_code: EUR
+
+BHD:
+  name: Bahraini Dinar
+  issuer_id: [CBB]
+  anchor_code: USD
+
+BRL:
+  name: Brazilian Real
+  issuer_id: [BCB, org:bcb]
+  default_ois_id: BRL.CDI
+  non_deliverable: true
+
+CAD:
+  name: Canadian Dollar
+  issuer_id: [BOC, org:boc]
+  default_ois_id: CAD.CORRA
+
+CHF:
+  name: Swiss Franc
+  issuer_id: [SNB, org:snb]
+  default_ois_id: CHF.SARON
+
+CLP:
+  name: Chilean Peso
+  issuer_id: [BCC, org:bcch]
+  default_ois_id: CLP.CAMARA
+  non_deliverable: true
+
+CNH:
+  name: Offshore Chinese Yuan
+  issuer_id: [PBC, org:pboc]
+  default_ibor_id: CNH.HIBOR
+  onshore_id: CNY
+
+CNY:
+  name: Chinese Yuan
+  issuer_id: [PBC, org:pboc]
+  default_ibor_id: CNY.REPO
+  non_deliverable: true
+
+COP:
+  name: Colombian Peso
+  issuer_id: [BRC, org:banrep]
+  default_ois_id: COP.IBR
+  non_deliverable: true
+
+CZK:
+  name: Czech Koruna
+  issuer_id: [CNB, org:cnb]
+  default_ibor_id: CZK.PRIBOR
+  default_ois_id: CZK.CZEONIA
+
+DKK:
+  name: Danish Krone
+  issuer_id: [DN]
+  default_ois_id: DKK.CIBOR
+  default_ibor_id: DKK.TND
+  anchor_code: EUR
+
+DOP:
+  name: Dominican Peso
+  default_ibor_id: DOP.IBOR
+  issuer_id: [BCRD]
+
+DZD:
+  name: Algerian Dinar
+  issuer_id: [CBA]
+  default_ibor_id: DZD.IBOR
+
+EGP:
+  name: Egyptian Pound
+  issuer_id: [CBE]
+  default_ois_id: EGP.LIBOR
+  non_deliverable: true
+
+ETB:
+  name: Ethiopian Birr
+  issuer_id: [NBE]
+  default_ois_id: ETB.LIBOR
+
+EUR:
+  name: Euro
+  issuer_id: [ECB, org:ecb]
+  default_ois_id: EUR.ESTR
+  default_ibor_id: EUR.EURIBOR
+
+GBP:
+  name: British Pound
+  issuer_id: [BOE, org:boe]
+  default_ois_id: GBP.SONIA
+  default_ibor_id: GBP.LIBOR
+
+GHS:
+  name: Ghanaian Cedi
+  issuer_id: [BOG]
+  default_ibor_id: GHS.IBOR
+
+GTQ:
+  name: Guatemalan Quetzal
+  issuer_id: [BANGUAT]
+  default_ibor_id: GTQ.IBOR
+
+HKD:
+  name: Hong Kong Dollar
+  issuer_id: [HKMA, org:hkma]
+  default_ois_id: HKD.HONIA
+  default_ibor_id: HKD.HIBOR
+  anchor_code: USD
+
+HUF:
+  name: Hungarian Forint
+  issuer_id: [MNB, org:mnb]
+  default_ibor_id: HUF.BUBOR
+
+IDR:
+  name: Indonesian Rupiah
+  issuer_id: [BI, org:bi]
+  default_ois_id: IDR.INDONIA
+  default_ibor_id: IDR.JIBOR
+  non_deliverable: true
+
+ILS:
+  name: Israeli Shekel
+  issuer_id: [BOI, org:boi]
+  default_ois_id: ILS.SHIR
+  default_ibor_id: ILS.TELBOR
+
+INR:
+  name: Indian Rupee
+  issuer_id: [RBI, org:rbi]
+  default_ois_id: INR.MIBOR
+  non_deliverable: true
+
+IRR:
+  name: Iranian Rial
+  issuer_id: [CBI_IR]
+
+JPY:
+  name: Japanese Yen
+  issuer_id: [BOJ, org:boj]
+  default_ois_id: JPY.TONAROIS
+  default_ibor_id: JPY.LIBOR
+
+KES:
+  name: Kenyan Shilling
+  issuer_id: [CBK]
+  default_ibor_id: KES.IBOR
+
+KRW:
+  name: South Korean Won
+  issuer_id: [BOK, org:bok]
+  default_ibor_id: KRW.CD
+  non_deliverable: true
+
+KWD:
+  name: Kuwaiti Dinar
+  issuer_id: [CBK]
+
+KZT:
+  name: Kazakhstani Tenge
+  issuer_id: [NBK]
+  non_deliverable: true
+
+LBP:
+  name: Lebanese Pound
+  issuer_id: [BDL]
+
+LKR:
+  name: Sri Lankan Rupee
+  issuer_id: [CBSL]
+
+MXN:
+  name: Mexican Peso
+  issuer_id: [BDM, org:banxico]
+  default_ois_id: MXN.TIIEFONDEO
+  default_ibor_id: MXN.TIIE
+
+MYR:
+  name: Malaysian Ringgit
+  issuer_id: [BNM, org:bnm]
+  default_ibor_id: MYR.KLIBOR
+  non_deliverable: true
+
+NGN:
+  name: Nigerian Naira
+  issuer_id: [CBN_NG]
+
+NOK:
+  name: Norwegian Krone
+  issuer_id: [CBN, org:norges_bank]
+  default_ois_id: NOK.NOWA
+  default_ibor_id: NOK.NIBOR
+
+NZD:
+  name: New Zealand Dollar
+  issuer_id: [RBZ, org:rbnz]
+  default_ibor_id: NZD.BKBM
+
+OMR:
+  name: Omani Rial
+  issuer_id: [CBO]
+  anchor_id: USD
+
+PEN:
+  name: Peruvian Sol
+  issuer_id: [BCP]
+  non_deliverable: true
+
+PHP:
+  name: Philippine Peso
+  issuer_id: [BSP, org:bsp]
+  default_ibor_id: PHP.PHIREF
+  non_deliverable: true
+
+PKR:
+  name: Pakistani Rupee
+  issuer_id: [SBP]
+
+PLN:
+  name: Polish Zloty
+  issuer_id: [NBP, org:nbp]
+  default_ois_id: PLN.WIRON
+  default_ibor_id: PLN.WIBOR
+
+PYG:
+  name: Paraguayan Guarani
+  issuer_id: [BCP_PY]
+
+QAR:
+  name: Qatari Rial
+  issuer_id: [QCB]
+  anchor_id: USD
+
+RON:
+  name: Romanian Leu
+  issuer_id: [BNR]
+
+RSD:
+  name: Serbian Dinar
+  issuer_id: [NBS]
+
+RUB:
+  name: Russian Ruble
+  issuer_id: [BOR]
+
+SAR:
+  name: Saudi Riyal
+  issuer_id: [SAMA]
+  anchor_id: USD
+
+SEK:
+  name: Swedish Krona
+  issuer_id: [SRB, org:riksbank]
+  default_ois_id: SEK.SWESTR
+  default_ibor_id: SEK.STIBOR
+
+SGD:
+  name: Singapore Dollar
+  issuer_id: [MAS, org:mas]
+  default_ois_id: SGD.SORA
+
+THB:
+  name: Thai Baht
+  issuer_id: [BOT, org:bot]
+  default_ois_id: THB.THOR
+
+TJS:
+  name: Tajikistani Somoni
+  issuer_id: [NBT]
+
+TRY:
+  name: Turkish Lira
+  issuer_id: [CBT, org:cbrt]
+  default_ois_id: TRY.TLREF
+
+TWD:
+  name: New Taiwan Dollar
+  issuer_id: [CBC, org:cbc]
+  default_ibor_id: TWD.TAIBOR
+  non_deliverable: true
+
+UAH:
+  name: Ukrainian Hryvnia
+  issuer_id: [NBU]
+  non_deliverable: true
+
+USD:
+  name: US Dollar
+  issuer_id: [FED, org:fed]
+  default_ois_id: USD.SOFR
+
+UYU:
+  name: Uruguayan Peso
+  issuer_id: [BCU]
+
+UZS:
+  name: Uzbekistani Som
+  issuer_id: [CBU]
+
+VES:
+  name: Venezuelan Bolivar
+  issuer_id: [BCV]
+
+VND:
+  name: Vietnamese Dong
+  issuer_id: [SBV]
+
+ZAR:
+  name: South African Rand
+  issuer_id: [SAB, org:sarb]
+  default_ois_id: ZAR.ZARONIA
+  default_ibor_id: ZAR.JIBAR
+
+ZMW:
+  name: Zambian Kwacha
+  issuer_id: [BOZ]

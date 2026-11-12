@@ -1,0 +1,233 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_US_Building_-_Trump_administration_hints_at_allowing_401_k.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "link": 4,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "generic": 1,
+     "relative": 1,
+     "not_a_reference": 1
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 18,
+  "kinds": {
+   "deixis": 8,
+   "noun_phrase": 6,
+   "possessive": 2,
+   "pronoun": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.64,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 2
+  },
+  "sentences": 26,
+  "cost_usd": 0.0861
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 635,
+   "end": 650,
+   "quote": "Donald J. Trump",
+   "name": "Donald J. Trump"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 124,
+   "end": 183,
+   "quote": "plan to allow for 401(k) withdrawals for home down payments",
+   "name": "the plan to allow for 401(k) withdrawals for home down payments"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1821,
+   "end": 1829,
+   "quote": "the GSEs",
+   "name": "the GSEs"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3246,
+   "end": 3249,
+   "quote": "UBS",
+   "name": "UBS"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1703,
+   "end": 1727,
+   "quote": "the Trump administration",
+   "name": "the Trump administration"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 1604",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 2778",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0315364,
+   "duration_ms": 3307,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3349,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 189,
+    "output_tokens_details": {
+     "thinking_tokens": 176
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3349,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 189,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3349,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3349
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0545574,
+   "duration_ms": 10265,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3643,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1211,
+    "output_tokens_details": {
+     "thinking_tokens": 505
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3643,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1211,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3643,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3643
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,268 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_UK_Weekly_Digest_-_What_do_households_want_from_the_Budget.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-28",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 15,
+    "referents": {
+     "thing": 7,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 10,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "time": 1,
+     "expletive": 3,
+     "not_a_reference": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 4,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 44,
+  "kinds": {
+   "deixis": 30,
+   "possessive": 3,
+   "answer": 2,
+   "demonstrative": 2,
+   "proposition": 2,
+   "pronoun": 2,
+   "fragment": 2,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.6956521739130435,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 90,
+  "cost_usd": 0.1626
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 286,
+   "end": 312,
+   "quote": "the new Burnham government",
+   "name": "the new Burnham government"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 438,
+   "end": 469,
+   "quote": "the medium-term spending review",
+   "name": "the medium-term spending review"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1307,
+   "end": 1317,
+   "quote": "households",
+   "name": "households"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 72,
+   "end": 88,
+   "quote": "UK Weekly Digest",
+   "name": "the UK Weekly Digest"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 1636,
+   "end": 1713,
+   "quote": "more decisions about how England is governed should be made outside of London",
+   "name": "more decisions about how England is governed should be made outside of London"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 1507,
+   "end": 1540,
+   "quote": "Britons back Burnham’s devolution",
+   "name": "Britons back Burnham’s devolution"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2731,
+   "end": 2745,
+   "quote": "mortgage rates",
+   "name": "mortgage rates"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5086,
+   "end": 5104,
+   "quote": "36% of respondents",
+   "name": "36% of respondents"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 7049,
+   "end": 7077,
+   "quote": "the final services PMI print",
+   "name": "the final services PMI print"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0731562,
+   "duration_ms": 13563,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5342,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1467,
+    "output_tokens_details": {
+     "thinking_tokens": 1122
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5342,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1467,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5342,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5342
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0894047,
+   "duration_ms": 17794,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5846,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2066,
+    "output_tokens_details": {
+     "thinking_tokens": 1166
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5846,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2066,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5846,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5846
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

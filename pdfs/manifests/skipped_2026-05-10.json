@@ -1,0 +1,200 @@
+{
+  "batch_id": "2026-05-10",
+  "window": [
+    "2026-05-10",
+    "2026-05-10"
+  ],
+  "generated_at": "2026-10-29T16:28:54",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-09_2026-05-12.json",
+      "sha256": "f52e1ba2acf0549781d202b4b587b906a06c7514146af3f8fabaf921322cc0b2",
+      "records": 829,
+      "dates": [
+        "2026-05-09",
+        "2026-05-12"
+      ],
+      "records_for_batch": 127
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 4,
+    "out_of_scope": 3,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 23,
+    "edits": 22,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_TABLE": 6,
+    "DISTORTED_FIGURE": 5,
+    "UNSTRUCTURED_TEXT": 4,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "BC_FX___EM_Weekly_Thoughts_-_Trading_de-escalation",
+      "document": "BC_FX & EM Weekly Thoughts - Trading de-escalation.pdf",
+      "date": "2026-05-10",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 30,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        7,
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7, 16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: +44 (0) 20 3555 6549 | +1 212 526 8954 | +81 3 4530 1374",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Trading de-escalation.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 95 96 97 98 99 100 101 102 103 104 Feb-26 Mar-26",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Trading de-escalation.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Week_Ahead_-_May_11_-_May_17",
+      "document": "GS_Global Week Ahead - May 11 - May 17.pdf",
+      "date": "2026-05-10",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: May 11 - May 17 10 May 2026",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-4-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "57% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "59% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "57% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: onsensusLocal imeEconomies nitLast",
+          "chunk_id": "GS_Global Week Ahead - May 11 - May 17.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Shifting_tides_Sunday_Tea_with_BNP_Paribas--923720",
+      "document": "Sunday_Tea_with_BNPP_Shifting_tides_Sunday_Tea_with_BNP_Paribas--923720.pdf",
+      "date": "2026-05-10",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 3.6 3.8 4 4.2 4.4 4.6 4.8 5 5.2 Q2 25 Q4",
+          "chunk_id": "Sunday_Tea_with_BNPP_Shifting_tides_Sunday_Tea_with_BNP_Paribas--923720.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 20 40 60 80 100 -3.0 -2.0 -1.0 0.0",
+          "chunk_id": "Sunday_Tea_with_BNPP_Shifting_tides_Sunday_Tea_with_BNP_Paribas--923720.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 20 40 60 80 100 -3.0 -2.0 -1.0 0.0 1.0 2.0",
+          "chunk_id": "Sunday_Tea_with_BNPP_Shifting_tides_Sunday_Tea_with_BNP_Paribas--923720.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Sunday_Tea_with_BNPP_Shifting_tides_Sunday_Tea_with_BNP_Paribas--923720.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

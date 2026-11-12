@@ -1,0 +1,385 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fixed_Income_Blog_-_Examining_the_impact_of_central_clearing_on_SOFR_and_repo.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 29,
+    "referents": {
+     "thing": 14,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 20,
+     "leave": 9
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "relative": 6,
+     "generic": 1,
+     "time": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 42,
+  "kinds": {
+   "noun_phrase": 12,
+   "deixis": 9,
+   "abbreviation": 6,
+   "demonstrative": 5,
+   "pronoun": 3,
+   "symbol": 3,
+   "shell": 2,
+   "proposition": 1,
+   "fragment": 1
+  },
+  "rooted_share": 0.9444444444444444,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNGROUNDED_WORD": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 48,
+  "cost_usd": 0.2319
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 523,
+   "end": 549,
+   "quote": "specific industry concerns",
+   "name": "specific industry concerns"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 931,
+   "end": 1043,
+   "quote": "The prevailing repo market structure continues to favor the non-centrally cleared bilateral repo (NCCBR) segment",
+   "name": "The prevailing repo market structure continues to favor the non-centrally cleared bilateral repo (NCCBR) segment"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1603,
+   "end": 1620,
+   "quote": "The NCCBR segment",
+   "name": "the NCCBR segment"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3692,
+   "end": 3754,
+   "quote": "the inter-affiliate and central bank/government counterparties",
+   "name": "the inter-affiliate and central bank/government counterparties"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3919,
+   "end": 3922,
+   "quote": "17%",
+   "name": "the 17%"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4456,
+   "end": 4516,
+   "quote": "roughly $850bn in additional volume to be included into SOFR",
+   "name": "the roughly $850bn in additional volume to be included into SOFR"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4996,
+   "end": 5045,
+   "quote": "the rate levels at which NCCBR activity transacts",
+   "name": "the rate levels at which NCCBR activity transacts"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 6041,
+   "end": 6081,
+   "quote": "important offsetting factors to consider",
+   "name": "important offsetting factors to consider"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 6372,
+   "end": 6429,
+   "quote": "dealers push clients into centrally cleared repo activity",
+   "name": "dealers push clients into centrally cleared repo activity"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6456,
+   "end": 6494,
+   "quote": "RWA capital constraints for some banks",
+   "name": "RWA capital constraints for some banks"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 7171,
+   "end": 7220,
+   "quote": "foreign dealers step away from triparty borrowing",
+   "name": "foreign dealers step away from triparty borrowing"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7525,
+   "end": 7561,
+   "quote": "the Collateral-in-Lieu (CIL) service",
+   "name": "the Collateral-in-Lieu (CIL) service"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7723,
+   "end": 7750,
+   "quote": "lien on the repo collateral",
+   "name": "the lien on the repo collateral"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 7896,
+   "end": 7903,
+   "quote": "dealers",
+   "name": "dealers"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 8571,
+   "end": 8643,
+   "quote": "a possible shift of more activity into term repo as opposed to overnight",
+   "name": "the possible shift of more activity into term repo as opposed to overnight"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 147,
+   "end": 207,
+   "quote": "the SEC central clearing mandate of eligible UST repo trades",
+   "name": "the SEC central clearing mandate of eligible UST repo trades"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 9008,
+   "end": 9037,
+   "quote": "the shift to central clearing",
+   "name": "the shift to central clearing"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C027",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C029",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we plot' at 6811"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 801",
+   "message": "not verbatim in source: ['focuses'] in {{we focus => the author focuses}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in 'hile these estimates are illu strative, they are consistent with anecdotal evidence,'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0591176,
+   "duration_ms": 6811,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5631,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 648,
+    "output_tokens_details": {
+     "thinking_tokens": 463
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5631,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 648,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5631,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5631
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1728069,
+   "duration_ms": 45539,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6733,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5877,
+    "output_tokens_details": {
+     "thinking_tokens": 3920
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6733,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5877,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6733,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6733
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

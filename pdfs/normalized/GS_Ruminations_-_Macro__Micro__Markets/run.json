@@ -1,0 +1,598 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_Ruminations_-_Macro__Micro__Markets.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-12",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 53,
+    "referents": {
+     "thing": 20,
+     "claim": 5
+    },
+    "decisions": {
+     "leave": 27,
+     "link": 26
+    },
+    "leave_reasons": {
+     "generic": 10,
+     "relative": 5,
+     "not_a_reference": 6,
+     "expletive": 6
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 65,
+  "kinds": {
+   "deixis": 23,
+   "symbol": 12,
+   "noun_phrase": 7,
+   "pronoun": 6,
+   "demonstrative": 6,
+   "possessive": 4,
+   "proposition": 4,
+   "fragment": 2,
+   "shell": 1
+  },
+  "rooted_share": 0.9241379310344827,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "UNRESOLVED_PRONOUN": 4
+  },
+  "sentences": 159,
+  "cost_usd": 0.3894
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1110,
+   "end": 1114,
+   "quote": "Meta",
+   "name": "Meta"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1308,
+   "end": 1317,
+   "quote": "the moves",
+   "name": "the moves"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2155,
+   "end": 2199,
+   "quote": "The broader fiscal/social/political flywheel",
+   "name": "the broader fiscal/social/political flywheel"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2750,
+   "end": 2769,
+   "quote": "Broadcom and SpaceX",
+   "name": "Broadcom and SpaceX"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4393,
+   "end": 4404,
+   "quote": "the product",
+   "name": "the product"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4800,
+   "end": 4803,
+   "quote": "Oil",
+   "name": "Oil"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 4994,
+   "end": 5076,
+   "quote": "The classic P/E formula might increasingly be the wrong metric to judge the S&P on",
+   "name": "The classic P/E formula might increasingly be the wrong metric to judge the S&P on"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5646,
+   "end": 5674,
+   "quote": "EPS at the top of the market",
+   "name": "EPS at the top of the market"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5747,
+   "end": 5892,
+   "quote": "peak margins getting extrapolated, growth rates over optimistic, analysts late in cutting, operating EPS flattering and earnings quality decaying",
+   "name": "peak margins getting extrapolated, growth rates over optimistic, analysts late in cutting, operating EPS flattering and earnings quality decaying"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 6498,
+   "end": 6597,
+   "quote": "Top 5 companies in the S&P have a combined market caop of close to $22 trillion or 30% of the index",
+   "name": "Top 5 companies in the S&P have a combined market caop of close to $22 trillion or 30% of the index"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 7242,
+   "end": 7281,
+   "quote": "a dislocation between volumes and depth",
+   "name": "the dislocation between volumes and depth"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 7613,
+   "end": 7617,
+   "quote": "June",
+   "name": "June"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 8516,
+   "end": 8571,
+   "quote": "internet searches for stocks to buy and options trading",
+   "name": "internet searches for stocks to buy and options trading"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9547,
+   "end": 9561,
+   "quote": "a crack spread",
+   "name": "the crack spread"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 9690,
+   "end": 9698,
+   "quote": "jet fuel",
+   "name": "jet fuel"
+  },
+  {
+   "id": "R16",
+   "type": "claim",
+   "start": 9690,
+   "end": 9788,
+   "quote": "jet fuel is currently trading at somewhere between 1100 and 1400 depending on how far out you look",
+   "name": "jet fuel is currently trading at somewhere between 1100 and 1400 depending on how far out you look"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 11584,
+   "end": 11588,
+   "quote": "Sept",
+   "name": "Sept"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 11382,
+   "end": 11386,
+   "quote": "Ramp",
+   "name": "Ramp"
+  },
+  {
+   "id": "R19",
+   "type": "claim",
+   "start": 11741,
+   "end": 11831,
+   "quote": "token spend was down 5% last month in spite of it being their peak token consumption month",
+   "name": "token spend was down 5% last month in spite of it being their peak token consumption month"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 12168,
+   "end": 12178,
+   "quote": "Ai winners",
+   "name": "Ai winners"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 12762,
+   "end": 12819,
+   "quote": "A total market value of something like $25 to 30 trillion",
+   "name": "the total market value of something like $25 to 30 trillion"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 13525,
+   "end": 13611,
+   "quote": "scale mattering more and more in almost every segment of the asset management industry",
+   "name": "scale mattering more and more in almost every segment of the asset management industry"
+  },
+  {
+   "id": "R23",
+   "type": "claim",
+   "start": 14054,
+   "end": 14099,
+   "quote": "some strategies have to stay small to perform",
+   "name": "some strategies have to stay small to perform"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 14666,
+   "end": 14680,
+   "quote": "the allocators",
+   "name": "the allocators"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 12397,
+   "end": 12421,
+   "quote": "the broader magic circle",
+   "name": "the broader magic circle"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C030",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C034",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C035",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C036",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C043",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C045",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C046",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C048",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C049",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C051",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C052",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we anchor' at 1707"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we approach' at 10468"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we seem' at 14355"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'No matter what one does with their gross, nets or beta...the volatility of'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'gross, nets or beta...the volatility of their pnl remains high...'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'and the net output for their efforts have little or negative.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'he' in 'egies have to stay small to perform int he venture capital space...especially for '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.1279141,
+   "duration_ms": 28846,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7981,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 3136,
+    "output_tokens_details": {
+     "thinking_tokens": 2889
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7981,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3136,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 7981,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7981
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.2615099,
+   "duration_ms": 76427,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9938,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 9014,
+    "output_tokens_details": {
+     "thinking_tokens": 6145
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9938,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 9014,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 9938,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9938
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

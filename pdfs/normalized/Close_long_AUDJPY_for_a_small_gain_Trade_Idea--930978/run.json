@@ -1,0 +1,207 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Close_long_AUDJPY_for_a_small_gain_Trade_Idea--930978.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-03",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "claim": 1,
+     "thing": 4
+    },
+    "decisions": {
+     "link": 3
+    },
+    "leave_reasons": {},
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 15,
+  "kinds": {
+   "deixis": 10,
+   "noun_phrase": 2,
+   "shell": 1,
+   "demonstrative": 1,
+   "possessive": 1
+  },
+  "rooted_share": 0.5416666666666666,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 8,
+  "cost_usd": 0.0768
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 748,
+   "end": 800,
+   "quote": "the US remains an equally important driver of USDJPY",
+   "name": "the US remains an equally important driver of USDJPY"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 935,
+   "end": 961,
+   "quote": "boost domestic allocations",
+   "name": "a boost of domestic allocations"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 910,
+   "end": 922,
+   "quote": "Japan’s GPIF",
+   "name": "Japan’s GPIF"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 47,
+   "end": 76,
+   "quote": "our long AUDJPY spot position",
+   "name": "our long AUDJPY spot position"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 334,
+   "end": 341,
+   "quote": "the JPY",
+   "name": "the JPY"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 38"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 138"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0269611,
+   "duration_ms": 4092,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2676,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 237,
+    "output_tokens_details": {
+     "thinking_tokens": 63
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2676,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 237,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2676,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2676
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.049829700000000005,
+   "duration_ms": 12621,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2801,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1315,
+    "output_tokens_details": {
+     "thinking_tokens": 884
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2801,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1315,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2801,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2801
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

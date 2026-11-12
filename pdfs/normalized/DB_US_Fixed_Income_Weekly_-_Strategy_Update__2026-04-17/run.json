@@ -1,0 +1,888 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Fixed_Income_Weekly_-_Strategy_Update__2026-04-17.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-17",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 123,
+    "referents": {
+     "thing": 41,
+     "claim": 20
+    },
+    "decisions": {
+     "link": 110,
+     "leave": 13
+    },
+    "leave_reasons": {
+     "relative": 4,
+     "expletive": 6,
+     "not_a_reference": 1,
+     "generic": 1,
+     "time": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 199,
+  "kinds": {
+   "deixis": 56,
+   "possessive": 40,
+   "symbol": 31,
+   "pronoun": 29,
+   "noun_phrase": 19,
+   "proposition": 11,
+   "shell": 10,
+   "abbreviation": 1,
+   "demonstrative": 1,
+   "vp": 1
+  },
+  "rooted_share": 0.8610634648370498,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 5,
+   "EDIT_DROPPED_OVERLAP": 1,
+   "LONG_RESOLUTION": 8,
+   "UNRESOLVED_PRONOUN": 9
+  },
+  "sentences": 209,
+  "cost_usd": 0.6385
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 2,
+   "end": 24,
+   "quote": "US Fixed Income Weekly",
+   "name": "the US Fixed Income Weekly"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 262,
+   "end": 352,
+   "quote": "The terminal Fed policy rate drifted down but remains more than 25bp above pre-Iran levels",
+   "name": "The terminal Fed policy rate drifted down but remains more than 25bp above pre-Iran levels"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 554,
+   "end": 568,
+   "quote": "Our economists",
+   "name": "our economists"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1089,
+   "end": 1100,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3980,
+   "end": 4062,
+   "quote": "a forecast that anticipates strong disinflationary forces from deregulation and AI",
+   "name": "the forecast that anticipates strong disinflationary forces from deregulation and AI"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 4193,
+   "end": 4330,
+   "quote": "labor-market data have stabilized, PCE inflation has surprised to the upside, and the war in Iran poses further upside risks to inflation",
+   "name": "labor-market data have stabilized, PCE inflation has surprised to the upside, and the war in Iran poses further upside risks to inflation"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 5180,
+   "end": 5295,
+   "quote": "he balances a desire to lower rates over time with an economic backdrop that does not call for rate cuts at present",
+   "name": "he balances a desire to lower rates over time with an economic backdrop that does not call for rate cuts at present"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 6037,
+   "end": 6080,
+   "quote": "shrinking the Fed’s balance sheet over time",
+   "name": "shrinking the Fed’s balance sheet over time"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 6356,
+   "end": 6452,
+   "quote": "a drawn-out process that first requires changes in bank regulation to reduce demand for reserves",
+   "name": "the drawn-out process that first requires changes in bank regulation to reduce demand for reserves"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5970,
+   "end": 5977,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 8005,
+   "end": 8018,
+   "quote": "The Committee",
+   "name": "the Committee"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 8782,
+   "end": 8861,
+   "quote": "Warsh has been an outspoken critic of using forward guidance in “normal times.”",
+   "name": "Warsh has been an outspoken critic of using forward guidance in “normal times.”"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 8826,
+   "end": 8842,
+   "quote": "forward guidance",
+   "name": "forward guidance"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9121,
+   "end": 9137,
+   "quote": "the SEP dot plot",
+   "name": "the SEP dot plot"
+  },
+  {
+   "id": "R15",
+   "type": "claim",
+   "start": 11208,
+   "end": 11423,
+   "quote": "The requirement could be more acute in the current context, with inflation well above target for five years, another price shock from the recent surge in oil prices, and the President’s calls for steep Fed rate cuts",
+   "name": "The requirement could be more acute in the current context, with inflation well above target for five years, another price shock from the recent surge in oil prices, and the President’s calls for steep Fed rate cuts"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 11905,
+   "end": 11919,
+   "quote": "Senator Tillis",
+   "name": "Senator Tillis"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 11981,
+   "end": 12038,
+   "quote": "the Department of Justice’s investigation of Chair Powell",
+   "name": "the Department of Justice’s investigation of Chair Powell"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 12026,
+   "end": 12038,
+   "quote": "Chair Powell",
+   "name": "Chair Powell"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 12318,
+   "end": 12408,
+   "quote": "the potential for Powell to remain on the Board as a governor after his term as chair ends",
+   "name": "the potential for Powell to remain on the Board as a governor after his term as chair ends"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 13122,
+   "end": 13163,
+   "quote": "the front (M6) Brent oil futures contract",
+   "name": "the front (M6) Brent oil futures contract"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 13452,
+   "end": 13476,
+   "quote": "front-end market pricing",
+   "name": "front-end market pricing"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 13723,
+   "end": 13765,
+   "quote": "The sell-off in front-end futures contract",
+   "name": "the sell-off in front-end futures contract"
+  },
+  {
+   "id": "R23",
+   "type": "claim",
+   "start": 14235,
+   "end": 14302,
+   "quote": "money markets pricing is leading vs oil futures but not by too much",
+   "name": "money markets pricing is leading vs oil futures but not by too much"
+  },
+  {
+   "id": "R24",
+   "type": "claim",
+   "start": 14630,
+   "end": 14774,
+   "quote": "the reversal is clearly lagging, vs both oil futures and money market pricing, as we move to longer tenors both for USTs and especially for DBRs",
+   "name": "the reversal is clearly lagging, vs both oil futures and money market pricing, as we move to longer tenors both for USTs and especially for DBRs"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 14792,
+   "end": 14803,
+   "quote": "term premia",
+   "name": "term premia"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 15868,
+   "end": 15902,
+   "quote": "SPX, VIX and iTraxx credit spreads",
+   "name": "SPX, VIX and iTraxx credit spreads"
+  },
+  {
+   "id": "R27",
+   "type": "claim",
+   "start": 16114,
+   "end": 16213,
+   "quote": "the recovery rates are more comparable across risky assets, albeit with the same leaders & laggards",
+   "name": "the recovery rates are more comparable across risky assets, albeit with the same leaders & laggards"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 16617,
+   "end": 16622,
+   "quote": "Italy",
+   "name": "Italy"
+  },
+  {
+   "id": "R29",
+   "type": "thing",
+   "start": 16752,
+   "end": 16763,
+   "quote": "EGB spreads",
+   "name": "EGB spreads"
+  },
+  {
+   "id": "R30",
+   "type": "thing",
+   "start": 16722,
+   "end": 16732,
+   "quote": "the market",
+   "name": "the market"
+  },
+  {
+   "id": "R31",
+   "type": "claim",
+   "start": 17378,
+   "end": 17516,
+   "quote": "The broader underperformance of EGB spreads during the Iran conflict can also be attributed to expensive valuations at the end of February",
+   "name": "The broader underperformance of EGB spreads during the Iran conflict can also be attributed to expensive valuations at the end of February"
+  },
+  {
+   "id": "R32",
+   "type": "claim",
+   "start": 17654,
+   "end": 17861,
+   "quote": "EGB spreads outperformed relative to their 2025 beta to other risky assets in late January (decrease in OATs political risk premia), and then ric hened further during the AI-related risk-off move in February",
+   "name": "EGB spreads outperformed relative to their 2025 beta to other risky assets in late January (decrease in OATs political risk premia), and then ric hened further during the AI-related risk-off move in February"
+  },
+  {
+   "id": "R33",
+   "type": "claim",
+   "start": 18266,
+   "end": 18309,
+   "quote": "EGB spreads & European equities are lagging",
+   "name": "EGB spreads & European equities are lagging"
+  },
+  {
+   "id": "R34",
+   "type": "thing",
+   "start": 18363,
+   "end": 18408,
+   "quote": "the Iran conflict & AI-related risk-off moves",
+   "name": "the Iran conflict & AI-related risk-off moves"
+  },
+  {
+   "id": "R35",
+   "type": "claim",
+   "start": 18426,
+   "end": 18481,
+   "quote": "Long-end rates, especially in EUR, are lagging the most",
+   "name": "Long-end rates, especially in EUR, are lagging the most"
+  },
+  {
+   "id": "R36",
+   "type": "thing",
+   "start": 18717,
+   "end": 18722,
+   "quote": "bonds",
+   "name": "bonds"
+  },
+  {
+   "id": "R37",
+   "type": "thing",
+   "start": 20043,
+   "end": 20113,
+   "quote": "the terminal rate (measured as the trough in SOFR futures) and 10y UST",
+   "name": "the terminal rate and 10y UST"
+  },
+  {
+   "id": "R38",
+   "type": "claim",
+   "start": 20288,
+   "end": 20381,
+   "quote": "the pricing-in of additional cuts-through-neutral should also widen the terminal - 10y spread",
+   "name": "the pricing-in of additional cuts-through-neutral should also widen the terminal - 10y spread"
+  },
+  {
+   "id": "R39",
+   "type": "claim",
+   "start": 20502,
+   "end": 20580,
+   "quote": "very recently the gap between them has narrowed alongside the rise in terminal",
+   "name": "very recently the gap between them has narrowed alongside the rise in terminal"
+  },
+  {
+   "id": "R40",
+   "type": "thing",
+   "start": 19971,
+   "end": 19980,
+   "quote": "the chart",
+   "name": "the chart"
+  },
+  {
+   "id": "R41",
+   "type": "thing",
+   "start": 20106,
+   "end": 20113,
+   "quote": "10y UST",
+   "name": "10y UST"
+  },
+  {
+   "id": "R42",
+   "type": "thing",
+   "start": 21589,
+   "end": 21596,
+   "quote": "neutral",
+   "name": "neutral"
+  },
+  {
+   "id": "R43",
+   "type": "thing",
+   "start": 21870,
+   "end": 21904,
+   "quote": "EUR real term premia: upside risks",
+   "name": "EUR real term premia: upside risks"
+  },
+  {
+   "id": "R44",
+   "type": "thing",
+   "start": 22008,
+   "end": 22057,
+   "quote": "the challenges faced by euro area public finances",
+   "name": "the challenges faced by euro area public finances"
+  },
+  {
+   "id": "R45",
+   "type": "claim",
+   "start": 22695,
+   "end": 22804,
+   "quote": "Valuations are now back at the levels observed around 2012 -2013, though still well below 2006 -2012 averages",
+   "name": "Valuations are now back at the levels observed around 2012 -2013, though still well below 2006 -2012 averages"
+  },
+  {
+   "id": "R46",
+   "type": "thing",
+   "start": 23288,
+   "end": 23314,
+   "quote": "A look at terminal pricing",
+   "name": "A look at terminal pricing"
+  },
+  {
+   "id": "R47",
+   "type": "thing",
+   "start": 23450,
+   "end": 23461,
+   "quote": "the S&P 500",
+   "name": "the S&P 500"
+  },
+  {
+   "id": "R48",
+   "type": "claim",
+   "start": 24003,
+   "end": 24125,
+   "quote": "the terminal rate has risen 45bps to ~3.4%, pointing to expectations of just one further cut to the nominal fed funds rate",
+   "name": "the terminal rate has risen 45bps to ~3.4%, pointing to expectations of just one further cut to the nominal fed funds rate"
+  },
+  {
+   "id": "R49",
+   "type": "thing",
+   "start": 23873,
+   "end": 23909,
+   "quote": "the repricing of the Fed policy path",
+   "name": "the repricing of the Fed policy path"
+  },
+  {
+   "id": "R50",
+   "type": "claim",
+   "start": 24372,
+   "end": 24435,
+   "quote": "Near - dated term premia have increased over the past six weeks",
+   "name": "Near - dated term premia have increased over the past six weeks"
+  },
+  {
+   "id": "R51",
+   "type": "claim",
+   "start": 24604,
+   "end": 24708,
+   "quote": "the real policy rate is not expected to trough at a materially higher level than was previously the case",
+   "name": "the real policy rate is not expected to trough at a materially higher level than was previously the case"
+  },
+  {
+   "id": "R52",
+   "type": "thing",
+   "start": 25130,
+   "end": 25158,
+   "quote": "EGB spreads’ reaction so far",
+   "name": "EGB spreads’ reaction so far"
+  },
+  {
+   "id": "R53",
+   "type": "thing",
+   "start": 25709,
+   "end": 25742,
+   "quote": "a decent recovery in risky assets",
+   "name": "the decent recovery in risky assets"
+  },
+  {
+   "id": "R54",
+   "type": "thing",
+   "start": 26008,
+   "end": 26015,
+   "quote": "Ireland",
+   "name": "Ireland"
+  },
+  {
+   "id": "R55",
+   "type": "thing",
+   "start": 26403,
+   "end": 26419,
+   "quote": "Finland & France",
+   "name": "Finland & France"
+  },
+  {
+   "id": "R56",
+   "type": "thing",
+   "start": 27482,
+   "end": 27499,
+   "quote": "the weekend talks",
+   "name": "the weekend talks"
+  },
+  {
+   "id": "R57",
+   "type": "thing",
+   "start": 29268,
+   "end": 29298,
+   "quote": "the Fed’s balance sheet policy",
+   "name": "the Fed’s balance sheet policy"
+  },
+  {
+   "id": "R58",
+   "type": "claim",
+   "start": 31651,
+   "end": 31704,
+   "quote": "the adjustments to our forecast are relatively modest",
+   "name": "the adjustments to our forecast are relatively modest"
+  },
+  {
+   "id": "R59",
+   "type": "claim",
+   "start": 31925,
+   "end": 31980,
+   "quote": "We have modestly lowered our growt h forecast this year",
+   "name": "We have modestly lowered our growt h forecast this year"
+  },
+  {
+   "id": "R60",
+   "type": "thing",
+   "start": 32456,
+   "end": 32470,
+   "quote": "Jobless claims",
+   "name": "jobless claims"
+  },
+  {
+   "id": "R61",
+   "type": "thing",
+   "start": 32351,
+   "end": 32454,
+   "quote": "the preliminary readings for S&P global manufacturing (52.1 vs. 52.3) and services (51.4 vs. 49.8) PMIs",
+   "name": "the preliminary readings for S&P global manufacturing and services PMIs"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C014",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C030",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C040",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C056",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C058",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C061",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C063",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C089",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C107",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C120",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C123",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We detail' at 3626"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we combine' at 16023"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we combine' at 18347"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We summarize' at 19322"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we broke' at 25280"
+  },
+  {
+   "severity": "warning",
+   "code": "EDIT_DROPPED_OVERLAP",
+   "segment": "src 14351",
+   "message": "references edit 'This mild lead/lag' -> 'The mild lead/lag that money markets pricing is leading vs oil futures but not by too much' overlaps ' or '"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4347",
+   "message": "+24 words: {{these developments => the developments that labor-market data have stabilized, PCE inflation has surprised to the upside, and the war in Iran poses further upside risks to inflation}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5439",
+   "message": "+24 words: {{this regard => the regard that Kevin Warsh balances a desire to lower rates over time with an economic backdrop that does not call for rate cuts at present}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 11430",
+   "message": "+38 words: {{this background => the background that the requirement could be more acute in the current context, with inflation well above target for five years, another price shock from the recent surge in oil prices, and the President’s calls for steep Fed rate cuts}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 14776",
+   "message": "+26 words: {{This => That the reversal is clearly lagging, vs both oil futures and money market pricing, as we move to longer tenors both for USTs and especially for DBRs}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 17518",
+   "message": "+22 words: {{This => That the broader underperformance of EGB spreads during the Iran conflict can also be attributed to expensive valuations at the end of February}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 17863",
+   "message": "+35 words: {{This => That EGB spreads outperformed relative to EGB spreads' 2025 beta to other risky assets in late January (decrease in OATs political risk premia), and then ric hened further during the AI-related risk-off move in February}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 24137",
+   "message": "+22 words: {{this => that the terminal rate has risen 45bps to approximately 3.4%, pointing to expectations of just one further cut to the nominal fed funds rate}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 29081",
+   "message": "+24 words: {{this regard => the regard that Kevin Warsh balances a desire to lower rates over time with an economic backdrop that does not call for rate cuts at present}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'his' in 'remain on the Board as a governor after his term as chair ends.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'he relative underperformance of BTPs vs their peers.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'their' in 'to be penalizing countries according to their energy imports dependency.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'his' in ' we have not heard from Warsh recently, his comments prior to his nomination indica'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'his' in 'm Warsh recently, his comments prior to his nomination indicated support for rate r'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'he' in 'While we expect he will ma intain this narrative about the'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'him' in ' argued for lower rates, we do not view him as structurally dovish.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'his' in 'Instead, his views have tended to skew hawkish relat'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'he' in 'The nuance for Warsh will be how he balances a desire to lower rates over t'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.1344951,
+   "duration_ms": 10632,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 14006,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1025,
+    "output_tokens_details": {
+     "thinking_tokens": 819
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 14006,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1025,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 14006,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 14006
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.5040058000000001,
+   "duration_ms": 130221,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 18787,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 17555,
+    "output_tokens_details": {
+     "thinking_tokens": 10456
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 18787,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 17555,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 18787,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 18787
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

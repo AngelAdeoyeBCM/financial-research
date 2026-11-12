@@ -1,0 +1,284 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_Global_FX_Strategy_-_Warsh_unlikely_to_reverse_USD_selling_trends.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-24",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 8,
+    "referents": {
+     "claim": 2,
+     "thing": 4
+    },
+    "decisions": {
+     "link": 5,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "expletive": 2,
+     "relative": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 24,
+  "kinds": {
+   "deixis": 14,
+   "symbol": 3,
+   "pronoun": 2,
+   "shell": 1,
+   "possessive": 1,
+   "vp": 1,
+   "proposition": 1,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.6578947368421053,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 26,
+  "cost_usd": 0.1386
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 21,
+   "end": 65,
+   "quote": "Warsh unlikely to reverse USD selling trends",
+   "name": "Warsh unlikely to reverse USD selling trends"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 99,
+   "end": 110,
+   "quote": "Chair Warsh",
+   "name": "Chair Warsh"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1332,
+   "end": 1403,
+   "quote": "a hawkish surprise is needed to contain the back-end of the yield curve",
+   "name": "a hawkish surprise is needed to contain the back-end of the yield curve"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3032,
+   "end": 3058,
+   "quote": "task force result previews",
+   "name": "task force result previews"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2266,
+   "end": 2287,
+   "quote": "positioning/valuation",
+   "name": "positioning/valuation"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2292,
+   "end": 2312,
+   "quote": "the US/Iran conflict",
+   "name": "the US/Iran conflict"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E023",
+      "phrase": "the latter",
+      "occurrence": 1,
+      "referent": "R6"
+     },
+     "reason": "E023 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.039321,
+   "duration_ms": 6862,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3320,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 594,
+    "output_tokens_details": {
+     "thinking_tokens": 476
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3320,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 594,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3320,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3320
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0648865,
+   "duration_ms": 16352,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3629,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1738,
+    "output_tokens_details": {
+     "thinking_tokens": 1128
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3629,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1738,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3629,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3629
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0344001,
+   "duration_ms": 2533,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3885,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 110,
+    "output_tokens_details": {
+     "thinking_tokens": 88
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3885,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 110,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3885,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3885
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

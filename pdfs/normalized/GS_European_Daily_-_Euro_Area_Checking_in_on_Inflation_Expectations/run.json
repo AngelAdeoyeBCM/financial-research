@@ -1,0 +1,300 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_European_Daily_-_Euro_Area_Checking_in_on_Inflation_Expectations.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-21",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 15,
+    "referents": {
+     "claim": 4,
+     "thing": 8
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 12
+    },
+    "leave_reasons": {
+     "time": 2,
+     "not_a_reference": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 31,
+  "kinds": {
+   "deixis": 10,
+   "abbreviation": 8,
+   "possessive": 3,
+   "pronoun": 3,
+   "proposition": 3,
+   "shell": 1,
+   "noun_phrase": 1,
+   "demonstrative": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.8849557522123894,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 2
+  },
+  "sentences": 46,
+  "cost_usd": 0.1571
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 1565,
+   "end": 1747,
+   "quote": "Inflation expectations across all horizons have shifted upwards in the Euro area following the escalation of the conflict in the Middle East and the subsequent surge in energy prices",
+   "name": "Inflation expectations across all horizons have shifted upwards in the Euro area following the escalation of the conflict in the Middle East and the subsequent surge in energy prices"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2189,
+   "end": 2221,
+   "quote": "“short-term” expectations series",
+   "name": "the “short-term” expectations series"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2665,
+   "end": 2684,
+   "quote": "our summary measure",
+   "name": "our summary measure"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2888,
+   "end": 2910,
+   "quote": "long-term expectations",
+   "name": "long-term expectations"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 3084,
+   "end": 3135,
+   "quote": "they continue to hover near 2.0% in recent releases",
+   "name": "they continue to hover near 2.0% in recent releases"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4865,
+   "end": 4874,
+   "quote": "consumers",
+   "name": "consumers"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 5590,
+   "end": 5651,
+   "quote": "the highest coefficient of skewness of the CES data on record",
+   "name": "the highest coefficient of skewness of the CES data on record"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 6139,
+   "end": 6184,
+   "quote": "the rise in short-term inflation expectations",
+   "name": "the rise in short-term inflation expectations"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 6197,
+   "end": 6311,
+   "quote": "it is not surprising and is driven by high sensitivity to “salient” prices (such as petrol, food or utility bills)",
+   "name": "it is not surprising and is driven by high sensitivity to “salient” prices (such as petrol, food or utility bills)"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 6789,
+   "end": 6812,
+   "quote": "Lower-income households",
+   "name": "lower-income households"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 6789,
+   "end": 6881,
+   "quote": "Lower-income households typically exhibit a higher and more volatile perception of inflation",
+   "name": "Lower-income households typically exhibit a higher and more volatile perception of inflation"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 8207,
+   "end": 8222,
+   "quote": "monetary policy",
+   "name": "monetary policy"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we update' at 1881"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1749",
+   "message": "+30 words: {{This trend => The trend that Inflation expectations across all horizons have shifted upwards in the Euro area following the escalation of the conflict in the Middle East and the subsequent surge in energy prices}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 6325",
+   "message": "+26 words: {{this => that the rise in short-term inflation expectations is not surprising and is driven by high sensitivity to “salient” prices (such as petrol, food or utility bills)}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0476564,
+   "duration_ms": 4046,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5199,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 250,
+    "output_tokens_details": {
+     "thinking_tokens": 242
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5199,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 250,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5199,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5199
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1094788,
+   "duration_ms": 26192,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5737,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3114,
+    "output_tokens_details": {
+     "thinking_tokens": 2038
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5737,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3114,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5737,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5737
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

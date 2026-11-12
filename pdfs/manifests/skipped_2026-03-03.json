@@ -1,0 +1,154 @@
+{
+  "batch_id": "2026-03-03",
+  "window": [
+    "2026-03-03",
+    "2026-03-03"
+  ],
+  "generated_at": "2026-10-29T16:27:19",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-02_2026-03-05.json",
+      "sha256": "a026ed7f6b075d2d407009307d68108ce0fe5660080b00a0ecc028e44dd56f57",
+      "records": 1036,
+      "dates": [
+        "2026-03-02",
+        "2026-03-05"
+      ],
+      "records_for_batch": 67
+    }
+  ],
+  "counts": {
+    "documents": 11,
+    "in_scope": 8,
+    "out_of_scope": 3,
+    "compiled": 5,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 12,
+    "edits": 25,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 4,
+    "DISTORTED_TABLE": 4,
+    "UNSTRUCTURED_TEXT": 2
+  },
+  "documents": [
+    {
+      "stem": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806",
+      "document": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: (3) (2) (1) - 1 2 3 4 5 6 7 Mar-25",
+          "chunk_id": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "110 consecutive numeric/date tokens: 1y 5y 10y 15y 20y 30y 1y 5y 10y 15y 20y 30y",
+          "chunk_id": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "79 consecutive numeric/date tokens: 0.41 0.39 1y -2.95 -0.15 0.51 0.61 0.53 0.43 5y 1.09 0.73",
+          "chunk_id": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "110 consecutive numeric/date tokens: 1y 5y 10y 15y 20y 30y 1y 5y 10y 15y 20y 30y",
+          "chunk_id": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Hedging_geopolitical_risks_via_long_USDSEK_Trade_Idea--919808",
+      "document": "Hedging_geopolitical_risks_via_long_USDSEK_Trade_Idea--919808.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 0.2% -0.2% 0.2% 0.2% | -2.0% -1.6% -0.5% 0.1% | -2.8% -1.6% -1.0% -0.2%",
+          "chunk_id": "Hedging_geopolitical_risks_via_long_USDSEK_Trade_Idea--919808.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 50 -3.0% -2.5% -2.0%",
+          "chunk_id": "Hedging_geopolitical_risks_via_long_USDSEK_Trade_Idea--919808.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Large_shocks__pass_through_and_PriceStats",
+      "document": "Large shocks, pass through and PriceStats.pdf",
+      "date": "2026-03-03",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2026. 0 1 2 3 4 5 6 7",
+          "chunk_id": "Large shocks, pass through and PriceStats.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "Large shocks, pass through and PriceStats.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

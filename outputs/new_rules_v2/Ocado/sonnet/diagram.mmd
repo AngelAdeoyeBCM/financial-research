@@ -1,0 +1,16 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .view{background:#c9dcf8;border-color:#1a3f8b} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · RECOMMENDATION</b><div class='core rec'><span>Overweight Ocado credit and SUNs</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Credit strength from asset-backed platform shift</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Opportunity largely carry-based but compelling</span><b>[A]</b></div><div class='c val'><span><b>S:</b> <b>A002 - VALUATION</b></span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A003 - VIEW</b></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>11% coupon, ~10.5% running yield</mark></span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Key risks to recommendation</span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · VALUATION</b><div class='core val'><span>Existing modules more than cover debt</span><b>[A]</b></div><div class='c val'><span><b>S:</b> Modules imply £2.8bn EV, 24% LTV</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Tech Solutions is main EBITDA engine</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Contract wins and SBA trial are free options</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> More contract signings likely</span><b>[H]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · VIEW</b><div class='core view'><span>Balance sheet rehabilitation credible</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Liquidity ample</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Net leverage to fall to 2.3x by FY28</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Modest positive FY27 cash flow</span><b>[A]</b></div><div class='c view'><span><b>CO:</b> Guidance depends on capex discipline</span><b>[A]</b></div></div>"]
+
+    A002 -- Supporting --> A001
+    A003 -- Supporting --> A001
+
+    classDef rec fill:#fdeeee,stroke:#8b1a1a,stroke-width:2px,color:#111111
+    classDef val fill:#f6f0fc,stroke:#5b2c8f,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A001 rec
+    class A002 val
+    class A003 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

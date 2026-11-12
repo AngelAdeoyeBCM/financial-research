@@ -1,0 +1,193 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Closing_flattener_leg_of_our_HUF_trade_Trade_Idea--928315.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 3,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 10,
+  "kinds": {
+   "deixis": 7,
+   "pronoun": 2,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.5714285714285714,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 6,
+  "cost_usd": 0.0615
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 61,
+   "end": 99,
+   "quote": "the flattener leg of our HUF IRS trade",
+   "name": "the flattener leg of our HUF IRS trade"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 277,
+   "end": 284,
+   "quote": "the NBH",
+   "name": "the NBH"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 86,
+   "end": 99,
+   "quote": "HUF IRS trade",
+   "name": "the HUF IRS trade"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 52"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0233627,
+   "duration_ms": 2912,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2627,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 77,
+    "output_tokens_details": {
+     "thinking_tokens": 69
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2627,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 77,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2627,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2627
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0381686,
+   "duration_ms": 7233,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2815,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 727,
+    "output_tokens_details": {
+     "thinking_tokens": 410
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2815,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 727,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2815,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2815
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+# Measures: economic concepts, independent of country. IDs: meas:<slug>.
+# A mention without a geography ("core PCE", "term premium") can resolve here.
+# `baskets` are the variants an indicator may take (default: headline);
+# `default_geography_id` is set where the measure exists in one place only.
+
+# -- prices -------------------------------------------------------------------
+- {type: measure, entity_id: meas:cpi, name: Consumer price index, kind: prices, baskets: [headline, core, ex_tobacco, cpif, services, goods, energy, food], aliases: [CPI, consumer prices, HICP, inflation, headline inflation, core inflation]}
+- {type: measure, entity_id: meas:pce, name: PCE price index, kind: prices, baskets: [headline, core], default_geography_id: geo:us, aliases: [PCE deflator, PCE inflation]}
+- {type: measure, entity_id: meas:ppi, name: Producer price index, kind: prices, aliases: [PPI, producer prices]}
+- {type: measure, entity_id: meas:rpi, name: Retail prices index, kind: prices, aliases: [RPI]}
+- {type: measure, entity_id: meas:import_prices, name: Import prices, kind: prices, aliases: [import price index]}
+- {type: measure, entity_id: meas:shop_prices, name: Shop prices, kind: prices}
+- {type: measure, entity_id: meas:inflation_expectations, name: Inflation expectations, kind: prices, aliases: [household inflation expectations, consumer inflation expectations]}
+
+# -- labour -------------------------------------------------------------------
+- {type: measure, entity_id: meas:payrolls, name: Payroll employment, kind: labour, aliases: [payrolls, employment report, jobs report]}
+- {type: measure, entity_id: meas:unemployment_rate, name: Unemployment rate, kind: labour, aliases: [unemployment, jobless rate]}
+- {type: measure, entity_id: meas:jobless_claims, name: Jobless claims, kind: labour, aliases: [initial claims, continuing claims, unemployment claims]}
+- {type: measure, entity_id: meas:job_openings, name: Job openings, kind: labour, aliases: [vacancies]}
+- {type: measure, entity_id: meas:wages, name: Wages, kind: labour, aliases: [wage growth, earnings, pay growth]}
+- {type: measure, entity_id: meas:productivity, name: Productivity, kind: labour, aliases: [labour productivity]}
+
+# -- activity -----------------------------------------------------------------
+- {type: measure, entity_id: meas:gdp, name: GDP, kind: activity, aliases: [gross domestic product, real GDP]}
+- {type: measure, entity_id: meas:pmi, name: PMI, kind: activity, baskets: [composite, manufacturing, services], aliases: [purchasing managers' index, PMIs, flash PMI, composite PMI]}
+- {type: measure, entity_id: meas:business_sentiment, name: Business sentiment, kind: activity, aliases: [business survey, business confidence]}
+- {type: measure, entity_id: meas:consumer_sentiment, name: Consumer sentiment, kind: activity, aliases: [consumer confidence]}
+- {type: measure, entity_id: meas:industrial_production, name: Industrial production, kind: activity}
+- {type: measure, entity_id: meas:retail_sales, name: Retail sales, kind: activity}
+- {type: measure, entity_id: meas:durable_goods, name: Durable goods orders, kind: activity, aliases: [durable goods]}
+- {type: measure, entity_id: meas:consumer_spending, name: Consumer spending, kind: activity, aliases: [household consumption, private consumption]}
+- {type: measure, entity_id: meas:housing, name: Housing activity, kind: activity, aliases: [housing starts, home sales, housing market]}
+
+# -- monetary -----------------------------------------------------------------
+- {type: measure, entity_id: meas:policy_rate, name: Policy rate, kind: monetary, baskets: [headline, deposit, iorb], aliases: [policy rate, official rate, terminal rate]}
+- {type: measure, entity_id: meas:neutral_rate, name: Neutral rate, kind: monetary, aliases: [r-star, r*, natural rate, neutral interest rate]}
+- {type: measure, entity_id: meas:bank_lending, name: Bank lending, kind: monetary, aliases: [credit growth, lending standards, credit conditions]}
+- {type: measure, entity_id: meas:consumer_credit, name: Consumer credit, kind: monetary}
+
+# -- external -----------------------------------------------------------------
+- {type: measure, entity_id: meas:trade_balance, name: Trade balance, kind: external, aliases: [goods trade balance, exports, imports]}
+- {type: measure, entity_id: meas:current_account, name: Current account, kind: external, aliases: [current account balance]}
+- {type: measure, entity_id: meas:fx_reserves, name: FX reserves, kind: external, aliases: [reserves, foreign exchange reserves, reserve composition]}
+- {type: measure, entity_id: meas:capital_flows, name: Capital flows, kind: external, aliases: [portfolio flows, foreign flows, remittances]}
+
+# -- fiscal -------------------------------------------------------------------
+- {type: measure, entity_id: meas:budget_balance, name: Budget balance, kind: fiscal, aliases: [budget deficit, fiscal deficit, deficit]}
+- {type: measure, entity_id: meas:government_debt, name: Government debt, kind: fiscal, aliases: [public debt, debt-to-GDP]}
+- {type: measure, entity_id: meas:borrowing_requirement, name: Borrowing requirement, kind: fiscal, aliases: [gross financing needs, financing requirement]}
+
+# -- financial ----------------------------------------------------------------
+- {type: measure, entity_id: meas:term_premium, name: Term premium, kind: financial, aliases: [term premia]}
+- {type: measure, entity_id: meas:financial_conditions, name: Financial conditions, kind: financial, aliases: [FCI, financial conditions index, FCI-G]}

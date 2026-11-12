@@ -1,0 +1,67 @@
+# EXPERIMENT 2 of 3: ONE structure, each claim type is its own EXCLUSIVE span field.
+# Source: replaces the old classification-style config/taxonomies/claim.yaml for training experiments.
+# Goal: extract each claim span from a text chunk AND label it with the right claim type
+# (view, data_point, valuation, forecast, positioning, trade_idea). Slot filling (subject, direction,
+# value, ...) is deliberately left out; see config/taxonomies/structured/ for the full per-type fields.
+# Valuation is new here; claim.yaml did not have it.
+#
+# Length budget: GLiNER2 encodes every field description alongside each text chunk. Keep descriptions
+# to ~20 words. The claim-type definitions below fold in the main disambiguation rules from claim.yaml
+# (view vs forecast, forecast vs data_point, trade_idea vs view, positioning vs data_point).
+#
+# What this version does:
+#   One structure, "claim", in anchorless record mode. Each record is one claim and has six optional
+#   span fields, one per claim type. The claim's text goes into the field for its type, so the type is
+#   read from WHICH field is filled. Every field is exclusive: a mention bound to one record's field
+#   cannot be reused by another, so the same sentence is not claimed twice.
+# What it tests:
+#   Whether per-type descriptions (one definition per field, which choices cannot have) beat the
+#   single choice field in v1, at the cost of six fields in the prompt.
+# Trade-off:
+#   No anchor, so records are formed from the fields alone. Expect each record to fill exactly one
+#   field; check training data and outputs for records that fill two.
+# Do not load together with v1 (both define a structure named "claim").
+version: "1"
+
+x-claim-span: &claim_span
+  dtype: str
+  allow_multiple: false
+  allow_none: true
+  exclusive: true
+  status: active
+
+id: exp_claims_v2_exclusive_fields
+type: structured
+name: claim
+mode: anchorless
+
+fields:
+  view:
+    <<: *claim_span
+    name: View
+    description: "Author's opinion or qualitative outlook on a market, asset or theme, with no concrete forecast or trade."
+
+  forecast:
+    <<: *claim_span
+    name: Forecast
+    description: "Expected future value, level or direction of a measurable variable, such as a rate, yield, price or data release."
+
+  trade_idea:
+    <<: *claim_span
+    name: Trade idea
+    description: "Recommendation for the reader to take a position: long, short, relative-value or options, possibly with entry, target, stop."
+
+  valuation:
+    <<: *claim_span
+    name: Valuation
+    description: "Assessment that something is cheap, rich or fairly valued versus history, peers or fundamentals."
+
+  positioning:
+    <<: *claim_span
+    name: Positioning
+    description: "How investors, funds or dealers are positioned: holdings, exposure, flows, crowding or changes in them."
+
+  data_point:
+    <<: *claim_span
+    name: Data point
+    description: "Observed, reported or historical value, such as a released statistic or current market level; not an expectation."

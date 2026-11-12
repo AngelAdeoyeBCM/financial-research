@@ -1,0 +1,217 @@
+{
+  "batch_id": "2026-02-18",
+  "window": [
+    "2026-02-18",
+    "2026-02-18"
+  ],
+  "generated_at": "2026-10-29T16:27:03",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-02-18_2026-02-21.json",
+      "sha256": "ad80f06af8ff5d25cab866bc1570614f4ae8d2bdd8eddb6a3b3809c972d3c213",
+      "records": 3052,
+      "dates": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "records_for_batch": 258
+    }
+  ],
+  "counts": {
+    "documents": 12,
+    "in_scope": 8,
+    "out_of_scope": 4,
+    "compiled": 1,
+    "skipped": 7,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 4,
+    "edits": 3,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "DB_Focus_Europe_-_Personnel_vs._policy_-_ECB_policy_will_hold_its_course",
+      "document": "DB_Focus Europe - Personnel vs. policy - ECB policy will hold its course.pdf",
+      "date": "2026-02-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 11,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Latin_America_Political_landscape_and_reforms_in_2026_Desknote--918918",
+      "document": "Latin_America_Political_landscape_and_reforms_in_2026_Desknote--918918.pdf",
+      "date": "2026-02-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 56,
+      "page_count": 25,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.294,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Federal_Reserve_Monitor_-_January_FOMC_minutes_-_Awaiting_clear_evidence_of_disinflation",
+      "document": "MS_Federal Reserve Monitor - January FOMC minutes - Awaiting clear evidence of disinflation.pdf",
+      "date": "2026-02-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 11,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.818,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_UK_Inflation_-_Messy___but_Lower",
+      "document": "MS_UK Inflation - Messy – but Lower.pdf",
+      "date": "2026-02-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/MS_UK_Inflation_-_Messy___but_Lower.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "f9282b84ab48f310ad82df25c0b4dbe17cbce27a",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Source: ONS'",
+          "chunk_id": "MS_UK Inflation - Messy – but Lower.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "M Update"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "UK Inflation | Europe Morgan Stanley & Co. International plc Bruna Skarica Chief UK Economist Bruna.Skarica@morganstanley.com +44 20 7425-9110"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For important disclosures, refer to the Disclosure Section, located at the end of this report."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "February 18, 2026 09:35 AM GMT Downloaded by cayla.buettner@bluecrestcapital.com Not for redistribution without written consent of Morgan Stanley"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "signature": 1,
+        "disclaimer": 2
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " :",
+              "after": ":"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Messy – but Lower ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "MS_UK_Inflation_Watch_-_Step_1_-_Completed",
+      "document": "MS_UK Inflation Watch - Step 1 - Completed.pdf",
+      "date": "2026-02-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 15,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.833,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_Dislocations_stable_across_G10_and_EM_Trade_Idea--918903",
+      "document": "STEER_Dislocations_stable_across_G10_and_EM_Trade_Idea--918903.pdf",
+      "date": "2026-02-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "USD_Bears_Are_Still_In_Charge",
+      "document": "USD Bears Are Still In Charge.pdf",
+      "date": "2026-02-18",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "US_rates_Look_for_the_bear_necessities_Desknote--918913",
+      "document": "US_rates_Look_for_the_bear_necessities_Desknote--918913.pdf",
+      "date": "2026-02-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 15,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .pred{background:#fff2a8;border-color:#9a7d00} .pos{background:#fdd9b5;border-color:#b35900} .sent{background:#bff0f5;border-color:#00838f} .view{background:#c9dcf8;border-color:#1a3f8b} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · PREDICTION</b><div class='core pred'><span>Fed likely to hike 25bp</span><b>[H]</b></div><div class='c view'><span><b>S:</b> Fed choice: hike or bond spike</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Hold risks disorderly long end</span><b>[S]</b></div><div class='c fc'><span><b>S:</b> 30Y could test 5.75%</span><b>[S]</b></div><div class='c view'><span><b>S:</b> CPI locks in hike</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Hike pricing rose to ~85%</mark></span><b>[A]</b></div><div class='c view'><span><b>CA:</b> Pricing shift catalysed by JH and data</span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · PREDICTION</b><div class='core pred'><span>Warsh to deliver hawkish hike</span><b>[H]</b></div><div class='c view'><span><b>S:</b> Warsh presser likely JH-style</span><b>[H]</b></div><div class='c view'><span><b>S:</b> Hawkish hike supports front end, flattening</span><b>[H]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · FORECAST</b><div class='core fc'><span>Hawkish presser: 2Y up, 30Y down</span><b>[H]</b></div><div class='c fc'><span><b>S:</b> Dovish presser: 2Y down, 30Y up</span><b>[H]</b></div><div class='c pred'><span><b>CO:</b> <b>A002 - PREDICTION</b></span><b>[H]</b></div></div>"]
+    A004["<div class='arg'><b>A004 · FORECAST</b><div class='core fc'><span>Hold: front end falls, curve steepens</span><b>[S]</b></div><div class='c fc'><span><b>S:</b> Hold: 30Y toward 5.75% over time</span><b>[S]</b></div><div class='c view'><span><b>CO:</b> Hold risks disorderly long end</span><b>[S]</b></div></div>"]
+    A005["<div class='arg'><b>A005 · PREDICTION</b><div class='core pred'><span>Additional hikes Oct and Dec</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> 2026 dot shows 50bp hikes</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> 2027 median shows one cut</span><b>[H]</b></div><div class='c pred'><span><b>CO:</b> <b>A001 - PREDICTION</b></span><b>[H]</b></div></div>"]
+    A006["<div class='arg'><b>A006 · VIEW</b><div class='core view'><span>Hawkish hike supports asset swap view</span><b>[H]</b></div><div class='c pred'><span><b>CO:</b> <b>A002 - PREDICTION</b></span><b>[H]</b></div></div>"]
+    A007["<div class='arg'><b>A007 · PREDICTION</b><div class='core pred'><span>Bessent and Warsh to explain tradeoff</span><b>[A]</b></div><div class='c view'><span><b>CO:</b> Hold risks disorderly long end</span><b>[S]</b></div></div>"]
+    A008["<div class='arg'><b>A008 · FORECAST</b><div class='core fc'><span>USD sideways into year-end</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Fed has high bar to out-hawk</span><b>[H]</b></div><div class='c view'><span><b>S:</b> Hold would sink USD</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>USD subdued despite hike pricing</mark></span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Dovish hike could soften USD</span><b>[S]</b></div><div class='c pred'><span><b>CO:</b> <b>A001 - PREDICTION</b></span><b>[H]</b></div></div>"]
+
+    A002 -- Condition --> A003
+    A001 -- Condition --> A005
+    A002 -- Condition --> A006
+    A001 -- Condition --> A008
+
+    classDef fc fill:#eef9ee,stroke:#1a6b3a,stroke-width:2px,color:#111111
+    classDef pred fill:#fffbe0,stroke:#9a7d00,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A003,A004,A008 fc
+    class A001,A002,A005,A007 pred
+    class A006 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

@@ -1,0 +1,375 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BC_US_Money_Markets_-_TGA_into_repo.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-07",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 39,
+    "referents": {
+     "thing": 10,
+     "claim": 8
+    },
+    "decisions": {
+     "leave": 6,
+     "link": 33
+    },
+    "leave_reasons": {
+     "time": 4,
+     "not_a_reference": 2
+    },
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 94,
+  "kinds": {
+   "abbreviation": 40,
+   "deixis": 12,
+   "pronoun": 12,
+   "noun_phrase": 9,
+   "proposition": 6,
+   "possessive": 5,
+   "shell": 4,
+   "symbol": 3,
+   "demonstrative": 3
+  },
+  "rooted_share": 0.9656084656084656,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 3,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 68,
+  "cost_usd": 0.2622
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 339,
+   "end": 347,
+   "quote": "Treasury",
+   "name": "Treasury"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 487,
+   "end": 494,
+   "quote": "the TGA",
+   "name": "the TGA"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 911,
+   "end": 937,
+   "quote": "suppressing repo pressures",
+   "name": "suppressing repo pressures"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1173,
+   "end": 1227,
+   "quote": "Smoother funding would indirectly support swap spreads",
+   "name": "Smoother funding would indirectly support swap spreads"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2280,
+   "end": 2313,
+   "quote": "Treasury’s cash management policy",
+   "name": "Treasury’s cash management policy"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2751,
+   "end": 2818,
+   "quote": "issuance must often occur well in advance of anticipated cash needs",
+   "name": "issuance must often occur well in advance of anticipated cash needs"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 380,
+   "end": 395,
+   "quote": "excess TGA cash",
+   "name": "excess TGA cash"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 3638,
+   "end": 3757,
+   "quote": "Large and rapid swings in the TGA—particularly around tax payment dates—also introduce volatility into reserve balances",
+   "name": "Large and rapid swings in the TGA—particularly around tax payment dates—also introduce volatility into reserve balances"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 3866,
+   "end": 3873,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 4542,
+   "end": 4634,
+   "quote": "repo markets would need to absorb potentially large and abrupt swings in Treasury cash flows",
+   "name": "repo markets would need to absorb potentially large and abrupt swings in Treasury cash flows"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 5770,
+   "end": 5891,
+   "quote": "the returns would not only be small but only exist in certain repo environments, such as when reserves conditions tighten",
+   "name": "the returns would not only be small but only exist in certain repo environments, such as when reserves conditions tighten"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 942,
+   "end": 1017,
+   "quote": "the Treasury may end up only deploying that cash when repo moves above IORB",
+   "name": "the Treasury may end up only deploying that cash when repo moves above IORB"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 4677,
+   "end": 4712,
+   "quote": "excess cash repo investment program",
+   "name": "the excess cash repo investment program"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7304,
+   "end": 7406,
+   "quote": "an alternative framework in which Treasury would hold only three days of projected outflows in the TGA",
+   "name": "the alternative framework in which Treasury would hold only three days of projected outflows in the TGA"
+  },
+  {
+   "id": "R15",
+   "type": "claim",
+   "start": 7338,
+   "end": 7459,
+   "quote": "Treasury would hold only three days of projected outflows in the TGA, with days four and five placed into the repo market",
+   "name": "Treasury would hold only three days of projected outflows in the TGA, with days four and five placed into the repo market"
+  },
+  {
+   "id": "R16",
+   "type": "claim",
+   "start": 7870,
+   "end": 7955,
+   "quote": "Treasury can move into repo as the balance peaks and the drain on reserves is extreme",
+   "name": "Treasury can move into repo as the balance peaks and the drain on reserves is extreme"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 8959,
+   "end": 9039,
+   "quote": "a roughly $50bn CMB issued at the end of May and maturing shortly after mid-June",
+   "name": "a roughly $50bn CMB issued at the end of May and maturing shortly after mid-June"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 9570,
+   "end": 9616,
+   "quote": "an additional $75bn of issuance over the month",
+   "name": "an additional $75bn of issuance over the month"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C034",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4080",
+   "message": "+21 words: {{this dynamic => the dynamic that Large and rapid swings in the Treasury General Account—particularly around tax payment dates—also introduce volatility into reserve balances}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 7741",
+   "message": "+25 words: {{this way => the way that Treasury would hold only three days of projected outflows in the Treasury General Account, with days four and five placed into the repo market}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 8227",
+   "message": "+25 words: {{this way => the way that Treasury would hold only three days of projected outflows in the Treasury General Account, with days four and five placed into the repo market}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 9",
+   "message": "'their' in 'sury General Account reaches that level their would be no excess to invest.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0609921,
+   "duration_ms": 8039,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5771,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 685,
+    "output_tokens_details": {
+     "thinking_tokens": 672
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5771,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 685,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5771,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5771
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.2011829,
+   "duration_ms": 57182,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7278,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 7075,
+    "output_tokens_details": {
+     "thinking_tokens": 4668
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7278,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 7075,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7278,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7278
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

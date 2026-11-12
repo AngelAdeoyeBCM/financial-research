@@ -1,0 +1,121 @@
+# Market-coverage labels for financial research.
+#
+# Classifies the geographic markets and market groupings substantively covered
+# by a research document, not places merely mentioned in the text.
+# Labels may overlap: a document can cover both EM and Asia.
+# Keys are stable classifier identifiers; do not rename them.
+# Status, version, and classification settings are handled by the application.
+#
+# Length budget: GLiNER2 encodes the prompt, every description and every example
+# alongside each text chunk. Keep descriptions to ~15 words, examples to <=4.
+# Example labels are keys; SchemaBuilder maps them to display names.
+
+version: "1"
+
+id: market_coverage
+type: classification
+
+multi_label: true
+threshold: 0.7
+
+name: Market Coverage
+prompt: >-
+  Markets and regions the research mainly covers, inferred from the
+  countries, currencies and securities analysed.
+
+labels:
+  global:
+    name: Global
+    description: >-
+      Worldwide, multi-region outlooks and cross-asset strategy across
+      all regions.
+    status: active
+
+  dm:
+    name: Developed Markets
+    description: >-
+      Developed markets as a group, such as G10 or G7 rates, FX
+      and macro.
+    status: active
+
+  em:
+    name: Emerging Markets
+    description: >-
+      Emerging or frontier markets as a group, or an individual emerging
+      economy.
+    status: active
+
+  north_america:
+    name: North America
+    description: >-
+      United States and Canada: US rates, Fed, USD, US equities and macro.
+    status: active
+
+  europe:
+    name: Europe
+    description: >-
+      Euro area, UK, Switzerland, Nordics and other European markets.
+    status: active
+
+  asia:
+    name: Asia
+    description: >-
+      East, South and Southeast Asia, including China, Japan, Korea and
+      India.
+    status: active
+
+  australasia:
+    name: Australasia
+    description: >-
+      Australia and New Zealand: rates, AUD and NZD, equities,
+      and macro.
+    status: active
+
+  latam:
+    name: Latin America
+    description: >-
+      Mexico, Central and South America and the Caribbean, such as
+      Brazil, Chile, Colombia and Argentina.
+    status: active
+
+  ceemea:
+    name: CEEMEA
+    description: >-
+      Central and Eastern Europe, Middle East and Africa, including
+      Poland, Czechia, Romania, Hungary, Türkiye and South Africa.
+    status: active
+
+  middle_east:
+    name: Middle East
+    description: >-
+      Gulf and other Middle Eastern markets, including Saudi Arabia, UAE,
+      Qatar, Israel and Egypt.
+    status: active
+
+  africa:
+    name: Africa
+    description: >-
+      North and Sub-Saharan Africa, including South Africa, Nigeria and
+      Kenya.
+    status: active
+
+examples:
+  - text: >-
+      Our emerging-market sovereign credit model flags relative value
+      across Türkiye, Senegal, Ecuador, and Indonesia.
+    label: em
+
+  - text: >-
+      CEEMEA local-currency bonds still offer attractive carry
+      versus other emerging markets.
+    label: ceemea
+
+  - text: >-
+      Brazil's central bank is nearing the end of its easing cycle
+      as the real stabilises.
+    label: latam
+
+  - text: >-
+      Our global allocation outlook compares equities, bonds and FX
+      across the US, Europe, Asia and emerging markets.
+    label: global

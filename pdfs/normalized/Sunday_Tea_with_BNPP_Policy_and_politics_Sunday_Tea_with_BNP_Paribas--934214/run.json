@@ -1,0 +1,278 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Sunday_Tea_with_BNPP_Policy_and_politics_Sunday_Tea_with_BNP_Paribas--934214.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-25",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 14,
+    "referents": {
+     "thing": 8,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 12,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "time": 1,
+     "not_a_reference": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 52,
+  "kinds": {
+   "deixis": 35,
+   "noun_phrase": 5,
+   "pronoun": 4,
+   "possessive": 3,
+   "proposition": 2,
+   "symbol": 1,
+   "demonstrative": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.6761904761904762,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 60,
+  "cost_usd": 0.1506
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 621,
+   "end": 627,
+   "quote": "the UK",
+   "name": "the UK"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1398,
+   "end": 1405,
+   "quote": "the ECB",
+   "name": "the ECB"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2136,
+   "end": 2182,
+   "quote": "the widening of OAT spreads over the past week",
+   "name": "the widening of OAT spreads over the past week"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2854,
+   "end": 2874,
+   "quote": "underlying inflation",
+   "name": "underlying inflation"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4309,
+   "end": 4321,
+   "quote": "AI companies",
+   "name": "AI companies"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4590,
+   "end": 4635,
+   "quote": "a Democratic sweep of both houses of Congress",
+   "name": "a Democratic sweep of both houses of Congress"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 320,
+   "end": 440,
+   "quote": "Brazilian rates and FX could continue to rally significantly should Bolsonaro win Sunday’s presidential election run-off",
+   "name": "Brazilian rates and FX could continue to rally significantly should Bolsonaro win Sunday’s presidential election run-off"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 6965,
+   "end": 7052,
+   "quote": "UK assets appear strikingly resilient, performing well despite the looming fiscal event",
+   "name": "UK assets appear strikingly resilient, performing well despite the looming fiscal event"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 7204,
+   "end": 7378,
+   "quote": "the Chancellor of the Exchequer, John Healey, will seek to limit near-term policy volatility by introducing only targeted, temporary support measures and modest tax increases",
+   "name": "the Chancellor of the Exchequer, John Healey, will seek to limit near-term policy volatility by introducing only targeted, temporary support measures and modest tax increases"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 2670,
+   "end": 2677,
+   "quote": "the BoJ",
+   "name": "the BoJ"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 8104,
+   "end": 8124,
+   "quote": "the UK Autumn Budget",
+   "name": "the UK Autumn Budget"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 7380",
+   "message": "+26 words: {{This => That the Chancellor of the Exchequer, John Healey, will seek to limit near-term policy volatility by introducing only targeted, temporary support measures and modest tax increases}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'he' in 'The following week, the results of t he US midterm elections will arrive on 3 N'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.047105,
+   "duration_ms": 3951,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5170,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 234,
+    "output_tokens_details": {
+     "thinking_tokens": 221
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5170,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 234,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5170,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5170
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10354350000000001,
+   "duration_ms": 23357,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5739,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2810,
+    "output_tokens_details": {
+     "thinking_tokens": 1666
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5739,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2810,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5739,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5739
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

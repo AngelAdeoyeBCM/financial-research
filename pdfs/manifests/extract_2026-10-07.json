@@ -1,0 +1,295 @@
+{
+  "batch_id": "2026-10-07",
+  "window": [
+    "2026-10-07",
+    "2026-10-07"
+  ],
+  "generated_at": "2026-10-29T16:32:26",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-04_2026-10-07.json",
+      "sha256": "5fbd7443d54d2ee45c0d6a26bbfab09f3d7a52eb9cc1a64b5fcc2f765ba1eaa3",
+      "records": 1749,
+      "dates": [
+        "2026-10-04",
+        "2026-10-07"
+      ],
+      "records_for_batch": 57
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 6,
+    "out_of_scope": 1,
+    "compiled": 2,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 8,
+    "edits": 12,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Dollar_flows_ramp_higher__risk_appetite_retreats",
+      "document": "Dollar flows ramp higher, risk appetite retreats.pdf",
+      "date": "2026-10-07",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.961,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Equity_derivatives_First_batch_of_China_onshore_active_ETFs_to_unlock_thematic_alpha_Trade_Idea--933254",
+      "document": "Equity_derivatives_First_batch_of_China_onshore_active_ETFs_to_unlock_thematic_alpha_Trade_Idea--933254.pdf",
+      "date": "2026-10-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/Equity_derivatives_First_batch_of_China_onshore_active_ETFs_to_unlock_thematic_alpha_Trade_Idea--933254.txt",
+      "asset_class_share": 0.19,
+      "fingerprint": "2b074595f0750f45d0f97d6ad1203ee7d51776c9",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Sources: Bloomberg, BNP Paribas'",
+          "chunk_id": "Equity_derivatives_First_batch_of_China_onshore_active_ETFs_to_unlock_thematic_alpha_Trade_Idea--933254.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 07 OCTOBER 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "1   Scarlett LIU, CFA APAC Equity Derivatives Strategist | MAR BNP Paribas Hong Kong Branch scarlett.liu@asia.bnpparibas.com Jason S LUI, CFA Head of APAC Equity Derivatives Strategy | MAR BNP Paribas Hong Kong Branch jason.s.lui@asia.bnpparibas.com"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "Equity derivatives: First batch of China onshore active ETFs to unlock thematic alpha ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "OUR KEY VIEWS",
+              "after": "\n\n## OUR KEY VIEWS\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "STEER_Conviction_still_low_USDMXN_overvalued_Trade_Idea--933270",
+      "document": "STEER_Conviction_still_low_USDMXN_overvalued_Trade_Idea--933270.pdf",
+      "date": "2026-10-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.886,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "South_Africa_mid-term_budget_preview_Climbing_the_credibility_ladder_Desknote--933274",
+      "document": "South_Africa_mid-term_budget_preview_Climbing_the_credibility_ladder_Desknote--933274.pdf",
+      "date": "2026-10-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 12,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "The_Nordic_Gap_Starts_to_Close",
+      "document": "The Nordic Gap Starts to Close.pdf",
+      "date": "2026-10-07",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.812,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Economic_Perspectives_-_FOMC_minutes-_most_see_another_2026_hike",
+      "document": "UBS_US Economic Perspectives - FOMC minutes- most see another 2026 hike.pdf",
+      "date": "2026-10-07",
+      "publisher": "UBS",
+      "document_type": "Central Bank Review",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/UBS_US_Economic_Perspectives_-_FOMC_minutes-_most_see_another_2026_hike.txt",
+      "asset_class_share": 0.667,
+      "fingerprint": "c3f5f025a8403eff59d9f60bcad627b61f0333ee",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: FOMC counting words \"all\" \"all but one\" \"almost all\" or participants/members \"generally\" \"'",
+          "chunk_id": "UBS_US Economic Perspectives - FOMC minutes- most see another 2026 hike.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: FOMC counting words \"all\" \"all but one\" \"almost all\" or participants/members \"generally\" \"'",
+          "chunk_id": "UBS_US Economic Perspectives - FOMC minutes- most see another 2026 hike.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "ab 7 October 2026 Global Research"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "This report has been prepared by UBS Securities LLC. ANALYST CERTIFICATION AND REQUIRED DISCLOSURES, including information on the Quantitative Research Review published by UBS, begin on page 3."
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "US Economic Perspectives 7 October 2026 ab 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Economics Americas Abigail Watt Economist abigail.watt@ubs.com +1-212-882 6929 Jonathan Pingle Economist jonathan.pingle@ubs.com +1-212-713 2225 Alan Detmeister Economist alan.detmeister@ubs.com +1-212-713 1222 Stuart Paul Economist stuart.paul@ubs.com +1-212-713 3439 Amanda Wilcox Economist amanda.wilcox@ubs.com +1-212-713 3899 Jalen Nichols Economist jalen.nichols@ubs.com +1-212-882 6905"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 2,
+        "disclaimer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "US Economic Perspectives FOMC minutes: \"most\" see another 2026 hike ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "unicode": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "…",
+              "after": "..."
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

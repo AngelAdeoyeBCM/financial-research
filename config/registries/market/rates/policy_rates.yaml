@@ -1,0 +1,40 @@
+# Policy rates: set by the currency's central bank, not swapped. Key derived currency + code -> idx:USD.FDTR,
+# the same idx prefix as the market indices (QLib idx[USD,FDTR]). Overnight (is_ois true by default, as QLib's
+# IsOis). A bank's headline rate is its policy_rate_id (organization/central_banks.yaml). Split out of
+# rate_indices.yaml 2026-11-11.
+#   corridor   floor | ceiling: the edge of the corridor the rate sets for overnight market rates
+#   is_range   the target is a range, not a point (Fed funds target, 3.75-4.00%)
+
+- {currency_id: USD, code: FDTR, name: Fed funds target, is_range: true}
+- {currency_id: USD, code: IORB, name: IORB}
+- {currency_id: USD, code: ONRRP, name: ON RRP rate, corridor: floor}
+- {currency_id: EUR, code: DFR, name: ECB deposit facility rate, corridor: floor}
+- {currency_id: EUR, code: MRO, name: ECB main refinancing rate}
+- {currency_id: EUR, code: MLF, name: ECB marginal lending rate, corridor: ceiling}
+- {currency_id: GBP, code: BANKRATE, name: Bank Rate}
+- {currency_id: JPY, code: BOJRATE, name: BoJ policy rate}
+- {currency_id: CHF, code: SNBRATE, name: SNB policy rate}
+- {currency_id: CAD, code: BOCR, name: BoC overnight rate target}
+- {currency_id: AUD, code: CASHRATE, name: RBA cash rate}
+- {currency_id: NZD, code: OCR, name: Official Cash Rate}
+- {currency_id: SEK, code: POLICY, name: Riksbank policy rate}
+- {currency_id: NOK, code: POLICY, name: Norges Bank policy rate}
+- {currency_id: CNY, code: RR7D, name: PBOC 7-day reverse repo rate}
+- {currency_id: HKD, code: BASE, name: HKMA base rate}
+- {currency_id: KRW, code: BASE, name: BoK base rate}
+- {currency_id: TWD, code: DISCOUNT, name: CBC discount rate}
+- {currency_id: INR, code: REPO, name: RBI repo rate}
+- {currency_id: IDR, code: BIRATE, name: BI-Rate}
+- {currency_id: MYR, code: OPR, name: Overnight Policy Rate}
+- {currency_id: PHP, code: RRP, name: BSP target reverse repo rate}
+- {currency_id: THB, code: POLICY, name: BoT policy rate}
+- {currency_id: BRL, code: SELIC, name: Selic target}
+- {currency_id: MXN, code: TARGET, name: Banxico target rate}
+- {currency_id: CLP, code: TPM, name: BCCh monetary policy rate}
+- {currency_id: COP, code: POLICY, name: BanRep policy rate}
+- {currency_id: ZAR, code: REPO, name: SARB repo rate}
+- {currency_id: TRY, code: REPO1W, name: CBRT one-week repo rate}
+- {currency_id: PLN, code: REF, name: NBP reference rate}
+- {currency_id: HUF, code: BASE, name: MNB base rate}
+- {currency_id: CZK, code: REPO2W, name: CNB 2-week repo rate}
+- {currency_id: ILS, code: POLICY, name: BoI policy rate}

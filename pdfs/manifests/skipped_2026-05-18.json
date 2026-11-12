@@ -1,0 +1,4267 @@
+{
+  "batch_id": "2026-05-18",
+  "window": [
+    "2026-05-18",
+    "2026-05-18"
+  ],
+  "generated_at": "2026-10-29T16:29:08",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-17_2026-05-20.json",
+      "sha256": "7498cc3995179581b97c0415d8f8696849789d3eaea86d514f9273cbc0a7bb79",
+      "records": 1229,
+      "dates": [
+        "2026-05-17",
+        "2026-05-20"
+      ],
+      "records_for_batch": 1023
+    }
+  ],
+  "counts": {
+    "documents": 36,
+    "in_scope": 30,
+    "out_of_scope": 6,
+    "compiled": 1,
+    "skipped": 29,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 12,
+    "edits": 16,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 337,
+    "UNSTRUCTURED_TEXT": 139,
+    "DISTORTED_TABLE": 46,
+    "MISSING_CHUNKS": 14,
+    "NON_ENGLISH_SCRIPT": 2
+  },
+  "documents": [
+    {
+      "stem": "AI_strength_vs_Macro_Strain",
+      "document": "AI strength vs Macro Strain.pdf",
+      "date": "2026-05-18",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -1.00 -0.75 -0.50 -0.25 0.00 0.25 0.50 0.75 May-25 Aug-25 Nov-25 Feb-26",
+          "chunk_id": "AI strength vs Macro Strain.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "AI strength vs Macro Strain.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359",
+      "document": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf",
+      "date": "2026-05-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 80,
+      "page_count": 20,
+      "status": "skipped",
+      "missing_indices": [
+        29,
+        53,
+        58,
+        78
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [29, 53, 58, 78]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30% 30% 36% 28% 155% 64% 24% 45% 50% 0% 20% 40%",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30% 30% 36% 28% 155% 64% 24% 45% 50% 0% 20% 40%",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 23.9 9.9 7.9 9.7 8.3 4.5 19.0 8.3 7.3 6.7 14.6 7.6",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 5 10 15 20 25 30 (75) (50) (25) 0 25",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-3-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 2017 2018 2020 2020",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 5 10 15 20 25 30 (15) (10) (5) 0 5",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-5-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 980 820 720 720 720 800 880 0.9 0.7 0.6 0.6 0.5",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-5-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 1.2 1.0 1.4 1.4 1.3 1.5 1.3 1.6 1.7 1.5 1.3 1.4",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-5-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-5-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -2,000 -1,000 0 1,000 2,000 3,000 Mar-22 Nov-22 Jul-23 Mar-24 Nov-24 Jul-25",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-6-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0 200 400 600 800 1000 1200 1400",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-6-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 10 20 30 0 10 20 30 40 50 60 70",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-7-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -0.3 1.4 1.2 1.2 1.2 0.5 0.8 0.3 1.8 1.4 0.8 0.5",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-7-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-8-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 4 1.6 1.8 Apr May Jun Jul Aug Sep Oct Nov Dec",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-8-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: (60) (40) (20) 0 20 40 60 80 100 120 140 2022",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-9-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 2021 2022 2023 2024 2025 2026",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-10-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 20 40 60 80 100 Jan Feb Mar Apr May Jun",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-10-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0 5 10 15 20 25 30 (40) (30) (20) (10) 0",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-11-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 9.2 9.75 9.2 9.5 9.45 9.5 9.2 9.75 9.2 9.75 9.2 9.75",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-11-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "74 consecutive numeric/date tokens: 9.2 9.75 9.2 9.5 9.45 9.5 9.2 9.75 9.2 9.75 9.2 9.75",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-11-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "39 consecutive numeric/date tokens: Q1 2026 29% 29% 30% 36% 17% 48% Q2 2026 27% 28%",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-12-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-12-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-12-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 2009 2011 2013 2015",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-12-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 10 20 30 40 50 60 2022 (172bn) 2023 (191bn) 2024",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-13-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 0 5 10 15 20 25 30 (20) (15) (10) (5) 0",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-13-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 2022 2023",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-14-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 2 4 6 8 10 12 2022 (26.8bn) 2023 (25.2bn) 2024",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-15-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "63 consecutive numeric/date tokens: 0.0 2.8 4.3 1.5 3.2 (8.6) 2.5 2.9 2.8 1.6 (7.6) 0.0",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-15-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 0 5 10 15 20 25 30 (20) (15) (10) (5) 0",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-15-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 5 10 15 20 25 2022 2023 2024 2025 2026",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-16-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 18 22 25 19 22 25 22 19 18 18 14 4",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-17-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: 18 22 25 19 22 25 22 19 18 18 14 4",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-17-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 5 10 15 20 25 30 0 5 10 15 20",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-17-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: Q1 Q2 Q3 Q4 0 5 10 15 20 25 30 35",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-18-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 288 211 103 66 93 392 47 0 50 100 150 200",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-18-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 5 10 15 20 25 30 (20) (15) (10) (5) 0",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-19-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: 119 61 (16) 136 94 77 93 99 (31) 71 120 120",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-19-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-19-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 200 400 600 800 1000 1200 1400 1600",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-20-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: (80) (60) (40) (20) 0 20 40 60",
+          "chunk_id": "APAC_Rising_bond_supply_to_steepen_curves_Desknote--924359.pdf-20-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_Federal_Reserve_Commentary_-_What_would_trigger_a_2026_Fed_hike",
+      "document": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf",
+      "date": "2026-05-18",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 18,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -4 -2 0 2 4 6 8 10 30 40 50 60",
+          "chunk_id": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -3.0 -2.0 -1.0 0.0 1.0 2.0 Feb-26 Mar-26 Apr-26 May-26",
+          "chunk_id": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 06 08 10 12 14 16",
+          "chunk_id": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -1 0 1 2 3 4 5 24 25 26",
+          "chunk_id": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -2 0 2 4 6 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 2 4 6 8 10 17 18 19 20 21 22",
+          "chunk_id": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -2 0 2 4 6 8 18 19 20 21 22 23",
+          "chunk_id": "BC_Federal Reserve Commentary - What would trigger a 2026 Fed hike.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_US_Rates_Research_-_Flow_of_Funds_-__Short-_to_intermediate-sector_inflows_firmed",
+      "document": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf",
+      "date": "2026-05-18",
+      "publisher": "Barclays",
+      "document_type": "Positioning and flows",
+      "chunk_count": 21,
+      "page_count": 14,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        9,
+        11,
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 9, 11, 16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 30 May-25 Jul-25 Sep-25",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -20 0 20 40 60 80 100 120 140 160 Jan Feb",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -20 0 20 40 60 80 100 120 140 160 Jan Feb",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 40 45 Jan Feb",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -200 -150 -100 -50 0 50 100 150 Feb-23 Feb-24 Feb-25 Feb-26",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 200 400 600 800 1,000 1,200 Dec-23 Jul-24 Feb-25 Sep-25 Apr-26",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -40% -20% 0% 20% 40% 60% Jan-23 Jul-23 Jan-24 Jul-24 Jan-25 Jul-25",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "57% of tokens are numeric/date values",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -80% -60% -40% -20% 0% 20% 40% 60% May-16 May-18 May-20 May-22",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 25,341 35 22 (3) 15 17 (2) (7) 25",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 20% 21% 22% 23% 24% 25% 26% 27% 28% 29% May-16 May-18",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-10-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 20% 21% 22% 23% 24% 25% 26% 27% 28% 29% May-16 May-18",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 45% 47% 49% 51% 53% 55% 57% 59% 61% 63% May-16 May-18",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 80 Jan-15 Jul-16 Jan-18 Jul-19",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-12-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2,700 2,900 3,100 3,300 3,500 3,700 2016 2017 2018 2019 2020 2021",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-13-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-13-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "57% of tokens are numeric/date values",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-13-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 Aug-24 Dec-24 Apr-25 Aug-25",
+          "chunk_id": "BC_US Rates Research - Flow of Funds -  Short- to intermediate-sector inflows firmed.pdf-14-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "China_Slower_growth_in_April_amid_policy_headwinds_Desknote--924410",
+      "document": "China_Slower_growth_in_April_amid_policy_headwinds_Desknote--924410.pdf",
+      "date": "2026-05-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -10 -5 0 5 10 15 Jan-19 Jul-19 Jan-20 Jul-20 Jan-21 Jul-21",
+          "chunk_id": "China_Slower_growth_in_April_amid_policy_headwinds_Desknote--924410.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 Jan-20 Jul-20 Jan-21",
+          "chunk_id": "China_Slower_growth_in_April_amid_policy_headwinds_Desknote--924410.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "China_Slower_growth_in_April_amid_policy_headwinds_Desknote--924410.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 80 2020 2021 2022 2023",
+          "chunk_id": "China_Slower_growth_in_April_amid_policy_headwinds_Desknote--924410.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_China_Economics_-_Stagflation_Risks_are_Rising",
+      "document": "Citi_China Economics - Stagflation Risks are Rising.pdf",
+      "date": "2026-05-18",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 18,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -20 -10 0 10 20 30 40 Jan-20 Jan-21 Jan-22 Jan-23 Jan-24",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -5 0 5 10 15 Jan-22 Jul-22 Jan-23 Jul-23 Jan-24 Jul-24 Jan-25",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2025 2024 2023 -5 0 5 10 15 20 25 30",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 numeric rows: 2026Apr 20263.5 3.7 3.4 1.7 1.7 | -0.5 -1.5 0.4 -6.5 -11.8 | 11.0 14.9 -17.7 -5.0",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -5 0 5 10 15 20 Jan-24 Jul-24 Jan-25 Jul-25 Jan-26",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: Sep 2023 Jun 2024 Oct 2024 -2.0 -1.5 -1.0 -0.5 0.0 0.5",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 3 0 10 20 30 40 50 60 70 10 11 12",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 2.9 13.4 5.1 4.9 4.2 4.0 6.6 4.1 3.9 3.9 4.5 4.5",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 3.6 29.9 7.0 -4.6 5.9 5.5 7.0 1.4 5.6 6.0 9.9 5.7",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: EOP13.0012.5011.5011.0010.509.50 8.5010.0010.009.50",
+          "chunk_id": "Citi_China Economics - Stagflation Risks are Rising.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_Rates_Vol_Lab_-_Hedging_30y_buyers_strike_risk",
+      "document": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf",
+      "date": "2026-05-18",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 102,
+      "page_count": 29,
+      "status": "skipped",
+      "missing_indices": [
+        1,
+        18,
+        24,
+        69,
+        84
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [1, 18, 24, 69, 84]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 60 70 80 90 100 110 120 130 140 2.00 2.50 3.00",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0.65 0.75 0.85 0.95 1.05 May-24 Nov-24 May-25 Nov-25 May-26",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -5 0 5 10 15 May-25 Aug-25 Nov-25 Feb-26 May-26 6m",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 40 60 80 100 120 140 160 180 200 0 2 4",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y10y100/23.523.722.914.4 2y30y100/11.544.942.529.8 3y10y100/34.522.823.014.9 3y30y100/16.944.042.530.4 5y10y100/55.219.219.214.0 5y30y100/27.140.438.729.6",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: y10y100/23.523.725.910.9 2y30y100/11.544.940.820.8 3y10y100/34.522.826.313.4 3y30y100/17.044.041.223.4 5y10y100/55.319.219.912.1 5y30y100/27.140.434.822.3",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -14 -12 -10 -8 -6 -4 -2 0 2 4 -0.6 -0.4",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 4 0.6 0.8 1.0 May-23 Nov-23 May-24 Nov-24 May-25 Nov-25 May-26",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 99.78.214.59.80.93.2 91.86.710.84.60.5(2.9)(0.1)82.95.56.5(0.9)(0.1)(8.3)(0.4)77.86.35.0(2.3)(0.3)(6.3)(0.5)1 96.73.711.16.90.80.2 89.83.47.23.00.4(4.9)(0.2)83.53.15.5(0.7)(0.1)(7.7)(0.4)77.83.83.7(2.8)(0.5)(6.3)(0.5)2 96.83.17.87.51.00.3 90.62.58.53.40.5(4.1)(0.1)86.02.66.41.20.2(5.3)(0.3)77.71.73.2(2.0)(0.4)(6.5",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 89.83.47.23.00.4(4.9)(0.2)83.53.15.5(0.7)(0.1)(7.7)(0.4)77.83.83.7(2.8)(0.5)(6.3)(0.5)2 96.83.17.87.51.00.3 90.62.58.53.40.5(4.1)(0.1)86.02.66.41.20.2(5.3)(0.3)77.71.73.2(2.0)(0.4)(6.5)(0.5)3 95.04.27.87.01.0(1.5)(0.0)90.03.25.13.10.5(4.7)(0.2)86.12.85.20.90.1(5.2)(0.3)78.02.64.5(0.5)(0.1)(6.2)(0.5)4 90.74.46.05.60.8(5.8)(0.1)88.43.53.01.40.2(6.3)(0.2)86.62.86.32.20.4(4.6)(0.2)77.72.85.20.40.1(6.4)(0.5)5 91.93.04.02.40.4(4.6)(0.1)87.73.04.40.80.2(7.0)(0.2)84.92.66.01.10.2(6.4)(0.3)76.02.66.60.80.2(8.2)(0.7)6",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 May-25 Jul-25 Sep-25 Nov-25",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0.001.580.12 0.001.301.4Apr-26 0.001.770.00 0.000.560.05 0.001.211.4May-25 0.000.970.00",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -14 -10 -6 -2 2 6 10 14 18 May-21 May-22 May-23",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2y 5y 10y 30y 1y 2y 5y 10y 30y 1y 2y 5y",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-11-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 May-21 May-22 May-23 May-24",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-11-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 105.8103.998.398.990.991.21w 15.510.914.511.814.110.1Board/ 1.141.121.101.111.141.14Board/ 1.151.131.121.131.181.19CTD-matched vol98.595.188.687.672.175.61w 15.010.513.410.0",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 106.00 106.50 107.00 107.50",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ratioFVN606/26/26106-224.073.74108.9-30.1106.254.414.09-32.32.2109.5101.01.08107.004.223.91-31.61.5102.696.71.06FVN606/26/26106-224.073.74108.9-30.1106.004.474.14-32.82.6111.7102.91.09107.254.163.85-31.51.4101.196.11.05FVN606/26/26106-224.073.74108.9-30.1105.754.534.20-33.33.2114.4105.11.09107.504.103.78-31.91.899.095.81.03FVN606/26/26106-224.073.74108.9-30.1105.504.594.26-33.33.2116.2107.71.08107.754.043.72-32.01.998.596.01.03FVN606/26/26106-224.073.74108.9-30.1105.254.664.32-34.03.9119.5110.11.09108.003.983.66-32.22.198.596.61.02FVU608/21/26106-224.073.74108.9-30.1106.504.354.02-33.13.0105.195.3 1.10106.754.294.00-28.9-1.2103.595.11.09FVU608/21/26106-224.073.74108.9-30.1106.254.414.07-33.63.4106.496.3 1.11107.004.223.94-28.8-1.3102.394.41.08FVU608/21/26106-224.073.74108.9-30.1106.004.474.13-34.34.2108.397.3 1.11107.254.163.88-28.5-1.6101.794.01.08FVU608/21/26106-224.073.74108.9-30.1105.754.534.18-34.94.8110.098.5 1.12107.504.103.82-28.7-1.4100.593.81.07FVU608/21/26106-224.073.74108.9-30.1105.504.594.23-36.05.9112.699.7 1.13107.754.043.75-28.7-1.499.993.81.06FVU608/21/26106-224.073.74108.9-30.1105.254.664.29-36.46.3114.110",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 103.82-28.7-1.4100.593.81.07FVU608/21/26106-224.073.74108.9-30.1105.504.594.23-36.05.9112.699.7 1.13107.754.043.75-28.7-1.499.993.81.06FVU608/21/26106-224.073.74108.9-30.1105.254.664.29-36.46.3114.1101.31.13108.003.983.69-29.3-0.898.894.11.05TYN606/26/26108-28+6.205.65109.8-38.8108.504.544.11-42.53.7101.789.3 1.14109.004.454.07-38.80.197.488.11.10TYN606/26/26108-28+6.205.65109.8-38.8108.004.624.18-43.24.5104.391.7 1.14109.504.373.99-38.5-0.294.686.61.09TYN606/26/26108-28+6.205.65109.8-38.8107.504.704.27-43.34.5105.894.8 1.12110.004.293.91-38.1-0.793.585.71.09TYN606/26/26108-28+6.205.65109.8-38.8107.004.784.34-44.05.2109.597.9 1.12110.504.223.84-37.8-0.992.785.61.08TYN606/26/26108-28+6.205.65109.8-38.8106.504.864.41-45.56.7114.5101.01.13111.004.143.77-37.0-1.793.886.01.09TYN606/26/26108-28+6.205.65109.8-38.8106.004.954.48-47.08.2119.4104.21.15111.504.063.70-35.5-3.396.686.91.11TYU608/21/26108-28+6.205.65109.8-38.8108.504.544.10-43.54.7100.587.8",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -35.2-3.694.785.91.10TYU608/21/26108-28+6.205.65109.8-38.8106.504.864.37-49.210.4112.394.0 1.20111.004.143.78-35.2-3.694.086.11.09TYU608/21/26108-28+6.205.65109.8-38.8106.004.954.44-50.311.5114.896.1 1.20111.504.063.72-34.0-4.795.586.61.10USN606/26/26110-312.6411.89106.3-71.9110.005.154.37-77.65.891.171.0 1.28111.005.074.39-68.6-3.388.271.21.24USN606/26/26110-312.6411.89106.3-71.9109.005.234.44-79.27.494.672.5 1.30112.004.994.31-68.0-3.885.370.11.22USN606/26/26110-312.6411.89106.3-71.9108.005.314.50-80.78.897.274.5 1.30113.004.924.25-66.8-5.085.269.71.22USN606/26/26110-312.6411.89106.3-71.9107.005.394.57-82.610.7101.176.8",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-13-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3-7.587.974.21.18USU608/21/26110-312.6411.89106.3-71.9106.005.484.63-85.013.1102.679.7 1.29115.004.774.13-63.2-8.788.774.51.19USU608/21/26110-312.6411.89106.3-71.9105.005.564.69-87.215.3105.981.3 1.30116.004.694.08-61.3-10.590.775.01.21",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-13-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-13-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.70 0.75 0.80 0.85 0.90 May-23 Nov-23 May-24 Nov-24 May-25 Nov-25 May-26",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-14-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-14-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: Impl/RlzdM7-H80.72-0.01-0.64-0.451.41-0.69-0.54-1.150.2580.6102.80.8 1.0U7-M81.010.04-0.42-0.521.89-0.88-0.53-1.140.2981.796.1 1.1Z7-U81.340.05-0.29-0.602.41-1.07-0.53-1.120.3382.390.0 1.2H8-Z81.720.03-0.21-0.702.94-1.22-0.54-1.080.3782.685.3 1.2M8-H92.14-0.04-0.06-0.723.48-1.34-0.53-0.980.4282.981.5 1.2U8-M92.82-0.150.49-0.364.04-1.22-0.38-0.780.6886.678.5",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0.62-0.400.4186.470.1 1.4H0-Z06.140.181.29-0.448.49-2.350.34-0.530.2182.869.3 1.4M0-H16.15-0.190.49-0.779.37-3.22-0.19-0.800.0178.368.4",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-15-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 11.016.73.638 1y3y100/34.610.33.53.4 10.418.13.627 1y5y100/21.613.97.32.2 11.413.82.123 2y10y100/23.523.722.9-1.014.4-12.9-0.916",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 5y30y100/27.140.438.7-1.729.6-20.9-1.422 10y30y100/49.021.219.5-1.616.1-10.7-1.425 1y5y100/21.613.92.00.0 2y10y100/23.523.722.7-1.411.4-19.4-1.215 2y30y100/11.544.940.6-1.525.1-30.4-1.216 3y10y100/34.522.823.5-1.713.2-17.9-1.316",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y5y100/21.613.92.5-1.3-7.0-17.3-1.216 2y10y100/23.523.725.9-1.910.9-25.5-1.614 2y30y100/11.544.940.8-1.920.8-36.3-1.515 3y10y100/34.522.826.3-2.113.4-21.0-1.617 3y30y100/17.044.041.2-2.023.4-31.7-1.516 5y10y100/55.319.219.9-2.212.1-13.2-1.819",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y5y100/21.813.915.0-2.52.7 2y10y100/23.623.735.4-2.618.0-23.9-1.919 2y30y100/11.644.944.3-2.220.1-33.4-1.714 3y10y100/34.622.831.6-2.617.8-19.1-1.920 3y30y100/17.044.040.5-2.120.1-28.5-1.614 5y10y100/55.419.221.6-2.513.6-10.7-1.821",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y10y100/23.623.737.7-2.521.0-18.0-1.921 2y30y100/11.644.939.1-2.014.3-26.1-1.611 3y10y100/34.722.831.4-2.518.1-13.8-1.821 3y30y100/17.144.032.8-1.911.6-21.9-1.511 5y10y100/55.519.221.5-2.414.4-8.2-1.722 5y30y100/27.340.422.9-1.78.1",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-16-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -3.29.22.921 1y3y100/34.610.33.5 -2.711.53.220 1y5y100/21.613.97.3 2y10y100/23.523.722.9-1.030.6-4.3-1.326 2y30y100/11.544.942.5-1.253.8-11.4-1.728",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 10y30y100/49.021.219.5-1.622.6-7.4-1.836 -4.85.51.619 -4.65.41.019 1y5y100/21.613.92.0 2y10y100/23.523.722.7-1.433.4-7.7-1.827 2y30y100/11.544.940.6-1.555.2-15.2-2.028",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y5y100/21.613.92.5 2y10y100/23.523.725.9-1.940.0-11.4-2.330 2y30y100/11.544.940.8-1.959.6-19.0-2.530 3y10y100/34.522.826.3-2.138.3-8.6-2.535 3y30y100/17.044.041.2-2.057.8-16.2-2.732 5y10y100/55.319.219.9-2.227.0-5.2-2.736",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y10y100/23.623.735.4-2.650.4-8.1-3.236 2y30y100/11.644.944.3-2.265.1-13.4-3.132 3y10y100/34.622.831.6-2.643.4-6.4-3.438 3y30y100/17.044.040.5-2.158.0-11.7-3.032 5y10y100/55.419.221.6-2.528.6-4.2-3.339 5y30y100/27.240.430.5-2.043.0-9.6-2.732",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y30y100/11.644.939.1-2.060.2-9.7-2.630 3y10y100/34.722.831.4-2.542.8-5.8-3.338 3y30y100/17.144.032.8-1.951.1-9.1-2.529 5y10y100/55.519.221.5-2.427.6-2.9-2.937 5y30y100/27.340.422.9-1.735.7-6.3-2.027 10y30y100/49.221.21.4",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-17-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 9.12.14.74.611.93.3 9.32.15.91.914.62.9 1.62.41.1-0.93.12.0 2y5y7y117.6/100/37.1-1.6-2.00.9-11-151.30.5-0.4-2.40.30.4 1.20.61.0-6.83.43.0 2y10y30y213.0/100/24.51.21.7-0.119",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-18-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-18-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -1.8-1.5-0.3-8.80.70.6 3y10y30y145.1/100/24.50.81.7-0.827 5y10y15y90.6/100/36.90.91.1-1.6-20-32-1.9-1.8-1.7-0.6-2.8-1.20 -3.1-1.6-0.8-1.00.90.4 10y20y30y81.7/100/40.114.414.3-2.6-18-38-1.4-1.3-0.813.5-2.9-2.356 -105.21.63.30.06.64.0",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-18-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-18-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y145.1/100/24.50.82.8-1.515 5y10y15y90.5/100/36.90.91.3-1.8-27-39-2.0-1.8-2.1-0.9-3.4-1.38 5y10y30y90.5/100/24.5-1.00.70.060 10y20y30y81.7/100/40.114.414.1-2.7-19-40-1.5-1.4-0.913.3-2.9-2.255 1y3y5y144.4/100/31.23.3-5.1-0.2-43-420.20.10.2-5.0-1.0-0.631 0.50.32.0-7.12.71.5",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-18-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-18-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -0.9-1.31.4-5.42.82.3 3y10y30y144.8/100/24.50.85.7-2.19 5y10y15y90.4/100/36.90.91.9-2.2-31-44-2.1-1.8-3.0-1.0-4.4-1.98 10y20y30y81.6/100/40.114.413.9-2.8-15-38-1.5-1.5-1.212.6-2.9-2.252",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-18-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 9.12.14.3-4.4-25.4-1.90 9.32.15.3-9.3-15.4-2.042 1.62.41.0-2.9-32.1-2.365 1.20.60.8-8.6-22.8-2.221 2y10y30y213.0/100/24.51.21.7-0.119 0.00.01.1-8.8-23.8-2.330",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-19-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-19-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y145.1/100/24.50.81.7-0.827 5y10y15y90.6/100/36.90.91.1-1.6-20-32-1.9-1.8-1.52.6-53.9-2.425 10y20y30y81.7/100/40.114.414.3-2.6-18-38-1.4-1.3-0.715.0-68.9-2.662 -105.21.63.0-6.3-36.9-2.00 5.51.74.3-11.4-22.3-1.937 1.01.91.4-3.9-39.8-2.254",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-19-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-19-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y145.1/100/24.50.82.8-1.515 5y10y15y90.5/100/36.90.91.3-1.8-27-39-2.0-1.8-1.93.2-53.2-2.428 5y10y30y90.5/100/24.5-1.00.70.060 10y20y30y81.7/100/40.114.414.1-2.7-19-40-1.5-1.4-0.814.9-69.9-2.661 1y3y5y144.4/100/31.23.3-5.1-0.2-43-420.20.10.2-5.3-48.4-2.230 0.50.31.8-10.9-32.3-2.239",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-19-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-19-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y144.8/100/24.50.85.7-2.19 5y10y15y90.4/100/36.90.91.9-2.2-31-44-2.1-1.8-2.74.6-50.5-2.534 10y20y30y81.6/100/40.114.413.9-2.8-15-38-1.5-1.5-1.115.0-70.1-2.662",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-19-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-21-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: z-scrspt85.89.89.325.31.529.60.879.19.88.116.81.117.20.672.48.37.19.00.5 6.90.365.96.66.4(0.4)(0.9)(0.5)(0.0)1 80.89.614.417.51.524.70.678.48.712.213.71.316.40.574.27.89.19.21.0 8.70.469.37.36.82.6(0.3)2.9 74.25.38.68.80.718.00.573.95.97.87.80.912.00.472.97.57.67.11.0 7.40.367.66.06.02.80.0",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-22-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-22-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 40 50 60 70 80 90 0 1 2 3 4 5",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-22-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.80 0.85 0.90 0.95 1.00 1.05 1.10 0 1 2 3 4",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-23-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-23-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -10 -5 0 5 10 15 May-25 Jul-25 Sep-25 Nov-25 Jan-26 Mar-26",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-23-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-23-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: 2y 5y 7y 10y 30y 1y 2y 5y 7y 10y 30y 1y",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-24-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-24-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-24-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0.55 0.65 0.75 0.85 May-23 Nov-23 May-24 Nov-24 May-25 Nov-25",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-25-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y2y100/50.523.411.6-0.113.3-0.9 1y3y100/34.224.911.4-0.410.3-3.3 1y5y100/21.129.615.2-0.510.6-8.1 2y10y100/22.525.322.2-0.710.9-10.917 2y30y100/10.133.227.9-0.710.5-19.315 3y10y100/33.223.922.4-0.714.4-8.5",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 5y30y100/24.127.124.4-0.714.8-12.217 1y2y100/50.623.46.6-0.56.5-3.8 1y3y100/34.224.95.9-0.62.6-8.2 1y5y100/21.129.69.6-0.72.3-12.819 2y10y100/22.525.321.7-0.88.4-13.216 2y30y100/10.133.225.5-0.74.9-22.115",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y3y100/34.224.96.8-0.71.6-9.9 1y5y100/21.129.612.3-0.83.4-13.619 2y10y100/22.525.325.7-0.812.1-13.617 2y30y100/10.133.226.6-0.75.4-21.215 3y10y100/33.323.925.1-0.815.1-9.2 3y30y100/14.931.826.0-0.78.7-16.815",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y10y100/22.625.332.9-0.820.8-10.721 2y30y100/10.133.227.4-0.77.2-18.615 3y10y100/33.423.929.4-0.819.0-9.7 3y30y100/15.031.823.9-0.75.7-17.515 5y10y100/54.019.120.7-0.814.3-6.5 5y30y100/24.327.115.2-0.71.4-14.115",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 00/10.233.220.8-0.72.2-16.415 3y10y100/33.523.929.3-0.820.9-8.6 3y30y100/15.031.816.3-0.70.4-15.314 5y10y100/54.119.119.4-0.914.7-5.1 5y30y100/24.327.16.4-0.6-5.4-11.613",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-26-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y2y100/50.523.411.6-0.110.32.1 1y3y100/34.224.911.4-0.412.30.4 1y5y100/21.129.615.2-0.518.6-3.126 2y10y100/22.525.322.2-0.730.8-10.624 2y30y100/10.133.227.9-0.741.0-17.322 3y10y100/33.223.922.4-0.728.6-9.123",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y2y100/50.623.46.6-0.56.6 1y3y100/34.224.95.9-0.68.2-1.025 1y5y100/21.129.69.6-0.714.7-4.724 2y10y100/22.525.321.7-0.831.4-11.324 2y30y100/10.133.225.5-0.740.4-17.922 3y10y100/33.223.922.4-0.829.6-9.724",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y5y100/21.129.612.3-0.818.4-6.626 2y10y100/22.525.325.7-0.835.5-9.524 2y30y100/10.133.226.6-0.741.7-15.622 3y10y100/33.323.925.1-0.832.5-6.925 3y30y100/14.931.826.0-0.738.6-13.022 5y10y100/53.919.119.6-0.824.5-3.926",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y30y100/10.133.227.4-0.740.7-9.022 3y10y100/33.423.929.4-0.836.4-3.126 3y30y100/15.031.823.9-0.736.1-7.121 5y10y100/54.019.120.7-0.825.3-1.826 5y30y100/24.327.115.2-0.725.0-5.820 1y2y100/50.723.411.8-0.612.5-0.641",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y100/33.523.929.3-0.835.0-1.725 3y30y100/15.031.816.3-0.727.2-4.619 5y10y100/54.119.119.4-0.922.8-1.524 5y30y100/24.327.16.4-0.615.0-4.517",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-27-95",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y3y5y146.1/100/30.910.13.80.448 -0.2-0.11.04.8-0.566 1y3y7y146.1/100/22.76.50.31.074 77-0.1-0.12.12.40.6 2y10y30y222.5/100/22.48.78.2-0.5-1 -180.50.90.5-6.90.0",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-28-97",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-28-97",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y150.6/100/22.47.98.3-0.422 -722.30.8-1.47.00.0 5y10y15y93.0/100/36.02.42.5-0.6-26-79-0.1-0.1-1.41.1-0.519 5y10y30y93.0/100/22.45.66.40.577 -383.61.20.16.62.1 10y20y30y85.7/100/38.413.212.8-0.9-4758-1.7-2.1-0.212.5-1.434",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-28-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-28-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y150.6/100/22.47.99.2-0.526 -732.30.8-1.67.60.5 5y10y15y92.9/100/36.02.42.8-0.6-28-80-0.1-0.1-1.81.0-0.619 5y10y30y92.9/100/22.45.67.40.476 -383.61.20.17.52.3 10y20y30y85.6/100/38.413.212.4-0.9-4863-1.7-2.2-0.212.1-1.233",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-28-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-28-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y150.2/100/22.47.912.1-0.449 5y10y15y92.8/100/36.12.43.8-0.7-20-79-0.1-0.1-2.01.8-1.321 5y10y30y92.8/100/22.45.69.40.475 -363.81.3-0.19.31.5 10y20y30y85.6/100/38.413.211.7-0.8-4576-1.7-2.1-0.711.0-1.429",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-28-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y3y5y146.1/100/30.910.13.80.448 -0.2-0.10.83.00.962 1y3y7y146.1/100/22.76.50.31.074 2y10y30y222.5/100/22.48.78.2-0.5-1 -180.50.90.4-7.81.161 3y10y30y150.6/100/22.47.98.3-0.422",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-29-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-29-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 150.6/100/22.47.98.3-0.422 5y10y15y93.0/100/36.02.42.5-0.6-26-79-0.1-0.1-1.13.6-1.225 5y10y30y93.0/100/22.45.66.40.577 -383.61.20.16.30.856 10y20y30y85.7/100/38.413.212.8-0.9-47 1y3y5y146.0/100/30.810.11.1-0.4-31-68-0.2-0.10.20.90.651",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-29-103",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-29-103",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: .6/100/22.47.99.2-0.526 5y10y15y92.9/100/36.02.42.8-0.6-28-80-0.1-0.1-1.54.3-1.126 5y10y30y92.9/100/22.45.67.40.476 -383.61.20.17.30.659 10y20y30y85.6/100/38.413.212.4-0.9-48 1y3y5y146.1/100/30.910.10.7-0.6-62-79-0.4-0.2-0.61.3-0.554",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-29-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-29-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 50.2/100/22.47.912.1-0.449 5y10y15y92.8/100/36.12.43.8-0.7-20-79-0.1-0.1-1.65.4-0.430 5y10y30y92.8/100/22.45.69.40.475 -363.81.30.09.41.264 10y20y30y85.6/100/38.413.211.7-0.8-45",
+          "chunk_id": "Citi_Rates Vol Lab - Hedging 30y buyers strike risk.pdf-29-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Europe_Macro_Outlook_2026_-_the_two-economy_problem_-_resilience_vs_rigidity_amid_an_energy_shock",
+      "document": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf",
+      "date": "2026-05-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Outlook",
+      "chunk_count": 67,
+      "page_count": 40,
+      "status": "skipped",
+      "missing_indices": [
+        7,
+        13,
+        26,
+        36,
+        48,
+        54,
+        56,
+        58,
+        64,
+        68
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7, 13, 26, 36, 48, 54, 56, 58, 64, 68]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 numeric rows: +44 20 7545 2087 | 24 November 2025 2026 | 2025 2026 2027 2025 2026 2027",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30 35 40 45 50 55 60 65 70 1999 2002 2005",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 5 December 2025 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 5 December 2025 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 17 April 2026 50 70 90 110 130 150 170 2025 2026",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 20 40 60 80 100 120 2025 2026 2027 2028",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.5 1.1 0.8 1.3 0.9 1.3 0.0 0.2 0.4 0.6 0.8 1.0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.1 2.5 2.8 2.1 2.6 2.0 0.0 1.0 2.0 3.0 4.0 2026",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 40 42 44 46 48 50 52 54 56 58 60 2022",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-9-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 31 March 2026, -1.00 -0.50 0.00 0.50 1.00 1.50 2.00 2.50 -1.00",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 31 March 2026, -1.00 -0.50 0.00 0.50 1.00 1.50 2.00 2.50 -1.00",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-10-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 8 April 2026 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 8 April 2026 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 25 March 2026 -4 -3 -2 -1 0 1 2 2006 2008",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-12-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 25 March 2026 -4 -3 -2 -1 0 1 2 2006 2008",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-12-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: -1.0 -0.8 -0.5 -0.3 0.0 0.3 0.5 0.8 1.0 2022 2023 2024",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-13-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 25 March 2026 0% 5% 10% 15% 20% 25% 30%",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-13-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 30 September 2025 -1.20 -0.95 -0.70 -0.45 -0.20 0.05 0.30 0.55 0.80",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-15-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 30 September 2025 -1.20 -0.95 -0.70 -0.45 -0.20 0.05 0.30 0.55 0.80",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-15-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "45 consecutive numeric/date tokens: 30 September 2025 -40 -30 -20 -10 0 10 20 30 -20",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-16-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 4qma -100 -80 -60 -40 -20 0 20 40 -25 -20 -15",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-16-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1 2 3 4 5 6 7 8 9 10 11 0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-17-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1 2 3 4 5 6 7 8 9 10 11 0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-17-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 17 18 19 20 21 22",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-18-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 26 June 2025 0.00 0.50 1.00 1.50 2.00 2.50 3.00 3.50 4.00",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-18-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 26 March 2026 -10 -8 -6 -4 -2 0 2 4 6",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-20-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 26 March 2026 -10 -8 -6 -4 -2 0 2 4 6",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-20-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 26 March 2026 -3 -2 -1 0 1 2 3 4 5",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-21-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 26 March 2026 -3 -2 -1 0 1 2 3 4 5",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-21-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 26 February 2026 -10.0 -7.5 -5.0 -2.5 0.0 2.5 5.0 7.5 10.0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-22-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 19 2020 2021 2022 2023 2024 2025 2026 3.5%",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-22-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 5 December 2025. -20 -15 -10 -5 0 5 10 15 20",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-23-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 5 December 2025. -20 -15 -10 -5 0 5 10 15 20",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-23-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 15 6 12 30 20 34 7 18 52 18 15 0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-24-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 1 2 3 4 5 6 2018 2019 2020 2021 2022 2023",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-24-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 6 May 2026 40 45 50 55 60 65 70 75 80",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-26-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0.0 1.0 2.0 3.0 4.0 5.0 6.0 Sep 24 Jan 25 May",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-26-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 6 May 2026 6 7 8 9 10 11 12 13 99",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-27-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 6 May 2026 6 7 8 9 10 11 12 13 99",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-27-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 19 March 2026 1.6 1.8 2.0 2.2 2.4 2.6 2.8 3.0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-37-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 19 March 2026 1.6 1.8 2.0 2.2 2.4 2.6 2.8 3.0",
+          "chunk_id": "DB_Europe Macro Outlook 2026 - the two-economy problem - resilience vs rigidity amid an energy shock.pdf-37-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Gulf_Shipping_Tracker___Global_Response_-_May_18thEdition",
+      "document": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf",
+      "date": "2026-05-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 28,
+      "page_count": 19,
+      "status": "skipped",
+      "missing_indices": [
+        12,
+        21
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12, 21]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 33 33 1 2 1 3 1 1 1 3 3 1",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 0.8 0.8 3.5 4.4 0 1 2 3 4 5 6 7",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 40 50 60 70 80 90 100 110 120 130 17/05/24 17/07/24",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "41 consecutive numeric/date tokens: -$20,000 $40,000 $100,000 $160,000 $220,000 $280,000 $340,000 $400,000 Jan-21 Mar-21 May-21 Jul-21",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-10-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 5 10 15 20 25 17/05/24 17/07/24 17/09/24 17/11/24 17/01/25 17/03/25",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 20 30 40 50 60 70 80 90 100 17/05/24 17/07/24 17/09/24",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-12-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 1 2 3 4 5 6 17/05/24 17/07/24 17/09/24 17/11/24 17/01/25",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-13-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 800 900 1000 17/05/24",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-14-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 3 3.5 4 4.5 5 5.5 17/05/24 17/07/24 17/09/24 17/11/24 17/01/25 17/03/25",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-15-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 50 75 100 125 150 175 200 225 250 17/05/24 17/07/24 17/09/24",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-16-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 3000 3500 4000 4500 5000 5500 6000 6500 7000 7500 8000 17/05/24",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-17-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0.75 1 1.25 1.5 1.75 2 2.25 2.5 2.75 3 17/05/24 17/07/24",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-18-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2.5 3 3.5 4 4.5 5 17/05/24 17/07/24 17/09/24 17/11/24 17/01/25 17/03/25",
+          "chunk_id": "DB_Gulf Shipping Tracker & Global Response - May 18thEdition.pdf-19-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_UK_Blog_-_A_Changing_of_the_Guard_-_Manchesterism_Means_for_the_UK",
+      "document": "DB_UK Blog - A Changing of the Guard - Manchesterism Means for the UK.pdf",
+      "date": "2026-05-18",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_rates_Adding_to_2y_Camara-SOFR_spread_payer_Trade_Idea--924424",
+      "document": "EM_rates_Adding_to_2y_Camara-SOFR_spread_payer_Trade_Idea--924424.pdf",
+      "date": "2026-05-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -17 -7 3 13 23 1 3 5 7 9 11 Jan-10",
+          "chunk_id": "EM_rates_Adding_to_2y_Camara-SOFR_spread_payer_Trade_Idea--924424.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "G10_rates_Gilt_future_roll_M6_U6_Desknote--924419",
+      "document": "G10_rates_Gilt_future_roll_M6_U6_Desknote--924419.pdf",
+      "date": "2026-05-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 18/05/2026 - 500,000 1,000,000 1,500,000 2,000,000 2,500,000 - 500,000 1,000,000 1,500,000",
+          "chunk_id": "G10_rates_Gilt_future_roll_M6_U6_Desknote--924419.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: - 280,000 560,000 840,000 1,120,000 1,400,000 -80 -75 -70 -65 -60 -55",
+          "chunk_id": "G10_rates_Gilt_future_roll_M6_U6_Desknote--924419.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 50",
+          "chunk_id": "G10_rates_Gilt_future_roll_M6_U6_Desknote--924419.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -6 -4 -2 0 -25 -15 -5 5 15 25",
+          "chunk_id": "G10_rates_Gilt_future_roll_M6_U6_Desknote--924419.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_European_Views_-_Testing_Times",
+      "document": "GS_European Views - Testing Times.pdf",
+      "date": "2026-05-18",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        4,
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 4, 6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Global_bond_selloff_deepens_in_G10_rates",
+      "document": "Global bond selloff deepens in G10 rates.pdf",
+      "date": "2026-05-18",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 4 6 8 10 12 14 25 50 75 100 125 150",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 0% 25% 50% 75% 100% | 0% 25% 50% 75% 100% | 0% 25% 50% 75% 100%",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 200 400 600 800 1000 0% 25% 50% 75% 100% May-25",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% May-25 Aug-25 Nov-25 Feb-26 May-26",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% May-25 Aug-25 Nov-25 Feb-26 May-26",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% May-25 Aug-25 Nov-25 Feb-26 May-26",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-7-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% May-25 Aug-25 Nov-25 Feb-26 May-26",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% May-25 Aug-25 Nov-25 Feb-26 May-26",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-9-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% May-25 Aug-25 Nov-25 Feb-26 May-26",
+          "chunk_id": "Global bond selloff deepens in G10 rates.pdf-10-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPY_rates_The_mechanism_of_deposit_reduction_Desknote--924337",
+      "document": "JPY_rates_The_mechanism_of_deposit_reduction_Desknote--924337.pdf",
+      "date": "2026-05-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 20,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 350 400 450 500 550 600 700 750 800 850 900 950",
+          "chunk_id": "JPY_rates_The_mechanism_of_deposit_reduction_Desknote--924337.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 20 40 60 Mar-24 Aug-24 Jan-25 Jun-25 Nov-25 Apr-26",
+          "chunk_id": "JPY_rates_The_mechanism_of_deposit_reduction_Desknote--924337.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 20 40 60 Mar-24 Aug-24 Jan-25 Jun-25 Nov-25 Apr-26",
+          "chunk_id": "JPY_rates_The_mechanism_of_deposit_reduction_Desknote--924337.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 270 280 290 300 310 320 330 340 350 360 490 500",
+          "chunk_id": "JPY_rates_The_mechanism_of_deposit_reduction_Desknote--924337.pdf-4-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS__US_Equity_Strategy_-_North_America_-_Weekly_Warm-up_-_Thoughts_from_the_Road",
+      "document": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf",
+      "date": "2026-05-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 52,
+      "page_count": 24,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        4,
+        20,
+        52
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 4, 20, 52]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.9 -0.8 -0.7 -0.6 -0.5 -0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "43 consecutive numeric/date tokens: 18 19 20 21 22 23 24 3.5% 3.7% 3.9% 4.1% 4.3%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -30% -20% -10% 0% 10% 20% 30% 40%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 7.2% 14.9% 44.9% 10.7% 1.5% 12.2% 1.6% 0% 5% 10% 15% 20%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 29 93 181 109 9 18 13 0 20 40 60 80",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet actSet",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 335 345 355 365 375 385 395 298 303 308 313 318",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet actSet actSet actSet",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "46 consecutive numeric/date tokens: 16% 8% 1% -2% 2% -5% -8% -8% -10% -11% -5% -1%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 18/18 18 100% 100% 47% 94% 6% 5.8% -6.0% 12.8% 0.2%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 500 455/499 455 91% 84% 36% 94% 5% 18.3% 6.2% 24.9% 24.9%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 19/20 19 95% 99% 47% 89% 11% 1.6% 1.4% 13.7% 1.2%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-12-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-12-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 500 455/499 455 91% 84% 61% 87% 13% 1.9% 1.5% 10.5% 10.5%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-12-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-12-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 1.5% -1.4% 0.6% -5.0% 1.0% -1.9% 0.2% -5.2% 4.3% -1.8% 0.1% -0.6%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-12-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -0.1% 0.2% 0.6% -0.2% -0.8% -0.6% -0.4% -0.2% 0.0% 0.2% 0.4% 0.6%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-13-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "168 consecutive numeric/date tokens: 4.4% -20% -16% -12% -8% -4% 0% 4% 8% 12% 16% 20%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-13-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-13-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 18%17%16% 16%16%15%14%14% 18%18%18%19%20% 22%21%22%22% 21%22%22%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-13-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-13-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "61 consecutive numeric/date tokens: -30% -20% -10% 0% 10% 20% 30% Jan '22 Mar '22 May",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-14-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "60% of tokens are numeric/date values",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-15-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-15-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "68% of tokens are numeric/date values",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "67% of tokens are numeric/date values",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-15-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet actSet actSet actSet",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-16-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-16-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 7% 7% 7% 5% 5% 5% 4% 3% -5% -10% -5% 0%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-16-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet actSet actSet",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-17-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-17-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 48 53 58 63 68 73 Jan-23 Mar-23 May-23 Jul-23 Sep-23 Nov-23",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-17-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-18-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 13.5 14.0 14.5 15.0 15.5 16.0 16.5 2026",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-18-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "54% of tokens are numeric/date values",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-19-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-19-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 13.4 13.1 13.6 14.0 14.2 15.5 14.9 15.4 15.4 9.0% 10.0% 11.0%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-19-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-19-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 11.3 6.0% 7.0% 8.0% 9.0% 10.0% 11.0% 12.0% 13.0% 2024/4c 2025/1c 2025/2c",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-19-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-19-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 54% 47% 41% 31% 31% 29% 24% 22% 18% 7% 6% 0%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-20-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 54% 7% 6% 24% 18% 22% 31% 0% 41% 47% 31% -30%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-21-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-21-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 52 31% 4% 10% 42% 37% 8% 60% -2% -8% 21% 60%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-21-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-22-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-22-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "51 consecutive numeric/date tokens: 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-22-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -21 Jul-21 Dec-21 May-22 Oct-22 Mar-23 Aug-23 Jan-24 Jun-24 Nov-24 Apr-25 Sep-25",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-22-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-22-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 3000 5000 7000 9000 11000 13000 15000 17000 120 170 220 270",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-23-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 2026 2027 June 2028 2028 2026 2027 June 2028 2028",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-23-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-23-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "42 consecutive numeric/date tokens: -300 -200 -100 0 100 200 300 400 500 600 700 800",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-24-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4,000 6,000 8,000 10,000 12,000 14,000 16,000 80 130 180 230 280",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-25-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-25-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -45% -35% -25% -15% -5% 5% 15% 25% -40% -30% -20% -10%",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-25-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-25-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -40% -30% -20% -10% 0% 10% 20% 30% 40% 2014 2015 2016",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-25-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "MS_ US Equity Strategy - North America - Weekly Warm-up - Thoughts from the Road.pdf-25-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_G10_FX_Strategy_-_FX_Positioning_Indicates_Investors_Increased_Short_GBP_Positions_Amid_Political_Uncertainty",
+      "document": "MS_G10 FX Strategy - FX Positioning Indicates Investors Increased Short GBP Positions Amid Political Uncertainty.pdf",
+      "date": "2026-05-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Positioning and flows",
+      "chunk_count": 7,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 9: -40 -30 -20 -10 0 10 20 30 40 50 60",
+          "chunk_id": "MS_G10 FX Strategy - FX Positioning Indicates Investors Increased Short GBP Positions Amid Political Uncertainty.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_G10 FX Strategy - FX Positioning Indicates Investors Increased Short GBP Positions Amid Political Uncertainty.pdf-5-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_G10 FX Strategy - FX Positioning Indicates Investors Increased Short GBP Positions Amid Political Uncertainty.pdf-5-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Global_Economic_Briefing_-_North_America_-_The_Weekly_Worldview_-_A_Fluid_Outlook___Structural_Strength_vs._Cyclical_Weakness",
+      "document": "MS_Global Economic Briefing - North America - The Weekly Worldview - A Fluid Outlook – Structural Strength vs. Cyclical Weakness.pdf",
+      "date": "2026-05-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0.05 0.25 0.35 0.43 -1.00 -0.50 0.00 0.50 1.00 1.50 2.00 2024",
+          "chunk_id": "MS_Global Economic Briefing - North America - The Weekly Worldview - A Fluid Outlook – Structural Strength vs. Cyclical Weakness.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_UK_Rates_Strategy_-_Europe_-_M6-U6_Gilt_Futures_Roll",
+      "document": "MS_UK Rates Strategy - Europe - M6-U6 Gilt Futures Roll.pdf",
+      "date": "2026-05-18",
+      "publisher": "Morgan Stanley",
+      "document_type": "Trade Idea",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: March 2025 -280 -260 -240 -220 -200 -180 -160 -140 -120 50",
+          "chunk_id": "MS_UK Rates Strategy - Europe - M6-U6 Gilt Futures Roll.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: March 2025 -280 -260 -240 -220 -200 -180 -160 -140 -120 50",
+          "chunk_id": "MS_UK Rates Strategy - Europe - M6-U6 Gilt Futures Roll.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 -60 -58 -56 -54",
+          "chunk_id": "MS_UK Rates Strategy - Europe - M6-U6 Gilt Futures Roll.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_USD_turns_overbought_still_long_USDJPY_Trade_Idea--924391",
+      "document": "STEER_USD_turns_overbought_still_long_USDJPY_Trade_Idea--924391.pdf",
+      "date": "2026-05-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 156.8700 163.6110 154.4900 - 1.33 13-May-2026 | 1.2719 1.2706 1.2823 - -0.71 | 0.7193 - - 0.7257 (06-May-26) -0.89 15-Apr-2026",
+          "chunk_id": "STEER_USD_turns_overbought_still_long_USDJPY_Trade_Idea--924391.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "72% of tokens are numeric/date values",
+          "chunk_id": "STEER_USD_turns_overbought_still_long_USDJPY_Trade_Idea--924391.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_China_Economic_Comment_-_April_data_weakness_driven_by_administrative",
+      "document": "UBS_China Economic Comment - April data weakness driven by administrative.pdf",
+      "date": "2026-05-18",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: April 200 400 600 800 1,000 1,200 1,400 1,600 1,800 2,000 2012",
+          "chunk_id": "UBS_China Economic Comment - April data weakness driven by administrative.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: April 0 200 400 600 800 1,000 1,200 1,400 1,600 1,800 2016",
+          "chunk_id": "UBS_China Economic Comment - April data weakness driven by administrative.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_China Economic Comment - April data weakness driven by administrative.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -80 -40 0 40 80 120 1800 2000 2200 2400 2600 2800",
+          "chunk_id": "UBS_China Economic Comment - April data weakness driven by administrative.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 20 25 2021 2022 2023",
+          "chunk_id": "UBS_China Economic Comment - April data weakness driven by administrative.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_European_Economic_Perspectives_-_Eurozone_-_Fiscal_policy_in_2026___takeaways_from_budget_plans",
+      "document": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf",
+      "date": "2026-05-18",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        10,
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [10, 16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -8 -7 -6 -5 -4 -3 -2 -1 0 2020 2021 2022",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -3.5 -3.0 -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 2019 2020",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 80 82 84 86 88 90 92 94 96 98 100 2020",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 0.2% 0.0% 0.5% 0.1% 0.0% 0.0% 0.3% 0.1% 0.1% 0.3% 0.1% 0.1%",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 3.2% 2.7% 3.1% 0.0% 1.0% 2.0% 3.0% 4.0% 5.0% 2026 2022/23",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -5.0 -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 2019 2020 2021 2022",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: -4.4 -5.2 -4.9 0.4 -0.7 0.6 103.9 107.9 110.3",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "60 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 Q3 2021 Q4 2021",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Fiscal policy in 2026 – takeaways from budget plans.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_European_Economic_Perspectives_-_Eurozone_-_Public_debt_rising_again",
+      "document": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf",
+      "date": "2026-05-18",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 89,
+      "page_count": 45,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        13,
+        20,
+        24,
+        57,
+        61,
+        63,
+        65,
+        67,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        103,
+        111
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 13, 20, 24, 57, 61, 63, 65, 67, 71, 73, 75, 77, 79, 81, 83, 87, 89, 91, 93, 95, 97, 103, 111]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4000 6000 8000 10000 12000 14000 16000 4Q-00 4Q-05 4Q-10 4Q-15 4Q-20",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: Q1-21 Q2-21 Q3-21 Q4-21 Q1-22 Q2-22 Q3-22 Q4-22 Q1-23 Q2-23 Q3-23 Q4-23",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 0.3 3.6 2.4 5.9 5.3 5.4 7.7 6.4 6.4 6.0 5.1 5.0",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 20 25 30 1Q-14",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -2 0 2 4 6 8 10 12 4Q 00 4Q 05",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -6000 -4000 -2000 0 2000 4000 6000 8000 Q1-13 Q1-15 Q1-17 Q1-19",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "27 consecutive numeric/date tokens: 82 79 52 46 28 26 19 15 14 13 11 5",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -300 -250 -200 -150 -100 -50 0 50 100 150 13 14",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "43 consecutive numeric/date tokens: 2025 79 52 46 28 26 19 15 11 -18 -28 -28",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -288 -700 -600 -500 -400 -300 -200 -100 0 100",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 800 900 1000",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 0 127.0 126.4 122.3 125.2 125.9 124.1 125.4 122.9 123.3 123.8 122.8",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-8-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-9-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-9-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-9-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-9-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 191.6 185.8 180.5 177.8 180.6 181.0 180.9 178.9 178.5 177.2 177.3 175.9",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-9-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-10-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-10-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1Q-22 2Q-22 3Q-22 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-10-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: 43.1 42.6 42.4 42.2 41.9 42.0 41.6 41.1 40.1 39.5 39.1 39.1",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: 112.3 109.9 108.4 106.7 105.1 104.1 103.5 102.7 102.3 102.3 102.5 102.6",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-11-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-11-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-11-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-11-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 52.8 52.6 52.6 52.8 53.6 55.3 54.7 55.4 56.1 55.9 56.1 54.4",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-11-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25 4Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 1.1 281.1 277.6 274.3 275.3 278.3 277.4 279.5 277.7 277.1 276.6 275.6",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-12-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 49.3 49.9 49.9 50.4 48.2 46.7 48.8 47.9 47.2 47.2 50.8 51.9",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-13-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-14-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-14-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-14-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 1,264 1,294 1,298 1,298 1,317 1,340 1,346 1,368 1,372 1,381 1,391 1,401",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-15-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-16-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-16-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-16-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-16-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 4 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25 4Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-16-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-16-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 48 50 49 51 52 51 53 54 54 54 57 58",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-16-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4Q-22 1Q-23 2Q-23 3Q-23 4Q-23 1Q-24 2Q-24 3Q-24 4Q-24 1Q-25 2Q-25 3Q-25",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-17-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-17-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 10000 20000 30000 40000 50000 60000 1Q-99 4Q-02 3Q-06 2Q-10 1Q-14",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-18-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-18-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 15 20 25 1Q-11",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-18-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 2000 4000 6000 8000 10000 12000 14000 1Q-99 4Q-02 3Q-06 2Q-10",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-19-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-19-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 2000 4000 6000 8000 10000 12000 14000 1Q-99 4Q-02 3Q-06 2Q-10",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-20-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-20-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 1000 2000 3000 4000 5000 6000 7000 1Q-99 4Q-02 3Q-06 2Q-10",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-21-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-21-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 1000 2000 3000 4000 5000 1Q-99 4Q-02 3Q-06 2Q-10 1Q-14 4Q-17",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-22-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-22-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 1000 2000 3000 4000 5000 6000 7000 1Q-99 4Q-02 3Q-06 2Q-10",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-23-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-23-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 1Q-11 1Q-13",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-23-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 500 1000 1500 2000 2500 1Q-99 4Q-02 3Q-06 2Q-10 1Q-14 4Q-17",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-24-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-24-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 500 1000 1500 2000 2500 3000 1Q-99 4Q-02 3Q-06 2Q-10 1Q-14",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-25-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-25-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 200 400 600 800 1000 1200 1400 1Q-99 4Q-02 3Q-06 2Q-10",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-26-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-26-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 200 400 600 800 1000 1Q-99 4Q-02 3Q-06 2Q-10 1Q-14 4Q-17",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-27-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-27-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 800 900 1Q-99 4Q-02",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-28-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-28-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 800 1Q-99 4Q-02 3Q-06",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-29-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-29-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 50 100 150 200 250 300 1Q-04 1Q-07 1Q-10 1Q-13 1Q-16",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-30-82",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-30-82",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 500 1000 1500 2000 2500 3000 3500 4000 4500 5000 1Q-99",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-31-84",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-31-84",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -75 -55 -35 -15 5 25 45 65 85 1Q-11 1Q-13 1Q-15",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-31-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 2Q-13 4Q-15 2Q-18",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-32-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-32-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 20 40 60 80 100 120 1Q-99 4Q-02 3Q-06 2Q-10 1Q-14",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-33-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-33-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 20 40 60 80 100 120 1Q-04 1Q-07 1Q-10 1Q-13 1Q-16",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-34-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-34-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 1Q-04 1Q-07 1Q-10 1Q-13",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-35-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-35-92",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 1Q-04 1Q-07",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-36-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-36-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 50 100 150 200 250 300 1Q-04 1Q-07 1Q-10 1Q-13 1Q-16",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-37-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-37-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 1Q-04 1Q-07",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-38-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-38-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 1Q-11 3Q-12 1Q-14 3Q-15",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-38-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -6000 -4000 -2000 0 2000 4000 6000 8000 Q1-13 Q1-15 Q1-17 Q1-19",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-39-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-39-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -80 -60 -40 -20 0 20 40 Q1-13 Q1-15 Q1-17 Q1-19 Q1-21",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-39-101",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-39-101",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -1000 -500 0 500 1000 1500 Q1-13 Q1-15 Q1-17 Q1-19 Q1-21 Q1-23",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-40-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-40-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -200 -100 0 100 200 300 400 500 Q1-13 Q1-15 Q1-17 Q1-19",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-41-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-41-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 50 Q1-13",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-41-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-41-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -100 -50 0 50 100 150 Q1-13 Q1-15 Q1-17 Q1-19 Q1-21 Q1-23",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-42-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-42-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -0.800 -0.600 -0.400 -0.200 0.000 0.200 0.400 0.600",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-42-107",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-42-107",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -120 -100 -80 -60 -40 -20 0 20 40 Q1-13 Q1-15 Q1-17",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-43-108",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-43-108",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -140 -120 -100 -80 -60 -40 -20 0 20 40 60 Q1-13",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-43-109",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-43-109",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 Q1-13 Q1-15 Q1-17",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-44-110",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-44-110",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 Q1-13 Q1-15 Q1-17 Q1-19 Q1-21",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-45-112",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Perspectives - Eurozone - Public debt rising again.pdf-45-112",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-05-18",
+      "document": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf",
+      "date": "2026-05-18",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_Rates_Map_-_The_real_message_of_global_yield",
+      "document": "UBS_Global Strategy - Rates Map - The real message of global yield.pdf",
+      "date": "2026-05-18",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 12,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 27-Mar-26 -8 1 -40 10 -9 | 30-Apr-26 19 14 0 28 5 | 27-Mar-26 35 34 20 45 1",
+          "chunk_id": "UBS_Global Strategy - Rates Map - The real message of global yield.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 30 2y 5y 10y",
+          "chunk_id": "UBS_Global Strategy - Rates Map - The real message of global yield.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: - Dec26 1 32 4 5 6 7 1.",
+          "chunk_id": "UBS_Global Strategy - Rates Map - The real message of global yield.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -3.0 0.0 3.0 6.0 9.0 12.0 Feb-91 Feb-96 Feb-01 Feb-06 Feb-11 Feb-16",
+          "chunk_id": "UBS_Global Strategy - Rates Map - The real message of global yield.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -100 -80 -60 -40 -20 0 20 40 60 80 100 -1.0",
+          "chunk_id": "UBS_Global Strategy - Rates Map - The real message of global yield.pdf-7-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 3.4% 3.3 4.4 Mar-27, 3.4 Mar-28, 3.0 Dec-28, 2.9 1.0 2.0 3.0",
+          "chunk_id": "UBS_Global Strategy - Rates Map - The real message of global yield.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Japan_Viewpoint_-_Japan_s_fiscal_policy_-_A_guide_to_the_debate",
+      "document": "UBS_Japan Viewpoint - Japan’s fiscal policy - A guide to the debate.pdf",
+      "date": "2026-05-18",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x2",
+          "chunk_id": "UBS_Japan Viewpoint - Japan’s fiscal policy - A guide to the debate.pdf-4-10",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x2",
+          "chunk_id": "UBS_Japan Viewpoint - Japan’s fiscal policy - A guide to the debate.pdf-5-14",
+          "reprocess": null,
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Rates_Map_-_The_real_message_of_global_yield",
+      "document": "UBS_Rates Map - The real message of global yield.pdf",
+      "date": "2026-05-18",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 12,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 27-Mar-26 -8 1 -40 10 -9 | 30-Apr-26 19 14 0 28 5 | 27-Mar-26 35 34 20 45 1",
+          "chunk_id": "UBS_Rates Map - The real message of global yield.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 30 2y 5y 10y",
+          "chunk_id": "UBS_Rates Map - The real message of global yield.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: - Dec26 1 32 4 5 6 7 1.",
+          "chunk_id": "UBS_Rates Map - The real message of global yield.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -3.0 0.0 3.0 6.0 9.0 12.0 Feb-91 Feb-96 Feb-01 Feb-06 Feb-11 Feb-16",
+          "chunk_id": "UBS_Rates Map - The real message of global yield.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -100 -80 -60 -40 -20 0 20 40 60 80 100 -1.0",
+          "chunk_id": "UBS_Rates Map - The real message of global yield.pdf-7-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 3.4% 3.3 4.4 Mar-27, 3.4 Mar-28, 3.0 Dec-28, 2.9 1.0 2.0 3.0",
+          "chunk_id": "UBS_Rates Map - The real message of global yield.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_SPF_long-run_inflation_expectations_little_changed",
+      "document": "UBS_US Daily Data Recap - SPF long-run inflation expectations little changed.pdf",
+      "date": "2026-05-18",
+      "publisher": "UBS",
+      "document_type": "Daily",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 2.22 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 1989 -",
+          "chunk_id": "UBS_US Daily Data Recap - SPF long-run inflation expectations little changed.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 numeric rows: Feb Mar Apr May | -25.7 -22.6 -14.0 -5.8 | -41.7 -46.2 -49.3 -46.9",
+          "chunk_id": "UBS_US Daily Data Recap - SPF long-run inflation expectations little changed.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 390 440 490 540 590 640 2023 2024 2025 2026",
+          "chunk_id": "UBS_US Daily Data Recap - SPF long-run inflation expectations little changed.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 0",
+          "chunk_id": "UBS_US Daily Data Recap - SPF long-run inflation expectations little changed.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_rates_How_do_you_like_them_ample_reserves_Desknote--924421",
+      "document": "US_rates_How_do_you_like_them_ample_reserves_Desknote--924421.pdf",
+      "date": "2026-05-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 15 20 2016 2017",
+          "chunk_id": "US_rates_How_do_you_like_them_ample_reserves_Desknote--924421.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 15 20 2016 2017",
+          "chunk_id": "US_rates_How_do_you_like_them_ample_reserves_Desknote--924421.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 10 11 12 13 14 15 16 17 18 Jan-24 Oct-24 Jul-25",
+          "chunk_id": "US_rates_How_do_you_like_them_ample_reserves_Desknote--924421.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 3.3 3.4 3.5 3.6 3.7 3.8 3.9 4.0 4.1 4.2",
+          "chunk_id": "US_rates_How_do_you_like_them_ample_reserves_Desknote--924421.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "US_rates_How_do_you_like_them_ample_reserves_Desknote--924421.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -5.0 -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0 4.0 5.0 May-26",
+          "chunk_id": "US_rates_How_do_you_like_them_ample_reserves_Desknote--924421.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

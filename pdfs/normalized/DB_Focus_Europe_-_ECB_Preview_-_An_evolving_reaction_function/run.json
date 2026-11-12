@@ -1,0 +1,525 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Focus_Europe_-_ECB_Preview_-_An_evolving_reaction_function.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-23",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 42,
+    "referents": {
+     "thing": 22,
+     "claim": 6
+    },
+    "decisions": {
+     "link": 35,
+     "leave": 7
+    },
+    "leave_reasons": {
+     "not_a_reference": 4,
+     "expletive": 2,
+     "relative": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 67,
+  "kinds": {
+   "deixis": 25,
+   "demonstrative": 10,
+   "noun_phrase": 8,
+   "pronoun": 7,
+   "possessive": 6,
+   "proposition": 4,
+   "symbol": 3,
+   "shell": 2,
+   "answer": 1,
+   "vp": 1
+  },
+  "rooted_share": 0.8469945355191257,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "LONG_RESOLUTION": 2
+  },
+  "sentences": 155,
+  "cost_usd": 0.4783
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 134,
+   "end": 179,
+   "quote": "policy rates unchanged at 2.50% on 29 October",
+   "name": "policy rates unchanged at 2.50% on 29 October"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 583,
+   "end": 615,
+   "quote": "The market-implied terminal rate",
+   "name": "the market-implied terminal rate"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 117,
+   "end": 124,
+   "quote": "the ECB",
+   "name": "the ECB"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 17,
+   "end": 28,
+   "quote": "ECB Preview",
+   "name": "the ECB Preview"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1321,
+   "end": 1344,
+   "quote": "the optimal combination",
+   "name": "the optimal combination"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 18213,
+   "end": 18250,
+   "quote": "the October Governing Council meeting",
+   "name": "the October Governing Council meeting"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3952,
+   "end": 3998,
+   "quote": "a mildly restrictive stance on monetary policy",
+   "name": "a mildly restrictive stance on monetary policy"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4325,
+   "end": 4340,
+   "quote": "The October PMI",
+   "name": "the October PMI"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5168,
+   "end": 5202,
+   "quote": "a further hike to 3% in March 2027",
+   "name": "a further hike to 3% in March 2027"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 6675,
+   "end": 6701,
+   "quote": "the policy rules framework",
+   "name": "the policy rules framework"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 6898,
+   "end": 6963,
+   "quote": "The market-implied terminal rate has declined from 3.50% to 3.25%",
+   "name": "The market-implied terminal rate has declined from 3.50% to 3.25%"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 7258,
+   "end": 7297,
+   "quote": "energy becoming embedded into inflation",
+   "name": "energy becoming embedded into inflation"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7638,
+   "end": 7659,
+   "quote": "policy rates above 3%",
+   "name": "policy rates above 3%"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7769,
+   "end": 7833,
+   "quote": "second-round wage inflation or a much stronger economic recovery",
+   "name": "second-round wage inflation or a much stronger economic recovery"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 8924,
+   "end": 8993,
+   "quote": "the new structural liqu idity operation and structural bond portfolio",
+   "name": "the new structural liqu idity operation and structural bond portfolio"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 9291,
+   "end": 9327,
+   "quote": "a tightening of financial conditions",
+   "name": "a tightening of financial conditions"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 9494,
+   "end": 9539,
+   "quote": "idiosyncratic market intervention via the TPI",
+   "name": "idiosyncratic market intervention via the TPI"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 11103,
+   "end": 11122,
+   "quote": "the market breaking",
+   "name": "the market breaking"
+  },
+  {
+   "id": "R19",
+   "type": "claim",
+   "start": 12616,
+   "end": 12688,
+   "quote": "The easiest way to do this would be for the ECB to hike less than priced",
+   "name": "The easiest way to do this would be for the ECB to hike less than priced"
+  },
+  {
+   "id": "R20",
+   "type": "claim",
+   "start": 13529,
+   "end": 13655,
+   "quote": "the market priced out an ECB hike and capped the tightening in financial conditions despite the increase in French risk premia",
+   "name": "the market priced out an ECB hike and capped the tightening in financial conditions despite the increase in French risk premia"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 16169,
+   "end": 16222,
+   "quote": "raising the minimum reserve requirement from 1% to 2%",
+   "name": "raising the minimum reserve requirement from 1% to 2%"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 16982,
+   "end": 17022,
+   "quote": "our call for a hike to 2.75% in December",
+   "name": "the call for a hike to 2.75% in December"
+  },
+  {
+   "id": "R23",
+   "type": "claim",
+   "start": 17226,
+   "end": 17255,
+   "quote": "neutral rates could be higher",
+   "name": "neutral rates could be higher"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 716,
+   "end": 733,
+   "quote": "President Lagarde",
+   "name": "President Lagarde"
+  },
+  {
+   "id": "R25",
+   "type": "claim",
+   "start": 18308,
+   "end": 18377,
+   "quote": "The EU may be willing to accommodate a faster decision-making process",
+   "name": "The EU may be willing to accommodate a faster decision-making process"
+  },
+  {
+   "id": "R26",
+   "type": "claim",
+   "start": 18595,
+   "end": 18848,
+   "quote": "there is an opportunity over the next few months for the European Council (heads of state and government) to determine the composition of the three key roles on the ECB Executive Board – President, Chief Economist, Head of Markets – for the next 8 years",
+   "name": "there is an opportunity over the next few months for the European Council (heads of state and government) to determine the composition of the three key roles on the ECB Executive Board – President, Chief Economist, Head of Markets – for the next 8 years"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 4689,
+   "end": 4727,
+   "quote": "the ECB’s September ‘adverse’ scenario",
+   "name": "the ECB’s September ‘adverse’ scenario"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 230,
+   "end": 246,
+   "quote": "the energy shock",
+   "name": "the energy shock"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C009",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C033",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C041",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We conclude' at 1097"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We don’t' at 7871"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We recently' at 17781"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 13657",
+   "message": "+21 words: {{This => That the market priced out an ECB hike and capped the tightening in financial conditions despite the increase in French risk premia}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 18850",
+   "message": "+42 words: {{This => That there is an opportunity over the next few months for the European Council (heads of state and government) to determine the composition of the three key roles on the ECB Executive Board – President, Chief Economist, Head of Markets – for the next 8 years}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E066",
+      "phrase": "the ‘adverse’ scenario",
+      "occurrence": 1,
+      "referent": "R27"
+     },
+     "reason": "E066 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0954716,
+   "duration_ms": 9988,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9396,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 941,
+    "output_tokens_details": {
+     "thinking_tokens": 720
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9396,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 941,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 9396,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9396
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.2858971,
+   "duration_ms": 79094,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10860,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 9860,
+    "output_tokens_details": {
+     "thinking_tokens": 6927
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 10860,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 9860,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 10860,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 10860
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0969602,
+   "duration_ms": 2519,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 11641,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 97,
+    "output_tokens_details": {
+     "thinking_tokens": 70
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 11641,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 97,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 11641,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 11641
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

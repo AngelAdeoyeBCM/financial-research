@@ -1,0 +1,191 @@
+{
+  "batch_id": "2026-07-09",
+  "window": [
+    "2026-07-09",
+    "2026-07-09"
+  ],
+  "generated_at": "2026-10-29T16:30:29",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 26
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 5,
+    "edits": 15,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Bank_of_Korea_to_hike_in_July_remain_open_to_further_tightening_Desknote--927835",
+      "document": "Bank_of_Korea_to_hike_in_July_remain_open_to_further_tightening_Desknote--927835.pdf",
+      "date": "2026-07-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/Bank_of_Korea_to_hike_in_July_remain_open_to_further_tightening_Desknote--927835.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "63b27528f8658a3f8f429bbb13bf3addf58cb76b",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        },
+        {
+          "rule": "rule_line",
+          "section": "artefact",
+          "text": "____________________"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1,
+        "artefact": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "pressure s",
+              "after": "pressures"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " :",
+              "after": ":"
+            },
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Bank of Korea to hike in July, remain open to further tightening ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 8,
+          "examples": [
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "FOMC_Communications__The_value_of_a_word",
+      "document": "FOMC Communications: The value of a word.pdf",
+      "date": "2026-07-09",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "The_Yen_Drag_on_Asia",
+      "document": "The Yen Drag on Asia.pdf",
+      "date": "2026-07-09",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

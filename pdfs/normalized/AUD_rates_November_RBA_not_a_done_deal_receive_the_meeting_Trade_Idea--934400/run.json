@@ -1,0 +1,302 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/AUD_rates_November_RBA_not_a_done_deal_receive_the_meeting_Trade_Idea--934400.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-28",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 29,
+    "referents": {
+     "thing": 10,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 24,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "generic": 1,
+     "time": 2,
+     "relative": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 115,
+  "kinds": {
+   "abbreviation": 42,
+   "deixis": 42,
+   "possessive": 8,
+   "noun_phrase": 8,
+   "symbol": 6,
+   "pronoun": 3,
+   "shell": 3,
+   "demonstrative": 2,
+   "proposition": 1
+  },
+  "rooted_share": 0.8505747126436781,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 73,
+  "cost_usd": 0.2109
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1042,
+   "end": 1049,
+   "quote": "the RBA",
+   "name": "the RBA"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 722,
+   "end": 741,
+   "quote": "the Deputy Governor",
+   "name": "the Deputy Governor"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 722,
+   "end": 748,
+   "quote": "the Deputy Governor’s tone",
+   "name": "the Deputy Governor’s tone"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 479,
+   "end": 556,
+   "quote": "market expectations have shifted again from a hold to a hike for the upcoming",
+   "name": "market expectations have shifted again from a hold to a hike for the upcoming"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1542,
+   "end": 1563,
+   "quote": "the unemployment rate",
+   "name": "the unemployment rate"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2492,
+   "end": 2515,
+   "quote": "current equity weakness",
+   "name": "current equity weakness"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2691,
+   "end": 2721,
+   "quote": "x-market receivers in AUD 2y2y",
+   "name": "the x-market receivers in AUD 2y2y"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2998,
+   "end": 3018,
+   "quote": "Today’s Q3 CPI print",
+   "name": "the Q3 CPI print"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 3391,
+   "end": 3430,
+   "quote": "back-to-back rate hikes remain unlikely",
+   "name": "back-to-back rate hikes remain unlikely"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4124,
+   "end": 4148,
+   "quote": "the RBA’s hawkish stance",
+   "name": "the RBA’s hawkish stance"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 5527,
+   "end": 5593,
+   "quote": "November RBA has now moved to 22.5bp priced at the time of writing",
+   "name": "November RBA has now moved to 22.5bp priced at the time of writing"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 3335,
+   "end": 3361,
+   "quote": "the RBA’s November meeting",
+   "name": "the RBA’s November meeting"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 9318,
+   "end": 9338,
+   "quote": "22.5bp of tightening",
+   "name": "22.5bp of tightening"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C007",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C027",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0560719,
+   "duration_ms": 4779,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5944,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 369,
+    "output_tokens_details": {
+     "thinking_tokens": 356
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5944,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 369,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5944,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5944
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1548396,
+   "duration_ms": 40134,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7105,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4828,
+    "output_tokens_details": {
+     "thinking_tokens": 3114
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7105,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4828,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7105,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7105
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+  "batch_id": "2026-01-08",
+  "window": [
+    "2026-01-08",
+    "2026-01-08"
+  ],
+  "generated_at": "2026-10-29T16:26:05",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-05_2026-01-08.json",
+      "sha256": "e5f7bcf41a3127907a6caba15d26364b223a6a1aaa8529d632413cbcea38511d",
+      "records": 1451,
+      "dates": [
+        "2026-01-05",
+        "2026-01-08"
+      ],
+      "records_for_batch": 395
+    }
+  ],
+  "counts": {
+    "documents": 16,
+    "in_scope": 13,
+    "out_of_scope": 3,
+    "compiled": 1,
+    "skipped": 12,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 17,
+    "edits": 10,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_US_Treasuries_-_STRIPS_-_Stripping_activity_moderates_in_2025__still_third_highest_on_record",
+      "document": "BC_US Treasuries - STRIPS - Stripping activity moderates in 2025, still third highest on record.pdf",
+      "date": "2026-01-08",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_United_States_Money_Markets_-_Bill_supply_risks_to_the_upside",
+      "document": "BC_United States Money Markets - Bill supply risks to the upside.pdf",
+      "date": "2026-01-08",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_US_Economic_Perspectives_-_Reaping_the_productivity_gains_from_prior_labor_market_tightness",
+      "document": "DB_US Economic Perspectives - Reaping the productivity gains from prior labor market tightness.pdf",
+      "date": "2026-01-08",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/DB_US_Economic_Perspectives_-_Reaping_the_productivity_gains_from_prior_labor_market_tightness.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "60030b63c478d78db72e4a2ba95051de6ab8e234",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Productivity trend has been strong in recent years Figure 2: Percentile rank of current pr'",
+          "chunk_id": "DB_US Economic Perspectives - Reaping the productivity gains from prior labor market tightness.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 2: Percentile rank of current productivity growth Source: BLS, NBER, Haver Analytics, Deutsch'",
+          "chunk_id": "DB_US Economic Perspectives - Reaping the productivity gains from prior labor market tightness.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 3: Strong past wage growth continues to signal solid productivity trend Source: BLS, NBER, Ha'",
+          "chunk_id": "DB_US Economic Perspectives - Reaping the productivity gains from prior labor market tightness.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 08/01/2026 20:26:39 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 08/01/2026 20:26:39 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: BLS, NBER, Haver Analytics, Deutsche Bank"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-09T20:47+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "8 January 2026 US Economic Perspectives Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Chief US Economist +1-212-250-6161 Brett Ryan Senior US Economist +1-212-250-6294 Justin Weidner Economist +1-212-469-1679 Amy Yang Economist +1-212-250-9959"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: BLS, NBER, Haver Analytics, Deutsche Bank"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-09T20:47+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "8 January 2026 US Economic Perspectives Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-09T20:47+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 9,
+        "disclaimer": 7,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 7,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Reaping the productivity gains from prior labor market tightness ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Receive_1y1y_TWD_NDIRS_Trade_Idea--916040",
+      "document": "EM_rates_Receive_1y1y_TWD_NDIRS_Trade_Idea--916040.pdf",
+      "date": "2026-01-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GBP_rates_vol_Anything_but_a_hike_Trade_Idea--916089",
+      "document": "GBP_rates_vol_Anything_but_a_hike_Trade_Idea--916089.pdf",
+      "date": "2026-01-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_GLOBAL_OPPORTUNITY_ASSET_LOCATOR_-_Outlook_for_2026_-_Goldilocks_re-cycling_-_new_tailwinds__old_headwinds",
+      "document": "GS_GLOBAL OPPORTUNITY ASSET LOCATOR - Outlook for 2026 - Goldilocks re-cycling - new tailwinds, old headwinds.pdf",
+      "date": "2026-01-08",
+      "publisher": "Goldman Sachs",
+      "document_type": "Outlook",
+      "chunk_count": 71,
+      "page_count": 31,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.239,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Global_Macro_Impact_of_Venezuelan_regime_shift_Desknote--916074",
+      "document": "Global_Macro_Impact_of_Venezuelan_regime_shift_Desknote--916074.pdf",
+      "date": "2026-01-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 22,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.136,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Interest_Rate_Derivatives_-_The_one_with_swap_spreads",
+      "document": "JPM_Interest Rate Derivatives - The one with swap spreads.pdf",
+      "date": "2026-01-08",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 42,
+      "page_count": 13,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.975,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_The_Antipodean_Strategist_-_Choose_your_own_adventure",
+      "document": "JPM_The Antipodean Strategist - Choose your own adventure.pdf",
+      "date": "2026-01-08",
+      "publisher": "JP Morgan",
+      "document_type": "Catalyst Review",
+      "chunk_count": 20,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Latin_America_Impact_of_Venezuelan_regime_shift_Desknote--916106",
+      "document": "Latin_America_Impact_of_Venezuelan_regime_shift_Desknote--916106.pdf",
+      "date": "2026-01-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 18,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.688,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_BoK_Preview_-_Pressing_Pause",
+      "document": "MS_BoK Preview - Pressing Pause.pdf",
+      "date": "2026-01-08",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_UK_Economics_-_Europe_-_Checking_In",
+      "document": "MS_UK Economics - Europe - Checking In.pdf",
+      "date": "2026-01-08",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.833,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "When_learnings_align_for_Sterling",
+      "document": "When learnings align for Sterling.pdf",
+      "date": "2026-01-08",
+      "publisher": "State Street",
+      "document_type": "Trade Idea",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

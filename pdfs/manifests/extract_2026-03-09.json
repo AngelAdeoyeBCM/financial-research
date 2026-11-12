@@ -1,0 +1,515 @@
+{
+  "batch_id": "2026-03-09",
+  "window": [
+    "2026-03-09",
+    "2026-03-09"
+  ],
+  "generated_at": "2026-10-29T16:27:30",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-06_2026-03-09.json",
+      "sha256": "7978cb0442e7e30e908522e57e68db80bbac68f476e2b8146f9186c67a9030e9",
+      "records": 3686,
+      "dates": [
+        "2026-03-06",
+        "2026-03-09"
+      ],
+      "records_for_batch": 363
+    }
+  ],
+  "counts": {
+    "documents": 23,
+    "in_scope": 17,
+    "out_of_scope": 6,
+    "compiled": 4,
+    "skipped": 13,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 16,
+    "edits": 17,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_US_Rates_Research_Flow_of_Funds_-_Inflows_into_the_front_end",
+      "document": "BC_US Rates Research Flow of Funds - Inflows into the front end.pdf",
+      "date": "2026-03-09",
+      "publisher": "Barclays",
+      "document_type": "Positioning and flows",
+      "chunk_count": 22,
+      "page_count": 14,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.955,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "China_China_Economics_-_Mechanic_Reflation_to_Accelerate_on_Global_Oil_Prices",
+      "document": "China_China Economics - Mechanic Reflation to Accelerate on Global Oil Prices.pdf",
+      "date": "2026-03-09",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.125,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_UK_Economics_-_The_fiscal_implications_of_energy_prices___Update",
+      "document": "Citi_UK Economics - The fiscal implications of energy prices – Update.pdf",
+      "date": "2026-03-09",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/Citi_UK_Economics_-_The_fiscal_implications_of_energy_prices___Update.txt",
+      "asset_class_share": 0.5,
+      "fingerprint": "9f4fa31098540fc1fd1dc8a1fedfe0bb71543c03",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1. Ofgem price cap forecast, £ © 2026 Citigroup Inc. No redistribution without Citigroup’s wr'",
+          "chunk_id": "Citi_UK Economics - The fiscal implications of energy prices – Update.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "See Appendix A-1 for Analyst Certification, Important Disclosures and Research Analyst Affiliations"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Flash | 09 Mar 2026 10:34:38 ET │ 8 pages"
+        },
+        {
+          "rule": "series_header",
+          "section": "header",
+          "text": "UK Economics"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Prepared for Cayla Buettner"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "UK Economics 09 March 2026 Citi Research 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Callum McLaren-StewartAC +44-20-7500-1604 callum.mclarenstewart@citi.com"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "© 2026 Citigroup Inc. No redistribution without Citigroup’s written permission."
+        },
+        {
+          "rule": "series_header",
+          "section": "header",
+          "text": "UK Economics"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Prepared for Cayla Buettner"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 4,
+        "footer": 2,
+        "header": 2,
+        "signature": 1
+      },
+      "edits": {
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "UK Economics The fiscal implications of energy prices – Update ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "CITI’S TAKE A",
+              "after": "\n\n## CITI’S TAKE\n\nA"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Cross-Asset_and_Macro_Quant_Strategy_presentation_Presentation--920179",
+      "document": "Cross-Asset_and_Macro_Quant_Strategy_presentation_Presentation--920179.pdf",
+      "date": "2026-03-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 55,
+      "page_count": 39,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.579,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Closing_ILS_CZK_and_HUF_trades_Trade_Idea--920155",
+      "document": "EM_rates_Closing_ILS_CZK_and_HUF_trades_Trade_Idea--920155.pdf",
+      "date": "2026-03-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Closing_ILS_CZK_and_HUF_trades_Trade_Idea--920155.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "3c91fd999d1729d2866ca3d0f7b40ff1511ef585",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA T R A D E I D E A 09/03/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Closing ILS, CZK and HUF trades ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Extend_target_and_trail_stop_on_paid_INR_5y_Trade_Idea--920133",
+      "document": "EM_rates_Extend_target_and_trail_stop_on_paid_INR_5y_Trade_Idea--920133.pdf",
+      "date": "2026-03-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Extend_target_and_trail_stop_on_paid_INR_5y_Trade_Idea--920133.txt",
+      "asset_class_share": 0.667,
+      "fingerprint": "d36e57bd4a242c05b6a5c609741484d8bbfc4bce",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: INR rates have sold off significantly due to rising oil prices We extend the target on our p'",
+          "chunk_id": "EM_rates_Extend_target_and_trail_stop_on_paid_INR_5y_Trade_Idea--920133.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: INR rates have sold off massively due to rising oil prices We are extending the target on ou'",
+          "chunk_id": "EM_rates_Extend_target_and_trail_stop_on_paid_INR_5y_Trade_Idea--920133.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 09/03/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Sources: Bloomberg, Macrobond, BNP Paribas Fig. 1: INR rates have"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Sources: Bloomberg, Macrobond, BNP Paribas Fig. 1: INR rates have"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 3,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Extend target and trail stop on paid INR 5y ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Taking_profit_on_CLP_basis_receiver_Trade_Idea--920185",
+      "document": "EM_rates_Taking_profit_on_CLP_basis_receiver_Trade_Idea--920185.pdf",
+      "date": "2026-03-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Taking_profit_on_CLP_basis_receiver_Trade_Idea--920185.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "249824f4088e000f2a34e752db5ddc20341b408a",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 09/03/2026 1"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 9,
+          "examples": [
+            {
+              "before": " )",
+              "after": ")"
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Taking profit on CLP basis receiver ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EUR_basis_Enter_10y20y_STR_6s_wideners_Trade_Idea--920164",
+      "document": "EUR_basis_Enter_10y20y_STR_6s_wideners_Trade_Idea--920164.pdf",
+      "date": "2026-03-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Firm_Feb_inflation_and_seven_days_of_fuel_prices_in_March",
+      "document": "Firm Feb inflation and seven days of fuel prices in March.pdf",
+      "date": "2026-03-09",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.25,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_JAPAN_ECONOMICS_ANALYST_-_Considering_the_Policy_Mix_of_Expansionary_Fiscal_Policy_and_Rate_Hikes",
+      "document": "GS_JAPAN ECONOMICS ANALYST - Considering the Policy Mix of Expansionary Fiscal Policy and Rate Hikes.pdf",
+      "date": "2026-03-09",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 31,
+      "page_count": 13,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.957,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Middle_East_war_drives_larger_energy_shock_-_tactically_neutral_and_hedging_upside_tails",
+      "document": "GS_Middle East war drives larger energy shock - tactically neutral and hedging upside tails.pdf",
+      "date": "2026-03-09",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 37,
+      "page_count": 27,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.303,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Tracking_the_repricing_of_risks_from_AI_and_the_Middle_East_war_in_option_markets",
+      "document": "GS_Tracking the repricing of risks from AI and the Middle East war in option markets.pdf",
+      "date": "2026-03-09",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 32,
+      "page_count": 20,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.037,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Quant_Trades_of_the_Week_Adding_defense_via_Healthcare_RVs_short_EURNOK_Trade_Idea--920192",
+      "document": "Quant_Trades_of_the_Week_Adding_defense_via_Healthcare_RVs_short_EURNOK_Trade_Idea--920192.pdf",
+      "date": "2026-03-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 25,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.56,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_Dislocations_widen_further_short_EURNOK_Trade_Idea--920160",
+      "document": "STEER_Dislocations_widen_further_short_EURNOK_Trade_Idea--920160.pdf",
+      "date": "2026-03-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "The_dollar_s_still_got_it",
+      "document": "The dollar's still got it.pdf",
+      "date": "2026-03-09",
+      "publisher": "State Street",
+      "document_type": "Positioning and flows",
+      "chunk_count": 17,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.824,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Iran_shock_and_EM_-_Vulnerabilites__hedges__and_potential_future_opportunities",
+      "document": "UBS_Iran shock and EM - Vulnerabilites, hedges, and potential future opportunities.pdf",
+      "date": "2026-03-09",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 28,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.231,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Where_have_investors_turned",
+      "document": "Where have investors turned?.pdf",
+      "date": "2026-03-09",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

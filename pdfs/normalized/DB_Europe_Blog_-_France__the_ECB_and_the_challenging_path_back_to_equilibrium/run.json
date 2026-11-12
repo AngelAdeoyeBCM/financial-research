@@ -1,0 +1,511 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Europe_Blog_-_France__the_ECB_and_the_challenging_path_back_to_equilibrium.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-02",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 49,
+    "referents": {
+     "thing": 25,
+     "claim": 5
+    },
+    "decisions": {
+     "leave": 12,
+     "link": 37
+    },
+    "leave_reasons": {
+     "not_a_reference": 3,
+     "generic": 1,
+     "expletive": 6,
+     "relative": 2
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 103,
+  "kinds": {
+   "abbreviation": 30,
+   "deixis": 25,
+   "pronoun": 11,
+   "demonstrative": 9,
+   "noun_phrase": 8,
+   "possessive": 7,
+   "symbol": 6,
+   "proposition": 3,
+   "shell": 2,
+   "vp": 1,
+   "fragment": 1
+  },
+  "rooted_share": 0.9154929577464789,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 183,
+  "cost_usd": 0.3698
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 329,
+   "end": 359,
+   "quote": "the market pressures on France",
+   "name": "the market pressures on France"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 877,
+   "end": 886,
+   "quote": "backstops",
+   "name": "backstops"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1936,
+   "end": 1941,
+   "quote": "money",
+   "name": "money"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1722,
+   "end": 1751,
+   "quote": "A monetary and currency union",
+   "name": "a monetary and currency union"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2051,
+   "end": 2090,
+   "quote": "destabilising flight-to-safety dynamics",
+   "name": "destabilising flight-to-safety dynamics"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2887,
+   "end": 2919,
+   "quote": "the debt crises 10 -15 years ago",
+   "name": "the debt crises 10 -15 years ago"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 700,
+   "end": 736,
+   "quote": "the current episode of market stress",
+   "name": "the current episode of market stress"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4201,
+   "end": 4250,
+   "quote": "a deficit of 5.0% of GDP in the draft 2027 Budget",
+   "name": "a deficit of 5.0% of GDP in the draft 2027 Budget"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 947,
+   "end": 954,
+   "quote": "the ECB",
+   "name": "the ECB"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 1114,
+   "end": 1131,
+   "quote": "President Lagarde",
+   "name": "President Lagarde"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 1366,
+   "end": 1388,
+   "quote": "the rise in OAT yields",
+   "name": "the rise in OAT yields"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 10861,
+   "end": 10910,
+   "quote": "tighter financial conditions across the euro area",
+   "name": "tighter financial conditions across the euro area"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 11510,
+   "end": 11584,
+   "quote": "uncertainty in France did trend higher relate to the rest of the euro area",
+   "name": "uncertainty in France did trend higher relate to the rest of the euro area"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 12461,
+   "end": 12560,
+   "quote": "illiquid markets, exaggerated asset price corrections, dislocated intermediation and market freezes",
+   "name": "illiquid markets, exaggerated asset price corrections, dislocated intermediation and market freezes"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 12677,
+   "end": 12700,
+   "quote": "fragmentation pressures",
+   "name": "fragmentation pressures"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 14583,
+   "end": 14631,
+   "quote": "the spread between GDP - weighted yields and OIS",
+   "name": "the spread between GDP - weighted yields and OIS"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 14733,
+   "end": 14799,
+   "quote": "the average government spread to Bunds after excluding French OATs",
+   "name": "the average government spread to Bunds after excluding French OATs"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 15106,
+   "end": 15126,
+   "quote": "market fragmentation",
+   "name": "market fragmentation"
+  },
+  {
+   "id": "R19",
+   "type": "claim",
+   "start": 15356,
+   "end": 15435,
+   "quote": "the monetary tightening/inflation was seen as a ‘common shock’ to the euro area",
+   "name": "the monetary tightening/inflation was seen as a ‘common shock’ to the euro area"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 16008,
+   "end": 16030,
+   "quote": "An LTRO-based response",
+   "name": "an LTRO-based response"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 16894,
+   "end": 16932,
+   "quote": "lasting vulnerabilities on the economy",
+   "name": "lasting vulnerabilities on the economy"
+  },
+  {
+   "id": "R22",
+   "type": "claim",
+   "start": 16851,
+   "end": 17019,
+   "quote": "the ECB viewed the pandemic as having left lasting vulnerabilities on the economy and these were judged to be contributing to the uneven transmission of monetary policy",
+   "name": "the ECB viewed the pandemic as having left lasting vulnerabilities on the economy and these were judged to be contributing to the uneven transmission of monetary policy"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 17466,
+   "end": 17501,
+   "quote": "what is driving the market pressure",
+   "name": "what is driving the market pressure"
+  },
+  {
+   "id": "R24",
+   "type": "claim",
+   "start": 18532,
+   "end": 18575,
+   "quote": "the ECB does not have a basis to deploy TPI",
+   "name": "the ECB does not have a basis to deploy TPI"
+  },
+  {
+   "id": "R25",
+   "type": "claim",
+   "start": 18840,
+   "end": 18912,
+   "quote": "the market was overshooting the deterioration in underlying fundamentals",
+   "name": "the market was overshooting the deterioration in underlying fundamentals"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 21539,
+   "end": 21569,
+   "quote": "Scenario 3: Systemic contagion",
+   "name": "Scenario 3: Systemic contagion"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 23727,
+   "end": 23776,
+   "quote": "the BoE purchases to quash the LDI crisis in 2023",
+   "name": "the BoE purchases to quash the LDI crisis in 2023"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 23885,
+   "end": 23934,
+   "quote": "asset purchases for market stabilisation purposes",
+   "name": "asset purchases for market stabilisation purposes"
+  },
+  {
+   "id": "R29",
+   "type": "thing",
+   "start": 13724,
+   "end": 13790,
+   "quote": "The spread between 10-year government bond yields and the OIS rate",
+   "name": "the spread between 10-year government bond yields and the OIS rate"
+  },
+  {
+   "id": "R30",
+   "type": "thing",
+   "start": 20384,
+   "end": 20420,
+   "quote": "a dramatic fiscal consolidation plan",
+   "name": "a dramatic fiscal consolidation plan"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C030",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C036",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C039",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C040",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C047",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 17021",
+   "message": "+31 words: {{This => That the ECB viewed the pandemic as having left lasting vulnerabilities on the economy and lasting vulnerabilities on the economy were judged to be contributing to the uneven transmission of monetary policy}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in \"rum and others have to be careful about their public finances, too (see the author's \""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 13",
+   "message": "'they' in 'o respond flexibly to new challenges as they arise and will consider, as needed, new'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.1090631,
+   "duration_ms": 10002,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10891,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1015,
+    "output_tokens_details": {
+     "thinking_tokens": 791
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 10891,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1015,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 10891,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 10891
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.2607563,
+   "duration_ms": 63557,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12712,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 7853,
+    "output_tokens_details": {
+     "thinking_tokens": 4775
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 12712,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 7853,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 12712,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 12712
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

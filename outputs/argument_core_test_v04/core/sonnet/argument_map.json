@@ -1,0 +1,246 @@
+{
+ "map": {
+  "arguments": [
+   {
+    "id": "A001",
+    "summary": "The Fed faces a choice between hiking and risking a large bond spike, because the bond favours orthodoxy of rate hikes over buybacks.",
+    "conclusion": "P016-2",
+    "premises": [
+     "P019-1",
+     "P020-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC001",
+     "SC002"
+    ]
+   },
+   {
+    "id": "A002",
+    "summary": "The Fed hikes 25bp, since pricing is high, CPI locked it in, and Warsh's Jackson Hole remarks raised the cost of disappointing, given the hike-or-spike choice.",
+    "conclusion": "P005-1",
+    "premises": [
+     "A001",
+     "P030-1",
+     "P031-1",
+     "P013-1",
+     "P080-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A003",
+    "summary": "Warsh delivers a hawkish hike, as the presser is expected to resemble Jackson Hole and the communications lean hawkish, largely to support the bond.",
+    "conclusion": "P009-1",
+    "premises": [
+     "A002",
+     "P086-2",
+     "P025-2",
+     "P021-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC003",
+     "SC004"
+    ]
+   },
+   {
+    "id": "A004",
+    "summary": "A hawkish hike supports higher front end rates and twist flattening of the UST curve, as Friday's flattening already suggests.",
+    "conclusion": "P009-2",
+    "premises": [
+     "A003",
+     "P032-2"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A006",
+    "summary": "There is considerable two-way USD risk at the meeting, with bullish and bearish cases.",
+    "conclusion": "P121-1",
+    "premises": [
+     "P113-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC005",
+     "SC006"
+    ]
+   },
+   {
+    "id": "A005",
+    "summary": "The USD outcome depends on the Fed's ability to out-hawk expectations and other G10 central banks, a high bar given more than three hikes priced.",
+    "conclusion": "P010-1",
+    "premises": [
+     "A006",
+     "P118-2",
+     "P119-3"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   }
+  ],
+  "scenarios": [
+   {
+    "id": "SC001",
+    "label": "Fed holds: bond spike",
+    "assumptions": [
+     "P017-1"
+    ],
+    "implications": [
+     "P017-2",
+     "P018-1",
+     "P096-12",
+     "P095-2",
+     "P095-3"
+    ],
+    "complements": [
+     "SC002"
+    ]
+   },
+   {
+    "id": "SC002",
+    "label": "Hawkish presser after hike",
+    "assumptions": [
+     "P087-1"
+    ],
+    "implications": [
+     "P087-3",
+     "P087-4",
+     "P089-1",
+     "P089-2"
+    ],
+    "complements": [
+     "SC001"
+    ]
+   },
+   {
+    "id": "SC003",
+    "label": "Warsh as at Jackson Hole",
+    "assumptions": [
+     "P026-1"
+    ],
+    "implications": [
+     "P026-2",
+     "P026-3",
+     "P026-4"
+    ],
+    "complements": [
+     "SC004"
+    ]
+   },
+   {
+    "id": "SC004",
+    "label": "Warsh not as at Jackson Hole",
+    "assumptions": [
+     "P027-1"
+    ],
+    "implications": [
+     "P027-2"
+    ],
+    "complements": [
+     "SC003"
+    ]
+   },
+   {
+    "id": "SC005",
+    "label": "Bullish USD case",
+    "assumptions": [
+     "P123-2"
+    ],
+    "implications": [
+     "P127-1",
+     "P127-2"
+    ],
+    "complements": [
+     "SC006"
+    ]
+   },
+   {
+    "id": "SC006",
+    "label": "Bearish USD case: Fed holds",
+    "assumptions": [
+     "P129-1"
+    ],
+    "implications": [
+     "P129-2"
+    ],
+    "complements": [
+     "SC005"
+    ]
+   }
+  ]
+ },
+ "errors": [],
+ "attempts": 1,
+ "usage": [
+  {
+   "cost_usd": 0.11619370000000001,
+   "duration_ms": 16695,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22358,
+    "cache_read_input_tokens": 2013,
+    "output_tokens": 2451,
+    "output_tokens_details": {
+     "thinking_tokens": 1211
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 22358,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2451,
+      "cache_read_input_tokens": 2013,
+      "cache_creation_input_tokens": 22358,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 22358
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-sonnet-5-5"
+   ]
+  }
+ ]
+}

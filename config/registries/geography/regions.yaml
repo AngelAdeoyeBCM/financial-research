@@ -1,0 +1,46 @@
+# Market region tree. Nesting = hierarchy. Every node has a `name`; in a branch
+# every other key is a child, and a leaf is {name, members} (ISO alpha-2 codes).
+# This is a reserve: it maps countries we might meet, not only those we hold.
+# Quote 'NO' (Norway) and 'NA' (Namibia) so YAML doesn't read them as False/null.
+# Non-countries (MULT, SNAT, EU, ZZ) are in entities.yaml; overlapping groups
+# (euro area, GCC, DM/EM) are in groups.yaml.
+
+world:
+  name: World
+
+  americas:
+    name: Americas
+    north_america:     {name: North America, members: [CA, US]}
+    latin_america:
+      name: LATAM
+      central_america: {name: Central America, members: [CR, GT, HN, MX, PA, SV]}   # Mexico here, per index convention
+      south_america:   {name: South America, members: [AR, BO, BR, CL, CO, EC, PE, PY, UY, VE]}
+
+  emea:
+    name: EMEA
+    europe:
+      name: Europe
+      nordics:          {name: Nordics, members: [DK, FI, IS, 'NO', SE]}
+      western_europe:   {name: Western Europe, members: [AT, BE, CH, CY, DE, ES, FR, GB, IE, IT, LU, MT, NL, PT]}
+      cee:
+        name: Central and Eastern Europe
+        central_europe: {name: Central Europe, members: [CZ, EE, HU, LT, LV, PL, SI, SK]}
+        eastern_europe: {name: Eastern Europe, members: [AL, AM, AZ, BG, GE, GR, HR, KZ, ME, MK, RO, RS, RU, TR, UA, UZ]}
+    middle_east:        {name: Middle East, members: [AE, BH, IL, IQ, IR, JO, KW, LB, OM, QA, SA]}
+    africa:
+      name: Africa
+      north_africa:     {name: North Africa, members: [EG, MA, TN]}
+      sub_saharan_africa:
+        name: Sub-Saharan Africa
+        east_africa:     {name: East Africa, members: [ET, KE, MU, RW, TZ, UG]}
+        west_africa:     {name: West Africa, members: [CI, CM, GA, GH, NG, SN]}
+        southern_africa: {name: Southern Africa, members: [AO, BW, MZ, 'NA', ZA, ZM]}
+
+  apac:
+    name: Asia Pacific
+    asia:
+      name: Asia
+      east_asia:      {name: East Asia, members: [CN, HK, JP, KR, TW]}
+      south_asia:     {name: South Asia, members: [BD, IN, LK, PK]}
+      southeast_asia: {name: Southeast Asia, members: [ID, MY, PH, SG, TH, VN]}
+    australasia:      {name: Australasia, members: [AU, NZ]}

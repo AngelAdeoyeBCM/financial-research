@@ -1,0 +1,321 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-05-24.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-24",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 21,
+    "referents": {
+     "thing": 15
+    },
+    "decisions": {
+     "link": 19,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 1,
+     "not_a_reference": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 36,
+  "kinds": {
+   "deixis": 11,
+   "noun_phrase": 7,
+   "possessive": 7,
+   "pronoun": 6,
+   "demonstrative": 2,
+   "symbol": 2,
+   "vp": 1
+  },
+  "rooted_share": 0.6363636363636364,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNGROUNDED_WORD": 2,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 34,
+  "cost_usd": 0.1741
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 295,
+   "end": 310,
+   "quote": "Governor Waller",
+   "name": "Governor Waller"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 295,
+   "end": 327,
+   "quote": "Governor Waller’s hawkish speech",
+   "name": "Governor Waller's hawkish speech"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 793,
+   "end": 835,
+   "quote": "the possibility of a rate hike by year-end",
+   "name": "the possibility of a rate hike by year-end"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1063,
+   "end": 1107,
+   "quote": "Thursday’s personal income and spending data",
+   "name": "Thursday's personal income and spending data"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1545,
+   "end": 1575,
+   "quote": "the latest reading on core PCE",
+   "name": "the latest reading on core PCE"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1689,
+   "end": 1712,
+   "quote": "the year-over-year rate",
+   "name": "the year-over-year rate"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2911,
+   "end": 2943,
+   "quote": "Thursday’s weekly jobless claims",
+   "name": "Thursday's weekly jobless claims"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3480,
+   "end": 3531,
+   "quote": "Minneapolis’s Kashkari (Tuesday) and Dallas’s Logan",
+   "name": "Minneapolis's Kashkari and Dallas's Logan"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4400,
+   "end": 4418,
+   "quote": "Musalem and Schmid",
+   "name": "Musalem and Schmid"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4519,
+   "end": 4543,
+   "quote": "more dovish policymakers",
+   "name": "more dovish policymakers"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 4605,
+   "end": 4746,
+   "quote": "Richmond’s Barkin (non-voter) will have a moderated discussion on Thursday, while San Francisco’s Daly (non-voter) and Philadelphia’s Paulson",
+   "name": "Richmond's Barkin and San Francisco's Daly and Philadelphia's Paulson"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 5457,
+   "end": 5538,
+   "quote": "Fed policy may have become overinsured against downside risks to the labor market",
+   "name": "the Fed policy overinsured against downside risks to the labor market"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 5908,
+   "end": 5987,
+   "quote": "our clients and colleagues around the world who have served in the armed forces",
+   "name": "the clients and colleagues who have served in the armed forces"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 2237,
+   "end": 2262,
+   "quote": "Thursday’s new home sales",
+   "name": "Thursday's new home sales"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 2283,
+   "end": 2319,
+   "quote": "Friday’s advance goods trade balance",
+   "name": "Friday's advance goods trade balance"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we remember' at 5991"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 3641",
+   "message": "not verbatim in source: [\"minneapolis's\", \"dallas's\"] in {{their => Minneapolis's Kashkari and Dallas's Logan's}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 4829",
+   "message": "not verbatim in source: [\"richmond's\", \"francisco's\", \"philadelphia's\"] in {{their => Richmond's Barkin and San Francisco's Daly and Philadelphia's Paulson's}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'ed communications, particularly given t he aforementioned speech by Waller as well'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0473277,
+   "duration_ms": 5759,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4482,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 524,
+    "output_tokens_details": {
+     "thinking_tokens": 379
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4482,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 524,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4482,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4482
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.12676900000000002,
+   "duration_ms": 34949,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5314,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4144,
+    "output_tokens_details": {
+     "thinking_tokens": 2603
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5314,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4144,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5314,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5314
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

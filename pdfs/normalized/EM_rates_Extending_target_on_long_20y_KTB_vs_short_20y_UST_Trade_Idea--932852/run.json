@@ -1,0 +1,176 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Extending_target_on_long_20y_KTB_vs_short_20y_UST_Trade_Idea--932852.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-29",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 0,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {},
+    "leave_reasons": {},
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 9,
+   "noun_phrase": 2
+  },
+  "rooted_share": 0.625,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 7,
+  "cost_usd": 0.0572
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 87,
+   "end": 155,
+   "quote": "the long position we have been running in long-end KTBs against USTs",
+   "name": "the long position in long-end KTBs against USTs"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 440,
+   "end": 451,
+   "quote": "South Korea",
+   "name": "South Korea"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We extend' at 63"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we extend' at 966"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.022563,
+   "duration_ms": 1902,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2591,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 60,
+    "output_tokens_details": {
+     "thinking_tokens": 47
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2591,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 60,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2591,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2591
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0346143,
+   "duration_ms": 6627,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2597,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 634,
+    "output_tokens_details": {
+     "thinking_tokens": 409
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2597,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 634,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2597,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2597
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_China_-_China-_PBOC_Signals_Shift_to_Overnight_Policy_Rate_and_Broader_Interest_Rate_Benchmark_Reforms.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-19",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "not_a_reference": 2
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 21,
+  "kinds": {
+   "deixis": 10,
+   "noun_phrase": 6,
+   "possessive": 3,
+   "proposition": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.75,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 40,
+  "cost_usd": 0.1344
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 245,
+   "end": 329,
+   "quote": "Governor Pan Gongsheng outlined further reforms to China’s monetary policy framework",
+   "name": "Governor Pan Gongsheng's further reforms to China’s monetary policy framework"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1891,
+   "end": 1899,
+   "quote": "The PBOC",
+   "name": "the PBOC"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3521,
+   "end": 3562,
+   "quote": "the overnight reverse repo operation rate",
+   "name": "the overnight reverse repo operation rate"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 4467,
+   "end": 4545,
+   "quote": "DR001 could be used as a pricing benchmark for bonds and financial derivatives",
+   "name": "DR001 could be used as a pricing benchmark for bonds and financial derivatives"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4750,
+   "end": 4796,
+   "quote": "the legacy benchmark deposit and lending rates",
+   "name": "the legacy benchmark deposit and lending rates"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 245,
+   "end": 267,
+   "quote": "Governor Pan Gongsheng",
+   "name": "Governor Pan Gongsheng"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 5268,
+   "end": 5355,
+   "quote": "a liquidity backstop for non-bank financial institutions facing large-scale redemptions",
+   "name": "the liquidity backstop for non-bank financial institutions facing large-scale redemptions"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We summarize' at 1847"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.038747399999999994,
+   "duration_ms": 2374,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4469,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 100,
+    "output_tokens_details": {
+     "thinking_tokens": 92
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4469,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 100,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4469,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4469
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.09567759999999999,
+   "duration_ms": 23642,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4875,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2773,
+    "output_tokens_details": {
+     "thinking_tokens": 1825
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4875,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2773,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4875,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4875
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

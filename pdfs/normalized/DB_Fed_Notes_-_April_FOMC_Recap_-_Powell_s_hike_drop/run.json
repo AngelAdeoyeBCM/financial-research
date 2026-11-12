@@ -1,0 +1,421 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_April_FOMC_Recap_-_Powell_s_hike_drop.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-29",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 61,
+    "referents": {
+     "thing": 13,
+     "claim": 4
+    },
+    "decisions": {
+     "link": 53,
+     "leave": 8
+    },
+    "leave_reasons": {
+     "expletive": 3,
+     "relative": 2,
+     "not_a_reference": 2,
+     "generic": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     61,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 65,
+  "kinds": {
+   "pronoun": 29,
+   "possessive": 12,
+   "deixis": 10,
+   "noun_phrase": 7,
+   "proposition": 3,
+   "demonstrative": 2,
+   "shell": 2
+  },
+  "rooted_share": 0.8488372093023255,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 58,
+  "cost_usd": 0.4735
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 264,
+   "end": 276,
+   "quote": "Chair Powell",
+   "name": "Chair Powell"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1694,
+   "end": 1707,
+   "quote": "the Committee",
+   "name": "the Committee"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2257,
+   "end": 2271,
+   "quote": "Governor Miran",
+   "name": "Governor Miran"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 124,
+   "end": 146,
+   "quote": "the April FOMC meeting",
+   "name": "the April FOMC meeting"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 386,
+   "end": 406,
+   "quote": "The press conference",
+   "name": "the press conference"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3918,
+   "end": 3950,
+   "quote": "the DoJ’s criminal investigation",
+   "name": "the DoJ’s criminal investigation"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 3744,
+   "end": 3791,
+   "quote": "he intends to remain on the Board as a Governor",
+   "name": "he intends to remain on the Board as a Governor"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5452,
+   "end": 5475,
+   "quote": "a majority of officials",
+   "name": "the majority of officials"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5486,
+   "end": 5539,
+   "quote": "keeping the mild cutting bias in the policy statement",
+   "name": "keeping the mild cutting bias in the policy statement"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5340,
+   "end": 5377,
+   "quote": "an adoption of more balanced language",
+   "name": "the adoption of more balanced language"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 5853,
+   "end": 5927,
+   "quote": "there was little cost to waiting another month before making this decision",
+   "name": "there was little cost to waiting another month before making this decision"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 7095,
+   "end": 7170,
+   "quote": "tariff-driven inflation effects to begin to wane over the next two quarters",
+   "name": "tariff-driven inflation effects to begin to wane over the next two quarters"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 7332,
+   "end": 7389,
+   "quote": "the energy price shock could spill over to core inflation",
+   "name": "the energy price shock could spill over to core inflation"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 8083,
+   "end": 8092,
+   "quote": "officials",
+   "name": "officials"
+  },
+  {
+   "id": "R15",
+   "type": "claim",
+   "start": 8774,
+   "end": 8890,
+   "quote": "Powell’s tenure ends as Fed chair with a resilient economy, a labor market near target, but inflation still too high",
+   "name": "Powell’s tenure ends as Fed chair with a resilient economy, a labor market near target, but inflation still too high"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 95,
+   "end": 102,
+   "quote": "The Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 1347,
+   "end": 1368,
+   "quote": "the meeting statement",
+   "name": "the meeting statement"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C041",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C042",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C052",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C058",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 8920",
+   "message": "+21 words: {{this point => the point that Powell’s tenure ends as Fed chair with a resilient economy, a labor market near target, but inflation still too high}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'he' in 'd when Warsh is “confirmed and sworn in he will be that Chair.” As such, Powell in'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "response": "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"thing\", \"sid\": \"E004\", \"quote\": \"Chair Powell\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E014\", \"quote\": \"the Committee\"},\n  {\"id\": \"R3\", \"type\": \"thing"
+     },
+     "reason": "unparseable JSON: Expecting value: line 87 column 82 (char 6461)"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.054919,
+   "duration_ms": 6940,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5315,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 566,
+    "output_tokens_details": {
+     "thinking_tokens": 379
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5315,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 566,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5315,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5315
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.21258170000000004,
+   "duration_ms": 64366,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7641,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 7498,
+    "output_tokens_details": {
+     "thinking_tokens": 4667
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7641,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 7498,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7641,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7641
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.20603300000000002,
+   "duration_ms": 56752,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8479,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 6831,
+    "output_tokens_details": {
+     "thinking_tokens": 4178
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8479,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 6831,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8479,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8479
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

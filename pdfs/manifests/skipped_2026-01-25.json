@@ -1,0 +1,202 @@
+{
+  "batch_id": "2026-01-25",
+  "window": [
+    "2026-01-25",
+    "2026-01-25"
+  ],
+  "generated_at": "2026-10-29T16:26:28",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-21_2026-01-24.json",
+      "sha256": "dff586b88cd0620abe333719c1c7b2513f5885407700237ed89a1cf34889619a",
+      "records": 904,
+      "dates": [
+        "2026-01-25",
+        "2026-01-28"
+      ],
+      "records_for_batch": 158
+    }
+  ],
+  "counts": {
+    "documents": 8,
+    "in_scope": 6,
+    "out_of_scope": 2,
+    "compiled": 2,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 28,
+    "edits": 11,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "UNSTRUCTURED_TEXT": 5,
+    "DISTORTED_TABLE": 4,
+    "MISSING_CHUNKS": 3,
+    "DISTORTED_FIGURE": 2
+  },
+  "documents": [
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-01-25",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-01-25",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 11,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Canada_Economics_Comment_-_January_BoC_Preview_-_Firmly_on_Hold",
+      "document": "GS_Canada Economics Comment - January BoC Preview - Firmly on Hold.pdf",
+      "date": "2026-01-25",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 11,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 2025: 0.5%; 2026: +1.6% 2025: 0.8%; 2026: 1.8% 2026: 2.0% 2026: 1.5%",
+          "chunk_id": "GS_Canada Economics Comment - January BoC Preview - Firmly on Hold.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 1 1.5 2 2.5 3 3.5 4 4.5 5 1 1.5 2",
+          "chunk_id": "GS_Canada Economics Comment - January BoC Preview - Firmly on Hold.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Canada Economics Comment - January BoC Preview - Firmly on Hold.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Canada Economics Comment - January BoC Preview - Firmly on Hold.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Global_Markets_Strategy_-_Global_Commodities_-_The_Week_in_Commodities",
+      "document": "JPM_Global Markets Strategy - Global Commodities - The Week in Commodities.pdf",
+      "date": "2026-01-25",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 67,
+      "page_count": 22,
+      "status": "skipped",
+      "missing_indices": [
+        11
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1Q26 2Q26 3Q26 4Q26 1Q27 2Q27 3Q27 4Q27 2025A 2026 2027",
+          "chunk_id": "JPM_Global Markets Strategy - Global Commodities - The Week in Commodities.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Global Markets Strategy - Global Commodities - The Week in Commodities.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 970 1,076 1,390 1,694 1,650 1,700 1,675 1,650 1,600 1,550 1,500 1,500",
+          "chunk_id": "JPM_Global Markets Strategy - Global Commodities - The Week in Commodities.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_Global Markets Strategy - Global Commodities - The Week in Commodities.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: November 21, 2025: -10 | November 14, 2025: -9 | November 14, 2025: -8",
+          "chunk_id": "JPM_Global Markets Strategy - Global Commodities - The Week in Commodities.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Global Markets Strategy - Global Commodities - The Week in Commodities.pdf-10-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: August 29, 2025: +51 | August 29, 2025: +51 | August 22, 2025: +21",
+          "chunk_id": "JPM_Global Markets Strategy - Global Commodities - The Week in Commodities.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Higher_for_longer_Sunday_Tea_with_BNP_Paribas--917187",
+      "document": "Sunday_Tea_with_BNPP_Higher_for_longer_Sunday_Tea_with_BNP_Paribas--917187.pdf",
+      "date": "2026-01-25",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

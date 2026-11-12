@@ -1,0 +1,2293 @@
+{
+  "batch_id": "2026-01-22",
+  "window": [
+    "2026-01-22",
+    "2026-01-22"
+  ],
+  "generated_at": "2026-10-29T16:26:22",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-17_2026-01-20.json",
+      "sha256": "76c56001edd30f180fd63bd46954ee91b598b3de1d4fb87af9685988188cf41b",
+      "records": 2584,
+      "dates": [
+        "2026-01-21",
+        "2026-01-24"
+      ],
+      "records_for_batch": 661
+    }
+  ],
+  "counts": {
+    "documents": 17,
+    "in_scope": 16,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 16,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 165,
+    "UNSTRUCTURED_TEXT": 56,
+    "DISTORTED_TABLE": 53,
+    "MISSING_CHUNKS": 11
+  },
+  "documents": [
+    {
+      "stem": "Adding_more_quality",
+      "document": "Adding more quality.pdf",
+      "date": "2026-01-22",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 22 January 2026 1 | 8 Jan 2026 43.05 41.0 45.0 +1.1% | 8 Jan 2026 9.4953 9.99 9.29 +3.0%",
+          "chunk_id": "Adding more quality.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -2 -1.5 -1 -0.5 0 0.5 1 1.5 2",
+          "chunk_id": "Adding more quality.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -2 -1.5 -1 -0.5 0 0.5 1 1.5 2 6 7 8",
+          "chunk_id": "Adding more quality.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jan-25 Mar-25 May-25 Jul-25 Sep-25 Nov-25 Jan-26",
+          "chunk_id": "Adding more quality.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 numeric rows: 3.50% 02/05 -0.23 n/a | 6.50% 01/27 -0.57 42% | 4.00% 02/04 -0.54 75%",
+          "chunk_id": "Adding more quality.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 8 Jan 2026 9.50 9.76 22 Jan 2026 +2.96%",
+          "chunk_id": "Adding more quality.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -3.0% -2.5% -2.0% -1.5% -1.0% -0.5% 0.0% 0.5% 1.0% 1.5% 2.0% 2.5%",
+          "chunk_id": "Adding more quality.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_Euro_Area_Rates_Strategy_-_Too_much__too_soon",
+      "document": "BC_Euro Area Rates Strategy - Too much, too soon.pdf",
+      "date": "2026-01-22",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 31,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        29
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [29]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "BC_Euro Area Rates Strategy - Too much, too soon.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 8 10 2y 5y 10y",
+          "chunk_id": "BC_Euro Area Rates Strategy - Too much, too soon.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 05 06 07 08 09 10 11 12 13 14 15 16",
+          "chunk_id": "BC_Euro Area Rates Strategy - Too much, too soon.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 numeric rows: 0 10 20 30 40 50 60 | 20y (6bn) 30y (3bn) | 20y (10bn) 30y (8bn)",
+          "chunk_id": "BC_Euro Area Rates Strategy - Too much, too soon.pdf-11-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 25-Nov-25 75 125 50 68 -2 | 30-Oct-25 97 50 85 78 19 | 10 0 15 4 6",
+          "chunk_id": "BC_Euro Area Rates Strategy - Too much, too soon.pdf-11-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_Global_Rates_Weekly_-_The_more_things_change",
+      "document": "BC_Global Rates Weekly - The more things change.pdf",
+      "date": "2026-01-22",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 125,
+      "page_count": 56,
+      "status": "skipped",
+      "missing_indices": [
+        27,
+        32,
+        38,
+        44,
+        89,
+        104,
+        112
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [27, 32, 38, 44, 89, 104, 112]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 2 3 3 11 5 7 9 0 3 5 8 2",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 Dec-18 Dec-20",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 64 34 30 33 | 94 85 68 72 | 136 132 100 107",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 21, 13 January 2026) 22 January 2026 9",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 numeric rows: 3.31 0.45 1.53 -1.00 | 0.94 -0.79 1.36 0.14 | 1.80 -2.26 -3.48 1.14",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-14-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 800 900 0 10",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-19-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Mar-26 Jun-26 Sep-26 Dec-26 Mar-27 Jun-27 Sep-27 Dec-27",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-19-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 22 January 2026 22 | +1 212 412 1848 | +44 (0) 20 7773 4954",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-22-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 40 45 50 55 60 65 70 75 80 85 90",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-23-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 40 50 60 70 80 90 100 Jan-25 Mar-25 May-25 Jul-25 Sep-25",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-24-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 30% 35%",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-25-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 2021",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-26-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 22 January 2026 27 | +44 (0) 20 3134 1456 | +44 (0) 20 7773 0533",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-27-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 8 10 2y 5y 10y",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-28-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 05 06 07 08 09 10 11 12 13 14 15 16",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-30-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 numeric rows: 0 10 20 30 40 50 60 | 20y (6bn) 30y (3bn) | 20y (10bn) 30y (8bn)",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-37-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 25-Nov-25 75 125 50 68 -2 | 30-Oct-25 97 50 85 78 19 | 10 0 15 4 6",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-37-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -20% -15% -10% -5% 0% 5% 10% 15% 20% -50 -40 -30",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-39-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 40 45 50 55 60 65 70 75 80 85 90 Jul-24",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-40-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 50",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-42-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-43-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 Jan-19 Jan-20 Jan-21 Jan-22 Jan-23",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-44-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1y -40 -30 -20 -10 0 10 20 30 40 1y",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-45-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 50 60 70 80 90 100 110 120 0 10 20 30",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-46-108",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 '15 '16 '17 '18 '19",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-47-110",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 90 95 100 105 110 115 2020 2021 2022 2023 2024 2025",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-48-113",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-49-116",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0.0 5.0 10.0 15.0 20.0 25.0 30.0 35.0 40.0 45.0",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-50-117",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 22 January 2026 53 | +1 212 412 3681 | +44 (0) 20 7773 0533",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-53-125",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48 consecutive numeric/date tokens: 2y 5y 10y 30y Q126 3.35 3.60 4.00 4.70 2.25 Q126 -15",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-56-130",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-56-130",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "53% of tokens are numeric/date values",
+          "chunk_id": "BC_Global Rates Weekly - The more things change.pdf-56-131",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_United_States_Interest_Rates_-_The_more_things_change",
+      "document": "BC_United States Interest Rates - The more things change.pdf",
+      "date": "2026-01-22",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 2 3 3 11 5 7 9 0 3 5 8 2",
+          "chunk_id": "BC_United States Interest Rates - The more things change.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 Dec-18 Dec-20",
+          "chunk_id": "BC_United States Interest Rates - The more things change.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0 Dec-22",
+          "chunk_id": "BC_United States Interest Rates - The more things change.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 64 34 30 33 | 94 85 68 72 | 136 132 100 107",
+          "chunk_id": "BC_United States Interest Rates - The more things change.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_Japan_Rates_Weekly_-_Risk_premium_to_remain_high",
+      "document": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf",
+      "date": "2026-01-22",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 23,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 1.50 1.55 1.60 1.65 1.70 1.75 1.80 1.80 10y",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 75 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 1Q 2Q 3Q",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 Jan-95",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2 14 50 75 100 125 150 175 200 Jan-26 Mar-26 Apr-26",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 numeric rows: 0 225 285 352 181 25 30 | 0 100 45 10 75 35 40 | 0 0 0 0 0 40 100",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 330 0 41 0 0 25 30 35 40 45 50 55",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: (5.0) (4.0) (3.0) (2.0) (1.0) 0.0 1.0 2.0 3.0 4.0 5.0 Jan-25",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 1.5 2.0 3Q 4Q 1Q 2Q 3Q 4Q",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 1.5 2.0 3Q 4Q 1Q 2Q 3Q 4Q",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.50 0.75 1.00 1.25 1.50 1.75 2.00 2.25 2.50 2.75 3.00 3.25",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: (60) (50) (40) (30) (20) (10) 0 10 20 30 Jan-22 Apr-22",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "17 consecutive numeric/date tokens: 1 2 1 1 2 1 0 0 0 1 2 2",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 2,968 2,581 2,600 800 714 424 700 649 0 300 11,736 100",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: arketRedemption upplyIssuance inbanBuy backMarket",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0 0 0 1,000 480 240 798 -518",
+          "chunk_id": "Citi_Japan Rates Weekly - Risk premium to remain high.pdf-10-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_Rates_Vol_Lab_-_Vol_on_30y_can_outperform_10y_on_tail_risks",
+      "document": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf",
+      "date": "2026-01-22",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 105,
+      "page_count": 29,
+      "status": "skipped",
+      "missing_indices": [
+        11,
+        40,
+        72,
+        86
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11, 40, 72, 86]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -3 -2 -1 0 1 2 3 4 5 6 7 Jan-23",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 100bps 1.2 1.6 2.0 2.4 2.8 3.2 3.6 4.0 4.4 -0.2 -0.1",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y10y100/23.245.150.30.7 53.70.71.337 2y30y100/11.378.382.20.4 3y10y100/34.142.345.00.4 3y30y100/16.675.676.90.2",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0/23.245.150.30.7 53.70.71.337 2y30y100/11.378.382.20.4 3y10y100/34.142.345.00.4 3y30y100/16.675.676.90.2 5y10y100/54.931.132.2-0.132.4-1.40.744",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -5 0 5 10 15 20 25 30 35 40 Dec-23 Apr-24",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.85 0.90 0.95 1.00 1.05 1.10 1.15 1.20 -40 -20 0 20",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y2y1y81.081.181.10.690.21-1.6-1.82y5y10y7y10y2y5y10y79.877.977.10.110.06-2.0-2.0 2y10y10y7y20y2y5y20y82.174.672.60.310.14-2.2-2.22y3y30y5y30y2y3y30y74.574.374.20.050.02-2.1-2.1 10y20y2y8y20y77.173.072.00.270.14-1.9-1.82y3y25y5y25y2y3y25y74.874.674.40.050.02-2.0-2.0 5y30y2y3y30y77.174.372.50.260.12-2.1-2.33y25y 10y10y3y7y10y74.976.777.50.030.02-1.8-1.6 15y10y2y13y10y77.174.173.60.180.11-1.4-1.62y3y20y5y20y2y3y20y75.775.174.70.030.01-2.0-2.1",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 9.90.030.01-1.8-2.0 5y20y10y15y5y5y15y72.573.975.30.170.08-1.5-1.12y30y 7y20y2y5y20y74.074.674.90.030.01-1.9-1.8 5y25y10y20y5y5y20y72.273.073.80.170.08-1.6-1.22y5y/ 2y25y7y20y2y5y20y72.974.675.30.010.00-2.0-1.9 7y25y2y5y25y76.674.373.30.160.08-1.9-1.82y30y",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 85.1(1.8)(4.4)(11.2)(1.7)(11.8)(0.3)86.5(0.5)(3.1)(6.8)(1.4)(8.8)(0.3)81.70.6(2.1)(7.0)(1.6)(10.3)(0.5)76.30.80.8(3.3)(1.0)(8.4)(0.7)7",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-9-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Jan-25 Mar-25 May-25",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0.003.590.00 0.000.010.58 0.003.593.6Dec-25 0.001.040.00 0.000.030.07 0.001.020.9Jan-25",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0.003.590.00 0.000.010.58 0.003.593.62025 0.001.870.00 0.000.640.29 0.001.221.42025",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-10-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -10 -6 -2 2 6 10 14 18 Jan-21 Jan-22 Jan-23 Jan-24",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: 2y 5y 7y 10y 30y 1y 2y 5y 7y 10y 30y 1y",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-11-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-11-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2y 5y 10y 30y 1y 2y 5y 10y 30y 1y 2y 5y",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -20 -10 0 10 20 Jan-21 Jan-22 Jan-23 Jan-24 Jan-25 Jan-26",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 68.873.169.372.569.976.41w 1.431.521.301.381.191.30Board/ 1.201.281.201.281.261.38CTD-matched vol63.166.164.267.562.665.11w 1.501.481.561.601.561.54swpn/ 1.211.241.281.331.421.45Board/swpn",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -5 0 5 10 15 20 25 109.00 109.50 110.00 110.50 111.00",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ratioFVH602/20/26108-234.143.80108.8-24.1108.253.903.64-26.42.469.760.8 1.15109.003.723.49-23.0-1.169.864.91.08FVH602/20/26108-234.143.80108.8-24.1108.003.963.69-27.13.068.959.9 1.15109.253.663.43-22.7-1.471.866.91.07FVH602/20/26108-234.143.80108.8-24.1107.754.023.73-29.25.171.859.5 1.21109.503.603.38-22.2-1.974.569.11.08FVH602/20/26108-234.143.80108.8-24.1107.504.083.78-30.76.673.059.3 1.23109.753.543.32-21.6-2.577.571.41.09FVH602/20/26108-234.143.80108.8-24.1107.254.153.80-34.610.579.059.3 1.33110.003.483.26-21.7-2.379.274.01.07FVJ603/27/26108-21.254.153.78109.9-26.8108.503.863.59-27.10.372.965.4",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-14-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-14-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 109.503.623.37-24.4-2.476.870.51.09FVJ603/27/26108-21.254.153.78109.9-26.8107.504.103.79-31.04.274.063.2 1.17109.753.563.32-23.5-3.379.372.01.10FVJ603/27/26108-21.254.153.78109.9-26.8107.254.163.83-33.26.476.463.2 1.21110.003.503.27-22.9-3.981.473.71.10TYH602/20/26111-216.425.81110.5-31.8111.504.063.73-33.01.269.363.9 1.08112.003.983.67-31.2-0.669.365.21.06TYH602/20/26111-216.425.81110.5-31.8111.004.143.80-33.82.069.562.9 1.11112.503.903.59-31.4-0.470.067.31.04TYH602/20/26111-216.425.81110.5-31.8110.504.213.86-35.53.772.062.5 1.15113.003.833.51-31.7-0.171.569.91.02TYH602/20/26111-216.425.81110.5-31.8110.004.293.92-37.75.975.262.5",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-14-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 5-0.975.971.61.06TYJ603/27/26111-15+6.515.76113.1-34.3109.004.464.05-41.87.579.767.2 1.19113.503.773.45-32.3-2.079.073.21.08TYJ603/27/26111-15+6.515.76113.1-34.3108.504.544.09-45.711.484.767.6 1.25114.003.703.38-31.7-2.681.275.11.08USH602/20/26114-3113.6112.47109.1-57.0114.004.864.26-59.92.971.962.4 1.15115.004.794.23-56.1-0.969.862.51.12USH602/20/26114-3113.6112.47109.1-57.0113.004.944.32-61.64.775.162.5 1.20116.004.714.16-55.7-1.269.663.21.10USH602/20/26114-3113.6112.47109.1-57.0112.005.014.37-63.76.778.562.9 1.25117.004.644.09-55.5-1.470.064.31.09USH602/20/26114-3113.6112.47109.1-57.0111.005.094.43-66.09.081.663.6",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-14-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: .177.867.31.16USJ603/27/26114-1513.4112.23109.7-58.6110.005.164.46-69.811.284.266.1 1.27119.004.493.95-54.2-4.478.568.51.15USJ603/27/26114-1513.4112.23109.7-58.6109.005.244.51-72.814.287.866.8 1.32120.004.423.89-53.2-5.580.569.81.15",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-14-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-14-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.68 0.73 0.78 0.83 0.88 Jan-23 Jul-23 Jan-24 Jul-24 Jan-25 Jul-25 Jan-26",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: Impl/RlzdH7-Z70.63-0.02-0.77-1.230.70-0.071.081.39 0.2272.556.1 1.3M7-H80.91-0.04-0.98-1.381.01-0.100.721.28 0.2875.256.6 1.3U7-M81.26-0.05-0.98-1.511.37-0.120.481.25 0.3477.456.8",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0.8488.856.2 1.5H0-Z07.801.350.79-0.477.440.351.241.73 0.5286.956.6",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-16-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 22.96.51.626 2y5y100/42.213.918.11.0 21.22.01.532 2y10y100/23.245.150.30.7 53.70.71.337 2y30y100/11.378.382.20.4",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 5y30y100/26.864.464.1-0.163.7-4.80.347 10y30y100/48.733.331.9-0.231.3-3.40.149 1y3y100/34.5-6.310.81.2 15.53.31.531 32.33.51.432 2y5y100/42.213.921.40.8",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 12.81.21.540 1y3y100/34.5-6.317.10.9 21.51.91.636 38.21.11.334 2y5y100/42.213.923.70.3 2y10y100/23.245.156.2-0.357.8-2.30.739",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 30.7-0.433.20.00.832 2y5y100/42.313.922.6-0.822.9-0.60.033 2y10y100/23.445.152.8-1.252.1-3.7-0.436 2y30y100/11.478.369.3-0.865.7-5.5-0.132 3y5y100/62.311.115.3-0.815.5-0.4-0.336 3y10y100/34.442.345.5-1.244.7-3.4-0.639",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0y100/23.545.150.2-1.447.0-4.7-0.934 2y30y100/11.578.357.3-0.749.9-6.0-0.326 3y5y100/62.411.113.8-1.512.0-1.3-0.832 3y10y100/34.542.341.8-1.537.6-4.0-1.134 3y30y100/16.975.648.9-0.740.6-5.3-0.425 5y10y100/55.431.128.0-1.425.7-2.7-1.135",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-17-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -6.73.01.318 -2.83.61.219 2y5y100/42.213.918.11.0 2y10y100/23.245.150.30.7 2y30y100/11.378.382.20.4 3y5y100/62.211.112.90.9",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 10y30y100/48.733.331.9-0.232.5-5.0-0.451 -1.21.20.922 1y3y100/34.5-6.310.81.2 2y5y100/42.213.921.40.8 2y10y100/23.245.154.20.4 2y30y100/11.378.384.50.2",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: y3y100/34.5-6.317.10.9 2y5y100/42.213.923.70.3 2y10y100/23.245.156.2-0.354.7-10.2-1.038 2y30y100/11.478.382.1-0.382.1-15.0-0.938 3y5y100/62.211.115.40.0 3y10y100/34.242.348.0-0.646.8-8.4-1.240",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y5y100/42.313.922.6-0.822.3-5.8-1.133 2y10y100/23.445.152.8-1.253.3-10.8-1.637 2y30y100/11.478.369.3-0.872.7-14.5-1.235 3y5y100/62.311.115.3-0.815.1-3.3-1.036 3y10y100/34.442.345.5-1.246.2-8.2-1.640 3y30y100/16.875.662.0-0.865.5-11.9-1.136",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y30y100/11.578.357.3-0.763.8-9.9-1.031 3y5y100/62.411.113.8-1.515.3-2.2-1.936 3y10y100/34.542.341.8-1.545.4-6.7-1.739 3y30y100/16.975.648.9-0.756.2-8.7-1.032 5y10y100/55.431.128.0-1.430.1-4.5-1.540 5y30y100/27.164.435.2-0.540.9-6.5-0.730",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-18-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 6.61.61.2-3.81.71.6 5.11.11.2-10.71.91.6 2y5y7y118.5/100/37.00.42.21.244 4.12.01.53.70.71.5 1.70.71.4-5.61.11.6 2y10y30y215.7/100/24.45.99.21.256",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-19-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-19-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -0.8-0.41.1-6.21.52.1 3y10y30y146.5/100/24.44.56.61.151 -1.6-0.81.48.01.02.3 5y10y15y91.0/100/36.84.04.70.715 -511.81.10.24.80.52.1 5y10y30y91.0/100/24.4-1.10.10.357",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-19-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-19-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 01.31.16.00.11.4 -1.5-0.91.1-5.21.02.0 3y10y30y146.3/100/24.44.58.40.740 -2.2-1.01.610.10.32.0 5y10y15y91.0/100/36.84.05.10.3 -521.71.00.35.40.22.0",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-19-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-19-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 108.3/100/37.13.15.40.015 -561.20.70.76.0-0.50.3 -2.4-1.50.8-4.50.30.9 3y10y30y146.0/100/24.44.511.0-0.730 -2.8-1.21.412.5-0.40.4 5y10y15y90.8/100/36.84.05.6-0.7-4",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-19-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 6.61.61.5-6.5-6.8-1.90 5.11.11.5-13.4-6.1-1.832 2y5y7y118.5/100/37.00.42.21.244 4.12.01.60.5 1.70.71.6-8.6-8.1-1.921 2y10y30y215.7/100/24.45.99.21.256",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-20-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-20-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y146.5/100/24.44.56.61.151 -1.6-0.81.55.1-15.7-1.627 5y10y15y91.0/100/36.84.04.70.715 -511.81.10.24.5-18.8-1.933 5y10y30y91.0/100/24.4-1.10.10.357 10y20y30y82.1/100/40.017.617.6-0.78",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-20-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-20-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y146.3/100/24.44.58.40.740 -2.2-1.01.66.8-17.1-1.632 5y10y15y91.0/100/36.84.05.10.3 -521.71.00.34.9-18.9-1.934 5y10y30y91.0/100/24.4-1.11.30.048 -5.1-2.30.60.7-23.4-1.725",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-20-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-20-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y146.0/100/24.44.511.0-0.730 -2.8-1.21.39.7-18.5-1.739 5y10y15y90.8/100/36.84.05.6-0.7-4 -491.50.80.25.4-18.9-1.936 -5.1-2.30.92.5-23.6-1.736 10y20y30y81.9/100/40.017.617.0-1.011",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-20-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 57.41.9(2.1)(10.2)(1.0)2.50.159.11.6(2.8)(8.6)(1.1)(2.2)(0.1)60.71.6(1.1)(7.0)(1.2)(4.8)(0.2)62.22.4(1.2)(6.9)(1.6)(4.6)(0.2)2 58.80.1(4.4)(10.1)(1.2)3.90.161.00.1(2.1)(8.1)(1.2)(0.3)(0.0)61.80.5(2.2)(6.6)(1.4)(3.7)(0.2)60.30.9(1.4)(6.4)(2.1)(6.5)(0.3)3 63.8(0.9)(7.0)(9.6)(1.4)8.90.263.40.4(4.2)(7.6)(1.3)2.20.164.6(0.0)(0.3)(5.2)(1.2)(0.9)(0.0)59.90.6(0.6)(4.9)(2.0)(6.9)(0.4)4 63.7(2.2)(4.9)(8.9)(1.4)8.80.264.6(0.1)(3.2)(6.3)(1.3)3.30.165.81.40.2(4.1)(1.1)0.30.059.30.9(1.0)(3.5)(1.9)(7.5)(0.4)5 66.9(0.2)(6.0)(9.6)(1.6)12.00.366.20.7(5.1)(6.7)(1.5)4.90.265.70.4(0.7)(4.6)(1.3)0.20.059.31.1(1.1)(2.2)(1.5)(7.5)(0.4)6 71.1(0.1)(5.0)(7.7)(1.6)16.20.469.61.0(4.9)(5.0)(1.5)8.30.367.80.3(0.3)(3.6)(1.2)2.30.159.51.0(1.0)(0.7)(0.6)(7.3)(0.4)7",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-23-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-23-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: (1.8)14.80.466.4(0.0)(4.4)(5.8)(1.3)5.10.264.8(0.7)(2.1)(4.4)(1.6)(0.7)(0.0)57.20.7(0.1)0.70.5(9.6)(0.5)9 70.8(2.0)(4.6)(7.0)(1.6)15.90.466.7(0.1)(4.7)(5.5)(1.4)5.40.264.9(1.0)(2.8)(4.6)(1.9)(0.7)(0.0)56.60.6(0.2)1.50.9(10.2)(0.5)",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-23-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 50 60 70 0 1 2 3 4 5 6 7 8",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-23-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-23-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -2 -1 0 1 2 3 4 5 6 Jan-25 Mar-25 May-25",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-24-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: 2y 5y 7y 10y 30y 1y 2y 5y 7y 10y 30y 1y",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-24-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-24-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-25-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-25-82",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.60 0.70 0.80 0.90 Jan-23 Jul-23 Jan-24 Jul-24 Jan-25 Jul-25 Jan-26",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-25-84",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.60 0.70 0.80 0.90 Jan-23 Jul-23 Jan-24 Jul-24 Jan-25 Jul-25 Jan-26",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-25-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-25-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y2y100/50.517.319.60.924.1-0.10.865 0.340.430.09-2.3 1y3y100/34.128.230.91.038.00.10.963 0.480.620.14-2.7 1y5y100/21.047.850.31.260.20.91.056 0.610.720.11-2.5",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: y100/23.962.860.00.164.3-2.6-0.135 10y30y100/44.628.025.9-0.528.7-2.4-0.541 1y2y100/50.517.321.61.127.60.91.070 0.280.310.03-4.3 1y3y100/34.128.233.11.241.81.41.066 0.370.450.07-4.9",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y3y100/34.128.232.81.641.13.82.066 0.210.260.04-4.6 1y5y100/21.047.850.01.761.15.72.056 0.280.300.02-2.3 2y5y100/41.530.528.11.831.82.31.646 0.090.110.02",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0.030.060.03 2y10y100/22.465.349.20.553.30.70.032 2y30y100/10.093.358.4-0.365.0-3.1-0.727 3y5y100/61.719.514.30.815.1-0.10.135 3y10y100/33.254.340.90.243.8-0.4-0.230 3y30y100/14.982.350.1-0.555.6-4.2-0.926",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y5y100/61.819.512.80.013.30.5-0.131 0.010.020.01 3y10y100/33.354.335.6-0.537.4-0.6-0.727 3y30y100/14.982.336.5-0.939.0-4.9-1.322 0.040.030.0045.8 5y10y100/54.034.822.8-0.924.1-1.1-1.225",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-26-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y2y100/50.517.319.60.914.6-0.50.8480.340.430.09-2.3 1y3y100/34.128.230.91.023.40.11.0450.480.620.14-2.7 1y5y100/21.047.850.31.240.32.61.5420.610.720.11-2.5 2y5y100/41.530.530.61.426.32.91.9400.250.270.02-0.2 2y10y100/22.265.364.81.359.23.41.7360.340.28-0.060.4 2y30y100/9.993.390.70.781.3-2.30.8330.550.36-0.192.6",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: .4-0.4320.140.03-0.112.2 1y2y100/50.517.321.61.115.3-0.21.1490.280.310.03-4.3 1y3y100/34.128.233.11.224.30.61.2460.370.450.07-4.9 1y5y100/21.047.851.91.440.32.61.6420.490.530.04-4.2 2y5y100/41.630.530.31.625.52.61.9390.190.200.01 2y10y100/22.365.363.61.356.73.31.6340.280.19-0.091.6",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1.739.70.61.2410.280.300.02-2.3 2y5y100/41.530.528.11.824.72.41.8380.090.110.02 2y10y100/22.365.359.11.253.12.51.3320.160.08-0.086.1 2y30y100/10.093.377.70.367.9-3.00.5270.270.12-0.1615.6 3y5y100/61.519.517.21.715.00.91.6340.060.03-0.032.3 3y10y100/33.054.348.20.943.41.11.0300.120.00-0.126.1",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-95",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-95",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 2y30y100/10.093.358.4-0.352.3-5.70.1240.110.07-0.0434.8 3y5y100/61.719.514.30.813.50.21.1310.010.00-0.015.2 3y10y100/33.254.340.90.238.2-1.10.4270.05-0.02-0.0713.4 3y30y100/14.982.350.1-0.545.0-6.5-0.1240.090.00-0.1032.1 5y10y100/53.834.826.6-0.324.8-1.2-0.1260.03-0.02-0.058.2 5y30y100/24.162.835.8-0.831.6-6.7-0.3220.07-0.01-0.0826.9",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 7-0.2250.020.00-0.0218.7 3y30y100/14.982.336.5-0.934.1-8.7-0.4210.040.030.0045.8 5y10y100/54.034.822.8-0.921.7-1.2-0.4230.01-0.01-0.0312.0 5y30y100/24.262.823.7-1.121.9-7.2-0.4190.020.01-0.0139.0 10y30y100/44.928.00.9-1.10.2-6.0-0.5160.010.030.0227.1",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-27-97",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y3y5y146.7/100/30.74.45.80.490 700.70.62.17.9-0.5 2y5y7y120.4/100/36.67.47.61.381 131.20.71.79.3-0.2 -130.50.41.4-0.40.2 2y10y30y224.9/100/22.318.619.52.273",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-28-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-28-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -471.30.60.6-1.30.3 3y10y30y151.8/100/22.313.113.82.659 -562.30.50.314.10.3 5y10y15y93.4/100/35.97.07.11.530 16-0.2-0.10.37.3-0.4 5y10y30y93.4/100/22.33.44.21.940",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-28-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-28-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 160.70.41.29.10.4 -501.20.60.8-0.90.5 3y10y30y151.6/100/22.313.114.32.752 -592.10.50.614.90.6 5y10y15y93.3/100/35.97.07.11.525 15-0.3-0.20.67.6-0.6",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-28-101",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-28-101",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y7y10y110.6/100/36.68.07.31.916 220.20.10.98.20.7 -510.90.40.5-0.90.9 3y10y30y151.3/100/22.413.114.82.539 -611.70.40.815.61.1 5y10y15y93.1/100/36.07.06.91.120",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-28-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 1y3y5y146.7/100/30.74.45.80.490 0.70.62.23.5-1.00.364 2y5y7y120.4/100/36.67.47.61.381 1.20.71.75.80.51.850 -130.50.41.4-3.20.61.458 2y10y30y224.9/100/22.318.619.52.273",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-29-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-29-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y151.8/100/22.313.113.82.659 -562.30.50.313.63.13.143 5y10y15y93.4/100/35.97.07.11.530 -0.2-0.10.26.80.62.335 5y10y30y93.4/100/22.33.44.21.940 -732.30.6-0.74.92.61.751",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-29-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-29-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y151.6/100/22.313.114.32.752 -592.10.50.613.73.12.843 5y10y15y93.3/100/35.97.07.11.525 -0.3-0.20.56.50.72.234 5y10y30y93.3/100/22.33.44.91.837 -752.20.6-0.65.52.61.553",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-29-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-29-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 3y10y30y151.3/100/22.413.114.82.539 -611.70.40.714.12.71.744 5y10y15y93.1/100/36.07.06.91.120 -0.7-0.40.86.10.41.332 5y10y30y93.1/100/22.43.46.21.733 -762.10.6-0.46.62.40.857",
+          "chunk_id": "Citi_Rates Vol Lab - Vol on 30y can outperform 10y on tail risks.pdf-29-107",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Colombia_Asset_repatriation_decree_signals_Coltes_boost_Desknote--917072",
+      "document": "Colombia_Asset_repatriation_decree_signals_Coltes_boost_Desknote--917072.pdf",
+      "date": "2026-01-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 13,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 18 23 28 33 38 0 200 400 600 800 1000 2011",
+          "chunk_id": "Colombia_Asset_repatriation_decree_signals_Coltes_boost_Desknote--917072.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 50 100 2011 2012 2013 2014 2015 2016 2017 2018 2019",
+          "chunk_id": "Colombia_Asset_repatriation_decree_signals_Coltes_boost_Desknote--917072.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: 602.0 - 0.6 14.9 14.9 598.7 - - 255.2 42 0.3 5.1",
+          "chunk_id": "Colombia_Asset_repatriation_decree_signals_Coltes_boost_Desknote--917072.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Colombia_Asset_repatriation_decree_signals_Coltes_boost_Desknote--917072.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "27 consecutive numeric/date tokens: 242.8 40 1.4 17.5 17.5 239.4 40 39 30.0 5 -2.8 37.2",
+          "chunk_id": "Colombia_Asset_repatriation_decree_signals_Coltes_boost_Desknote--917072.pdf-3-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_ECB_Watcher_-_December_accounts__All_about_the_risks",
+      "document": "DB_ECB Watcher - December accounts –All about the risks.pdf",
+      "date": "2026-01-22",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 15,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 2015",
+          "chunk_id": "DB_ECB Watcher - December accounts –All about the risks.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 22 January 2026 -10 -8 -6 -4 -2 0 2 4 6",
+          "chunk_id": "DB_ECB Watcher - December accounts –All about the risks.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45% of tokens are numeric/date values",
+          "chunk_id": "DB_ECB Watcher - December accounts –All about the risks.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_rates_How_to_approach_end-of-cycle_trades_Desknote--917064",
+      "document": "EM_rates_How_to_approach_end-of-cycle_trades_Desknote--917064.pdf",
+      "date": "2026-01-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 3.5 4.5 5.5 6.5 7.5 -100 -50 0 50 100 Jun-23 Dec-23",
+          "chunk_id": "EM_rates_How_to_approach_end-of-cycle_trades_Desknote--917064.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2.0 2.5 3.0 3.5 4.0 -30 -20 -10 0 10 20 30",
+          "chunk_id": "EM_rates_How_to_approach_end-of-cycle_trades_Desknote--917064.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -100 -50 0 50 100 -100 -50 0 50 100 Jan-25 Apr-25",
+          "chunk_id": "EM_rates_How_to_approach_end-of-cycle_trades_Desknote--917064.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "EM_rates_How_to_approach_end-of-cycle_trades_Desknote--917064.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 11",
+          "chunk_id": "EM_rates_How_to_approach_end-of-cycle_trades_Desknote--917064.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "EM_rates_How_to_approach_end-of-cycle_trades_Desknote--917064.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_European_Daily_-_ECB_The_Hurdle_for_Action",
+      "document": "GS_European Daily - ECB—The Hurdle for Action.pdf",
+      "date": "2026-01-22",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 12,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Credit_returns_can_withstand_tight_spreads",
+      "document": "GS_Global Markets Daily - Credit returns can withstand tight spreads.pdf",
+      "date": "2026-01-22",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 100 300 500 700 900 1,100 1,300 1,500 1,700 1,900 2,100 50",
+          "chunk_id": "GS_Global Markets Daily - Credit returns can withstand tight spreads.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Global_Markets_Strategy_-__Monthly_Inflation_Outlook_-_Trading_the_breakeven_range",
+      "document": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf",
+      "date": "2026-01-22",
+      "publisher": "JP Morgan",
+      "document_type": "Monthly",
+      "chunk_count": 66,
+      "page_count": 26,
+      "status": "skipped",
+      "missing_indices": [
+        13,
+        27,
+        33,
+        57,
+        60
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [13, 27, 33, 57, 60]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 7 - 26 24 - 38 22 Dec 25 - 21 Jan",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 2Q25 3Q25 4Q25 1Q26 2Q26",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2.3 2.4 2.5 2.6 2.7 2.0 2.1 2.1 2.2 2.2 2.3 Jan",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 1.4% 1.5% 1.6% 1.7% 1.8% 1.9% 2.0% 2.1% Jan 26 Apr 26",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 24M -0.01 0.00 0.01 0.02 0.03 0.04 0.05 0% 20% 40% 60%",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 12M -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 -40% -20% 0%",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 82% 26 28 30 32 34 36 38 2.30 2.35 2.40 2.45",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -10 0 10 20 30 40 -5 0 5 10 15 20",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-6-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: -0.51 15% 0 0.12 12% 1 -0.05 3% 0 10Y",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-7-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: Feb26 0.0 2.0 4.0 6.0 8.0 Jan 09 Jan 11 Jan 13",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-8-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: Feb26 0.0 2.0 4.0 6.0 8.0 Jan 09 Jan 11 Jan 13",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-8-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -20 0 20 40 60 -3.0 0.0 3.0 6.0 9.0 12.0 Jan",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-9-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 15 20 25 30",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -20% 0% 20% 40% 60% 80% 100% 120% Jul 25 Aug 25",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-11-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2.6 2.8 3.0 3.2 3.4 3.6 3.8 Jan 23 Jul 23 Jan",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-12-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1.25 -1.00 -0.75 -0.50 -0.25 0.00 0.25 0.50 0.75 1.00 Sep 13",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-12-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-13-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -40 -20 0 20 40 Jan 19 Jan 20 Jan 21 Jan",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-14-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -3% -1% 1% 3% 5% 7% 9% 11% Dec 20 Dec 21",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2.32 2.37 2.42 2.47 2.52 Jul 25 Aug 25 Sep 25 Oct",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-15-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.10 1.20 1.30 1.40 1.50 1.60 1.70 1.80 1.90 2.00 2.10",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -2.0% -1.0% 0.0% 1.0% 2.0% 3.0% 4.0% 5.0% 2020 2021 2022 2023",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-17-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "30 consecutive numeric/date tokens: 1/20/2026 158 59 2.32 2.18 175 1Q26 157 55 2.40 1.60 180",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-17-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "83 consecutive numeric/date tokens: 1/10/2026 112.10 1.145 1.148 1.138 1.130 1.121 1.133 1.121 1.077 1.054 1.023",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-18-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51 consecutive numeric/date tokens: 125 1.116 1.128 1.116 1.072 1.049 1.018 6/10/2026 111.96 1.147 1.136 1.129",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-18-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 1 2 3 4 5 Apr 25 May 25 Jun 25",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-19-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 1 2 3 4 5 Apr 25 May 25 Jun 25",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-19-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 1 1 0 0 100% 5 | - - - - - - | - - - - - -",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-23-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: Jul 30 May 30 193 180 180 180 180 10Y",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-24-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 0 10 20 30 40 50",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-25-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "201 consecutive numeric/date tokens: Jan 26 128.1 -0.6% 1.6% 119.7 -0.1% 0.6% 406.2 -0.6% 3.7% 139.4",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-26-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "245 consecutive numeric/date tokens: 2.3% 142.6 0.2% 2.0% 334.2 0.0% 3.0% Nov 26 130.8 -0.3% 1.6%",
+          "chunk_id": "JPM_Global Markets Strategy -  Monthly Inflation Outlook - Trading the breakeven range.pdf-26-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Highlighted_Research_-_US_Policy_Call_Transcript",
+      "document": "JPM_Highlighted Research - US Policy Call Transcript.pdf",
+      "date": "2026-01-22",
+      "publisher": "JP Morgan",
+      "document_type": "Invitation/Video/Podcast",
+      "chunk_count": 23,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        1
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [1]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Monthly_Inflation_Outlook_-_Trading_the_breakeven_range",
+      "document": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf",
+      "date": "2026-01-22",
+      "publisher": "JP Morgan",
+      "document_type": "Monthly",
+      "chunk_count": 66,
+      "page_count": 26,
+      "status": "skipped",
+      "missing_indices": [
+        13,
+        27,
+        33,
+        57,
+        60
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [13, 27, 33, 57, 60]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 7 - 26 24 - 38 22 Dec 25 - 21 Jan",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 2Q25 3Q25 4Q25 1Q26 2Q26",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2.3 2.4 2.5 2.6 2.7 2.0 2.1 2.1 2.2 2.2 2.3 Jan",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 1.4% 1.5% 1.6% 1.7% 1.8% 1.9% 2.0% 2.1% Jan 26 Apr 26",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 24M -0.01 0.00 0.01 0.02 0.03 0.04 0.05 0% 20% 40% 60%",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 12M -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 -40% -20% 0%",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 82% 26 28 30 32 34 36 38 2.30 2.35 2.40 2.45",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -10 0 10 20 30 40 -5 0 5 10 15 20",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-6-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: -0.51 15% 0 0.12 12% 1 -0.05 3% 0 10Y",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-7-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: Feb26 0.0 2.0 4.0 6.0 8.0 Jan 09 Jan 11 Jan 13",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-8-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: Feb26 0.0 2.0 4.0 6.0 8.0 Jan 09 Jan 11 Jan 13",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-8-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -20 0 20 40 60 -3.0 0.0 3.0 6.0 9.0 12.0 Jan",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-9-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 15 20 25 30",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -20% 0% 20% 40% 60% 80% 100% 120% Jul 25 Aug 25",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-11-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2.6 2.8 3.0 3.2 3.4 3.6 3.8 Jan 23 Jul 23 Jan",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-12-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1.25 -1.00 -0.75 -0.50 -0.25 0.00 0.25 0.50 0.75 1.00 Sep 13",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-12-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -40 -20 0 20 40 Jan 19 Jan 20 Jan 21 Jan",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-14-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -3% -1% 1% 3% 5% 7% 9% 11% Dec 20 Dec 21",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2.32 2.37 2.42 2.47 2.52 Jul 25 Aug 25 Sep 25 Oct",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-15-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.10 1.20 1.30 1.40 1.50 1.60 1.70 1.80 1.90 2.00 2.10",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -2.0% -1.0% 0.0% 1.0% 2.0% 3.0% 4.0% 5.0% 2020 2021 2022 2023",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-17-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "30 consecutive numeric/date tokens: 1/20/2026 158 59 2.32 2.18 175 1Q26 157 55 2.40 1.60 180",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-17-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "83 consecutive numeric/date tokens: 1/10/2026 112.10 1.145 1.148 1.138 1.130 1.121 1.133 1.121 1.077 1.054 1.023",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-18-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51 consecutive numeric/date tokens: 125 1.116 1.128 1.116 1.072 1.049 1.018 6/10/2026 111.96 1.147 1.136 1.129",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-18-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 1 2 3 4 5 Apr 25 May 25 Jun 25",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-19-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 1 2 3 4 5 Apr 25 May 25 Jun 25",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-19-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 1 1 0 0 100% 5 | - - - - - - | - - - - - -",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-23-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: Jul 30 May 30 193 180 180 180 180 10Y",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-24-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 0 10 20 30 40 50",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-25-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "201 consecutive numeric/date tokens: Jan 26 128.1 -0.6% 1.6% 119.7 -0.1% 0.6% 406.2 -0.6% 3.7% 139.4",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-26-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "245 consecutive numeric/date tokens: 2.3% 142.6 0.2% 2.0% 334.2 0.0% 3.0% Nov 26 130.8 -0.3% 1.6%",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Trading the breakeven range.pdf-26-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152",
+      "document": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf",
+      "date": "2026-01-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Outlook",
+      "chunk_count": 41,
+      "page_count": 23,
+      "status": "skipped",
+      "missing_indices": [
+        4,
+        13,
+        15,
+        21,
+        29,
+        45
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4, 13, 15, 21, 29, 45]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "50% of tokens are numeric/date values",
+          "chunk_id": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0 50 100 150 200 250 300 1 4 7 10 13",
+          "chunk_id": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf-16-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0.0976 -25% -20% -15% -10% -5% 0% 5% 10% 15% 20% -20%",
+          "chunk_id": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf-19-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 0.46 0.44 0.47 0.54 0.49 0.44 0.42 0.37 0.52 0.62",
+          "chunk_id": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf-20-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 0.34 0.38 0.33 0.45 0.35 0.29 0.33 0.31 0.40 0.59",
+          "chunk_id": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf-20-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.142 -3.0 -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 0 5",
+          "chunk_id": "Liquid_alternatives_outlook_Playbook_for_high-altitude_investing_Desknote--917152.pdf-21-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_U.S._Data_Pulse_-_Personal_income__spending__and_PCE_prices",
+      "document": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf",
+      "date": "2026-01-22",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        1
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [1]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 Feb-24 Apr-24 Jun-24",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45% of tokens are numeric/date values",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -0.4% -0.2% 0.0% 0.2% 0.4% 0.6% 0.8% 1.0%",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: Jan-25 Feb-25 Mar-25 Apr-25 May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: Nov-25 Oct-25 Sep-25 Aug-25 Jul-25 Jun-25 May-25 Apr-25 Mar-25 Feb-25 Jan-25 Dec-24",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 0.6 0.3 -0.5 0.1 1.3 -0.2 -2.2 -0.6 4.2 0.1 -4.5 2.6",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 0.0 0.8 0.5 -0.3 0.3 0.6 0.0 0.8 0.1 0.2 -0.3 -0.1",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.0 -0.1 0.1",
+          "chunk_id": "MS_U.S. Data Pulse - Personal income, spending, and PCE prices.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

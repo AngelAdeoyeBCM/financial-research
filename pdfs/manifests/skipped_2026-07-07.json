@@ -1,0 +1,105 @@
+{
+  "batch_id": "2026-07-07",
+  "window": [
+    "2026-07-07",
+    "2026-07-07"
+  ],
+  "generated_at": "2026-10-29T16:30:27",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 24
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 2,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 4,
+    "DISTORTED_TABLE": 1
+  },
+  "documents": [
+    {
+      "stem": "EUR_rates_Re-entering_steepener_and_buying_long-end_volatility_Trade_Idea--927717",
+      "document": "EUR_rates_Re-entering_steepener_and_buying_long-end_volatility_Trade_Idea--927717.pdf",
+      "date": "2026-07-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 30 35 55 60",
+          "chunk_id": "EUR_rates_Re-entering_steepener_and_buying_long-end_volatility_Trade_Idea--927717.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 Mar-04 Mar-08 Mar-12 Mar-16",
+          "chunk_id": "EUR_rates_Re-entering_steepener_and_buying_long-end_volatility_Trade_Idea--927717.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPY_rates_Value_in_IRS_5y5y_above_3.4_Trade_Idea--927662",
+      "document": "JPY_rates_Value_in_IRS_5y5y_above_3.4_Trade_Idea--927662.pdf",
+      "date": "2026-07-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2.4 2.9 3.4 3.9 4.4 1.3 1.8 2.3 2.8 3.3 May-25 Jul-25",
+          "chunk_id": "JPY_rates_Value_in_IRS_5y5y_above_3.4_Trade_Idea--927662.pdf-1-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 1.0 2.0 3.0 4.0 1 3 5 7 9 11 13 15",
+          "chunk_id": "JPY_rates_Value_in_IRS_5y5y_above_3.4_Trade_Idea--927662.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 28% 26% 28% 34% 20% 36% 20% 29% 29% 2Q 2026",
+          "chunk_id": "JPY_rates_Value_in_IRS_5y5y_above_3.4_Trade_Idea--927662.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

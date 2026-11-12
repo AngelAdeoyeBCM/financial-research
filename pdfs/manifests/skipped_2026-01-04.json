@@ -1,0 +1,858 @@
+{
+  "batch_id": "2026-01-04",
+  "window": [
+    "2026-01-04",
+    "2026-01-04"
+  ],
+  "generated_at": "2026-10-29T16:26:02",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-01_2026-01-04.json",
+      "sha256": "0933c9faeba37b25021d73d5dbb0af41e26b48ddd92a257fe36c1d23dd47ebdc",
+      "records": 650,
+      "dates": [
+        "2026-01-01",
+        "2026-01-04"
+      ],
+      "records_for_batch": 230
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 5,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 19,
+    "edits": 21,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 67,
+    "UNSTRUCTURED_TEXT": 21,
+    "DISTORTED_TABLE": 14,
+    "MISSING_CHUNKS": 4
+  },
+  "documents": [
+    {
+      "stem": "BC_Venezuela_-_A_political_transition_has_started",
+      "document": "BC_Venezuela - A political transition has started.pdf",
+      "date": "2026-01-04",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 30,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        23
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [23]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: January 3, 2026 6 | January 3, 2026 7 | January 3, 2026 8",
+          "chunk_id": "BC_Venezuela - A political transition has started.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 4.1 9.1 14.1 0.3 4.7 9.2 35c 40c 45c 35c",
+          "chunk_id": "BC_Venezuela - A political transition has started.pdf-7-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 13.63% 18 33.2 Aug-98 - 114 0.75 1.61 41.0 46.9 52.7 36.5",
+          "chunk_id": "BC_Venezuela - A political transition has started.pdf-8-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BC_Venezuela - A political transition has started.pdf-8-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 9.25% 28 32.0 May-08 75% 80 2.00 3.60 34.5 39.4 44.3 30.7",
+          "chunk_id": "BC_Venezuela - A political transition has started.pdf-8-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 28.0 56.5 98.4 33.3 38.1 42.9 29.7 33.9 38.1 5.4 10.1 14.9",
+          "chunk_id": "BC_Venezuela - A political transition has started.pdf-8-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 1980 1984 1988 1992",
+          "chunk_id": "BC_Venezuela - A political transition has started.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_2026_Inflation_Outlook_-_Traveling_Toward_Target",
+      "document": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf",
+      "date": "2026-01-04",
+      "publisher": "Goldman Sachs",
+      "document_type": "Outlook",
+      "chunk_count": 31,
+      "page_count": 14,
+      "status": "skipped",
+      "missing_indices": [
+        12,
+        28
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12, 28]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: December 2026 0.00 0.02 0.04 0.06 0.08 0.10 0.12 0.14 0.16 0.00",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.2 1.6 2.0 2.4 2.8 3.2 3.6 1.2 1.6 2.0 2.4 2.8",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 0 2 4 6",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1.1 5.1 2.7 0.0 1.3 0.0 0.3 -0.1",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 -1.0 -0.5 0.0",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.5 1.0 1.5 2.0 2.5 3.0 Jan-21 Oct-21 Jul-22 Apr-23 Jan-24 Oct-24",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2010 2012 2014 2016 2018 2020 2022 2024 2026 -0.5 0.0 0.5",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2.2 2.0 2.5 2.1 2.5 2.1 0.0 0.5 1.0 1.5 2.0 2.5",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 100% -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 -0.6 -0.4 -0.2 0.0",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -35 -30 -25 -20 -15 -10 -5 0 5 10 -35 -30",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.36 -4 -3 -2 -1 0 1 2 - 1 01234567",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -9 -6 -3 0 3 6 9 12 15 -9 -6 -3",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-10-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 850 900 950 1000 1050 1100 1150 850 900 950 1000 1050",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 5 10 15 20 25 30 0 5 10 15 20",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 100.0 2.6 2.7 0.1 2.0 -0.6 2.0 -0.6",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-12-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-13-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-13-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4.4 3.9 3.8 3.4 3.2 3.9 3.8 3.8 3.7 3.6 3.5 3.4",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_ECONOMICS_ANALYST_-_2026_Inflation_Outlook_-_Traveling_Toward_Target",
+      "document": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf",
+      "date": "2026-01-04",
+      "publisher": "Goldman Sachs",
+      "document_type": "Outlook",
+      "chunk_count": 31,
+      "page_count": 14,
+      "status": "skipped",
+      "missing_indices": [
+        12,
+        28
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12, 28]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: December 2026 0.00 0.02 0.04 0.06 0.08 0.10 0.12 0.14 0.16 0.00",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1.2 1.6 2.0 2.4 2.8 3.2 3.6 1.2 1.6 2.0 2.4 2.8",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 0 2 4 6",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1.1 5.1 2.7 0.0 1.3 0.0 0.3 -0.1",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 -1.0 -0.5 0.0",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.5 1.0 1.5 2.0 2.5 3.0 Jan-21 Oct-21 Jul-22 Apr-23 Jan-24 Oct-24",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2010 2012 2014 2016 2018 2020 2022 2024 2026 -0.5 0.0 0.5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2.2 2.0 2.5 2.1 2.5 2.1 0.0 0.5 1.0 1.5 2.0 2.5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 100% -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 -0.6 -0.4 -0.2 0.0",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -35 -30 -25 -20 -15 -10 -5 0 5 10 -35 -30",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.36 -4 -3 -2 -1 0 1 2 - 1 01234567",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -9 -6 -3 0 3 6 9 12 15 -9 -6 -3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-10-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 850 900 950 1000 1050 1100 1150 850 900 950 1000 1050",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 5 10 15 20 25 30 0 5 10 15 20",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 100.0 2.6 2.7 0.1 2.0 -0.6 2.0 -0.6",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-12-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-13-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-13-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 4.4 3.9 3.8 3.4 3.2 3.9 3.8 3.8 3.7 3.6 3.5 3.4",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Economic_Outlook_2026-2028_-_What_next",
+      "document": "UBS_US Economic Outlook 2026-2028 - What next.pdf",
+      "date": "2026-01-04",
+      "publisher": "UBS",
+      "document_type": "Outlook",
+      "chunk_count": 41,
+      "page_count": 37,
+      "status": "skipped",
+      "missing_indices": [
+        7,
+        20,
+        27,
+        31,
+        33,
+        37,
+        40,
+        42,
+        45
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7, 20, 27, 31, 33, 37, 40, 42, 45]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 2023 2024 2025 2026 2027 2028 | 3.4 2.4 2.0 2.0 2.1 2.6 | 3.8 4.2 4.5 4.5 4.4 4.3",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 2.33% 1.53% 2.62% 1.0% 1.5% 2.0% 2.5% 3.0% 3.5% 4.0%",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 10 -47 -75 0 75 150 225 300 375 2023 2024 2025",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-3-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0.8 1.1 0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-4-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 330 340 350 360 370 380 390 400 410 420 2021 2022",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-5-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1.5% 2.0% 2.5% 3.0% 3.5% 4.0% Jan 24 Apr 24 Jul 24",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-6-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -1.0 -1.0 0.0 -0.1 1.1 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-7-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 2.5 3.0 3.5 4.0 4.5 1979 - Mar 1988 - Jun 1997",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-8-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-8-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 60 62 64 66 68 70 72 74 76 78 80 2021",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-9-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "56 consecutive numeric/date tokens: 2024 - Q1 704.8 796.2 666.9 92.7 763.0 2024 - Q2 697.8",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-10-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-10-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 25 30 35 40 45 50 55 60 65 70",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-11-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-11-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2000 2003 2006 2009 2012 2015 2018 2021 2024 -10 -5 0",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-12-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-12-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 12.2 0 5 10 15 20 25 30 1900 1914 1928 1942",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-13-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 12.2 0 5 10 15 20 25 30 1900 1914 1928 1942",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-13-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: February 4 – 10% | March 4 – 25% | March 12 – 25%",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-14-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -60% -40% -20% 0% 20% 40% 60% 80% 100% 2003 2005 2007",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-14-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 10, 11.8 0 5 10 15 20 25 30 1900 1914 1928",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-15-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 8.73 4.56 3.4 3.8 4.2 4.6 6.4 6.9 7.4 7.9 8.4 8.9",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-16-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 10 -47 -75 0 75 150 225 300 375 2023 2024 2025",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-17-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-17-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 40 45 50 1967",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-18-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0% 1% 2% 3% 4% 5% 6% 7% 1997 2000 2003 2006",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-19-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-19-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0 2.0",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-20-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-20-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 200 400 600 800 1000 1200 1400 1600 1800 2000 1993",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-21-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -5% 0% 5% 10% 15% 2015 2017 2019 2021 2023 2025",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-22-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -1.2% -0.6% 0.0% 0.6% 1.2% 1.8% 2.4% Jan Feb Mar Apr May",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-23-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-23-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 0.0 1.0 2.0 3.0",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-24-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0 1,000 2,000 3,000 4,000 5,000 6,000 7,000 8,000 9,000 10,000 '07",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-25-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.6 3.4 3.1 3.1 3.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-26-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: February 5, 2018 0 2 4 6 8 10 12 14 Sep-82",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-27-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-27-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 2023",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-28-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: - 6.61% -20% -10% 0% 10% 20% 2013 - Q1 2015 -",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-29-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-29-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -6.6 -6.1 -6.2 -6.3 -6.1 -6.6 -6.8 -7.2 -7.3 -7.1 -8.0 -7.0",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-30-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-30-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-31-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 1.56% 60 61 62 63 64 65 66 67 68",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-32-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-32-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0.92 0.36 0.22 0.50 0% 10% 20% 30% 40% 50% 60% 70%",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-33-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 1000 1100 1200 1300 1400 1500 45000 50000 55000 60000 65000 70000",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-34-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -971 -538 -675 -550 -824 -1000 -900 -800 -700 -600 -500 -400",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-35-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 2023 2024 2025 2026 2027 2028 | 3.4 2.4 2.0 2.0 2.1 2.6 | 3.8 4.2 4.5 4.5 4.4 4.3",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-36-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "123 consecutive numeric/date tokens: 2025 Jan 4.25 4.50 0.00 4.375 Mar 4.25 4.50 0.00 4.375 May",
+          "chunk_id": "UBS_US Economic Outlook 2026-2028 - What next.pdf-37-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

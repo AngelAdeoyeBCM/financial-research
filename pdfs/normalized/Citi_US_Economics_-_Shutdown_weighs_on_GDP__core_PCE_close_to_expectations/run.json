@@ -1,0 +1,230 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_US_Economics_-_Shutdown_weighs_on_GDP__core_PCE_close_to_expectations.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-20",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 2,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "relative": 3,
+     "not_a_reference": 2
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 10,
+  "kinds": {
+   "deixis": 6,
+   "vp": 1,
+   "possessive": 1,
+   "noun_phrase": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.7575757575757576,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 2
+  },
+  "sentences": 35,
+  "cost_usd": 0.0989
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 103,
+   "end": 132,
+   "quote": "Citigroup Global Markets Inc.",
+   "name": "Citigroup Global Markets Inc."
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 3569,
+   "end": 3664,
+   "quote": "strength in AI-related investment that was offset by weakness in other categories of investment",
+   "name": "the strength in AI-related investment that was offset by weakness in other categories of investment"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1265,
+   "end": 1291,
+   "quote": "The Q4 government shutdown",
+   "name": "the Q4 government shutdown"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 157",
+   "message": "not verbatim in source: ['s'] in {{ =>  do business with companies covered in Citigroup Global Markets Inc.'s research reports}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 209",
+   "message": "not verbatim in source: ['s'] in {{its => Citigroup Global Markets Inc.'s}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0395464,
+   "duration_ms": 6172,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3639,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 472,
+    "output_tokens_details": {
+     "thinking_tokens": 375
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3639,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 472,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3639,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3639
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.059315,
+   "duration_ms": 14325,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3894,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1352,
+    "output_tokens_details": {
+     "thinking_tokens": 870
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3894,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1352,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3894,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3894
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,687 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fixed_Income_Blog_-_The_unequal_effects_of_Fed_rate_and_balance_sheet_policies.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-01",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 52,
+    "referents": {
+     "thing": 26,
+     "claim": 8
+    },
+    "decisions": {
+     "link": 39,
+     "leave": 10,
+     "ambiguous": 3
+    },
+    "leave_reasons": {
+     "not_a_reference": 4,
+     "relative": 4,
+     "expletive": 2
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 73,
+  "kinds": {
+   "deixis": 23,
+   "pronoun": 13,
+   "noun_phrase": 9,
+   "possessive": 6,
+   "demonstrative": 6,
+   "proposition": 5,
+   "shell": 4,
+   "abbreviation": 4,
+   "symbol": 2,
+   "vp": 1
+  },
+  "rooted_share": 0.9212598425196851,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 10,
+   "LONG_RESOLUTION": 3,
+   "UNGROUNDED_WORD": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 84,
+  "cost_usd": 0.4028
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 162,
+   "end": 173,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 313,
+   "end": 399,
+   "quote": "asset purchases fuel inequality by disproportionately impacting financial asset prices",
+   "name": "asset purchases fuel inequality by disproportionately impacting financial asset prices"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 468,
+   "end": 522,
+   "quote": "asset purchases have outsized effects on equity prices",
+   "name": "asset purchases have outsized effects on equity prices"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 893,
+   "end": 910,
+   "quote": "wealth inequality",
+   "name": "wealth inequality"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 741,
+   "end": 859,
+   "quote": "a growth-neutral shift in the mix of monetary policy tools, towards lower policy rates and a smaller Fed balance sheet",
+   "name": "a growth-neutral shift in the mix of monetary policy tools"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1065,
+   "end": 1072,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 1798,
+   "end": 1839,
+   "quote": "the interest rate and balance sheet tools",
+   "name": "the interest rate and balance sheet tools"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1760,
+   "end": 1839,
+   "quote": "The most immediate difference between the interest rate and balance sheet tools",
+   "name": "the most immediate difference between the interest rate and balance sheet tools"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 1898,
+   "end": 2061,
+   "quote": "rate policy (including forward guidance) acts mainly on the expected path of short-term rates, while asset purchases primarily compress term premia and MBS spreads",
+   "name": "rate policy (including forward guidance) acts mainly on the expected path of short-term rates, while asset purchases primarily compress term premia and MBS spreads"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 2371,
+   "end": 2451,
+   "quote": "one or other of the tools should have a systematically larger effect on equities",
+   "name": "one or other of the tools should have a systematically larger effect on equities"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 2812,
+   "end": 2848,
+   "quote": "rate and balance sheet policy shocks",
+   "name": "rate and balance sheet policy shocks"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 3037,
+   "end": 3095,
+   "quote": "fed funds rate (FFR), forward guidance (FG), and QE shocks",
+   "name": "fed funds rate (FFR), forward guidance (FG), and QE shocks"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 2941,
+   "end": 2968,
+   "quote": "a JME paper by Eric Swanson",
+   "name": "Eric Swanson's JME paper"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 3792,
+   "end": 3805,
+   "quote": "price changes",
+   "name": "price changes"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 4435,
+   "end": 4458,
+   "quote": "forward guidance shocks",
+   "name": "forward guidance shocks"
+  },
+  {
+   "id": "R19",
+   "type": "claim",
+   "start": 4952,
+   "end": 5090,
+   "quote": "the increase in the S&P 500 from a one-standard-deviation funds rate shock is an order of magnitude larger than the impact from a QE shock",
+   "name": "the increase in the S&P 500 from a one-standard-deviation funds rate shock is an order of magnitude larger than the impact from a QE shock"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 5179,
+   "end": 5218,
+   "quote": "lower discount rates on future earnings",
+   "name": "lower discount rates on future earnings"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 6304,
+   "end": 6321,
+   "quote": "each policy shock",
+   "name": "each policy shock"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 7588,
+   "end": 7611,
+   "quote": "The rescaling of shocks",
+   "name": "the rescaling of shocks"
+  },
+  {
+   "id": "R23",
+   "type": "claim",
+   "start": 8210,
+   "end": 8356,
+   "quote": "the FOMC were to deliver or signal (via guidance) rate cuts and a tightening in balance sheet policy that together leave expected growth unchanged",
+   "name": "the FOMC were to deliver or signal (via guidance) rate cuts and a tightening in balance sheet policy that together leave expected growth unchanged"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 6260,
+   "end": 6294,
+   "quote": "Swanson’s asset response estimates",
+   "name": "Swanson’s asset response estimates"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 8410,
+   "end": 8446,
+   "quote": "The results, shown in Figure 3 (rhs)",
+   "name": "the results shown in Figure 3 (rhs)"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 10133,
+   "end": 10195,
+   "quote": "concrete steps that could be taken to reduce the balance sheet",
+   "name": "concrete steps that could be taken to reduce the balance sheet"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 10721,
+   "end": 10736,
+   "quote": "scarce reserves",
+   "name": "scarce reserves"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 10939,
+   "end": 10952,
+   "quote": "Fed rate cuts",
+   "name": "Fed rate cuts"
+  },
+  {
+   "id": "R29",
+   "type": "thing",
+   "start": 11006,
+   "end": 11020,
+   "quote": "the policy mix",
+   "name": "the policy mix"
+  },
+  {
+   "id": "R30",
+   "type": "claim",
+   "start": 11288,
+   "end": 11316,
+   "quote": "it would raise equity prices",
+   "name": "it would raise equity prices"
+  },
+  {
+   "id": "R31",
+   "type": "thing",
+   "start": 11397,
+   "end": 11425,
+   "quote": "such a substitution in tools",
+   "name": "the substitution in tools"
+  },
+  {
+   "id": "R32",
+   "type": "thing",
+   "start": 11519,
+   "end": 11572,
+   "quote": "Any of the balance sheet policies under consideration",
+   "name": "the balance sheet policies under consideration"
+  },
+  {
+   "id": "R33",
+   "type": "thing",
+   "start": 11759,
+   "end": 11807,
+   "quote": "Forward guidance on future balance sheet actions",
+   "name": "Forward guidance on future balance sheet actions"
+  },
+  {
+   "id": "R35",
+   "type": "thing",
+   "start": 12347,
+   "end": 12415,
+   "quote": "money supply effects that operate independent of asset price changes",
+   "name": "money supply effects that operate independent of asset price changes"
+  },
+  {
+   "id": "R36",
+   "type": "thing",
+   "start": 12464,
+   "end": 12490,
+   "quote": "any impact on house prices",
+   "name": "impact on house prices"
+  },
+  {
+   "id": "R37",
+   "type": "claim",
+   "start": 12503,
+   "end": 12625,
+   "quote": "incorporating these would likely widen the disparity between the effects of balance sheet and rate shocks on equity prices",
+   "name": "incorporating these would likely widen the disparity between the effects of balance sheet and rate shocks on equity prices"
+  },
+  {
+   "id": "R38",
+   "type": "thing",
+   "start": 12905,
+   "end": 12955,
+   "quote": "the estimates of asset price reactions that we use",
+   "name": "the estimates of asset price reactions that we use"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "That",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C033",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C040",
+   "phrase": "That",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C046",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C048",
+   "phrase": "these",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R35",
+    "R36"
+   ]
+  },
+  {
+   "candidate": "C050",
+   "phrase": "these",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R35",
+    "R36"
+   ]
+  },
+  {
+   "candidate": "C051",
+   "phrase": "them",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R35",
+    "R36"
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we draw' at 2930"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we next' at 5547"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We combine' at 6226"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we preserve' at 6374"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we leverage' at 8036"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we run' at 8794"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we regress' at 8910"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we first' at 11144"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we recognize' at 12130"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we implicitly' at 13168"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 2064",
+   "message": "+26 words: {{This mapping => The mapping that rate policy (including forward guidance) acts mainly on the expected path of short-term rates, while asset purchases primarily compress term premia and MBS spreads}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 3718",
+   "message": "not verbatim in source: ['focuses'] in {{we focus => the author focuses}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5122",
+   "message": "+27 words: {{this => that the increase in the S&P 500 from a one-standard-deviation funds rate shock is an order of magnitude larger than the impact from a QE shock}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 8529",
+   "message": "+25 words: {{this sort => the sort that the FOMC were to deliver or signal (via guidance) rate cuts and a tightening in balance sheet policy that together leave expected growth unchanged}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 10",
+   "message": "'them' in 'alance sheet policy, and accounting for them would likely reduce, on relative basis,'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E017",
+      "phrase": "the inequality claim",
+      "occurrence": 1,
+      "referent": "R2"
+     },
+     "reason": "E017 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.07941999999999999,
+   "duration_ms": 11666,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6920,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1141,
+    "output_tokens_details": {
+     "thinking_tokens": 978
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6920,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1141,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6920,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6920
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.2393699,
+   "duration_ms": 65692,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8938,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 8312,
+    "output_tokens_details": {
+     "thinking_tokens": 4685
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8938,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 8312,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8938,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8938
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0840262,
+   "duration_ms": 4109,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9871,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 167,
+    "output_tokens_details": {
+     "thinking_tokens": 145
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9871,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 167,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 9871,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9871
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

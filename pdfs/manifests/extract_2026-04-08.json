@@ -1,0 +1,237 @@
+{
+  "batch_id": "2026-04-08",
+  "window": [
+    "2026-04-08",
+    "2026-04-08"
+  ],
+  "generated_at": "2026-10-29T16:28:05",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-07_2026-04-10.json",
+      "sha256": "25d213b1c3f3947ce9e37d20264f1ab4b26dbff8f5f0f2691e526d7e18310c8c",
+      "records": 2991,
+      "dates": [
+        "2026-04-07",
+        "2026-04-10"
+      ],
+      "records_for_batch": 110
+    }
+  ],
+  "counts": {
+    "documents": 10,
+    "in_scope": 8,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 7,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 4,
+    "edits": 7,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "ASEAN_in_Trouble",
+      "document": "ASEAN in Trouble.pdf",
+      "date": "2026-04-08",
+      "publisher": "State Street",
+      "document_type": "Monthly",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.889,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Federal_Reserve_Commentary_-_March_FOMC_minutes_Walking_the_line",
+      "document": "BC_Federal Reserve Commentary - March FOMC minutes Walking the line.pdf",
+      "date": "2026-04-08",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Dancing_through_the_lightning_strikes",
+      "document": "Dancing through the lightning strikes.pdf",
+      "date": "2026-04-08",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Receive_January_28_DI_Trade_Idea--921921",
+      "document": "EM_rates_Receive_January_28_DI_Trade_Idea--921921.pdf",
+      "date": "2026-04-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 5,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Receive_January_28_DI_Trade_Idea--921921.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "78f3807bd15b1acbef91443d8bc6313fee503372",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Brazil curve sold off the most among Latam curves KEY MESSAGES We are entering a Jan 28 DI r'",
+          "chunk_id": "EM_rates_Receive_January_28_DI_Trade_Idea--921921.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "between the policy path embedded in the curve and the"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "dislocation between the policy path embedded in the curve and the"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "dislocation between the policy path embedded in the curve and the"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 3,
+        "promotion": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " EM rates: Receive January 28 DI ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "a) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "b) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "c) ",
+              "after": "\n3. "
+            }
+          ]
+        },
+        "heading": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            },
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EUR_rates_Re-entering_long-end_steepeners_Trade_Idea--921928",
+      "document": "EUR_rates_Re-entering_long-end_steepeners_Trade_Idea--921928.pdf",
+      "date": "2026-04-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Close_out_of_EURUSD_short_for_2_loss_Trade_Idea--921926",
+      "document": "FX_Close_out_of_EURUSD_short_for_2_loss_Trade_Idea--921926.pdf",
+      "date": "2026-04-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Reload_short_USDARS_position_Trade_Idea--921924",
+      "document": "FX_Reload_short_USDARS_position_Trade_Idea--921924.pdf",
+      "date": "2026-04-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 18,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Global_Rates__Straight_Risks_and_Opportunities",
+      "document": "Global Rates: Straight Risks and Opportunities.pdf",
+      "date": "2026-04-08",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-08-30.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 20,
+    "referents": {
+     "thing": 11,
+     "claim": 2
+    },
+    "decisions": {
+     "leave": 7,
+     "link": 13
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "expletive": 1,
+     "time": 2,
+     "relative": 3
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 30,
+  "kinds": {
+   "deixis": 11,
+   "pronoun": 5,
+   "possessive": 5,
+   "noun_phrase": 4,
+   "symbol": 3,
+   "proposition": 2
+  },
+  "rooted_share": 0.75,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 4
+  },
+  "sentences": 27,
+  "cost_usd": 0.1446
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 254,
+   "end": 269,
+   "quote": "Fed Chair Warsh",
+   "name": "Fed Chair Warsh"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 444,
+   "end": 482,
+   "quote": "a crisp message to market participants",
+   "name": "the crisp message to market participants"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 940,
+   "end": 955,
+   "quote": "Governor Waller",
+   "name": "Governor Waller"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2383,
+   "end": 2404,
+   "quote": "the unemployment rate",
+   "name": "the unemployment rate"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2521,
+   "end": 2559,
+   "quote": "the unemployment rate ticks up a tenth",
+   "name": "the unemployment rate ticks up a tenth"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1669,
+   "end": 1676,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2967,
+   "end": 2987,
+   "quote": "Tuesday’s JOLTS data",
+   "name": "Tuesday’s JOLTS data"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3380,
+   "end": 3383,
+   "quote": "ADP",
+   "name": "ADP"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 4162,
+   "end": 4221,
+   "quote": "this week’s labor market data come in close to expectations",
+   "name": "this week’s labor market data come in close to expectations"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4241,
+   "end": 4262,
+   "quote": "monetary policymakers",
+   "name": "monetary policymakers"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 379,
+   "end": 412,
+   "quote": "Friday’s August employment report",
+   "name": "Friday’s August employment report"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 3672,
+   "end": 3699,
+   "quote": "Tuesday’s manufacturing ISM",
+   "name": "Tuesday’s manufacturing ISM"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 3720,
+   "end": 3743,
+   "quote": "Thursday’s services ISM",
+   "name": "Thursday’s services ISM"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'l speech at Jackson Hole last Friday, t he data docket picks up this week with the'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in 'CPI readings were better than expected, they do not tell me that underlying trends h'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'They' in 'They may well be concerned about possible fu'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'lly robust real-time indicator—are near their lowest level in decades.” Matthew Luzze'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.038149,
+   "duration_ms": 3659,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4050,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 240,
+    "output_tokens_details": {
+     "thinking_tokens": 227
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4050,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 240,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4050,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4050
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10649029999999998,
+   "duration_ms": 27699,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4892,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3297,
+    "output_tokens_details": {
+     "thinking_tokens": 2032
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4892,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3297,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4892,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4892
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

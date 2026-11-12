@@ -1,0 +1,364 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_What_Warsh_could_mean_for_the_Fed.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 49,
+    "referents": {
+     "thing": 12,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 43,
+     "leave": 6
+    },
+    "leave_reasons": {
+     "relative": 3,
+     "expletive": 2,
+     "time": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 49,
+  "kinds": {
+   "pronoun": 19,
+   "possessive": 12,
+   "noun_phrase": 7,
+   "deixis": 5,
+   "shell": 3,
+   "symbol": 1,
+   "proposition": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8169934640522876,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "LONG_RESOLUTION": 3,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 55,
+  "cost_usd": 0.195
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 117,
+   "end": 132,
+   "quote": "President Trump",
+   "name": "President Trump"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 143,
+   "end": 154,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 297,
+   "end": 304,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 7998,
+   "end": 8016,
+   "quote": "Warsh’s nomination",
+   "name": "Warsh’s nomination"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 870,
+   "end": 927,
+   "quote": "a partner at Stan Druckenmiller’s family office, Duquesne",
+   "name": "a partner at Stan Druckenmiller’s family office, Duquesne"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 1536,
+   "end": 1641,
+   "quote": "Warsh has been consistently critical of the Fed’s active use of its balance sheet over the past ~15 years",
+   "name": "Warsh has been consistently critical of the Fed’s active use of its balance sheet over the past ~15 years"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2869,
+   "end": 2901,
+   "quote": "a period of “monetary dominance”",
+   "name": "a period of “monetary dominance”"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3294,
+   "end": 3345,
+   "quote": "Warsh has levied a variety of criticisms on the Fed",
+   "name": "Warsh's criticisms on the Fed"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 5341,
+   "end": 5467,
+   "quote": "the Fed could bring down inflation by reducing the size of its balance sheet, which in turn could allow for lower policy rates",
+   "name": "the Fed could bring down inflation by reducing the size of its balance sheet, which in turn could allow for lower policy rates"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5619,
+   "end": 5684,
+   "quote": "regulatory changes are made that lower banks’ demand for reserves",
+   "name": "regulatory changes that lower banks’ demand for reserves"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6843,
+   "end": 6927,
+   "quote": "market trust and credibility around his commitment to achieving the inflation target",
+   "name": "market trust and credibility around his commitment to achieving the inflation target"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 6993,
+   "end": 7150,
+   "quote": "The requirement could be more acute in the current context, with inflation well above target for five years and the President’s calls for steep Fed rate cuts",
+   "name": "The requirement could be more acute in the current context, with inflation well above target for five years and the President’s calls for steep Fed rate cuts"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7771,
+   "end": 7796,
+   "quote": "Republican Senator Tillis",
+   "name": "Republican Senator Tillis"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7644,
+   "end": 7669,
+   "quote": "recent legal developments",
+   "name": "recent legal developments"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 181,
+   "end": 191,
+   "quote": "Jay Powell",
+   "name": "Jay Powell"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C014",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C040",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C041",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C045",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We build' at 225"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We recently' at 6611"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5578",
+   "message": "+25 words: {{this trade-off => the trade-off that the Fed could bring down inflation by reducing the size of the Fed's balance sheet, which in turn could allow for lower policy rates}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5815",
+   "message": "+25 words: {{this argument => the argument that the Fed could bring down inflation by reducing the size of the Fed's balance sheet, which in turn could allow for lower policy rates}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 7156",
+   "message": "+28 words: {{this reason => the reason that the requirement could be more acute in the current context, with inflation well above target for five years and the President’s calls for steep Fed rate cuts}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'his' in 'Market trust and credibility around his commitment to achieving the inflation t'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0467775,
+   "duration_ms": 3629,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5105,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 244,
+    "output_tokens_details": {
+     "thinking_tokens": 231
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5105,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 244,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5105,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5105
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1481969,
+   "duration_ms": 36330,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7018,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4531,
+    "output_tokens_details": {
+     "thinking_tokens": 2256
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7018,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4531,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7018,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7018
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

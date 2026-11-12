@@ -1,0 +1,183 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Close_COP_basis_payer_Trade_Idea--918297.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-10",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 1,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 4
+  },
+  "rooted_share": 0.7692307692307693,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 13,
+  "cost_usd": 0.0684
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1086,
+   "end": 1114,
+   "quote": "the COP basis payer position",
+   "name": "the COP basis payer position"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 328,
+   "end": 341,
+   "quote": "the COP basis",
+   "name": "the COP basis"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we therefore exit' at 101"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0257089,
+   "duration_ms": 2366,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2914,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 78,
+    "output_tokens_details": {
+     "thinking_tokens": 65
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2914,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 78,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2914,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2914
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0426456,
+   "duration_ms": 9177,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2955,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 899,
+    "output_tokens_details": {
+     "thinking_tokens": 575
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2955,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 899,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2955,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2955
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

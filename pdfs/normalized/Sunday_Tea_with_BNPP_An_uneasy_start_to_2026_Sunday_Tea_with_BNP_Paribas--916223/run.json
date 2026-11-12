@@ -1,0 +1,302 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Sunday_Tea_with_BNPP_An_uneasy_start_to_2026_Sunday_Tea_with_BNP_Paribas--916223.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-11",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 15,
+    "referents": {
+     "thing": 12,
+     "claim": 3
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 12
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "relative": 1,
+     "expletive": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 53,
+  "kinds": {
+   "deixis": 34,
+   "noun_phrase": 7,
+   "proposition": 3,
+   "symbol": 3,
+   "possessive": 2,
+   "pronoun": 2,
+   "vp": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6947368421052632,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 78,
+  "cost_usd": 0.1903
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 2712,
+   "end": 2727,
+   "quote": "the MXN and COP",
+   "name": "the MXN and COP"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 3481,
+   "end": 3519,
+   "quote": "The perceived likelihood of the latter",
+   "name": "the perceived likelihood of the latter"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3453,
+   "end": 3478,
+   "quote": "utilizing the US military",
+   "name": "utilizing the US military"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4158,
+   "end": 4179,
+   "quote": "the unemployment rate",
+   "name": "the unemployment rate"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 675,
+   "end": 714,
+   "quote": "the Supreme Court’s IEEPA tariff ruling",
+   "name": "the Supreme Court’s IEEPA tariff ruling"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 5577,
+   "end": 5590,
+   "quote": "IEEPA tariffs",
+   "name": "IEEPA tariffs"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 5672,
+   "end": 5797,
+   "quote": "the administration has the legal authority to largely replace these tariffs via other paths, namely sections 122, 232 and 301",
+   "name": "the administration has the legal authority to largely replace these tariffs via other paths, namely sections 122, 232 and 301"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 6579,
+   "end": 6596,
+   "quote": "The Bank of Japan",
+   "name": "the Bank of Japan"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 6102,
+   "end": 6125,
+   "quote": "Early election in Japan",
+   "name": "the early election in Japan"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 6731,
+   "end": 6817,
+   "quote": "market expectations strengthen for Prime Minister Takaichi securing a decisive victory",
+   "name": "market expectations strengthen for Prime Minister Takaichi securing a decisive victory"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 7007,
+   "end": 7052,
+   "quote": "record-high European government debt issuance",
+   "name": "the record-high European government debt issuance"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 7432,
+   "end": 7453,
+   "quote": "Geopolitical tensions",
+   "name": "geopolitical tensions"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 9159,
+   "end": 9191,
+   "quote": "USD call vol is particularly low",
+   "name": "USD call vol is particularly low"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9401,
+   "end": 9407,
+   "quote": "USDCAD",
+   "name": "USDCAD"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 4088,
+   "end": 4115,
+   "quote": "The December US jobs report",
+   "name": "the December US jobs report"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0637257,
+   "duration_ms": 8388,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6192,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 651,
+    "output_tokens_details": {
+     "thinking_tokens": 547
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6192,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 651,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6192,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6192
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1266207,
+   "duration_ms": 29738,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6796,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3542,
+    "output_tokens_details": {
+     "thinking_tokens": 2191
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6796,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3542,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6796,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6796
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

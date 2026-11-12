@@ -1,0 +1,274 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BC_United_States_-_Inflation_Markets_-_Volumes_speak_volumes.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-11",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 14,
+    "referents": {
+     "thing": 6,
+     "claim": 3
+    },
+    "decisions": {
+     "leave": 4,
+     "link": 10
+    },
+    "leave_reasons": {
+     "expletive": 3,
+     "not_a_reference": 1
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 28,
+  "kinds": {
+   "deixis": 11,
+   "noun_phrase": 9,
+   "symbol": 3,
+   "proposition": 3,
+   "possessive": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.8714285714285714,
+  "errors": 0,
+  "warnings": {
+   "EDIT_DROPPED_OVERLAP": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 32,
+  "cost_usd": 0.1499
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 103,
+   "end": 126,
+   "quote": "front-end TIPS activity",
+   "name": "front-end TIPS activity"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1912,
+   "end": 1933,
+   "quote": "the rally in forwards",
+   "name": "the rally in forwards"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2328,
+   "end": 2352,
+   "quote": "Total daily TIPS volumes",
+   "name": "total daily TIPS volumes"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 2328,
+   "end": 2416,
+   "quote": "Total daily TIPS volumes reached their second-highest level on record on April month end",
+   "name": "Total daily TIPS volumes reached their second-highest level on record on April month end"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 3439,
+   "end": 3490,
+   "quote": "activity in the front end has been extremely robust",
+   "name": "activity in the front end has been extremely robust"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 4296,
+   "end": 4351,
+   "quote": "it may be justified to fade the flow pricing distortion",
+   "name": "it may be justified to fade the flow pricing distortion"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4324,
+   "end": 4351,
+   "quote": "the flow pricing distortion",
+   "name": "the flow pricing distortion"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4512,
+   "end": 4527,
+   "quote": "the war in Iran",
+   "name": "the war in Iran"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1628,
+   "end": 1676,
+   "quote": "an extremely strong carry period in May and June",
+   "name": "the extremely strong carry period in May and June"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "them",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "EDIT_DROPPED_OVERLAP",
+   "segment": "src 4860",
+   "message": "references edit 'this positioning/volume context' -> 'front-end TIPS activity' overlaps ' or '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'them' in 'cts, and day of week fixed effects, and them compare the modeled outcomes with reali'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.036500700000000004,
+   "duration_ms": 3323,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3987,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 183,
+    "output_tokens_details": {
+     "thinking_tokens": 175
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3987,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 183,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3987,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3987
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1133861,
+   "duration_ms": 33410,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4550,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3790,
+    "output_tokens_details": {
+     "thinking_tokens": 2631
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4550,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3790,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4550,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4550
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+  "batch_id": "2026-01-28",
+  "window": [
+    "2026-01-28",
+    "2026-01-28"
+  ],
+  "generated_at": "2026-10-29T16:26:30",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-21_2026-01-24.json",
+      "sha256": "dff586b88cd0620abe333719c1c7b2513f5885407700237ed89a1cf34889619a",
+      "records": 904,
+      "dates": [
+        "2026-01-25",
+        "2026-01-28"
+      ],
+      "records_for_batch": 304
+    }
+  ],
+  "counts": {
+    "documents": 18,
+    "in_scope": 14,
+    "out_of_scope": 4,
+    "compiled": 3,
+    "skipped": 11,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 18,
+    "edits": 25,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BofA_Inflation_Strategist_-_Alpha_from_beta",
+      "document": "BofA_Inflation Strategist - Alpha from beta.pdf",
+      "date": "2026-01-28",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 35,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_US_Watch_-_Hurry_up_and_wait",
+      "document": "BofA_US Watch - Hurry up and wait.pdf",
+      "date": "2026-01-28",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Enter_a_Jan_29_DI_receiver_Trade_Idea--917444",
+      "document": "EM_rates_Enter_a_Jan_29_DI_receiver_Trade_Idea--917444.pdf",
+      "date": "2026-01-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 10,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Entering_a_COP_basis_payer_Trade_Idea--917448",
+      "document": "EM_rates_Entering_a_COP_basis_payer_Trade_Idea--917448.pdf",
+      "date": "2026-01-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 10,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Trail_stop_and_extend_target_on_KRW_longs_Trade_Idea--917397",
+      "document": "FX_Trail_stop_and_extend_target_on_KRW_longs_Trade_Idea--917397.pdf",
+      "date": "2026-01-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 5,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Trail_stop_and_extend_target_on_KRW_longs_Trade_Idea--917397.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "89f58922b839849a5ec98dc0216317de1de6f84b",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Retail outflows have moderated in recent weeks KEY MESSAGES We deem it prudent to trail the '",
+          "chunk_id": "FX_Trail_stop_and_extend_target_on_KRW_longs_Trade_Idea--917397.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T R A D E I D E A"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "header": 1,
+        "promotion": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Trail stop and extend target on KRW longs ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 6,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 6,
+          "examples": [
+            {
+              "before": "1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "2) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "3) ",
+              "after": "\n3. "
+            },
+            {
+              "before": "1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "2) ",
+              "after": "\n2. "
+            }
+          ]
+        },
+        "heading": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "TRADE IDEA 1",
+              "after": "\n\n## TRADE IDEA\n\n1"
+            },
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            },
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_EUR_Curve_Steep_But_Stable",
+      "document": "GS_Global Markets Daily - EUR Curve Steep But Stable.pdf",
+      "date": "2026-01-28",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 12,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Japan_s_Equilibrium_Rate_Check___A_Framework_for_JGBs_and_JPY",
+      "document": "GS_Japan’s Equilibrium Rate Check — A Framework for JGBs and JPY.pdf",
+      "date": "2026-01-28",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_US_Daily_-_January_FOMC_Recap_-_Some_Signs_of_Stabilization",
+      "document": "GS_US Daily - January FOMC Recap - Some Signs of Stabilization.pdf",
+      "date": "2026-01-28",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/GS_US_Daily_-_January_FOMC_Recap_-_Some_Signs_of_Stabilization.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "c1f117700365415a60547aaaddd218d554a37f95",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "David Mericle +1(212)357-2619 | david.mericle@gs.com Goldman Sachs"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "& Co. LLC"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Investors should consider this report as only a single factor in making their investment decision."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "www.gs.com/research/hedge.html."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 January 2026 2 Goldman Sachs US Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "David Mericle     The US Economics Team Jan Hatzius +1(212)902-0394 jan.hatzius@gs.com Goldman Sachs & Co. LLC Alec Phillips +1(202)637-3746 alec.phillips@gs.com Goldman Sachs & Co. LLC David Mericle +1(212)357-2619 david.mericle@gs.com Goldman Sachs & Co. LLC Ronnie Walker +1(917)343-4543 ronnie.walker@gs.com Goldman Sachs & Co. LLC Manuel Abecasis +1(212)902-8357 manuel.abecasis@gs.com Goldman Sachs & Co. LLC Elsie Peng +1(212)357-3137 elsie.peng@gs.com Goldman Sachs & Co. LLC Pierfrancesco Mei +1(212)902-8809 pierfrancesco.mei@gs.com Goldman Sachs & Co. LLC Jessica Rindels +1(972)368-1516 jessica.rindels@gs.com Goldman Sachs"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 January 2026 3 Goldman Sachs US Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        }
+      ],
+      "stripped_by_section": {
+        "signature": 2,
+        "footer": 4,
+        "disclaimer": 5
+      },
+      "edits": {
+        "bullet": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "n ",
+              "after": ""
+            },
+            {
+              "before": "n ",
+              "after": ""
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "US Daily: January FOMC Recap: Some Signs of Stabilization ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "JPM_Global_Economic_Research_-_The_itsy_bitsy_bias",
+      "document": "JPM_Global Economic Research - The itsy bitsy bias.pdf",
+      "date": "2026-01-28",
+      "publisher": "JP Morgan",
+      "document_type": "Daily",
+      "chunk_count": 22,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Global_Markets_Strategy_-_Post-FOMC_rates_update_-_I_have_nothing_for_you",
+      "document": "JPM_Global Markets Strategy - Post-FOMC rates update - I have nothing for you.pdf",
+      "date": "2026-01-28",
+      "publisher": "JP Morgan",
+      "document_type": "Catalyst Review",
+      "chunk_count": 22,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS__US_Inflation_Monitor_-_Modest_disinflationary_effect_from_lower_2027_Medicare_payments",
+      "document": "MS_ US Inflation Monitor - Modest disinflationary effect from lower 2027 Medicare payments.pdf",
+      "date": "2026-01-28",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.8,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Federal_Reserve_Monitor_-_January_FOMC_-_A_dovish_hold",
+      "document": "MS_Federal Reserve Monitor - January FOMC - A dovish hold.pdf",
+      "date": "2026-01-28",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/MS_Federal_Reserve_Monitor_-_January_FOMC_-_A_dovish_hold.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "0a11d8296636ce0fa5fba8c5ba7361539d0f40eb",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "M Update"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For important disclosures, refer to the Disclosure Section, located at the end of this report."
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Morgan Stanley & Co. LLC Michael T Gapen Chief US Economist Michael.Gapen@morganstanley.com +1 212 761-0571 Sam D Coffin Economist Sam.Coffin@morganstanley.com +1 212 761-4630 Diego Anzoategui Economist Diego.Anzoategui@morganstanley.com +1 212 761-8573 Arunima Sinha Global Economist Arunima.Sinha@morganstanley.com +1 212 761-4125 Heather Berger Economist Heather.Berger@morganstanley.com +1 212 761-2296 Lingdi Xu Economist Lingdi.Xu@morganstanley.com +1 212 761-2957"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "January 28, 2026 09:38 PM GMT Downloaded by cayla.buettner@bluecrestcapital.com Not for redistribution without written consent of Morgan Stanley"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 2,
+        "signature": 1
+      },
+      "edits": {
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " January FOMC: A dovish hold ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 4,
+          "examples": [
+            {
+              "before": "\"",
+              "after": "“"
+            },
+            {
+              "before": "\"",
+              "after": "”"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "STEER_USD_undervaluation_extends_across_G10_EM_Trade_Idea--917427",
+      "document": "STEER_USD_undervaluation_extends_across_G10_EM_Trade_Idea--917427.pdf",
+      "date": "2026-01-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Time_to_ride_the_USDJPY_tide",
+      "document": "Time to ride the USDJPY tide.pdf",
+      "date": "2026-01-28",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

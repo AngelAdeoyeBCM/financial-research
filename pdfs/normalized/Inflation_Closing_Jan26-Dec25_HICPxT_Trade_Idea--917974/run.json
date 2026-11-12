@@ -1,0 +1,163 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Inflation_Closing_Jan26-Dec25_HICPxT_Trade_Idea--917974.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-04",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 0,
+    "referents": {
+     "thing": 1
+    },
+    "decisions": {},
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 6,
+  "kinds": {
+   "deixis": 5,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.6,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 8,
+  "cost_usd": 0.0502
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 173,
+   "end": 197,
+   "quote": "German January inflation",
+   "name": "German January inflation"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 62"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0233659,
+   "duration_ms": 3439,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2444,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 151,
+    "output_tokens_details": {
+     "thinking_tokens": 138
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2444,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 151,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2444,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2444
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.026857100000000002,
+   "duration_ms": 3621,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2450,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 309,
+    "output_tokens_details": {
+     "thinking_tokens": 196
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2450,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 309,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2450,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2450
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

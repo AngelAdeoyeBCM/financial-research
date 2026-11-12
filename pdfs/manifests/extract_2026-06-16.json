@@ -1,0 +1,283 @@
+{
+  "batch_id": "2026-06-16",
+  "window": [
+    "2026-06-16",
+    "2026-06-16"
+  ],
+  "generated_at": "2026-10-29T16:29:54",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-14_2026-06-17.json",
+      "sha256": "7bf12f7d0a40285d595182cfd482d918daad0d31b02982169def9d9c8b470b69",
+      "records": 1582,
+      "dates": [
+        "2026-06-14",
+        "2026-06-17"
+      ],
+      "records_for_batch": 82
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 7,
+    "out_of_scope": 0,
+    "compiled": 2,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 8,
+    "edits": 8,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "China_Slower_growth_to_prompt_fiscal_acceleration_in_Q3_Desknote--926428",
+      "document": "China_Slower_growth_to_prompt_fiscal_acceleration_in_Q3_Desknote--926428.pdf",
+      "date": "2026-06-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.5,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Extending_target_on_HUF_5y_receiver_Trade_Idea--926422",
+      "document": "EM_rates_Extending_target_on_HUF_5y_receiver_Trade_Idea--926422.pdf",
+      "date": "2026-06-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Extending_target_on_HUF_5y_receiver_Trade_Idea--926422.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "253a51e5e80647f4b6ece6abbd1962f5ade3fa50",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Rates are normalising with lower services inflation Fig. 2: Consumer inflation expectations '",
+          "chunk_id": "EM_rates_Extending_target_on_HUF_5y_receiver_Trade_Idea--926422.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA T R A D E I D E A 16/06/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Extending target on HUF 5y receiver ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "FX_Short_SGDCNH_Trade_Idea--926400",
+      "document": "FX_Short_SGDCNH_Trade_Idea--926400.pdf",
+      "date": "2026-06-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Short_SGDCNH_Trade_Idea--926400.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "fc486f4385c0d3f91b65d561a9a111e2b809ce66",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Deposits in Singapore from foreign investors tend to fluctuate with risk sentiment Sources: '",
+          "chunk_id": "FX_Short_SGDCNH_Trade_Idea--926400.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Deposits in Singapore from foreign investors tend to fluctuate with risk sentime'",
+          "chunk_id": "FX_Short_SGDCNH_Trade_Idea--926400.pdf-1-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Deposits in Singapore from foreign investors tend to fluctuate with risk sentiment Sources: '",
+          "chunk_id": "FX_Short_SGDCNH_Trade_Idea--926400.pdf-1-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 16/06/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "risk sentiment Sources: MAS, Macrobond, BNP Paribas"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "risk sentiment Sources: MAS, Macrobond, BNP Paribas"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 5,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FX: Short SGDCNH ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "heading": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            },
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "FX_Take_profit_on_EURHUF_calendar_put_spread_Trade_Idea--926432",
+      "document": "FX_Take_profit_on_EURHUF_calendar_put_spread_Trade_Idea--926432.pdf",
+      "date": "2026-06-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_GLOBAL_STRATEGY_PAPER_-_The_Post_Modern_Cycle___Navigating_the_Capex_Boom",
+      "document": "GS_GLOBAL STRATEGY PAPER - The Post Modern Cycle – Navigating the Capex Boom.pdf",
+      "date": "2026-06-16",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 44,
+      "page_count": 31,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.075,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Too_many_worries_to_matter",
+      "document": "Too many worries to matter.pdf",
+      "date": "2026-06-16",
+      "publisher": "State Street",
+      "document_type": "Market commentary",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.667,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "US_rates_End_of_conflict_End_of_higher_yields_Desknote--926439",
+      "document": "US_rates_End_of_conflict_End_of_higher_yields_Desknote--926439.pdf",
+      "date": "2026-06-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.929,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

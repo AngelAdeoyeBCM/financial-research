@@ -1,0 +1,21 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .pred{background:#fff2a8;border-color:#9a7d00} .pos{background:#fdd9b5;border-color:#b35900} .sent{background:#bff0f5;border-color:#00838f} .view{background:#c9dcf8;border-color:#1a3f8b} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · RECOMMENDATION</b><div class='core rec'><span>Remain underweight USD</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Bessent actions weigh on dollar</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Deficit-driven yield rises less dollar positive</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Dollar vulnerable near term</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Warsh Jackson Hole message</span><b>[H]</b></div><div class='c dp'><span><b>RA:</b> <mark>DXY-yield correlation falling</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>US interest costs exceed primary deficit</mark></span><b>[A]</b></div><div class='c view'><span><b>CO:</b> <b>A002 - VIEW</b></span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · VIEW</b><div class='core view'><span>US duration unattractive</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Buybacks unlikely to stem yields</span><b>[H]</b></div><div class='c dp'><span><b>RA:</b> <mark>US interest costs exceed primary deficit</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Megacap debt issuance doubling</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Japanese flows not into USTs</mark></span><b>[A]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · RECOMMENDATION</b><div class='core rec'><span>Long CAD vs AUD</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Trade threat reversible</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Iran fallout may hurt Australia</span><b>[S]</b></div><div class='c pos'><span><b>RA:</b> AUD most overweight</span><b>[A]</b></div></div>"]
+    A004["<div class='arg'><b>A004 · RECOMMENDATION</b><div class='core rec'><span>Long EUR vs GBP and USD</span><b>[A]</b></div><div class='c view'><span><b>S:</b> BoE pricing too high</span><b>[A]</b></div><div class='c rec'><span><b>CO:</b> <b>A001 - RECOMMENDATION</b></span><b>[A]</b></div></div>"]
+    A005["<div class='arg'><b>A005 · RECOMMENDATION</b><div class='core rec'><span>Long JPY vs CHF</span><b>[A]</b></div><div class='c view'><span><b>S:</b> CHF ideal funder</span><b>[A]</b></div><div class='c view'><span><b>S:</b> BoJ hike risk underpriced</span><b>[H]</b></div></div>"]
+    A006["<div class='arg'><b>A006 · VIEW</b><div class='core view'><span>Carry less compelling</span><b>[A]</b></div><div class='c pos'><span><b>RA:</b> AUD most overweight</span><b>[A]</b></div></div>"]
+    A007["<div class='arg'><b>A007 · PREDICTION</b><div class='core pred'><span>SNB unchanged 2026</span><b>[A]</b></div><div class='c view'><span><b>S:</b> CHF ideal funder</span><b>[A]</b></div></div>"]
+    A008["<div class='arg'><b>A008 · RECOMMENDATION</b><div class='core rec'><span>Neutral NZD, SEK, NOK</span><b>[A]</b></div><div class='c view'><span><b>S:</b> BoE pricing too high</span><b>[A]</b></div></div>"]
+
+    A002 -- Condition --> A001
+    A001 -- Condition --> A004
+
+    classDef pred fill:#fffbe0,stroke:#9a7d00,stroke-width:2px,color:#111111
+    classDef rec fill:#fdeeee,stroke:#8b1a1a,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A007 pred
+    class A001,A003,A004,A005,A008 rec
+    class A002,A006 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

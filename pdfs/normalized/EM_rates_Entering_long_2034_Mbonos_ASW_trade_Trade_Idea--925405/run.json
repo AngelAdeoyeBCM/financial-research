@@ -1,0 +1,342 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Entering_long_2034_Mbonos_ASW_trade_Trade_Idea--925405.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 20,
+    "referents": {
+     "thing": 16,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 18,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "not_a_reference": 2
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 53,
+  "kinds": {
+   "deixis": 28,
+   "possessive": 7,
+   "noun_phrase": 6,
+   "pronoun": 4,
+   "shell": 3,
+   "symbol": 3,
+   "demonstrative": 2
+  },
+  "rooted_share": 0.7419354838709677,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "MODALITY_CHANGED": 2
+  },
+  "sentences": 67,
+  "cost_usd": 0.2004
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 152,
+   "end": 209,
+   "quote": "a 2034 Mbonos 10-year TIIE-F asset-swap receiver position",
+   "name": "the 2034 Mbonos 10-year TIIE-F asset-swap receiver position"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 729,
+   "end": 765,
+   "quote": "Banxico’s most recent bond operation",
+   "name": "Banxico’s most recent bond operation"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1864,
+   "end": 1890,
+   "quote": "A Middle East peace accord",
+   "name": "a Middle East peace accord"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1905,
+   "end": 1977,
+   "quote": "this could trigger a renewed rally in global fixed income (ASW widening)",
+   "name": "this could trigger a renewed rally in global fixed income (ASW widening)"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2026,
+   "end": 2032,
+   "quote": "TIIE-F",
+   "name": "TIIE-F"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3161,
+   "end": 3182,
+   "quote": "The asset swap spread",
+   "name": "the asset swap spread"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3772,
+   "end": 3813,
+   "quote": "Worsening sentiment (i.e., re-escalation)",
+   "name": "Worsening sentiment (i.e., re-escalation)"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4288,
+   "end": 4295,
+   "quote": "Banxico",
+   "name": "Banxico"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4457,
+   "end": 4464,
+   "quote": "the MXN",
+   "name": "the MXN"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5312,
+   "end": 5335,
+   "quote": "local currency EM bonds",
+   "name": "local currency EM bonds"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5859,
+   "end": 5876,
+   "quote": "the 10 y TIIE - F",
+   "name": "the 10 y TIIE - F"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 6220,
+   "end": 6234,
+   "quote": "the bond curve",
+   "name": "the bond curve"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7387,
+   "end": 7397,
+   "quote": "the Mbonos",
+   "name": "the Mbonos"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7761,
+   "end": 7787,
+   "quote": "Banxico’s latest operation",
+   "name": "Banxico’s latest operation"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 8972,
+   "end": 8995,
+   "quote": "A Middle East agreement",
+   "name": "a Middle East agreement"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 1088,
+   "end": 1120,
+   "quote": "the 10y Mbonos asset swap spread",
+   "name": "the 10y Mbonos asset swap spread"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 8121,
+   "end": 8155,
+   "quote": "the 10 y Mbono asset - swap spread",
+   "name": "the 10 y Mbono asset - swap spread"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C008",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We enter' at 2284"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We enter' at 3253"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We re' at 6571"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 2686",
+   "message": "dropped [] added ['could'] in {{this risk => the risk that a Middle East peace accord could trigger a renewed rally in global fixed income (ASW widening)}}"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 9039",
+   "message": "dropped [] added ['could'] in {{this risk => the risk that a Middle East peace accord could trigger a renewed rally in global fixed income (ASW widening)}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0586078,
+   "duration_ms": 5286,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6108,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 421,
+    "output_tokens_details": {
+     "thinking_tokens": 408
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6108,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 421,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6108,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6108
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1418008,
+   "duration_ms": 35847,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6922,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4241,
+    "output_tokens_details": {
+     "thinking_tokens": 2618
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6922,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4241,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6922,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6922
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

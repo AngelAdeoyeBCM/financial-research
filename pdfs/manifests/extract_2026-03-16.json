@@ -1,0 +1,532 @@
+{
+  "batch_id": "2026-03-16",
+  "window": [
+    "2026-03-16",
+    "2026-03-16"
+  ],
+  "generated_at": "2026-10-29T16:27:39",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-14_2026-03-17.json",
+      "sha256": "baf94e1e013a1783f637e5cc13ae5a4f3ce2eb81b046b12e48e0fafba0af220d",
+      "records": 1148,
+      "dates": [
+        "2026-03-15",
+        "2026-03-17"
+      ],
+      "records_for_batch": 952
+    }
+  ],
+  "counts": {
+    "documents": 32,
+    "in_scope": 29,
+    "out_of_scope": 3,
+    "compiled": 1,
+    "skipped": 28,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 4,
+    "edits": 5,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "AUD_rates_Take_profit_on_paid_March_RBA_Trade_Idea--920688",
+      "document": "AUD_rates_Take_profit_on_paid_March_RBA_Trade_Idea--920688.pdf",
+      "date": "2026-03-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/AUD_rates_Take_profit_on_paid_March_RBA_Trade_Idea--920688.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "86fbb82c805eedcb763436650bd3f2558899b265",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Market consensus gradually shifted towards a rate hike i'",
+          "chunk_id": "AUD_rates_Take_profit_on_paid_March_RBA_Trade_Idea--920688.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Market consensus gradually shifted towards a rate hike in March, with the RBA eventually del'",
+          "chunk_id": "AUD_rates_Take_profit_on_paid_March_RBA_Trade_Idea--920688.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 2: March RBA is now almost fully priced'",
+          "chunk_id": "AUD_rates_Take_profit_on_paid_March_RBA_Trade_Idea--920688.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 16/03/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Sources: Bloomberg, Macrobond, BNP Paribas Fig."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Sources: Bloomberg, Macrobond, BNP Paribas Fig."
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 3,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "AUD rates: Take profit on paid March RBA ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "BC_US_Rates_Research_Flow_of_Funds_-_Inflows_still_led_by_the_short_end",
+      "document": "BC_US Rates Research Flow of Funds - Inflows still led by the short end.pdf",
+      "date": "2026-03-16",
+      "publisher": "Barclays",
+      "document_type": "Positioning and flows",
+      "chunk_count": 21,
+      "page_count": 14,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_BoJ_preview_-_A_quiet_pause_ahead_of_the_rate_hike",
+      "document": "BofA_BoJ preview - A quiet pause ahead of the rate hike.pdf",
+      "date": "2026-03-16",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_March_FOMC_-_Hormuz_hold__em",
+      "document": "BofA_March FOMC - Hormuz hold ‘em.pdf",
+      "date": "2026-03-16",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 16,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Traditional_Asset_Managers_-The_Bull_-_Iran_conflict_driving_broad_asset_de-risking__BLK_most_defensive",
+      "document": "BofA_Traditional Asset Managers -The Bull - Iran conflict driving broad asset de-risking; BLK most defensive.pdf",
+      "date": "2026-03-16",
+      "publisher": "Bank of America",
+      "document_type": "Monthly",
+      "chunk_count": 63,
+      "page_count": 22,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.159,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_US_Fixed_Income_Strategy_-_The_US_Fixed_Income_Weekly",
+      "document": "BofA_US Fixed Income Strategy - The US Fixed Income Weekly.pdf",
+      "date": "2026-03-16",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 76,
+      "page_count": 31,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.487,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "China_Strong_start_to_2026_to_put_stimulus_on_hold_Desknote--920655",
+      "document": "China_Strong_start_to_2026_to_put_stimulus_on_hold_Desknote--920655.pdf",
+      "date": "2026-03-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 12,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.375,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_China_Economics_-_Solid_Start_Sets_the_Stage_for_Nominal_Recovery",
+      "document": "Citi_China Economics - Solid Start Sets the Stage for Nominal Recovery.pdf",
+      "date": "2026-03-16",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 16,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.25,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Citi_s_Most_Read___Economics_-_March_9_-_March_15",
+      "document": "Citi_Citi's Most Read – Economics - March 9 - March 15.pdf",
+      "date": "2026-03-16",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.818,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_US_Economics_-_Inflation_Weekly___Computer_software_raises_red_flags_for_PCE",
+      "document": "Citi_US Economics - Inflation Weekly – Computer software raises red flags for PCE.pdf",
+      "date": "2026-03-16",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 17,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.857,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Credit_Strategy_-_IG___HY_Strategy_-_The_Narratives_Are_Turning_Upside_Down",
+      "document": "DB_Credit Strategy - IG & HY Strategy - The Narratives Are Turning Upside Down.pdf",
+      "date": "2026-03-16",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 91,
+      "page_count": 45,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.011,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Fed_Notes_-_March_FOMC_survey_results",
+      "document": "DB_Fed Notes - March FOMC survey results.pdf",
+      "date": "2026-03-16",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 9,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "ECB_sede_vacante_Modelling_the_next_leadership_Desknote--920522",
+      "document": "ECB_sede_vacante_Modelling_the_next_leadership_Desknote--920522.pdf",
+      "date": "2026-03-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 50,
+      "page_count": 17,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_markets_turn_more_cautious",
+      "document": "FX markets turn more cautious.pdf",
+      "date": "2026-03-16",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_GLOBAL_STRATEGY_VIEWS__-_Further_correction_risks__but_the_cycle_remains_intact",
+      "document": "GS_GLOBAL STRATEGY VIEWS  - Further correction risks, but the cycle remains intact.pdf",
+      "date": "2026-03-16",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.083,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Global_Fixed_Income_Markets_WEEKLY_-_Limited_geopolitical_visibility__keep_risk_light",
+      "document": "JPM_Global Fixed Income Markets WEEKLY - Limited geopolitical visibility, keep risk light.pdf",
+      "date": "2026-03-16",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 255,
+      "page_count": 90,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.955,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPY_rates_Take_profit_on_JGB_10y_short_Trade_Idea--920613",
+      "document": "JPY_rates_Take_profit_on_JGB_10y_short_Trade_Idea--920613.pdf",
+      "date": "2026-03-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Canada_-_February_CPI_-_No_Surprises",
+      "document": "MS_Canada - February CPI - No Surprises.pdf",
+      "date": "2026-03-16",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 11,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.667,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Global_Economic_Briefing_-_The_Weekly_Worldview_-_Second_Order_Effects_of_Oil_Shocks",
+      "document": "MS_Global Economic Briefing - The Weekly Worldview - Second Order Effects of Oil Shocks.pdf",
+      "date": "2026-03-16",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.5,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_metal_ROCK_-_Europe_-_Scenarios_for_Gold",
+      "document": "MS_metal&ROCK - Europe - Scenarios for Gold.pdf",
+      "date": "2026-03-16",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 65,
+      "page_count": 47,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.016,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "March_FOMC__Shocking_developments",
+      "document": "March FOMC: Shocking developments.pdf",
+      "date": "2026-03-16",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "No_slowdown",
+      "document": "No slowdown.pdf",
+      "date": "2026-03-16",
+      "publisher": "State Street",
+      "document_type": "Positioning and flows",
+      "chunk_count": 17,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.941,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Quant_Trades_of_the_Week_Long_Bund_short_USDCAD_long_US_Quality_vs_SPX_Trade_Idea--920675",
+      "document": "Quant_Trades_of_the_Week_Long_Bund_short_USDCAD_long_US_Quality_vs_SPX_Trade_Idea--920675.pdf",
+      "date": "2026-03-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 36,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "RBA_Preview__Forced_to_deliver_another_hike",
+      "document": "RBA Preview: Forced to deliver another hike.pdf",
+      "date": "2026-03-16",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_USD_overvaluation_increases_short_USDCAD_Trade_Idea--920637",
+      "document": "STEER_USD_overvaluation_increases_short_USDCAD_Trade_Idea--920637.pdf",
+      "date": "2026-03-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 13,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Asia_FI-FX_Strategy_-_Oil_Up__Hikes_priced_-_Will_Central_Banks_Act",
+      "document": "UBS_Asia FI-FX Strategy - Oil Up, Hikes priced - Will Central Banks Act.pdf",
+      "date": "2026-03-16",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.9,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-03-16",
+      "document": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf",
+      "date": "2026-03-16",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.625,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Global_Inflation_Strategy_-_The_Global_Inflation_Monday__2026-03-16",
+      "document": "UBS_Global Inflation Strategy - The Global Inflation Monday.pdf",
+      "date": "2026-03-16",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 20,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Economic_Data_-_Softer_Empire__IP_decelerates",
+      "document": "UBS_US Economic Data - Softer Empire, IP decelerates.pdf",
+      "date": "2026-03-16",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

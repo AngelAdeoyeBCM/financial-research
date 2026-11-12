@@ -1,0 +1,95 @@
+version: "1"
+
+id: organization_type
+type: extraction
+
+threshold: 0.5
+
+labels:
+  government:
+    name: Government
+    description: >-
+      The governing authority of a sovereign state, considered
+      as a whole rather than a specific ministry or agency.
+    threshold: null
+    status: active
+
+  central_bank:
+    name: Central bank
+    description: >-
+      A monetary authority responsible for monetary policy,
+      currency issuance, or financial stability.
+    threshold: null
+    status: active
+
+  ministry:
+    name: Ministry
+    description: >-
+      An administrative department of a government responsible
+      for a defined area of public policy.
+    threshold: null
+    status: active
+
+  regulatory_agency:
+    name: Regulatory agency
+    description: >-
+      An organization exercising regulatory, supervisory,
+      or enforcement authority over an industry or market.
+    threshold: null
+    status: active
+
+  company:
+    name: Company
+    description: >-
+      A commercial enterprise that does not fall into
+      a more specific organization category.
+    threshold: null
+    status: active
+
+  bank:
+    name: Bank
+    description: >-
+      A financial institution providing banking, lending,
+      investment banking, or related financial services.
+    threshold: null
+    status: active
+
+  media:
+    name: Media organization
+    description: >-
+      An organization responsible for producing or distributing
+      news, journalism, or other media content.
+    threshold: null
+    status: active
+
+  multilateral:
+    name: Multilateral institution
+    description: >-
+      An intergovernmental organization established by
+      multiple countries to pursue shared objectives.
+    threshold: null
+    status: active
+
+  rating_agency:
+    name: Credit rating agency
+    description: >
+      An organization that assesses and assigns credit ratings
+      to issuers, securities, or financial obligations.
+    threshold: null
+    status: active
+
+  fund:
+    name: Investment fund
+    description: >
+      A pooled investment vehicle managed on behalf
+      of investors.
+    threshold: null
+    status: active
+
+  exchange:
+    name: Financial exchange operator
+    description: >
+      An organization operating a regulated marketplace
+      for trading financial instruments.
+    threshold: null
+    status: active

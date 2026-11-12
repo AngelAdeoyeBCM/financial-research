@@ -1,0 +1,321 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Bond_vigilant_vs._bond_vigilantes_part_two_Sunday_Tea_with_BNP_Paribas--930356.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 19,
+    "referents": {
+     "thing": 8,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 14,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "time": 2,
+     "not_a_reference": 1,
+     "expletive": 2
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 45,
+  "kinds": {
+   "deixis": 30,
+   "possessive": 5,
+   "pronoun": 3,
+   "noun_phrase": 3,
+   "proposition": 2,
+   "demonstrative": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.6,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4,
+   "UNGROUNDED_WORD": 3
+  },
+  "sentences": 63,
+  "cost_usd": 0.1646
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 403,
+   "end": 427,
+   "quote": "long-end Treasury yields",
+   "name": "long-end Treasury yields"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 508,
+   "end": 586,
+   "quote": "the US Treasury intervened on Wednesday, by raising long-end Treasury buybacks",
+   "name": "the US Treasury intervened on Wednesday, by raising long-end Treasury buybacks"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 508,
+   "end": 523,
+   "quote": "the US Treasury",
+   "name": "the US Treasury"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2694,
+   "end": 2713,
+   "quote": "The Fedspeak docket",
+   "name": "the Fedspeak docket"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 3767,
+   "end": 3841,
+   "quote": "EU gas prices show similar strains, having risen above EUR65/MWh on Friday",
+   "name": "EU gas prices show similar strains, having risen above EUR65/MWh on Friday"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4036,
+   "end": 4055,
+   "quote": "the next two months",
+   "name": "the next two months"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 249,
+   "end": 283,
+   "quote": "Incoming growth and inflation data",
+   "name": "incoming growth and inflation data"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4939,
+   "end": 4954,
+   "quote": "Isabel Schnabel",
+   "name": "Isabel Schnabel"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5254,
+   "end": 5271,
+   "quote": "eurozone insurers",
+   "name": "eurozone insurers"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 6579,
+   "end": 6593,
+   "quote": "Colombia’s GDP",
+   "name": "Colombia's GDP"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we don’t' at 2329"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we observe' at 3310"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We don’t' at 3659"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we bought' at 3716"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 5010",
+   "message": "not verbatim in source: [\"schnabel's\"] in {{her => Isabel Schnabel's}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 5026",
+   "message": "not verbatim in source: [\"schnabel's\"] in {{her => Isabel Schnabel's}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 5115",
+   "message": "not verbatim in source: [\"schnabel's\"] in {{her => Isabel Schnabel's}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.058077899999999995,
+   "duration_ms": 8581,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5174,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 781,
+    "output_tokens_details": {
+     "thinking_tokens": 768
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5174,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 781,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5174,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5174
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1065458,
+   "duration_ms": 24161,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5942,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2874,
+    "output_tokens_details": {
+     "thinking_tokens": 1748
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5942,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2874,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5942,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5942
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

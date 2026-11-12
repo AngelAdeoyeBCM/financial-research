@@ -1,0 +1,210 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-09-06.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-06",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "claim": 1,
+     "thing": 4
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 3
+    },
+    "leave_reasons": {
+     "time": 2
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 4,
+   "noun_phrase": 3,
+   "symbol": 2,
+   "proposition": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.88,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 18,
+  "cost_usd": 0.0963
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 1153,
+   "end": 1247,
+   "quote": "the broader measure of labor market underutilization, the U-6 rate, fell by two-tenths to 7.7%",
+   "name": "the broader measure of labor market underutilization, the U-6 rate, fell by two-tenths to 7.7%"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1283,
+   "end": 1330,
+   "quote": "a two-tenths increase in the participation rate",
+   "name": "the two-tenths increase in the participation rate"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2129,
+   "end": 2148,
+   "quote": "Fed Governor Waller",
+   "name": "Fed Governor Waller"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 376,
+   "end": 405,
+   "quote": "the September 16 FOMC meeting",
+   "name": "the September 16 FOMC meeting"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2504,
+   "end": 2525,
+   "quote": "August’s headline CPI",
+   "name": "August’s headline CPI"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0364072,
+   "duration_ms": 3943,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3862,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 229,
+    "output_tokens_details": {
+     "thinking_tokens": 216
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3862,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 229,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3862,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3862
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.059901100000000006,
+   "duration_ms": 12543,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4080,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1306,
+    "output_tokens_details": {
+     "thinking_tokens": 792
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4080,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1306,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4080,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4080
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

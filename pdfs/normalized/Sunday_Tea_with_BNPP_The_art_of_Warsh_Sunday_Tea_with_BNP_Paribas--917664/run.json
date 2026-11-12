@@ -1,0 +1,284 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Sunday_Tea_with_BNPP_The_art_of_Warsh_Sunday_Tea_with_BNP_Paribas--917664.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 13,
+    "referents": {
+     "claim": 4,
+     "thing": 11
+    },
+    "decisions": {
+     "link": 13
+    },
+    "leave_reasons": {},
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 55,
+  "kinds": {
+   "deixis": 33,
+   "noun_phrase": 6,
+   "symbol": 5,
+   "possessive": 4,
+   "proposition": 2,
+   "pronoun": 2,
+   "shell": 2,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6914893617021277,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 69,
+  "cost_usd": 0.1767
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 426,
+   "end": 507,
+   "quote": "We revised our Fed outlook last week and no longer expect any rate cuts this year",
+   "name": "We revised our Fed outlook last week and no longer expect any rate cuts this year"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 675,
+   "end": 683,
+   "quote": "the FOMC",
+   "name": "the FOMC"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 901,
+   "end": 916,
+   "quote": "President Trump",
+   "name": "President Trump"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 927,
+   "end": 938,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1797,
+   "end": 1808,
+   "quote": "more easing",
+   "name": "more easing"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 1771,
+   "end": 1808,
+   "quote": "there is little scope for more easing",
+   "name": "there is little scope for more easing"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 2719,
+   "end": 2833,
+   "quote": "the federal government is partially shut down over disagreement on funding for the Department of Homeland Security",
+   "name": "the federal government is partially shut down over disagreement on funding for the Department of Homeland Security"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 2638,
+   "end": 2706,
+   "quote": "the probability that the data is released on schedule has diminished",
+   "name": "the probability that the data is released on schedule has diminished"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 3510,
+   "end": 3522,
+   "quote": "The Treasury",
+   "name": "The Treasury"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 3683,
+   "end": 3696,
+   "quote": "the 20y point",
+   "name": "the 20y point"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 3473,
+   "end": 3508,
+   "quote": "decreasing long-end duration supply",
+   "name": "decreasing long-end duration supply"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 1863,
+   "end": 1898,
+   "quote": "the January nonfarm payrolls report",
+   "name": "the January nonfarm payrolls report"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 3193,
+   "end": 3240,
+   "quote": "the Treasury’s quarterly refunding announcement",
+   "name": "the Treasury’s quarterly refunding announcement"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 4933,
+   "end": 4950,
+   "quote": "a Jun26 Put Ratio",
+   "name": "a Jun26 Put Ratio"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 4733,
+   "end": 4736,
+   "quote": "SMH",
+   "name": "SMH"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we head' at 3950"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0575093,
+   "duration_ms": 7898,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5363,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 676,
+    "output_tokens_details": {
+     "thinking_tokens": 668
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5363,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 676,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5363,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5363
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.11923409999999998,
+   "duration_ms": 31243,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5795,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3578,
+    "output_tokens_details": {
+     "thinking_tokens": 2337
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5795,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3578,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5795,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5795
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

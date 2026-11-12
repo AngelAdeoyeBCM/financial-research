@@ -1,0 +1,39 @@
+version: "1"
+
+id: person_type
+type: extraction
+
+threshold: 0.5
+
+labels:
+  analyst:
+    name: Analyst
+    description: >-
+      A person producing research or financial analysis, such
+      as a sell-side or buy-side analyst.
+    threshold: null
+    status: active
+
+  executive:
+    name: Executive
+    description: >-
+      A person holding a senior management position within an
+      organization, such as a chief executive or board member.
+    threshold: null
+    status: active
+
+  central_bank_official:
+    name: Central bank official
+    description: >-
+      A person serving as an official or policymaker at a
+      central bank.
+    threshold: null
+    status: active
+
+  political_figure:
+    name: Political figure
+    description: >-
+      An elected politician, political officeholder, party
+      leader, candidate, or former political leader.
+    threshold: null
+    status: active

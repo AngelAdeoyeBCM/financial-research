@@ -1,0 +1,217 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Extending_target_and_trailing_stop_on_long_USDTHB_Trade_Idea--933049.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-02",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 2
+    },
+    "leave_reasons": {
+     "expletive": 2,
+     "generic": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 20,
+  "kinds": {
+   "deixis": 15,
+   "noun_phrase": 3,
+   "demonstrative": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.53125,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 14,
+  "cost_usd": 0.0794
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 100,
+   "end": 144,
+   "quote": "our long USDTHB (15Dec26 forward) trade idea",
+   "name": "our long USDTHB (15Dec26 forward) trade idea"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1661,
+   "end": 1688,
+   "quote": "Recent flooding in Thailand",
+   "name": "Recent flooding in Thailand"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1923,
+   "end": 1949,
+   "quote": "short positions in the THB",
+   "name": "short positions in the THB"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 775,
+   "end": 781,
+   "quote": "USDTHB",
+   "name": "USDTHB"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We extend' at 57"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.027806199999999996,
+   "duration_ms": 2915,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3057,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 125,
+    "output_tokens_details": {
+     "thinking_tokens": 112
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3057,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 125,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3057,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3057
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0515823,
+   "duration_ms": 11036,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3272,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1212,
+    "output_tokens_details": {
+     "thinking_tokens": 751
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3272,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1212,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3272,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3272
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

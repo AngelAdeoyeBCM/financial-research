@@ -1,0 +1,185 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_vol_Sell_USDCNH_risk_reversal_through_long_call_fly_Trade_Idea--919274.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-24",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 9,
+    "referents": {
+     "claim": 2,
+     "thing": 2
+    },
+    "decisions": {
+     "link": 9
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 18,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 6,
+   "proposition": 2,
+   "symbol": 1,
+   "pronoun": 1,
+   "possessive": 1
+  },
+  "rooted_share": 0.8703703703703703,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 25,
+  "cost_usd": 0.0998
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 645,
+   "end": 761,
+   "quote": "realised spot-vol covariance has not increased in tandem, leaving risk reversals screening as rich at current levels",
+   "name": "realised spot-vol covariance has not increased in tandem, leaving risk reversals screening as rich at current levels"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 339,
+   "end": 365,
+   "quote": "6m 6.85–6.95–7.05 call fly",
+   "name": "the 6m 6.85–6.95–7.05 call fly"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1564,
+   "end": 1585,
+   "quote": "very low realised vol",
+   "name": "very low realised vol"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1812,
+   "end": 1891,
+   "quote": "a change in the peg regime may be under-priced due to this extremely low anchor",
+   "name": "a change in the peg regime may be under-priced due to this extremely low anchor"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.031097200000000002,
+   "duration_ms": 2560,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3457,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 123,
+    "output_tokens_details": {
+     "thinking_tokens": 110
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3457,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 123,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3457,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3457
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.06873979999999999,
+   "duration_ms": 16326,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3792,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1859,
+    "output_tokens_details": {
+     "thinking_tokens": 1239
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3792,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1859,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3792,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3792
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

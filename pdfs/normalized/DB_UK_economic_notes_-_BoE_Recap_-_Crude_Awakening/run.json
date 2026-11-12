@@ -1,0 +1,368 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_UK_economic_notes_-_BoE_Recap_-_Crude_Awakening.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-19",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 26,
+    "referents": {
+     "thing": 18,
+     "claim": 4
+    },
+    "decisions": {
+     "link": 24,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "time": 1,
+     "relative": 1
+    },
+    "extra": 9,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 6,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 74,
+  "kinds": {
+   "deixis": 34,
+   "noun_phrase": 10,
+   "possessive": 8,
+   "demonstrative": 7,
+   "pronoun": 4,
+   "answer": 3,
+   "proposition": 3,
+   "fragment": 3,
+   "shell": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.7622377622377622,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 109,
+  "cost_usd": 0.255
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 4590,
+   "end": 4608,
+   "quote": "The March decision",
+   "name": "the March decision"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1947,
+   "end": 1967,
+   "quote": "second-round effects",
+   "name": "second-round effects"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3104,
+   "end": 3139,
+   "quote": "the vacancies-to-unemployment ratio",
+   "name": "the vacancies-to-unemployment ratio"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3208,
+   "end": 3219,
+   "quote": "Bank Agents",
+   "name": "Bank Agents"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4198,
+   "end": 4203,
+   "quote": "Q3-26",
+   "name": "Q3-26"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 156,
+   "end": 163,
+   "quote": "the MPC",
+   "name": "the MPC"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 4860,
+   "end": 4900,
+   "quote": "the committee was ready to act if needed",
+   "name": "the committee was ready to act if needed"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 6791,
+   "end": 6851,
+   "quote": "Higher energy prices will push inflation expectations higher",
+   "name": "Higher energy prices will push inflation expectations higher"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 7650,
+   "end": 7686,
+   "quote": "rate hikes are not the modal outcome",
+   "name": "rate hikes are not the modal outcome"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 8765,
+   "end": 8811,
+   "quote": "a reintroduction of the Energy Price Guarantee",
+   "name": "a reintroduction of the Energy Price Guarantee"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 8874,
+   "end": 8898,
+   "quote": "the inflation trajectory",
+   "name": "the inflation trajectory"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 9218,
+   "end": 9296,
+   "quote": "fiscal policy curb inflation prior to the Bank's next decision date (30 April)",
+   "name": "fiscal policy curb inflation prior to the Bank's next decision date (30 April)"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 9543,
+   "end": 9554,
+   "quote": "a rate hike",
+   "name": "a rate hike"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9996,
+   "end": 10019,
+   "quote": "the impact on inflation",
+   "name": "the impact on inflation"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 9857,
+   "end": 9874,
+   "quote": "no fiscal support",
+   "name": "no fiscal support"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 10575,
+   "end": 10590,
+   "quote": "positive growth",
+   "name": "positive growth"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 10820,
+   "end": 10854,
+   "quote": "a drift higher in wage settlements",
+   "name": "a drift higher in wage settlements"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 793,
+   "end": 801,
+   "quote": "The Bank",
+   "name": "the Bank"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 442,
+   "end": 468,
+   "quote": "The unfolding energy shock",
+   "name": "the unfolding energy shock"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 1835,
+   "end": 1852,
+   "quote": "the Iran conflict",
+   "name": "the Iran conflict"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 7402,
+   "end": 7419,
+   "quote": "the energy crisis",
+   "name": "the energy crisis"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 9791,
+   "end": 9804,
+   "quote": "three factors",
+   "name": "three factors"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We no' at 1452"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'its' in ' more information and analysis ahead of its next meeting\".'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.08222600000000001,
+   "duration_ms": 12496,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6600,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1411,
+    "output_tokens_details": {
+     "thinking_tokens": 790
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6600,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1411,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6600,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6600
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1728033,
+   "duration_ms": 44976,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7602,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5513,
+    "output_tokens_details": {
+     "thinking_tokens": 3453
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7602,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5513,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7602,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7602
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

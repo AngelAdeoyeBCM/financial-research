@@ -1,0 +1,158 @@
+
+{
+  "claims": [
+    {
+      "id": "C1",
+      "function": "recommendation",
+      "assertion": "Initiate Overweight on Ocado credit and outstanding SUNs.",
+      "subject": {
+        "kind": "entity",
+        "name": "Ocado credit and outstanding SUNs"
+      },
+    //   "predicate": "recommend_overweight", # THIS SHOULD BE INFERRED FROM THE ASSERTION AND ATTRIBUTES
+      "modality": "asserted",
+      "modality_cue": "We initiate",
+      "attributes": {
+        "rating": "overweight",
+        "action": "initiate",
+        "direction": null,
+        "entry": null,
+        "target": null,
+        "stop": null
+        // Do we need to include additional attributes for the recommendation? Trade legs, sides?
+      }, 
+      "condition": null, // We need to think about how to represent conditions for recommendations. IS this just a category of/reference to supporting claims.
+      "horizon": null, // What exactly do we mean
+      "measurement_ids": [], // What would a measurement mean here?
+      "attributed_to": "Neill Keaney",
+      "evidence": [
+        "We initiate on the Ocado credit and its outstanding SUNs with an Overweight recommendation."
+      ],
+      "extraction_confidence": null
+    },
+    {
+      "id": "C2",
+      "function": "assessment",
+      "assertion": "Ocado's existing module portfolio more than covers its debt stack.",
+      "subject": {
+        "kind": "entity",
+        "name": "Ocado existing module portfolio"
+      },
+      "predicate": "covers_debt_stack",
+      "modality": "asserted",
+      "modality_cue": null,
+      "attributes": {
+        "comparison": "greater_than",
+        "comparison_target": "Ocado debt stack"
+      }, // THESE ATTRIBUTES FEEL LESS UNIVERSAL? BUT I don't really understand how to standardize them across different types of assessments.
+      "condition": null,
+      "horizon": null,
+      "measurement_ids": ["M1", "M2", "M3", "M4"],
+      "attributed_to": "Neill Keaney",
+      "evidence": [
+        "the existing module portfolio more than covers the debt stack",
+        "Existing active modules imply almost £2.8bn of EV at £24m per module, driving an estimated 24% LTV after £765m of cash against the £1.8bn debt stack."
+      ],
+      "extraction_confidence": null
+    },
+    {
+      "id": "C3",
+      "function": "assessment",
+      "assertion": "Ocado credit offers a compelling, predominantly carry-based opportunity.",
+      "subject": {
+        "kind": "entity",
+        "name": "Ocado credit"
+      },
+      "predicate": "offers_attractive_carry",
+      "modality": "asserted",
+      "modality_cue": null,
+      "attributes": {
+        "assessment": "compelling",
+        "return_characteristic": "carry_based"
+      }, // THIS SHULD ALSO BE STANDARDIZED. BUT QUESTION IS HOW>
+      "condition": null,
+      "horizon": null,
+      "measurement_ids": ["M5", "M6", "M7"],
+      "attributed_to": "Neill Keaney",
+      "evidence": [
+        "Whilst strong ytd returns mean that the opportunity is now largely carry-based, it is a compelling one: The 11% coupon means a running yield of almost 10.5% with nearly one year of call protection remaining."
+      ],
+      "extraction_confidence": null
+    },
+    {
+      "id": "C4",
+      "function": "prediction",
+      "assertion": "Ocado's net leverage will decline to 3.9x at FY26.",
+      "subject": {
+        "kind": "variable", // I need to understand these classes a bit more.
+        "entity": "Ocado",
+        "metric": "net_leverage"
+      },
+      "predicate": "decreases_to",
+      "modality": "expected",
+      "modality_cue": "We expect",
+      "attributes": {
+        "direction": "decrease"
+      },
+      "condition": null,
+      "horizon": "FY26",
+      "measurement_ids": ["M8", "M9"],
+      "forecast_series_id": "FS1",
+      "attributed_to": "Neill Keaney",
+      "evidence": [
+        "We expect net leverage, on a ratio basis, to decline to 3.9x at FY26 from 4.9x at 1H26 and to 2.3x by FY28."
+      ],
+      "extraction_confidence": null
+    },
+    {
+      "id": "C5",
+      "function": "prediction",
+      "assertion": "Ocado's net leverage will decline to 2.3x by FY28.",
+      "subject": {
+        "kind": "variable",
+        "entity": "Ocado",
+        "metric": "net_leverage"
+      },
+      "predicate": "decreases_to",
+      "modality": "expected",
+      "modality_cue": "We expect",
+      "attributes": {
+        "direction": "decrease"
+      },
+      "condition": null,
+      "horizon": "FY28",
+      "measurement_ids": ["M10"],
+      "forecast_series_id": "FS1",
+      "attributed_to": "Neill Keaney",
+      "evidence": [
+        "We expect net leverage, on a ratio basis, to decline to 3.9x at FY26 from 4.9x at 1H26 and to 2.3x by FY28."
+      ],
+      "extraction_confidence": null
+    },
+    {
+      "id": "C6",
+      "function": "prediction",
+      "assertion": "Ocado will generate approximately £2.6m positive cash flow in FY27.",
+      "subject": {
+        "kind": "variable",
+        "entity": "Ocado",
+        "metric": "cash_flow"
+      },
+      "predicate": "becomes_positive",
+      "modality": "expected",
+      "modality_cue": "We expect",
+      "attributes": {
+        "direction": "increase",
+        "cash_flow_subtype": null
+      },
+      "condition": null,
+      "horizon": "FY27",
+      "measurement_ids": ["M11"],
+      "attributed_to": "Neill Keaney",
+      "evidence": [
+        "We expect stronger underlying EBITDA, driven by recurring fee income and cost savings at Tech Solutions and lower Group-level capex to deliver a very modest positive (+£2.6m) cash flow in FY27, in line with management guidance."
+      ],
+      "extraction_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe -c \"from incolor.ontology.currency import Currency; print\\(Currency\\(currency_code='BRL', central_bank_id='org:bcb', default_country_id='geo:br', non_deliverable=True\\)\\)\")",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\ruff.exe check src\\\\incolor\\\\ontology\\\\currency.py)",
+      "PowerShell(.\\\\.venv\\\\Scripts\\\\python.exe -c \"from incolor.ontology.currency import Currency; c = Currency\\(currency_code='CNH', on_shore_ccy_id='ccy:cny'\\); u = Currency\\(currency_code='CNY'\\); print\\(c.is_offshore, u.is_offshore\\)\")"
+    ]
+  }
+}

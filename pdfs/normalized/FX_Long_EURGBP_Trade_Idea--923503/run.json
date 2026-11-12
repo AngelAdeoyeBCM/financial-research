@@ -1,0 +1,200 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Long_EURGBP_Trade_Idea--923503.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-06",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "link": 4
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 12,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 2,
+   "demonstrative": 1,
+   "pronoun": 1,
+   "possessive": 1
+  },
+  "rooted_share": 0.7647058823529411,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 21,
+  "cost_usd": 0.0826
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 380,
+   "end": 426,
+   "quote": "long EURGBP ahead of the 7 May local elections",
+   "name": "the long EURGBP ahead of the 7 May local elections"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1201,
+   "end": 1372,
+   "quote": "fiscal and political concerns in the lead-up to November’s budget and February’s renewed pressure on the prime minister over Peter Mandelson’s appointment as US ambassador",
+   "name": "the fiscal and political concerns in the lead-up to November’s budget and February’s renewed pressure on the prime minister over Peter Mandelson’s appointment as US ambassador"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1666,
+   "end": 1684,
+   "quote": "rate differentials",
+   "name": "rate differentials"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1908,
+   "end": 1914,
+   "quote": "EURGBP",
+   "name": "EURGBP"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 314,
+   "end": 317,
+   "quote": "GBP",
+   "name": "GBP"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1377",
+   "message": "+24 words: {{these two episodes => the fiscal and political concerns in the lead-up to November’s budget and February’s renewed pressure on the prime minister over Peter Mandelson’s appointment as US ambassador}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0279167,
+   "duration_ms": 2487,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3137,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 98,
+    "output_tokens_details": {
+     "thinking_tokens": 90
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3137,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 98,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3137,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3137
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0546723,
+   "duration_ms": 12586,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3297,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1354,
+    "output_tokens_details": {
+     "thinking_tokens": 828
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3297,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1354,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3297,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3297
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

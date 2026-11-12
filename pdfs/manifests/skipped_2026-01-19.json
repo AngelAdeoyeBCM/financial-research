@@ -1,0 +1,1016 @@
+{
+  "batch_id": "2026-01-19",
+  "window": [
+    "2026-01-19",
+    "2026-01-19"
+  ],
+  "generated_at": "2026-10-29T16:26:19",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-25_2026-01-28.json",
+      "sha256": "5dfd5842e7e7518b563ed08eef4d020963b3f6596dfed2cca8eda50d9b351bc3",
+      "records": 1144,
+      "dates": [
+        "2026-01-17",
+        "2026-01-20"
+      ],
+      "records_for_batch": 331
+    }
+  ],
+  "counts": {
+    "documents": 24,
+    "in_scope": 22,
+    "out_of_scope": 2,
+    "compiled": 2,
+    "skipped": 20,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 29,
+    "edits": 27,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 53,
+    "UNSTRUCTURED_TEXT": 20,
+    "DISTORTED_TABLE": 17,
+    "MISSING_CHUNKS": 8
+  },
+  "documents": [
+    {
+      "stem": "BC_China_-_Two-speed_economy_persists",
+      "document": "BC_China - Two-speed economy persists.pdf",
+      "date": "2026-01-19",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Review",
+      "chunk_count": 15,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 6.8 6.9 6.8 6.1 2.3 8.6 3.1 5.4 5.0 5.0 -2 0",
+          "chunk_id": "BC_China - Two-speed economy persists.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 1.2 0 1 2",
+          "chunk_id": "BC_China - Two-speed economy persists.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BC_China - Two-speed economy persists.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 Dec-15 Dec-17 Dec-19",
+          "chunk_id": "BC_China - Two-speed economy persists.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -8 -4 0 4 8 12 16 20 Dec-22 Dec-23 Dec-24 Dec-25",
+          "chunk_id": "BC_China - Two-speed economy persists.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "BC_China - Two-speed economy persists.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_BoJ_preview_-_Sticking_with_watch-and-wait",
+      "document": "BofA_BoJ preview - Sticking with watch-and-wait.pdf",
+      "date": "2026-01-19",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: +81 3 6225 8592 | +81 3 6225 8515 | +81 3 6225 7950",
+          "chunk_id": "BofA_BoJ preview - Sticking with watch-and-wait.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852",
+      "document": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf",
+      "date": "2026-01-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 18,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 75 85 95 105 115 125 135 2025 2028 2031 2034 2037",
+          "chunk_id": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 5 105 115 125 135 2025 2028 2031 2034 2037 2040",
+          "chunk_id": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 8.5 9.5 10.5 11.5 12.5 13.5 14.5 15.5 2025 2026 2027",
+          "chunk_id": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -2 0 2 4 6 8 10 Jan-16 Jan-18 Jan-20 Jan-22 Jan-24",
+          "chunk_id": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 Jan-24 Jul-24 Jan-25 Jul-25 Jan-26",
+          "chunk_id": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: -140 -120 -100 -80 -60 -40 -20 0 20 -261 -174 -87",
+          "chunk_id": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 22 2018 2014 2010 2006 0.000 0.010 0.020 0.030 0.040 -300 -240",
+          "chunk_id": "Brazil_Dual_election-driven_scenarios_for_2026_Desknote--916852.pdf-6-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "China_Target_reached_in_2025_pressure_ahead_in_2026_Desknote--916813",
+      "document": "China_Target_reached_in_2025_pressure_ahead_in_2026_Desknote--916813.pdf",
+      "date": "2026-01-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 6.0 5.3 4.1 5.0 5.0 | 8.0 4.5 3.4 3.5 3.7 | 5.4 3.9 4.0 3.2 -3.8",
+          "chunk_id": "China_Target_reached_in_2025_pressure_ahead_in_2026_Desknote--916813.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -10 0 10 20 30 Jan-19 Jul-19 Jan-20 Jul-20 Jan-21 Jul-21 Jan-22",
+          "chunk_id": "China_Target_reached_in_2025_pressure_ahead_in_2026_Desknote--916813.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "66 consecutive numeric/date tokens: 5% 70 72 74 76 78 80 Q1 Q2 Q3 Q4 2017",
+          "chunk_id": "China_Target_reached_in_2025_pressure_ahead_in_2026_Desknote--916813.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_European_Economics_-_Implications_of_the__Greenland__Tariffs",
+      "document": "Citi_European Economics - Implications of the “Greenland” Tariffs.pdf",
+      "date": "2026-01-19",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 80 100 120 140 160 180 200 220 240 2016 2017 2018",
+          "chunk_id": "Citi_European Economics - Implications of the “Greenland” Tariffs.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_UK_economic_notes_-_Inflation_Spotlight___Flight_or_Fright",
+      "document": "DB_UK economic notes - Inflation Spotlight – Flight or Fright.pdf",
+      "date": "2026-01-19",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 13,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        8,
+        12
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8, 12]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EURPLN_EU_fund_flows_supports_PLN_add_3m_seagull_Trade_Idea--916829",
+      "document": "EURPLN_EU_fund_flows_supports_PLN_add_3m_seagull_Trade_Idea--916829.pdf",
+      "date": "2026-01-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 0 5,000 10,000 15,000 20,000 25,000 30,000 35,000 2022 2023 2024 2025",
+          "chunk_id": "EURPLN_EU_fund_flows_supports_PLN_add_3m_seagull_Trade_Idea--916829.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -2000 0 2000 4000 6000 8000 10000 12000 14000 Jan-19 Mar-20 May-21",
+          "chunk_id": "EURPLN_EU_fund_flows_supports_PLN_add_3m_seagull_Trade_Idea--916829.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Early_year_calm_gives_way_to_macro_noise",
+      "document": "Early year calm gives way to macro noise.pdf",
+      "date": "2026-01-19",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        7,
+        9,
+        11,
+        14,
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7, 9, 11, 14, 16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2 4 6 8 10 12 14 '21 '22 '23 '24 '25",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 0% 25% 50% 75% 100% | 0% 25% 50% 75% 100% | 0% 25% 50% 75% 100%",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 200 400 600 800 1000 0% 25% 50% 75% 100% Jan-25",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jan-25 Mar-25 May-25 Jul-25 Sep-25 Nov-25 Jan-26",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jan-25 Mar-25 May-25 Jul-25 Sep-25 Nov-25 Jan-26",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jan-25 Mar-25 May-25 Jul-25 Sep-25 Nov-25 Jan-26",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jan-25 Mar-25 May-25 Jul-25 Sep-25 Nov-25 Jan-26",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jan-25 Mar-25 May-25 Jul-25 Sep-25 Nov-25 Jan-26",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jan-25 Mar-25 May-25 Jul-25 Sep-25 Nov-25 Jan-26",
+          "chunk_id": "Early year calm gives way to macro noise.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_Five_key_drivers_for_2026_Desknote--916887",
+      "document": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf",
+      "date": "2026-01-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Outlook",
+      "chunk_count": 45,
+      "page_count": 15,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.20 0.00 0.20 0.40 0.60 0.80 1.00 1.20 0 1 2 3",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 -0.7 -0.5 -0.3 -0.1 0.1 0.3",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 45 50 55 60 65 70 75 80 Jan-26 May-26 Sep-26 Jan-27",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 45 50 55 60 65 70 75 80 Jan-26 May-26 Sep-26 Jan-27",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.2 0.3 0.4 0.5 0.6 0.7 0.8 -4 -2 0 2 4",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.0 4.0 5.0 6.0 7.0 8.0 9.0 Jan-26 Apr-26 Jul-26 Oct-26 Jan-27",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 7.0 9.0 11.0 13.0 15.0 17.0 Jan-26 Apr-26 Jul-26 Oct-26 Jan-27 Apr-27",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 10% 15% 20% 25% 0 500 1000 2010 2012 2014 2016 2018",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-10-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-12-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "80% of tokens are numeric/date values",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-12-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "35 consecutive numeric/date tokens: 9.1 11.7 13.4 13.4 14.2 15.3 15.4 15.6 16.7 16.7 17.1 18.3",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-13-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-13-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 Mar-21 Jan-22",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-14-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 Mar-21 Jan-22",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-14-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "76% of tokens are numeric/date values",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "74% of tokens are numeric/date values",
+          "chunk_id": "FX_Five_key_drivers_for_2026_Desknote--916887.pdf-15-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Is_the_USD_tide_turning",
+      "document": "Is the USD tide turning?.pdf",
+      "date": "2026-01-19",
+      "publisher": "State Street",
+      "document_type": "Positioning and flows",
+      "chunk_count": 16,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        12
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 12]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -16 -11 -6 -1 4 9 14 Jan-24 Jul-24 Jan-25 Jul-25 Jan-26",
+          "chunk_id": "Is the USD tide turning?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Is the USD tide turning?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "42% of tokens are numeric/date values",
+          "chunk_id": "Is the USD tide turning?.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Is the USD tide turning?.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "Is the USD tide turning?.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Is the USD tide turning?.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "Is the USD tide turning?.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Is the USD tide turning?.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "Is the USD tide turning?.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Is the USD tide turning?.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48% of tokens are numeric/date values",
+          "chunk_id": "Is the USD tide turning?.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Is the USD tide turning?.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Dec-24 Apr-25 Jul-25 Oct-25 Jan-26",
+          "chunk_id": "Is the USD tide turning?.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Is the USD tide turning?.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Canada_-_December_CPI_-_Underlying_Softening_amidst_Policy_Pressures",
+      "document": "MS_Canada - December CPI - Underlying Softening amidst Policy Pressures.pdf",
+      "date": "2026-01-19",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1.00 -0.80 -0.60 -0.40 -0.20 0.00 0.20 0.40 0.60 75 80 85",
+          "chunk_id": "MS_Canada - December CPI - Underlying Softening amidst Policy Pressures.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Risks_to_Our_BoJ_Outlook_-_Yen_Weakness__C-Tax_Cut__BoJ_s_Communications_vs._Spending_and_Inflation_Expectations_of_Households",
+      "document": "MS_Risks to Our BoJ Outlook - Yen Weakness, C-Tax Cut, BoJ's Communications vs. Spending and Inflation Expectations of Households.pdf",
+      "date": "2026-01-19",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 20,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        14,
+        20
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 14, 20]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2024) 64.4 69.0 53.6 29.2 10.6 0 20 40 60 80",
+          "chunk_id": "MS_Risks to Our BoJ Outlook - Yen Weakness, C-Tax Cut, BoJ's Communications vs. Spending and Inflation Expectations of Households.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -2.0 -1.0 0.0 1.0 2.0 3.0 4.0 2010 2012 2014 2016 2018",
+          "chunk_id": "MS_Risks to Our BoJ Outlook - Yen Weakness, C-Tax Cut, BoJ's Communications vs. Spending and Inflation Expectations of Households.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_The_Weekly_Worldview_-_The_Fed_s_Independence",
+      "document": "MS_The Weekly Worldview - The Fed's Independence.pdf",
+      "date": "2026-01-19",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        11
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: (16 Nov 2025) 2026 | (16 Nov 2025) 2026 | (16 Nov 2025) 2026",
+          "chunk_id": "MS_The Weekly Worldview - The Fed's Independence.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845",
+      "document": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf",
+      "date": "2026-01-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 36,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 2.0 13191 12803 12159 14367 5 2.90% 147 12 Jan 26",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10 -5 0 5 10 -50 -30 -10 10 30 50 4.37",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-4-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -10 -5 0 5 10 -50 -30 -10 10 30 50 59.1",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-6-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10 -5 0 5 10 -50 -30 -10 10 30 50 4.37",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-7-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-10-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-10-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-10-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-10-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Quant_Trades_of_the_Week_Adding_long_USDMXN_short_JP_Banks_RV_receive_ZAR_Trade_Idea--916845.pdf-10-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "SSAs_Diversify_and_hedge_with_long_4y_EU_vs_ESTR_Trade_Idea--916817",
+      "document": "SSAs_Diversify_and_hedge_with_long_4y_EU_vs_ESTR_Trade_Idea--916817.pdf",
+      "date": "2026-01-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0.8 0.85 0.9 0.95 1 1.05 1.1 1.15 1.2 0 10 20",
+          "chunk_id": "SSAs_Diversify_and_hedge_with_long_4y_EU_vs_ESTR_Trade_Idea--916817.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 10 20 30 40 50 60 Jan-24 May-24 Sep-24 Jan-25 May-25 Sep-25",
+          "chunk_id": "SSAs_Diversify_and_hedge_with_long_4y_EU_vs_ESTR_Trade_Idea--916817.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_Signals_remain_long_EURSEK_and_NZDUSD_Trade_Idea--916806",
+      "document": "STEER_Signals_remain_long_EURSEK_and_NZDUSD_Trade_Idea--916806.pdf",
+      "date": "2026-01-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "71% of tokens are numeric/date values",
+          "chunk_id": "STEER_Signals_remain_long_EURSEK_and_NZDUSD_Trade_Idea--916806.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_China_Economic_Comment_-_2025_Growth_target_achieved__but_policy_makers",
+      "document": "UBS_China Economic Comment - 2025 Growth target achieved, but policy makers.pdf",
+      "date": "2026-01-19",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 14,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        10
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [10]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: Q3 2025 Q4 2025 Nov 2025 Dec 2025",
+          "chunk_id": "UBS_China Economic Comment - 2025 Growth target achieved, but policy makers.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: Q4 -50 -40 -30 -20 -10 0 10 20 30 40 50",
+          "chunk_id": "UBS_China Economic Comment - 2025 Growth target achieved, but policy makers.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: Q4 -30 -20 -10 0 10 20 30 40 50 2019 2020",
+          "chunk_id": "UBS_China Economic Comment - 2025 Growth target achieved, but policy makers.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 6 8 10 12 14 16 18 20 22 24 -12 -8",
+          "chunk_id": "UBS_China Economic Comment - 2025 Growth target achieved, but policy makers.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "UBS_China Economic Comment - 2025 Growth target achieved, but policy makers.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_China_Weekly_-_Soft_Jan_growth__export_VAT",
+      "document": "UBS_China Weekly - Soft Jan growth, export VAT.pdf",
+      "date": "2026-01-19",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2025 0 10 20 30 40 50 60 70 80 90 2020",
+          "chunk_id": "UBS_China Weekly - Soft Jan growth, export VAT.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 0 500 1,000 1,500 2,000 2,500 3,000 3,500 4,000 600 800 1000",
+          "chunk_id": "UBS_China Weekly - Soft Jan growth, export VAT.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 1/19 1/20 1/21 1/22 1/23",
+          "chunk_id": "UBS_China Weekly - Soft Jan growth, export VAT.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_European_Economic_Comment_-_President_Trump_announces_10__tariff_in_dispute",
+      "document": "UBS_European Economic Comment - President Trump announces 10% tariff in dispute.pdf",
+      "date": "2026-01-19",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "42 consecutive numeric/date tokens: 0.3 0.2 0.4 0.4 0.6 0.1 0.3 0.1 0.3 0.4 0.4 0.4",
+          "chunk_id": "UBS_European Economic Comment - President Trump announces 10% tariff in dispute.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-01-19",
+      "document": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf",
+      "date": "2026-01-19",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

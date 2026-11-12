@@ -1,0 +1,195 @@
+{
+  "batch_id": "2026-05-06",
+  "window": [
+    "2026-05-06",
+    "2026-05-06"
+  ],
+  "generated_at": "2026-10-29T16:28:48",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-05_2026-05-08.json",
+      "sha256": "f5943dbb0a664b1173542add09a43a8231700b5234cd4365659a312690a0e4ab",
+      "records": 2183,
+      "dates": [
+        "2026-05-05",
+        "2026-05-08"
+      ],
+      "records_for_batch": 82
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 6,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 3,
+    "edits": 4,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Climbing_the_wall_of_worry",
+      "document": "Climbing the wall of worry.pdf",
+      "date": "2026-05-06",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 15,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.933,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Entering_2y_IBR_TIIE-F_spread_payer_Trade_Idea--923510",
+      "document": "EM_rates_Entering_2y_IBR_TIIE-F_spread_payer_Trade_Idea--923510.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Entering_KRW_1y_receivers_Trade_Idea--923463",
+      "document": "EM_rates_Entering_KRW_1y_receivers_Trade_Idea--923463.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Catching_Asia_s_dividend_wave_Desknote--923471",
+      "document": "FX_Catching_Asia_s_dividend_wave_Desknote--923471.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 40,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.9,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Long_EURGBP_Trade_Idea--923503",
+      "document": "FX_Long_EURGBP_Trade_Idea--923503.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Long_EURGBP_Trade_Idea--923503.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "20c32f42006ab3fdc55cef0c8d161e7437925901",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: We do not see a discount currently embedded in GBP to reflect ongoing political uncertainty '",
+          "chunk_id": "FX_Long_EURGBP_Trade_Idea--923503.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 2: Room for EURGBP longs to be rebuilt'",
+          "chunk_id": "FX_Long_EURGBP_Trade_Idea--923503.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA T R A D E I D E A 06/05/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1,
+        "promotion": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FX: Long EURGBP ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "STEER_USD_remains_cheap_in_G10_rich_in_Asia_Trade_Idea--923487",
+      "document": "STEER_USD_remains_cheap_in_G10_rich_in_Asia_Trade_Idea--923487.pdf",
+      "date": "2026-05-06",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

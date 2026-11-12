@@ -1,0 +1,494 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../../../samples/BofA_Sept_FOMC_-_hike_or_bond_spike.txt",
+  "model": "haiku",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-14",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 55,
+    "referents": {
+     "thing": 21,
+     "claim": 7
+    },
+    "decisions": {
+     "link": 50,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "expletive": 4,
+     "relative": 1
+    },
+    "extra": 8,
+    "rejected_per_attempt": [
+     3,
+     0
+    ],
+    "undecided_per_attempt": [
+     1,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 6,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 144,
+  "kinds": {
+   "symbol": 43,
+   "deixis": 34,
+   "pronoun": 18,
+   "noun_phrase": 14,
+   "possessive": 11,
+   "demonstrative": 5,
+   "proposition": 5,
+   "abbreviation": 3,
+   "verdict": 3,
+   "vp": 3,
+   "fragment": 2,
+   "shell": 2,
+   "answer": 1
+  },
+  "rooted_share": 0.8218623481781376,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 143,
+  "cost_usd": 0.0258
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 481,
+   "end": 538,
+   "quote": "The Fed is now widely expected to hike Wednesday by 25bps",
+   "name": "the Fed hike"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 481,
+   "end": 488,
+   "quote": "The Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 971,
+   "end": 1011,
+   "quote": "a sharp and disorderly UST long end move",
+   "name": "the sharp and disorderly UST long end move"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1448,
+   "end": 1475,
+   "quote": "JH, largely to support bond",
+   "name": "JH, largely to support bond"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2972,
+   "end": 2983,
+   "quote": "Gov. Waller",
+   "name": "Gov. Waller"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 873,
+   "end": 882,
+   "quote": "Sept FOMC",
+   "name": "the Sept FOMC"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3805,
+   "end": 3859,
+   "quote": "the PCE methodology changes scheduled for September 30",
+   "name": "the PCE methodology changes"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4461,
+   "end": 4517,
+   "quote": "the median projections for the end of this year and next",
+   "name": "the median projections for the end of this year and next"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4886,
+   "end": 4931,
+   "quote": "questions about the policy path going forward",
+   "name": "the questions about the policy path going forward"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4846,
+   "end": 4857,
+   "quote": "Chair Warsh",
+   "name": "Chair Warsh"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5092,
+   "end": 5099,
+   "quote": "markets",
+   "name": "markets"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 5525,
+   "end": 5595,
+   "quote": "He might also point to the increase in oil as upside risk to inflation",
+   "name": "He might also point to the increase in oil as upside risk to inflation"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 6190,
+   "end": 6230,
+   "quote": "the Dallas Fed's trimmed-mean PCE metric",
+   "name": "the Dallas Fed's trimmed-mean PCE metric"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7339,
+   "end": 7354,
+   "quote": "Hawkish presser",
+   "name": "the Hawkish presser"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 7762,
+   "end": 7776,
+   "quote": "Dovish presser",
+   "name": "the Dovish presser"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 8727,
+   "end": 8735,
+   "quote": "Treasury",
+   "name": "the Treasury"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 8867,
+   "end": 8878,
+   "quote": "Trump admin",
+   "name": "the Trump admin"
+  },
+  {
+   "id": "R18",
+   "type": "claim",
+   "start": 9015,
+   "end": 9091,
+   "quote": "tolerate modestly higher front end rates or materially higher long end rates",
+   "name": "tolerate modestly higher front end rates or materially higher long end rates"
+  },
+  {
+   "id": "R19",
+   "type": "claim",
+   "start": 9294,
+   "end": 9323,
+   "quote": "Warsh delivers a hawkish hike",
+   "name": "Warsh delivers a hawkish hike"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 8167,
+   "end": 8175,
+   "quote": "Fed hold",
+   "name": "the Fed hold"
+  },
+  {
+   "id": "R22",
+   "type": "claim",
+   "start": 11486,
+   "end": 11592,
+   "quote": "the bar for this committee to “out-hawk” both expectations as well as other G10 central banks appears high",
+   "name": "the bar for this committee to “out-hawk” both expectations as well as other G10 central banks appears high"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 11445,
+   "end": 11484,
+   "quote": "more than 3 hikes priced in for the Fed",
+   "name": "the more than 3 hikes priced in for the Fed"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 12034,
+   "end": 12050,
+   "quote": "Bullish USD case",
+   "name": "the Bullish USD case"
+  },
+  {
+   "id": "R25",
+   "type": "claim",
+   "start": 12515,
+   "end": 12586,
+   "quote": "the Fed hikes at least 100bp and/or brings current expectations forward",
+   "name": "the Fed hikes at least 100bp and/or brings current expectations forward"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 3155,
+   "end": 3185,
+   "quote": "updated set of Fed projections",
+   "name": "the updated set of Fed projections"
+  },
+  {
+   "id": "R27",
+   "type": "claim",
+   "start": 11165,
+   "end": 11277,
+   "quote": "the dollar has also been unable to rally amid the recent reacceleration in oil, gas, and refined energy products",
+   "name": "the dollar has also been unable to rally amid the recent reacceleration in oil, gas, and refined energy products"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 5857,
+   "end": 5934,
+   "quote": "the share of PCE components that are running above 3% over the last 12 months",
+   "name": "the share of PCE components that are running above 3% over the last 12 months"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 10161,
+   "end": 10224,
+   "quote": "74 meetings where market priced some hike likelihood & Fed held",
+   "name": "the 74 meetings where market priced some hike likelihood & Fed held"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C009",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C028",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C039",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C055",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R21",
+      "type": "thing",
+      "sid": "E113",
+      "quote": "74 meetings where market priced some hike likelihood & Fed held",
+      "name": "the 74 meetings where market priced some hike likelihood and Fed held"
+     },
+     "reason": "name 'the 74 meetings where market priced some hike likelihood and Fed held' has words not in the quote: ['and']"
+    },
+    {
+     "item": {
+      "candidate": "C048",
+      "action": "link",
+      "referent": "R21"
+     },
+     "reason": "referent 'R21' is not in the referent table"
+    },
+    {
+     "item": {
+      "sid": "E068",
+      "phrase": "this metric",
+      "occurrence": 1,
+      "referent": "R28"
+     },
+     "reason": "E068 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.00658054,
+   "duration_ms": 45517,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 10644,
+    "output_tokens": 11629,
+    "output_tokens_details": {
+     "thinking_tokens": 11046
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 11629,
+      "cache_read_input_tokens": 10644,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.01574094,
+   "duration_ms": 94832,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 11210,
+    "cache_read_input_tokens": 2464,
+    "output_tokens": 25208,
+    "output_tokens_details": {
+     "thinking_tokens": 21432
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 11210,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 25208,
+      "cache_read_input_tokens": 2464,
+      "cache_creation_input_tokens": 11210,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 11210
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0034586800000000004,
+   "duration_ms": 4933,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10493,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 723,
+    "output_tokens_details": {
+     "thinking_tokens": 570
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 10493,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 723,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 10493,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 10493
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  }
+ ]
+}

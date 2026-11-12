@@ -1,0 +1,204 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Equity_derivatives_First_batch_of_China_onshore_active_ETFs_to_unlock_thematic_alpha_Trade_Idea--933254.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-07",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 4,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 6,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "relative": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 21,
+  "kinds": {
+   "deixis": 7,
+   "symbol": 6,
+   "noun_phrase": 4,
+   "possessive": 2,
+   "pronoun": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.8823529411764706,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 24,
+  "cost_usd": 0.0943
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 892,
+   "end": 925,
+   "quote": "the first batch of 18 active ETFs",
+   "name": "the first batch of 18 active ETFs"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1036,
+   "end": 1062,
+   "quote": "the rollout of active ETFs",
+   "name": "the rollout of active ETFs"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1317,
+   "end": 1403,
+   "quote": "two-thirds of these products follow value, balanced/conservative, or dividend strategy",
+   "name": "two-thirds of these products follow value, balanced/conservative, or dividend strategy"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2301,
+   "end": 2330,
+   "quote": "dividend-oriented active ETFs",
+   "name": "dividend-oriented active ETFs"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2568,
+   "end": 2622,
+   "quote": "BNPP HK/China stable and high dividend thematic basket",
+   "name": "the BNPP HK/China stable and high dividend thematic basket"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0337348,
+   "duration_ms": 3102,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3843,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 103,
+    "output_tokens_details": {
+     "thinking_tokens": 90
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3843,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 103,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3843,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3843
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0605405,
+   "duration_ms": 12377,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4149,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1304,
+    "output_tokens_details": {
+     "thinking_tokens": 665
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4149,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1304,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4149,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4149
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

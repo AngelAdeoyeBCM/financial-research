@@ -1,0 +1,607 @@
+[P002] Liquid Insight
+
+[P003] Sept FOMC: hike or bond spike
+    topic    Sept FOMC
+
+[P005] Fed likely to hike 25bp.
+    P005-1   statement   FORECAST        HEDGED       The Fed hikes 25bp.
+
+[P006] SEP is 50bps total hikes in '26.
+    P006-1   statement   FORECAST        ASSERTED     SEP is 50bps total hikes in '26.
+
+[P007] Fed choice is simple: hike or bond spike.
+    P007-1   statement   VIEW            ASSERTED     The Fed's choice is simple.
+    P007-2   statement   VIEW            ASSERTED     The Fed's choice is between a hike and a bond spike.
+
+[P008] Bond likes orthodoxy.
+    P008-1   statement   VIEW            ASSERTED     Bond likes orthodoxy.
+
+[P009] Warsh likely to deliver hawkish hike, which should support higher front end rates and twist flattening of UST curve.
+    P009-1   statement   PREDICTION      HEDGED       Warsh delivers hawkish hike.
+    P009-2   statement   PREDICTION      HEDGED       The hawkish hike supports higher front end rates.
+    P009-3   statement   PREDICTION      HEDGED       The hawkish hike supports twist flattening of UST curve.
+
+[P010] USD outcome will be determined by Fed ability to "out-hawk" mkt expectations and other G10 central banks.
+    P010-1   statement   VIEW            ASSERTED     USD outcome will be determined by Fed ability to 'out-hawk' mkt expectations and other G10 central banks.
+
+[P012] The Fed is now widely expected to hike Wednesday by 25bps.
+    P012-1   statement   OBSERVATION     ASSERTED     A Fed hike Wednesday by 25bps is widely expected.
+    P012-2   statement   FORECAST        HEDGED       The Fed hikes Wednesday by 25bps.
+    attribution P012-1 -> P012-2  (widely expected)
+
+[P013] Rates price the Sept FOMC hike with approximately 85% likelihood, up from just 35% likelihood just 2 weeks ago.
+    P013-1   statement   OBSERVATION     ASSERTED     Rates price the Sept FOMC hike with approximately 85% likelihood.
+    P013-2   statement   OBSERVATION     ASSERTED     Rates priced the Sept FOMC hike with just 35% likelihood just 2 weeks ago.
+
+[P014] The sharp shift in Fed pricing was catalyzed by Warsh Jackson Hole (JH) speech and stronger labor and inflation data.
+    P014-1   statement   OBSERVATION     ASSERTED     There was a sharp shift in Fed pricing.
+    P014-2   statement   OBSERVATION     ASSERTED     Warsh gave a Jackson Hole speech.
+    P014-3   statement   OBSERVATION     ASSERTED     Labor data were stronger.
+    P014-4   statement   OBSERVATION     ASSERTED     Inflation data were stronger.
+    causal   P014-2 -> P014-1  (was catalyzed by)
+    causal   P014-3 -> P014-1  (was catalyzed by)
+    causal   P014-4 -> P014-1  (was catalyzed by)
+
+[P015] The Sept FOMC hike is the first part of a previously very out-of-consensus 75bps hike in ’26 call from BofA US Economics.
+    P015-1   statement   OBSERVATION     ASSERTED     BofA US Economics made a 75bps hike in '26 call.
+    P015-2   statement   OBSERVATION     ASSERTED     The 75bps hike in '26 call was previously very out-of-consensus.
+    P015-3   statement   VIEW            ASSERTED     The Sept FOMC hike is the first part of the 75bps hike in '26 call.
+    attribution P015-1 -> P015-3  (call from)
+    attribution P015-1 -> P015-2  (call from)
+
+[P016] Fed faces simple choice at Sept FOMC: hike or risk large bond spike.
+    P016-1   statement   VIEW            ASSERTED     The Fed faces a simple choice at Sept FOMC.
+    P016-2   statement   VIEW            ASSERTED     The Fed's choice at Sept FOMC is between a hike and a risk of large bond spike.
+
+[P017] If the Fed does not hike with current pricing, the Fed risks a sharp and disorderly UST long end move.
+    P017-1   antecedent  PREDICTION      ASSERTED     The Fed does not hike with current pricing.
+    P017-2   consequent  PREDICTION      ASSERTED     The Fed risks a sharp and disorderly UST long end move.
+    formula  IF(P017-1, P017-2)
+
+[P018] US 30Y could rapidly test 5.75%; UST buybacks would be futile to stop the UST long end move.
+    P018-1   statement   FORECAST        SPECULATIVE  US 30Y rapidly tests 5.75%.
+    P018-2   statement   VIEW            HEDGED       UST buybacks are futile to stop the UST long end move.
+
+[P019] Bond price action, including post Friday’s CPI, shows the bond likes orthodoxy (Exhibit 2).
+    P019-1   statement   VIEW            ASSERTED     Bond price action, including post Friday's CPI, shows the bond likes orthodoxy.
+
+[P020] Orthodoxy is use rate hikes to slow inflation and quell long end rate spike (not buybacks).
+    P020-1   statement   VIEW            ASSERTED     Orthodoxy is use rate hikes to slow inflation and quell long end rate spike.
+    P020-2   statement   VIEW            ASSERTED     Orthodoxy is not buybacks.
+
+[P021] Sept FOMC communications likely lean hawkish.
+    P021-1   statement   PREDICTION      HEDGED       Sept FOMC communications lean hawkish.
+
+[P022] SEP will show 50bps of total hikes in ’26, Waller may dovish dissent.
+    P022-1   statement   FORECAST        ASSERTED     SEP shows 50bps of total hikes in '26.
+    P022-2   statement   PREDICTION      SPECULATIVE  Waller dissents dovishly.
+
+[P025] The author thinks Jackson Hole, largely to support bond.
+    P025-1   statement   VIEW            HEDGED       Jackson Hole was to support bond.
+
+[P026] If Warsh in presser is Jackson Hole Warsh, UST curve likely to twist flatten, USD to be supported, and risk challenged.
+    P026-1   antecedent  PREDICTION      ASSERTED     Warsh in presser is Jackson Hole Warsh.
+    P026-2   consequent  PREDICTION      HEDGED       UST curve twist flattens.
+    P026-3   consequent  PREDICTION      ASSERTED     USD is supported.
+    P026-4   consequent  PREDICTION      ASSERTED     Risk is challenged.
+    formula  IF(P026-1, AND(P026-2, P026-3, P026-4))
+
+[P027] If Warsh in presser is not Jackson Hole Warsh, bigger Bessent “house” needed for bond.
+    P027-1   antecedent  PREDICTION      ASSERTED     Warsh in presser is not Jackson Hole Warsh.
+    P027-2   consequent  VIEW            ASSERTED     A bigger Bessent 'house' is needed for bond.
+    formula  IF(P027-1, P027-2)
+
+[P028] History note: Fed never held with market pricing such high hike likelihood, using FOMC OIS.
+    topic    History note
+    P028-1   statement   OBSERVATION     ASSERTED     The Fed never held with market pricing such high hike likelihood, using FOMC OIS.
+
+[P030] Friday’s CPI data all but lock in a rate hike this week.
+    P030-1   statement   PREDICTION      HEDGED       Friday's CPI data lock in a rate hike this week.
+
+[P031] Chairman Warsh's Jackson Hole remarks, together with current market pricing, have raised the cost of disappointing expectations significantly.
+    P031-1   statement   VIEW            ASSERTED     The cost of disappointing expectations has risen significantly.
+    P031-2   statement   OBSERVATION     ASSERTED     Chairman Warsh gave Jackson Hole remarks.
+    P031-3   statement   OBSERVATION     ASSERTED     Current market pricing is in place.
+    causal   P031-2 + P031-3 -> P031-1  (together with)
+
+[P032] Warsh can also point to Friday’s twist flattening of the Treasury curve as evidence that tighter policy is reinforcing inflation-fighting credibility, providing further justification for a hike.
+    P032-1   statement   PREDICTION      SPECULATIVE  Warsh points to Friday's twist flattening of the Treasury curve.
+    P032-2   statement   VIEW            ASSERTED     Tighter policy is reinforcing inflation-fighting credibility.
+    P032-3   statement   VIEW            ASSERTED     Tighter policy provides further justification for a hike.
+    attribution P032-1 -> P032-2  (as evidence that)
+    causal   P032-2 -> P032-3  (providing)
+
+[P033] Beyond next week's meeting, uncertainty around the policy path remains.
+    P033-1   statement   PREDICTION      ASSERTED     Uncertainty around the policy path remains beyond next week's meeting.
+
+[P034] However, there will be only one additional employment report and one CPI release before the October meeting.
+    P034-1   statement   FORECAST        ASSERTED     There will be only one additional employment report before the October meeting.
+    P034-2   statement   FORECAST        ASSERTED     There will be only one CPI release before the October meeting.
+    open     However
+
+[P035] Unless incoming data soften materially or Fed communication turns unexpectedly dovish, the author expects additional rate hikes in both October and December.
+    P035-1   antecedent  PREDICTION      ASSERTED     Incoming data soften materially.
+    P035-2   antecedent  PREDICTION      ASSERTED     Fed communication turns unexpectedly dovish.
+    P035-3   consequent  FORECAST        ASSERTED     Additional rate hikes occur in October.
+    P035-4   consequent  FORECAST        ASSERTED     Additional rate hikes occur in December.
+    formula  IF(NOT(OR(P035-1, P035-2)), AND(P035-3, P035-4))
+
+[P037] The author sees a few potential tweaks to the FOMC statement.
+    P037-1   statement   PREDICTION      SPECULATIVE  There are a few potential tweaks to the FOMC statement.
+
+[P038] If the Fed hikes, the author thinks the language around inflation will be modified to rationalize the Sept FOMC hike.
+    P038-1   antecedent  PREDICTION      ASSERTED     The Fed hikes.
+    P038-2   consequent  PREDICTION      ASSERTED     The language around inflation is modified to rationalize the Sept FOMC hike.
+    formula  IF(P038-1, P038-2)
+
+[P039] For example, the statement might note that progress on inflation has slowed or that the rate increase was aimed at delivering price stability.
+    P039-1   statement   PREDICTION      SPECULATIVE  The statement notes that progress on inflation has slowed.
+    P039-2   statement   PREDICTION      SPECULATIVE  The statement notes that the rate increase was aimed at delivering price stability.
+    formula  OR(P039-1, P039-2)
+    open     For example
+
+[P040] The FOMC statement comment that productivity growth is strong might also be altered due to soft productivity readings over the last three quarters.
+    P040-1   statement   PREDICTION      SPECULATIVE  The FOMC statement comment that productivity growth is strong is altered.
+    P040-2   statement   OBSERVATION     ASSERTED     Productivity readings over the last three quarters are soft.
+    causal   P040-2 -> P040-1  (due to)
+
+[P041] If the Fed raises rates, Gov. Waller might dissent, depending on Waller's estimate of Aug core PCE.
+    P041-1   antecedent  PREDICTION      ASSERTED     The Fed raises rates.
+    P041-2   consequent  PREDICTION      SPECULATIVE  Gov. Waller dissents.
+    P041-3   statement   VIEW            ASSERTED     Waller's dissent depends on Waller's estimate of Aug core PCE.
+    formula  IF(P041-1, P041-2)
+    causal   P041-3 -> P041-2  (depending on)
+
+[P043] While the SEP's days may be numbered, the Sept FOMC meeting will still deliver an updated set of Fed projections.
+    P043-1   statement   PREDICTION      HEDGED       The SEP's days are numbered.
+    P043-2   statement   PREDICTION      ASSERTED     The Sept FOMC meeting will still deliver an updated set of Fed projections.
+    contrast P043-1 -> P043-2  (While)
+
+[P044] The forecasts will also include policymakers' first estimates for 2029, which are likely to be very similar to the longer-run projections.
+    P044-1   statement   PREDICTION      ASSERTED     The forecasts will also include policymakers' first estimates for 2029.
+    P044-2   statement   PREDICTION      HEDGED       Policymakers' first estimates for 2029 are very similar to the longer-run projections.
+
+[P045] Assuming a hike, the author expects the 2026 median dot to show 50bp of hikes this year, implying another rate increase in Oct or Dec.
+    P045-1   antecedent  PREDICTION      ASSERTED     The Fed hikes.
+    P045-2   consequent  FORECAST        ASSERTED     The 2026 median dot shows 50bp of hikes this year.
+    P045-3   consequent  FORECAST        ASSERTED     Another rate increase occurs in Oct or Dec.
+    formula  IF(P045-1, AND(P045-2, P045-3))
+    causal   P045-2 -> P045-3  (implying)
+
+[P046] The author thinks the 2027 median will likely show one cut (3.875%).
+    P046-1   statement   FORECAST        HEDGED       The 2027 median shows one cut (3.875%).
+
+[P047] Recall that the dots reflect the expected policy rate at year-end.
+    P047-1   statement   VIEW            ASSERTED     The dots reflect the expected policy rate at year-end.
+
+[P048] It would be reasonable for the Fed to pencil in a cut at some stage next year, since many policymakers will likely assume that higher rates will help quell inflation.
+    P048-1   statement   VIEW            HEDGED       It is reasonable for the Fed to pencil in a cut at some stage next year.
+    P048-2   statement   OBSERVATION     HEDGED       Many policymakers assume higher rates help quell inflation.
+    P048-3   statement   VIEW            HEDGED       Higher rates help quell inflation.
+    causal   P048-2 -> P048-1  (since)
+    attribution P048-2 -> P048-3  (assume)
+
+[P049] One outstanding question is whether the Fed will incorporate the PCE methodology changes scheduled for September 30 into the Fed's projections.
+
+[P050] The author thinks the Fed will incorporate the PCE methodology changes, although the author's conviction is low as it may be easier to reflect the PCE methodology changes ex-post.
+    P050-1   statement   PREDICTION      HEDGED       The Fed incorporates the PCE methodology changes.
+    P050-2   statement   VIEW            SPECULATIVE  Reflecting the PCE methodology changes ex-post is easier.
+    contrast P050-2 -> P050-1  (although)
+
+[P051] If the PCE methodology changes are incorporated, the author would expect both the headline and core inflation projections for 2026 to be marked down by roughly 30bp.
+    P051-1   antecedent  PREDICTION      ASSERTED     The PCE methodology changes are incorporated.
+    P051-2   consequent  FORECAST        ASSERTED     The headline inflation projection for 2026 is marked down by roughly 30bp.
+    P051-3   consequent  FORECAST        ASSERTED     The core inflation projection for 2026 is marked down by roughly 30bp.
+    formula  IF(P051-1, AND(P051-2, P051-3))
+
+[P052] Beyond this year, the author expects the Fed to lower the Fed's growth forecasts by 0.1pp, to 2.2% in 2027 and 2.1% in 2028, reflecting the somewhat higher expected rate path over this year and next.
+    P052-1   statement   FORECAST        ASSERTED     Beyond this year, the Fed lowers the Fed's growth forecasts by 0.1pp.
+    P052-2   statement   FORECAST        ASSERTED     The Fed's growth forecast is 2.2% in 2027.
+    P052-3   statement   FORECAST        ASSERTED     The Fed's growth forecast is 2.1% in 2028.
+    P052-4   statement   PREDICTION      ASSERTED     The expected rate path over this year and next is somewhat higher.
+    causal   P052-4 -> P052-1  (reflecting)
+
+[P053] The author also expects the headline and core inflation projections for 2027 to be revised down by 0.1pp.
+    P053-1   statement   FORECAST        ASSERTED     The headline inflation projection for 2027 is revised down by 0.1pp.
+    P053-2   statement   FORECAST        ASSERTED     The core inflation projection for 2027 is revised down by 0.1pp.
+
+[P054] The u-rate, however, is already two-tenths below the median projections for the end of this year and next.
+    P054-1   statement   OBSERVATION     ASSERTED     The u-rate is already two-tenths below the median projections for the end of this year and next.
+    open     however
+
+[P055] So the author expects the median projections to move down as a mark-to-market, despite the somewhat higher expected rate path.
+    P055-1   statement   PREDICTION      ASSERTED     The median projections move down as a mark-to-market.
+    P055-2   statement   PREDICTION      ASSERTED     The expected rate path is somewhat higher.
+    contrast P055-2 -> P055-1  (despite)
+    open     So
+
+[P056] In sum, aside from changes to the policy path and the potential inflation revisions stemming from the PCE methodology update, SEP changes should be relatively modest.
+    P056-1   statement   PREDICTION      HEDGED       SEP changes are relatively modest aside from changes to the policy path and potential inflation revisions stemming from the PCE methodology update.
+    open     In sum
+
+[P058] Assuming the Fed hikes, Chair Warsh will almost certainly field questions about the policy path going forward.
+    P058-1   antecedent  PREDICTION      ASSERTED     The Fed hikes.
+    P058-2   consequent  PREDICTION      ASSERTED     Chair Warsh fields questions about the policy path going forward.
+    formula  IF(P058-1, P058-2)
+
+[P059] In responding to the questions about the policy path going forward, Warsh will face a balancing act.
+    P059-1   statement   PREDICTION      ASSERTED     Warsh faces a balancing act in responding to the questions about the policy path going forward.
+
+[P060] If Warsh asserts that the Sept FOMC hike (if the Sept FOMC hike happens) was the first in a sequence of rate increases, markets might quickly price in over 100bp of hikes, as they did with the ECB.
+    P060-1   antecedent  PREDICTION      ASSERTED     Warsh asserts a claim about the Sept FOMC hike.
+    P060-2   antecedent  PREDICTION      ASSERTED     The Sept FOMC hike was the first in a sequence of rate increases.
+    P060-3   antecedent  PREDICTION      ASSERTED     The Sept FOMC hike happens.
+    P060-4   consequent  FORECAST        SPECULATIVE  Markets quickly price in over 100bp of hikes.
+    P060-5   statement   OBSERVATION     ASSERTED     Markets priced in over 100bp of hikes with the ECB.
+    formula  IF(AND(P060-1, P060-2, P060-3), P060-4)
+    attribution P060-1 -> P060-2  (asserts)
+
+[P061] If Warsh attempts a "dovish hike" by reassuring markets that the Fed will proceed cautiously, markets might once again question the Fed's commitment to the 2% inflation target.
+    P061-1   antecedent  PREDICTION      ASSERTED     Warsh attempts a 'dovish hike'.
+    P061-2   antecedent  PREDICTION      ASSERTED     Warsh reassures markets that the Fed proceeds cautiously.
+    P061-3   consequent  PREDICTION      SPECULATIVE  Markets once again question the Fed's commitment to the 2% inflation target.
+    formula  IF(AND(P061-1, P061-2), P061-3)
+    causal   P061-2 -> P061-1  (by)
+
+[P062] The author also expects Warsh to be asked why the Fed didn't just hike in July.
+    P062-1   statement   PREDICTION      ASSERTED     Warsh is asked why the Fed didn't just hike in July.
+
+[P064] The author thinks Warsh will probably say that progress on underlying inflation has been insufficient.
+    P064-1   statement   PREDICTION      HEDGED       Warsh says progress on underlying inflation has been insufficient.
+
+[P065] Warsh might also point to the increase in oil as upside risk to inflation, though that would contradict Warsh's prior stance that oil shocks should be treated as one-offs.
+    P065-1   statement   PREDICTION      SPECULATIVE  Warsh points to the increase in oil as upside risk to inflation.
+    P065-2   statement   OBSERVATION     ASSERTED     Warsh's prior stance is that oil shocks should be treated as one-offs.
+    P065-3   statement   VIEW            HEDGED       Warsh pointing to oil as upside risk to inflation contradicts Warsh's prior stance.
+    contrast P065-3 -> P065-1  (though)
+
+[P066] The author will also be looking for additional color on Warsh's reaction function.
+    P066-1   statement   PREDICTION      ASSERTED     The author will look for additional color on Warsh's reaction function.
+
+[P067] At Jackson Hole Warsh finally cited a data point that Warsh uses to gauge underlying inflation - the share of PCE components that are running above 3% over the last 12 months.
+    P067-1   statement   OBSERVATION     ASSERTED     At Jackson Hole Warsh finally cited a data point.
+    P067-2   statement   OBSERVATION     ASSERTED     Warsh uses the data point to gauge underlying inflation.
+    P067-3   statement   OBSERVATION     ASSERTED     The data point is the share of PCE components that are running above 3% over the last 12 months.
+
+[P071] For example, it would be dovish if Warsh starts referring to 3m inflation trends, given the residual seasonality in the PCE inflation data.
+    P071-1   antecedent  PREDICTION      ASSERTED     Warsh starts referring to 3m inflation trends.
+    P071-2   consequent  VIEW            HEDGED       Warsh referring to 3m inflation trends is dovish.
+    P071-3   statement   OBSERVATION     ASSERTED     There is residual seasonality in the PCE inflation data.
+    formula  IF(P071-1, P071-2)
+    causal   P071-3 -> P071-2  (given)
+    open     For example
+
+[P072] Or if Warsh brings up the Dallas Fed's trimmed-mean PCE metric (running at 2.3% on a 12m basis), after having abandoned the Dallas Fed's trimmed-mean PCE metric at Jackson Hole.
+    P072-1   statement   PREDICTION      ASSERTED     Warsh brings up the Dallas Fed's trimmed-mean PCE metric.
+    P072-2   statement   OBSERVATION     ASSERTED     The Dallas Fed's trimmed-mean PCE metric is running at 2.3% on a 12m basis.
+    P072-3   statement   OBSERVATION     ASSERTED     Warsh abandoned the Dallas Fed's trimmed-mean PCE metric at Jackson Hole.
+    formula  P072-1
+    temporal P072-3 -> P072-1  (after having)
+    open     Or
+
+[P073] The author is curious whether Warsh will retain the tweaks Warsh made to Warsh's communication style at Jackson Hole.
+
+[P074] The author found the Jackson Hole speech to be more transparent about Warsh's outlook and, as mentioned above, Warsh's reaction function.
+    P074-1   statement   VIEW            ASSERTED     The Jackson Hole speech is more transparent about Warsh's outlook.
+    P074-2   statement   VIEW            ASSERTED     The Jackson Hole speech is more transparent about Warsh's reaction function.
+
+[P075] In the author's view, greater transparency decreases the risk of miscommunication.
+    P075-1   statement   VIEW            ASSERTED     Greater transparency decreases the risk of miscommunication.
+
+[P076] Even without forward guidance, greater transparency decreases the risk of miscommunication.
+    P076-1   statement   OBSERVATION     ASSERTED     There is no forward guidance.
+    P076-2   statement   VIEW            ASSERTED     Greater transparency decreases the risk of miscommunication.
+    contrast P076-1 -> P076-2  (Even without)
+
+[P077] If Warsh reverts to Warsh's prior stance of avoiding substantive discussions about the economic outlook and the stance of policy, Warsh may field far fewer questions at the press conference.
+    P077-1   antecedent  PREDICTION      ASSERTED     Warsh reverts to Warsh's prior stance of avoiding substantive discussions about the economic outlook and the stance of policy.
+    P077-2   consequent  PREDICTION      SPECULATIVE  Warsh fields far fewer questions at the press conference.
+    formula  IF(P077-1, P077-2)
+
+[P079] Rates price Sept FOMC hike with approximately 85% probability, up sharply in recent weeks (Exhibit 4).
+    P079-1   statement   OBSERVATION     ASSERTED     Rates price Sept FOMC hike with approximately 85% probability.
+    P079-2   statement   OBSERVATION     ASSERTED     The Sept FOMC hike pricing rose sharply in recent weeks.
+
+[P080] Rate pricing is firmly in the zone to support a hike (Exhibit 5).
+    P080-1   statement   VIEW            ASSERTED     Rate pricing is firmly in the zone to support a hike.
+
+[P081] Rate hike and hawkish communication should support modest twist flattening of curve.
+    P081-1   statement   PREDICTION      HEDGED       Rate hike and hawkish communication support modest twist flattening of curve.
+
+[P082] Larger market move would likely come from dovish hike or Fed hold.
+    P082-1   statement   PREDICTION      HEDGED       Larger market move comes from dovish hike or Fed hold.
+
+[P083] The author offers thoughts.
+
+[P084] Fed hike: rate reaction will depend on mix of Fed communications.
+    topic    Fed hike
+    P084-1   statement   VIEW            ASSERTED     Rate reaction depends on mix of Fed communications.
+
+[P085] The author expects Fed to deliver a hawkish hike.
+    P085-1   statement   PREDICTION      ASSERTED     Fed delivers a hawkish hike.
+
+[P086] Key Q will be Warsh presser: the author expects more Jackson Hole than July FOMC.
+    P086-1   statement   VIEW            ASSERTED     The key question will be Warsh presser.
+    P086-2   statement   VIEW            ASSERTED     The Warsh presser has more Jackson Hole than July FOMC.
+
+[P087] Hawkish presser: If Warsh continues to sound inflation impatient and suggest recent data does not imply adequate disinflation trend, market likely to raise hike peak and pull forward timing.
+    topic    Hawkish presser
+    P087-1   antecedent  PREDICTION      ASSERTED     Warsh continues to sound inflation impatient.
+    P087-2   antecedent  OBSERVATION     ASSERTED     Warsh suggests a point about recent data.
+    P087-3   antecedent  VIEW            ASSERTED     Recent data does not imply adequate disinflation trend.
+    P087-4   consequent  PREDICTION      HEDGED       Market raises hike peak.
+    P087-5   consequent  PREDICTION      HEDGED       Market pulls forward timing.
+    formula  IF(AND(P087-1, P087-2, P087-3), AND(P087-4, P087-5))
+    attribution P087-2 -> P087-3  (suggests)
+
+[P088] The author might guess total hikes of 100bps and 60-65bps by end ’26.
+    P088-1   statement   FORECAST        SPECULATIVE  Total hikes are 100bps.
+    P088-2   statement   FORECAST        SPECULATIVE  Total hikes are 60-65bps by end '26.
+
+[P089] The hawkish presser would likely see 2Y rates rise 5-10bps and 30Y rates lower by 5-10bps.
+    P089-1   statement   FORECAST        HEDGED       2Y rates rise 5-10bps.
+    P089-2   statement   FORECAST        HEDGED       30Y rates lower by 5-10bps.
+
+[P090] Bond yields lower due to downside growth and inflation risk and more credible Fed is return to orthodoxy.
+    P090-1   statement   PREDICTION      ASSERTED     Bond yields are lower.
+    P090-2   statement   VIEW            ASSERTED     There is downside growth and inflation risk.
+    P090-3   statement   VIEW            ASSERTED     The Fed is more credible and returns to orthodoxy.
+    causal   P090-2 -> P090-1  (due to)
+    causal   P090-3 -> P090-1  (due to)
+
+[P091] Dovish presser: If Warsh implies unpopular hike, few hikes to follow, or improved signs in inflation trend, market is likely to reduce hike peak and push out timing.
+    topic    Dovish presser
+    P091-1   antecedent  PREDICTION      ASSERTED     Warsh implies unpopular hike.
+    P091-2   antecedent  PREDICTION      ASSERTED     Warsh implies few hikes to follow.
+    P091-3   antecedent  PREDICTION      ASSERTED     Warsh implies improved signs in inflation trend.
+    P091-4   consequent  PREDICTION      HEDGED       Market reduces hike peak.
+    P091-5   consequent  PREDICTION      HEDGED       Market pushes out timing.
+    formula  IF(OR(P091-1, P091-2, P091-3), AND(P091-4, P091-5))
+
+[P092] The author might guess total hikes drop to 85 and 40-45bps by end ’26.
+    P092-1   statement   FORECAST        SPECULATIVE  Total hikes drop to 85.
+    P092-2   statement   FORECAST        SPECULATIVE  Total hikes drop to 40-45bps by end '26.
+
+[P093] The dovish presser would likely see 2Y rates lower by 5bps and 30Y rates higher by 5bps.
+    P093-1   statement   FORECAST        HEDGED       2Y rates lower by 5bps.
+    P093-2   statement   FORECAST        HEDGED       30Y rates higher by 5bps.
+
+[P094] Bond yields higher due to dovish Fed action and confusion about Warsh policy direction or reaction function.
+    P094-1   statement   PREDICTION      ASSERTED     Bond yields higher.
+    P094-2   statement   VIEW            ASSERTED     The Fed's action is dovish.
+    P094-3   statement   VIEW            ASSERTED     There is confusion about Warsh policy direction or reaction function.
+    causal   P094-2 -> P094-1  (due to)
+    causal   P094-3 -> P094-1  (due to)
+
+[P095] Fed hold: if Fed surprisingly holds, the author expects a material front end rate decline and sharp twist steepening of the curve.
+    topic    Fed hold
+    P095-1   antecedent  PREDICTION      ASSERTED     The Fed surprisingly holds.
+    P095-2   consequent  PREDICTION      ASSERTED     There is a material front end rate decline.
+    P095-3   consequent  PREDICTION      ASSERTED     There is sharp twist steepening of the curve.
+    formula  IF(P095-1, AND(P095-2, P095-3))
+
+[P096] Total hikes to decline to 65-75bps with 30-35bps by end ’26.
+    P096-1   statement   FORECAST        ASSERTED     Total hikes decline to 65-75bps.
+    P096-2   statement   FORECAST        ASSERTED     Total hikes by end '26 are 30-35bps.
+
+[P097] Initially, the author might guess 2Y lower by 15-20bps and 30Y bond increase of 10-15bps.
+    P097-1   statement   FORECAST        SPECULATIVE  2Y lower by 15-20bps.
+    P097-2   statement   FORECAST        SPECULATIVE  30Y bond increases by 10-15bps.
+    open     Initially
+
+[P098] Twist steepening would come from a lower near term policy path and perceived very high bar to hike and long end rates that would reflect higher inflation risk premium and Warsh credibility discount.
+    P098-1   statement   PREDICTION      HEDGED       There is twist steepening.
+    P098-2   statement   PREDICTION      HEDGED       The near term policy path is lower.
+    P098-3   statement   VIEW            HEDGED       There is a perceived very high bar to hike.
+    P098-4   statement   VIEW            HEDGED       Long end rates reflect higher inflation risk premium.
+    P098-5   statement   VIEW            HEDGED       Long end rates reflect Warsh credibility discount.
+    causal   P098-2 -> P098-1  (from)
+    causal   P098-3 -> P098-1  (from)
+    causal   P098-4 -> P098-1  (from)
+    causal   P098-5 -> P098-1  (from)
+
+[P099] Over time, the author might expect the 30Y to increase towards 5.75% with limited investor confidence in the Fed.
+    P099-1   statement   FORECAST        SPECULATIVE  The 30Y increases towards 5.75%.
+    P099-2   statement   VIEW            HEDGED       Investor confidence in the Fed is limited.
+    open     Over time
+
+[P100] Treasury buybacks would likely prove futile to stop the 30Y increase towards 5.75%, especially with the Treasury's stumble out the gate.
+    P100-1   statement   VIEW            HEDGED       Treasury buybacks prove futile to stop the 30Y increase towards 5.75%.
+    P100-2   statement   OBSERVATION     ASSERTED     The Treasury stumbled out the gate.
+    causal   P100-2 -> P100-1  (especially with)
+
+[P101] The author thinks Warsh, others at Fed, and Trump admin understand bond risk with Sept hold.
+    P101-1   statement   VIEW            ASSERTED     Warsh understands bond risk with Sept hold.
+    P101-2   statement   VIEW            ASSERTED     Others at Fed understand bond risk with Sept hold.
+    P101-3   statement   VIEW            ASSERTED     Trump admin understands bond risk with Sept hold.
+
+[P102] For Fed, the Fed's choice is simple: hike or risk bond spike.
+    P102-1   statement   VIEW            ASSERTED     The Fed's choice is simple.
+    P102-2   statement   VIEW            ASSERTED     The Fed's choice is between a hike and a risk of bond spike.
+
+[P103] For Trump admin, the Trump admin's choice is likely: tolerate modestly higher front end rates or materially higher long end rates.
+    P103-1   statement   VIEW            HEDGED       The Trump admin's choice is likely.
+    P103-2   statement   VIEW            ASSERTED     The Trump admin's choice is between tolerating modestly higher front end rates or materially higher long end rates.
+
+[P104] The author expects Bessent and Warsh to effectively explain the Trump admin's choice to Trump.
+    P104-1   statement   PREDICTION      ASSERTED     Bessent effectively explains the Trump admin's choice to Trump.
+    P104-2   statement   PREDICTION      ASSERTED     Warsh effectively explains the Trump admin's choice to Trump.
+
+[P105] Trump won’t like the Trump admin's choice but should understand risks of bond un-anchoring and market implications.
+    P105-1   statement   PREDICTION      ASSERTED     Trump won't like the Trump admin's choice.
+    P105-2   statement   PREDICTION      HEDGED       Trump understands risks of bond un-anchoring and market implications.
+    contrast P105-1 -> P105-2  (but)
+
+[P106] The author's best guess is that Warsh delivers a hawkish hike.
+    P106-1   statement   PREDICTION      HEDGED       Warsh delivers a hawkish hike.
+
+[P107] If Warsh delivers a hawkish hike, the hawkish hike will challenge the author's prior bias for lower belly rates with higher front end rates and twist flattening on curve.
+    P107-1   antecedent  PREDICTION      ASSERTED     Warsh delivers a hawkish hike.
+    P107-2   consequent  VIEW            ASSERTED     The hawkish hike challenges the author's prior bias for lower belly rates with higher front end rates and twist flattening on curve.
+    formula  IF(P107-1, P107-2)
+
+[P108] The hawkish hike should support the author's constructive long end asset swap spread view as lower growth and inflation risk and enhanced Fed credibility should support UST investor confidence.
+    P108-1   statement   VIEW            HEDGED       The hawkish hike supports the author's constructive long end asset swap spread view.
+    P108-2   statement   VIEW            HEDGED       Lower growth and inflation risk supports UST investor confidence.
+    P108-3   statement   VIEW            HEDGED       Enhanced Fed credibility supports UST investor confidence.
+    causal   P108-2 -> P108-1  (as)
+    causal   P108-3 -> P108-1  (as)
+
+[P109] History note: if market pricing remains stable and the Fed does not hike, That market pricing remains stable and the Fed does not hike would represent an unprecedented dovish hold (using FOMC OIS data back to ’07).
+    topic    History note
+    P109-1   antecedent  PREDICTION      ASSERTED     Market pricing remains stable.
+    P109-2   antecedent  PREDICTION      ASSERTED     The Fed does not hike.
+    P109-3   consequent  VIEW            HEDGED       A Fed hold with stable market pricing would represent an unprecedented dovish hold using FOMC OIS data back to '07.
+    formula  IF(AND(P109-1, P109-2), P109-3)
+
+[P110] In FOMC OIS data history, the market has never priced such elevated hike likelihood and have Fed hold.
+    P110-1   statement   OBSERVATION     ASSERTED     In FOMC OIS data history, the market has never priced such elevated hike likelihood and had the Fed hold.
+
+[P111] The 4 closest historic parallels include: Sept and Oct ’15, ahead of post GFC liftoff (8-9bps priced); June ’23, Fed hold before delivering last post COVID hike (8.5bps priced); July ’26, Warsh held steady despite 40% priced (10bps priced).
+    P111-1   statement   OBSERVATION     ASSERTED     The 4 closest historic parallels include Sept and Oct '15, June '23 and July '26.
+    P111-2   statement   OBSERVATION     ASSERTED     Sept and Oct '15 were ahead of post GFC liftoff.
+    P111-3   statement   OBSERVATION     ASSERTED     8-9bps were priced for Sept and Oct '15.
+    P111-4   statement   OBSERVATION     ASSERTED     The Fed held in June '23.
+    P111-5   statement   OBSERVATION     ASSERTED     The Fed delivered the last post COVID hike.
+    P111-6   statement   OBSERVATION     ASSERTED     8.5bps were priced for June '23.
+    P111-7   statement   OBSERVATION     ASSERTED     Warsh held steady in July '26.
+    P111-8   statement   OBSERVATION     ASSERTED     40% was priced in July '26.
+    P111-9   statement   OBSERVATION     ASSERTED     10bps was priced in July '26.
+    temporal P111-4 -> P111-5  (before)
+    contrast P111-8 -> P111-7  (despite)
+
+[P112] Today is 22bps priced.
+    P112-1   statement   OBSERVATION     ASSERTED     Today is 22bps priced.
+
+[P113] Since ’07, there have been 74 meetings where market priced some hike likelihood and Fed held; the vast majority of the 74 meetings imply very low Fed hike likelihood (Exhibit 6).
+    P113-1   statement   OBSERVATION     ASSERTED     In the period back to '07, there have been 74 meetings where market priced some hike likelihood and Fed held.
+    P113-2   statement   OBSERVATION     ASSERTED     The vast majority of the 74 meetings imply very low Fed hike likelihood.
+
+[P114] Fed policy tools to shift parallel +25bps, no change in IORB or ON RRP within range.
+    P114-1   statement   FORECAST        ASSERTED     Fed policy tools shift parallel +25bps.
+    P114-2   statement   PREDICTION      ASSERTED     There is no change in IORB or ON RRP within range.
+
+[P115] No balance sheet changes expected at the Sept FOMC meeting.
+    P115-1   statement   PREDICTION      ASSERTED     No balance sheet changes occur at the Sept FOMC meeting.
+
+[P117] The dollar remains subdued going into the September FOMC, despite implied pricing rising sharply to approximately 85% probability of a hike, post CPI (Exhibit 7).
+    P117-1   statement   OBSERVATION     ASSERTED     The dollar remains subdued going into the September FOMC.
+    P117-2   statement   OBSERVATION     ASSERTED     Implied pricing rose sharply to approximately 85% probability of a hike post CPI.
+    contrast P117-2 -> P117-1  (despite)
+
+[P118] Dollar sentiment has soured ever since Chair Warsh’s July FOMC press conference raised credibility concerns on lack of an articulated plan to address persistently above-target inflation.
+    P118-1   statement   OBSERVATION     ASSERTED     Dollar sentiment has soured.
+    P118-2   statement   OBSERVATION     ASSERTED     Chair Warsh's July FOMC press conference raised credibility concerns on lack of an articulated plan to address persistently above-target inflation.
+    temporal P118-2 -> P118-1  (ever since)
+
+[P119] Since then, the market has received a mix of signals, including an attempted course correction from Chair Warsh at Jackson Hole (bullish), a strong August labor report (bullish), dovish comments from the Fed’s Williams and Waller (bearish), and the Treasury’s buyback gambit to suppress US yields (bearish).
+    P119-1   statement   OBSERVATION     ASSERTED     The market has received a mix of signals.
+    P119-2   statement   OBSERVATION     ASSERTED     Chair Warsh attempted a course correction at Jackson Hole.
+    P119-3   statement   VIEW            ASSERTED     The Jackson Hole course correction is bullish.
+    P119-4   statement   OBSERVATION     ASSERTED     There was a strong August labor report.
+    P119-5   statement   VIEW            ASSERTED     The strong August labor report is bullish.
+    P119-6   statement   OBSERVATION     ASSERTED     Dovish comments were made by the Fed's Williams and Waller.
+    P119-7   statement   VIEW            ASSERTED     The dovish comments from Williams and Waller are bearish.
+    P119-8   statement   OBSERVATION     ASSERTED     The Treasury undertook a buyback gambit to suppress US yields.
+    P119-9   statement   VIEW            ASSERTED     The Treasury's buyback gambit is bearish.
+    open     Since then
+
+[P120] Beyond US economic and policy specific factors, the dollar has also been unable to rally amid the recent reacceleration in oil, gas, and refined energy products; something typically associated with dollar appreciation.
+    P120-1   statement   OBSERVATION     ASSERTED     Beyond US economic and policy specific factors, the dollar has been unable to rally amid the recent reacceleration in oil, gas, and refined energy products.
+    P120-2   statement   VIEW            ASSERTED     Reacceleration in oil, gas, and refined energy products is typically associated with dollar appreciation.
+
+[P121] Part of the dollar has also been unable to rally lies in the broader re-pricing of central banks and curves globally (Exhibit 8).
+    P121-1   statement   VIEW            ASSERTED     Part of the dollar's inability to rally lies in the broader re-pricing of central banks and curves globally.
+
+[P122] Now with more than 3 hikes priced in for the Fed, the bar for the FOMC to “out-hawk” both expectations as well as other G10 central banks appears high.
+    P122-1   statement   OBSERVATION     ASSERTED     More than 3 hikes are priced in for the Fed.
+    P122-2   statement   VIEW            HEDGED       The bar for the FOMC to 'out-hawk' both expectations as well as other G10 central banks is high.
+    causal   P122-1 -> P122-2  (Now with)
+
+[P123] That the bar for the FOMC to “out-hawk” both expectations as well as other G10 central banks appears high is partly why despite the prospect of Fed hikes this year, the author sees the USD trading more-or-less sideways into year-end (ex-JPY) (see report: G10 FX back-to-school: dollar unloaded 08 September 2026).
+    P123-1   statement   VIEW            HEDGED       The bar for the FOMC to 'out-hawk' both expectations as well as other G10 central banks is high.
+    P123-2   statement   PREDICTION      ASSERTED     The USD trades more-or-less sideways into year-end (ex-JPY).
+    P123-3   statement   PREDICTION      ASSERTED     There is a prospect of Fed hikes this year.
+    causal   P123-1 -> P123-2  (is partly why)
+    contrast P123-3 -> P123-2  (despite)
+
+[P125] With the evolving market expectations, there remains considerable two-way risk for the USD at Wednesday's meeting.
+    P125-1   statement   VIEW            ASSERTED     There remains considerable two-way risk for the USD at Wednesday's meeting.
+    P125-2   statement   OBSERVATION     ASSERTED     Market expectations are evolving.
+    causal   P125-2 -> P125-1  (With)
+
+[P126] At the extremes, the author sees the FOMC-related bull and bear case for the USD as the following:
+
+[P127] Bullish USD case: The Fed hikes and some combination of the following are met:
+    topic    Bullish USD case
+    P127-1   statement   PREDICTION      ASSERTED     The Fed hikes.
+    P127-2   statement   PREDICTION      ASSERTED     Some combination of the following is met.
+
+[P128] The SEP shows broadening support for additional hikes (relative to the June SEP);
+    P128-1   statement   PREDICTION      ASSERTED     The SEP shows broadening support for additional hikes relative to the June SEP.
+
+[P129] growth and inflation forecasts are elevated even in the context of further hike guidance;
+    P129-1   statement   PREDICTION      ASSERTED     Growth and inflation forecasts are elevated even in the context of further hike guidance.
+
+[P130] Chair Warsh himself (intentionally or unintentionally) offers some indication that a more prolonged campaign is necessary to return inflation on the path to 2%.
+    P130-1   statement   OBSERVATION     ASSERTED     Chair Warsh offers some indication (intentionally or unintentionally).
+    P130-2   statement   VIEW            ASSERTED     A more prolonged campaign is necessary to return inflation on the path to 2%.
+    attribution P130-1 -> P130-2  (offers some indication that)
+
+[P131] The bullish USD case likely sees increased market-implied likelihood that the Fed hikes at least 100bp and or brings current expectations forward.
+    P131-1   statement   FORECAST        HEDGED       Market-implied likelihood that the Fed hikes at least 100bp increases.
+    P131-2   statement   PREDICTION      HEDGED       Current expectations are brought forward.
+    formula  OR(P131-1, P131-2)
+
+[P132] Chair Warsh’s aversion to forward guidance would make the bullish USD case challenging.
+    P132-1   statement   VIEW            HEDGED       Chair Warsh's aversion to forward guidance makes the bullish USD case challenging.
+
+[P133] Bearish USD case: Of course, if the Fed opts to hold in the face of sticky inflation and market pricing, the author expects the dollar to depreciate swiftly and significantly.
+    topic    Bearish USD case
+    P133-1   antecedent  PREDICTION      ASSERTED     The Fed opts to hold in the face of sticky inflation and market pricing.
+    P133-2   consequent  PREDICTION      ASSERTED     The dollar depreciates swiftly and significantly.
+    formula  IF(P133-1, P133-2)
+
+[P134] But even in the event of a hike, the USD could soften with dovish or non-committal language from Warsh.
+    P134-1   antecedent  PREDICTION      ASSERTED     The Fed hikes.
+    P134-2   consequent  PREDICTION      SPECULATIVE  The USD softens.
+    P134-3   statement   PREDICTION      ASSERTED     Warsh uses dovish or non-committal language.
+    formula  IF(P134-1, P134-2)
+    causal   P134-3 -> P134-2  (with)
+    open     But
+
+[P135] Markets may not have the patience for anything that sounds like a “one and done” type event under the veil of “no forward guidance”.
+    P135-1   statement   VIEW            SPECULATIVE  Markets do not have the patience for anything that sounds like a 'one and done' type event under the veil of 'no forward guidance'.
+
+[P136] Any messaging that muddles the reaction function further (as was the case in July) that results in rising back-end yields would also likely see the USD fall in tandem.
+    P136-1   antecedent  PREDICTION      ASSERTED     Messaging muddles the reaction function further.
+    P136-2   statement   OBSERVATION     ASSERTED     Messaging muddled the reaction function further in July.
+    P136-3   antecedent  PREDICTION      ASSERTED     Messaging results in rising back-end yields.
+    P136-4   consequent  PREDICTION      HEDGED       The USD falls in tandem.
+    formula  IF(AND(P136-1, P136-3), P136-4)
+
+[P137] A more restrained SEP dot-plot could also weigh on the dollar if it appears the broader committee (outside of the already identified hawkish members) was reluctant to tighten policy in the current environment.
+    P137-1   consequent  PREDICTION      SPECULATIVE  A more restrained SEP dot-plot weighs on the dollar.
+    P137-2   antecedent  VIEW            HEDGED       The broader committee was reluctant to tighten policy in the current environment.
+    P137-3   statement   OBSERVATION     ASSERTED     The broader committee is outside the already identified hawkish members.
+    formula  IF(P137-2, P137-1)
+
+[P139] Fed expected to hike 25bp.
+    P139-1   statement   OBSERVATION     ASSERTED     A 25bp Fed hike is expected.
+    P139-2   statement   FORECAST        HEDGED       The Fed hikes 25bp.
+    attribution P139-1 -> P139-2  (expected)
+
+[P140] SEP to show 50bps of total hikes in ’26.
+    P140-1   statement   FORECAST        ASSERTED     SEP shows 50bps of total hikes in '26.
+
+[P141] Fed choice is simple: hike or bond spike.
+    P141-1   statement   VIEW            ASSERTED     The Fed's choice is simple.
+    P141-2   statement   VIEW            ASSERTED     The Fed's choice is between a hike and a bond spike.
+
+[P142] Warsh likely to deliver hawkish hike, which should support higher front end rates and twist flattening of UST curve.
+    P142-1   statement   PREDICTION      HEDGED       Warsh delivers hawkish hike.
+    P142-2   statement   PREDICTION      HEDGED       The hawkish hike supports higher front end rates.
+    P142-3   statement   PREDICTION      HEDGED       The hawkish hike supports twist flattening of UST curve.
+
+[P143] USD outcome will be determined by Fed ability to “out-hawk” market expectations and other G10 central banks.
+    P143-1   statement   VIEW            ASSERTED     USD outcome will be determined by Fed ability to 'out-hawk' mkt expectations and other G10 central banks.

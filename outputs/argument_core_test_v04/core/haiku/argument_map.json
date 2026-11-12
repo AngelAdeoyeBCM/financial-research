@@ -1,0 +1,293 @@
+{
+ "map": {
+  "arguments": [
+   {
+    "id": "A001",
+    "summary": "The Fed's September choice is between hiking and risking a bond spike, because the bond favours orthodoxy: rate hikes to slow inflation, not buybacks.",
+    "conclusion": "P016-2",
+    "premises": [
+     "P019-1",
+     "P020-1",
+     "P020-2"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC001",
+     "SC002"
+    ]
+   },
+   {
+    "id": "A002",
+    "summary": "The Fed hikes 25bp: the choice is hike or bond spike, pricing is about 85%, CPI all but locks it in, and disappointing expectations would be costly.",
+    "conclusion": "P005-1",
+    "premises": [
+     "A001",
+     "P013-1",
+     "P030-1",
+     "P031-1",
+     "P032-3"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A003",
+    "summary": "Warsh's presser is likely to be more Jackson Hole-style because its main purpose is to support the bond.",
+    "conclusion": "P086-2",
+    "premises": [
+     "P025-2"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A004",
+    "summary": "Warsh delivers a hawkish hike, supported by a Jackson Hole-style presser, a 50bp SEP and hawkish September communications.",
+    "conclusion": "P009-1",
+    "premises": [
+     "A003",
+     "P021-1",
+     "P022-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P103-2",
+     "P104-1"
+    ],
+    "alternatives": [
+     "SC003",
+     "SC004"
+    ]
+   },
+   {
+    "id": "A005",
+    "summary": "A hawkish hike should support higher front-end rates and twist flattening, consistent with the Treasury curve having twist flattened on Friday.",
+    "conclusion": "P009-2",
+    "premises": [
+     "A004",
+     "P032-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A006",
+    "summary": "The bar to out-hawk expectations is high now that more than three Fed hikes are priced in.",
+    "conclusion": "P118-2",
+    "premises": [
+     "P118-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A007",
+    "summary": "The USD outcome depends on whether the Fed can out-hawk expectations and other G10 banks, given global central-bank repricing and the dollar's failure to rally on oil.",
+    "conclusion": "P010-1",
+    "premises": [
+     "A006",
+     "P117-1",
+     "P116-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P119-2"
+    ],
+    "alternatives": [
+     "SC005",
+     "SC006"
+    ]
+   }
+  ],
+  "scenarios": [
+   {
+    "id": "SC001",
+    "label": "Fed hikes 25bp at September FOMC",
+    "assumptions": [
+     "P038-1"
+    ],
+    "implications": [
+     "P038-2",
+     "P045-2",
+     "P045-3",
+     "P058-2",
+     "P041-3"
+    ],
+    "complements": [
+     "SC002"
+    ]
+   },
+   {
+    "id": "SC002",
+    "label": "Fed holds despite market pricing",
+    "assumptions": [
+     "P017-1"
+    ],
+    "implications": [
+     "P017-2",
+     "P018-1",
+     "P129-2",
+     "P095-2",
+     "P095-3",
+     "P096-1",
+     "P096-2",
+     "P096-12"
+    ],
+    "complements": [
+     "SC001"
+    ]
+   },
+   {
+    "id": "SC003",
+    "label": "Hawkish presser: inflation impatience",
+    "assumptions": [
+     "P087-1",
+     "P087-2",
+     "P060-1"
+    ],
+    "implications": [
+     "P087-3",
+     "P087-4",
+     "P088-1",
+     "P088-2",
+     "P089-1",
+     "P089-2",
+     "P090-1",
+     "P090-3",
+     "P060-3"
+    ],
+    "complements": [
+     "SC004"
+    ]
+   },
+   {
+    "id": "SC004",
+    "label": "Dovish presser: unpopular hike, few follow-ons",
+    "assumptions": [
+     "P091-1",
+     "P091-2",
+     "P091-3",
+     "P061-1"
+    ],
+    "implications": [
+     "P091-4",
+     "P091-5",
+     "P092-1",
+     "P092-2",
+     "P093-1",
+     "P093-2",
+     "P094-1",
+     "P061-2"
+    ],
+    "complements": [
+     "SC003"
+    ]
+   },
+   {
+    "id": "SC005",
+    "label": "Bullish USD: prolonged hiking campaign signalled",
+    "assumptions": [
+     "P124-1",
+     "P125-1",
+     "P126-1"
+    ],
+    "implications": [
+     "P127-1",
+     "P127-2",
+     "P128-2"
+    ],
+    "complements": [
+     "SC006"
+    ]
+   },
+   {
+    "id": "SC006",
+    "label": "Bearish USD: dovish or muddled messaging",
+    "assumptions": [
+     "P132-1",
+     "P132-3",
+     "P133-2"
+    ],
+    "implications": [
+     "P132-4",
+     "P133-1",
+     "P130-2"
+    ],
+    "complements": [
+     "SC005"
+    ]
+   }
+  ]
+ },
+ "errors": [],
+ "attempts": 1,
+ "usage": [
+  {
+   "cost_usd": 0.01950553,
+   "duration_ms": 106166,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22379,
+    "cache_read_input_tokens": 2013,
+    "output_tokens": 25928,
+    "output_tokens_details": {
+     "thinking_tokens": 24255
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 22379,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 25928,
+      "cache_read_input_tokens": 2013,
+      "cache_creation_input_tokens": 22379,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 22379
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5"
+   ]
+  }
+ ]
+}

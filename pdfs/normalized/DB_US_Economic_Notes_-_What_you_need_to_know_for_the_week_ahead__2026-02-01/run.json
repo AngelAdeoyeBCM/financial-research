@@ -1,0 +1,311 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-02-01.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 16,
+    "referents": {
+     "thing": 10,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 7,
+     "link": 9
+    },
+    "leave_reasons": {
+     "time": 3,
+     "expletive": 3,
+     "relative": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 27,
+  "kinds": {
+   "deixis": 14,
+   "noun_phrase": 5,
+   "possessive": 4,
+   "pronoun": 3,
+   "shell": 1
+  },
+  "rooted_share": 0.78125,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 39,
+  "cost_usd": 0.149
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 461,
+   "end": 474,
+   "quote": "net job gains",
+   "name": "net job gains"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 999,
+   "end": 1006,
+   "quote": "the BLS",
+   "name": "the BLS"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3711,
+   "end": 3741,
+   "quote": "the private sector hiring rate",
+   "name": "the private sector hiring rate"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 5332,
+   "end": 5339,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 5332,
+   "end": 5458,
+   "quote": "the Fed could bring down inflation by reducing the size of its balance sheet, which in turn could allow for lower policy rates",
+   "name": "the Fed could bring down inflation by reducing the size of its balance sheet, which in turn could allow for lower policy rates"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4884,
+   "end": 4895,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 6243,
+   "end": 6271,
+   "quote": "Atlanta Fed President Bostic",
+   "name": "Atlanta Fed President Bostic"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 6685,
+   "end": 6743,
+   "quote": "Committee that is heavily divided on where rates should go",
+   "name": "the Committee that is heavily divided on where rates should go"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 288,
+   "end": 322,
+   "quote": "Friday’s January employment report",
+   "name": "Friday’s January employment report"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 1252,
+   "end": 1340,
+   "quote": "the preliminary benchmark revision of -911k (0.6%) to the level of March 2025 employment",
+   "name": "the preliminary benchmark revision of -911k (0.6%) to the level of March 2025 employment"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 4181,
+   "end": 4222,
+   "quote": "Wednesday’s ADP private employment survey",
+   "name": "Wednesday’s ADP private employment survey"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5569",
+   "message": "+25 words: {{this trade-off => the trade-off that the Fed could bring down inflation by reducing the size of the Fed's balance sheet, which in turn could allow for lower policy rates}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'his' in 'iday President Trump announced Warsh as his nominee to replace Jay Powell as Chair '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0437545,
+   "duration_ms": 3317,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4890,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 180,
+    "output_tokens_details": {
+     "thinking_tokens": 167
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4890,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 180,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4890,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4890
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10528720000000001,
+   "duration_ms": 24224,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5511,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2996,
+    "output_tokens_details": {
+     "thinking_tokens": 1804
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5511,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2996,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5511,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5511
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

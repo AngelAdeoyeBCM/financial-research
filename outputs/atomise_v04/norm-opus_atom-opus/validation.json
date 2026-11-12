@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "ok": true,
+    "sentences_file": "outputs/normalise_v20/opus/sentences.jsonl",
+    "model": "opus",
+    "prompt": "atomise_v04.md",
+    "attempts": 1,
+    "sentences": 143,
+    "targets": 126,
+    "atoms": 251,
+    "atoms_per_sentence": 1.99,
+    "claim_type": {
+      "PREDICTION": 88,
+      "OBSERVATION": 54,
+      "VIEW": 49,
+      "SUPPOSITION": 31,
+      "FORECAST": 29
+    },
+    "modality": {
+      "ASSERTED": 173,
+      "HEDGED": 59,
+      "SPECULATIVE": 19
+    },
+    "role": {
+      "statement": 189,
+      "antecedent": 31,
+      "consequent": 31
+    },
+    "formulas": 24,
+    "relations": {
+      "causal": 26,
+      "contrast": 9,
+      "temporal": 4
+    },
+    "topics": 8,
+    "open_connectives": 8,
+    "errors": 0,
+    "warnings": {
+      "SOFT_CONNECTIVE_IN_ATOM": 5,
+      "UNCONSUMED_CONNECTIVE": 4
+    },
+    "cost_usd": 1.001
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P030-1",
+      "message": "['but']: Friday’s CPI data all but lock in a rate hike this week."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P030",
+      "message": "['but']"
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P034-1",
+      "message": "['before']: There will be only one additional employment report before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P034-2",
+      "message": "['before']: There will be only one CPI release before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P034",
+      "message": "['before']"
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P113-1",
+      "message": "['since']: Since ’07, there have been 74 meetings where the market priced some hike likelihood and the Fed held."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P113",
+      "message": "['since']"
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P119-1",
+      "message": "['since']: Since Chair Warsh’s July FOMC press conference, the market has received a mix of signals."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P119",
+      "message": "['since']"
+    }
+  ],
+  "usage": [
+    {
+      "cost_usd": 1.0009884,
+      "duration_ms": 310336,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 12951,
+        "cache_read_input_tokens": 2013,
+        "output_tokens": 44814,
+        "output_tokens_details": {
+          "thinking_tokens": 18948
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 12951,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 44814,
+            "cache_read_input_tokens": 2013,
+            "cache_creation_input_tokens": 12951,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 12951
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "models": [
+        "claude-haiku-5-5",
+        "claude-opus-5-5"
+      ]
+    }
+  ]
+}

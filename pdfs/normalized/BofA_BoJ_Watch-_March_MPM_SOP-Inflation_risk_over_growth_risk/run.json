@@ -1,0 +1,424 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BofA_BoJ_Watch-_March_MPM_SOP-Inflation_risk_over_growth_risk.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 34,
+    "referents": {
+     "claim": 5,
+     "thing": 10
+    },
+    "decisions": {
+     "link": 16,
+     "leave": 18
+    },
+    "leave_reasons": {
+     "not_a_reference": 2,
+     "expletive": 13,
+     "time": 2,
+     "relative": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 32,
+  "kinds": {
+   "abbreviation": 9,
+   "deixis": 6,
+   "noun_phrase": 6,
+   "proposition": 3,
+   "possessive": 3,
+   "demonstrative": 2,
+   "shell": 2,
+   "pronoun": 1
+  },
+  "rooted_share": 0.9692307692307692,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 84,
+  "cost_usd": 0.2206
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 711,
+   "end": 759,
+   "quote": "many appeared more vigilant about inflation risk",
+   "name": "many appeared more vigilant about inflation risk"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1835,
+   "end": 1913,
+   "quote": "the Bank could fall behind the curve should underlying prices continue to rise",
+   "name": "the Bank could fall behind the curve should underlying prices continue to rise"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1821,
+   "end": 1871,
+   "quote": "the risk that the Bank could fall behind the curve",
+   "name": "the risk that the Bank could fall behind the curve"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2412,
+   "end": 2429,
+   "quote": "wage developments",
+   "name": "wage developments"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2185,
+   "end": 2226,
+   "quote": "Key checkpoints toward the next rate hike",
+   "name": "the key checkpoints toward the next rate hike"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4183,
+   "end": 4199,
+   "quote": "many large firms",
+   "name": "many large firms"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4549,
+   "end": 4583,
+   "quote": "labor-management wage negotiations",
+   "name": "labor-management wage negotiations"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4629,
+   "end": 4705,
+   "quote": "The situation in the Middle East and the associated rise in crude oil prices",
+   "name": "the situation in the Middle East and the associated rise in crude oil prices"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 6590,
+   "end": 6646,
+   "quote": "Underlying inflation appears still to be below 2 percent",
+   "name": "Underlying inflation appears still to be below 2 percent"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 9058,
+   "end": 9085,
+   "quote": "underlying trends in prices",
+   "name": "underlying trends in prices"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 9911,
+   "end": 10048,
+   "quote": "Uncertainties surrounding the situation in the Middle East have heightened recently, and market sentiment has deteriorated si gnificantly",
+   "name": "Uncertainties surrounding the situation in the Middle East have heightened recently, and market sentiment has deteriorated si gnificantly"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 2280,
+   "end": 2293,
+   "quote": "the March MPM",
+   "name": "the March MPM"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 13270,
+   "end": 13439,
+   "quote": "Firms' wage- and price-setting behavior has become more active, with the norm for prices changing and the pass-through of the yen's depreciation becoming more pronounced",
+   "name": "Firms' wage- and price-setting behavior has become more active, with the norm for prices changing and the pass-through of the yen's depreciation becoming more pronounced"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 15135,
+   "end": 15149,
+   "quote": "the government",
+   "name": "the government"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 2095,
+   "end": 2113,
+   "quote": "the next rate hike",
+   "name": "the next rate hike"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C027",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C028",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C029",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C032",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we currently envisage' at 3370"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 13449",
+   "message": "+28 words: {{this background => the background that Firms' wage- and price-setting behavior has become more active, with the norm for prices changing and the pass-through of the yen's depreciation becoming more pronounced}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.07441379999999999,
+   "duration_ms": 8134,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7428,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 685,
+    "output_tokens_details": {
+     "thinking_tokens": 677
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7428,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 685,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 7428,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7428
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.14614459999999999,
+   "duration_ms": 29948,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8740,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3731,
+    "output_tokens_details": {
+     "thinking_tokens": 1845
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8740,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3731,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8740,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8740
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

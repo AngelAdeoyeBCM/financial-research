@@ -1,0 +1,20 @@
+flowchart LR
+    m1["10y OAT-Bund spread"] --> e1["Spread<br/>long SovereignBond bond:oat (geo:fr)<br/>short SovereignBond bond:bund (geo:de)<br/>tenor 10y"]
+    m2["5s30s SPGB-GER flattener"] --> e2["Box<br/>long SovereignBond bond:spgb (geo:es)<br/>short SovereignBond bond:bund (geo:de)<br/>front 5y, back 30y"]
+    m3["6m fwd 2s10s ESTR flattener"] --> e3["Curve, form swap<br/>rate:estr<br/>front 6m x 2y, back 6m x 10y"]
+    m4["2s5s10s UST fly"] --> e4["Fly<br/>SovereignBond bond:ust (geo:us, org:us_treasury)<br/>2y, 5y, 10y"]
+    m5["10y ITA-FRA-GER credit fly"] --> e5["CrossFly<br/>bond:btp, bond:oat, bond:bund<br/>tenor 10y"]
+    m6["SOFR/FF basis 2y"] --> e6["Basis<br/>rate:sofr vs rate:fed_funds<br/>tenor 2y"]
+    m7["2y30y straddle"] --> e7["Outright, form option<br/>rate:estr, tenor 30y, expiry 2y"]
+    m8["INDOGB 7 1/4 05/15/32"] --> e8["Outright, form cash<br/>SovereignBond bond:indogb (geo:id, ccy:idr)<br/>security ISIN"]
+    m9["10y FR CPI swap"] --> e9["Outright, form swap<br/>IND[cpi:fr:ex_tobacco]<br/>tenor 10y"]
+    m10["German agencies (KfW)"] --> e10["NonSovereignBond<br/>issuer_id org:kfw, issuer_kind agency"]
+    m11["core PCE"] --> e11["Indicator<br/>IND[pce:us:core]<br/>us = default_geography_id"]
+    m12["ECB deposit rate"] --> e12["Indicator<br/>IND[policy_rate:ea:deposit]"]
+    m13["10y TIPS breakeven"] --> e13["Breakeven<br/>long bond:ust, short bond:tips<br/>same obligor geo:us"]
+    m14["EU bonds"] --> e14["NonSovereignBond bond:eu<br/>issuer_id org:european_commission, supra"]
+
+    classDef mention fill:#eef3fb,stroke:#4a6fa5,color:#000
+    classDef entity fill:#e8f5e9,stroke:#2e7d32,color:#000
+    class m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14 mention
+    class e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,e11,e12,e13,e14 entity

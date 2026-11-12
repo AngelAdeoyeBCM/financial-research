@@ -1,0 +1,174 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Taking_profit_on_HUF_5y_receiver_Trade_Idea--934029.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-21",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "link": 3
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 3,
+   "pronoun": 1
+  },
+  "rooted_share": 0.8,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 5,
+  "cost_usd": 0.0565
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 59,
+   "end": 88,
+   "quote": "receive HUF 5y IRS trade idea",
+   "name": "the receive HUF 5y IRS trade idea"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 597,
+   "end": 627,
+   "quote": "the fiscal consolidation story",
+   "name": "the fiscal consolidation story"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 46"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.021558300000000002,
+   "duration_ms": 2122,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2488,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 43,
+    "output_tokens_details": {
+     "thinking_tokens": 35
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2488,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 43,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2488,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2488
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0349657,
+   "duration_ms": 6403,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2641,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 642,
+    "output_tokens_details": {
+     "thinking_tokens": 347
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2641,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 642,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2641,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2641
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

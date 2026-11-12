@@ -1,0 +1,211 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Reserve_managers_actively_bought_EUR_in_Q2_IMF_COFER_Desknote--932984.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 4,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 7
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 12,
+  "kinds": {
+   "deixis": 4,
+   "possessive": 2,
+   "noun_phrase": 2,
+   "proposition": 1,
+   "pronoun": 1,
+   "shell": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.9,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 20,
+  "cost_usd": 0.0901
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 432,
+   "end": 448,
+   "quote": "reserve managers",
+   "name": "reserve managers"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 633,
+   "end": 711,
+   "quote": "reserve manager USD allocations fell slightly, from 57.2% in Q1 to 56.7% in Q2",
+   "name": "reserve manager USD allocations fell slightly, from 57.2% in Q1 to 56.7% in Q2"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1283,
+   "end": 1341,
+   "quote": "Reserve manager decisions tend to offset valuation effects",
+   "name": "Reserve manager decisions tend to offset valuation effects"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1062,
+   "end": 1104,
+   "quote": "an active rebalancing of currency reserves",
+   "name": "the active rebalancing of currency reserves"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1942,
+   "end": 1944,
+   "quote": "Q2",
+   "name": "Q2"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1211,
+   "end": 1214,
+   "quote": "EUR",
+   "name": "EUR"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we conclude' at 1630"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0298071,
+   "duration_ms": 3418,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3196,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 161,
+    "output_tokens_details": {
+     "thinking_tokens": 153
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3196,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 161,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3196,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3196
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.060286700000000006,
+   "duration_ms": 14351,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3476,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1565,
+    "output_tokens_details": {
+     "thinking_tokens": 983
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3476,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1565,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3476,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3476
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

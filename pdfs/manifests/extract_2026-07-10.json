@@ -1,0 +1,134 @@
+{
+  "batch_id": "2026-07-10",
+  "window": [
+    "2026-07-10",
+    "2026-07-10"
+  ],
+  "generated_at": "2026-10-29T16:30:29",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 39
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 4,
+    "edits": 3,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "FX_Asia_Q3_dividend_seasonal_patterns_and_their_impact_on_FX_Desknote--927909",
+      "document": "FX_Asia_Q3_dividend_seasonal_patterns_and_their_impact_on_FX_Desknote--927909.pdf",
+      "date": "2026-07-10",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.643,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Stopped_out_of_long_PLNZAR_Trade_Idea--927943",
+      "document": "FX_Stopped_out_of_long_PLNZAR_Trade_Idea--927943.pdf",
+      "date": "2026-07-10",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Stopped_out_of_long_PLNZAR_Trade_Idea--927943.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "6c6e5a8900833efcd4f5ab905bca849383d80d74",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Stopped out of long PLNZAR ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913",
+      "document": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf",
+      "date": "2026-07-10",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 24,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.938,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

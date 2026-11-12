@@ -1,0 +1,209 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_April_FOMC_survey_results.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-27",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 8
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "generic": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 10,
+  "kinds": {
+   "noun_phrase": 7,
+   "deixis": 1,
+   "possessive": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.8888888888888888,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 32,
+  "cost_usd": 0.1091
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 119,
+   "end": 143,
+   "quote": "pre-FOMC investor survey",
+   "name": "the pre-FOMC investor survey"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 14,
+   "end": 24,
+   "quote": "April FOMC",
+   "name": "the April FOMC"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 849,
+   "end": 861,
+   "quote": "Chair Powell",
+   "name": "Chair Powell"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1158,
+   "end": 1210,
+   "quote": "explicit two-sided guidance on future rate decisions",
+   "name": "explicit two-sided guidance on future rate decisions"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3028,
+   "end": 3070,
+   "quote": "the alternative surprise-25bp-cut scenario",
+   "name": "the alternative surprise-25bp-cut scenario"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0377665,
+   "duration_ms": 4073,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4025,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 231,
+    "output_tokens_details": {
+     "thinking_tokens": 218
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4025,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 231,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4025,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4025
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.07133830000000001,
+   "duration_ms": 16093,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4407,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1742,
+    "output_tokens_details": {
+     "thinking_tokens": 1109
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4407,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1742,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4407,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4407
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

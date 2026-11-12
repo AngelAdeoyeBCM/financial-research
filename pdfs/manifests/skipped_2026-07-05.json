@@ -1,0 +1,63 @@
+{
+  "batch_id": "2026-07-05",
+  "window": [
+    "2026-07-05",
+    "2026-07-05"
+  ],
+  "generated_at": "2026-10-29T16:30:26",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 10
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 1
+  },
+  "documents": [
+    {
+      "stem": "Sunday_Tea_with_BNPP_Summer_kick-off_Sunday_Tea_with_BNP_Paribas--927558",
+      "document": "Sunday_Tea_with_BNPP_Summer_kick-off_Sunday_Tea_with_BNP_Paribas--927558.pdf",
+      "date": "2026-07-05",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 3.6 3.8 4 4.2 4.4 4.6 4.8 5 Q2 25 Q4 25",
+          "chunk_id": "Sunday_Tea_with_BNPP_Summer_kick-off_Sunday_Tea_with_BNP_Paribas--927558.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

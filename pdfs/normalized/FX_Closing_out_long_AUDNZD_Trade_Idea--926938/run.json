@@ -1,0 +1,207 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Closing_out_long_AUDNZD_Trade_Idea--926938.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-24",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 1
+    },
+    "leave_reasons": {
+     "expletive": 2,
+     "relative": 1
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "deixis": 8,
+   "noun_phrase": 6
+  },
+  "rooted_share": 0.7368421052631579,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 14,
+  "cost_usd": 0.0704
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 136,
+   "end": 156,
+   "quote": "tactical AUDNZD long",
+   "name": "the tactical AUDNZD long"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 947,
+   "end": 968,
+   "quote": "May employment report",
+   "name": "the May employment report"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 145,
+   "end": 151,
+   "quote": "AUDNZD",
+   "name": "AUDNZD"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 83"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0255408,
+   "duration_ms": 2943,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2728,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 145,
+    "output_tokens_details": {
+     "thinking_tokens": 132
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2728,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 145,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2728,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2728
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0448999,
+   "duration_ms": 9637,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2868,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1047,
+    "output_tokens_details": {
+     "thinking_tokens": 547
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2868,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1047,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2868,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2868
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

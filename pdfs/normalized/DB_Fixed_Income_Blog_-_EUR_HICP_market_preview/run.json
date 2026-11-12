@@ -1,0 +1,234 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fixed_Income_Blog_-_EUR_HICP_market_preview.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-28",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 8,
+    "referents": {
+     "thing": 3,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 4,
+     "link": 4
+    },
+    "leave_reasons": {
+     "time": 2,
+     "not_a_reference": 2
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 39,
+  "kinds": {
+   "deixis": 22,
+   "symbol": 11,
+   "fragment": 2,
+   "possessive": 1,
+   "demonstrative": 1,
+   "noun_phrase": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.6984126984126984,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 42,
+  "cost_usd": 0.1339
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1061,
+   "end": 1094,
+   "quote": "euro-area headline HICP inflation",
+   "name": "euro-area headline HICP inflation"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1135,
+   "end": 1153,
+   "quote": "3.75% year-on-year",
+   "name": "3.75% year-on-year"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3102,
+   "end": 3187,
+   "quote": "IT goods (~5% of core goods) and a one-off increase in (German) pharmaceutical prices",
+   "name": "IT goods and (German) pharmaceutical prices"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 4162,
+   "end": 4267,
+   "quote": "Airfare dynamics have so far remained benign relative both to higher energy costs and to US airline fares",
+   "name": "Airfare dynamics have so far remained benign relative both to higher energy costs and to US airline fares"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "IT",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "IT",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'art of the year and more than 2pp below its July 2025 level.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'their' in 'h data surprise indicators remaining at their highest levels since early 2023 - point'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0562951,
+   "duration_ms": 9068,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4636,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 910,
+    "output_tokens_details": {
+     "thinking_tokens": 649
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4636,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 910,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4636,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4636
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0775571,
+   "duration_ms": 17116,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4925,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1843,
+    "output_tokens_details": {
+     "thinking_tokens": 1339
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4925,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1843,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4925,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4925
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

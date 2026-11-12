@@ -1,0 +1,725 @@
+{
+  "batch_id": "2026-03-15",
+  "window": [
+    "2026-03-15",
+    "2026-03-15"
+  ],
+  "generated_at": "2026-10-29T16:27:36",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-14_2026-03-17.json",
+      "sha256": "baf94e1e013a1783f637e5cc13ae5a4f3ce2eb81b046b12e48e0fafba0af220d",
+      "records": 1148,
+      "dates": [
+        "2026-03-15",
+        "2026-03-17"
+      ],
+      "records_for_batch": 159
+    }
+  ],
+  "counts": {
+    "documents": 9,
+    "in_scope": 7,
+    "out_of_scope": 2,
+    "compiled": 0,
+    "skipped": 7,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 34,
+    "DISTORTED_TABLE": 22,
+    "UNSTRUCTURED_TEXT": 21,
+    "MISSING_CHUNKS": 5
+  },
+  "documents": [
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-03-15",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-03-15",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Canada_Economics_Comment_-_March_BoC_Preview_-_Holding_Steady",
+      "document": "GS_Canada Economics Comment - March BoC Preview - Holding Steady.pdf",
+      "date": "2026-03-15",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 1 1.5 2 2.5 3 3.5 4 4.5 5 1 1.5 2",
+          "chunk_id": "GS_Canada Economics Comment - March BoC Preview - Holding Steady.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Canada Economics Comment - March BoC Preview - Holding Steady.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Canada Economics Comment - March BoC Preview - Holding Steady.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Economics_Comment_-_Supply_Shocks_from_the_War_in_Iran_Are_Mostly_Limited_to_Energy",
+      "document": "GS_Global Economics Comment - Supply Shocks from the War in Iran Are Mostly Limited to Energy.pdf",
+      "date": "2026-03-15",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0",
+          "chunk_id": "GS_Global Economics Comment - Supply Shocks from the War in Iran Are Mostly Limited to Energy.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 40 45 50 55",
+          "chunk_id": "GS_Global Economics Comment - Supply Shocks from the War in Iran Are Mostly Limited to Energy.pdf-7-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 0 10 20 30 40 50 60 -10 0 10 20",
+          "chunk_id": "GS_Global Economics Comment - Supply Shocks from the War in Iran Are Mostly Limited to Energy.pdf-8-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 0 10 20 30 40 50 60 -10 0 10 20",
+          "chunk_id": "GS_Global Economics Comment - Supply Shocks from the War in Iran Are Mostly Limited to Energy.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_ECONOMICS_ANALYST_-_March_FOMC_Preview_-_Greater_Risk_in_Both_Directions",
+      "document": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf",
+      "date": "2026-03-15",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 23,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        10,
+        22
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 10, 22]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 1 2 3 4 5 1 2 3 4 5 Oct-25 Jan-26",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 0.0 0.5 1.0 1.5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 numeric rows: 2.1 2.0 1.9 1.8 December | 2.3 2.0 1.9 1.8 | 4.6 4.3 4.2 4.2 December",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0 6.5 1.5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ercentEnd ercentEnd ercentEnd ercentLonger",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: December 2026 0 1 2 3 4 5 6 7 0 1",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "74 consecutive numeric/date tokens: 0 5 10 15 20 25 0 5 10 15 20 25",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: '26 Aug '08 - Feb '20 Feb '20 - Feb '26 Aug",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 55 9 36 66 34 39 61 0 20 40 60 80",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 665 685 672 670 644 655 665 688 680 690 690 662",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-11-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-11-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 3.88 4.58 4.18 4.20 4.25 4.23 4.24 4.16 4.18 4.20 4.20 4.20",
+          "chunk_id": "GS_US ECONOMICS ANALYST - March FOMC Preview - Greater Risk in Both Directions.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Asia_Economics_-_The_Viewpoint_-_Supply_Disruption_Risks___A_Focus_on_Food",
+      "document": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf",
+      "date": "2026-03-15",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -40% -30% -20% -10% 0% 10% 20% 30% 40% 50% Mar-09 Mar-10",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 17% 13% 9% 9% 8% 7% 2% 1% 1% 1% 0% 0%",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-5-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: -2.1% 0.8% -1.8% -2.7% -3.4% -1.4% -2.7% -4.3% 1.1% -2.9% -0.6% -3.2%",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-6-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 22% 12% 9% 8% 7% 5% 5% 4% 3% 0% 5% 10%",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-7-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 1% 3% 4% 11% 17% 23% 33% 37% 52% 53% 0% 10%",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0% 1% 6% 9% 11% 12% 13% 19% 19% 24% 37% 0%",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-9-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 200 400 600 800 1000 Mar-21 Mar-22 Mar-23 Mar-24 Mar-25 Mar-26",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-10-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 25 4.9 1.0 1.8 0.1 17.5 3 1.2 2.0 26 28",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-11-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 20 2.4 1.2 1.6 0.1 15.0 4 1.9 1.8 22 24",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-11-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 numeric rows: 20% 1.7% 1.3% 2% | 35% 3.5% 3.2% 4% | 33% 3.7% 4.8% 2.5%",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-12-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: -30% -20% -10% 0% 10% 20% 30% 40% 50% 60% 70% -1.0%",
+          "chunk_id": "JPM_Asia Economics - The Viewpoint - Supply Disruption Risks – A Focus on Food.pdf-13-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Australia_Macro_plus_Week_Ahead_-_Riddle_Me_This_-_Hiking_into_a_Supply_Shock",
+      "document": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf",
+      "date": "2026-03-15",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 42,
+      "page_count": 17,
+      "status": "skipped",
+      "missing_indices": [
+        35,
+        38
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [35, 38]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: Mar 4.10% 4.10% 3.85% | Feb 20k 20k 17.8k | Feb 4.2% 4.1% 4.1%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 2019",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "42 consecutive numeric/date tokens: 3250 3750 4250 4750 5250 5750 6250 6750 7250 7750 8250 8750",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 90 95 100 105 110 115 120 125 130 135 2015 2017",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 130 135 140 145 150 155 Jun-16 Dec-16 Jun-17 Dec-17 Jun-18 Dec-18",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 0.60 0.62 0.64 0.66",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 7% 93% 85% 80% 4% 0% 4% 11% 7% 0% 0% 4%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 46% 54% 49% 49% 5% 0% 5% 46% 46% 0% 0% 0%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 33% 67% 23% 19% 20% 10% 10% 48% 33% 1% 3% 11%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 37% 63% 8% 8% 26% 3% 23% 66% 37% 6% 9% 14%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: Mar 4.10% 4.10% 3.85% | Feb 20k 20k 17.8k | Feb 4.2% 4.1% 4.1%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 200 8617.1 -6.3% -2.6% -3.8% 1.3% 1.8% -6.3% -1.1% 0.9% 10.7%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet actSet",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-10-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 27 62 77 23 7 4 0 10 20 30 40 50",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ndxFin actSet actSet",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -50.0 -40.0 -30.0 -20.0 -10.0 0.0 10.0 20.0 Feb-06 Feb-07 Feb-08 Feb-09",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: Feb-26 Jan-26 Dec-25 Nov-25 Oct-25 Sep-25 Aug-25 Jul-25 Jun -25 May-25 Apr-25",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 000s -- 17.8 68.5 -30.3 38.2 12.5 -14.4 30.8 -2.7 -10.0 88.9",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-13-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-13-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 4.18 4.19 4.06 3.81 3.55 3.49 3.33 3.34 3.21 3.28 3.27 3.67",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-13-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-14-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-14-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 2025 2026 2027 2028 2025 2026 2027 2028 2025 2026 2027 2028",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-15-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-15-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 125.3 134.1 149.5 171.4 125.3 129.2 149.2 171.1 -3.6% -0.2% - 0.2%",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-15-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "46% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-16-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-16-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "53% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-16-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-16-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 6.70 6.55 0.10 1.58 1.48 | 161.70 0.61 3.42 2.81 | 146.00 157.89 2.22 4.94 2.72",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-16-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-17-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-17-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_Australia Macro plus Week Ahead - Riddle Me This - Hiking into a Supply Shock.pdf-17-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Strait_to_the_point_Sunday_Tea_with_BNP_Paribas--920582",
+      "document": "Sunday_Tea_with_BNPP_Strait_to_the_point_Sunday_Tea_with_BNP_Paribas--920582.pdf",
+      "date": "2026-03-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -4.5% -4.0% -3.5% -3.0% -2.5% -2.0% -1.5% -1.0% -0.5% 0.0% 0.5% 1.0%",
+          "chunk_id": "Sunday_Tea_with_BNPP_Strait_to_the_point_Sunday_Tea_with_BNP_Paribas--920582.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0.0% 0.5% 1.0% 1.5% 2.0% 0 10 20 30 40",
+          "chunk_id": "Sunday_Tea_with_BNPP_Strait_to_the_point_Sunday_Tea_with_BNP_Paribas--920582.pdf-3-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Sunday_Tea_with_BNPP_Strait_to_the_point_Sunday_Tea_with_BNP_Paribas--920582.pdf-3-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

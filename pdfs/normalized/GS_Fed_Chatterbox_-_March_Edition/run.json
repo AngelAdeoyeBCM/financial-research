@@ -1,0 +1,587 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_Fed_Chatterbox_-_March_Edition.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-13",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 49,
+    "referents": {
+     "thing": 22,
+     "claim": 4
+    },
+    "decisions": {
+     "link": 31,
+     "leave": 18
+    },
+    "leave_reasons": {
+     "not_a_reference": 7,
+     "relative": 2,
+     "expletive": 8,
+     "generic": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     2,
+     0
+    ],
+    "undecided_per_attempt": [
+     1,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 89,
+  "kinds": {
+   "deixis": 57,
+   "pronoun": 15,
+   "possessive": 5,
+   "demonstrative": 4,
+   "proposition": 3,
+   "noun_phrase": 3,
+   "shell": 1,
+   "vp": 1
+  },
+  "rooted_share": 0.7338709677419355,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 134,
+  "cost_usd": 0.3767
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 562,
+   "end": 576,
+   "quote": "Governor Miran",
+   "name": "Governor Miran"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1264,
+   "end": 1281,
+   "quote": "the war with Iran",
+   "name": "the war with Iran"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1698,
+   "end": 1764,
+   "quote": "in recent months, there have been promising signs of stabilization",
+   "name": "in recent months, there have been promising signs of stabilization"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2463,
+   "end": 2490,
+   "quote": "President Collins’ argument",
+   "name": "President Collins’ argument"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 3100,
+   "end": 3133,
+   "quote": "the labor market is deteriorating",
+   "name": "the labor market is deteriorating"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3853,
+   "end": 3898,
+   "quote": "The hopes that the labor market was steadying",
+   "name": "the hopes that the labor market was steadying"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4038,
+   "end": 4055,
+   "quote": "oil prices rising",
+   "name": "oil prices rising"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 7443,
+   "end": 7449,
+   "quote": "policy",
+   "name": "policy"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 657,
+   "end": 674,
+   "quote": "four cuts in 2026",
+   "name": "four cuts in 2026"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 6399,
+   "end": 6421,
+   "quote": "the federal funds rate",
+   "name": "the federal funds rate"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 7791,
+   "end": 7831,
+   "quote": "a quite large energy and commodity shock",
+   "name": "a quite large energy and commodity shock"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 8037,
+   "end": 8062,
+   "quote": "relatively high inflation",
+   "name": "relatively high inflation"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 8143,
+   "end": 8153,
+   "quote": "Gas prices",
+   "name": "Gas prices"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 10628,
+   "end": 10636,
+   "quote": "the FOMC",
+   "name": "the FOMC"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 11175,
+   "end": 11189,
+   "quote": "tariff effects",
+   "name": "tariff effects"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 11265,
+   "end": 11287,
+   "quote": "inflation expectations",
+   "name": "inflation expectations"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 11759,
+   "end": 11775,
+   "quote": "the labor market",
+   "name": "the labor market"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 12038,
+   "end": 12052,
+   "quote": "The job market",
+   "name": "the job market"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 12565,
+   "end": 12611,
+   "quote": "a tentative balance in labor supply and demand",
+   "name": "a tentative balance in labor supply and demand"
+  },
+  {
+   "id": "R21",
+   "type": "claim",
+   "start": 12617,
+   "end": 12641,
+   "quote": "it is a delicate balance",
+   "name": "it is a delicate balance"
+  },
+  {
+   "id": "R22",
+   "type": "claim",
+   "start": 14296,
+   "end": 14381,
+   "quote": "My baseline features a still-uncertain inflation picture, with continued upside risks",
+   "name": "My baseline features a still-uncertain inflation picture, with continued upside risks"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 14498,
+   "end": 14510,
+   "quote": "policy rates",
+   "name": "policy rates"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 15561,
+   "end": 15575,
+   "quote": "the funds rate",
+   "name": "the funds rate"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 16259,
+   "end": 16271,
+   "quote": "unemployment",
+   "name": "unemployment"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 16425,
+   "end": 16440,
+   "quote": "the policy rate",
+   "name": "the policy rate"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 16708,
+   "end": 16760,
+   "quote": "the federal funds rate—in the range of 3.5% to 3.75%",
+   "name": "the federal funds rate in the range of 3.5% to 3.75%"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "Those",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C030",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C034",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C041",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C042",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C043",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C045",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C048",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we don’t' at 4079"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we don’t' at 7629"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'them' in 'g that Governor Miran would “rather get them sooner than later.” Most participants h'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'gument “for maintaining policy rates at their current, mildly restrictive levels for '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R14",
+      "type": "claim",
+      "sid": "E066",
+      "quote": "they’re up"
+     },
+     "reason": "claim 'they’re up' is not a full clause with its own subject and verb"
+    },
+    {
+     "item": {
+      "candidate": "C021",
+      "action": "link",
+      "referent": "R14"
+     },
+     "reason": "referent 'R14' is not in the referent table"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0837149,
+   "duration_ms": 9587,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8354,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 775,
+    "output_tokens_details": {
+     "thinking_tokens": 689
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8354,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 775,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 8354,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8354
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1963606,
+   "duration_ms": 43353,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10290,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5614,
+    "output_tokens_details": {
+     "thinking_tokens": 3025
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 10290,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5614,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 10290,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 10290
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0965803,
+   "duration_ms": 5043,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10912,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 373,
+    "output_tokens_details": {
+     "thinking_tokens": 321
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 10912,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 373,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 10912,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 10912
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

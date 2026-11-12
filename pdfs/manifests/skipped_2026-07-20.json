@@ -1,0 +1,209 @@
+{
+  "batch_id": "2026-07-20",
+  "window": [
+    "2026-07-20",
+    "2026-07-20"
+  ],
+  "generated_at": "2026-10-29T16:30:36",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 24
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "in_scope": 2,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 9,
+    "UNSTRUCTURED_TEXT": 7,
+    "MISSING_CHUNKS": 2,
+    "DISTORTED_TABLE": 1
+  },
+  "documents": [
+    {
+      "stem": "Fragile_calm",
+      "document": "Fragile calm.pdf",
+      "date": "2026-07-20",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 5 7 9 11 13 15 0 10 20 30 40 50",
+          "chunk_id": "Fragile calm.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0.40 0.50 0.60 0.70 0.80 0.90 1.00 1.10 1.20 1.30",
+          "chunk_id": "Fragile calm.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Fragile calm.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 200 400 600 800 1000 0% 25% 50% 75% 100% Jul-25",
+          "chunk_id": "Fragile calm.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jul-25 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "Fragile calm.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Fragile calm.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jul-25 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "Fragile calm.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Fragile calm.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jul-25 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "Fragile calm.pdf-7-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Fragile calm.pdf-7-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jul-25 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "Fragile calm.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Fragile calm.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jul-25 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "Fragile calm.pdf-9-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Fragile calm.pdf-9-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jul-25 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "Fragile calm.pdf-10-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Fragile calm.pdf-10-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_signals_EURNOK_appears_undervalued_Trade_Idea--928524",
+      "document": "STEER_signals_EURNOK_appears_undervalued_Trade_Idea--928524.pdf",
+      "date": "2026-07-20",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 3335.24 - - 3223.42 (15-Jul-2026) -3.35 06-Jul-2026 | 95.415 - - 96.4629 (20-Jul-2026) -1.10 | 3.0387 2.9953 3.0894 - -0.29",
+          "chunk_id": "STEER_signals_EURNOK_appears_undervalued_Trade_Idea--928524.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

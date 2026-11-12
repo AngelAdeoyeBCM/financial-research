@@ -1,0 +1,324 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_European_Daily_-_ECB_Recap_Higher_Rates_Ahead.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-10",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 11,
+    "referents": {
+     "thing": 8,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 11
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     3,
+     0
+    ],
+    "undecided_per_attempt": [
+     2,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 34,
+  "kinds": {
+   "deixis": 22,
+   "noun_phrase": 3,
+   "possessive": 3,
+   "pronoun": 3,
+   "demonstrative": 2,
+   "proposition": 1
+  },
+  "rooted_share": 0.6440677966101694,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 35,
+  "cost_usd": 0.1826
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 711,
+   "end": 746,
+   "quote": "a further 25bp in December to 2.75%",
+   "name": "a further 25bp in December to 2.75%"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1107,
+   "end": 1118,
+   "quote": "hikes to 3%",
+   "name": "hikes to 3%"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1829,
+   "end": 1850,
+   "quote": "The Governing Council",
+   "name": "the Governing Council"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2756,
+   "end": 2776,
+   "quote": "the decision to hike",
+   "name": "the decision to hike"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2727,
+   "end": 2835,
+   "quote": "President Lagarde noted that the decision to hike had been unanimous and once again described it as “robust”",
+   "name": "President Lagarde noted that the decision to hike had been unanimous and once again described it as “robust”"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2727,
+   "end": 2744,
+   "quote": "President Lagarde",
+   "name": "President Lagarde"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4738,
+   "end": 4749,
+   "quote": "hikes to 3%",
+   "name": "hikes to 3%"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 2381,
+   "end": 2451,
+   "quote": "milder, adverse and severe scenarios of alternative energy price paths",
+   "name": "the milder, adverse and severe scenarios of alternative energy price paths"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 802,
+   "end": 815,
+   "quote": "the ECB staff",
+   "name": "the ECB staff"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We also nudge' at 1666"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We also nudge' at 5346"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We now attach' at 5663"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 2837",
+   "message": "+21 words: {{This => That President Lagarde noted that the decision to hike had been unanimous and once again described the decision to hike as “robust”}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R4",
+      "type": "thing",
+      "sid": "E014",
+      "quote": "the staff",
+      "name": "the ECB staff"
+     },
+     "reason": "name 'the ECB staff' has words not in the quote: ['ecb']"
+    },
+    {
+     "item": {
+      "candidate": "C004",
+      "action": "link",
+      "referent": "R4"
+     },
+     "reason": "referent 'R4' is not in the referent table"
+    },
+    {
+     "item": {
+      "candidate": "C007",
+      "action": "link",
+      "referent": "R4"
+     },
+     "reason": "referent 'R4' is not in the referent table"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.040742200000000006,
+   "duration_ms": 3828,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4387,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 233,
+    "output_tokens_details": {
+     "thinking_tokens": 220
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4387,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 233,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4387,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4387
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0934108,
+   "duration_ms": 24321,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4822,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2681,
+    "output_tokens_details": {
+     "thinking_tokens": 1851
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4822,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2681,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4822,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4822
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0484836,
+   "duration_ms": 3666,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5268,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 276,
+    "output_tokens_details": {
+     "thinking_tokens": 142
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5268,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 276,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5268,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5268
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

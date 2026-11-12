@@ -1,0 +1,203 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/MS_April_BoJ_Branch_Managers__Meeting_-_Effects_of_Heightened_Middle_East_Tensions.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-06",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "link": 4,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 13,
+  "kinds": {
+   "deixis": 6,
+   "noun_phrase": 3,
+   "pronoun": 2,
+   "possessive": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.86,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 14,
+  "cost_usd": 0.0902
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 271,
+   "end": 288,
+   "quote": "the Bank of Japan",
+   "name": "the Bank of Japan"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 143,
+   "end": 204,
+   "quote": "“Regional Economic Conditions Viewed from Each Region” report",
+   "name": "the “Regional Economic Conditions Viewed from Each Region” report"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1177,
+   "end": 1194,
+   "quote": "The Sakura Report",
+   "name": "the Sakura Report"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3102,
+   "end": 3382,
+   "quote": "the risk that tight supply and sharp price increases for various basic chemicals could disrupt corporate production, that the government might revise gasoline subsidies and move toward demand restraint, and that rising material costs could negatively affect SME funding conditions",
+   "name": "the risk that tight supply and sharp price increases for various basic chemicals could disrupt corporate production, that the government might revise gasoline subsidies and move toward demand restraint, and that rising material costs could negatively affect SME funding conditions"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3396",
+   "message": "+38 words: {{these considerations => the risk that tight supply and sharp price increases for various basic chemicals could disrupt corporate production, that the government might revise gasoline subsidies and move toward demand restraint, and that rising material costs could negatively affect SME funding conditions}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0316821,
+   "duration_ms": 3210,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3446,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 161,
+    "output_tokens_details": {
+     "thinking_tokens": 148
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3446,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 161,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3446,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3446
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0585539,
+   "duration_ms": 12623,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3643,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1408,
+    "output_tokens_details": {
+     "thinking_tokens": 857
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3643,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1408,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3643,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3643
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

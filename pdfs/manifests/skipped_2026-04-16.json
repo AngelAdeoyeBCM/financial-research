@@ -1,0 +1,1328 @@
+{
+  "batch_id": "2026-04-16",
+  "window": [
+    "2026-04-16",
+    "2026-04-16"
+  ],
+  "generated_at": "2026-10-29T16:28:18",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-15_2026-04-18.json",
+      "sha256": "d5a418e5d52133f3a83653b44e062b6498e35e613aff5505835c43ececd1e9a4",
+      "records": 2615,
+      "dates": [
+        "2026-04-15",
+        "2026-04-17"
+      ],
+      "records_for_batch": 575
+    }
+  ],
+  "counts": {
+    "documents": 24,
+    "in_scope": 19,
+    "out_of_scope": 5,
+    "compiled": 4,
+    "skipped": 15,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 72,
+    "edits": 42,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 91,
+    "DISTORTED_TABLE": 33,
+    "UNSTRUCTURED_TEXT": 19,
+    "MISSING_CHUNKS": 9
+  },
+  "documents": [
+    {
+      "stem": "Alt_data_update__Forecasts_look_out_of_time",
+      "document": "Alt data update: Forecasts look out of time.pdf",
+      "date": "2026-04-16",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "Alt data update: Forecasts look out of time.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats riceStats riceStats",
+          "chunk_id": "Alt data update: Forecasts look out of time.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 90 100 110 120 130 140 150 -20 0 20 40 60",
+          "chunk_id": "Alt data update: Forecasts look out of time.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -100 -50 0 50 100 150 -75% -50% -25% 0% 25% 50%",
+          "chunk_id": "Alt data update: Forecasts look out of time.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Alt data update: Forecasts look out of time.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 5% 0.50% 0.75% 1.00% 1.25% 1.50% Apr 25 Jul 25 Oct 25",
+          "chunk_id": "Alt data update: Forecasts look out of time.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_Global_Rates_Weekly_-_A_slow_return_to_normal",
+      "document": "BC_Global Rates Weekly - A slow return to normal.pdf",
+      "date": "2026-04-16",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 84,
+      "page_count": 39,
+      "status": "skipped",
+      "missing_indices": [
+        9,
+        53,
+        66,
+        69
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9, 53, 66, 69]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -4 -6 -5 -3 -8 -6 -5 -2 -11 -7 -5 -2",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 2.40 2.31 2.37 6 68% 16 April 2026 4",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: -17 -19 -17 2 84% 30y | -73 -84 -76 7 69% | 65 121 73 -48 85%",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 2.75 3.00 3.25 3.50 3.75 4.00 Dec-25 Dec-26 Dec-27 Dec-28 Dec-29 Dec-30",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 2025 Q4 2026",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 2 2 3 5 8 15 19 18 11 19 2 1",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-12-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 50 60 70 80 90 100 110 120 130 Apr-25 Jul-25 Oct-25",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-16-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 16 April 2026 16 | +1 212 412 1848 | +44 (0) 20 7773 4954",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-16-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -4 -2 0 2 4 6 8 10 Jan-25 Mar-25 May-25 Jul-25",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-17-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -15 -10 -5 0 5 2 5 7 10 20 30",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-19-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 16 April 2026 20 | +44 (0) 20 3134 1456 | +91 (0) 22 6175 2018",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-20-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -15 -10 -5 0 5 2y 5y 10y 30y",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-21-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 30 40 50 60 70 80 90 100 110 120 130 Jan-20",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-22-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 7 8 9 10 11 12 13 11 12 13 14 15",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-23-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 1.7 1.9 2.1 2.3 2.5 2.7 2.9 0% 10% 20% 30% 40%",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-24-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 50 30% 35% 40%",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-25-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 2.00 2.25 2.50 2026",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-26-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -0.60 -0.50 -0.40 -0.30 -0.20 -0.10 0.00 0.10 0.20 0.30 2026 2027",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-27-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 5 10 15 20 25 April May June",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-28-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% '26",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-29-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -20 0 20 40 60 80 100 120 140 160 Jan 26",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-30-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 Mar 25 Apr 25 May 25",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-31-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 160 170 180 190",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-32-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-32-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 72.6 -31.2 -18.8 7.6 5.1 -13.9 12.6 0.0 -6.4 7.3 5.6 -49.1",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-32-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -10.0 -8.0 -6.0 -4.0 -2.0 0.0 2.0 4.0 6.0 8.0 10.0",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-34-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -1.0 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-35-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 16 April 2026 36 | +1 212 412 3681 | +44 (0) 20 7773 0533",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-36-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48 consecutive numeric/date tokens: 2y 5y 10y 30y Q226 3.60 3.75 4.15 4.85 2.35 Q226 -10",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-39-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-39-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "53% of tokens are numeric/date values",
+          "chunk_id": "BC_Global Rates Weekly - A slow return to normal.pdf-39-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "China_a_good_start_Desknote--922403",
+      "document": "China_a_good_start_Desknote--922403.pdf",
+      "date": "2026-04-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 0 2 4 6 8 10 Q1 22 Q2 22 Q3 22",
+          "chunk_id": "China_a_good_start_Desknote--922403.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -35 -25 -15 -5 5 15 25 Jan-23 Apr-23 Jul-23 Oct-23 Jan-24",
+          "chunk_id": "China_a_good_start_Desknote--922403.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -20 0 20 40 60 80 Jan-24 Mar-24 May-24 Jul-24 Sep-24 Nov-24",
+          "chunk_id": "China_a_good_start_Desknote--922403.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -20 0 20 40 60 80 Jan-24 Mar-24 May-24 Jul-24 Sep-24 Nov-24",
+          "chunk_id": "China_a_good_start_Desknote--922403.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "China_a_good_start_Desknote--922403.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 Jan-20 Jul-20 Jan-21",
+          "chunk_id": "China_a_good_start_Desknote--922403.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 Jan-20 Jul-20 Jan-21",
+          "chunk_id": "China_a_good_start_Desknote--922403.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "China_a_good_start_Desknote--922403.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_Canada_Economics_Weekly_-_Echoes_of_2025",
+      "document": "Citi_Canada Economics Weekly - Echoes of 2025.pdf",
+      "date": "2026-04-16",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 22,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        8,
+        11
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8, 11]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 3.0",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 7.0 Jan-18 May-19 Sep-20 Jan-22 May-23 Sep-24 Jan-26",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -10 -5 0 5 10 Jan-18 Jan-19 Jan-20 Jan-21 Jan-22 Jan-23 Jan-24",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 40 45 50 55 60 65 70 75 80 85 90 -15",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.5 1.5 2.5 3.5 4.5 5.5 Aug-12 Jun-15 Apr-18 Feb-21 Dec-23 Oct-26",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 -25 -20 -15",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 Apr-18 Oct-19 Apr-21",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -80 -60 -40 -20 0 20 40 60 Mar-12 Mar-16 Mar-20 Mar-24",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 1 1.5 2 2.5",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -50 0 50 100 150 200 250 300 350 400 450",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 28-Jan-2618-Mar-2629-Apr-2610-Jun-2615-Jul-262-Sep-2628-Oct-269-Dec-262.252.252.252.252.001.751.751.75Policy",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -0.5 0.5 1.5 2.5 3.5 4.5 5.5 6.5 7.5 8.5 9.5 Jan-12",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: Index167.6168.4168.9168.7169.0168.8168.9169.2169.0168.7169.0169.8YoY %2.53.12.82.62.52.42.42.42.22.22.42.4MoM %1.00.50.3-0.10.2-0.10.10.2-0.1-0.20.20.5",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 200 250 300 350 400 450 Jul-26 Apr-27 Jan-28 Oct-28 Jul-29 Apr-30",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 50 52 54 56 58 60 62 64 Jan-16 Jan-17 Jan-18 Jan-19",
+          "chunk_id": "Citi_Canada Economics Weekly - Echoes of 2025.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_European_Economics_-_Euro_Inflation_Monitor_-_Monitoring_Second-Round_Effects",
+      "document": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf",
+      "date": "2026-04-16",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -4.7-11.3-15.2-12.421.257.6 -13.117.721.3France",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0.2 -0.1 -0.1 0.1 0.2 0.1 0.1 0.2R",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 21.122.127.232.226.622.825.435.426.6Diesel 20.724.733.435.828.825.829.149.642.8heating 43.255.474.073.550.843.849.2105.287.8 159.4233.2388.3397.4501.5300.4276.5499.3310.8France 141.3216.7386.5472.1648.3357.7326.1610.3345.8Italy 105.4265.8355.8313.5359.1289.7167.6414.7419.8S",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1.8 1.9 2.1 1.9 1.6 1.5 1.1 1.6",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 1.2 1.7 2.2 2.7 3.2 3.7 Jan-24 Jul-24 Jan-25 Jul-25 Jan-26 Jul-26",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "230 consecutive numeric/date tokens: 100% 5% 14% 9% 25% 47% 72% 98% Jan-25 2.53 1.3 2.7",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "281 consecutive numeric/date tokens: 1.7 5.1 0.5 3.2 2.27 2.51 101.96 100.20 101.5 102.44 Apr-26 3.03",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40 consecutive numeric/date tokens: 06.39 Oct-27 1.92 2.5 2.6 0.2 0.5 2.7 1.96 1.88 105.85 104.03",
+          "chunk_id": "Citi_European Economics - Euro Inflation Monitor - Monitoring Second-Round Effects.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_European_Rates_Weekly_-_Is_patience_a_virtue",
+      "document": "Citi_European Rates Weekly - Is patience a virtue.pdf",
+      "date": "2026-04-16",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 51,
+      "page_count": 19,
+      "status": "skipped",
+      "missing_indices": [
+        25,
+        49
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [25, 49]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -20 -10 0 10 20 30 40 50 27Feb 06Mar 13Mar 20Mar",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -35 -30 -25 -20 -15 -10 -5 0 5 10 15 20",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -5 0 5 10 15 20 25 30 35 '16 '17 '18",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 Apr May Jun",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 -25 -20 -15",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 50 60 -20 -10",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 -20 -15 -10 -5 0",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "62 consecutive numeric/date tokens: 36 33 43 40 53 60 96 85 73 98 99 4",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "28 consecutive numeric/date tokens: 9% 37% 48% 49% 50% 53% 56% 56% 58% 58% 58% 59%",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 Jul-21 Jan-22",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 96 0 5 10 15 20 25 30 35 40 Sep-21 Sep-22",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2021 2022 2023 2024 2025 2026 3y 0% 0% 11% 7% 14%",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-14-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: Oct53 4-Dec-25 44.2 48.0 48.0 15.0 58.8 0 -4",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-15-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 2.875% Jan28 4-Dec-25 13.3 11.7 11.7 5 18 0.6 2",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-16-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: target02-Apr-269.0-1.0-1.0-1.014.00.010 stop24-Mar-2616.022.022.03 stop20-Mar-26181202.0202.01402020.0-21 ateEntry levelLive evelTarget",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-17-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: stop20-Mar-26181202.0202.01402020.0-21 undsHit formatChange flattenerHit",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-17-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: steepenerHit bondHit deliveryTake inflationHit",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-17-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: inflationHit flyHit eventFeb flattenerChange steepenerHit",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-17-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: flyHit dissipatesBuy costExpired formatExpired restraintRisk grabBuy",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-17-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: target22-Aug-25155.00174.56174.56175.00145.009.020 ateEntry levelLive evelTarget topCarry",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-18-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: formatTake swapsChange flattenersTaking costChange rallyRisk",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-18-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: costChange rallyRisk pricingBuy formatChange sensitivityRisk costChange",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-18-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: Q1 26 Q2 26 Q3 26 Q4 26 Q1 27 Q2 27",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-19-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-19-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: Q1 26 Q2 26 Q3 26 Q4 26 Q1 27 Q2 27",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-19-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-19-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 2.96 2.83 2.80 2.90 2.90 3.00 3.00 3.00 3.10 3.1010",
+          "chunk_id": "Citi_European Rates Weekly - Is patience a virtue.pdf-19-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_US_Economics_-_Another_few_weeks_of_lower_claims_before_May_increases",
+      "document": "Citi_US Economics - Another few weeks of lower claims before May increases.pdf",
+      "date": "2026-04-16",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 4,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -0.2 0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 -2 0",
+          "chunk_id": "Citi_US Economics - Another few weeks of lower claims before May increases.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_ECB_Watcher_-_March_accounts__Between_the_baseline_and_adverse_scenarios",
+      "document": "DB_ECB Watcher - March accounts –Between the baseline and adverse scenarios.pdf",
+      "date": "2026-04-16",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 17,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        14
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [14]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 2015",
+          "chunk_id": "DB_ECB Watcher - March accounts –Between the baseline and adverse scenarios.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 2015",
+          "chunk_id": "DB_ECB Watcher - March accounts –Between the baseline and adverse scenarios.pdf-3-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 16 April 2025 -10 -8 -6 -4 -2 0 2 4 6",
+          "chunk_id": "DB_ECB Watcher - March accounts –Between the baseline and adverse scenarios.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "DB_ECB Watcher - March accounts –Between the baseline and adverse scenarios.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_UK_Economic_Notes_-_Inflation_Spotlight___Energy_Prices_To_Push_March_Inflation_Higher",
+      "document": "DB_UK Economic Notes - Inflation Spotlight – Energy Prices To Push March Inflation Higher.pdf",
+      "date": "2026-04-16",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 14,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Fear_Factor_Fades",
+      "document": "Fear Factor Fades.pdf",
+      "date": "2026-04-16",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 16 April 2026 1 | 8 Jan 2026 43.05 41.0 45.0 4.4% | 26 Feb 2026 13,273 13,700 12,950 1.2%",
+          "chunk_id": "Fear Factor Fades.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Jul-25 Sep-25 Dec-25 Feb-26",
+          "chunk_id": "Fear Factor Fades.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -3.5 -2.5 -1.5 -0.5 0.5 1.5 2.5 Nov-24 Apr-25 Sep-25 Feb-26",
+          "chunk_id": "Fear Factor Fades.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 numeric rows: 3.50% 05/07 0.26 n/a | 6.25% 04/28 -0.13 99% | 3.75% 05/06 0.07 42%",
+          "chunk_id": "Fear Factor Fades.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 26 Mar 2026 3.41 3.42 9 Apr 2026 0.75%",
+          "chunk_id": "Fear Factor Fades.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_European_Daily_-_ECB_Less_Urgency_to_Act",
+      "document": "GS_European Daily - ECB—Less Urgency to Act.pdf",
+      "date": "2026-04-16",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 9,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Trading_Terms_of_Trade_in_FX_with_Risk-Neutral_Expressions",
+      "document": "GS_Global Markets Daily - Trading Terms of Trade in FX with Risk-Neutral Expressions.pdf",
+      "date": "2026-04-16",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 11,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 8 -6 -4 -2 0",
+          "chunk_id": "GS_Global Markets Daily - Trading Terms of Trade in FX with Risk-Neutral Expressions.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0.1403 -3 -2 -1 0 1 2 3 4 5 6 7",
+          "chunk_id": "GS_Global Markets Daily - Trading Terms of Trade in FX with Risk-Neutral Expressions.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2022 0 2 4 6 8 10 12 14 16 18 20",
+          "chunk_id": "GS_Global Markets Daily - Trading Terms of Trade in FX with Risk-Neutral Expressions.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 2022 0 2 4 6 8 10 12 14 16 18 20",
+          "chunk_id": "GS_Global Markets Daily - Trading Terms of Trade in FX with Risk-Neutral Expressions.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 2022 0.94 0.96 0.98 1.00 1.02 1.04 1.06 1.08 1.10 0.94 0.96",
+          "chunk_id": "GS_Global Markets Daily - Trading Terms of Trade in FX with Risk-Neutral Expressions.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Global_-_April_16_-_Dollar_Finds_Support",
+      "document": "MS_Global - April 16 - Dollar Finds Support.pdf",
+      "date": "2026-04-16",
+      "publisher": "Morgan Stanley",
+      "document_type": "Market commentary",
+      "chunk_count": 19,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 2wk 2y 3.776 1.4 2.514 (2.7) 4.218 (0.6) 1.359 (1.2) 3y 3.797",
+          "chunk_id": "MS_Global - April 16 - Dollar Finds Support.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "64 consecutive numeric/date tokens: 2wk 2y 3.776 1.4 2.514 (2.7) 4.218 (0.6) 1.359 (1.2) 3y 3.797",
+          "chunk_id": "MS_Global - April 16 - Dollar Finds Support.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Global - April 16 - Dollar Finds Support.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "100 consecutive numeric/date tokens: (4/15) 0.727 0.0 -- 04/29/26 3.642 (0.0) 0.2 04/30/26 1.967 (2.6) 3.5",
+          "chunk_id": "MS_Global - April 16 - Dollar Finds Support.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global - April 16 - Dollar Finds Support.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Global - April 16 - Dollar Finds Support.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_UK_GDP_-_Europe_-_Resilience_At_Display",
+      "document": "MS_UK GDP - Europe - Resilience At Display.pdf",
+      "date": "2026-04-16",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 3.2 3.4 3.6 3.8 4.0 4.2 4.4 4.6 4.8",
+          "chunk_id": "MS_UK GDP - Europe - Resilience At Display.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -5.0 -3.0 -1.0 1.0 3.0 5.0 7.0 2008 2010 2012 2014 2016",
+          "chunk_id": "MS_UK GDP - Europe - Resilience At Display.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_European_Economic_Comment_-_Eurozone_-_Fiscal_response_to_energy_shock",
+      "document": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf",
+      "date": "2026-04-16",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 23,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        22
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [22]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 4.5% 1.6% 3.3% 3.7% 4.2% 4.4% 1.0% 2.7% 3.3% 3.2% 2.7% 0.0%",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -2.9 -2.7 -5.1 -3.1 -2.6 -3.2 -3.3 -4.9 -3.0 -2.6 -3.3 -3.8",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 88 65 116 136 10190 66 118 137 100 90 67 120",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: Jan-23 Feb-23 Mar-23 Apr-23 May-23 Jun-23 Jul-23 Aug-23 Sep-23 Oct-23 Nov-23 Dec-23",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.7 0.5 0.6 0.3 0.2 0.2 0.5 0.7 0.4 0.2 -0.1 0.0",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 0.7 0.5 0.6 0.3 0.2 0.2 0.5 0.7 0.4 0.2 -0.1 0.0",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 144 145 146 146 146 147 148 148 150 151 152 151",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "39 consecutive numeric/date tokens: 92.3 93.2 93.4 92.5 91.1 89.8 88.3 86.3 85.1 85.5 86.9 84.8",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "39 consecutive numeric/date tokens: 96.8 96.1 96.9 96.6 96.1 95.6 94.4 94.8 96.0 96.1 97.6 96.2",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "38 consecutive numeric/date tokens: -0.1 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "38 consecutive numeric/date tokens: -0.1 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "37 consecutive numeric/date tokens: 0.0 0.1 0.0 0.0 0.0 0.1 0.1 0.0 0.0 0.1 0.0 0.0",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "26 consecutive numeric/date tokens: 6 46 47 47 47 47 47 47 47 47 47 47",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-5-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -1.80 -1.60 -1.40 -1.20 -1.00 -0.80 -0.60 -0.40 -0.20 0.00 2024 2025",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-6-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 80 85 90 95 100 105 110 115 Jan-10 Jul-11 Jan-13 Jul-14",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-7-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "UBS_European Economic Comment - Eurozone - Fiscal response to energy shock –.pdf-7-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

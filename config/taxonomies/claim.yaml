@@ -1,0 +1,107 @@
+﻿version: "1"
+
+task:
+  name: claim
+  type: classification
+  multiple_labels: true
+  allow_empty: true
+  prompt:
+    - "Identify substantive financial research claims in the source text."
+    - "Classify each claim using the most specific claim type defined below."
+    - "A claim must stand on its own as a distinct analyst assertion, expectation, recommendation, positioning observation, or reported datapoint."
+    - "Separate multiple materially distinct claims when they occur in the same sentence or paragraph."
+    - "Do not infer information that is not explicitly supported by the source text."
+    - "Preserve the source wording of the claim where possible."
+
+labels:
+  view:
+    name: View
+    description: >
+      A qualitative opinion, interpretation, assessment, preference, outlook,
+      or directional judgement expressed by the analyst or research author.
+      A view does not require a numerical forecast or an explicit trading
+      recommendation.
+    status: active
+
+  forecast:
+    name: Forecast
+    description: >
+      A forward-looking expectation about a future quantitative or qualitative
+      outcome, including projected economic data, market levels, company
+      financials, policy rates, prices, yields, spreads, or other measurable
+      variables.
+    status: active
+
+  trade_idea:
+    name: Trade idea
+    description: >
+      An explicit or clearly actionable investment or trading recommendation,
+      including long, short, relative-value, curve, spread, options, or other
+      positions. A trade idea may include entry levels, targets, stops,
+      horizons, rationale, risks, or conviction.
+    status: active
+
+  positioning:
+    name: Positioning
+    description: >
+      A statement describing investor, client, fund, dealer, speculative,
+      systematic, or broader market positioning, including holdings, exposures,
+      crowding, flows, changes in positioning, or positioning-related behaviour.
+    status: active
+
+  data_point:
+    name: Data point
+    description: >
+      A factual observed, reported, measured, or historical quantitative value,
+      including economic statistics, market levels, company financial metrics,
+      flow data, survey results, valuation measures, or other numerical
+      observations. A data point describes what has occurred or been measured,
+      rather than what is expected to occur.
+    status: active
+
+disambiguation:
+  view_vs_forecast: >
+    Use forecast when the statement makes an expectation about a future outcome,
+    particularly when it specifies a future value, level, direction, or horizon.
+    Use view when the statement primarily expresses an opinion, interpretation,
+    preference, or qualitative outlook without a sufficiently concrete future
+    prediction.
+
+  view_vs_trade_idea: >
+    Use trade_idea when the statement recommends or clearly advocates an
+    actionable investment position. Use view when it expresses directional
+    preference or conviction without recommending a specific trade.
+
+  forecast_vs_data_point: >
+    Use forecast for expected future outcomes. Use data_point for observed,
+    released, historical, or currently measured values. A sentence may contain
+    both and they should be extracted separately when possible.
+
+  forecast_vs_positioning: >
+    Use forecast when the statement predicts a future economic or market
+    outcome. Use positioning when the statement describes current or expected
+    investor, client, or market positioning itself, even when the positioning
+    description is forward-looking.
+
+  positioning_vs_view: >
+    Use positioning when the core assertion concerns how investors, clients,
+    funds, dealers, or other market participants are positioned or changing
+    their exposure. Use view when the statement represents the research author's
+    own opinion or outlook.
+
+  positioning_vs_data_point: >
+    Use positioning when quantitative information is specifically evidence of
+    investor positioning or flows. Use data_point when the quantitative value is
+    itself the substantive observation and does not primarily represent
+    positioning.
+
+  trade_idea_vs_forecast: >
+    A forecast predicts an outcome. A trade idea recommends an action based on
+    an expected outcome. If both are explicitly present, extract them as
+    separate claims where possible.
+
+  trade_idea_vs_positioning: >
+    Use trade_idea when the statement itself recommends an action for the
+    reader to take. Use positioning when the statement describes existing or
+    changing positioning among investors or market participants, even when
+    offered as context for a recommendation made elsewhere.

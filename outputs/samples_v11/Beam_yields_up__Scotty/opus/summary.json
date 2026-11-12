@@ -1,0 +1,73 @@
+{
+  "doc": "Beam_yields_up__Scotty",
+  "model": "opus",
+  "example": null,
+  "taxonomy_version": "0.11",
+  "source_metadata": {
+    "Document": "Beam yields up, Scotty?.pdf",
+    "Date": "2026-08-26",
+    "Source": "State Street",
+    "Type": "Weekly",
+    "Chunks": "14",
+    "Asset classes": "FX, Rates",
+    "Preferred share (FX/Rates)": "100%"
+  },
+  "arguments": 29,
+  "statements": 75,
+  "evidence": 101,
+  "exclusions": 8,
+  "scenarios": 0,
+  "edges": 17,
+  "scenario_links": 0,
+  "isolated": 9,
+  "max_chain": 3,
+  "types": {
+    "CAUSAL": 11,
+    "RECOMMENDATION": 11,
+    "PREDICTION": 15,
+    "VIEW": 36,
+    "SUPPOSITION": 2
+  },
+  "proposition_kinds": {},
+  "subkinds": {
+    "CAUSAL:sentiment": 1,
+    "RECOMMENDATION:trade_idea": 11,
+    "PREDICTION:event": 7,
+    "VIEW:valuation": 7,
+    "VIEW:market_state": 20,
+    "PREDICTION:directional": 9,
+    "PREDICTION:quantitative": 1,
+    "VIEW:sentiment": 2,
+    "CAUSAL:market_state": 9,
+    "VIEW:positioning": 5,
+    "CAUSAL:positioning": 1,
+    "VIEW:event": 2,
+    "SUPPOSITION:market_state": 1,
+    "SUPPOSITION:event": 1
+  },
+  "modalities": {
+    "ASSERTED": 59,
+    "SPECULATIVE": 4,
+    "HEDGED": 10,
+    "HYPOTHETICAL": 2
+  },
+  "ok": true,
+  "attempts": 1,
+  "errors": 0,
+  "warnings": 3,
+  "issue_codes": {
+    "ARGUMENT_WITHOUT_RELATION": 3
+  },
+  "seconds": 400.7,
+  "src_chars": 15726,
+  "cost_usd": 1.1875,
+  "api_seconds": 395.3,
+  "input_tokens": 2,
+  "output_tokens": 51908,
+  "cache_read_input_tokens": 2013,
+  "cache_creation_input_tokens": 18526,
+  "resolved_models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+  ]
+}

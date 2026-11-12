@@ -1,0 +1,420 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Long_SGDNEER_ahead_of_April_MAS_meeting_Trade_Idea--920683.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-17",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 24,
+    "referents": {
+     "thing": 13,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 22,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "relative": 2
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     2,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 111,
+  "kinds": {
+   "deixis": 50,
+   "abbreviation": 31,
+   "symbol": 8,
+   "demonstrative": 7,
+   "possessive": 6,
+   "noun_phrase": 4,
+   "pronoun": 4,
+   "proposition": 1
+  },
+  "rooted_share": 0.8356164383561644,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 8,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 87,
+  "cost_usd": 0.2958
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 555,
+   "end": 562,
+   "quote": "the MAS",
+   "name": "the MAS"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 563,
+   "end": 600,
+   "quote": "reducing its policy accommodativeness",
+   "name": "reducing its policy accommodativeness"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1307,
+   "end": 1349,
+   "quote": "re-centering the SGDNEER mid-point upwards",
+   "name": "re-centering the SGDNEER mid-point upwards"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3977,
+   "end": 3980,
+   "quote": "SGD",
+   "name": "the SGD"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4984,
+   "end": 5038,
+   "quote": "the likelihood of a hawkish move from the MAS in April",
+   "name": "the likelihood of a hawkish move from the MAS in April"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 5175,
+   "end": 5300,
+   "quote": "the current risk-off sentiment driven by Middle East conflicts has led to a strengthening USD, causing the SGDNEER to decline",
+   "name": "the current risk-off sentiment driven by Middle East conflicts has led to a strengthening USD, causing the SGDNEER to decline"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 5584,
+   "end": 5595,
+   "quote": "the SGDNEER",
+   "name": "the SGDNEER"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 6646,
+   "end": 6661,
+   "quote": "inflation risks",
+   "name": "inflation risks"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 7257,
+   "end": 7295,
+   "quote": "currencies that make up the NEER index",
+   "name": "the currencies that make up the NEER index"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 7898,
+   "end": 7937,
+   "quote": "the weights on the remaining currencies",
+   "name": "the weights on the remaining currencies"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 8108,
+   "end": 8120,
+   "quote": "both baskets",
+   "name": "both baskets"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 277,
+   "end": 331,
+   "quote": "the Monetary Authority of Singapore’s meeting in April",
+   "name": "the Monetary Authority of Singapore’s meeting in April"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 9001,
+   "end": 9027,
+   "quote": "a recessionary environment",
+   "name": "a recessionary environment"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 8555,
+   "end": 8604,
+   "quote": "a material escalation in the Middle East conflict",
+   "name": "a material escalation in the Middle East conflict"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C016",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we trade' at 6722"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we derive' at 7428"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we also exclude' at 7666"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we verify' at 7964"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we derive' at 10044"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we also exclude' at 10313"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we verify' at 10668"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we approach' at 11550"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5420",
+   "message": "+21 words: {{this => that the current risk-off sentiment driven by Middle East conflicts has led to a strengthening USD, causing the SGDNEER to decline}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'its' in 'f Singapore’s has usually done reducing its policy accommodativeness by increasing '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'its' in 'Historically, reducing its policy accommodativeness is usually don'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E040",
+      "phrase": "the MAS meeting",
+      "occurrence": 1,
+      "referent": "R12"
+     },
+     "reason": "exhibit, figure, chart and table labels (and rule edits) are not references"
+    },
+    {
+     "item": {
+      "sid": "E046",
+      "phrase": "the MAS meeting",
+      "occurrence": 1,
+      "referent": "R12"
+     },
+     "reason": "exhibit, figure, chart and table labels (and rule edits) are not references"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.07040060000000001,
+   "duration_ms": 8344,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6841,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 722,
+    "output_tokens_details": {
+     "thinking_tokens": 709
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6841,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 722,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6841,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6841
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.15216269999999998,
+   "duration_ms": 37133,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7816,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4406,
+    "output_tokens_details": {
+     "thinking_tokens": 2766
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7816,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4406,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7816,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7816
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0732337,
+   "duration_ms": 3905,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8326,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 253,
+    "output_tokens_details": {
+     "thinking_tokens": 226
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8326,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 253,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8326,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8326
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

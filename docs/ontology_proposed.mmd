@@ -1,0 +1,323 @@
+---
+title: Entity ontology (v7) - field? = optional, labelled arrows = ref() fields or legs, qlib = QLib keyword
+---
+classDiagram
+    direction LR
+
+    namespace Structure {
+        class Instrument {
+            <<abstract>>
+            structure : Structure, one per subclass
+            legs() : Outright legs
+            refs() : markets and indicators positioned on
+            qlib() : QLib keyword
+            key()
+        }
+        class Outright {
+            ref : Market / Indicator / Curve
+            form : Form
+            product? : Product, defaults from underlying and form
+            tenor? : Tenor
+            fixing? : 3m, rate index fixing tenor
+            security? : ISIN
+            contract? : TYM4, SFRZ7, listed products
+            expiry? : 2y, options only
+            call_put? : CallPut, options only
+            qlib = product keyword
+            asset_type() : AssetType
+        }
+        class Tenor {
+            length : 10y
+            start? : 2y (2y2y), 6m fwd
+        }
+        class Spread {
+            long : Outright
+            short : Outright
+            legs differ in underlying or product
+        }
+        class Breakeven {
+            nominal - linker cash bond, one issuer
+        }
+        class SwapSpread {
+            rate index swap - government bond, one currency
+            qlib = ss
+        }
+        class AssetSwap {
+            bond - rate index swap, one currency
+            qlib = aswp
+        }
+        class Basis {
+            two rate index legs, one form
+            differ in index or fixing
+            qlib = bsw, or xcs across currencies
+        }
+        class Curve {
+            front : Outright
+            back : Outright
+            differ only in tenor
+            qlib = sprd
+        }
+        class Calendar {
+            front : Outright
+            back : Outright
+            differ only in contract or expiry
+        }
+        class Fly {
+            front, belly, back : Outright
+            differ only in tenor or contract
+            qlib = fly
+        }
+        class CrossFly {
+            left, belly, right : Outright
+            differ only in underlying
+        }
+        class Box {
+            long : Curve
+            short : Curve
+            same tenors, different underlyings
+        }
+        class Form {
+            <<enumeration>>
+            cash / forward / swap
+            future / option / repo
+        }
+        class Product {
+            <<enumeration>>
+            rates : deposit / fra / irs / meeting_swap / rate_future / rate_future_option / swaption
+            curve : cms_spread_option
+            bonds : cash_bond / bond_future / bond_future_option / repo
+            fx : fx_spot / fx_forward / fx_swap / fx_option
+            inflation : inflation_swap
+            levels : index_level / commodity_spot
+            each carries its QLib keyword where QLib has one
+        }
+        class CallPut {
+            <<enumeration>>
+            Call / Put / Straddle
+        }
+        class AssetType {
+            <<enumeration>>
+            b / ib / bf : bond, linker, bond future
+            irs / if / ins : IR swap, IR future, inflation swap
+            fxf : FX forward
+        }
+        class InstrumentCategory {
+            <<enumeration>>
+            m : cash
+            s : swap
+            f : IR future
+        }
+    }
+
+    namespace Markets {
+        class Market {
+            <<abstract>>
+            entity_id
+            aliases?
+            wikidata_id? : QID
+            yellow_key : YellowKey, fixed per subclass
+            qlib_id() none unless the subclass builds one
+        }
+        class Currency {
+            code : USD
+            geography_id : issuing jurisdiction (wd P1001)
+            issuer_id : central bank (wd P562)
+            yellow_key = Curncy
+            qlib_id() ccy[USD]
+        }
+        class FXPair {
+            base_id : Currency
+            quote_id : Currency
+            yellow_key = Curncy
+            qlib_id() fx[EUR,cc:USD]
+        }
+        class RateIndex {
+            currency_id : Currency
+            ref_code? : SOFR / OIS / TONAROIS / REPO
+            yellow_key = Index
+            qlib_id() idx[USD,SOFR]
+        }
+        class Bond {
+            <<abstract>>
+            currency_id : Currency
+            segment? : BondSegment
+            bond_class : BondClassification, derived
+            label : MarketKind.BOND
+            obligor_id()
+            qlib_id() bndcnv[US,Govt,USD]
+        }
+        class SovereignBond {
+            geography_id : country or bloc
+            issuer_id? : debt office, government org there
+            obligor = geography
+            bond_class = Govt, or Infl / Floater by segment
+            yellow_key = Govt
+        }
+        class NonSovereignBond {
+            issuer_kind : agency / supra / subsov / corp
+            issuer_id : Organization
+            geography_id? : home market
+            obligor = issuer
+            bond_class = Govt if supra else Corp, or Infl / Floater
+            yellow_key = Corp
+        }
+        class Index {
+            asset_class : equity / rates / credit / fx / commodity
+            code? : SPX / DXY, CDX.NA.IG for credit
+            yellow_key = Index
+            qlib_id() eqidx[SPX] equity, ccy[DXY] fx
+        }
+        class Commodity {
+            commodity_type : CommodityType
+            code? : XAU, precious metals only
+            currency_id? : Currency
+            ref_code? : WTI / BRENT / TTF / NG
+            yellow_key = Comdty
+            qlib_id() idx[USD,WTI] or ccy[XAU]
+        }
+        class YellowKey {
+            <<enumeration>>
+            Govt / Corp / Muni / Mtge
+            Index / Curncy / Comdty
+            Equity / Pfd / Port
+        }
+        class BondSegment {
+            <<enumeration>>
+            nominal
+            inflation_linked
+            floating
+        }
+        class BondClassification {
+            <<enumeration>>
+            Govt / Corp / Muni / Mtge
+            Infl / Floater
+        }
+        class CommodityType {
+            <<enumeration>>
+            crude / natgas / metal / power
+            coal / freight / agri / weather
+        }
+    }
+
+    namespace Macro {
+        class Indicator {
+            measure_id : Measure
+            geography_id : Geography
+            basket? : headline
+            source? : non-official provider
+        }
+        class Measure {
+            kind : prices / labour / ...
+            baskets : headline, core, ...
+            default_geography_id?
+        }
+    }
+
+    namespace Context {
+        class Geography {
+            level : country / region / bloc / market_grouping
+            code? : ISO2, plus EU
+        }
+        class Organization {
+            kinds : central_bank, government, ...
+            geography_id? : jurisdiction (wd P1001)
+        }
+    }
+
+    Instrument <|-- Outright
+    Instrument <|-- Spread
+    Spread <|-- Breakeven
+    Spread <|-- SwapSpread
+    Spread <|-- AssetSwap
+    Spread <|-- Basis
+    Instrument <|-- Curve
+    Instrument <|-- Calendar
+    Instrument <|-- Fly
+    Instrument <|-- CrossFly
+    Instrument <|-- Box
+    Spread o-- "2" Outright : long, short
+    Curve o-- "2" Outright : front, back
+    Calendar o-- "2" Outright : front, back
+    Fly o-- "3" Outright : front, belly, back
+    CrossFly o-- "3" Outright : left, belly, right
+    Box o-- "2" Curve : long, short
+    Outright ..> Tenor : tenor, fixing, expiry
+    Outright ..> Form : form
+    Outright ..> Product : product
+    Outright ..> CallPut : call_put
+    Product ..> Form : one form each
+    Product ..> AssetType : asset_type
+    Product ..> InstrumentCategory : rate curve point
+    Outright --> Market : ref
+    Outright --> Indicator : ref, inflation products
+    Outright --> Curve : ref, CMS spread options
+
+    Market <|-- Currency
+    Market <|-- FXPair
+    Market <|-- RateIndex
+    Market <|-- Bond
+    Bond <|-- SovereignBond
+    Bond <|-- NonSovereignBond
+    Market <|-- Index
+    Market <|-- Commodity
+    Market ..> YellowKey : yellow_key
+    Bond ..> BondSegment : segment
+    Bond ..> BondClassification : bond_class
+    Commodity ..> CommodityType : commodity_type
+
+    FXPair --> Currency : base_id, quote_id
+    RateIndex --> Currency : currency_id
+    Bond --> Currency : currency_id
+    Commodity ..> Currency : currency_id?
+    Currency --> Geography : geography_id
+    Currency --> Organization : issuer_id
+    SovereignBond --> Geography : geography_id
+    SovereignBond ..> Organization : issuer_id?
+    NonSovereignBond --> Organization : issuer_id
+    Organization ..> Geography : geography_id?
+    Indicator --> Measure : measure_id
+    Indicator --> Geography : geography_id
+
+    note "ref() fields are single-valued, stable links stored as IDs and indexed for filtering, never claims. An issuer_id must sit in the same geography_id. Multi-valued or time-varying links (member_of, affiliated_with, held_by, published_by, derived_from) stay relations."
+    note for Outright "A leg is underlying x form x product x terms. Structures are built from legs, as QLib builds swap spreads and butterflies from leg instruments, so legs of one structure can differ in form, such as a swap against a bond."
+    note for Market "Enum values are QLib's own, generated from its source. qlib_id() reads only fields: codes come from the referenced Currency and Geography, and ref_code is the one QLib-specific field."
+
+    classDef structure fill:#e8f5e9,stroke:#2e7d32,color:#000
+    classDef market fill:#eef3fb,stroke:#4a6fa5,color:#000
+    classDef macro fill:#f3e5f5,stroke:#7b1fa2,color:#000
+    classDef context fill:#eeeeee,stroke:#757575,color:#000
+    class Instrument:::structure
+    class Outright:::structure
+    class Tenor:::structure
+    class Spread:::structure
+    class Breakeven:::structure
+    class SwapSpread:::structure
+    class AssetSwap:::structure
+    class Basis:::structure
+    class Curve:::structure
+    class Calendar:::structure
+    class Fly:::structure
+    class CrossFly:::structure
+    class Box:::structure
+    class Form:::structure
+    class Product:::structure
+    class CallPut:::structure
+    class AssetType:::structure
+    class InstrumentCategory:::structure
+    class Market:::market
+    class Currency:::market
+    class FXPair:::market
+    class RateIndex:::market
+    class Bond:::market
+    class SovereignBond:::market
+    class NonSovereignBond:::market
+    class Index:::market
+    class Commodity:::market
+    class YellowKey:::market
+    class BondSegment:::market
+    class BondClassification:::market
+    class CommodityType:::market
+    class Indicator:::macro
+    class Measure:::macro
+    class Geography:::context
+    class Organization:::context

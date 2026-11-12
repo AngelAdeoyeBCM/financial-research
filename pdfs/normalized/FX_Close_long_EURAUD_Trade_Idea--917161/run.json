@@ -1,0 +1,173 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Close_long_EURAUD_Trade_Idea--917161.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "link": 2
+    },
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 7,
+  "kinds": {
+   "deixis": 5,
+   "demonstrative": 2
+  },
+  "rooted_share": 0.7272727272727273,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 8,
+  "cost_usd": 0.0554
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 38,
+   "end": 55,
+   "quote": "a short AUD trade",
+   "name": "the short AUD trade"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 461,
+   "end": 581,
+   "quote": "a report this week from the second-largest Australian superannuation fund looking to raise FX hedge ratios on USD assets",
+   "name": "the report from the second-largest Australian superannuation fund"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we subsequently' at 92"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.022238,
+   "duration_ms": 2136,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2540,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 56,
+    "output_tokens_details": {
+     "thinking_tokens": 48
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2540,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 56,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2540,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2540
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.03313289999999999,
+   "duration_ms": 5986,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2603,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 566,
+    "output_tokens_details": {
+     "thinking_tokens": 339
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2603,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 566,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2603,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2603
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

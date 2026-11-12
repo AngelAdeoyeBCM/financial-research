@@ -1,0 +1,202 @@
+{
+  "batch_id": "2026-06-21",
+  "window": [
+    "2026-06-21",
+    "2026-06-21"
+  ],
+  "generated_at": "2026-10-29T16:30:00",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-18_2026-06-21.json",
+      "sha256": "76d600f2b9e391e4e534d0214817e8998548dda2942fbb8a99d5043d6a23e57a",
+      "records": 1460,
+      "dates": [
+        "2026-06-18",
+        "2026-06-21"
+      ],
+      "records_for_batch": 168
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 2,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 5,
+    "edits": 19,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "MS_Cross-Asset_Playbook___June_2026_-_Half-Time__Full_Speed",
+      "document": "MS_Cross-Asset Playbook – June 2026 - Half-Time, Full Speed.pdf",
+      "date": "2026-06-21",
+      "publisher": "Morgan Stanley",
+      "document_type": "Monthly",
+      "chunk_count": 86,
+      "page_count": 69,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.329,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Hydration_break_in_Hormuz_Sunday_Tea_with_BNP_Paribas--926699",
+      "document": "Sunday_Tea_with_BNPP_Hydration_break_in_Hormuz_Sunday_Tea_with_BNP_Paribas--926699.pdf",
+      "date": "2026-06-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/Sunday_Tea_with_BNPP_Hydration_break_in_Hormuz_Sunday_Tea_with_BNP_Paribas--926699.txt",
+      "asset_class_share": 0.6,
+      "fingerprint": "c1dc14aeac1d7369de8079252a815fa26918ad87",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A R K E T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        },
+        {
+          "rule": "rule_line",
+          "section": "artefact",
+          "text": "____________________"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "header": 1,
+        "promotion": 1,
+        "artefact": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 7,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 5,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " :",
+              "after": ":"
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Sunday Tea with BNPP: Hydration break in Hormuz",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

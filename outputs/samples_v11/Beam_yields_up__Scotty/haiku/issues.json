@@ -1,0 +1,30 @@
+[
+  {
+    "code": "ARGUMENT_WITHOUT_RELATION",
+    "severity": "warning",
+    "path": "$.arguments[5]",
+    "message": "A006 has no relation other than observations in rationale.",
+    "suggested_action": "Add the reason, data point, risk or qualifier the text gives for the core claim, or place the core claim in the argument it serves and delete this argument."
+  },
+  {
+    "code": "ARGUMENT_WITHOUT_RELATION",
+    "severity": "warning",
+    "path": "$.arguments[24]",
+    "message": "A025 has no relation other than observations in rationale.",
+    "suggested_action": "Add the reason, data point, risk or qualifier the text gives for the core claim, or place the core claim in the argument it serves and delete this argument."
+  },
+  {
+    "code": "MUST_KEEP_EXCLUDED",
+    "severity": "warning",
+    "path": "$.exclusions[8]",
+    "message": "An excluded sentence looks like a prediction claim.",
+    "suggested_action": "Represent it as a statement in an argument unless it is not the author's claim."
+  },
+  {
+    "code": "MUST_KEEP_EXCLUDED",
+    "severity": "warning",
+    "path": "$.exclusions[13]",
+    "message": "An excluded sentence looks like a recommendation claim.",
+    "suggested_action": "Represent it as a statement in an argument unless it is not the author's claim."
+  }
+]

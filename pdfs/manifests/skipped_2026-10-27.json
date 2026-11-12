@@ -1,0 +1,233 @@
+{
+  "batch_id": "2026-10-27",
+  "window": [
+    "2026-10-27",
+    "2026-10-27"
+  ],
+  "generated_at": "2026-10-29T16:33:02",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_20261028_new/raw/browse_2026-10-25_2026-10-27.json",
+      "sha256": "262999118ad16644baf0fe6503ca46ba016ff0dc203119327ad25b8b5b1d1932",
+      "records": 918,
+      "dates": [
+        "2026-10-25",
+        "2026-10-27"
+      ],
+      "records_for_batch": 39
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 4,
+    "out_of_scope": 2,
+    "compiled": 0,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 12,
+    "DISTORTED_TABLE": 4,
+    "UNSTRUCTURED_TEXT": 2,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "BoC_Preview__Compelled_to_hike",
+      "document": "BoC Preview: Compelled to hike.pdf",
+      "date": "2026-10-27",
+      "publisher": "State Street",
+      "document_type": "Central Bank Preview",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0% 2% 4% 6% 8% '18 '19 '20 '21 '22 '23 '24",
+          "chunk_id": "BoC Preview: Compelled to hike.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323",
+      "document": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf",
+      "date": "2026-10-27",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 22,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        11
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 2,400 2,680 2,960 3,240 3,520 3,800 Jul 25 Oct 25 Jan 26",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0 20 40 60 80 100 120 Jan-25 Feb-25 Mar-25 Apr-25 May-25",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 5 10 15 20 25 30 Apr-25 May-25 Jun-25 Jul-25 Aug-25",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.0% 1.6% 3.2% 4.8% 6.4% 8.0% 0 10 20 30 40 50",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 27 October 2026 90 100 110 120 130 140 150 Jan-26 Feb-26",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 989 1,047 1,105 5.5% | 280 291 302 3.8% | 168 186 205 10.0%",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "72% of tokens are numeric/date values",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 17.2 20.7 23 969 1,058 1,193 0 200 400 600 800 1,000",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2026 650 700 750 800 850 900 950 1,000 Oct-24 Jan-25 Apr-25",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 750 850 950 1,050 1,150 1,250 Oct-25 Jan-26 Apr-26 Jul-26 Oct-26",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 27 October 2026 Jan Feb Mar Jun Jul Aug Sep Dec",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 72 43% 65 -10% 69 6% 72 5%",
+          "chunk_id": "Equity_derivatives_Japan_s_July_September_earnings_likely_to_see_wider_returns_dispersions_Desknote--934323.pdf-10-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPY_rates_Short_the_15y_kink_via_IRS_5s15s30s_Trade_Idea--934399",
+      "document": "JPY_rates_Short_the_15y_kink_via_IRS_5s15s30s_Trade_Idea--934399.pdf",
+      "date": "2026-10-27",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 35 40 45 50 55 60 65 75 85 95 105 115",
+          "chunk_id": "JPY_rates_Short_the_15y_kink_via_IRS_5s15s30s_Trade_Idea--934399.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9 3.0 May-26 Jun-26 Jul-26",
+          "chunk_id": "JPY_rates_Short_the_15y_kink_via_IRS_5s15s30s_Trade_Idea--934399.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_rates_Tactically_short_30y_swap_spreads_Trade_Idea--934367",
+      "document": "US_rates_Tactically_short_30y_swap_spreads_Trade_Idea--934367.pdf",
+      "date": "2026-10-27",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90",
+          "chunk_id": "US_rates_Tactically_short_30y_swap_spreads_Trade_Idea--934367.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

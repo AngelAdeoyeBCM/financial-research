@@ -1,0 +1,44 @@
+version: "1"
+
+id: market_reference_type
+type: extraction
+
+threshold: 0.5
+
+labels:
+  currency:
+    name: Currency
+    description: >-
+      A named currency.
+    threshold: null
+    status: active
+
+  fx_pair:
+    name: FX pair
+    description: >-
+      A pair of currencies quoted against each other.
+    threshold: null
+    status: active
+
+  commodity:
+    name: Commodity
+    description: >-
+      A named commodity, such as oil, gold, or wheat.
+    threshold: null
+    status: active
+
+  index:
+    name: Index
+    description: >-
+      A named index measuring a market or basket of assets.
+    threshold: null
+    status: active
+
+  credit_rating:
+    name: Credit rating
+    description: >-
+      A credit-rating grade or designation, such as a letter
+      rating (e.g. BBB+) or a general classification like
+      investment grade or junk.
+    threshold: null
+    status: active

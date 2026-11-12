@@ -1,0 +1,174 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Adjusting_levels_for_our_short_CLPCOP_position_Trade_Idea--930273.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-20",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {
+     "thing": 2,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 2
+    },
+    "leave_reasons": {},
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "noun_phrase": 7,
+   "deixis": 6,
+   "shell": 1
+  },
+  "rooted_share": 0.8636363636363636,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 9,
+  "cost_usd": 0.0678
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 86,
+   "end": 111,
+   "quote": "short CLPCOP NDF position",
+   "name": "the short CLPCOP NDF position"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 92,
+   "end": 98,
+   "quote": "CLPCOP",
+   "name": "CLPCOP"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 221,
+   "end": 265,
+   "quote": "The pair has moved favorably to the downside",
+   "name": "The pair has moved favorably to the downside"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0244335,
+   "duration_ms": 3057,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2655,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 119,
+    "output_tokens_details": {
+     "thinking_tokens": 111
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2655,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 119,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2655,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2655
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0433826,
+   "duration_ms": 9535,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2730,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1027,
+    "output_tokens_details": {
+     "thinking_tokens": 526
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2730,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1027,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2730,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2730
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

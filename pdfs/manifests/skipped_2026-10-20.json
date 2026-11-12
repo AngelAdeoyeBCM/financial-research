@@ -1,0 +1,85 @@
+{
+  "batch_id": "2026-10-20",
+  "window": [
+    "2026-10-20",
+    "2026-10-20"
+  ],
+  "generated_at": "2026-10-29T16:32:49",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_20261028_new/raw/browse_2026-10-20_2026-10-20.json",
+      "sha256": "b0d3ac6d609a1e4f8d478ec29ca7ac778cd47e4fe356b6e76ee6eb3f339c01e4",
+      "records": 15,
+      "dates": [
+        "2026-10-20",
+        "2026-10-20"
+      ],
+      "records_for_batch": 15
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 2,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 20,
+    "edits": 1,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 3,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "UK_Budget_Preview__Time_to_Heal_ey",
+      "document": "UK Budget Preview: Time to Heal(ey)?.pdf",
+      "date": "2026-10-20",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: £23.6bn £0bn £15bn £30bn £45bn £60bn £75bn £90bn '10 '11 '12 '13",
+          "chunk_id": "UK Budget Preview: Time to Heal(ey)?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Oct 25 Jan 26 Apr 26 Jul",
+          "chunk_id": "UK Budget Preview: Time to Heal(ey)?.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Oct 25 Jan 26 Apr 26 Jul",
+          "chunk_id": "UK Budget Preview: Time to Heal(ey)?.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UK Budget Preview: Time to Heal(ey)?.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

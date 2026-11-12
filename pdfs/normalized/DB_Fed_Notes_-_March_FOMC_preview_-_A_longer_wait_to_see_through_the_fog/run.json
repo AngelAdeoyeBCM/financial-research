@@ -1,0 +1,431 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_March_FOMC_preview_-_A_longer_wait_to_see_through_the_fog.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-13",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 48,
+    "referents": {
+     "thing": 19,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 36,
+     "leave": 11,
+     "ambiguous": 1
+    },
+    "leave_reasons": {
+     "expletive": 8,
+     "not_a_reference": 1,
+     "relative": 1,
+     "time": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 67,
+  "kinds": {
+   "deixis": 23,
+   "possessive": 14,
+   "pronoun": 14,
+   "noun_phrase": 10,
+   "symbol": 3,
+   "abbreviation": 1,
+   "shell": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6911764705882353,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 62,
+  "cost_usd": 0.2275
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 125,
+   "end": 132,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 289,
+   "end": 301,
+   "quote": "Chair Powell",
+   "name": "Chair Powell"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 660,
+   "end": 683,
+   "quote": "the median dot for 2026",
+   "name": "the median dot for 2026"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2704,
+   "end": 2720,
+   "quote": "the long-run dot",
+   "name": "the long-run dot"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2838,
+   "end": 2851,
+   "quote": "Fed officials",
+   "name": "Fed officials"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3249,
+   "end": 3263,
+   "quote": "some officials",
+   "name": "some officials"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 217,
+   "end": 256,
+   "quote": "the ongoing conflict in the Middle East",
+   "name": "the ongoing conflict in the Middle East"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5169,
+   "end": 5178,
+   "quote": "inflation",
+   "name": "inflation"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1175,
+   "end": 1186,
+   "quote": "A rate hike",
+   "name": "a rate hike"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 5871,
+   "end": 5987,
+   "quote": "“several” officials “would have supported a two-sided description of the C ommittee’s future interest rate decisions",
+   "name": "“several” officials “would have supported a two-sided description of the C ommittee’s future interest rate decisions"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6535,
+   "end": 6581,
+   "quote": "the two jobs reports since the January meeting",
+   "name": "the two jobs reports since the January meeting"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 7450,
+   "end": 7475,
+   "quote": "Powell and his colleagues",
+   "name": "Powell and his colleagues"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7643,
+   "end": 7661,
+   "quote": "Core PCE inflation",
+   "name": "Core PCE inflation"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7859,
+   "end": 7886,
+   "quote": "The ongoing oil price shock",
+   "name": "the ongoing oil price shock"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 7971,
+   "end": 8001,
+   "quote": "any passthrough to core prices",
+   "name": "the passthrough to core prices"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 8460,
+   "end": 8487,
+   "quote": "the 2022 energy price spike",
+   "name": "the 2022 energy price spike"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 554,
+   "end": 619,
+   "quote": "upward revisions to headline and core PCE inflation for this year",
+   "name": "upward revisions to headline and core PCE inflation for this year"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 5529,
+   "end": 5562,
+   "quote": "the decision to keep rates steady",
+   "name": "the decision to keep rates steady"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 6237,
+   "end": 6256,
+   "quote": "the January meeting",
+   "name": "the January meeting"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 8753,
+   "end": 8795,
+   "quote": "the potential effects of AI on the economy",
+   "name": "the potential effects of AI on the economy"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C035",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "it",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R16",
+    "R14"
+   ]
+  },
+  {
+   "candidate": "C038",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C040",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'he' in 'However, t he recent spike in energy prices should li'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'they' in 'il price shocks a ‘frack’ -tion of what they once were”).'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'his' in 'the January meeting, even as Powell and his colleagues maintain an expectation for '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.056166299999999995,
+   "duration_ms": 6706,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5563,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 528,
+    "output_tokens_details": {
+     "thinking_tokens": 515
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5563,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 528,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5563,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5563
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.17134809999999998,
+   "duration_ms": 44861,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7395,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5536,
+    "output_tokens_details": {
+     "thinking_tokens": 3059
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7395,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5536,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7395,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7395
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

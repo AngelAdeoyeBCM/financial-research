@@ -1,0 +1,194 @@
+{
+  "batch_id": "2026-05-20",
+  "window": [
+    "2026-05-20",
+    "2026-05-20"
+  ],
+  "generated_at": "2026-10-29T16:29:09",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-17_2026-05-20.json",
+      "sha256": "7498cc3995179581b97c0415d8f8696849789d3eaea86d514f9273cbc0a7bb79",
+      "records": 1229,
+      "dates": [
+        "2026-05-17",
+        "2026-05-20"
+      ],
+      "records_for_batch": 72
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 5,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 1,
+    "edits": 1,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 12,
+    "DISTORTED_TABLE": 2
+  },
+  "documents": [
+    {
+      "stem": "Chile_Implications_of_new_limits_on_AFPs_derivatives_Desknote--924599",
+      "document": "Chile_Implications_of_new_limits_on_AFPs_derivatives_Desknote--924599.pdf",
+      "date": "2026-05-20",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 22,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 50 100 150 200 2 4 6 8 10 12 14",
+          "chunk_id": "Chile_Implications_of_new_limits_on_AFPs_derivatives_Desknote--924599.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -0.2% -3.2% 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 Jan-24",
+          "chunk_id": "Chile_Implications_of_new_limits_on_AFPs_derivatives_Desknote--924599.pdf-2-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -100 -80 -60 -40 -20 0 20 750 800 850 900 950",
+          "chunk_id": "Chile_Implications_of_new_limits_on_AFPs_derivatives_Desknote--924599.pdf-3-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EGBs_Enter_5s30s_SPGB_flattener_versus_GER_Trade_Idea--924597",
+      "document": "EGBs_Enter_5s30s_SPGB_flattener_versus_GER_Trade_Idea--924597.pdf",
+      "date": "2026-05-20",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 numeric rows: 2y 5y 10y 15y 20y 30y | -2.9 -1.5 -1.2 -4.8 -4.1 -3.7 | -5.6 -4.8 -3.7 -7.0 -4.5 -5.4",
+          "chunk_id": "EGBs_Enter_5s30s_SPGB_flattener_versus_GER_Trade_Idea--924597.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 2.55 2.65 2.75 2.85 2.95 3.05 3.15 16.5 21.5 26.5 31.5 02/03/2026",
+          "chunk_id": "EGBs_Enter_5s30s_SPGB_flattener_versus_GER_Trade_Idea--924597.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: Feb-26 Mar-26 Mar-26 Apr-26 May-26 -39 -37 -35 -33 -31 -29 -27",
+          "chunk_id": "EGBs_Enter_5s30s_SPGB_flattener_versus_GER_Trade_Idea--924597.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Policy_possibilities_and_dialing_dollars_to_neutral",
+      "document": "Policy possibilities and dialing dollars to neutral.pdf",
+      "date": "2026-05-20",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 15,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: USDEURJPYGBPCHFNOKSEKCADAUDNZDSGD0%25%50%75%",
+          "chunk_id": "Policy possibilities and dialing dollars to neutral.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: USDEURJPYGBPCHFNOKSEKCADAUDNZDSGD0%25%50%75%100%0% omentumCarry olatilityEquity eversalValue oldingsFlows",
+          "chunk_id": "Policy possibilities and dialing dollars to neutral.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -1.00-0.75-0.50-0.250.000.250.500.75May-25 MAFEDECBBOE-2.00-1.50-1.00-0.500.000.501 ediaStats",
+          "chunk_id": "Policy possibilities and dialing dollars to neutral.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -1.00-0.75-0.50-0.250.000.250.500.75May-25 MAFEDECBBOE-2.00-1.50-1.00-0.500.000.501.001.502.002.501.001.051.101.151.201.25'21",
+          "chunk_id": "Policy possibilities and dialing dollars to neutral.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -100%-50%0%50%100%'16 SPX13wk52wk26wk-60%-40%-20%0%20",
+          "chunk_id": "Policy possibilities and dialing dollars to neutral.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: -100%-50%0%50%100%'16 SPX13wk52wk26wk-60%-40%-20%0%20%40%60%80%100%-1.5-1.0-0.50.00.51.01.52.02.53.0'21 rhs300040005000600070008000-100%-80%-60%-40%-20%0%'21 rhs-0.7-0.6-0.5-0.4-0.3-0.2-0.10.0-30-25-20-15-10-50'16 (rhs)0%25%50%75%100%'21",
+          "chunk_id": "Policy possibilities and dialing dollars to neutral.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 0.91.01.11.21.3May-23Dec-23Jul-24Feb-25Oct-25May-26EUR/USD Rate)0.500.600.700.800.90May-23 Rate)1.01.11.21.31.41.51.6May-23 Rate)0.750.800.850.90May-23",
+          "chunk_id": "Policy possibilities and dialing dollars to neutral.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_signals_short_USDINR_amid_broad_USD_Asia_overvaluation_Trade_Idea--924567",
+      "document": "STEER_signals_short_USDINR_amid_broad_USD_Asia_overvaluation_Trade_Idea--924567.pdf",
+      "date": "2026-05-20",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 96.8225 95.3037 98.3655 - 0.00 | 1.2719 - - 1.2823 (19-May-2026) -0.82 | 156.8700 162.6690 154.4900 - 1.33",
+          "chunk_id": "STEER_signals_short_USDINR_amid_broad_USD_Asia_overvaluation_Trade_Idea--924567.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

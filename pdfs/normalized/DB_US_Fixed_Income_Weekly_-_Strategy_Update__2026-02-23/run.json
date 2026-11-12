@@ -1,0 +1,833 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Fixed_Income_Weekly_-_Strategy_Update__2026-02-23.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 77,
+    "referents": {
+     "thing": 33,
+     "claim": 10
+    },
+    "decisions": {
+     "link": 56,
+     "leave": 21
+    },
+    "leave_reasons": {
+     "expletive": 6,
+     "time": 7,
+     "relative": 4,
+     "not_a_reference": 2,
+     "generic": 2
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 2,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     1,
+     0
+    ]
+   }
+  },
+  "edits": 166,
+  "kinds": {
+   "deixis": 67,
+   "abbreviation": 21,
+   "pronoun": 21,
+   "symbol": 17,
+   "noun_phrase": 15,
+   "possessive": 12,
+   "proposition": 9,
+   "demonstrative": 3,
+   "shell": 1
+  },
+  "rooted_share": 0.8711217183770883,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 11,
+   "LONG_RESOLUTION": 2,
+   "UNGROUNDED_WORD": 1,
+   "UNRESOLVED_PRONOUN": 5
+  },
+  "sentences": 205,
+  "cost_usd": 0.5798
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 2,
+   "end": 24,
+   "quote": "US Fixed Income Weekly",
+   "name": "US Fixed Income Weekly"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1318,
+   "end": 1345,
+   "quote": "Treasury H6-M6 Futures Roll",
+   "name": "Treasury H6-M6 Futures Roll"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 5182,
+   "end": 5204,
+   "quote": "the H6-M6 futures roll",
+   "name": "the H6-M6 futures roll"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 5033,
+   "end": 5101,
+   "quote": "the net basis and CTD relative value of the front and back contracts",
+   "name": "the net basis and CTD relative value of the front and back contracts"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 5487,
+   "end": 5512,
+   "quote": "the Macro MATTers podcast",
+   "name": "the Macro MATTers podcast"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 5514,
+   "end": 5598,
+   "quote": "Matthew Luzzetti (Chief US Economist) and Matthew Raskin (Head of US Rates Research)",
+   "name": "Matthew Luzzetti and Matthew Raskin"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 6836,
+   "end": 6838,
+   "quote": "AI",
+   "name": "AI"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 7980,
+   "end": 8047,
+   "quote": "Our mildly bearish duration bias has been challenged in recent days",
+   "name": "Our mildly bearish duration bias has been challenged in recent days"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 8799,
+   "end": 8954,
+   "quote": "the past 5,000 years are a long history of technological progress, and neither has unemployment relentlessly risen, nor has inflation relentlessly declined",
+   "name": "the past 5,000 years are a long history of technological progress, and neither has unemployment relentlessly risen, nor has inflation relentlessly declined"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 8984,
+   "end": 9043,
+   "quote": "the basic textbook interpretation of technological progress",
+   "name": "the basic textbook interpretation of technological progress"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 9130,
+   "end": 9142,
+   "quote": "Jason Furman",
+   "name": "Jason Furman"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 10053,
+   "end": 10156,
+   "quote": "the labour market will most likely lag financial markets if there are risks of a significant disruption",
+   "name": "the labour market will most likely lag financial markets if there are risks of a significant disruption"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 10835,
+   "end": 10860,
+   "quote": "the “substitute” scenario",
+   "name": "the “substitute” scenario"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 12332,
+   "end": 12344,
+   "quote": "swap spreads",
+   "name": "swap spreads"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 12760,
+   "end": 12792,
+   "quote": "Investor sentiment and positions",
+   "name": "Investor sentiment and positions"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 13162,
+   "end": 13172,
+   "quote": "Treasuries",
+   "name": "Treasuries"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 13319,
+   "end": 13351,
+   "quote": "an economically breakeven spread",
+   "name": "the economically breakeven spread"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 13923,
+   "end": 13942,
+   "quote": "the loss of tariffs",
+   "name": "the loss of tariffs"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 2880,
+   "end": 2923,
+   "quote": "IEEPA ruling: A risk for fiscal & inflation",
+   "name": "IEEPA ruling: A risk for fiscal & inflation"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 14472,
+   "end": 14479,
+   "quote": "the CBO",
+   "name": "the CBO"
+  },
+  {
+   "id": "R21",
+   "type": "claim",
+   "start": 15001,
+   "end": 15070,
+   "quote": "~60/70% of the FY25 & FY26 duties was collected under IEEPA authority",
+   "name": "~60/70% of the FY25 & FY26 duties was collected under IEEPA authority"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 221,
+   "end": 234,
+   "quote": "IEEPA tariffs",
+   "name": "IEEPA tariffs"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 17879,
+   "end": 17894,
+   "quote": "ECB cut pricing",
+   "name": "ECB cut pricing"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 16621,
+   "end": 16655,
+   "quote": "8bps of cuts in total from the ECB",
+   "name": "the 8bps of cuts in total from the ECB"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 17144,
+   "end": 17177,
+   "quote": "ECB pricing against three factors",
+   "name": "ECB pricing against three factors"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 17180,
+   "end": 17191,
+   "quote": "USD pricing",
+   "name": "USD pricing"
+  },
+  {
+   "id": "R27",
+   "type": "claim",
+   "start": 17652,
+   "end": 17716,
+   "quote": "the market has looked through developments in the energy complex",
+   "name": "the market has looked through developments in the energy complex"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 18074,
+   "end": 18097,
+   "quote": "economic data surprises",
+   "name": "economic data surprises"
+  },
+  {
+   "id": "R29",
+   "type": "claim",
+   "start": 18261,
+   "end": 18375,
+   "quote": "market participants anticipate a modestly dovish shift in Fed policy under new leadership, independent of the data",
+   "name": "market participants anticipate a modestly dovish shift in Fed policy under new leadership, independent of the data"
+  },
+  {
+   "id": "R30",
+   "type": "thing",
+   "start": 18844,
+   "end": 18872,
+   "quote": "official economic statistics",
+   "name": "official economic statistics"
+  },
+  {
+   "id": "R31",
+   "type": "claim",
+   "start": 18780,
+   "end": 18917,
+   "quote": "the government shutdown last year produced significant noise in official economic statistics and likely muted the market response to them",
+   "name": "the government shutdown last year produced significant noise in official economic statistics and likely muted the market response to them"
+  },
+  {
+   "id": "R32",
+   "type": "thing",
+   "start": 20099,
+   "end": 20159,
+   "quote": "risky assets such as VIX, DAX, SX5E, iTraxx Main & Crossover",
+   "name": "risky assets such as VIX, DAX, SX5E, iTraxx Main & Crossover"
+  },
+  {
+   "id": "R33",
+   "type": "thing",
+   "start": 20291,
+   "end": 20294,
+   "quote": "PC1",
+   "name": "PC1"
+  },
+  {
+   "id": "R34",
+   "type": "claim",
+   "start": 20451,
+   "end": 20547,
+   "quote": "we regress each 10yr EGB spread (vs Bund) vs this PC1 using the entire 2025 period as our sample",
+   "name": "we regress each 10yr EGB spread (vs Bund) vs this PC1 using the entire 2025 period as our sample"
+  },
+  {
+   "id": "R35",
+   "type": "thing",
+   "start": 20928,
+   "end": 20943,
+   "quote": "all EGB spreads",
+   "name": "all EGB spreads"
+  },
+  {
+   "id": "R36",
+   "type": "claim",
+   "start": 21080,
+   "end": 21114,
+   "quote": "OATs have been the best performers",
+   "name": "OATs have been the best performers"
+  },
+  {
+   "id": "R37",
+   "type": "thing",
+   "start": 177,
+   "end": 234,
+   "quote": "The Supreme Court’s decision to strike down IEEPA tariffs",
+   "name": "the Supreme Court’s decision to strike down IEEPA tariffs"
+  },
+  {
+   "id": "R38",
+   "type": "thing",
+   "start": 26176,
+   "end": 26191,
+   "quote": "Governor Waller",
+   "name": "Governor Waller"
+  },
+  {
+   "id": "R39",
+   "type": "thing",
+   "start": 26674,
+   "end": 26697,
+   "quote": "the year-over-year rate",
+   "name": "the year-over-year rate"
+  },
+  {
+   "id": "R40",
+   "type": "thing",
+   "start": 26817,
+   "end": 26831,
+   "quote": "Governor Miran",
+   "name": "Governor Miran"
+  },
+  {
+   "id": "R41",
+   "type": "claim",
+   "start": 27259,
+   "end": 27336,
+   "quote": "a “vast majority” of officials saw signs of stabilization in the labor market",
+   "name": "a “vast majority” of officials saw signs of stabilization in the labor market"
+  },
+  {
+   "id": "R42",
+   "type": "thing",
+   "start": 27416,
+   "end": 27429,
+   "quote": "the Fed staff",
+   "name": "the Fed staff"
+  },
+  {
+   "id": "R43",
+   "type": "thing",
+   "start": 7900,
+   "end": 7922,
+   "quote": "two tail risks from AI",
+   "name": "two tail risks from AI"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C044",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C045",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C052",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C055",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C056",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C057",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C058",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C059",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C060",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C061",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C062",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C063",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C064",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C065",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C066",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C077",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We provide' at 4147"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We also analyze' at 5017"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We summarize' at 12093"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We start' at 20067"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We then' at 20275"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we regress' at 20451"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we treat' at 20689"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We present' at 20826"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we also outline' at 22913"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we laid' at 23510"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we ek' at 27793"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 8956",
+   "message": "+22 words: {{This observation => The observation that the past 5,000 years are a long history of technological progress, and neither has unemployment relentlessly risen, nor has inflation relentlessly declined}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 9162",
+   "message": "not verbatim in source: ['furman'] in {{He => Jason Furman}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 18932",
+   "message": "+22 words: {{this => that the government shutdown last year produced significant noise in official economic statistics and likely muted the market response to official economic statistics}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'they' in 'today, “seeing [AI] developments before they fully emerge requires ...relying on dis'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'he' in ' accounting for a little over half of t he new tariff revenue collected since the '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'its' in \"hor's expectations (see “Every rose has its thorn”), the readthrough to January cor\""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'their' in 'ers will have an opportunity to provide their initial thoughts on how the latest news'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 17",
+   "message": "'their' in 'the latest news on tariffs could impact their outlooks.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   [
+    {
+     "item": {
+      "sid": "E048",
+      "kind": "answer",
+      "remnant": "AI thinks not",
+      "insert": "drive unemployment higher this year",
+      "antecedent": {
+       "sid": "E047",
+       "quote": "Will AI drive unemployment higher this year?"
+      }
+     },
+     "reason": "E048 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.1205128,
+   "duration_ms": 10722,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12238,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1042,
+    "output_tokens_details": {
+     "thinking_tokens": 944
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 12238,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1042,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 12238,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 12238
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1040121,
+   "duration_ms": 2966,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12391,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 155,
+    "output_tokens_details": {
+     "thinking_tokens": 142
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 12391,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 155,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 12391,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 12391
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.3553083,
+   "duration_ms": 87482,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 15227,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 11562,
+    "output_tokens_details": {
+     "thinking_tokens": 6976
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 15227,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 11562,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 15227,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 15227
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

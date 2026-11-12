@@ -1,0 +1,127 @@
+# Organizations. IDs: org:<slug>. `kinds` is multi-valued (see OrgKind).
+# Closed set: one central bank per in-scope currency. Others: observed in corpus.
+# Committees (FOMC, MPC, Copom) alias their central bank; a dated meeting is an event.
+
+# -- central banks (closed set) -----------------------------------------------
+- type: organization
+  entity_id: org:fed
+  name: Fed
+  kinds: [central_bank, regulator]
+  aliases: [Federal Reserve, US Federal Reserve, Federal Reserve System, Federal Reserve Board, Federal Open Market Committee, FOMC]
+  geography_id: geo:us
+- type: organization
+  entity_id: org:ecb
+  name: ECB
+  kinds: [central_bank, regulator]
+  aliases: [European Central Bank, ECB Governing Council, Eurosystem]
+  geography_id: geo:ea
+- type: organization
+  entity_id: org:boe
+  name: BoE
+  kinds: [central_bank, regulator]
+  aliases: [Bank of England, BOE, MPC, BoE MPC, Monetary Policy Committee]
+  geography_id: geo:gb
+- {type: organization, entity_id: org:boj, name: BoJ, kinds: [central_bank], aliases: [Bank of Japan, BOJ, BoJ Policy Board], geography_id: geo:jp}
+- {type: organization, entity_id: org:snb, name: SNB, kinds: [central_bank], aliases: [Swiss National Bank], geography_id: geo:ch}
+- {type: organization, entity_id: org:boc, name: BoC, kinds: [central_bank], aliases: [Bank of Canada, BOC], geography_id: geo:ca}
+- {type: organization, entity_id: org:rba, name: RBA, kinds: [central_bank], aliases: [Reserve Bank of Australia], geography_id: geo:au}
+- {type: organization, entity_id: org:rbnz, name: RBNZ, kinds: [central_bank], aliases: [Reserve Bank of New Zealand], geography_id: geo:nz}
+- {type: organization, entity_id: org:riksbank, name: Riksbank, kinds: [central_bank], aliases: [Sveriges Riksbank], geography_id: geo:se}
+- {type: organization, entity_id: org:norges_bank, name: Norges Bank, kinds: [central_bank], aliases: [Norges], geography_id: geo:no}
+- {type: organization, entity_id: org:pboc, name: PBOC, kinds: [central_bank], aliases: ["People's Bank of China", PBoC], geography_id: geo:cn}
+- {type: organization, entity_id: org:hkma, name: HKMA, kinds: [central_bank, regulator], aliases: [Hong Kong Monetary Authority], geography_id: geo:hk}
+- {type: organization, entity_id: org:bok, name: BoK, kinds: [central_bank], aliases: [Bank of Korea, BOK], geography_id: geo:kr}
+- {type: organization, entity_id: org:cbc, name: CBC, kinds: [central_bank], aliases: [Central Bank of the Republic of China (Taiwan), Central Bank of China, Taiwan central bank], geography_id: geo:tw}
+- {type: organization, entity_id: org:rbi, name: RBI, kinds: [central_bank, regulator], aliases: [Reserve Bank of India], geography_id: geo:in}
+- {type: organization, entity_id: org:bi, name: BI, kinds: [central_bank], aliases: [Bank Indonesia], geography_id: geo:id}
+- {type: organization, entity_id: org:bnm, name: BNM, kinds: [central_bank], aliases: [Bank Negara Malaysia], geography_id: geo:my}
+- {type: organization, entity_id: org:bsp, name: BSP, kinds: [central_bank], aliases: [Bangko Sentral ng Pilipinas], geography_id: geo:ph}
+- {type: organization, entity_id: org:mas, name: MAS, kinds: [central_bank, regulator], aliases: [Monetary Authority of Singapore], geography_id: geo:sg}
+- {type: organization, entity_id: org:bot, name: BoT, kinds: [central_bank], aliases: [Bank of Thailand, BOT], geography_id: geo:th}
+- {type: organization, entity_id: org:bcb, name: BCB, kinds: [central_bank, regulator], aliases: [Banco Central do Brasil, Central Bank of Brazil, BCB Copom, Copom], geography_id: geo:br}
+- {type: organization, entity_id: org:banxico, name: Banxico, kinds: [central_bank], aliases: [Banco de Mexico, Banco de México, Bank of Mexico], geography_id: geo:mx}
+- {type: organization, entity_id: org:bcch, name: BCCh, kinds: [central_bank], aliases: [Banco Central de Chile, Central Bank of Chile], geography_id: geo:cl}
+- {type: organization, entity_id: org:banrep, name: BanRep, kinds: [central_bank], aliases: [Banco de la República, Banco de la Republica, Central Bank of Colombia], geography_id: geo:co}
+- {type: organization, entity_id: org:sarb, name: SARB, kinds: [central_bank], aliases: [South African Reserve Bank, Reserve Bank of South Africa], geography_id: geo:za}
+- {type: organization, entity_id: org:cbrt, name: CBRT, kinds: [central_bank], aliases: [Central Bank of the Republic of Turkey, Central Bank of the Republic of Türkiye, TCMB], geography_id: geo:tr}
+- {type: organization, entity_id: org:nbp, name: NBP, kinds: [central_bank], aliases: [National Bank of Poland, Narodowy Bank Polski], geography_id: geo:pl}
+- {type: organization, entity_id: org:mnb, name: MNB, kinds: [central_bank], aliases: [Magyar Nemzeti Bank, National Bank of Hungary], geography_id: geo:hu}
+- {type: organization, entity_id: org:cnb, name: CNB, kinds: [central_bank], aliases: [Czech National Bank], geography_id: geo:cz}
+- {type: organization, entity_id: org:boi, name: BoI, kinds: [central_bank], aliases: [Bank of Israel], geography_id: geo:il}
+
+# -- euro-area national central banks (observed) ------------------------------
+- {type: organization, entity_id: org:bundesbank, name: Bundesbank, kinds: [central_bank], aliases: [Deutsche Bundesbank, Buba], geography_id: geo:de, relations: {member_of: [org:ecb]}}
+- {type: organization, entity_id: org:bank_of_finland, name: Bank of Finland, kinds: [central_bank], aliases: [Suomen Pankki], geography_id: geo:fi, relations: {member_of: [org:ecb]}}
+
+# -- governments, treasuries, debt offices, fiscal councils --------------------
+- {type: organization, entity_id: org:us_treasury, name: US Treasury, kinds: [government], aliases: [U.S. Treasury, United States Treasury, Treasury Department, US Treasury Department], geography_id: geo:us}
+- {type: organization, entity_id: org:us_hhs, name: HHS, kinds: [government], aliases: [Department of Health and Human Services], geography_id: geo:us}
+- {type: organization, entity_id: org:hm_treasury, name: HM Treasury, kinds: [government], aliases: [HMT, UK Treasury], geography_id: geo:gb}
+- {type: organization, entity_id: org:uk_dmo, name: DMO, kinds: [government], aliases: [UK DMO, Debt Management Office, UK Debt Management Office], geography_id: geo:gb}
+- {type: organization, entity_id: org:obr, name: OBR, kinds: [government], aliases: [Office for Budget Responsibility], geography_id: geo:gb}
+- {type: organization, entity_id: org:hmrc, name: HMRC, kinds: [government, statistics_agency], aliases: [HM Revenue and Customs], geography_id: geo:gb}
+- {type: organization, entity_id: org:nsi, name: NS&I, kinds: [government], aliases: [National Savings and Investments], geography_id: geo:gb}
+- {type: organization, entity_id: org:jp_mof, name: Japan MoF, kinds: [government], aliases: [Japan Ministry of Finance, Japanese MoF, MoF Japan], geography_id: geo:jp}
+- {type: organization, entity_id: org:cn_state_council, name: State Council, kinds: [government], aliases: [China State Council], geography_id: geo:cn}
+- {type: organization, entity_id: org:cn_mof, name: China MoF, kinds: [government], aliases: [Ministry of Finance, China Ministry of Finance], geography_id: geo:cn}
+- {type: organization, entity_id: org:ndrc, name: NDRC, kinds: [government], aliases: [National Development and Reform Commission], geography_id: geo:cn}
+- {type: organization, entity_id: org:mofcom, name: MOFCOM, kinds: [government], aliases: [Ministry of Commerce, China Ministry of Commerce], geography_id: geo:cn}
+- {type: organization, entity_id: org:kr_moef, name: Korea MOEF, kinds: [government], aliases: [Ministry of Economy and Finance], geography_id: geo:kr}
+- {type: organization, entity_id: org:kfw, name: KfW, kinds: [government], aliases: [Kreditanstalt für Wiederaufbau], geography_id: geo:de}
+- {type: organization, entity_id: org:rentenbank, name: Rentenbank, kinds: [government], aliases: [Landwirtschaftliche Rentenbank], geography_id: geo:de}
+
+# -- multilaterals and EU institutions -----------------------------------------
+- {type: organization, entity_id: org:imf, name: IMF, kinds: [multilateral], aliases: [International Monetary Fund]}
+- {type: organization, entity_id: org:bis, name: BIS, kinds: [multilateral], aliases: [Bank for International Settlements]}
+- {type: organization, entity_id: org:world_bank, name: World Bank, kinds: [multilateral], aliases: [The World Bank]}
+- {type: organization, entity_id: org:european_commission, name: European Commission, kinds: [multilateral], aliases: [EC, EU Commission], geography_id: geo:eu}
+- {type: organization, entity_id: org:european_council, name: European Council, kinds: [multilateral], aliases: [EU Council], geography_id: geo:eu}
+- {type: organization, entity_id: org:european_parliament, name: European Parliament, kinds: [multilateral], aliases: [EP], geography_id: geo:eu}
+- {type: organization, entity_id: org:esm, name: ESM, kinds: [multilateral], aliases: [European Stability Mechanism], geography_id: geo:ea}
+
+# -- statistics agencies and survey producers ---------------------------------
+- {type: organization, entity_id: org:bls, name: BLS, kinds: [statistics_agency], aliases: [Bureau of Labor Statistics], geography_id: geo:us}
+- {type: organization, entity_id: org:bea, name: BEA, kinds: [statistics_agency], aliases: [Bureau of Economic Analysis], geography_id: geo:us}
+- {type: organization, entity_id: org:ons, name: ONS, kinds: [statistics_agency], aliases: [Office for National Statistics], geography_id: geo:gb}
+- {type: organization, entity_id: org:eurostat, name: Eurostat, kinds: [statistics_agency], geography_id: geo:eu}
+- {type: organization, entity_id: org:ifo, name: Ifo, kinds: [statistics_agency], aliases: [Ifo Institute], geography_id: geo:de}
+- {type: organization, entity_id: org:adp, name: ADP, kinds: [statistics_agency], aliases: [Automatic Data Processing], geography_id: geo:us}
+- {type: organization, entity_id: org:ism, name: ISM, kinds: [statistics_agency], aliases: [Institute for Supply Management], geography_id: geo:us}
+- {type: organization, entity_id: org:sp_global, name: S&P Global, kinds: [statistics_agency], aliases: [S&P Global Market Intelligence, HCOB]}
+- {type: organization, entity_id: org:nahb, name: NAHB, kinds: [statistics_agency], aliases: [National Association of Home Builders], geography_id: geo:us}
+
+# -- regulators ---------------------------------------------------------------
+- {type: organization, entity_id: org:csrc, name: CSRC, kinds: [regulator], aliases: [China Securities Regulatory Commission], geography_id: geo:cn}
+- {type: organization, entity_id: org:ofgem, name: Ofgem, kinds: [regulator], aliases: [Office of Gas and Electricity Markets], geography_id: geo:gb}
+
+# -- rating agencies and index providers ---------------------------------------
+- {type: organization, entity_id: org:moodys, name: "Moody's", kinds: [rating_agency], aliases: [Moodys, "Moody's Ratings"]}
+- {type: organization, entity_id: org:sp_ratings, name: S&P, kinds: [rating_agency], aliases: [S&P Global Ratings, Standard & Poor's]}
+- {type: organization, entity_id: org:fitch, name: Fitch, kinds: [rating_agency], aliases: [Fitch Ratings]}
+- {type: organization, entity_id: org:scope, name: Scope, kinds: [rating_agency], aliases: [Scope Ratings]}
+- {type: organization, entity_id: org:ftse_russell, name: FTSE Russell, kinds: [index_provider], aliases: [FTSE]}
+- {type: organization, entity_id: org:msci, name: MSCI, kinds: [index_provider]}
+
+# -- political parties --------------------------------------------------------
+- {type: organization, entity_id: org:rn, name: RN, kinds: [political_party], aliases: [Rassemblement National, National Rally], geography_id: geo:fr}
+- {type: organization, entity_id: org:ps_fr, name: PS, kinds: [political_party], aliases: [Parti Socialiste, French Socialist Party], geography_id: geo:fr}
+- {type: organization, entity_id: org:cdu, name: CDU, kinds: [political_party], aliases: [CDU/CSU, Christian Democratic Union], geography_id: geo:de}
+- {type: organization, entity_id: org:spd, name: SPD, kinds: [political_party], aliases: [Social Democratic Party of Germany], geography_id: geo:de}
+- {type: organization, entity_id: org:afd, name: AfD, kinds: [political_party], aliases: [Alternative für Deutschland, Alternative for Germany], geography_id: geo:de}
+- {type: organization, entity_id: org:psoe, name: PSOE, kinds: [political_party], aliases: [Spanish Socialist Workers' Party], geography_id: geo:es}
+- {type: organization, entity_id: org:pp_es, name: PP, kinds: [political_party], aliases: [Partido Popular, People's Party], geography_id: geo:es}
+- {type: organization, entity_id: org:vox, name: Vox, kinds: [political_party], geography_id: geo:es}
+- {type: organization, entity_id: org:junts, name: Junts, kinds: [political_party], aliases: [Junts per Catalunya], geography_id: geo:es}
+- {type: organization, entity_id: org:sumar, name: Sumar, kinds: [political_party], geography_id: geo:es}
+- {type: organization, entity_id: org:podemos, name: Podemos, kinds: [political_party], geography_id: geo:es}
+
+# -- market participants (named institutions, incl. research publishers) ------
+- {type: organization, entity_id: org:gpif, name: GPIF, kinds: [market_participant], aliases: [Government Pension Investment Fund], geography_id: geo:jp}
+- {type: organization, entity_id: org:ramp, name: Ramp, kinds: [market_participant], geography_id: geo:us}
+- {type: organization, entity_id: org:bnp_paribas, name: BNP Paribas, kinds: [market_participant], aliases: [BNPP, BNP]}
+- {type: organization, entity_id: org:bofa, name: BofA, kinds: [market_participant], aliases: [Bank of America, BofA Global Research]}
+- {type: organization, entity_id: org:citi, name: Citi, kinds: [market_participant], aliases: [Citigroup, Citi Research]}
+- {type: organization, entity_id: org:deutsche_bank, name: Deutsche Bank, kinds: [market_participant], aliases: [Deutsche Bank Research]}
+- {type: organization, entity_id: org:goldman_sachs, name: Goldman Sachs, kinds: [market_participant], aliases: [Goldman Sachs Research]}
+- {type: organization, entity_id: org:morgan_stanley, name: Morgan Stanley, kinds: [market_participant], aliases: [Morgan Stanley Research]}
+- {type: organization, entity_id: org:ubs, name: UBS, kinds: [market_participant], aliases: [UBS Global Research]}

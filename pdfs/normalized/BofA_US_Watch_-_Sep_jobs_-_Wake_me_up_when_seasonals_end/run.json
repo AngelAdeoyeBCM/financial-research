@@ -1,0 +1,225 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BofA_US_Watch_-_Sep_jobs_-_Wake_me_up_when_seasonals_end.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-02",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 10
+    },
+    "leave_reasons": {},
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 33,
+  "kinds": {
+   "symbol": 11,
+   "deixis": 8,
+   "noun_phrase": 6,
+   "demonstrative": 3,
+   "pronoun": 3,
+   "vp": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.9024390243902439,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 8,
+  "cost_usd": 0.1309
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 86,
+   "end": 105,
+   "quote": "The Sep jobs report",
+   "name": "the Sep jobs report"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 769,
+   "end": 804,
+   "quote": "a more punitive seasonal adjustment",
+   "name": "the more punitive seasonal adjustment"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 407,
+   "end": 417,
+   "quote": "the u-rate",
+   "name": "the u-rate"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2371,
+   "end": 2383,
+   "quote": "Slower wages",
+   "name": "Slower wages"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4515,
+   "end": 4560,
+   "quote": "the further paring back of expected Fed hikes",
+   "name": "the further paring back of expected Fed hikes"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 4728,
+   "end": 4754,
+   "quote": "the USD continued to rally",
+   "name": "the USD continued to rally"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3073,
+   "end": 3097,
+   "quote": "our call for an Oct hike",
+   "name": "our call for an Oct hike"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we aren’t' at 599"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we aren’t' at 2945"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.044174200000000004,
+   "duration_ms": 6152,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4132,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 508,
+    "output_tokens_details": {
+     "thinking_tokens": 413
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4132,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 508,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4132,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4132
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.086705,
+   "duration_ms": 21967,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4654,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2414,
+    "output_tokens_details": {
+     "thinking_tokens": 1635
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4654,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2414,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4654,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4654
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

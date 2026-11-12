@@ -1,0 +1,976 @@
+{
+  "batch_id": "2026-09-28",
+  "window": [
+    "2026-09-28",
+    "2026-09-28"
+  ],
+  "generated_at": "2026-10-29T16:32:08",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-26_2026-09-29.json",
+      "sha256": "abbcb79a3ab21b738ab79db02ca90ce8b73797d3a1e27ebc91f732582bcfe152",
+      "records": 1190,
+      "dates": [
+        "2026-09-26",
+        "2026-09-29"
+      ],
+      "records_for_batch": 782
+    }
+  ],
+  "counts": {
+    "documents": 29,
+    "in_scope": 23,
+    "out_of_scope": 6,
+    "compiled": 3,
+    "skipped": 20,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 3,
+    "stripped_items": 54,
+    "edits": 73,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BNP_Japan_-_Real_yen_depreciation_and_worsening_terms_of_trade_to_persist",
+      "document": "BNP_Japan - Real yen depreciation and worsening terms of trade to persist.pdf",
+      "date": "2026-09-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 17,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.9,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BNP_US_rates_-_Rise_of_the_Planet_of_the_Rates",
+      "document": "BNP_US rates - Rise of the Planet of the Rates.pdf",
+      "date": "2026-09-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/BNP_US_rates_-_Rise_of_the_Planet_of_the_Rates.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "3b5033a1e3da08791b48ba3116fc476d51bfebfd",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: USZ6 CTD switch risk Fig. 2: September unemployment rate surprises (bp) Sources: CFTC , BNP '",
+          "chunk_id": "BNP_US rates - Rise of the Planet of the Rates.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 28 September 2026 1"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "BLS, BNP Paribas MARKET MOVER 28 SEPTEMBER 2026 Guneet Dhingra Head of US Rates Strategy | MAR BNP Paribas Securities Corp guneet.dhingra@us.bnpparibas.com Sebastian Mauleon US Rates Strategist BNP Paribas Securities Corp sebastian.mauleon@us.bnpparibas.com Vincent Zhou US Rates Strategist BNP Paribas Securities Corp vincent2.zhou@us.bnpparibas.com"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 8,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 9,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " )",
+              "after": ")"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "US rates: Rise of the Planet of the Rates ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "‘",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "OUR KEY VIEWS",
+              "after": "\n\n## OUR KEY VIEWS\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "BofA_Inflation_Strategist_-_Different_paths_-_Look_for_real_flattening_in_the_US_but_steepening_in_Euro",
+      "document": "BofA_Inflation Strategist - Different paths - Look for real flattening in the US but steepening in Euro.pdf",
+      "date": "2026-09-28",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 41,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.825,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_US_Viewpoint_-_US_midterms_-_more_noise_than_signal",
+      "document": "BofA_US Viewpoint - US midterms - more noise than signal.pdf",
+      "date": "2026-09-28",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 49,
+      "page_count": 19,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.462,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_4Q26_Commodities_Market_Outlook_-_Global_conflicts_and_El_Nino_skew_commodity_and_inflation_risks_higher",
+      "document": "Citi_4Q26 Commodities Market Outlook - Global conflicts and El Nino skew commodity and inflation risks higher.pdf",
+      "date": "2026-09-28",
+      "publisher": "Citi",
+      "document_type": "Outlook",
+      "chunk_count": 248,
+      "page_count": 172,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.012,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_UK_Economics_-_Citi-YouGov_inflation_expectations_increase_again_in_September",
+      "document": "Citi_UK Economics - Citi-YouGov inflation expectations increase again in September.pdf",
+      "date": "2026-09-28",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.778,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_US_Economics_-_Inflation_Weekly___All_about_PCE_revisions",
+      "document": "Citi_US Economics - Inflation Weekly – All about PCE revisions.pdf",
+      "date": "2026-09-28",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.857,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Europe_Blog_-_Flash_September_HICP_preview",
+      "document": "DB_Europe Blog - Flash September HICP preview.pdf",
+      "date": "2026-09-28",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/DB_Europe_Blog_-_Flash_September_HICP_preview.txt",
+      "asset_class_share": 0.625,
+      "fingerprint": "6dbe7f267b2f61ec6357cc49c8dbc9b28f56e608",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Flash September 2026 HICP - Deutsche Bank expectations (DBe) Source: Deutsche Bank Researc'",
+          "chunk_id": "DB_Europe Blog - Flash September HICP preview.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 2: Direct energy pressures keep intensifying Figure 3: Our dbDIG airfares tracker pointing to'",
+          "chunk_id": "DB_Europe Blog - Flash September HICP preview.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 4: Risks to core goods inflation remain to the ups'",
+          "chunk_id": "DB_Europe Blog - Flash September HICP preview.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 4: Risks to core goods inflation remain to the upside Source: Deutsche Bank Research, Eurosta'",
+          "chunk_id": "DB_Europe Blog - Flash September HICP preview.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 28/09/2026 14:31:21 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 28/09/2026 14:31:21 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank AG"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:24+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 September 2026 Europe Blog Deutsche Bank AG Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Maria Contreras Economist +44-20-754-74120 Mark Wall Chief Economist +44-20-754-52087"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:24+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 September 2026 Europe Blog Deutsche Bank AG Page 3"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Eurostat, Haver Analytics Source: Deutsche Bank Research, Eurostat, Haver Analytics"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:24+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 September 2026 Europe Blog Deutsche Bank AG Page 4"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Eurostat, Haver"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:24+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 10,
+        "disclaimer": 9,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 13,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 10,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Flash September HICP preview ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "\"",
+              "after": "“"
+            },
+            {
+              "before": "\"",
+              "after": "”"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "DB_Fixed_Income_Blog_-_EUR_HICP_market_preview",
+      "document": "DB_Fixed Income Blog - EUR HICP market preview.pdf",
+      "date": "2026-09-28",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 10,
+      "page_count": 6,
+      "status": "compiled",
+      "output": "pdfs/DB_Fixed_Income_Blog_-_EUR_HICP_market_preview.txt",
+      "asset_class_share": 0.778,
+      "fingerprint": "030b65cdd535a8e20be394f29dbcc1aaf9146664",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Natural gas likely to have pushed up household energy tariffs in both in September and Oct'",
+          "chunk_id": "DB_Fixed Income Blog - EUR HICP market preview.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 3: Core goods driven primarily by IT and one-off German pharma prices this year Figure 4: PPI'",
+          "chunk_id": "DB_Fixed Income Blog - EUR HICP market preview.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 7: Market pricing is currently higher than our forecasts over 1-year horizon Figure 8: Market'",
+          "chunk_id": "DB_Fixed Income Blog - EUR HICP market preview.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 9: Market implied ex-energy inflation at around 3% in H2 2027, after an upward revision of ~1'",
+          "chunk_id": "DB_Fixed Income Blog - EUR HICP market preview.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 11: Trades Source: Deutsche Bank Research, Note: Target/stop and PnL based on carry and roll-'",
+          "chunk_id": "DB_Fixed Income Blog - EUR HICP market preview.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 28/09/2026 17:49:31 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 28/09/2026 17:49:31 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank AG"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:28+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 September 2026 Fixed Income Blog Deutsche Bank AG Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Markus Heider Macro Strategist +44-20-754-52167 Gabriele Cozzi Strategist +44-20-754-17714"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Haver Analytics,"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Haver Analytics,"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:28+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 September 2026 Fixed Income Blog Deutsche Bank AG Page 3"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Haver Analytics Source: Deutsche Bank Research, Haver Analytics"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Haver Analytics, Bloomberg Finance LP Source: Deutsche Bank Research, Haver Analytics,"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:28+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 September 2026 Fixed Income Blog Deutsche Bank AG Page 4"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "at 4.3% before falling back below 3.0% in"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "at 4.3% before falling back below 3.0% in"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Bloomberg Finance LP Source: Deutsche Bank Research, Bloomberg Finance LP"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:28+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 September 2026 Fixed Income Blog Deutsche Bank AG Page 5"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Deutsche Bank Research, Bloomberg Finance LP Source: Deutsche Bank Research, Bloomberg Finance LP"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:28+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "28 September 2026 Fixed Income Blog Deutsche Bank AG Page 6"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-09-28T18:28+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 18,
+        "disclaimer": 13,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 7,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "lik ely",
+              "after": "likely"
+            },
+            {
+              "before": "driver s",
+              "after": "drivers"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 13,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " EUR HICP market preview ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "(i) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "(ii) ",
+              "after": "\n2. "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "DB_Fixed_Income_Blog_-_London_Investor_Visits_-_Four_Myths",
+      "document": "DB_Fixed Income Blog - London Investor Visits - Four Myths.pdf",
+      "date": "2026-09-28",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 38,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.974,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Market_Views_-_More_Paths_to_Relief",
+      "document": "GS_Global Market Views - More Paths to Relief.pdf",
+      "date": "2026-09-28",
+      "publisher": "Goldman Sachs",
+      "document_type": "Market commentary",
+      "chunk_count": 20,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.579,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_US_Daily_-_Why_Has_the_US_Economy_Been_So_Resilient_to_Higher_Rates_and_Higher_Oil_Prices",
+      "document": "GS_US Daily - Why Has the US Economy Been So Resilient to Higher Rates and Higher Oil Prices.pdf",
+      "date": "2026-09-28",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 9,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.5,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Germany_fiscal_and_activity_tracker_Secular_tailwinds_vs_energy_domestic_headwinds_Desknote--932804",
+      "document": "Germany_fiscal_and_activity_tracker_Secular_tailwinds_vs_energy_domestic_headwinds_Desknote--932804.pdf",
+      "date": "2026-09-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 18,
+      "page_count": 11,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.75,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Equity_Strategy_-_Tech_de-rating_became_advanced_in_a_number_of_areas",
+      "document": "JPM_Equity Strategy - Tech de-rating became advanced in a number of areas.pdf",
+      "date": "2026-09-28",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 72,
+      "page_count": 26,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.061,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Japan_Real_yen_depreciation_and_worsening_terms_of_trade_to_persist_Desknote--932756",
+      "document": "Japan_Real_yen_depreciation_and_worsening_terms_of_trade_to_persist_Desknote--932756.pdf",
+      "date": "2026-09-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 17,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.9,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Europe_-_Italy_-_Reflections_from_Rome",
+      "document": "MS_Europe - Italy - Reflections from Rome.pdf",
+      "date": "2026-09-28",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 20,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.889,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Morgan_Stanley_Research_-_Key_Forecasts",
+      "document": "MS_Morgan Stanley Research - Key Forecasts.pdf",
+      "date": "2026-09-28",
+      "publisher": "Morgan Stanley",
+      "document_type": "Outlook",
+      "chunk_count": 10,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.5,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Quant_Trades_of_the_Week_Rising_risks_of_a_T_regime_Adding_to_long_USD_and_short_precious_Trade_Idea--932809",
+      "document": "Quant_Trades_of_the_Week_Rising_risks_of_a_T_regime_Adding_to_long_USD_and_short_precious_Trade_Idea--932809.pdf",
+      "date": "2026-09-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 34,
+      "page_count": 14,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.71,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "RBA_Preview__Hawkish_Hold_-_2026-09-27",
+      "document": "RBA Preview: Hawkish Hold - 2026-09-27.pdf",
+      "date": "2026-09-28",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_signals_short_USDPEN_USDMXN_appears_overvalued_Trade_Idea--932775",
+      "document": "STEER_signals_short_USDPEN_USDMXN_appears_overvalued_Trade_Idea--932775.pdf",
+      "date": "2026-09-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-09-28",
+      "document": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf",
+      "date": "2026-09-28",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.556,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_Retail_sales_revisions___decent_Dallas_survey",
+      "document": "UBS_US Daily Data Recap - Retail sales revisions & decent Dallas survey.pdf",
+      "date": "2026-09-28",
+      "publisher": "UBS",
+      "document_type": "Daily",
+      "chunk_count": 14,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.333,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Equity_Strategy_-_Rates_spike_and_equities-what_s_next",
+      "document": "UBS_US Equity Strategy - Rates spike and equities-what's next.pdf",
+      "date": "2026-09-28",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 20,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.2,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

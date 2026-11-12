@@ -1,0 +1,36 @@
+type: RECOMMENDATION
+
+attributes:
+  action: initiate
+  direction: long
+  rating: null
+
+  instrument:
+    id: null
+    name: "GBP/USD"
+
+  trade:
+    entry: null
+    target: null
+    stop: null
+
+# Suggested enums:
+# Field	Allowed values
+# action	initiate, add, reduce, close, maintain, hedge
+# direction	long, short, neutral, relative_value
+# rating	overweight, underweight, market_weight, buy, sell, hold, null
+
+recommendation:
+  subtypes:
+    - trade_idea
+    - rating
+
+  attributes:
+    action: null
+    direction: null
+    rating: null
+    objective: null
+    entry: null
+    target: null
+    stop: null
+    sizing: null

@@ -1,0 +1,319 @@
+{
+  "batch_id": "2026-07-17",
+  "window": [
+    "2026-07-17",
+    "2026-07-17"
+  ],
+  "generated_at": "2026-10-29T16:30:34",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 87
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 4,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 24,
+    "DISTORTED_TABLE": 3,
+    "GARBLED_TEXT": 2,
+    "MISSING_CHUNKS": 1,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "BoJ_Taylor_Rule_suggests_two_more_rate_hikes_in_2026_Desknote--928372",
+      "document": "BoJ_Taylor_Rule_suggests_two_more_rate_hikes_in_2026_Desknote--928372.pdf",
+      "date": "2026-07-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 2026 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 14",
+          "chunk_id": "BoJ_Taylor_Rule_suggests_two_more_rate_hikes_in_2026_Desknote--928372.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F061 x1, U+F0B4 x1",
+          "chunk_id": "BoJ_Taylor_Rule_suggests_two_more_rate_hikes_in_2026_Desknote--928372.pdf-1-1",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F061 x3",
+          "chunk_id": "BoJ_Taylor_Rule_suggests_two_more_rate_hikes_in_2026_Desknote--928372.pdf-2-3",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 1.00 1.25 1.50 1.75 2.00 2.25 2.50 2.75 3.00",
+          "chunk_id": "BoJ_Taylor_Rule_suggests_two_more_rate_hikes_in_2026_Desknote--928372.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 70 90 110 130 150 170 -2 -1 0 1 2 3",
+          "chunk_id": "BoJ_Taylor_Rule_suggests_two_more_rate_hikes_in_2026_Desknote--928372.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Brazil_election_tracker_Battle_for_independents_Desknote--928340",
+      "document": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf",
+      "date": "2026-07-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 29,
+      "page_count": 17,
+      "status": "skipped",
+      "missing_indices": [
+        17,
+        23
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [17, 23]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 40 45",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 10 20 30 40 50 Jan-25 Feb-25 Apr-25 May-25 Jul-25 Aug-25",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: oderData updateLula oderData",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "76% of tokens are numeric/date values",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "179 consecutive numeric/date tokens: 7 7 5 5 2 6 8 79 83 83 84 90",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 Jan-24 Nov-24 Sep-25 Jul-26 7",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 35 40 45 50 55 60 65 4.85 4.95 5.05 5.15 5.25",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 16 131 43 241 4 30 18 111 8",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.5 -1.2 1.2 -2.9 0.2 0.8 2.5 2.9 2.3 -1.9 -5.7 1.8",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.5 -1.2 1.2 -2.9 0.2 0.8 2.5 2.9 2.3 -1.9 -5.7 1.8",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50%",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 35 40 45 50 55 60 Nov-25 Dec-25 Jan-26 Feb-26 Mar-26 Apr-26",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-12-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "21 consecutive numeric/date tokens: 2018 2022 2024 1.0% 14.1% 14.1% 20.7% 24.3% 18.8% 1.4% 12.4% 12.4%",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-13-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "47 consecutive numeric/date tokens: 24 21.8 26.1 23 18.9 23.7 26.4 9.8 16 19.9 17.4 15.6",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-14-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-15-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 36 34 10 9 7 3 10 5 10 15 20 25",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-16-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Jul Aug Sep Oct Nov Dec Jan 2027",
+          "chunk_id": "Brazil_election_tracker_Battle_for_independents_Desknote--928340.pdf-17-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "South_Africa_Low_CPI_regime_won_t_sway_cautious_SARB_Desknote--928386",
+      "document": "South_Africa_Low_CPI_regime_won_t_sway_cautious_SARB_Desknote--928386.pdf",
+      "date": "2026-07-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 32,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2004 2005",
+          "chunk_id": "South_Africa_Low_CPI_regime_won_t_sway_cautious_SARB_Desknote--928386.pdf-3-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.54 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 0.5 0.0 0.1 0.2",
+          "chunk_id": "South_Africa_Low_CPI_regime_won_t_sway_cautious_SARB_Desknote--928386.pdf-3-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0 4.0 5.0 2009 2010",
+          "chunk_id": "South_Africa_Low_CPI_regime_won_t_sway_cautious_SARB_Desknote--928386.pdf-4-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.25 0.30",
+          "chunk_id": "South_Africa_Low_CPI_regime_won_t_sway_cautious_SARB_Desknote--928386.pdf-5-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_consumer_spending_Un_surprisingly_resilient_Desknote--928435",
+      "document": "US_consumer_spending_Un_surprisingly_resilient_Desknote--928435.pdf",
+      "date": "2026-07-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0% 1% 2% 3% 4% 5% Q1 23 Q1 24 Q1 25",
+          "chunk_id": "US_consumer_spending_Un_surprisingly_resilient_Desknote--928435.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -2 -1 0 1 2 3 4 5 6 7",
+          "chunk_id": "US_consumer_spending_Un_surprisingly_resilient_Desknote--928435.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5",
+          "chunk_id": "US_consumer_spending_Un_surprisingly_resilient_Desknote--928435.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0 1 2 3",
+          "chunk_id": "US_consumer_spending_Un_surprisingly_resilient_Desknote--928435.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

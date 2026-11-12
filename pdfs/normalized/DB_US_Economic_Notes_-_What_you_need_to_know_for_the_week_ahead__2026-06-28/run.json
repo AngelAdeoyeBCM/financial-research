@@ -1,0 +1,228 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-06-28.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-28",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 5,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 5
+    },
+    "leave_reasons": {
+     "time": 2
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 21,
+  "kinds": {
+   "deixis": 10,
+   "symbol": 5,
+   "possessive": 3,
+   "noun_phrase": 1,
+   "pronoun": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.782608695652174,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 24,
+  "cost_usd": 0.1028
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1116,
+   "end": 1123,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 283,
+   "end": 298,
+   "quote": "Fed Chair Warsh",
+   "name": "Fed Chair Warsh"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2437,
+   "end": 2516,
+   "quote": "headline (+75k forecast vs. + 172k) and private (+90k vs. + 120k) payroll gains",
+   "name": "headline and private payroll gains"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2834,
+   "end": 2855,
+   "quote": "private sector hiring",
+   "name": "private sector hiring"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 3438,
+   "end": 3573,
+   "quote": "One potential reason for the pronounced drop off may be seasonal factors amidst what is still a low hiring/low firing labor environment",
+   "name": "One potential reason for the pronounced drop off may be seasonal factors amidst what is still a low hiring/low firing labor environment"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 283,
+   "end": 360,
+   "quote": "Fed Chair Warsh’s appearance at the ECB’s annual Central Bank forum in Sintra",
+   "name": "Fed Chair Warsh’s appearance at the ECB’s annual Central Bank forum in Sintra"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3578",
+   "message": "+25 words: {{this regard => the regard to One potential reason for the pronounced drop off may be seasonal factors amidst what is still a low hiring or low firing labor environment}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0352003,
+   "duration_ms": 3863,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3903,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 152,
+    "output_tokens_details": {
+     "thinking_tokens": 139
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3903,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 152,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3903,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3903
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0676232,
+   "duration_ms": 14279,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4206,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1635,
+    "output_tokens_details": {
+     "thinking_tokens": 944
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4206,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1635,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4206,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4206
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

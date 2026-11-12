@@ -1,0 +1,113 @@
+{
+  "batch_id": "2026-07-08",
+  "window": [
+    "2026-07-08",
+    "2026-07-08"
+  ],
+  "generated_at": "2026-10-29T16:30:28",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 26
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 1,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "DM_rates_Raising_profit_target_on_short_5y5y_Germany_Trade_Idea--927805",
+      "document": "DM_rates_Raising_profit_target_on_short_5y5y_Germany_Trade_Idea--927805.pdf",
+      "date": "2026-07-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/DM_rates_Raising_profit_target_on_short_5y5y_Germany_Trade_Idea--927805.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "8e51d6a59d10237847853167de345a67fe5a2666",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA T R A D E I D E A 08/07/2026 1"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "DM rates: Raising profit target on short 5y5y Germany ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Ready__Set__Reset",
+      "document": "Ready, Set, Reset.pdf",
+      "date": "2026-07-08",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.929,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_signals_short_USDILS_Trade_Idea--927785",
+      "document": "STEER_signals_short_USDILS_Trade_Idea--927785.pdf",
+      "date": "2026-07-08",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

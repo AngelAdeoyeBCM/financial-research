@@ -1,0 +1,328 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_Implications_of_the_latest_Fed_legal_developments.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-12",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 25,
+    "referents": {
+     "thing": 8,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 18,
+     "leave": 7
+    },
+    "leave_reasons": {
+     "time": 3,
+     "expletive": 2,
+     "not_a_reference": 1,
+     "generic": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 26,
+  "kinds": {
+   "noun_phrase": 7,
+   "possessive": 5,
+   "deixis": 5,
+   "pronoun": 3,
+   "proposition": 3,
+   "demonstrative": 1,
+   "shell": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.92,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 32,
+  "cost_usd": 0.1447
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 199,
+   "end": 227,
+   "quote": "Federal Reserve Chair Powell",
+   "name": "Federal Reserve Chair Powell"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 185,
+   "end": 227,
+   "quote": "a subpoena to Federal Reserve Chair Powell",
+   "name": "the subpoena to Federal Reserve Chair Powell"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1816,
+   "end": 1841,
+   "quote": "Republican Senator Tillis",
+   "name": "Republican Senator Tillis"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2535,
+   "end": 2559,
+   "quote": "the Trump administration",
+   "name": "the Trump administration"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2615,
+   "end": 2691,
+   "quote": "A similar reaction could constrain the administration on this action as well",
+   "name": "A similar reaction could constrain the administration on this action as well"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3283,
+   "end": 3297,
+   "quote": "the next Chair",
+   "name": "the next Chair"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3484,
+   "end": 3527,
+   "quote": "The recent rate cut at the December meeting",
+   "name": "the recent rate cut at the December meeting"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 3991,
+   "end": 4116,
+   "quote": "a noticeable policy pivot in a dovish direction is unlikely if we get a new Fed chair, unless the data argue for that outcome",
+   "name": "a noticeable policy pivot in a dovish direction is unlikely if we get a new Fed chair, unless the data argue for that outcome"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 4801,
+   "end": 4841,
+   "quote": "Powell could choose to remain at the Fed",
+   "name": "Powell could choose to remain at the Fed"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 247,
+   "end": 321,
+   "quote": "Congressional testimony about renovations to the Federal Reserve buildings",
+   "name": "the Congressional testimony about renovations to the Federal Reserve buildings"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 1692,
+   "end": 1700,
+   "quote": "Congress",
+   "name": "Congress"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C011",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we recently' at 4406"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4134",
+   "message": "+25 words: {{this => that a noticeable policy pivot in a dovish direction is unlikely if the author gets a new Fed chair, unless the data argue for that outcome}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'In short, t he market is s ignaling the subpoena to Fe'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in ' history of Fed chairs staying on after their terms expired and arguing that there we'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0396188,
+   "duration_ms": 5170,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3883,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 381,
+    "output_tokens_details": {
+     "thinking_tokens": 373
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3883,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 381,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3883,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3883
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1050588,
+   "duration_ms": 26485,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4827,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3255,
+    "output_tokens_details": {
+     "thinking_tokens": 1801
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4827,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3255,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4827,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4827
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

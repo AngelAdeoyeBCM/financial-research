@@ -1,0 +1,139 @@
+{
+  "batch_id": "2026-05-12",
+  "window": [
+    "2026-05-12",
+    "2026-05-12"
+  ],
+  "generated_at": "2026-10-29T16:28:56",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-09_2026-05-12.json",
+      "sha256": "f52e1ba2acf0549781d202b4b587b906a06c7514146af3f8fabaf921322cc0b2",
+      "records": 829,
+      "dates": [
+        "2026-05-09",
+        "2026-05-12"
+      ],
+      "records_for_batch": 29
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 1,
+    "edits": 11,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_TABLE": 4,
+    "UNSTRUCTURED_TEXT": 3,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "Last_orders_for_the_Machines_on_the_JPY",
+      "document": "Last orders for the Machines on the JPY.pdf",
+      "date": "2026-05-12",
+      "publisher": "State Street",
+      "document_type": "Monthly",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 2.2% 6.4% 57% 0.34 | 3.5% 7.0% 56% 0.51 | 1.5% 8.8% 59% 0.17",
+          "chunk_id": "Last orders for the Machines on the JPY.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_Treasury_futures_calendar_roll_M26_U26_Desknote--923959",
+      "document": "US_Treasury_futures_calendar_roll_M26_U26_Desknote--923959.pdf",
+      "date": "2026-05-12",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 20,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "US_Treasury_futures_calendar_roll_M26_U26_Desknote--923959.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "67% of tokens are numeric/date values",
+          "chunk_id": "US_Treasury_futures_calendar_roll_M26_U26_Desknote--923959.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "63% of tokens are numeric/date values",
+          "chunk_id": "US_Treasury_futures_calendar_roll_M26_U26_Desknote--923959.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "US_Treasury_futures_calendar_roll_M26_U26_Desknote--923959.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "59% of tokens are numeric/date values",
+          "chunk_id": "US_Treasury_futures_calendar_roll_M26_U26_Desknote--923959.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "US_Treasury_futures_calendar_roll_M26_U26_Desknote--923959.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

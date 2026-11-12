@@ -1,0 +1,269 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/AUD_rates_Receive_Nov_RBA_as_back-to-back_rate_hikes_appear_unlikely_Trade_Idea--934139.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 22,
+    "referents": {
+     "claim": 2,
+     "thing": 10
+    },
+    "decisions": {
+     "link": 20,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "generic": 2
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 85,
+  "kinds": {
+   "abbreviation": 29,
+   "deixis": 26,
+   "possessive": 6,
+   "pronoun": 6,
+   "symbol": 6,
+   "noun_phrase": 5,
+   "demonstrative": 4,
+   "proposition": 3
+  },
+  "rooted_share": 0.8347826086956521,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 50,
+  "cost_usd": 0.1874
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 550,
+   "end": 655,
+   "quote": "the balance of market expectations has shifted once again, from a hold to a hike for the November meeting",
+   "name": "the balance of market expectations has shifted once again, from a hold to a hike for the November meeting"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 493,
+   "end": 548,
+   "quote": "Reserve Bank of Australia Deputy Governor Andrew Hauser",
+   "name": "Reserve Bank of Australia Deputy Governor Andrew Hauser"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 469,
+   "end": 548,
+   "quote": "hawkish commentary from Reserve Bank of Australia Deputy Governor Andrew Hauser",
+   "name": "Andrew Hauser's hawkish commentary"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1903,
+   "end": 1931,
+   "quote": "the latest unemployment rate",
+   "name": "the latest unemployment rate"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 1987,
+   "end": 2020,
+   "quote": "it has continued to trend upwards",
+   "name": "it has continued to trend upwards"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 770,
+   "end": 777,
+   "quote": "16–17bp",
+   "name": "16–17bp"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2598,
+   "end": 2644,
+   "quote": "the quarterly and monthly trimmed-mean indices",
+   "name": "the quarterly trimmed-mean"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3008,
+   "end": 3035,
+   "quote": "the current equity weakness",
+   "name": "the current equity weakness"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4194,
+   "end": 4220,
+   "quote": "the Deputy Governor’s tone",
+   "name": "the Deputy Governor’s tone"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 142,
+   "end": 167,
+   "quote": "Reserve Bank of Australia",
+   "name": "the Reserve Bank of Australia"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6521,
+   "end": 6569,
+   "quote": "our receivers in AUD 2y2y versus USD 2y2y payers",
+   "name": "our receivers in AUD 2y2y versus USD 2y2y payers"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 1718,
+   "end": 1750,
+   "quote": "the RBA’s rate hike in September",
+   "name": "the RBA’s rate hike in September"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C018",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.049608400000000004,
+   "duration_ms": 5739,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5079,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 396,
+    "output_tokens_details": {
+     "thinking_tokens": 383
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5079,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 396,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5079,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5079
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1378415,
+   "duration_ms": 38139,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5974,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4436,
+    "output_tokens_details": {
+     "thinking_tokens": 2989
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5974,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4436,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5974,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5974
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

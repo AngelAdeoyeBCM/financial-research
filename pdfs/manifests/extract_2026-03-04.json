@@ -1,0 +1,203 @@
+{
+  "batch_id": "2026-03-04",
+  "window": [
+    "2026-03-04",
+    "2026-03-04"
+  ],
+  "generated_at": "2026-10-29T16:27:20",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-02_2026-03-05.json",
+      "sha256": "a026ed7f6b075d2d407009307d68108ce0fe5660080b00a0ecc028e44dd56f57",
+      "records": 1036,
+      "dates": [
+        "2026-03-02",
+        "2026-03-05"
+      ],
+      "records_for_batch": 99
+    }
+  ],
+  "counts": {
+    "documents": 8,
+    "in_scope": 7,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 6,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 4,
+    "edits": 3,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Digesting_the_new_geopolitical_reality",
+      "document": "Digesting the new geopolitical reality.pdf",
+      "date": "2026-03-04",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.812,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Closing_out_long_INRIDR_Trade_Idea--919893",
+      "document": "FX_Closing_out_long_INRIDR_Trade_Idea--919893.pdf",
+      "date": "2026-03-04",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Closing_out_long_INRIDR_Trade_Idea--919893.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "3cc7b71da1c4e19e926c5878bd5a0ef15c14edec",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 2: FX positioning has reduced Sources: Bloomberg, Macrobond, BNP Paribas Sources: Macrobond, BN'",
+          "chunk_id": "FX_Closing_out_long_INRIDR_Trade_Idea--919893.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Closing out long INRIDR ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Fuelling_Higher",
+      "document": "Fuelling Higher.pdf",
+      "date": "2026-03-04",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.8,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Global_macro_Crude_reality_4_Desknote--919869",
+      "document": "Global_macro_Crude_reality_4_Desknote--919869.pdf",
+      "date": "2026-03-04",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 26,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.52,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPY_rates_risk-off_vs._inflation_close_long_30y_ASW_Trade_Idea--919882",
+      "document": "JPY_rates_risk-off_vs._inflation_close_long_30y_ASW_Trade_Idea--919882.pdf",
+      "date": "2026-03-04",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_US_Rates_Strategy_-_Assessing_the_Impact_of_Oil_Prices_and_AI_on_Inflation_Markets",
+      "document": "MS_US Rates Strategy - Assessing the Impact of Oil Prices and AI on Inflation Markets.pdf",
+      "date": "2026-03-04",
+      "publisher": "Morgan Stanley",
+      "document_type": "Trade Idea",
+      "chunk_count": 22,
+      "page_count": 11,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.667,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_Screening_for_oversold_high-beta_FX_Trade_Idea--919880",
+      "document": "STEER_Screening_for_oversold_high-beta_FX_Trade_Idea--919880.pdf",
+      "date": "2026-03-04",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "batch_id": "2026-07-19",
+  "window": [
+    "2026-07-19",
+    "2026-07-19"
+  ],
+  "generated_at": "2026-10-29T16:30:35",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 11
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 0,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 6,
+    "edits": 24,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Sunday_Tea_with_BNPP_Hormuz_normalisation_goes_into_extra_time_Sunday_Tea_with_BNP_Paribas--928447",
+      "document": "Sunday_Tea_with_BNPP_Hormuz_normalisation_goes_into_extra_time_Sunday_Tea_with_BNP_Paribas--928447.pdf",
+      "date": "2026-07-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/Sunday_Tea_with_BNPP_Hormuz_normalisation_goes_into_extra_time_Sunday_Tea_with_BNP_Paribas--928447.txt",
+      "asset_class_share": 0.7,
+      "fingerprint": "4d1acb2eca7000556176fe9ad1570c14068a79bb",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Sources: IMF, Macrobond, BNP Paribas'",
+          "chunk_id": "Sunday_Tea_with_BNPP_Hormuz_normalisation_goes_into_extra_time_Sunday_Tea_with_BNP_Paribas--928447.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A R K E T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        },
+        {
+          "rule": "rule_line",
+          "section": "artefact",
+          "text": "____________________"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 3,
+        "header": 1,
+        "promotion": 1,
+        "artefact": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 5,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ",
+              "after": ""
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Sunday Tea with BNPP: Hormuz normalisation goes into extra time",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 7,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "\"",
+              "after": "“"
+            },
+            {
+              "before": "\"",
+              "after": "”"
+            },
+            {
+              "before": "\"",
+              "after": "“"
+            },
+            {
+              "before": "\"",
+              "after": "”"
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "(i) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "(ii) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "(iii) ",
+              "after": "\n3. "
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

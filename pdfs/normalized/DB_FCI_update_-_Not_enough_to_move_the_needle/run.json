@@ -1,0 +1,331 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_FCI_update_-_Not_enough_to_move_the_needle.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-06",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 21,
+    "referents": {
+     "thing": 11,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 5,
+     "link": 16
+    },
+    "leave_reasons": {
+     "not_a_reference": 4,
+     "time": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 28,
+  "kinds": {
+   "deixis": 11,
+   "possessive": 6,
+   "noun_phrase": 6,
+   "pronoun": 2,
+   "symbol": 1,
+   "proposition": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8305084745762712,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 28,
+  "cost_usd": 0.1387
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 288,
+   "end": 298,
+   "quote": "the dollar",
+   "name": "the dollar"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 214,
+   "end": 242,
+   "quote": "recent moves in asset prices",
+   "name": "the recent moves in asset prices"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2862,
+   "end": 2919,
+   "quote": "The tightening in financial conditions over the last week",
+   "name": "the tightening in financial conditions over the last week"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 947,
+   "end": 983,
+   "quote": "recent moves in financial conditions",
+   "name": "the recent moves in financial conditions"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1115,
+   "end": 1172,
+   "quote": "contemporaneous and lagged changes in financial variables",
+   "name": "the contemporaneous and lagged changes in financial variables"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1330,
+   "end": 1341,
+   "quote": "FCI drivers",
+   "name": "the FCI drivers"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2659,
+   "end": 2672,
+   "quote": "Fed officials",
+   "name": "Fed officials"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3036,
+   "end": 3043,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 3250,
+   "end": 3283,
+   "quote": "variables in various macro models",
+   "name": "the variables in various macro models"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 3704,
+   "end": 3828,
+   "quote": "We re-arrange terms in the Fed's FCI formula to put things in the more typical formulation of mortgage and corporate spreads",
+   "name": "We re-arrange terms in the Fed's FCI formula to put things in the more typical formulation of mortgage and corporate spreads"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 3524,
+   "end": 3544,
+   "quote": "other interest rates",
+   "name": "other interest rates"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 4223,
+   "end": 4238,
+   "quote": "the daily moves",
+   "name": "the daily moves"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we update' at 111"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We re' at 3704"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we approximate' at 4028"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we approximate' at 4208"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3830",
+   "message": "+23 words: {{This => That the author re-arrange terms in the Fed's FCI formula to put things in the more typical formulation of mortgage and corporate spreads}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'they' in \"e-year lookback versions as well as how they line up with the Fed's monthly series.\""
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0334241,
+   "duration_ms": 3539,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3696,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 147,
+    "output_tokens_details": {
+     "thinking_tokens": 139
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3696,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 147,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3696,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3696
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10530949999999997,
+   "duration_ms": 27481,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4464,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3421,
+    "output_tokens_details": {
+     "thinking_tokens": 2132
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4464,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3421,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4464,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4464
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

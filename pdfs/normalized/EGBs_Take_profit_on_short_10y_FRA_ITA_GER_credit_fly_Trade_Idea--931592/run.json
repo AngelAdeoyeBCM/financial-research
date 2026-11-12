@@ -1,0 +1,182 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EGBs_Take_profit_on_short_10y_FRA_ITA_GER_credit_fly_Trade_Idea--931592.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-11",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 1,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "leave": 1
+    },
+    "leave_reasons": {
+     "time": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 8,
+   "noun_phrase": 3
+  },
+  "rooted_share": 0.6818181818181818,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 8,
+  "cost_usd": 0.067
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 117,
+   "end": 159,
+   "quote": "Short belly in 10y ITA –FRA–GER credit fly",
+   "name": "the Short belly in 10y ITA –FRA–GER credit fly"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 132,
+   "end": 159,
+   "quote": "10y ITA –FRA–GER credit fly",
+   "name": "the 10y ITA –FRA–GER credit fly"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 221,
+   "end": 245,
+   "quote": "the recent risk-off move",
+   "name": "the recent risk-off move"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0229096,
+   "duration_ms": 2085,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2576,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 75,
+    "output_tokens_details": {
+     "thinking_tokens": 62
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2576,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 75,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2576,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2576
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.044135299999999995,
+   "duration_ms": 9766,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2637,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1102,
+    "output_tokens_details": {
+     "thinking_tokens": 719
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2637,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1102,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2637,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2637
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

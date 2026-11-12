@@ -1,0 +1,216 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Close_INR_1y_receiver_and_IndoGB_5y_longs_Trade_Idea--930886.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-02",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "link": 3,
+     "ambiguous": 1
+    },
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 22,
+  "kinds": {
+   "deixis": 14,
+   "abbreviation": 4,
+   "noun_phrase": 2,
+   "possessive": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.6451612903225806,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3
+  },
+  "sentences": 17,
+  "cost_usd": 0.0784
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 168,
+   "end": 183,
+   "quote": "INR 1y receiver",
+   "name": "the INR 1y receiver"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 219,
+   "end": 240,
+   "quote": "Reserve Bank of India",
+   "name": "the Reserve Bank of India"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 872,
+   "end": 927,
+   "quote": "the RBI’s unexpected early closure of the FCNR facility",
+   "name": "the RBI’s unexpected early closure of the FCNR facility"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 980,
+   "end": 1006,
+   "quote": "the August meeting minutes",
+   "name": "the August meeting minutes"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "These",
+   "action": "ambiguous",
+   "reason": null,
+   "referents": [
+    "R3",
+    "R4"
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 55"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we respect' at 1994"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 2371"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0292114,
+   "duration_ms": 2185,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3304,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 95,
+    "output_tokens_details": {
+     "thinking_tokens": 87
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3304,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 95,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3304,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3304
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.04920429999999999,
+   "duration_ms": 9701,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3462,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1009,
+    "output_tokens_details": {
+     "thinking_tokens": 637
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3462,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1009,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3462,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3462
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

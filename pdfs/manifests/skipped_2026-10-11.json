@@ -1,0 +1,811 @@
+{
+  "batch_id": "2026-10-11",
+  "window": [
+    "2026-10-11",
+    "2026-10-11"
+  ],
+  "generated_at": "2026-10-29T16:32:33",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-08_2026-10-11.json",
+      "sha256": "01f81e62fb9c112089f2b21a3b0c7c71603705b6cdc0896c44a04ac2c5225f2f",
+      "records": 1910,
+      "dates": [
+        "2026-10-08",
+        "2026-10-11"
+      ],
+      "records_for_batch": 225
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 6,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 6,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 79,
+    "DISTORTED_TABLE": 6,
+    "MISSING_CHUNKS": 5,
+    "GARBLED_TEXT": 2,
+    "UNSTRUCTURED_TEXT": 2,
+    "NON_ENGLISH_SCRIPT": 1
+  },
+  "documents": [
+    {
+      "stem": "BC_UK_Economic_Outlook_-_Headwinds_on_the_horizon",
+      "document": "BC_UK Economic Outlook - Headwinds on the horizon.pdf",
+      "date": "2026-10-11",
+      "publisher": "Barclays",
+      "document_type": "Outlook",
+      "chunk_count": 79,
+      "page_count": 32,
+      "status": "skipped",
+      "missing_indices": [
+        16,
+        53,
+        60,
+        76
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [16, 53, 60, 76]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 50 70 90 110 130 150 170 190 210 -200 -150 -100",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 50 70 90 110 130 150 170 190 210 -200 -150 -100",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 20 40 60 80 100 120 0 20 40 60 80",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Jan-25",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 18",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 2.5 3.0 3.5 4.0 4.5 Aug-25 Nov-25 Feb-26 May-26 Aug-26",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: Mar-26 Apr-26 May-26 Jun-26 Jul-26 Aug-26 2 3 4 5 6 7",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 Q4 25 Q1",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 0.0 0.2 0.4 0.6 0.8",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 1 2 3 4 5 6 26 27 28 29 30",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: Q4 2023 400 450 500 550 600 600 650 700 750 800",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-11-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2026 2027",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2026 2027",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: March 2026 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 2026 2027 2028",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-13-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 Mar-21 Dec-21 Sep-22",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: pendTrends pendTrends pendTrends pendTrends",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-14-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 5 10 15 20 01 03 05 07 09 11 13",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-15-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 06 07 08 09 10",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-16-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: -4 -2 0 2 4 6 8 00 01 02 03 04",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-18-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 28 29 30 31 32 33 34 35 Jan-24 Apr-24 Jul-24 Oct-24",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-20-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 1 2 3 4 5 6 2026 2027 2028 2029 2030",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-21-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 2026 2027 2028",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-23-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 2.8 3.0 2.7 2.6 2.6 2.6 11 October 2026 23",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-23-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 20 40 60 80 100 120 2026 2027 2028 2029 2030",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-24-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 50 100 150 200 250 2026 2027 2028 2029 2030 2031",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-25-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2026 2027",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-26-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "51 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 0 20 40 60",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-27-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 2026 2027 2028 2029 2030",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-28-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.0 3.5 4.0 4.5 5.0 5.5 6.0 2026 2027 2028 2029 2030",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-29-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 20 40 60 80 100 120 2025 2026 2027 2028 2029",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-30-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 0 1 2 3",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-31-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: February 2026 1.0 1.1 1.2 1.3 1.4 1.5 80 82 84 86",
+          "chunk_id": "BC_UK Economic Outlook - Headwinds on the horizon.pdf-31-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_UK_Rates_Strategy_-_Chancellor_Healey_meets_the_bond_market_-__let_sleeping_dogs_lie",
+      "document": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf",
+      "date": "2026-10-11",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 29,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        16,
+        19
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 16, 19]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -300 -250 -200 -150 -100 -50 0 50 100 15",
+          "chunk_id": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -300 -250 -200 -150 -100 -50 0 50 100 150 Jan-24 Jul-24",
+          "chunk_id": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0% 1% 2% 3% 4% 5% Aug-26 Nov-26 Feb-27 May-27 Aug-27 Nov-27",
+          "chunk_id": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -40 -20 0 20 40 60 80 100 120 140 Nov-25 Jan-26",
+          "chunk_id": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.31 -30 -20 -10 0 10 20 30 40 -40 -30 -20",
+          "chunk_id": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -100 -50 0 50 100 150 200 250 2016 2018 2020 2022",
+          "chunk_id": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 2021 2022 2023",
+          "chunk_id": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 2022 2023 2024 2025",
+          "chunk_id": "BC_UK Rates Strategy - Chancellor Healey meets the bond market - ‘let sleeping dogs lie’.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_UK_Themes_-_The_direct_fiscal_effects_of_quantitative_easing_and_tightening",
+      "document": "BC_UK Themes - The direct fiscal effects of quantitative easing and tightening.pdf",
+      "date": "2026-10-11",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 27,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        11,
+        24
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [11, 24]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "72 consecutive numeric/date tokens: -200 -150 -100 -50 0 50 100 150 200 -20 -15 -10",
+          "chunk_id": "BC_UK Themes - The direct fiscal effects of quantitative easing and tightening.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 5 10 15 20 25 30 26/27 27/28 28/29 29/30 30/31",
+          "chunk_id": "BC_UK Themes - The direct fiscal effects of quantitative easing and tightening.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_China_Strategy_-_AI_Changes_The_Game-China_is_coming",
+      "document": "GS_China Strategy - AI Changes The Game-China is coming.pdf",
+      "date": "2026-10-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 40,
+      "page_count": 23,
+      "status": "skipped",
+      "missing_indices": [
+        27,
+        36
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [27, 36]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 6% 14% 25% 31% 45% 50% 75% 82% 97% 22% 77% 9%",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x1",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-5-8",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+0000 x1",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-6-9",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "33 consecutive numeric/date tokens: 119 147 167 243 251 240 143 167 188 818 1,242 1,397",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: +24% +52% +14% +12% +3% +28% −4% +8% +16% +12% +19% +14%",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-8-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-9-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 11% 16% 11% 61% 87% 57% 47% 43% 24% 22% 16% 13%",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-9-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 63% 6% 14% 1% 23% 23% 0% 10% 20% 30% 40% 50%",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 numeric rows: 367 1,915 888 3170 | 1,723 2,608 3,237 7568 | 24.4 8.6 8.7 12.5",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 80 100 120 140 160 180 200 60 80 100 120 140",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-12-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -1.00 -0.80 -0.60 -0.40 -0.20 0.00 0.20 0.40 0.60 0.80",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-12-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 2015 2016 2017 2018 2019",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-13-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: actSet actSet actSet",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-14-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 500 1000 1500 2000 2500 3000 3500 4000 2025 2026E 2027E",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-15-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x10",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-17-30",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 11",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-17-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6 80",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-17-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 35.9% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-19-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-20-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 3 4 5 6 7 8 9 10 Jan-24 Apr-24 Jul-24 Oct-24",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-21-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 8.3 (35%) 27.7 (117%) 4.0 (17%) 13.6 (58%) 6.3 (27%) 3.7 (16%)",
+          "chunk_id": "GS_China Strategy - AI Changes The Game-China is coming.pdf-21-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Oil_Analyst_-_Supply_Adaptation_Meets_Global_Restocking_Demand",
+      "document": "GS_Oil Analyst - Supply Adaptation Meets Global Restocking Demand.pdf",
+      "date": "2026-10-11",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 27,
+      "page_count": 18,
+      "status": "skipped",
+      "missing_indices": [
+        4,
+        6,
+        8,
+        28
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4, 6, 8, 28]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 60 70 80 90 100 110 120 130 140 150 60 70",
+          "chunk_id": "GS_Oil Analyst - Supply Adaptation Meets Global Restocking Demand.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 60 70 80 90 100 110 120 130 140 150 60 70",
+          "chunk_id": "GS_Oil Analyst - Supply Adaptation Meets Global Restocking Demand.pdf-15-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Jan-26 Apr-26 Jul-26 Oct-26 Jan-27 Apr-27 Jul-27 Oct-27",
+          "chunk_id": "GS_Oil Analyst - Supply Adaptation Meets Global Restocking Demand.pdf-15-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_Oil Analyst - Supply Adaptation Meets Global Restocking Demand.pdf-15-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "210 consecutive numeric/date tokens: 75 75 66 70 70 59 1Q26 78 78 78 72 72",
+          "chunk_id": "GS_Oil Analyst - Supply Adaptation Meets Global Restocking Demand.pdf-17-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "GS_Oil Analyst - Supply Adaptation Meets Global Restocking Demand.pdf-18-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 58.5 0.7 56.7 -1.8 59.5 2.8 58.6 54.4 56.2 57.4 58.5 59.4",
+          "chunk_id": "GS_Oil Analyst - Supply Adaptation Meets Global Restocking Demand.pdf-18-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362",
+      "document": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf",
+      "date": "2026-10-11",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 23,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0.4% 0.5% 0.6% 0.7% 0.8% 0.9% 1.0% 1.1% 1.2% 1.3% Oct-12 Oct-13",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 3.9% 4.1% 4.3% 4.5% 4.7% 4.9% 5.1% 5.3% 0.35 0.36 0.37 0.38",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10% -5% 0% 5% 10% 2016 2017 2018 2019 2020 2021 2022",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 Jan-25",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: (46/100) 5,400 5,600 5,800 6,000 6,200 6,400 6,600 6,300 6,500 6,700 6,900",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: $0 $1 $2 $3 $4 $5 $6 $7 Jan-26 Mar-26 May-26 Jul-26",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 25 $175 $225 Sep-25 Dec-25 Mar-26 Jun-26 Sep-26",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 611 October 2026 80 90 100 110 120 130 140 150 160",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 10 15 20 25 30 35 40 45 50 55 Jan-25 Apr-25",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 711 October 2026 -20% -10% 0% 10% 20% 30% 40% 50%",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: ($15) ($10) ($5) $0 $5 $10 -10% -5% -2% -1% 0% 1%",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 Oct-21 Oct-22 Oct-23 Oct-24 Oct-25",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 5% 10% 15% 20% 25% Aug-25 Oct-25 Dec-25 Feb-26 Apr-26 Jun-26 Aug-26",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 470 520 570 620 670 720 770 820 870 Jan-25 Apr-25 Jul-25",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "48 consecutive numeric/date tokens: 1m 2m 3m 6m 9m 1y 110 4.2% 5.8% 6.3% 6.6% 6.8%",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1011 October 2026 500 550 600 650 700 750 800 Jun-25 Aug-25",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0% 2% 4% 6% 8% 10% 12% Aug-25 Oct-25 Dec-25 Feb-26 Apr-26",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 170 190 210 230 250 270 290 310 330 Mar-25 Jul-25 Nov-25",
+          "chunk_id": "US_equity_flow_insights_Stick_or_twist_-_04_October_2026_Trade_Idea--933362.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

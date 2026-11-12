@@ -1,0 +1,355 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Perspectives_-_The_AI_view_of_the_Fed_-_Hawks_fly_together.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-10",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 33,
+    "referents": {
+     "thing": 18,
+     "claim": 2
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 30
+    },
+    "leave_reasons": {
+     "not_a_reference": 2,
+     "time": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 48,
+  "kinds": {
+   "deixis": 17,
+   "possessive": 13,
+   "noun_phrase": 10,
+   "demonstrative": 3,
+   "pronoun": 2,
+   "proposition": 2,
+   "shell": 1
+  },
+  "rooted_share": 0.635036496350365,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 47,
+  "cost_usd": 0.2423
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 160,
+   "end": 202,
+   "quote": "our AI-based scoring of Fed communications",
+   "name": "our AI-based scoring of Fed communications"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 625,
+   "end": 670,
+   "quote": "the average score for the 2026 voting members",
+   "name": "the average score for the 2026 voting members"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 914,
+   "end": 941,
+   "quote": "the 12 voting members, nine",
+   "name": "the nine of the 12 voting members"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1010,
+   "end": 1037,
+   "quote": "Chairman Warsh, whose score",
+   "name": "Chairman Warsh's score"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1116,
+   "end": 1131,
+   "quote": "Governor Waller",
+   "name": "Governor Waller"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 800,
+   "end": 826,
+   "quote": "The distribution of scores",
+   "name": "the distribution of scores"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1619,
+   "end": 1644,
+   "quote": "our proprietary LLM tools",
+   "name": "our proprietary LLM tools"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2105,
+   "end": 2170,
+   "quote": "Chairman Warsh delivered a notably hawkish speech at Jackson Hole",
+   "name": "Chairman Warsh's notably hawkish speech at Jackson Hole"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 2105,
+   "end": 2119,
+   "quote": "Chairman Warsh",
+   "name": "Chairman Warsh"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 2277,
+   "end": 2291,
+   "quote": "a score of 8.8",
+   "name": "the score of 8.8"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 2626,
+   "end": 2669,
+   "quote": "a clear bias toward proactive policy action",
+   "name": "the clear bias toward proactive policy action"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 3131,
+   "end": 3151,
+   "quote": "Almost all officials",
+   "name": "almost all officials"
+  },
+  {
+   "id": "R13",
+   "type": "claim",
+   "start": 3230,
+   "end": 3346,
+   "quote": "The average score for 2026 voters, as well as the average for all 19 officials, increased by 0.5 points to reach 7.2",
+   "name": "The average score for 2026 voters, as well as the average for all 19 officials, increased by 0.5 points to reach 7.2"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 3933,
+   "end": 3986,
+   "quote": "Governor Bowman, who registered a dovish score of 3.8",
+   "name": "Governor Bowman's dovish score of 3.8"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 3933,
+   "end": 3948,
+   "quote": "Governor Bowman",
+   "name": "Governor Bowman"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 4391,
+   "end": 4423,
+   "quote": "San Francisco Fed President Daly",
+   "name": "San Francisco Fed President Daly"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 4844,
+   "end": 4859,
+   "quote": "Collins’s score",
+   "name": "Collins’s score"
+  },
+  {
+   "id": "R18",
+   "type": "claim",
+   "start": 6050,
+   "end": 6099,
+   "quote": "Governor Waller’s score fell by 0.3 points to 6.5",
+   "name": "Governor Waller’s score fell by 0.3 points to 6.5"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 6319,
+   "end": 6342,
+   "quote": "a “hawkish hold” stance",
+   "name": "the “hawkish hold” stance"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 6167,
+   "end": 6181,
+   "quote": "Cheryl Venable",
+   "name": "Cheryl Venable"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we update' at 150"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we again employ' at 1603"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0441147,
+   "duration_ms": 2839,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4892,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 197,
+    "output_tokens_details": {
+     "thinking_tokens": 189
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4892,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 197,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4892,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4892
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1981491,
+   "duration_ms": 61145,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6170,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 7372,
+    "output_tokens_details": {
+     "thinking_tokens": 5211
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6170,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 7372,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6170,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6170
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

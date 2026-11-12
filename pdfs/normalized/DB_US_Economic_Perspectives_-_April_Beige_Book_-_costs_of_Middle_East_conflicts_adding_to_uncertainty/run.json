@@ -1,0 +1,272 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Perspectives_-_April_Beige_Book_-_costs_of_Middle_East_conflicts_adding_to_uncertainty.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 17,
+    "referents": {
+     "thing": 10
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 15
+    },
+    "leave_reasons": {
+     "not_a_reference": 2
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 27,
+  "kinds": {
+   "noun_phrase": 10,
+   "deixis": 7,
+   "pronoun": 4,
+   "possessive": 4,
+   "demonstrative": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.9014084507042254,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 2,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 54,
+  "cost_usd": 0.1651
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 418,
+   "end": 445,
+   "quote": "decoding Beige Book with AI",
+   "name": "decoding Beige Book with AI"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 597,
+   "end": 634,
+   "quote": "the latest Beige Book from April 2026",
+   "name": "the latest Beige Book from April 2026"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1701,
+   "end": 1783,
+   "quote": "the sharp rise in energy and fuel costs cited by all Districts in the April report",
+   "name": "the sharp rise in energy and fuel costs cited by all Districts in the April report"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2417,
+   "end": 2517,
+   "quote": "the Middle East conflicts as a new, major source of uncertainty dampening business decision - making",
+   "name": "the Middle East conflicts as a new, major source of uncertainty dampening business decision - making"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2831,
+   "end": 2850,
+   "quote": "the recession score",
+   "name": "the recession score"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3639,
+   "end": 3657,
+   "quote": "many Fed officials",
+   "name": "many Fed officials"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4752,
+   "end": 4755,
+   "quote": "pdf",
+   "name": "the pdf"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4777,
+   "end": 4796,
+   "quote": "the Federal Reserve",
+   "name": "the Federal Reserve"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 6217,
+   "end": 6228,
+   "quote": "document(s)",
+   "name": "the document(s)"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 6337,
+   "end": 6345,
+   "quote": "the text",
+   "name": "the text"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 157",
+   "message": "not verbatim in source: ['has'] in {{We have => The author has}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 3983",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in \"orces the Fed's inclination to maintain its current stance until concrete evidence \""
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0417262,
+   "duration_ms": 9255,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4442,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 260,
+    "output_tokens_details": {
+     "thinking_tokens": 252
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4442,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 260,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4442,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4442
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1233635,
+   "duration_ms": 35742,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4999,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4107,
+    "output_tokens_details": {
+     "thinking_tokens": 2797
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4999,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4107,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4999,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4999
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

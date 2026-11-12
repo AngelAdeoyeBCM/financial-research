@@ -1,0 +1,158 @@
+{
+  "batch_id": "2026-01-14",
+  "window": [
+    "2026-01-14",
+    "2026-01-14"
+  ],
+  "generated_at": "2026-10-29T16:26:13",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-13_2026-01-16.json",
+      "sha256": "5b94ef4aca56e5e9be62d7c11a377d7d510fb1dde814302d4a1da53de3272e32",
+      "records": 1961,
+      "dates": [
+        "2026-01-13",
+        "2026-01-16"
+      ],
+      "records_for_batch": 29
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 7,
+    "MISSING_CHUNKS": 2,
+    "DISTORTED_TABLE": 1
+  },
+  "documents": [
+    {
+      "stem": "JPY_rates_Snap_election_pay_April_BoJ_close_ASW_Trade_Idea--916443",
+      "document": "JPY_rates_Snap_election_pay_April_BoJ_close_ASW_Trade_Idea--916443.pdf",
+      "date": "2026-01-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.75 0.80 0.85 0.90 0.95 1.00 11/27 12/5 12/13 12/21 12/29 1/6",
+          "chunk_id": "JPY_rates_Snap_election_pay_April_BoJ_close_ASW_Trade_Idea--916443.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.75 0.80 0.85 0.90 0.95 1.00 11/27 12/5 12/13 12/21 12/29 1/6",
+          "chunk_id": "JPY_rates_Snap_election_pay_April_BoJ_close_ASW_Trade_Idea--916443.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2.20 2.40 2.60 2.80 3.00 3.20 3.40 35 45 55 65 75",
+          "chunk_id": "JPY_rates_Snap_election_pay_April_BoJ_close_ASW_Trade_Idea--916443.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2.20 2.40 2.60 2.80 3.00 3.20 3.40 35 45 55 65 75",
+          "chunk_id": "JPY_rates_Snap_election_pay_April_BoJ_close_ASW_Trade_Idea--916443.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Mexico_Entering_an_MXN_basis_steepener_trade_Trade_Idea--916503",
+      "document": "Mexico_Entering_an_MXN_basis_steepener_trade_Trade_Idea--916503.pdf",
+      "date": "2026-01-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0.2 0.7 1.2 1.7 2.2 2.7 Nov-20 Mar-22 Jun-23 Sep-24 Jan-26 14/01/2026",
+          "chunk_id": "Mexico_Entering_an_MXN_basis_steepener_trade_Trade_Idea--916503.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -0.20 -0.15 -0.10 -0.05 0.00 0.05 0.10 0.15 0.20 0.25 Jan Feb",
+          "chunk_id": "Mexico_Entering_an_MXN_basis_steepener_trade_Trade_Idea--916503.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 10 20 30 40 50 60 Jan Feb Mar Apr May",
+          "chunk_id": "Mexico_Entering_an_MXN_basis_steepener_trade_Trade_Idea--916503.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_signals_long_NZDUSD_Trade_Idea--916489",
+      "document": "STEER_signals_long_NZDUSD_Trade_Idea--916489.pdf",
+      "date": "2026-01-14",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 0.5744 0.5913 0.5659 - 0.00 | 17.9632 - - 17.8137 (14-Jan-26) -0.83 | 10.7205 10.9344 10.6245 - 0.08",
+          "chunk_id": "STEER_signals_long_NZDUSD_Trade_Idea--916489.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

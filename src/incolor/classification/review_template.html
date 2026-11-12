@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research classification review</title>
+<style>
+  :root { --fg:#1d2430; --muted:#667085; --line:#e4e7ec; --bg:#f7f8fa; --card:#fff; --accent:#3b6fd4; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width:1280px; margin:0 auto; padding:20px; }
+  h1 { font-size:20px; margin:0 0 12px; }
+  h2 { font-size:15px; margin:28px 0 8px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; }
+  .strip { display:grid; grid-template-columns:220px 1fr; gap:16px; align-items:start; }
+  .kpi { font-size:34px; font-weight:600; line-height:1; }
+  .kpi small { display:block; font-size:12px; font-weight:400; color:var(--muted); margin-top:4px; }
+  .bar-row { display:grid; grid-template-columns:150px 1fr 36px; gap:8px; align-items:center; padding:2px 0; cursor:pointer; }
+  .bar-row:hover .label { text-decoration:underline; }
+  .bar-row.active .label { font-weight:600; }
+  .bar { height:12px; background:#eef1f6; border-radius:3px; overflow:hidden; }
+  .bar > span { display:block; height:100%; }
+  .count { text-align:right; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .filters { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0 0; }
+  select, input[type=search], button { font:inherit; padding:5px 8px; border:1px solid var(--line); border-radius:6px; background:#fff; }
+  button { cursor:pointer; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  th, td { text-align:left; padding:6px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:12px; color:var(--muted); cursor:pointer; user-select:none; white-space:nowrap; background:#fbfcfd; }
+  th.sorted::after { content:" \25B2"; font-size:9px; }
+  th.sorted.desc::after { content:" \25BC"; }
+  tr.row { cursor:pointer; }
+  tr.row:hover { background:#f3f6fc; }
+  tr.detail td { background:#fafbfd; color:#344054; }
+  .dot { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:6px; vertical-align:middle; }
+  .green { background:#2eaa5e; } .amber { background:#f0a020; } .red { background:#d64545; }
+  .num { font-variant-numeric:tabular-nums; }
+  .title { font-weight:500; }
+  .file { color:var(--muted); font-size:12px; word-break:break-all; }
+  .chip { display:inline-block; padding:0 6px; margin:1px 3px 1px 0; border-radius:10px; background:#eef1f6; font-size:12px; }
+  .chip.flag { background:#fdecea; color:#a12a2a; }
+  .empty { color:var(--muted); padding:12px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:12px; }
+  ol.ents { margin:6px 0 0; padding-left:20px; }
+  ol.ents li { display:flex; justify-content:space-between; gap:8px; }
+  ol.ents li.pick { cursor:pointer; }
+  ol.ents li.pick:hover { color:var(--accent); text-decoration:underline; }
+  ol.ents li span.t { color:var(--muted); font-size:12px; margin-left:6px; }
+  .legend { color:var(--muted); font-size:12px; margin-top:6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Research classification review</h1>
+
+  <section class="strip">
+    <div class="card"><div class="kpi" id="kpi-review"></div><div class="kpi" style="margin-top:14px;font-size:22px" id="kpi-total"></div></div>
+    <div class="card" id="bars"></div>
+  </section>
+
+  <div class="filters" id="filters"></div>
+  <div class="legend"><span class="dot green"></span>&ge;0.85 <span class="dot amber" style="margin-left:10px"></span>0.70&ndash;0.85 <span class="dot red" style="margin-left:10px"></span>&lt;0.70 &middot; click a row for rationale and runner-up</div>
+
+  <h2 id="queue-title"></h2>
+  <div id="queue"></div>
+
+  <h2 id="all-title"></h2>
+  <div id="all"></div>
+
+  <h2>Top 10 entities</h2>
+  <div class="card" id="ents-overall"></div>
+  <h2>Top 10 entities by category</h2>
+  <div class="grid" id="ents-cat"></div>
+</main>
+
+<script>
+const DATA = /*__DATA__*/null;
+const DOCS = DATA.docs;
+const PALETTE = ["#3b6fd4", "#2eaa5e", "#e08a1e", "#8a5cd6", "#d64f86", "#1fa3b8", "#8f98a8"];
+const COLOR = Object.fromEntries(DATA.categories.map((c, i) => [c, PALETTE[i % PALETTE.length]]));
+const filters = { category: "", country: "", type: "", entity: "", q: "" };
+const sorts = { queue: { key: "confidence", dir: 1 }, all: { key: "file", dir: 1 } };
+const open = new Set();
+
+function el(tag, props, ...kids) {
+  const node = document.createElement(tag);
+  Object.assign(node, props || {});
+  for (const k of kids.flat()) if (k != null) node.append(k.nodeType ? k : document.createTextNode(String(k)));
+  return node;
+}
+const unique = (xs) => [...new Set(xs)].sort();
+const dotClass = (c) => (c >= 0.85 ? "green" : c >= DATA.threshold ? "amber" : "red");
+
+function matches(d) {
+  if (filters.category && d.category !== filters.category) return false;
+  if (filters.country && !d.countries.includes(filters.country)) return false;
+  if (filters.type && d.type !== filters.type) return false;
+  if (filters.entity) {
+    const wanted = filters.entity.toLowerCase();
+    if (!d.entities.some((e) => e.name.toLowerCase().includes(wanted))) return false;
+  }
+  if (filters.q) {
+    const hay = (d.title + " " + d.file + " " + d.subcategory).toLowerCase();
+    if (!hay.includes(filters.q.toLowerCase())) return false;
+  }
+  return true;
+}
+
+function sortValue(d, key) {
+  if (key === "countries") return d.countries.join(",");
+  return d[key] ?? "";
+}
+
+function sortedRows(rows, state) {
+  return [...rows].sort((a, b) => {
+    const x = sortValue(a, state.key), y = sortValue(b, state.key);
+    const cmp = typeof x === "number" ? x - y : String(x).localeCompare(String(y));
+    return (cmp || a.file.localeCompare(b.file)) * state.dir;
+  });
+}
+
+const COLUMNS = [
+  ["confidence", "Conf."], ["title", "Document"], ["category", "Category"], ["subcategory", "Subcategory"],
+  ["countries", "Countries"], ["type", "Type"], ["date", "Date"],
+];
+
+function renderTable(host, name, rows) {
+  const state = sorts[name];
+  host.replaceChildren();
+  if (!rows.length) { host.append(el("div", { className: "empty card" }, "No documents match the filters.")); return; }
+  const head = el("tr", null, COLUMNS.map(([key, label]) => {
+    const th = el("th", { className: key === state.key ? "sorted" + (state.dir < 0 ? " desc" : "") : "" }, label);
+    th.onclick = () => {
+      state.dir = state.key === key ? -state.dir : 1;
+      state.key = key;
+      render();
+    };
+    return th;
+  }));
+  const body = el("tbody");
+  for (const d of sortedRows(rows, state)) {
+    const id = name + ":" + d.file;
+    const tr = el("tr", { className: "row" },
+      el("td", { className: "num" }, el("span", { className: "dot " + dotClass(d.confidence) }), d.confidence.toFixed(2)),
+      el("td", null, el("div", { className: "title" }, d.title), el("div", { className: "file" }, d.file)),
+      el("td", null, el("span", { className: "dot", style: "background:" + COLOR[d.category] }), d.category),
+      el("td", null, d.subcategory),
+      el("td", null, d.countries.join(", ")),
+      el("td", null, d.type),
+      el("td", { className: "num" }, d.date));
+    tr.onclick = () => { open.has(id) ? open.delete(id) : open.add(id); render(); };
+    body.append(tr);
+    if (open.has(id)) body.append(detailRow(d));
+  }
+  host.append(el("table", null, el("thead", null, head), body));
+}
+
+function detailRow(d) {
+  const flags = [];
+  if (d.confidence < DATA.threshold) flags.push("low confidence");
+  if (d.runner_up_close) flags.push("close runner-up");
+  if (d.text_quality !== "ok") flags.push("text " + d.text_quality);
+  return el("tr", { className: "detail" }, el("td", { colSpan: COLUMNS.length },
+    el("div", null, el("b", null, "Rationale: "), d.rationale),
+    el("div", null, el("b", null, "Runner-up: "), d.runner_up, " \u2013 ", d.runner_up_reason),
+    d.secondary.length ? el("div", null, el("b", null, "Secondary: "), d.secondary.join("; ")) : null,
+    el("div", null, el("b", null, "Entities: "), d.entities.map((e) => el("span", { className: "chip", title: e.type }, e.name))),
+    flags.length ? el("div", null, el("b", null, "Review flags: "), flags.map((f) => el("span", { className: "chip flag" }, f))) : null));
+}
+
+function renderStrip() {
+  const total = DOCS.length, review = DOCS.filter((d) => d.needs_review).length;
+  document.getElementById("kpi-review").replaceChildren(
+    total ? (100 * review / total).toFixed(0) + "%" : "0%", el("small", null, "need review (" + review + " of " + total + ")"));
+  document.getElementById("kpi-total").replaceChildren(String(total), el("small", null, "documents"));
+  const counts = Object.fromEntries(DATA.categories.map((c) => [c, 0]));
+  DOCS.forEach((d) => { counts[d.category] = (counts[d.category] || 0) + 1; });
+  const max = Math.max(1, ...Object.values(counts));
+  const host = document.getElementById("bars");
+  host.replaceChildren(...DATA.categories.map((c) => {
+    const row = el("div", { className: "bar-row" + (filters.category === c ? " active" : ""), title: "Filter by " + c },
+      el("span", { className: "label" }, c),
+      el("div", { className: "bar" }, el("span", { style: "width:" + (100 * counts[c] / max) + "%;background:" + COLOR[c] })),
+      el("span", { className: "count" }, counts[c]));
+    row.onclick = () => { filters.category = filters.category === c ? "" : c; syncFilterControls(); render(); };
+    return row;
+  }));
+}
+
+function select(label, key, values) {
+  const node = el("select", { id: "f-" + key }, el("option", { value: "" }, "All " + label), values.map((v) => el("option", { value: v }, v)));
+  node.onchange = () => { filters[key] = node.value; render(); };
+  return node;
+}
+
+function buildFilters() {
+  const q = el("input", { type: "search", placeholder: "Search title / file", id: "f-q" });
+  q.oninput = () => { filters.q = q.value; render(); };
+  const reset = el("button", null, "Reset");
+  reset.onclick = () => { Object.assign(filters, { category: "", country: "", type: "", entity: "", q: "" }); syncFilterControls(); render(); };
+  const entityCounts = new Map();
+  DOCS.forEach((d) => d.entities.forEach((e) => entityCounts.set(e.name, (entityCounts.get(e.name) || 0) + 1)));
+  const names = [...entityCounts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const list = el("datalist", { id: "entity-list" }, names.map(([n, c]) => el("option", { value: n, label: c + " docs" })));
+  const entity = el("input", { type: "search", placeholder: "Filter by entity (e.g. Fed)", id: "f-entity" });
+  entity.setAttribute("list", "entity-list");
+  entity.oninput = () => { filters.entity = entity.value.trim(); render(); };
+  document.getElementById("filters").append(
+    select("categories", "category", DATA.categories),
+    select("countries", "country", unique(DOCS.flatMap((d) => d.countries))),
+    select("document types", "type", unique(DOCS.map((d) => d.type))),
+    entity, list, q, reset);
+}
+
+function syncFilterControls() {
+  for (const key of Object.keys(filters)) document.getElementById("f-" + key).value = filters[key];
+}
+
+function topEntities(docs) {
+  const counts = new Map();
+  for (const d of docs) for (const e of d.entities) {
+    const key = e.name + "\u0000" + e.type;
+    counts.set(key, (counts.get(key) || 0) + 1);
+  }
+  return [...counts].map(([k, n]) => { const [name, type] = k.split("\u0000"); return { name, type, n }; })
+    .sort((a, b) => b.n - a.n || a.name.localeCompare(b.name)).slice(0, 10);
+}
+
+function entityList(docs) {
+  const top = topEntities(docs);
+  if (!top.length) return el("div", { className: "empty" }, "No entities.");
+  return el("ol", { className: "ents" }, top.map((e) => {
+    const li = el("li", { className: "pick", title: "Filter documents by " + e.name },
+      el("div", null, e.name, el("span", { className: "t" }, e.type)), el("b", null, e.n));
+    li.onclick = () => { filters.entity = e.name; syncFilterControls(); render(); window.scrollTo({ top: 0, behavior: "smooth" }); };
+    return li;
+  }));
+}
+
+function renderEntities() {
+  document.getElementById("ents-overall").replaceChildren(entityList(DOCS));
+  document.getElementById("ents-cat").replaceChildren(...DATA.categories
+    .filter((c) => DOCS.some((d) => d.category === c))
+    .map((c) => el("div", { className: "card" }, el("b", null, c), entityList(DOCS.filter((d) => d.category === c)))));
+}
+
+function render() {
+  const rows = DOCS.filter(matches);
+  const queue = rows.filter((d) => d.needs_review);
+  document.getElementById("queue-title").textContent = "Review queue (" + queue.length + ")";
+  document.getElementById("all-title").textContent = "All documents (" + rows.length + ")";
+  renderStrip();
+  renderTable(document.getElementById("queue"), "queue", queue);
+  renderTable(document.getElementById("all"), "all", rows);
+}
+
+buildFilters();
+renderEntities();
+render();
+</script>
+</body>
+</html>

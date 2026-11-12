@@ -1,0 +1,322 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_US_Daily_-_Kevin_Warsh_on_Interest_Rate_Policy__Balance_Sheet_Policy__and_Financial_Regulation.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 47,
+    "referents": {
+     "thing": 16
+    },
+    "decisions": {
+     "link": 43,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "relative": 3,
+     "not_a_reference": 1
+    },
+    "extra": 10,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 59,
+  "kinds": {
+   "pronoun": 33,
+   "noun_phrase": 11,
+   "possessive": 9,
+   "deixis": 3,
+   "abbreviation": 2,
+   "symbol": 1
+  },
+  "rooted_share": 0.9069767441860465,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 1
+  },
+  "sentences": 56,
+  "cost_usd": 0.1977
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 126,
+   "end": 141,
+   "quote": "President Trump",
+   "name": "President Trump"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 194,
+   "end": 205,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 230,
+   "end": 249,
+   "quote": "the Federal Reserve",
+   "name": "the Federal Reserve"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3045,
+   "end": 3085,
+   "quote": "Warsh’s views on the Fed’s balance sheet",
+   "name": "Warsh’s views on the Fed’s balance sheet"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1488,
+   "end": 1530,
+   "quote": "the Fed’s approach to financial regulation",
+   "name": "the Fed’s approach to financial regulation"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2404,
+   "end": 2418,
+   "quote": "Senator Tillis",
+   "name": "Senator Tillis"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2686,
+   "end": 2700,
+   "quote": "the nomination",
+   "name": "the nomination"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 1170,
+   "end": 1193,
+   "quote": "the Fed’s balance sheet",
+   "name": "the Fed’s balance sheet"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5426,
+   "end": 5447,
+   "quote": "the Fed’s QE2 program",
+   "name": "the Fed’s QE2 program"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5710,
+   "end": 5776,
+   "quote": "Warsh has offered several arguments for reducing the balance sheet",
+   "name": "Warsh's arguments for reducing the balance sheet"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6334,
+   "end": 6384,
+   "quote": "Most Fed policymakers and members of the Fed staff",
+   "name": "Most Fed policymakers and members of the Fed staff"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 1276,
+   "end": 1312,
+   "quote": "the current ample reserves framework",
+   "name": "the current ample reserves framework"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7075,
+   "end": 7080,
+   "quote": "banks",
+   "name": "banks"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7916,
+   "end": 7944,
+   "quote": "small and medium-sized banks",
+   "name": "small and medium-sized banks"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 2432,
+   "end": 2460,
+   "quote": "the Senate Banking Committee",
+   "name": "the Senate Banking Committee"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 2539,
+   "end": 2598,
+   "quote": "the Department of Justice’s investigation into Chair Powell",
+   "name": "the Department of Justice’s investigation into Chair Powell"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C022",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C028",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C039",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C047",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 3104",
+   "message": "not verbatim in source: ['discusses'] in {{We discuss => The author discusses}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.056475599999999994,
+   "duration_ms": 8098,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5206,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 688,
+    "output_tokens_details": {
+     "thinking_tokens": 680
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5206,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 688,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5206,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5206
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.14120429999999998,
+   "duration_ms": 33214,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6977,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4198,
+    "output_tokens_details": {
+     "thinking_tokens": 1769
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6977,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4198,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6977,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6977
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_Euro_Area_Why_Is_Services_Inflation_So_Sticky.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 30,
+    "referents": {
+     "thing": 9,
+     "claim": 5
+    },
+    "decisions": {
+     "link": 27,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "relative": 2,
+     "generic": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 66,
+  "kinds": {
+   "deixis": 39,
+   "possessive": 8,
+   "noun_phrase": 6,
+   "demonstrative": 4,
+   "pronoun": 4,
+   "shell": 3,
+   "proposition": 2
+  },
+  "rooted_share": 0.8195121951219512,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 78,
+  "cost_usd": 0.2207
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 49,
+   "end": 84,
+   "quote": "Services inflation in the Euro area",
+   "name": "services inflation in the Euro area"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 3083,
+   "end": 3154,
+   "quote": "three plausible explanations for why services inflation has stayed high",
+   "name": "the three plausible explanations for why services inflation has stayed high"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 3428,
+   "end": 3537,
+   "quote": "Labour market tightness matters for services inflation because the services sector is highly labour-intensive",
+   "name": "Labour market tightness matters for services inflation because the services sector is highly labour-intensive"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3638,
+   "end": 3650,
+   "quote": "higher wages",
+   "name": "higher wages"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 3761,
+   "end": 3819,
+   "quote": "The services-to-goods price ratio typically trends upwards",
+   "name": "The services-to-goods price ratio typically trends upwards"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4849,
+   "end": 4856,
+   "quote": "Workers",
+   "name": "workers"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 4849,
+   "end": 4950,
+   "quote": "Workers also bargained for higher wages because elevated goods prices had raised their cost of living",
+   "name": "Workers also bargained for higher wages because elevated goods prices had raised their cost of living"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 698,
+   "end": 723,
+   "quote": "cross-country comparisons",
+   "name": "cross-country comparisons"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5481,
+   "end": 5495,
+   "quote": "Euro area data",
+   "name": "Euro area data"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 7395,
+   "end": 7510,
+   "quote": "the historical contribution of each driver to the deviation of area-wide services inflation from its sample average",
+   "name": "the historical contribution of each driver to the deviation of area-wide services inflation from its sample average"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 7540,
+   "end": 7674,
+   "quote": "a weak labour market, low inflation expectations, and the lower relative price of goods weighed on services inflation during the 2010s",
+   "name": "a weak labour market, low inflation expectations, and the lower relative price of goods weighed on services inflation during the 2010s"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 9221,
+   "end": 9340,
+   "quote": "fading relative price pressures and moderating wage growth will shave 0.5pp off services inflation over the coming year",
+   "name": "fading relative price pressures and moderating wage growth will shave 0.5pp off services inflation over the coming year"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 10185,
+   "end": 10236,
+   "quote": "an upside scenario in which energy prices spike 70%",
+   "name": "the upside scenario in which energy prices spike 70%"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 10722,
+   "end": 10743,
+   "quote": "services disinflation",
+   "name": "services disinflation"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C011",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We therefore employ' at 5736"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We lag' at 6107"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We allow' at 6539"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we construct' at 9852"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 7749",
+   "message": "+22 words: {{these dynamics => the dynamics that a weak labour market, low inflation expectations, and the lower relative price of goods weighed on services inflation during the 2010s}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'their' in 'me more expensive than a haircut unless their relative demand or input costs have cha'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'its' in 'on of area-wide services inflation from its sample average shows that a weak labour'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0685333,
+   "duration_ms": 9852,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6243,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 871,
+    "output_tokens_details": {
+     "thinking_tokens": 858
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6243,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 871,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6243,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6243
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1521765,
+   "duration_ms": 38038,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7349,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4596,
+    "output_tokens_details": {
+     "thinking_tokens": 2782
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7349,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4596,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7349,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7349
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

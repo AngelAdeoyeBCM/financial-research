@@ -1,0 +1,71 @@
+version: "1"
+
+# Structured claim task: run on one claim span at a time, not on a whole document.
+# Field keys are the output keys. Defaults are merged into each field with `<<`;
+# allow_none is true because a claim span usually omits most slots.
+x-single: &single
+  dtype: str
+  allow_multiple: false
+  allow_none: true
+  status: active
+
+id: claim_positioning
+type: structured
+name: positioning
+
+fields:
+  investor_type:
+    <<: *single
+    name: Investor type
+    description: "The group of market participants whose positioning is described."
+    choices: [real_money, hedge_fund, cta_systematic, retail, dealer, official, foreign, corporate, pension]
+
+  asset_class:
+    <<: *single
+    name: Asset class
+    description: "The asset class the positioning is in."
+    choices: [equities, rates, credit, fx, commodities]
+
+  instrument_or_market:
+    <<: *single
+    name: Instrument or market
+    description: "The specific instrument or market the positioning is in, as written."
+
+  position:
+    <<: *single
+    name: Position
+    description: "The direction of the positioning."
+    choices: [long, short, net_long, net_short, overweight, underweight, flat]
+
+  size:
+    <<: *single
+    name: Size
+    description: "The size of the positioning or flow, as written, including any units or percentile."
+
+  extremity:
+    <<: *single
+    name: Extremity
+    description: "Whether the positioning is described as crowded, stretched, light, or washed out."
+    choices: [crowded, stretched, light, washed_out]
+
+  change:
+    <<: *single
+    name: Change
+    description: "How the positioning has recently changed."
+    choices: [increasing, decreasing, unchanged, reversal]
+
+  data_source:
+    <<: *single
+    name: Data source
+    description: "The evidence behind the positioning claim."
+    choices: [cftc, fund_flows, survey, prime_brokerage, client_flow, anecdotal]
+
+  as_of:
+    <<: *single
+    name: As of
+    description: "The date or period the positioning data refers to."
+
+  implication:
+    <<: *single
+    name: Implication
+    description: "What the author concludes from the positioning, such as squeeze risk."

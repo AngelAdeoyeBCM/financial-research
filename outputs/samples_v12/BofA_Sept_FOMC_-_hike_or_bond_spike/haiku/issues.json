@@ -1,0 +1,44 @@
+[
+  {
+    "code": "EVIDENCE_SNAPPED",
+    "severity": "warning",
+    "path": "$.evidence[48].text",
+    "message": "E049 matched the source by gap alignment (score 0.305); replaced with the source text.",
+    "suggested_action": "None; the repair has been applied."
+  },
+  {
+    "code": "MUST_KEEP_EXCLUDED",
+    "severity": "warning",
+    "path": "$.exclusions[14]",
+    "message": "An excluded sentence looks like a prediction claim.",
+    "suggested_action": "Represent it as a statement in an argument unless it is not the author's claim."
+  },
+  {
+    "code": "MUST_KEEP_EXCLUDED",
+    "severity": "warning",
+    "path": "$.exclusions[15]",
+    "message": "An excluded sentence looks like a prediction claim.",
+    "suggested_action": "Represent it as a statement in an argument unless it is not the author's claim."
+  },
+  {
+    "code": "MUST_KEEP_EXCLUDED",
+    "severity": "warning",
+    "path": "$.exclusions[16]",
+    "message": "An excluded sentence looks like a prediction claim.",
+    "suggested_action": "Represent it as a statement in an argument unless it is not the author's claim."
+  },
+  {
+    "code": "MUST_KEEP_UNCOVERED",
+    "severity": "warning",
+    "path": "$.evidence",
+    "message": "A sentence that looks like a claim is neither cited nor excluded: '0 5 10 15 20 25 30 35 40 June FOMC to JH JH to Today 2Y 30Y 14 September 2026 Rates and Currencies Research Global Global Rates & Currencies Research MLI (UK) M'.",
+    "suggested_action": "Cite it as evidence of a statement, or list it under exclusions with a reason."
+  },
+  {
+    "code": "MUST_KEEP_UNCOVERED",
+    "severity": "warning",
+    "path": "$.evidence",
+    "message": "A sentence that looks like a claim is neither cited nor excluded: \"Exhibit 3: We expect the SEP to show two hikes for this year Expectations for the Fed's updated Summary of Economic Projections 2026 2027 2028 2029 Longer Run C\".",
+    "suggested_action": "Cite it as evidence of a statement, or list it under exclusions with a reason."
+  }
+]

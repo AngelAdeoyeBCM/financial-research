@@ -1,0 +1,238 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-10-04.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-04",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "claim": 2,
+     "thing": 1
+    },
+    "decisions": {
+     "leave": 4,
+     "link": 3
+    },
+    "leave_reasons": {
+     "time": 2,
+     "relative": 2
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 9,
+  "kinds": {
+   "deixis": 3,
+   "symbol": 2,
+   "abbreviation": 1,
+   "shell": 1,
+   "possessive": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.9285714285714286,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 15,
+  "cost_usd": 0.0945
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 3982,
+   "end": 4086,
+   "quote": "2-year Treasury yields increased a little over 40bps alongside a nearly 50bps increase in 10-year yields",
+   "name": "2-year Treasury yields increased a little over 40bps alongside a nearly 50bps increase in 10-year yields"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 4138,
+   "end": 4147,
+   "quote": "investors",
+   "name": "investors"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 4260,
+   "end": 4349,
+   "quote": "The repricing of the real yield curve can be interpreted as expectations of higher growth",
+   "name": "The repricing of the real yield curve can be interpreted as expectations of higher growth"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we head' at 3533"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'pped only a tenth to 4.2% - well within its recent range and supportive of consumer'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'ate (LFPR) a couple of tenths to 61.8%, its highest level since last May.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in ' restrictive level (see “How high might they go?” and “US Matthew Luzzetti, Ph.D.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0364251,
+   "duration_ms": 3401,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3901,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 207,
+    "output_tokens_details": {
+     "thinking_tokens": 194
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3901,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 207,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3901,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3901
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0580944,
+   "duration_ms": 11122,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4188,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1172,
+    "output_tokens_details": {
+     "thinking_tokens": 771
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4188,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1172,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4188,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4188
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DM_rates_Stop_out_of_Dec_26_27_Sonia_flattener_Trade_Idea--928748.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-22",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 0,
+    "referents": {
+     "thing": 1
+    },
+    "decisions": {},
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     2,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 0,
+  "kinds": {},
+  "rooted_share": null,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 2,
+  "cost_usd": 0.0862
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 270,
+   "end": 299,
+   "quote": "Dec 26-Dec 27 Sonia flattener",
+   "name": "the Dec 26-Dec 27 Sonia flattener"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E002",
+      "phrase": "the trade",
+      "occurrence": 1,
+      "referent": "R1"
+     },
+     "reason": "E002 is a heading, question or figure caption"
+    },
+    {
+     "item": {
+      "sid": "E002",
+      "phrase": "the trade",
+      "occurrence": 2,
+      "referent": "R1"
+     },
+     "reason": "E002 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.026994800000000003,
+   "duration_ms": 3512,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2768,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 195,
+    "output_tokens_details": {
+     "thinking_tokens": 182
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2768,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 195,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2768,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2768
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.032884500000000004,
+   "duration_ms": 4776,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2774,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 484,
+    "output_tokens_details": {
+     "thinking_tokens": 303
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2774,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 484,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2774,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2774
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.026294,
+   "duration_ms": 2360,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3004,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 56,
+    "output_tokens_details": {
+     "thinking_tokens": 34
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3004,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 56,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3004,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3004
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

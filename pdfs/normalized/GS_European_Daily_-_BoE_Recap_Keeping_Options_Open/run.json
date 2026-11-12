@@ -1,0 +1,236 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_European_Daily_-_BoE_Recap_Keeping_Options_Open.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 21,
+    "referents": {
+     "thing": 8
+    },
+    "decisions": {
+     "link": 20,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 39,
+  "kinds": {
+   "deixis": 17,
+   "pronoun": 12,
+   "possessive": 3,
+   "noun_phrase": 3,
+   "demonstrative": 2,
+   "vp": 2
+  },
+  "rooted_share": 0.65625,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 42,
+  "cost_usd": 0.1416
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 151,
+   "end": 166,
+   "quote": "Governor Bailey",
+   "name": "Governor Bailey"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1559,
+   "end": 1594,
+   "quote": "hold Bank Rate at the April meeting",
+   "name": "the hold of Bank Rate at the April meeting"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 107,
+   "end": 116,
+   "quote": "Bank Rate",
+   "name": "Bank Rate"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 591,
+   "end": 636,
+   "quote": "the changes in the simulations since February",
+   "name": "the changes in the simulations since February"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1577,
+   "end": 1594,
+   "quote": "the April meeting",
+   "name": "the April meeting"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1790,
+   "end": 1817,
+   "quote": "The Monetary Policy Summary",
+   "name": "The Monetary Policy Summary"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2435,
+   "end": 2445,
+   "quote": "scenario A",
+   "name": "scenario A"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2725,
+   "end": 2735,
+   "quote": "Scenario B",
+   "name": "Scenario B"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C014",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We attach' at 6517"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.049091300000000004,
+   "duration_ms": 5995,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4623,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 555,
+    "output_tokens_details": {
+     "thinking_tokens": 332
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4623,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 555,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4623,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4623
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0924903,
+   "duration_ms": 20849,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5362,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2407,
+    "output_tokens_details": {
+     "thinking_tokens": 1432
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5362,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2407,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5362,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5362
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

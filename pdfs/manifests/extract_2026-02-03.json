@@ -1,0 +1,177 @@
+{
+  "batch_id": "2026-02-03",
+  "window": [
+    "2026-02-03",
+    "2026-02-03"
+  ],
+  "generated_at": "2026-10-29T16:26:46",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-02-02_2026-02-05.json",
+      "sha256": "e51359922dc2ee83a631e0dfa497b3215c219a48780dc9e609c24aa3a07238bf",
+      "records": 934,
+      "dates": [
+        "2026-02-02",
+        "2026-02-05"
+      ],
+      "records_for_batch": 76
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 5,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 5,
+    "edits": 14,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Thinking_Macro_-_Base__metal__effects",
+      "document": "BC_Thinking Macro - Base (metal) effects.pdf",
+      "date": "2026-02-03",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 27,
+      "page_count": 15,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.296,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Taking_profit_on_MXN_basis_steepener_Trade_Idea--917880",
+      "document": "EM_rates_Taking_profit_on_MXN_basis_steepener_Trade_Idea--917880.pdf",
+      "date": "2026-02-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Taking_profit_on_MXN_basis_steepener_Trade_Idea--917880.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "52f7090666b7e8d19dbbcc8bbaf27113887fea89",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 03/02/2026 1"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "for the expected persistence of downward bias in the basis, supported by the typical seasonal dip in remittance"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "that potentially sizable local external debt issuance in January could"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "for the expected persistence of downward bias in the basis, supported by the typical seasonal dip in remittance"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "that potentially sizable local external debt issuance in January could"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 5
+      },
+      "edits": {
+        "spacing": {
+          "count": 13,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " :",
+              "after": ":"
+            },
+            {
+              "before": " )",
+              "after": ")"
+            },
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Taking profit on MXN basis steepener ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EUR_rates_Impact_of_new_Solvency_II_extrapolation_Desknote--917873",
+      "document": "EUR_rates_Impact_of_new_Solvency_II_extrapolation_Desknote--917873.pdf",
+      "date": "2026-02-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Entering_a_short_USDPEN_NDF_trade_Trade_Idea--917881",
+      "document": "FX_Entering_a_short_USDPEN_NDF_trade_Trade_Idea--917881.pdf",
+      "date": "2026-02-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Japanese_reflation_risks",
+      "document": "Japanese reflation risks.pdf",
+      "date": "2026-02-03",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

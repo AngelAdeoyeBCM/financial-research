@@ -1,0 +1,456 @@
+{
+  "batch_id": "2026-03-03",
+  "window": [
+    "2026-03-03",
+    "2026-03-03"
+  ],
+  "generated_at": "2026-10-29T16:27:19",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-02_2026-03-05.json",
+      "sha256": "a026ed7f6b075d2d407009307d68108ce0fe5660080b00a0ecc028e44dd56f57",
+      "records": 1036,
+      "dates": [
+        "2026-03-02",
+        "2026-03-05"
+      ],
+      "records_for_batch": 67
+    }
+  ],
+  "counts": {
+    "documents": 11,
+    "in_scope": 8,
+    "out_of_scope": 3,
+    "compiled": 5,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 12,
+    "edits": 25,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "AUD_rates_Taking_partial_profit_on_paid_March_RBA_Trade_Idea--919775",
+      "document": "AUD_rates_Taking_partial_profit_on_paid_March_RBA_Trade_Idea--919775.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/AUD_rates_Taking_partial_profit_on_paid_March_RBA_Trade_Idea--919775.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "d15a9301238afdda185bb0a7e8de1eae7ec3c4d2",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Australia inflation continues to run above target We take partial profit (40k out of 50k dv/'",
+          "chunk_id": "AUD_rates_Taking_partial_profit_on_paid_March_RBA_Trade_Idea--919775.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 2: Current levels in March and May RBA seem fair'",
+          "chunk_id": "AUD_rates_Taking_partial_profit_on_paid_March_RBA_Trade_Idea--919775.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 03/03/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "AUD rates: Taking partial profit on paid March RBA ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "”",
+              "after": "\""
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Take_profit_on_EURPLN_xccy_receiver_Trade_Idea--919792",
+      "document": "EM_rates_Take_profit_on_EURPLN_xccy_receiver_Trade_Idea--919792.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Take_profit_on_EURPLN_xccy_receiver_Trade_Idea--919792.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "93971a4efe1808ace95875e37fa089a2289aed00",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA T R A D E I D E A 03/03/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Take profit on EURPLN xccy receiver ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806",
+      "document": "EUR_basis_Take_profit_10y20y_3s6s_target_entry_on_10y20y_STR_6s_Trade_Idea--919806.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Closing_EURBRL_and_USDPEN_on_Middle_East_events_Trade_Idea--919809",
+      "document": "FX_Closing_EURBRL_and_USDPEN_on_Middle_East_events_Trade_Idea--919809.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Closing_EURBRL_and_USDPEN_on_Middle_East_events_Trade_Idea--919809.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "c88cd5c30c38f32029ad63f5ee749b63994af590",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 03/03/2026 1"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FX: Closing EURBRL and USDPEN on Middle East events ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Hedging_geopolitical_risks_via_long_USDSEK_Trade_Idea--919808",
+      "document": "Hedging_geopolitical_risks_via_long_USDSEK_Trade_Idea--919808.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Large_shocks__pass_through_and_PriceStats",
+      "document": "Large shocks, pass through and PriceStats.pdf",
+      "date": "2026-03-03",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.25,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "T_rkiye_Raising_our_end-2026_CPI_policy_rate_forecasts_Desknote--919805",
+      "document": "T_rkiye_Raising_our_end-2026_CPI_policy_rate_forecasts_Desknote--919805.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 5,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/T_rkiye_Raising_our_end-2026_CPI_policy_rate_forecasts_Desknote--919805.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "bc7ea967aef7795e8022ca5946f4e91c00c87f59",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Seasonally adjusted CPI run rate – elevated in headline, more encouraging in core Revising u'",
+          "chunk_id": "T_rkiye_Raising_our_end-2026_CPI_policy_rate_forecasts_Desknote--919805.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "F O C U S"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        }
+      ],
+      "stripped_by_section": {
+        "header": 1,
+        "disclaimer": 1,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "‘",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "UK_rates_Take_profit_on_pay_September_MPC_meeting_Trade_Idea--919799",
+      "document": "UK_rates_Take_profit_on_pay_September_MPC_meeting_Trade_Idea--919799.pdf",
+      "date": "2026-03-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/UK_rates_Take_profit_on_pay_September_MPC_meeting_Trade_Idea--919799.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "26b07ea7a5b6900319a33be681a3a67348a57572",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "Septe mber",
+              "after": "September"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 5,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " UK rates: Take profit on pay September MPC meeting ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

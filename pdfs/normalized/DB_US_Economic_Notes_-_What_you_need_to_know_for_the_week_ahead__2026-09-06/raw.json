@@ -1,0 +1,8 @@
+{
+ "references": [
+  "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"claim\", \"sid\": \"E009\", \"quote\": \"the broader measure of labor market underutilization, the U-6 rate, fell by two-tenths to 7.7%\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E010\", \"quote\": \"a two-tenths increase in the participation rate\", \"name\": \"the two-tenths increase in the participation rate\"},\n  {\"id\": \"R3\", \"type\": \"thing\", \"sid\": \"E016\", \"quote\": \"Fed Governor Waller\"},\n  {\"id\": \"R4\", \"type\": \"thing\", \"sid\": \"E003\", \"quote\": \"the September 16 FOMC meeting\"},\n  {\"id\": \"R5\", \"type\": \"thing\", \"sid\": \"E017\", \"quote\": \"August’s headline CPI\"}],\n \"decisions\": [\n  {\"candidate\": \"C001\", \"action\": \"leave\", \"reason\": \"time\"},\n  {\"candidate\": \"C002\", \"action\": \"link\", \"referent\": \"R1\"},\n  {\"candidate\": \"C003\", \"action\": \"link\", \"referent\": \"R2\", \"phrase\": \"this rise\"},\n  {\"candidate\": \"C004\", \"action\": \"leave\", \"reason\": \"time\"},\n  {\"candidate\": \"C005\", \"action\": \"link\", \"referent\": \"R3\"}],\n \"extra\": [\n  {\"sid\": \"E017\", \"phrase\": \"the September meeting\", \"occurrence\": 1, \"referent\": \"R4\"},\n  {\"sid\": \"E017\", \"phrase\": \"the former\", \"occurrence\": 1, \"referent\": \"R5\"}]}\n```"
+ ],
+ "ellipsis": [
+  "```json\n{\"items\": []}\n```"
+ ]
+}

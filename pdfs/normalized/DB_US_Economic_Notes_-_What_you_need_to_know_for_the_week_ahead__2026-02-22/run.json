@@ -1,0 +1,345 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-02-22.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-22",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 26,
+    "referents": {
+     "thing": 8,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 12,
+     "link": 14
+    },
+    "leave_reasons": {
+     "time": 6,
+     "expletive": 2,
+     "relative": 3,
+     "not_a_reference": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 42,
+  "kinds": {
+   "deixis": 16,
+   "abbreviation": 8,
+   "possessive": 6,
+   "pronoun": 6,
+   "noun_phrase": 4,
+   "symbol": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.8383838383838383,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 44,
+  "cost_usd": 0.1509
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1183,
+   "end": 1190,
+   "quote": "the CBO",
+   "name": "the CBO"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 472,
+   "end": 500,
+   "quote": "Supreme Court IEEPA decision",
+   "name": "the Supreme Court IEEPA decision"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 4274,
+   "end": 4286,
+   "quote": "policymakers",
+   "name": "policymakers"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4423,
+   "end": 4438,
+   "quote": "Governor Waller",
+   "name": "Governor Waller"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4921,
+   "end": 4944,
+   "quote": "the year-over-year rate",
+   "name": "the year-over-year rate"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 5064,
+   "end": 5078,
+   "quote": "Governor Miran",
+   "name": "Governor Miran"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 5506,
+   "end": 5583,
+   "quote": "a “vast majority” of officials saw signs of stabilization in the labor market",
+   "name": "a “vast majority” of officials saw signs of stabilization in the labor market"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5663,
+   "end": 5676,
+   "quote": "the Fed staff",
+   "name": "the Fed staff"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1866,
+   "end": 1891,
+   "quote": "the effective tariff rate",
+   "name": "the effective tariff rate"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we also outline' at 1144"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we laid' at 1741"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in ' accounting for a little over half of t he new tariff revenue collected since the '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in \"hor's expectations (see “Every rose has its thorn”), the readthrough to January cor\""
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0446424,
+   "duration_ms": 4213,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4814,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 244,
+    "output_tokens_details": {
+     "thinking_tokens": 231
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4814,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 244,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4814,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4814
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1062897,
+   "duration_ms": 24236,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5891,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2884,
+    "output_tokens_details": {
+     "thinking_tokens": 1612
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5891,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2884,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5891,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5891
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

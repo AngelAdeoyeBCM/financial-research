@@ -1,0 +1,291 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Take_profit_on_paid_THOR_5y_Trade_Idea--921068.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 12,
+    "referents": {
+     "thing": 8,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 9,
+     "leave": 3
+    },
+    "leave_reasons": {
+     "expletive": 2,
+     "time": 1
+    },
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 34,
+  "kinds": {
+   "deixis": 19,
+   "noun_phrase": 9,
+   "possessive": 4,
+   "proposition": 2
+  },
+  "rooted_share": 0.8461538461538461,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "LONG_RESOLUTION": 2
+  },
+  "sentences": 22,
+  "cost_usd": 0.1222
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 344,
+   "end": 377,
+   "quote": "our paid position in M26, 5y THOR",
+   "name": "the paid position in M26, 5y THOR"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2153,
+   "end": 2186,
+   "quote": "our paid position in M26, 5y THOR",
+   "name": "the paid position in M26, 5y THOR"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 773,
+   "end": 781,
+   "quote": "Thailand",
+   "name": "Thailand"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1810,
+   "end": 1835,
+   "quote": "Monetary Policy Committee",
+   "name": "the Monetary Policy Committee"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 1754,
+   "end": 1934,
+   "quote": "The BoT rate cut last month increases the risk that the Monetary Policy Committee may have a lower bound for its policy rate in mind, particularly if tourism is negatively impacted",
+   "name": "The BoT rate cut last month increases the risk that the Monetary Policy Committee may have a lower bound for its policy rate in mind, particularly if tourism is negatively impacted"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 3611,
+   "end": 3821,
+   "quote": "The Bank of Thailand's surprise rate cut last month increases the risk that the Monetary Policy Committee (MPC) may have a lower bound for its policy rate in mind, particularly if tourism is negatively impacted",
+   "name": "The Bank of Thailand's surprise rate cut last month increases the risk that the Monetary Policy Committee (MPC) may have a lower bound for its policy rate in mind, particularly if tourism is negatively impacted"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2190,
+   "end": 2195,
+   "quote": "1.60%",
+   "name": "1.60%"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 512,
+   "end": 573,
+   "quote": "a win for the Bhumjaithai Party (BJT) and Anutin Charnvirakul",
+   "name": "the win for the Bhumjaithai Party (BJT) and Anutin Charnvirakul"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 761,
+   "end": 781,
+   "quote": "the Bank of Thailand",
+   "name": "the Bank of Thailand"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 870,
+   "end": 911,
+   "quote": "the ongoing escalation in the Middle East",
+   "name": "the ongoing escalation in the Middle East"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we deem' at 1961"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 2046"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 4120"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1955",
+   "message": "+34 words: {{this => that the BoT rate cut last month increases the risk that the Monetary Policy Committee may have a lower bound for the Monetary Policy Committee's policy rate in mind, particularly if tourism is negatively impacted}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3842",
+   "message": "+38 words: {{this => that the Bank of Thailand's surprise rate cut last month increases the risk that the Monetary Policy Committee (MPC) may have a lower bound for the Monetary Policy Committee's policy rate in mind, particularly if tourism is negatively impacted}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.032615500000000006,
+   "duration_ms": 2404,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3705,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 103,
+    "output_tokens_details": {
+     "thinking_tokens": 95
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3705,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 103,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3705,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3705
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.08954580000000001,
+   "duration_ms": 22904,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4172,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2751,
+    "output_tokens_details": {
+     "thinking_tokens": 1481
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4172,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2751,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4172,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4172
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+  "batch_id": "2026-06-03",
+  "window": [
+    "2026-06-03",
+    "2026-06-03"
+  ],
+  "generated_at": "2026-10-29T16:29:30",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-02_2026-06-05.json",
+      "sha256": "cf261de0dc8c056e3d4917b3c42533d1ad66bd39bd5c4caffbcbda8900ea3083",
+      "records": 2602,
+      "dates": [
+        "2026-06-02",
+        "2026-06-05"
+      ],
+      "records_for_batch": 56
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 5,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 7,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "EM_rates_Entering_an_MXN_basis_flattener_trade_Trade_Idea--925574",
+      "document": "EM_rates_Entering_an_MXN_basis_flattener_trade_Trade_Idea--925574.pdf",
+      "date": "2026-06-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Take_profit_on_long_USDJPY_Trade_Idea--925529",
+      "document": "FX_Take_profit_on_long_USDJPY_Trade_Idea--925529.pdf",
+      "date": "2026-06-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Take_profit_on_long_USDJPY_Trade_Idea--925529.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "17806734409c7ae350dd0bde82272a47c2ec13b8",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "| BNP Paribas London Branch |"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "G10 FX Strategist | BNP Paribas"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "G10 FX Strategist | BNP Paribas London Branch |"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1,
+        "footer": 3
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Take profit on long USDJPY ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "STEER_USD_overvaluation_selectively_increases_Trade_Idea--925555",
+      "document": "STEER_USD_overvaluation_selectively_increases_Trade_Idea--925555.pdf",
+      "date": "2026-06-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Split_USD_decisions",
+      "document": "Split USD decisions.pdf",
+      "date": "2026-06-03",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "US_rates_Echoes_of_Liberation_Day_Desknote--920063",
+      "document": "US_rates_Echoes_of_Liberation_Day_Desknote--920063.pdf",
+      "date": "2026-06-03",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_June_FOMC_recap_-_Rock_Chalk__Warsh-hawk.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-17",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 41,
+    "referents": {
+     "thing": 8,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 37,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "generic": 2,
+     "time": 1,
+     "expletive": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 46,
+  "kinds": {
+   "pronoun": 23,
+   "possessive": 9,
+   "noun_phrase": 7,
+   "abbreviation": 4,
+   "deixis": 2,
+   "shell": 1
+  },
+  "rooted_share": 0.8706896551724138,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 65,
+  "cost_usd": 0.1065
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 111,
+   "end": 122,
+   "quote": "Kevin Warsh",
+   "name": "Kevin Warsh"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2197,
+   "end": 2215,
+   "quote": "The FOMC statement",
+   "name": "the FOMC statement"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 368,
+   "end": 403,
+   "quote": "the Summary of Economic Projections",
+   "name": "the Summary of Economic Projections"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 6741,
+   "end": 6772,
+   "quote": "the hawkish signal from the SEP",
+   "name": "the hawkish signal from the SEP"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1383,
+   "end": 1408,
+   "quote": "task forces in five areas",
+   "name": "the task forces in five areas"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2767,
+   "end": 2888,
+   "quote": "activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East",
+   "name": "activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4768,
+   "end": 4823,
+   "quote": "the balance of risks around the l abor market forecasts",
+   "name": "the risks around the l abor market forecasts"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5198,
+   "end": 5210,
+   "quote": "the dot plot",
+   "name": "the dot plot"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 6186,
+   "end": 6193,
+   "quote": "the Fed",
+   "name": "the Fed"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C015",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C035",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 2891",
+   "message": "+22 words: {{This resilience => The resilience that activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 14",
+   "message": "'its' in ' at 31⁄2 –33⁄4 percent and reaffirm[ed] its policy of maintaining ample reserves in'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 19",
+   "message": "'He' in '“He also noted that “we’ll be meeting again'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.015878200000000002,
+   "duration_ms": 8529,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8379,
+    "output_tokens": 688,
+    "output_tokens_details": {
+     "thinking_tokens": 675
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 688,
+      "cache_read_input_tokens": 8379,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.09064760000000001,
+   "duration_ms": 37042,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 10853,
+    "output_tokens": 4394,
+    "output_tokens_details": {
+     "thinking_tokens": 2566
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4394,
+      "cache_read_input_tokens": 10853,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

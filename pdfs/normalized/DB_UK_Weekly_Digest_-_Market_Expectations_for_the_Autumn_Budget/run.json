@@ -1,0 +1,287 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_UK_Weekly_Digest_-_Market_Expectations_for_the_Autumn_Budget.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 12,
+    "referents": {
+     "thing": 7,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 6,
+     "link": 6
+    },
+    "leave_reasons": {
+     "relative": 2,
+     "time": 1,
+     "not_a_reference": 3
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 34,
+  "kinds": {
+   "deixis": 24,
+   "noun_phrase": 4,
+   "possessive": 2,
+   "proposition": 1,
+   "answer": 1,
+   "demonstrative": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.54,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 89,
+  "cost_usd": 0.167
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 3911,
+   "end": 3956,
+   "quote": "the probability of a General Election in 2027",
+   "name": "the probability of a General Election in 2027"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 4522,
+   "end": 4529,
+   "quote": "the MPC",
+   "name": "the MPC"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 4909,
+   "end": 4983,
+   "quote": "The GfK consumer confidence data also slipped by 10pts to -24 in September",
+   "name": "The GfK consumer confidence data also slipped by 10pts to -24 in September"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 7071,
+   "end": 7091,
+   "quote": "the 3y ahead measure",
+   "name": "the 3y ahead measure"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1952,
+   "end": 1970,
+   "quote": "2026 Autumn Budget",
+   "name": "the 2026 Autumn Budget"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 6406,
+   "end": 6420,
+   "quote": "The Bank’s DMP",
+   "name": "the Bank’s DMP"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 7206,
+   "end": 7213,
+   "quote": "the CBI",
+   "name": "the CBI"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 7218,
+   "end": 7237,
+   "quote": "BRC Shop Price data",
+   "name": "the BRC Shop Price data"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 14",
+   "message": "'their' in 'the Budget to have a negative impact on their personal circumstances.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 14",
+   "message": "'their' in '43% expect the Budget to be neutral on their personal circumstances.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 14",
+   "message": "'their' in 'the Budget to have a positive impact on their personal circumstances.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.061345699999999996,
+   "duration_ms": 8188,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5617,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 765,
+    "output_tokens_details": {
+     "thinking_tokens": 677
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5617,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 765,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5617,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5617
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1056834,
+   "duration_ms": 24749,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6083,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2784,
+    "output_tokens_details": {
+     "thinking_tokens": 1885
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6083,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2784,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6083,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6083
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

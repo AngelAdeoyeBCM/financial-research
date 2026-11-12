@@ -1,0 +1,818 @@
+<title>Entity States: samples_v12 Opus</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a ledger. Summary bars + subject chart on top, then a filterable list of statements with keys drawn as slot chips. */
+:root {
+  --bg: #f5f6f8; --surface: #ffffff; --sunk: #eceef2; --fg: #14171c; --fg2: #4a515c; --muted: #7c838d;
+  --line: #dfe2e7; --ink: #1d3a63;
+  /* entity families (categorical slots 1,2,3,7) */
+  --f-mkt: #2a78d6; --f-mac: #eb6834; --f-act: #1baf7a; --f-evt: #6250d6; --f-miss: #d03b3b; --f-oth: #898781;
+  /* status (reserved) */
+  --ok: #0ca30c; --build: #fab219; --fail: #d03b3b;
+  --ok-ink: #006300; --build-ink: #865700; --fail-ink: #b02a2a;
+  --on-ok: #ffffff; --on-build: #0b0b0b; --on-fail: #ffffff;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1114; --surface: #171a1f; --sunk: #20242a; --fg: #eef0f3; --fg2: #b8bdc6; --muted: #8a9099;
+    --line: #2b3038; --ink: #9cc3f5;
+    --f-mkt: #3987e5; --f-mac: #d95926; --f-act: #199e70; --f-evt: #9085e9; --f-miss: #e66767;
+    --ok-ink: #45c645; --build-ink: #fab219; --fail-ink: #ef7d7d;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1114; --surface: #171a1f; --sunk: #20242a; --fg: #eef0f3; --fg2: #b8bdc6; --muted: #8a9099;
+  --line: #2b3038; --ink: #9cc3f5;
+  --f-mkt: #3987e5; --f-mac: #d95926; --f-act: #199e70; --f-evt: #9085e9; --f-miss: #e66767;
+  --ok-ink: #45c645; --build-ink: #fab219; --fail-ink: #ef7d7d;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 14px; line-height: 1.5; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 28px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+h1 { font-size: 26px; font-weight: 600; letter-spacing: -0.01em; }
+h2 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--fg2); }
+p { margin: 0; }
+code, .mono { font-family: var(--mono); font-size: 12.5px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.lede { color: var(--fg2); max-width: 70ch; }
+header { display: grid; gap: 8px; }
+
+/* panels */
+.grid2 { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 20px; }
+@media (max-width: 860px) { .grid2 { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 18px; display: grid; gap: 14px; align-content: start; min-width: 0; }
+
+/* status legend + bars */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; color: var(--fg2); font-size: 12.5px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; flex: none; }
+.sw.ok { background: var(--ok); } .sw.build { background: var(--build); } .sw.fail { background: var(--fail); }
+.bars { display: grid; gap: 10px; }
+.barrow { display: grid; grid-template-columns: minmax(0, 190px) minmax(0, 1fr); gap: 12px; align-items: center;
+  background: none; border: 0; padding: 4px 6px; margin: 0 -6px; border-radius: 6px; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+.barrow:hover { background: var(--sunk); }
+.barrow[aria-pressed="true"] { background: var(--sunk); box-shadow: inset 0 0 0 1px var(--line); }
+.barrow:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.barlabel { display: grid; min-width: 0; }
+.barlabel b { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.barlabel small { color: var(--muted); font-size: 12px; }
+.stack { display: flex; gap: 2px; height: 22px; }
+.stack.total { height: 30px; }
+.seg { border-radius: 2px; display: flex; align-items: center; padding: 0 6px; font-size: 11.5px; font-weight: 600;
+  font-variant-numeric: tabular-nums; overflow: hidden; white-space: nowrap; min-width: 0; }
+.stack > .seg:first-child { border-radius: 4px 2px 2px 4px; } .stack > .seg:last-child { border-radius: 2px 4px 4px 2px; }
+.seg.ok { background: var(--ok); color: var(--on-ok); } .seg.build { background: var(--build); color: var(--on-build); } .seg.fail { background: var(--fail); color: var(--on-fail); }
+.headline { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+.headline .big { font-size: 34px; font-weight: 600; letter-spacing: -0.02em; }
+.headline .sub { color: var(--fg2); }
+
+/* subjects chart */
+.subj { display: grid; gap: 6px; }
+.subjrow { display: grid; grid-template-columns: minmax(0, 210px) minmax(0, 1fr) 28px; gap: 10px; align-items: center;
+  background: none; border: 0; padding: 3px 6px; margin: 0 -6px; border-radius: 6px; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+.subjrow:hover { background: var(--sunk); }
+.subjrow .n { font-variant-numeric: tabular-nums; color: var(--fg2); font-size: 12.5px; text-align: right; }
+.subjrow .stack { height: 14px; }
+.subjrow .seg { padding: 0; }
+
+/* families */
+.fam { --c: var(--f-oth); }
+.fam-mkt { --c: var(--f-mkt); } .fam-mac { --c: var(--f-mac); } .fam-act { --c: var(--f-act); } .fam-evt { --c: var(--f-evt); } .fam-miss { --c: var(--f-miss); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; display: inline-block; }
+.fam-miss .dot { background: transparent; box-shadow: inset 0 0 0 1.5px var(--c); }
+
+/* findings */
+.findings ol, .findings ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; color: var(--fg2); }
+.findings li b { color: var(--fg); font-weight: 500; }
+.reasons { display: grid; gap: 8px; }
+.reason { display: grid; grid-template-columns: minmax(0, 1fr) 90px 24px; gap: 10px; align-items: center; }
+.reason .track { height: 8px; background: var(--sunk); border-radius: 4px; overflow: hidden; }
+.reason .fill { height: 100%; background: var(--fail); border-radius: 4px; }
+.reason .n { font-variant-numeric: tabular-nums; text-align: right; color: var(--fg2); }
+.reason small { display: block; color: var(--muted); font-size: 12px; }
+
+/* format explainer */
+details.fmt { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+details.fmt summary { cursor: pointer; padding: 12px 18px; font-weight: 500; }
+details.fmt .body { padding: 0 18px 18px; display: grid; gap: 14px; }
+.fmtgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 860px) { .fmtgrid { grid-template-columns: minmax(0, 1fr); } }
+.fmtgrid > div { display: grid; gap: 6px; align-content: start; min-width: 0; }
+.fmtgrid h3 { font-size: 13px; font-weight: 600; }
+.fmtgrid p { color: var(--fg2); font-size: 13px; }
+
+/* controls */
+.controls { display: grid; gap: 10px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.crow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.crow .lbl { font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin-right: 4px; min-width: 56px; }
+.chipbtn { font: inherit; font-size: 12.5px; border: 1px solid var(--line); background: var(--surface); color: var(--fg2);
+  border-radius: 999px; padding: 3px 11px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.chipbtn:hover { border-color: var(--muted); color: var(--fg); }
+.chipbtn[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.chipbtn[aria-pressed="true"] .dot { box-shadow: 0 0 0 1.5px var(--surface); }
+.chipbtn .ct { font-variant-numeric: tabular-nums; opacity: 0.75; }
+#q { font: inherit; font-size: 13px; padding: 5px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); width: min(320px, 100%); }
+.shown { color: var(--muted); font-size: 12.5px; margin-left: auto; font-variant-numeric: tabular-nums; }
+
+/* statement list */
+.list { display: grid; gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.docsep { padding: 10px 16px; background: var(--sunk); border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.docsep b { font-weight: 600; } .docsep span { color: var(--muted); font-size: 12.5px; }
+.row { display: grid; grid-template-columns: 52px minmax(0, 1fr) 128px; gap: 12px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+.row:last-child { border-bottom: 0; }
+.row .sid { font-family: var(--mono); font-size: 12px; color: var(--muted); padding-top: 2px; }
+.row .main { display: grid; gap: 6px; min-width: 0; }
+.row .brief { font-weight: 600; }
+.row .stmt { color: var(--fg2); max-width: 90ch; margin-bottom: 2px; }
+.row .note { color: var(--muted); font-size: 12.5px; }
+.row .note code { font-size: 11.5px; }
+.empty { padding: 28px 16px; color: var(--muted); text-align: center; }
+@media (max-width: 640px) {
+  .row { grid-template-columns: minmax(0, 1fr) auto; }
+  .row .sid { grid-column: 1; grid-row: 1; }
+  .row .pillcell { grid-column: 2; grid-row: 1; justify-self: end; }
+  .row .main { grid-column: 1 / -1; }
+  .barrow, .subjrow { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .subjrow .n { display: none; }
+}
+
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.pill .ic { font-weight: 700; }
+.pill.ok { color: var(--ok-ink); background: color-mix(in srgb, var(--ok) 13%, var(--surface)); }
+.pill.build { color: var(--build-ink); background: color-mix(in srgb, var(--build) 20%, var(--surface)); }
+.pill.fail { color: var(--fail-ink); background: color-mix(in srgb, var(--fail) 13%, var(--surface)); }
+
+/* key rendering */
+.key { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-family: var(--mono); font-size: 12.5px; }
+.link { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.st { display: inline-flex; flex-wrap: wrap; align-items: center; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); max-width: 100%; }
+.st > * { padding: 2px 8px; border-left: 1px solid var(--line); min-width: 0; overflow-wrap: anywhere; }
+.st > *:first-child { border-left: 0; }
+.subjchip { display: inline-flex; gap: 6px; align-items: center; background: color-mix(in srgb, var(--c) 12%, var(--surface)); color: var(--fg);
+  cursor: pointer; border: 0; font: inherit; }
+.subjchip:hover { background: color-mix(in srgb, var(--c) 22%, var(--surface)); }
+.fam-miss.subjchip { background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--c) 14%, var(--surface)) 0 4px, var(--surface) 4px 8px); }
+.var { color: var(--fg2); } .var i { font-style: normal; color: var(--muted); }
+.val { color: var(--fg); font-weight: 500; }
+.hz { color: var(--muted); }
+.dir { font-weight: 600; color: var(--fg); text-transform: uppercase; font-size: 11.5px; letter-spacing: 0.04em; }
+.act { color: var(--fg2); }
+.arrow { color: var(--muted); font-family: var(--sans); font-size: 15px; }
+.semi { color: var(--muted); }
+.nokey { color: var(--muted); font-style: italic; font-family: var(--sans); font-size: 12.5px; }
+.kindtag { font-family: var(--sans); font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
+
+#tip { position: fixed; z-index: 20; pointer-events: none; background: var(--fg); color: var(--bg); font-size: 12px; padding: 5px 8px; border-radius: 5px; max-width: 280px; }
+@media (prefers-reduced-motion: no-preference) { .row { transition: background 120ms; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">outputs/samples_v12 · opus argument maps · ColourKG entity states</div>
+    <h1>Can each claim resolve to an entity state?</h1>
+    <p class="lede">All 300 statements from four opus argument maps, mapped by hand to <code>subject | variable | value | horizon</code> state keys or <code>instrument | direction | action</code> position keys. Claim features (type, modality, holder) are ignored. The only question is whether the entity and the state resolve against <code>config/registries</code>.</p>
+  </header>
+
+  <section class="grid2" aria-label="Summary">
+    <div class="panel">
+      <h2>Resolution by document</h2>
+      <div class="headline"><span class="big">82%</span><span class="sub">resolve today or with a key built from registered parts</span></div>
+      <div class="legend">
+        <span><i class="sw ok"></i>✓ Resolves now: every id registered</span>
+        <span><i class="sw build"></i>◐ Buildable: key built from registered parts</span>
+        <span><i class="sw fail"></i>✕ Can't resolve</span>
+      </div>
+      <div class="bars" id="bars"></div>
+    </div>
+    <div class="panel">
+      <h2>Most-used subjects</h2>
+      <p class="lede" style="font-size:13px">Statements that mention each subject, split by the statement's status. Click a subject to filter the list.</p>
+      <div class="subj" id="subjects"></div>
+      <div class="legend" id="famlegend"></div>
+    </div>
+  </section>
+
+  <section class="grid2 findings" aria-label="Findings">
+    <div class="panel">
+      <h2>Why keys only build (131)</h2>
+      <ol>
+        <li><b>Policy-rate indicators missing</b> for US, JP, NZ, NO, SE, CA, AU. Only <code>ind:{ea,gb,ch,cn}:policy_rate</code> exist; the US has only <code>rate:fed_funds</code>.</li>
+        <li><b>Event occurrences</b> such as <code>event:fomc@2026-09</code>. The registry holds only series.</li>
+        <li><b>Participant groups</b>: real money, speculative, households, life insurers, banks, corporates.</li>
+        <li><b>Built instruments</b>: UST 2y/30y outrights and curves, OAT-Bund 10y, SOFR-TONA spread and basis.</li>
+        <li><b>Unregistered crosses</b>: <code>fx:chfjpy</code>, <code>fx:audcad</code>, <code>fx:cadchf</code>.</li>
+        <li><b>No FX-intervention tool</b>, so <code>org:jp_mof</code> stands in.</li>
+        <li><b>Indicators built from measure × geo</b>: <code>ind:gb:gdp</code>, <code>ind:nz:*</code>, <code>ind:jp:term_premium</code>.</li>
+      </ol>
+    </div>
+    <div class="panel">
+      <h2>Why statements can't resolve (54)</h2>
+      <div class="reasons" id="reasons"></div>
+      <h2 style="margin-top:6px">Design points</h2>
+      <ul>
+        <li><b>Keys merge.</b> Beam S003, S033 and S080 all become <code>fx:audcad | short | maintain</code>.</li>
+        <li><b>Disagreement is countable.</b> BofA's +75bp and the Fed dots' +50bp share <code>ind:us:policy_rate | path | · | 2026</code>.</li>
+        <li><b>"Constructive"</b> on an asset-swap spread has no direction (FOMC S073).</li>
+        <li><b>6m3m forward vol</b> can't be built: <code>Outright</code> rejects a forward start on options.</li>
+        <li><b>Basis widening</b> has no sign convention in DOC.md §5.</li>
+        <li><b>Revisions</b> need <code>vs prior_sep</code> to differ from levels.</li>
+      </ul>
+    </div>
+  </section>
+
+  <details class="fmt">
+    <summary>How to read a key</summary>
+    <div class="body">
+      <div class="fmtgrid">
+        <div>
+          <h3>Position</h3>
+          <div class="key" id="ex-pos"></div>
+          <p>Instrument, direction, action. Pairs use <code>fx:</code> in market convention, so "long JPY vs CHF" becomes <code>fx:chfjpy | short</code>. Actions: open, maintain, close, review.</p>
+        </div>
+        <div>
+          <h3>State</h3>
+          <div class="key" id="ex-state"></div>
+          <p>Subject, variable, value, horizon. Qualifiers sit in brackets (<code>flows[real_money]</code>). <code>priced</code> is kept apart from <code>path</code> so "underpriced" reads as <code>path vs priced</code>.</p>
+        </div>
+        <div>
+          <h3>Causal</h3>
+          <div class="key" id="ex-causal"></div>
+          <p>State → state. A semicolon joins states on one side. Subjects starting with <code>?</code> (hatched) don't exist and can't be built.</p>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <section aria-label="Statements" style="display:grid; gap:0">
+    <div class="controls">
+      <div class="crow" id="f-doc"><span class="lbl">Doc</span></div>
+      <div class="crow" id="f-status"><span class="lbl">Status</span></div>
+      <div class="crow" id="f-kind"><span class="lbl">Kind</span></div>
+      <div class="crow" id="f-fam"><span class="lbl">Entity</span></div>
+      <div class="crow"><span class="lbl">Search</span><input id="q" type="search" placeholder="Search text or keys, e.g. GPIF, ind:us:policy_rate" aria-label="Search statements"><span class="shown" id="shown"></span></div>
+    </div>
+    <div class="list" id="list" style="margin-top:14px"></div>
+  </section>
+</div>
+<div id="tip" hidden></div>
+
+<script type="text/plain" id="raw-beam">
+- **S001** Buyback turned focus to debt: `policy:ust_buybacks | size | UP:4bn | - -> ?theme:us_debt_sustainability | salience | UP | -` ❌ theme (no theme registry)
+- **S002** Underweight USD: `ccy:usd | short | maintain` ✅
+- **S003** Short AUDCAD: `fx:audcad | short | maintain` 🟡 cross
+- **S004** Room for trade U-turns: `event:us_canada_trade_war | outcome_prob[sanctions] | DOWN | 2027-01` ✅
+- **S005** CAD reaction overdone: `ccy:cad | valuation | cheap | near` ✅
+- **S006** Long EURGBP: `fx:eurgbp | long | maintain` ✅
+- **S007** Short CHFJPY: `fx:chfjpy | short | maintain` 🟡 cross
+- **S008** Long EURUSD: `fx:eurusd | long | maintain` ✅
+- **S009** Yield rise a drift: `bond:ust | yield | UP | 2026Q3 ; INS:CURVE[bond:ust]:2y/10y:cash | slope | UP:24bp | 2026Q3` 🟡 built curve; "not stress" has no slot
+- **S010** Debt interest a huge problem: `?ind:us:net_interest | level | UP | -` ❌ no interest-cost measure
+- **S011** US duration unattractive: `bond:ust | valuation | rich | -` ✅
+- **S012** Buybacks won't stem yields: `INS:OUTRIGHT[bond:ust]:30y:cash | yield | UP | 2026Q3` 🟡 "long end" taken as 30y
+- **S013** Won't accept $32bn: `policy:ust_buybacks | accepted_size | below:32bn | 2026Q3` ✅
+- **S014** Drop in the ocean: `policy:ust_buybacks | size vs bond:ust supply[10y+] | small | 2026Q3` ✅
+- **S015** Not the only game in town: `bond:ust | demand_share | DOWN | -` ✅ lossy
+- **S016** AI drives corporate issuance: `?theme:ai_capex -> ?credit:us_corporate | supply | UP | 2026` ❌ no theme or corporate-credit entity
+- **S017** Japanese flows less supportive: `bond:ust | flows[geo:jp] | DOWN | -` ✅
+- **S018** JGB yields draw flows home: `bond:jgb | yield | UP -> ind:jp:capital_flows | net_inflow | UP` 🟡 built indicator
+- **S019** Yields support USD for now: `bond:ust | yield | UP -> ccy:usd | value | UP | near` ✅
+- **S020** Yield support may fade: `?CORR[index:dxy|bond:ust:30y] | level | DOWN` ❌ correlation needs a pair subject
+- **S021** Growth vs deficit yields: `ind:us:gdp | trend | UP -> ccy:usd | value | UP ; ind:us:budget_balance | level | DOWN -> ccy:usd | value | FLAT` 🟡 built indicator; mediating yield state dropped
+- **S022** Bessent hurt confidence: `person:scott_bessent | credibility | DOWN | -` ✅
+- **S023** Fallout weighs on USD: `person:scott_bessent | credibility | DOWN -> ccy:usd | value | DOWN | near` ✅
+- **S024** Warsh has a needle to thread: ❌ not a state
+- **S025** Little on reaction function: `org:fed | reaction_function | unclear | event:jackson_hole@2026-08` ✅
+- **S026** Balance-sheet aims vs buybacks: `person:kevin_warsh | stance[balance_sheet] | shrink | -` ✅ the clash with `policy:ust_buybacks` is a relation and is lost
+- **S027** Yields up, carry less compelling: `bond:ust | yield | UP -> ?strategy:fx_carry | attractiveness | DOWN` ❌ no strategy entity
+- **S028** Real money overweight carry: `?strategy:fx_carry | positioning[real_money] | long` ❌
+- **S029** Risk appetite positive: `?risk_appetite[real_money] | level | positive` ❌
+- **S030** Yields rise again: `bond:ust | yield | UP | -` ✅
+- **S031** Carry a loser: `?strategy:fx_carry | performance | DOWN` ❌
+- **S032** BoC/market ignore strong data: `?ind:ca:econ_surprise | level | UP ; org:boc | stance | FLAT ; ind:ca:policy_rate | priced | FLAT` ❌ no surprise-index measure
+- **S033** Overweight CAD vs AUD: `fx:audcad | short | maintain` 🟡 same key as S003
+- **S034** Intervention changed JPY dynamic: `org:jp_mof | fx_intervention | BUY_JPY | 2026-07 -> ccy:jpy | regime | changed | near` 🟡 no intervention tool, fell back to the org
+- **S035** BoJ hikes underpriced: `ind:jp:policy_rate | path vs priced | above | 2026` 🟡
+- **S036** Real money buying EUR: `ccy:eur | flows[real_money] | BUY | -` 🟡 participant
+- **S037** Market reads ECB hawkish: `org:ecb | stance | hawkish | -` ✅
+- **S038** BoE pricing too high vs ECB: `ind:gb:policy_rate | priced vs ind:ea:policy_rate | rich | -` ✅
+- **S039** Tone/surprises favour EUR: `fx:eurgbp | spot | UP | - ; fx:eurusd | spot | UP | -` ✅
+- **S040** NZ troughed, CPI above target: `ind:nz:gdp | trend | UP ; ind:nz:cpi | target_gap | above` 🟡
+- **S041** A lot expected of RBNZ: `ind:nz:policy_rate | priced | UP | medium` 🟡
+- **S042** Neutral NZD: `ccy:nzd | neutral | maintain` ✅
+- **S043** SEK vulnerable in shocks: `?risk_appetite | level | DOWN -> ccy:sek | value | DOWN ; cmdty:crude_oil | price | DOWN -> ccy:sek | value | DOWN` ❌ risk-on/off has no subject (the oil leg resolves)
+- **S044** Conflict and oil recede: `event:middle_east_conflict | escalation_risk | DOWN ; cmdty:crude_oil | price | DOWN` ✅
+- **S045** SEK can recover: `ccy:sek | value | UP | -` ✅
+- **S046** Neutral SEK: `ccy:sek | neutral | maintain` ✅
+- **S047** NOK vs energy: `cmdty:crude_oil | price | DOWN -> ccy:nok | value | DOWN` ✅
+- **S048** Limited escalation appetite: `event:middle_east_conflict | escalation_risk | low | -` ✅
+- **S049** NOK uncertain: `ccy:nok | risk_balance | two_way | -` ✅
+- **S050** Neutral NOK: `ccy:nok | neutral | maintain` ✅
+- **S051** High bar for Sept hike: `ind:us:policy_rate | decision | hold | event:fomc@2026-09` 🟡
+- **S052** USD vulnerable: `ccy:usd | value | DOWN | near` ✅
+- **S053** SNB most dovish: `org:snb | stance | dovish (rank 1 vs geo:g10) | -` ✅
+- **S054** Risk appetite / geopolitics: `?risk_appetite | level | positive ; geo:global | political_risk | elevated, FLAT` ❌ risk appetite
+- **S055** CHF ideal funder: `ccy:chf | funding_role | ideal | -` ✅ new variable
+- **S056** Sterling stubborn: `ccy:gbp | value | FLAT ; ccy:gbp | flows[real_money] | BUY ; ind:gb:gdp | trend | weak` 🟡 participant; built indicator
+- **S057** Iran hit to AU labour: `event:middle_east_conflict | escalation | UP -> ind:au:gdp | trend | DOWN ; ind:au:labour_force | condition | loosening` 🟡
+- **S058** AUD most overweight: `ccy:aud | positioning[real_money] | long (extreme) | -` 🟡 participant
+- **S059** Uncomfortable Fed backdrop: `ind:us:pce | target_gap | above ; ind:us:unemployment_rate | condition | fragile` ✅ "uncomfortable for the Fed" itself is not a state
+- **S060** ECB pricing steady: `ind:ea:policy_rate | priced | FLAT | -` ✅
+- **S061** BoJ more hawkish: `org:boj | stance | UP ; ind:jp:cpi | target_gap | above` ✅
+- **S062** More BoJ hikes: `ind:jp:policy_rate | path | UP | 2026` 🟡
+- **S063** UK growth potential < EZ: `ind:gb:gdp | potential vs ind:ea:gdp | below | -` 🟡
+- **S064** UK inflation sticky: `ind:gb:cpi | condition | sticky | -` ✅
+- **S065** UK wages slowing: `ind:gb:wages | trend | DOWN | -` 🟡
+- **S066** UK pricing a maximum: `ind:gb:policy_rate | priced | rich (ceiling) | -` ✅
+- **S067** SNB little room: `ind:ch:policy_rate | level | 0% ; org:snb | policy_space | limited` ✅
+- **S068** CHF expensive: `ccy:chf | valuation | rich (moderate) | -` ✅
+- **S069** SNB on hold: `ind:ch:policy_rate | path | FLAT | 2026` ✅
+- **S070** More RBNZ hikes: `ind:nz:policy_rate | path | UP | 12m` 🟡
+- **S071** Norges shallow: `ind:no:policy_rate | path | UP (shallow) | -` 🟡
+- **S072** Riksbank low inflation: `ind:se:cpif | level | low vs geo:g10 | -` ✅
+- **S073** Riksbank lags ECB: `ind:se:policy_rate | path vs ind:ea:policy_rate | later | -` 🟡
+- **S074** Boost short CHFJPY: `fx:chfjpy | short | maintain` 🟡 same key as S007
+- **S075** Boost long USDCHF: `fx:usdchf | long | maintain` ✅
+- **S076** Boost switch: `fx:cadchf | long | open ; fx:audcad | short | close` 🟡
+- **S077** Value drives Boost: ❌ model-factor attribution
+- **S078** Rate diffs drive Boost: ❌ same
+- **S079** Growth diffs drive Boost: ❌ same
+- **S080** Forest short AUDCAD: `fx:audcad | short | maintain` 🟡
+- **S081** Forest long USDCHF: `fx:usdchf | long | maintain` ✅
+- **S082** Forest switch: `fx:cadchf | long | open ; fx:chfjpy | short | close` 🟡
+- **S083** Growth/momentum drive Forest: ❌ model-factor attribution
+- **S084** Value/rates drive Forest: ❌ same
+</script>
+<script type="text/plain" id="raw-france">
+- **S001** France risk partly priced in FX: `ccy:eur | risk_premium[geo:fr] | partly_priced | -` ✅
+- **S002** Constructive EUR: `ccy:eur | value | UP | medium` ✅
+- **S003** France a downside risk: `geo:fr | political_risk | elevated -> ccy:eur | risk_balance | downside | medium` ✅
+- **S004** No budget disruption: `event:fr_budget@2027 | outcome | orderly | -` 🟡 occurrence
+- **S005** Election is the next catalyst: `event:fr_presidential_2027 | timing | early (2027Q1) | -` ✅ the ranking against the budget is lost
+- **S006** Weak French macro: `ind:fr:gdp | trend | weak | -` ✅
+- **S007** Fiscal slippage, Moody's: `ind:fr:budget_balance | path | DOWN ; bond:oat | credit_rating[org:moodys] | downgrade_risk | 2026-10-23` 🟡 built indicator
+- **S008** EU-integration risk: `event:fr_presidential_2027 | outcome | anti_integration -> ccy:eur | risk_balance | downside | medium` 🟡 theme carried as an outcome label
+- **S009** Parliamentary fragmentation: `?event:fr_legislative_2027 | outcome | fragmented -> ccy:eur | risk_balance | downside` ❌ no legislative-election series
+- **S010** Budget stability risk: `event:fr_budget@2027 | political_risk | elevated -> ccy:eur | risk_balance | downside | near` 🟡
+- **S011** Budget passes, deficit flat: `event:fr_budget@2027 | outcome | passed ; ind:fr:budget_balance | level | FLAT vs 2026 | 2027` 🟡
+- **S012** Needs c60bp of measures: `geo:fr | fiscal_stance | tighten:0.6pp GDP | 2027` ✅
+- **S013** President could dissolve parliament: `?event:fr_legislative_2027 | timing | 2027` ❌ same gap as S009
+- **S014** France drove EUR sentiment/RR lows: `geo:fr | political_risk | UP -> ccy:eur | sentiment | DOWN ; fx:eurusd | rr_25d | DOWN` ✅
+- **S015** Low REER reflects low inflation: `ind:fr:cpi | level | low -> ?ind:fr:reer | level | low` ❌ no REER measure
+- **S016** Election risk in options: `fx:eur* | implied_vol[event:fr_presidential_2027] | priced` 🟡 "EUR crosses" is a family
+- **S017** 6m3m forward-vol peak: `fx:eur* | implied_vol | UP | 2027-04..06` 🟡 the 6m3m instrument can't be built
+- **S018** Premium in EURGBP, EURCHF: `fx:eurgbp | implied_vol[event:fr_presidential_2027] | rich ; fx:eurchf | … | rich` ✅
+- **S019** Historically large premium: `fx:eur* | implied_vol[event:fr_presidential_2027] | rich vs history` 🟡
+- **S020** EURUSD sentiment drop not France: `fx:eurusd | sentiment | DOWN | -` ✅ the negated driver has no slot
+- **S021** EURUSD sentiment neutral: `fx:eurusd | sentiment | neutral | -` ✅
+- **S022** EUR positioning unremarkable: `ccy:eur | positioning | neutral | -` ✅
+- **S023** Higher stakes: `event:fr_presidential_2027 | impact[ccy:eur] | high vs prior | -` ✅
+- **S024** Competitive race: `event:fr_presidential_2027 | outcome_distribution | competitive` ✅
+- **S025** Other markets partly price it: `INS:SPREAD[bond:oat|bond:bund]:10y:cash | risk_premium[geo:fr] | partly_priced` 🟡 "other markets" taken as OAT-Bund
+- **S026** 10bp OAT-Bund ≈ −0.4% EURUSD: `INS:SPREAD[bond:oat|bond:bund]:10y:cash | level | UP:10bp -> fx:eurusd | spot | DOWN:0.4%` 🟡
+- **S027** Neutral French equities: `?index:cac40 | neutral | maintain` ❌ no French equity index
+- **S028** Non-EA investors sold French equities: `?index:cac40 | flows[non_ea] | SELL` ❌
+- **S029** EUR downside dominates: `ccy:eur | risk_balance | downside | medium` ✅
+- **S030** More relevant once field is clear: `event:fr_presidential_2027 | candidate_field | clarified -> ccy:eur | risk_premium[geo:fr] | UP` ✅
+- **S031** Hedge via CHF: `fx:eurchf | short | open` ✅
+- **S032** Hedge via GBP: `fx:eurgbp | short | open` ✅
+- **S033** EURUSD more US-driven: `fx:eurusd | sensitivity[geo:us] | high vs fx:eurchf, fx:eurgbp` 🟡 a beta is a relation
+</script>
+<script type="text/plain" id="raw-fomc">
+- **S001** Hike 25bp in Sept: `ind:us:policy_rate | decision | hike:25bp | event:fomc@2026-09` 🟡
+- **S002** 2026 dot +50bp: `ind:us:policy_rate | path | UP:50bp | 2026` 🟡 same slot as S009
+- **S003** Hike or bond spike: `ind:us:policy_rate | decision | hold | event:fomc@2026-09 -> INS:OUTRIGHT[bond:ust]:30y:cash | yield | UP (sharp)` 🟡
+- **S004** Orthodoxy anchors the long end: `ind:us:policy_rate | path | UP -> INS:OUTRIGHT[bond:ust]:30y:cash | yield | DOWN ; policy:ust_buybacks | size | UP -> … | FLAT` 🟡
+- **S005** Hawkish hike: `event:fomc@2026-09 | tone | hawkish` 🟡
+- **S006** Front end up, twist flatten: `INS:OUTRIGHT[bond:ust]:2y:cash | yield | UP ; INS:CURVE[bond:ust]:2y/30y:cash | slope | DOWN` 🟡
+- **S007** USD depends on out-hawking: `ind:us:policy_rate | path vs priced | above -> ccy:usd | value | UP` 🟡 the "vs G10 CBs" basket has no entity
+- **S008** JH + data repriced hikes: `event:jackson_hole@2026-08 | tone | hawkish ; ind:us:core_pce, ind:us:payrolls | surprise | UP -> ind:us:policy_rate | priced | UP` 🟡
+- **S009** Oct + Dec hikes, 75bp: `ind:us:policy_rate | path | UP:75bp | 2026` 🟡
+- **S010** Fed holds: `ind:us:policy_rate | decision | hold | event:fomc@2026-09` 🟡
+- **S011** 30y to 5.75%: `INS:OUTRIGHT[bond:ust]:30y:cash | yield | UP to 5.75% | near` 🟡
+- **S012** Buybacks futile: `policy:ust_buybacks | effectiveness | none | -` ✅
+- **S013** Waller dovish dissent: `person:christopher_waller | vote | dissent:dovish | event:fomc@2026-09` ✅
+- **S014** Bond market drives hawkishness: `bond:ust | market_condition | fragile -> person:kevin_warsh | stance | hawkish` ✅
+- **S015** USD supported: `ccy:usd | value | UP | near` ✅
+- **S016** Risk assets pressured: `?asset_class:risk | performance | DOWN` ❌ no asset-class entity
+- **S017** Dovish presser: `event:fomc@2026-09 | tone | dovish` 🟡
+- **S018** Bigger Bessent "house": `policy:ust_buybacks | size | UP (needed) | -` ✅ the metaphor read as more Treasury support
+- **S019** Cost of disappointing raised: ❌ payoff asymmetry, not a state
+- **S020** Flattening = credibility: `INS:CURVE[bond:ust]:2y/30y:cash | slope | DOWN -> org:fed | credibility | UP` 🟡
+- **S021** Path after Sept uncertain: `ind:us:policy_rate | risk_balance | two_way | 2026Q4` 🟡
+- **S022** Data soften / dovish turn: `ind:us:* | surprise | DOWN ; org:fed | stance | dovish` 🟡 indicator family
+- **S023** Fed hikes in Sept: `ind:us:policy_rate | decision | hike | event:fomc@2026-09` 🟡 same slot as S001
+- **S024** Inflation wording changes: ❌ wording of a communication
+- **S025** Productivity wording: ❌ wording (`ind:us:productivity | trend | soft` would build)
+- **S026** SEP discontinued: `event:fed_sep | status | discontinued | -` ✅
+- **S027** 2029 dots ≈ longer run: `ind:us:policy_rate | level | ≈ meas:neutral_rate | 2029` 🟡
+- **S028** 2027 dot: one cut to 3.875%: `ind:us:policy_rate | path | DOWN:25bp to 3.875% | 2027` 🟡
+- **S029** Pencil in a 2027 cut: `ind:us:policy_rate | path | DOWN | 2027` 🟡
+- **S030** Officials: hikes quell inflation: `ind:us:policy_rate | level | UP -> ind:us:pce | trend | DOWN` 🟡
+- **S031** Fed adopts PCE methodology change: `ind:us:pce | data_quality | methodology_change | 2026-09-30` 🟡 only the methodology change resolves; the Fed's choice is not a state
+- **S032** Easier after the fact: ❌ procedural judgement
+- **S033** 2026 inflation −30bp: `ind:us:pce, ind:us:core_pce | value vs prior_sep | DOWN:0.3pp | 2026` ✅
+- **S034** Growth −0.1pp: `ind:us:gdp | value vs prior_sep | DOWN:0.1pp to 2.2% | 2027 ; … | value vs prior_sep | DOWN:0.1pp to 2.1% | 2028` ✅
+- **S035** Higher path lowers growth: `ind:us:policy_rate | path | UP -> ind:us:gdp | value | DOWN` 🟡
+- **S036** 2027 inflation −0.1pp: `ind:us:pce, ind:us:core_pce | value vs prior_sep | DOWN:0.1pp | 2027` ✅
+- **S037** Unemployment projections lower: `ind:us:unemployment_rate | value vs prior_sep | DOWN | 2026Q4, 2027Q4` ✅
+- **S038** Other SEP changes modest: ❌ no subject
+- **S039** Questions on the path: ❌ not a state
+- **S040** Balancing act: ❌ not a state
+- **S041** Impatient Warsh: `person:kevin_warsh | stance | hawkish | event:fomc@2026-09 ; ind:us:policy_rate | path | UP (series)` 🟡
+- **S042** ≥100bp priced: `ind:us:policy_rate | priced | UP to ≥100bp | -` 🟡
+- **S043** Market doubts 2% commitment: `org:fed | credibility | DOWN | -` ✅
+- **S044** Why no July hike: ❌ not a state
+- **S045** Underlying inflation progress insufficient: `ind:us:core_pce | trend vs target | above | -` ✅ "underlying" taken as core PCE
+- **S046** Oil an upside risk: `cmdty:crude_oil | price | UP -> ind:us:pce | risk_balance | upside` ✅
+- **S047** Contradicts earlier oil stance: ❌ consistency between speeches
+- **S048** Trimmed mean = dovish signal: `org:fed | reaction_function[gauge] | trimmed_mean_pce -> event:fomc@2026-09 | tone | dovish` 🟡 needs a trimmed-mean basket on `meas:pce`
+- **S049** JH more transparent: `org:fed | guidance | transparent | event:jackson_hole@2026-08` ✅
+- **S050** Transparency cuts miscommunication: `org:fed | guidance | transparent -> org:fed | miscommunication_risk | DOWN` 🟡 the consequent variable is ad hoc
+- **S051** Back to no substance: `org:fed | guidance | opaque | event:fomc@2026-09` ✅
+- **S052** Fewer questions: ❌ not a state
+- **S053** Pricing supports a hike: `ind:us:policy_rate | priced | hike (high prob) | event:fomc@2026-09` 🟡
+- **S054** Dovish outcome = bigger move: ❌ compares move sizes across scenarios
+- **S055** Reaction depends on comms: ❌ dependency with no direction
+- **S056** ~100bp priced: `ind:us:policy_rate | priced | UP to 100bp (60-65bp by 2026Q4)` 🟡
+- **S057** 2y +5-10, 30y −5-10: `INS:OUTRIGHT[bond:ust]:2y:cash | yield | UP:5-10bp ; INS:OUTRIGHT[bond:ust]:30y:cash | yield | DOWN:5-10bp` 🟡
+- **S058** Credible Fed, lower yields: `org:fed | credibility | UP -> bond:ust | yield | DOWN` ✅
+- **S059** Peak lowered: `ind:us:policy_rate | priced | DOWN` 🟡
+- **S060** ~85bp priced: `ind:us:policy_rate | priced | DOWN to 85bp (40-45bp by 2026Q4)` 🟡
+- **S061** 2y −5, 30y +5: `INS:OUTRIGHT[bond:ust]:2y:cash | yield | DOWN:5bp ; INS:OUTRIGHT[bond:ust]:30y:cash | yield | UP:5bp` 🟡
+- **S062** Confusion lifts yields: `org:fed | reaction_function | unclear -> bond:ust | yield | UP` ✅
+- **S063** Front end down, twist steepen: `INS:OUTRIGHT[bond:ust]:2y:cash | yield | DOWN ; INS:CURVE[bond:ust]:2y/30y:cash | slope | UP` 🟡
+- **S064** 65-75bp priced: `ind:us:policy_rate | priced | DOWN to 65-75bp (30-35bp by 2026Q4)` 🟡
+- **S065** 2y −15-20, 30y +10-15: `INS:OUTRIGHT[bond:ust]:2y:cash | yield | DOWN:15-20bp ; INS:OUTRIGHT[bond:ust]:30y:cash | yield | UP:10-15bp` 🟡 same pattern as S061
+- **S066** Steepening sources: `ind:us:policy_rate | path | DOWN -> INS:CURVE[bond:ust]:2y/30y:cash | slope | UP ; org:fed | credibility | DOWN -> ind:us:term_premium | level | UP` 🟡
+- **S067** Officials understand the risk: ❌ beliefs of actors
+- **S068** Admin's choice: ❌ restates S003 as a dilemma
+- **S069** Bessent/Warsh explain to Trump: ❌
+- **S070** Trump won't like it: ❌
+- **S071** Trump should understand: ❌
+- **S072** Challenges belly bias: `INS:OUTRIGHT[bond:ust]:5y:cash | long | review` 🟡 "belly" taken as 5y
+- **S073** Constructive long-end ASW: `INS:SPREAD[bond:ust|rate:sofr]:30y:cash | ? | maintain` 🟡 "constructive" has no direction
+- **S074** Credibility supports demand: `org:fed | credibility | UP -> bond:ust | demand | UP` ✅
+- **S075** Record dovish hold: `event:fomc@2026-09 | surprise | dovish (record)` 🟡
+- **S076** IORB/ON RRP +25bp: `ind:us:iorb | decision | UP:25bp ; policy:fed_on_rrp | rate | UP:25bp | event:fomc@2026-09` ✅
+- **S077** No balance-sheet change: `policy:fed_qt | status | unchanged | event:fomc@2026-09` ✅
+- **S078** July presser soured USD: `event:fomc@2026-07 | tone | muddled -> org:fed | credibility | DOWN -> ccy:usd | sentiment | DOWN` 🟡
+- **S079** Energy up, USD up: `cmdty:crude_oil | price | UP -> ccy:usd | value | UP` ✅
+- **S080** Global repricing cut USD support: `geo:global | policy_stance | hawkish -> ccy:usd | value | DOWN` 🟡 the US-vs-G10 rate-differential mediator was dropped
+- **S081** >3 hikes priced: `ind:us:policy_rate | priced | UP:>75bp` 🟡
+- **S082** USD sideways except JPY: `ccy:usd | value | FLAT | 2026Q4 ; fx:usdjpy | spot | DOWN | 2026Q4` ✅
+- **S083** Two-way USD risk: `ccy:usd | risk_balance | two_way | event:fomc@2026-09` ✅
+- **S084** Broader dot support: `ind:us:policy_rate | path vs prior_sep | UP | 2026` 🟡 dot dispersion flattened to a direction
+- **S085** Forecasts stay elevated: `ind:us:gdp | value | elevated ; ind:us:pce | value | elevated` ✅
+- **S086** No guidance caps USD: `org:fed | guidance | none -> ccy:usd | value | UP (unlikely)` ✅
+- **S087** USD drops sharply: `ccy:usd | value | DOWN (large) | near` ✅
+- **S088** USD softens despite hike: `ccy:usd | value | DOWN | near` ✅
+- **S089** No patience for one-and-done: ❌ market tolerance for a message
+- **S090** Muddied messaging, USD down: `org:fed | reaction_function | unclear ; INS:OUTRIGHT[bond:ust]:30y:cash | yield | UP -> ccy:usd | value | DOWN` 🟡
+- **S091** Restrained dots weigh on USD: `ind:us:policy_rate | path vs priced | below -> ccy:usd | value | DOWN` 🟡
+</script>
+<script type="text/plain" id="raw-jpy">
+- **S001** Intervention cut JPY selling: `org:jp_mof | fx_intervention | BUY_JPY -> ccy:jpy | flows[net] | SELL DOWN | near` 🟡 org fallback
+- **S002** BoJ pricing lifted JPY: `ind:jp:policy_rate | priced | UP -> fx:usdjpy | spot | DOWN:3 ; ccy:jpy | risk_premium[person:sanae_takaichi] | DOWN` 🟡
+- **S003** USDJPY technically vulnerable: `fx:usdjpy | spot | DOWN | near` ✅
+- **S004** No sustained JPY rally: `ccy:jpy | value | not UP | medium` ✅
+- **S005** Rate gap still wide: `INS:SPREAD[rate:sofr|rate:tona]:2y:swap | level | wide` 🟡 tenor assumed
+- **S006** Low ERP a headwind: `index:spx | equity_risk_premium | low -> ccy:jpy | value | DOWN` ✅
+- **S007** Takaichi policy a headwind: `person:sanae_takaichi | policy_stance | reflationary -> ccy:jpy | value | DOWN` ✅
+- **S008** Drivers of JPY rally: `ind:jp:policy_rate | priced | UP ; org:gpif | allocation[domestic] | UP -> ccy:jpy | value | UP` 🟡
+- **S009** Takata lifted pricing: `person:hajime_takata | stance | hawkish -> ind:jp:policy_rate | priced | UP | 2026Q4` 🟡
+- **S010** Break of 155: `fx:usdjpy | spot | below 155 -> fx:usdjpy | spot | DOWN` ✅
+- **S011** GPIF board meeting: `?event:gpif_board@2026-08 -> org:gpif | allocation[domestic] | UP` ❌ no GPIF meeting series
+- **S012** 155 resistance: `fx:usdjpy | resistance | 155 | near` ✅
+- **S013** 158 resistance: `fx:usdjpy | resistance | 158 | near` ✅
+- **S014** 152/150 support: `fx:usdjpy | support | 152, 150 | -` ✅
+- **S015** Down to 145: `fx:usdjpy | spot | DOWN to 145 | -` ✅
+- **S016** Below 150: `fx:usdjpy | spot | below 150 | -` ✅
+- **S017** BoJ pricing fades: `ind:jp:policy_rate | priced | DOWN` 🟡
+- **S018** Back to upper 150s: `fx:usdjpy | spot | UP to 157-159 | -` ✅
+- **S019** Neither materialises: `ind:jp:policy_rate | path vs priced | below ; org:gpif | allocation | FLAT` 🟡
+- **S020** Needs hawkish surprise: `ind:jp:policy_rate | surprise vs priced | hawkish -> ccy:jpy | value | UP` 🟡
+- **S021** Pricing above Barclays: `ind:jp:policy_rate | priced vs author_path | above` 🟡
+- **S022** Sep/Jan/Jul to 1.75%: `ind:jp:policy_rate | path | UP to 1.75% | 2027-07` 🟡
+- **S023** No quarterly signal: `org:boj | guidance | no_quarterly_signal | -` ✅
+- **S024** Gains limited: `ccy:jpy | value | UP (limited) | near` ✅
+- **S025** Beyond-2% fuels JPY: `ind:jp:policy_rate | path | above 2% -> ccy:jpy | value | UP` 🟡
+- **S026** 2% = neutral midpoint: `ind:jp:policy_rate | priced | 2% vs ind:jp:neutral_rate | at` 🟡
+- **S027** Beyond-2% unlikely: `org:boj | guidance | above_2pct (unlikely) | -` ✅
+- **S028** Pricing reversal amplifies: `ind:jp:policy_rate | priced | DOWN -> ccy:jpy | value | DOWN (amplified)` 🟡
+- **S029** Ueno's reservations: `?person:ueno | stance[gpif_reallocation] | reserved` ❌ not in people registry
+- **S030** Hits superlong JGBs: `org:gpif | allocation[domestic_bonds] | UP -> INS:OUTRIGHT[bond:jgb]:30y:cash | yield | DOWN` 🟡
+- **S031** Avoid a Fed repricing: `ind:us:policy_rate | priced | UP (sharp) -> ccy:jpy | value | DOWN` 🟡
+- **S032** GPIF gains reverse: `ccy:jpy | value | DOWN | -` ✅
+- **S033** No reallocation: `org:gpif | allocation | FLAT | -` ✅
+- **S034** Impact overstated: `org:gpif | allocation | UP -> ccy:jpy | value | UP (small)` ✅
+- **S035** Change unclear: `org:gpif | allocation | uncertain | -` ✅
+- **S036** No prior disclosure: ❌ procedure
+- **S037** Yields justify 5-10pp: `bond:jgb | yield | high -> org:gpif | allocation[domestic_bonds] | UP:5-10pp` 🟡 allocation bucket
+- **S038** JPY16-32trn buying: `ccy:jpy | flows[org:gpif] | BUY:16-32trn | -` ✅
+- **S039** Less than intervention: `ccy:jpy | flows[org:gpif] | BUY -> ccy:jpy | value | UP (small)` ✅
+- **S040** Regime beta above 149bp: ❌ threshold-dependent sensitivity
+- **S041** Via hedged bonds: `org:gpif | allocation[hedged_foreign_bonds] | UP` 🟡
+- **S042** Basis widening: `INS:BASIS[rate:tona|rate:sofr] | level | wider | near` 🟡 sign convention undefined
+- **S043** Hedged shift buys JPY: `org:gpif | allocation[hedged_foreign_bonds] | UP -> ccy:jpy | flows[org:gpif] | BUY` 🟡
+- **S044** Hedged yields low: `?hedged_yield[bond:ust, JPY] | level | low` ❌ derived quantity, no entity
+- **S045** Hedged shift unlikely: `org:gpif | allocation[hedged_foreign_bonds] | UP (unlikely)` 🟡
+- **S046** Others won't follow: `ccy:jpy | flows[jp_institutions] | BUY (none)` 🟡 participant
+- **S047** Lifer sales small: `ccy:jpy | flows[life_insurers] | BUY (small)` 🟡
+- **S048** JGBs attract lifers: `bond:jgb | yield | UP -> bond:jgb | flows[life_insurers] | BUY` 🟡
+- **S049** Lifers see headwinds unchanged: `ccy:jpy | value | DOWN (structural)` ✅ the holder (lifers) is stripped
+- **S050** Lifers resume selling: `ccy:jpy | flows[life_insurers] | SELL | near` 🟡
+- **S051** Banks via repo: `ccy:jpy | flows[banks] | BUY (small)` 🟡
+- **S052** Two-way USDJPY: `fx:usdjpy | risk_balance | two_way | near` ✅
+- **S053** Headwinds unchanged: `ccy:jpy | value | DOWN (structural) | long` ✅
+- **S054** 100 to 160 drivers: `INS:SPREAD[rate:sofr|rate:tona] | level | UP ; index:spx | equity_risk_premium | DOWN ; ccy:jpy | risk_premium[person:sanae_takaichi] | UP -> fx:usdjpy | spot | UP:100 to 160 | 5y` 🟡
+- **S055** Term premium explains JPY: `ccy:jpy | risk_premium[person:sanae_takaichi] | UP ; ind:jp:term_premium | level | UP -> ccy:jpy | value | DOWN` 🟡
+- **S056** BoJ more hawkish: `org:boj | stance | UP | -` ✅
+- **S057** Below fair value 157: `fx:usdjpy | valuation | cheap vs fair_value:157 | -` ✅
+- **S058** Spec positioning: `fx:usdjpy | positioning[speculative] | short` 🟡
+- **S059** Fiscal expansion: `geo:jp | fiscal_stance | loose | -` ✅
+- **S060** FY27 requests rise: `?ind:jp:govt_spending | budget_request | UP | FY2027` ❌ no public-spending measure
+- **S061** Fiscal → term premia & JPY: `geo:jp | fiscal_stance | loose -> ind:jp:term_premium | level | UP ; ccy:jpy | value | DOWN` 🟡
+- **S062** Structural selling persists: `ccy:jpy | flows[net] | SELL | long` ✅
+- **S063** No fresh highs: `fx:usdjpy | spot | new_high (unlikely) | -` ✅
+- **S064** Intervention concerns: `org:jp_mof | fx_intervention | risk elevated` 🟡
+- **S065** What sustained gains need: `ind:us:policy_rate | path | DOWN ; index:spx | equity_risk_premium | UP ; person:sanae_takaichi | policy_stance | less_reflationary -> ccy:jpy | value | UP (sustained)` 🟡 the AI narrative behind the ERP leg is lost
+- **S066** ~JPY7trn net buying in Q3: `ccy:jpy | flows[net] | BUY:7trn | 2026Q3` ✅
+- **S067** Specs absorbed intervention: `ccy:jpy | positioning[speculative] | short (reduced)` 🟡
+- **S068** Inward FDI eases selling: `ind:jp:fdi_inward | level | UP -> ccy:jpy | flows[net] | SELL DOWN` 🟡 needs an inward-FDI basket
+- **S069** Not immediate: `ind:jp:fdi_inward | level | UP -> ccy:jpy | flows[net] | SELL DOWN | medium` 🟡 same subject as S068
+- **S070** NISA selling persists: `ccy:jpy | flows[households] | SELL` 🟡
+- **S071** AI narrative unchanged: `?theme:ai_equity | salience | FLAT` ❌
+- **S072** NISA accelerating: `ccy:jpy | flows[households] | SELL UP | 2026H2` 🟡
+- **S073** Weak JPY drew FDI: `ccy:jpy | value | DOWN -> ind:jp:fdi_inward | level | UP` 🟡
+- **S074** FDI income flows sell JPY: `ccy:jpy | flows[fdi_income] | SELL` 🟡
+- **S075** Outflows > CA surplus: `ind:jp:capital_flows | outflow vs ind:jp:current_account | above` 🟡
+- **S076** Households shift to investment: `?household_allocation[geo:jp] | risk_assets | UP` ❌ no household balance-sheet measure
+- **S077** Household investing weakened JPY: `ccy:jpy | flows[households] | SELL -> ccy:jpy | value | DOWN` 🟡
+- **S078** No shift back: `ccy:jpy | flows[households] | BUY (none)` 🟡
+- **S079** Corporate ODI selling: `ccy:jpy | flows[corporates] | SELL, FLAT` 🟡
+- **S080** M&A pace steady: `ccy:jpy | flows[corporates] | SELL, FLAT | 2026` 🟡
+- **S081** M&A pressure: `ccy:jpy | flows[corporates] | SELL` 🟡 same subject as S080
+- **S082** FDI dividends weigh: `ind:jp:fdi_inward | level | UP -> ccy:jpy | flows[fdi_income] | SELL -> ccy:jpy | value | DOWN | long` 🟡
+- **S083** US share small: `org:us_treasury | fx_intervention[fx:usdjpy] | size <5bn | 2026-07` 🟡
+- **S084** Signal over amount: ❌ general principle
+- **S085** US signalling role: ❌
+- **S086** Funded by ESF: ❌ ESF not registered; a funding source is not a state
+- **S087** Japan funded most: `org:jp_mof | fx_intervention | size large | 2026-07` 🟡
+- **S088** Ample capacity: `ind:jp:fx_reserves | level | ample` 🟡
+- **S089** Less need for intervention: `ccy:jpy | value | UP -> org:jp_mof | fx_intervention | prob DOWN` 🟡
+- **S090** Initiative rests with Japan: ❌
+- **S091** FIMA repo: `?policy:fed_fima_repo` ❌ not registered
+- **S092** Depreciation pressure returns: `ccy:jpy | value | DOWN | -` ✅
+</script>
+
+<script type="application/json" id="stmts">{"beam": {"S001": {"b": "Bessent's buyback move turned market focus to debt", "s": "Bessent's surprise long-end buyback announcement created a self-made mini-crisis by making the media and the market focus on the yield curve and, to a lesser extent, on debt sustainability."}, "S002": {"b": "Underweight USD in portfolio", "s": "The author remains underweight the USD in the portfolio."}, "S003": {"b": "Maintain short AUDCAD", "s": "Maintain short AUDCAD, entered at 0.9835 on 12 Aug 2026, with a take-profit at 0.9532 and a stop-loss at 0.9988."}, "S004": {"b": "Plenty of room for trade U-turns before 2027", "s": "The renewed US-Canada trade dispute leaves plenty of room for U-turns before meaningful trade sanctions take effect on 1 January 2027."}, "S005": {"b": "CAD reaction looks overdone", "s": "This week's CAD reaction looks like an over-reaction."}, "S006": {"b": "Maintain long EURGBP", "s": "Maintain long EURGBP, entered at 0.8540 on 12 Aug 2026, with a take-profit at 0.8700 and a stop-loss at 0.8460."}, "S007": {"b": "Keep short CHFJPY", "s": "Keep short CHFJPY (long JPY versus CHF), entered at 196.28 on 12 Aug 2026, with a take-profit at 186.19 and a stop-loss at 201.30."}, "S008": {"b": "Maintain long EURUSD into Jackson Hole", "s": "Maintain long EURUSD (short dollars versus the euro) into Jackson Hole, entered at 1.1595 on 19 Aug 2026, with a take-profit at 1.1845 and a stop-loss at 1.1460."}, "S009": {"b": "Earlier yield rise was a drift, not stress", "s": "Before the buyback announcement, the rise in US yields and the steepening of the curve were a drift rather than true signs of stress."}, "S010": {"b": "US debt interest burden is a huge problem", "s": "The US debt interest burden is a huge problem and its trend is deteriorating."}, "S011": {"b": "US duration unattractive at current yields", "s": "US duration is an unattractive investment at current yield levels."}, "S012": {"b": "Buybacks unlikely to stem rising yields", "s": "The larger Treasury buybacks are unlikely to stop long-end yields rising."}, "S013": {"b": "Treasury unlikely to accept full $32bn", "s": "Treasury is unlikely to accept $32bn of par in buyback offers over the quarter."}, "S014": {"b": "Extra buybacks a drop in the ocean", "s": "The extra $16bn in buybacks is a drop in the ocean next to 10yr+ issuance in Q3."}, "S015": {"b": "US no longer only game in town", "s": "The US Treasury is no longer the only game in town for long-term debt sales."}, "S016": {"b": "AI investment drives corporate long-dated issuance", "s": "AI investment has driven a sharp increase in long-duration corporate debt issuance."}, "S017": {"b": "Japanese flows much less supportive of USTs", "s": "Japanese investor flows have turned much less supportive of US Treasuries."}, "S018": {"b": "Rising JGB yields draw Japanese flows home", "s": "Rising JGB yields make Japanese long-term debt attractive again to both overseas and domestic investors, which drives net portfolio inflows into Japan."}, "S019": {"b": "Higher yields support dollar for now", "s": "For now, higher US yields are giving the dollar some support."}, "S020": {"b": "Yield support for dollar may fade", "s": "The support that higher yields give the dollar may not last much longer."}, "S021": {"b": "Growth-driven yields help USD; deficit-driven much less", "s": "Yields that rise on strong growth or short-end rate hikes are dollar positive, while yields that rise on deficit and debt concerns are much less positive for the dollar."}, "S022": {"b": "Bessent failed to instil confidence", "s": "Bessent's words and actions last week did little to build confidence."}, "S023": {"b": "Bessent fallout to keep weighing on dollar", "s": "The loss of confidence caused by Bessent's words and actions will continue to weigh on the dollar."}, "S024": {"b": "Warsh has a needle to thread", "s": "At Jackson Hole, Fed Chair Warsh has a needle to thread: he must avoid the muddled message he gave after the July FOMC and reassure long-end investors."}, "S025": {"b": "Warsh: inflation talk, little reaction-function substance", "s": "At Jackson Hole, Warsh will talk at length about tackling inflation as the primary goal but say little of substance about the Fed's actual reaction function."}, "S026": {"b": "Warsh balance-sheet aims clash with Bessent moves", "s": "Warsh's intent to shrink the Fed's balance sheet and his aversion to extending its duration sit uneasily with Bessent's buyback moves."}, "S027": {"b": "Rising yields make FX carry less compelling", "s": "Rising yields make the FX carry trade much less compelling."}, "S028": {"b": "Real money carry positioning still overweight", "s": "Real money investors remain overweight carry, although they have started to exit carry positions."}, "S029": {"b": "Real money risk appetite still positive", "s": "Real money risk appetite remains positive, so the author is not yet too concerned about carry."}, "S030": {"b": "Yields rise once more", "s": "Yields rise once more."}, "S031": {"b": "Carry would be an obvious loser", "s": "The FX carry trade would be an obvious loser."}, "S032": {"b": "BoC and rates market ignore strong Canadian data", "s": "The Bank of Canada and the rates market have so far failed to react to stronger-than-expected Canadian data."}, "S033": {"b": "Overweight CAD versus AUD", "s": "The author stays overweight CAD versus AUD."}, "S034": {"b": "Intervention changed JPY dynamic for now", "s": "The coordinated MoF and US Treasury intervention in USDJPY has changed the JPY dynamic, at least for the time being."}, "S035": {"b": "Further BoJ hikes an underpriced risk", "s": "The potential for further BoJ hikes is an underpriced risk for 2026."}, "S036": {"b": "Real money now net buyers of EUR", "s": "Real money demand for the EUR is positive again, and real money investors are now net buyers."}, "S037": {"b": "Market already reads ECB as net hawkish", "s": "The market already reads the ECB as net hawkish."}, "S038": {"b": "BoE pricing too high relative to ECB", "s": "BoE rate pricing is too high relative to ECB pricing, given the BoE's more dovish message and disappointing UK data."}, "S039": {"b": "Relative CB tone and surprises favour EUR", "s": "Relative central bank tone and relative economic surprises favour the EUR over GBP and the USD."}, "S040": {"b": "NZ economy troughed, inflation above target", "s": "New Zealand's economy appears to have troughed and started to recover, while inflation remains above the RBNZ's target range."}, "S041": {"b": "A lot expected from RBNZ", "s": "A lot is expected from the RBNZ in the coming months."}, "S042": {"b": "Neutral NZD", "s": "The author keeps a neutral stance on NZD."}, "S043": {"b": "SEK vulnerable in shocks, made worse by oil", "s": "As a risk-on currency, SEK is often vulnerable during market shocks, and its oil sensitivity, investor positioning and relatively low interest rates currently make this worse."}, "S044": {"b": "Conflict fears and oil price recede", "s": "Fears over the conflict recede, along with the oil price."}, "S045": {"b": "Room for SEK to regain footing", "s": "SEK has room to regain its footing."}, "S046": {"b": "Neutral SEK", "s": "The author stays neutral on SEK."}, "S047": {"b": "NOK vulnerable to lower energy prices", "s": "NOK is vulnerable to further declines in energy prices."}, "S048": {"b": "Limited appetite for geopolitical escalation", "s": "There appears to be limited appetite for further geopolitical escalation."}, "S049": {"b": "NOK outlook uncertain", "s": "The NOK outlook remains uncertain."}, "S050": {"b": "Neutral NOK", "s": "The author adopts a neutral stance on NOK for now."}, "S051": {"b": "High bar for September Fed hike", "s": "The bar for the Fed to hike in September is relatively high."}, "S052": {"b": "Dollar particularly vulnerable near term", "s": "The dollar is particularly vulnerable in the near term."}, "S053": {"b": "SNB most dovish central bank", "s": "The SNB is the most dovish central bank in the G10."}, "S054": {"b": "Risk appetite positive, geopolitics stable", "s": "Risk appetite is positive, and geopolitical risk is elevated but stable."}, "S055": {"b": "CHF an ideal funder", "s": "CHF is an ideal funding currency."}, "S056": {"b": "Sterling stubborn as real money buys back", "s": "Sterling has proven stubborn, with real money buying back its underweight over the past month despite a sluggish economy."}, "S057": {"b": "Iran fallout could weaken Australian labour market", "s": "Fallout from the Iran conflict could hurt Australian growth and further weaken the labour market."}, "S058": {"b": "AUD most overweight real money holding", "s": "AUD is currently the most overweight holding among real money investors."}, "S059": {"b": "Uncomfortable backdrop for the Fed", "s": "Still-high inflation and a labour market balancing on a tightrope make an uncomfortable backdrop for the Fed."}, "S060": {"b": "ECB pricing to remain steady", "s": "ECB rate pricing will remain steady."}, "S061": {"b": "BoJ has turned more hawkish", "s": "The BoJ's tone has turned more hawkish while inflation remains above target."}, "S062": {"b": "Further BoJ hikes look likely", "s": "Further BoJ rate hikes look likely."}, "S063": {"b": "UK growth potential weaker than Eurozone", "s": "The UK has weaker growth potential than the Eurozone."}, "S064": {"b": "UK inflation sticky", "s": "UK inflation is sticky."}, "S065": {"b": "UK wage growth slowing", "s": "UK wage growth is slowing."}, "S066": {"b": "UK pricing a maximum for higher rates", "s": "Current UK rate pricing looks like the maximum outcome for higher rates."}, "S067": {"b": "SNB has little room with rates at zero", "s": "With rates at zero, the SNB has little it can or should do with policy."}, "S068": {"b": "CHF expensive but not overly", "s": "CHF is expensive, but not overly so."}, "S069": {"b": "SNB on hold through 2026", "s": "The SNB will keep policy unchanged through all of 2026."}, "S070": {"b": "More RBNZ hikes coming", "s": "More RBNZ hikes are coming, as the policy path still points to more aggressive tightening."}, "S071": {"b": "Norges reversal of easing will be shallow", "s": "Norges Bank's reversal of previous easing will be shallow."}, "S072": {"b": "Riksbank faces fewer inflation pressures", "s": "The Riksbank faces fewer inflation pressures than other economies."}, "S073": {"b": "Riksbank to lag ECB in hiking", "s": "The Riksbank will lag the ECB and other central banks in raising rates."}, "S074": {"b": "Boost keeps short CHFJPY", "s": "The Boost model keeps its short CHFJPY position unchanged."}, "S075": {"b": "Boost keeps long USDCHF", "s": "The Boost model keeps its long USDCHF position unchanged."}, "S076": {"b": "Boost switches into long CADCHF", "s": "The Boost model switches its short AUDCAD into a long CADCHF position."}, "S077": {"b": "Value drives all Boost trades", "s": "Value plays a meaningful role in driving all three of Boost's trades this week."}, "S078": {"b": "Rate differentials drive Boost USDCHF and CADCHF", "s": "Rate differentials (carry) are a major driver of Boost's USDCHF trade and also a driver of its CADCHF trade."}, "S079": {"b": "Growth differentials drive Boost CHFJPY and CADCHF", "s": "Growth differentials are important drivers of Boost's CHFJPY and CADCHF trades."}, "S080": {"b": "Forest keeps short AUDCAD", "s": "The Forest model keeps its short AUDCAD pick."}, "S081": {"b": "Forest keeps long USDCHF", "s": "The Forest model keeps its long USDCHF pick."}, "S082": {"b": "Forest switches into long CADCHF", "s": "The Forest model switches its short CHFJPY into a long CADCHF pick."}, "S083": {"b": "Growth and momentum drive Forest AUDCAD", "s": "Growth, together with momentum, is a major driver of Forest's short AUDCAD bias."}, "S084": {"b": "Value and rates drive Forest CHF picks", "s": "Value and rate differentials are the main drivers of Forest's USDCHF and CADCHF picks."}}, "france": {"S001": {"b": "France risks reasonably/partly priced in FX", "s": "French fiscal and political risks look reasonably, at least partly, priced for now in FX."}, "S002": {"b": "Constructive medium-term EUR view", "s": "BofA holds a constructive medium-term view on the EUR."}, "S003": {"b": "France poses downside risks to EUR", "s": "France poses downside risks to the EUR over the medium term."}, "S004": {"b": "No significant 2027 budget disruption", "s": "There is no significant disruption around the 2027 budget process."}, "S005": {"b": "Next France catalyst likely 2027 presidential election", "s": "The next major France-related catalyst for the EUR is more likely to be the presidential election, potentially in Q1 2027, than late-2026 developments."}, "S006": {"b": "Economists not constructive on French macro", "s": "BofA economists are not particularly constructive on the French macro outlook."}, "S007": {"b": "Rates strategists worried about fiscal slippage, Moody's", "s": "BofA rates strategists remain concerned about French fiscal slippage and the Moody’s 23 October rating decision."}, "S008": {"b": "Election implications for EU integration a key concern", "s": "The potential implications of the French presidential elections for European integration are a main medium-term concern for the EUR."}, "S009": {"b": "Parliamentary fragmentation risk a key EUR concern", "s": "Parliamentary fragmentation risks after a potential 2027 snap parliamentary election following the presidential one are a main medium-term concern for the EUR."}, "S010": {"b": "Budget approval concerns pose near-term EUR downside", "s": "Political stability concerns around the 2027 budget approval process pose some downside risks to the EUR in the near term."}, "S011": {"b": "Government passes budget keeping deficit unchanged", "s": "The French government presents and passes a 2027 budget plan with sufficient corrective action to keep the planned deficit unchanged vs 2026."}, "S012": {"b": "Unchanged deficit needs c 60bp of measures", "s": "Keeping France's planned deficit unchanged vs 2026 would likely require c 60bp of measures."}, "S013": {"b": "Next President could call snap elections", "s": "The next French President could dissolve parliament and call snap parliamentary elections."}, "S014": {"b": "France risks drove sharpest EUR sentiment declines", "s": "France-related political and fiscal risks likely drove some of the sharpest declines in market- and survey-based measures of EUR sentiment over the past decade, with a distinct impact on EUR-USD risk reversals."}, "S015": {"b": "Low French REER reflects subdued inflation", "s": "The low level of the French Real Effective Rate reflects relatively subdued French inflation."}, "S016": {"b": "Election risk already in FX options pricing", "s": "Risks around the French presidential election seem already reflected in FX options pricing."}, "S017": {"b": "Investors expect vol pickup in election window", "s": "The peak in forward volatility premia around the 6m3m tenor suggests investors expect a meaningful pickup in volatility during the April-June 2027 election window."}, "S018": {"b": "Vol premium clearest in EUR-GBP, EUR-CHF", "s": "The French election volatility premium is particularly evident in the EUR crosses most sensitive to European political risk, including EUR-GBP and EUR-CHF."}, "S019": {"b": "Historically large vol premium for French election", "s": "Investors are already paying a historically large premium for volatility around the French election."}, "S020": {"b": "Post-Iran-war sentiment drop not necessarily France", "s": "The fall in EUR-USD sentiment from before the Iran war does not necessarily reflect France-related risks."}, "S021": {"b": "EUR-USD sentiment neutral, not standing out", "s": "EUR-USD sentiment remains neutral vs history and does not particularly stand out relative to the periods heading into previous French political events."}, "S022": {"b": "EUR positioning broadly unremarkable", "s": "EUR positioning in futures and options broadly does not stand out relative to history and previous French political episodes."}, "S023": {"b": "Stakes may be higher for EUR this time", "s": "The stakes of the French election may be higher for the EUR this time than in previous instances."}, "S024": {"b": "Polling points to more competitive race", "s": "The limited polling available so far points to a potentially more competitive French presidential race than in previous instances."}, "S025": {"b": "Other markets show France risks partly priced", "s": "Other markets suggest France-related risks are at least partly priced."}, "S026": {"b": "10bp OAT-Bund widening ≈ 0.4% weaker EUR-USD", "s": "For sufficiently large shocks, a 10bp widening in the OAT-Bund spread has historically been associated with a roughly 0.4% weaker EUR-USD."}, "S027": {"b": "Equity strategists neutral on France", "s": "BofA European equity strategists are neutral on French equities."}, "S028": {"b": "Non-EA investors turned against French equities", "s": "Non-euro area investors have turned against French equities since the June 2024 snap National Assembly elections."}, "S029": {"b": "Assume EUR downside risks dominate medium term", "s": "Downside risks to the EUR continue to dominate over the medium term."}, "S030": {"b": "France risks gain relevance as field clarifies", "s": "France-related downside risks to the EUR will become more relevant for markets once there is greater clarity on the presidential field."}, "S031": {"b": "Hedge France risk via CHF, not EUR-USD", "s": "Use CHF rather than EUR-USD as a cleaner expression to hedge France-related risks."}, "S032": {"b": "Hedge France risk via GBP, not EUR-USD", "s": "Use GBP rather than EUR-USD as a cleaner expression to hedge France-related risks."}, "S033": {"b": "EUR-USD driven more by US policy and data", "s": "EUR-USD depends more on US policies and data than the CHF and GBP expressions do."}}, "fomc": {"S001": {"b": "Fed to hike 25bp in September", "s": "The Fed will hike rates by 25bp at the September FOMC."}, "S002": {"b": "SEP 2026 median dot shows 50bp hikes", "s": "The 2026 median dot will show 50bp of total hikes this year, implying another hike in October or December."}, "S003": {"b": "Fed choice: hike or bond spike", "s": "At the September FOMC the Fed faces a simple choice: hike, or risk a large spike in bond yields."}, "S004": {"b": "Long end likes orthodoxy: hikes, not buybacks", "s": "The UST long end responds best to orthodoxy: rate hikes and higher front-end rates, not buybacks, are the most effective way to slow inflation and limit a rise in long-end rates."}, "S005": {"b": "Warsh to deliver hawkish hike, JH-style presser", "s": "Warsh will deliver a hawkish hike, with hawkish FOMC communication and a press conference closer to his Jackson Hole stance than to his July FOMC stance."}, "S006": {"b": "Higher front-end rates, modest UST twist flattening", "s": "UST front-end rates will rise and the curve will twist flatten modestly."}, "S007": {"b": "USD hinges on Fed out-hawking others", "s": "The USD outcome will depend on whether the Fed can out-hawk market expectations and other G10 central banks."}, "S008": {"b": "JH speech and data drove hike repricing", "s": "Warsh's Jackson Hole speech and stronger labour and inflation data triggered the sharp shift in Fed hike pricing."}, "S009": {"b": "Further hikes in October and December", "s": "The Fed will hike again in both October and December, for 75bp of hikes in 2026."}, "S010": {"b": "Fed holds despite elevated hike pricing", "s": "The Fed holds rates at the September FOMC despite elevated market pricing for a hike."}, "S011": {"b": "Disorderly long-end selloff, 30Y toward 5.75%", "s": "The UST long end could see a sharp, disorderly selloff, with the 30Y yield rapidly testing and rising towards 5.75%."}, "S012": {"b": "Treasury buybacks futile against long-end rise", "s": "Treasury buybacks would prove futile in stopping the rise in long-end yields."}, "S013": {"b": "Waller may dissent dovishly", "s": "Governor Waller may cast a dovish dissent against the hike, depending on his estimate of August core PCE."}, "S014": {"b": "Supporting the bond drives Warsh's hawkishness", "s": "The need to support the bond market is the main reason Warsh will take a Jackson Hole-style hawkish line."}, "S015": {"b": "USD supported", "s": "The USD will be supported."}, "S016": {"b": "Risk assets challenged", "s": "Risk assets will come under pressure."}, "S017": {"b": "Warsh gives dovish presser", "s": "Warsh delivers a dovish press conference: he implies the hike is unpopular, that few hikes will follow, or that the inflation trend is improving, or he reassures markets that the Fed will proceed cautiously."}, "S018": {"b": "Bigger Bessent 'house' needed for bond", "s": "A bigger Bessent \"house\" would be needed to support the bond market."}, "S019": {"b": "JH and pricing raise cost of disappointing", "s": "Warsh's Jackson Hole remarks and current market pricing have significantly raised the cost of disappointing hike expectations."}, "S020": {"b": "Friday's twist flattening justifies hike", "s": "Friday's twist flattening of the Treasury curve shows that tighter policy is strengthening inflation-fighting credibility, which further justifies a hike."}, "S021": {"b": "Policy path uncertain beyond September", "s": "The Fed's policy path beyond the September meeting remains uncertain."}, "S022": {"b": "Data soften or Fed turns dovish", "s": "Incoming data soften materially or Fed communication turns unexpectedly dovish."}, "S023": {"b": "Fed hikes in September", "s": "The Fed hikes rates at the September FOMC."}, "S024": {"b": "Statement inflation language changed to justify hike", "s": "The FOMC statement's inflation language will be changed to justify the hike, for example by noting that inflation progress has slowed or that the hike aims to deliver price stability."}, "S025": {"b": "Strong-productivity language might be altered", "s": "The FOMC statement's comment that productivity growth is strong might be changed, given soft productivity readings."}, "S026": {"b": "SEP's days may be numbered", "s": "The Summary of Economic Projections may be discontinued in the future."}, "S027": {"b": "2029 projections near longer-run levels", "s": "Policymakers' first estimates for 2029 will be very similar to their longer-run projections."}, "S028": {"b": "2027 median dot shows one cut to 3.875%", "s": "The 2027 median dot will show one cut, to 3.875%."}, "S029": {"b": "Reasonable for Fed to pencil 2027 cut", "s": "It would be reasonable for the Fed to pencil in a rate cut at some point in 2027."}, "S030": {"b": "Policymakers assume higher rates quell inflation", "s": "Many policymakers will assume that higher rates will help to quell inflation."}, "S031": {"b": "Fed to incorporate PCE methodology changes", "s": "The Fed will incorporate the PCE methodology changes scheduled for September 30 into its projections."}, "S032": {"b": "Easier to reflect PCE changes ex-post", "s": "It may be easier for the Fed to reflect the PCE methodology changes after the fact."}, "S033": {"b": "2026 inflation projections marked down ~30bp", "s": "The 2026 headline and core inflation projections would be marked down by roughly 30bp."}, "S034": {"b": "Growth forecasts cut 0.1pp for 2027-28", "s": "The Fed will lower its growth forecasts by 0.1pp, to 2.2% in 2027 and 2.1% in 2028."}, "S035": {"b": "Higher rate path lowers growth outlook", "s": "The somewhat higher expected rate path over this year and next lowers the Fed's growth outlook."}, "S036": {"b": "2027 inflation projections cut 0.1pp", "s": "The 2027 headline and core inflation projections will be revised down by 0.1pp."}, "S037": {"b": "Unemployment medians to move down", "s": "The median unemployment projections for end-2026 and end-2027 will move down to match current data, despite the higher policy path."}, "S038": {"b": "SEP changes otherwise relatively modest", "s": "Apart from the policy path and possible PCE-related inflation revisions, changes to the SEP will be relatively modest."}, "S039": {"b": "Warsh will field policy-path questions", "s": "Chair Warsh will face questions about the policy path ahead at the press conference."}, "S040": {"b": "Warsh faces a balancing act", "s": "Warsh will face a balancing act in answering questions about the policy path."}, "S041": {"b": "Warsh sounds inflation-impatient, signals more hikes", "s": "Warsh keeps sounding impatient on inflation, suggests recent data do not show an adequate disinflation trend, or signals that the September hike is the first of a longer series."}, "S042": {"b": "Market raises hike peak, pulls forward timing", "s": "The market would raise the peak of expected hikes and bring their timing forward, possibly pricing at least 100bp of hikes."}, "S043": {"b": "Markets question Fed's 2% commitment", "s": "Markets might again question the Fed's commitment to its 2% inflation target."}, "S044": {"b": "Warsh to be asked why no July hike", "s": "Warsh will be asked why the Fed did not hike in July."}, "S045": {"b": "Warsh to cite insufficient underlying-inflation progress", "s": "Warsh will say that progress on underlying inflation has been insufficient."}, "S046": {"b": "Warsh might cite oil as inflation risk", "s": "Warsh might point to the rise in oil prices as an upside risk to inflation."}, "S047": {"b": "Oil argument contradicts Warsh's prior stance", "s": "Citing oil as an inflation risk would contradict Warsh's earlier stance that oil shocks should be treated as one-offs."}, "S048": {"b": "Shifting inflation gauge would be dovish", "s": "A move by Warsh to cite 3m inflation trends or the Dallas Fed trimmed-mean PCE as his gauge of underlying inflation would be a dovish signal."}, "S049": {"b": "JH speech more transparent", "s": "Warsh's Jackson Hole speech was more transparent about his outlook and reaction function."}, "S050": {"b": "Transparency lowers miscommunication risk", "s": "Greater transparency lowers the risk of miscommunication, even without forward guidance."}, "S051": {"b": "Warsh reverts to avoiding substantive discussion", "s": "Warsh goes back to avoiding substantive discussion of the economic outlook and the policy stance."}, "S052": {"b": "Warsh may field far fewer questions", "s": "Warsh may get far fewer questions at the press conference."}, "S053": {"b": "Rate pricing firmly in hike zone", "s": "Market pricing is firmly in the range that supports a September hike, given that the Fed has never held with hike pricing this high."}, "S054": {"b": "Dovish hike or hold moves markets more", "s": "A dovish hike or a Fed hold would likely cause a larger market move than a hawkish hike."}, "S055": {"b": "Rate reaction depends on communications mix", "s": "The rates reaction to a hike will depend on the mix of Fed communications."}, "S056": {"b": "Hikes priced ~100bp, 60-65bp by end-26", "s": "Total priced hikes would rise to about 100bp, with 60-65bp by end-2026."}, "S057": {"b": "2Y up 5-10bp, 30Y down 5-10bp", "s": "2Y UST yields would rise 5-10bp and 30Y yields would fall 5-10bp."}, "S058": {"b": "Lower risks plus credible Fed lower bond yields", "s": "Lower downside risks to growth and inflation, plus a more credible Fed, push bond yields lower as policy returns to orthodoxy."}, "S059": {"b": "Market cuts hike peak, pushes out timing", "s": "The market would lower the peak of expected hikes and push their timing back."}, "S060": {"b": "Hikes priced drop to 85bp, 40-45bp end-26", "s": "Total priced hikes would fall to about 85bp, with 40-45bp by end-2026."}, "S061": {"b": "2Y down 5bp, 30Y up 5bp", "s": "2Y UST yields would fall about 5bp and 30Y yields would rise about 5bp."}, "S062": {"b": "Dovish action and confusion lift bond yields", "s": "Dovish Fed action and confusion about Warsh's policy direction and reaction function push bond yields higher."}, "S063": {"b": "Front-end falls, sharp twist steepening", "s": "Front-end rates would fall materially and the curve would twist steepen sharply."}, "S064": {"b": "Hikes priced fall to 65-75bp", "s": "Total priced hikes would fall to 65-75bp, with 30-35bp by end-2026."}, "S065": {"b": "2Y down 15-20bp, 30Y up 10-15bp", "s": "Initially, 2Y UST yields would fall 15-20bp and 30Y yields would rise 10-15bp."}, "S066": {"b": "Drivers of hold-scenario twist steepening", "s": "The twist steepening would come from a lower near-term policy path and a perceived very high bar to hiking, together with a higher inflation risk premium and a Warsh credibility discount in long-end rates."}, "S067": {"b": "Fed and Trump admin understand hold risk", "s": "Warsh, other Fed officials and the Trump administration understand the bond-market risk of a September hold."}, "S068": {"b": "Trump admin: higher front end or long end", "s": "The Trump administration's choice is between tolerating modestly higher front-end rates and materially higher long-end rates."}, "S069": {"b": "Bessent and Warsh explain tradeoff to Trump", "s": "Bessent and Warsh will explain this tradeoff to Trump effectively."}, "S070": {"b": "Trump won't like the choice set", "s": "Trump will not like the choice between higher front-end and higher long-end rates."}, "S071": {"b": "Trump should understand bond un-anchoring risk", "s": "Trump should understand the risks of the bond market losing its anchor and the market consequences."}, "S072": {"b": "Hawkish hike challenges lower-belly-rates bias", "s": "A hawkish hike, with higher front-end rates and curve twist flattening, will challenge BofA's earlier bias for lower UST belly rates."}, "S073": {"b": "Hawkish hike supports long-end ASW view", "s": "A hawkish hike should support BofA's constructive view on long-end UST asset swap spreads."}, "S074": {"b": "Lower risks and Fed credibility support UST confidence", "s": "Lower growth and inflation risk, plus stronger Fed credibility, support UST investor confidence."}, "S075": {"b": "Hold would be unprecedented dovish hold", "s": "A September hold would be an unprecedented dovish hold in FOMC OIS history."}, "S076": {"b": "IORB and ON RRP up 25bp in parallel", "s": "IORB and ON RRP will both rise 25bp in parallel, with no change to where they sit within the target range."}, "S077": {"b": "No balance sheet changes this meeting", "s": "The Fed will make no balance sheet changes at the September meeting."}, "S078": {"b": "July presser soured dollar sentiment", "s": "Credibility concerns raised at Warsh's July FOMC press conference have soured dollar sentiment."}, "S079": {"b": "Energy reacceleration typically lifts USD", "s": "A renewed rise in energy prices is typically associated with dollar appreciation."}, "S080": {"b": "Global repricing reduces USD rate support", "s": "The global repricing of central banks and bear steepening of curves has reduced USD support from rate differentials, which partly explains why the dollar has failed to rally."}, "S081": {"b": "High bar for Fed to out-hawk", "s": "With more than three hikes priced, the bar for the Fed to out-hawk market expectations and other G10 central banks is high."}, "S082": {"b": "USD sideways into year-end ex-JPY", "s": "The USD will trade broadly sideways into year-end, except against JPY."}, "S083": {"b": "Considerable two-way USD risk at FOMC", "s": "The USD faces considerable two-way risk at the September FOMC."}, "S084": {"b": "SEP shows broader support for more hikes", "s": "The SEP shows broader support for further hikes than the June SEP."}, "S085": {"b": "Elevated growth and inflation forecasts despite hikes", "s": "Growth and inflation forecasts stay elevated even with guidance for further hikes."}, "S086": {"b": "Forward-guidance aversion hampers USD bull case", "s": "Warsh's dislike of forward guidance would make the bullish USD case hard to achieve."}, "S087": {"b": "Dollar depreciates swiftly and significantly", "s": "The dollar would depreciate swiftly and significantly."}, "S088": {"b": "USD could soften despite hike", "s": "The USD could soften even though the Fed hikes."}, "S089": {"b": "Markets impatient with 'one and done'", "s": "Markets may have no patience for anything that sounds like a \"one and done\" hike under the cover of \"no forward guidance\"."}, "S090": {"b": "Muddled messaging lifting back-end yields hurts USD", "s": "Messaging that further muddies the Fed's reaction function and lifts back-end yields would see the USD fall at the same time."}, "S091": {"b": "Restrained dot plot could weigh on USD", "s": "A more restrained dot plot showing that the wider committee is reluctant to tighten could weigh on the dollar."}}, "jpy": {"S001": {"b": "Interventions temporarily cut net JPY selling", "s": "JPY-buying interventions have temporarily reduced near-term net JPY selling pressure in FX supply-demand."}, "S002": {"b": "BoJ hike expectations strengthened JPY via two channels", "s": "Faster BoJ rate hike expectations have strengthened the JPY through both the rate differential and a smaller Takaichi policy risk premium, as fading behind-the-curve concern accounts for around three yen of the USDJPY drop since end-August."}, "S003": {"b": "USDJPY technically vulnerable to further downside", "s": "USDJPY is technically vulnerable to further downside tests, signalling near-term technical upside for the JPY."}, "S004": {"b": "Sustained JPY appreciation unlikely", "s": "Sustained JPY appreciation is unlikely without a full change in fundamentals, given persistent fundamental and supply-demand pressure for JPY depreciation."}, "S005": {"b": "US-Japan rate gap still wide", "s": "The US-Japan interest-rate differential remains wide even with faster BoJ hikes."}, "S006": {"b": "Equity risk premium remains low", "s": "The equity risk premium remains low, which is a fundamental headwind for the JPY."}, "S007": {"b": "Takaichi policy concerns persist", "s": "Concerns over the Takaichi administration's high-pressure economy policy remain a fundamental headwind for the JPY."}, "S008": {"b": "Drivers of the recent JPY rally", "s": "The recent sharp JPY appreciation was driven by BoJ rate hike expectations, technical factors and FX supply-demand, including the expected pension shift back to domestic assets."}, "S009": {"b": "Hawkish BoJ remarks lifted hike pricing", "s": "Hawkish remarks by BoJ officials, including Board Member Takata, pushed up market pricing of rate hikes by year-end."}, "S010": {"b": "Break of 155 support opened downside", "s": "The break below the 155 USDJPY support opened the way for further downside."}, "S011": {"b": "GPIF meeting sparked repatriation expectations", "s": "The GPIF's unusual August Board of Governors meeting triggered a sharp rise in market expectations that the fund would shift back toward domestic assets."}, "S012": {"b": "155 to act as USDJPY resistance", "s": "155 is now more likely to act as USDJPY resistance for the time being."}, "S013": {"b": "158s (200dma) even stronger resistance", "s": "The 158s area (200dma) is likely to be seen as an even stronger USDJPY resistance level."}, "S014": {"b": "Downside reference points 152 and 150", "s": "Key USDJPY downside reference points are the YTD low of 152 and the post-Takaichi low of around 150."}, "S015": {"b": "USDJPY downside could extend to 145", "s": "Further USDJPY downside could technically extend to 145."}, "S016": {"b": "USDJPY breaks below 150", "s": "USDJPY breaks below 150."}, "S017": {"b": "Faster BoJ hike expectations could fade", "s": "Market expectations for faster BoJ hikes could start to fade."}, "S018": {"b": "JPY rally could unwind to upper-150s", "s": "The recent JPY appreciation could unwind sharply, taking USDJPY back towards the upper-150s."}, "S019": {"b": "Neither BoJ nor GPIF expectations materialise", "s": "Neither the hawkish BoJ rate-hike expectations nor the expected pension fund shift back toward domestic assets materialises."}, "S020": {"b": "Further JPY gains need hawkish BoJ surprise", "s": "Further JPY appreciation may require a surprise relative to already hawkish BoJ expectations."}, "S021": {"b": "Hawkish BoJ path already priced, above forecast", "s": "Market pricing already reflects a hawkish BoJ hiking path that exceeds Barclays' forecast."}, "S022": {"b": "BoJ to hike Sep, Jan, Jul to 1.75%", "s": "The BoJ will hike in September, January and July, taking the policy rate to 1.75%."}, "S023": {"b": "BoJ does not signal quarterly hikes to 2%", "s": "The BoJ does not clearly signal quarterly hikes towards 2%."}, "S024": {"b": "Hawkish-surprise JPY gains limited or unwound", "s": "Any JPY appreciation from a hawkish BoJ surprise would likely be limited or even unwound outright."}, "S025": {"b": "Signals beyond 2% could fuel JPY strength", "s": "BoJ signals of hikes beyond 2% could add further fuel to JPY strength."}, "S026": {"b": "Priced 2% is centre of neutral estimates", "s": "The currently priced 2% policy rate is already the central point of the BoJ's neutral rate estimates."}, "S027": {"b": "BoJ signals beyond 2% unlikely now", "s": "BoJ signals of hikes beyond 2% are unlikely, at least at this point."}, "S028": {"b": "Hike-pricing reversal hits JPY more than rates imply", "s": "A reversal of BoJ rate hike pricing could put more depreciation pressure on the JPY than rate changes alone imply."}, "S029": {"b": "Ueno remarks show reservations on reallocation", "s": "Minister Ueno's remarks suggest some reservations about a GPIF allocation change at this point."}, "S030": {"b": "GPIF shift hits yen rates more, superlongs", "s": "A GPIF shift back into domestic assets would hit the yen rates market harder than FX, with the downward pressure on yields most pronounced in the superlong sector."}, "S031": {"b": "Avoiding Fed hike expectations key for JPY", "s": "Avoiding a sharp rise in Fed rate hike expectations will be important for sustaining the JPY's appreciation bias through the US-Japan rate differential."}, "S032": {"b": "GPIF-driven JPY gains could reverse", "s": "The JPY appreciation driven by GPIF reallocation expectations could reverse."}, "S033": {"b": "GPIF implements no reallocation", "s": "The GPIF implements no reallocation of its portfolio."}, "S034": {"b": "GPIF flow impact overstated", "s": "The market impact of GPIF flows on the JPY appears overstated."}, "S035": {"b": "GPIF allocation change remains unclear", "s": "Whether the GPIF will actually change its asset allocation remains unclear."}, "S036": {"b": "GPIF may reallocate without prior disclosure", "s": "A GPIF reallocation may go ahead without prior disclosure."}, "S037": {"b": "Yen rates could justify 5-10pp reallocation", "s": "Even without political pressure, current yen rates could justify a 5-10pp GPIF reallocation from foreign to domestic bonds."}, "S038": {"b": "Pension repatriation may bring JPY16-32trn buying", "s": "Pension repatriation may generate one-off JPY buying of around JPY16-32trn, similar in scale to this year's intervention."}, "S039": {"b": "GPIF JPY effect far smaller than intervention", "s": "Because the GPIF manages the market impact of its own flows, a reallocation would likely do much less for JPY appreciation than intervention."}, "S040": {"b": "Above threshold, USDJPY tracks ERP more", "s": "Above a 149bp US-Japan short-term rate differential, USDJPY becomes less sensitive to the rate differential and much more sensitive to the equity risk premium."}, "S041": {"b": "GPIF shifts into hedged foreign bonds", "s": "Part of the GPIF shift back to domestic assets is made by moving from unhedged to hedged foreign bonds."}, "S042": {"b": "Short-term USDJPY xccy basis could widen", "s": "Short-term USDJPY cross-currency basis could come under widening pressure."}, "S043": {"b": "Hedged reallocation could also add JPY buying", "s": "A reallocation into hedged foreign bonds could also generate JPY buying."}, "S044": {"b": "FX-hedged foreign bond yields are low", "s": "Yields on FX-hedged foreign bonds are low."}, "S045": {"b": "GPIF hedged-bond reallocation unlikely", "s": "A GPIF reallocation from unhedged to hedged foreign bonds appears unlikely."}, "S046": {"b": "Other institutions unlikely to follow repatriation", "s": "Other Japanese institutional investors are unlikely to follow the pension funds in repatriating."}, "S047": {"b": "Little JPY buying from lifer bond sales", "s": "Life insurers' foreign bond sales will not generate much JPY buying."}, "S048": {"b": "Higher JGB yields draw lifer new money", "s": "Higher JGB yields should attract more of life insurers' new money flows."}, "S049": {"b": "Lifers see JPY headwinds unchanged", "s": "Life insurers view the underlying JPY headwinds as largely unchanged."}, "S050": {"b": "Lifers may resume JPY selling via unhedged", "s": "Life insurers may see the current JPY strength as a chance to resume JPY selling through FX-unhedged foreign bonds."}, "S051": {"b": "Bank repatriation brings little JPY buying", "s": "Because banks fund their foreign bond portfolios via repo markets, any bank repatriation should not drive much JPY buying."}, "S052": {"b": "USDJPY to swing both ways near term", "s": "In the near term, USDJPY is likely to swing both ways depending on BoJ and GPIF expectations."}, "S053": {"b": "Longer-term JPY headwinds broadly unchanged", "s": "The longer-term fundamental headwinds facing the JPY remain broadly unchanged."}, "S054": {"b": "Model drivers of five-year JPY depreciation", "s": "USDJPY's rise from 100 to above 160 over five years was driven by the wider US-Japan rate differential, a lower US equity risk premium and a Takaichi policy risk premium."}, "S055": {"b": "Takaichi premium drives both JGBs and JPY", "s": "The risk premium tied to the high-pressure economy policy has weighed on both JGBs and the JPY, and the JGB term premium explains most of the JPY depreciation since last October."}, "S056": {"b": "BoJ stance turned more hawkish", "s": "The BoJ's policy stance has become more hawkish, possibly under US pressure after the coordinated US-Japan intervention."}, "S057": {"b": "USDJPY undershooting ~157 fair value", "s": "With a model fair value of around 157, USDJPY is undershooting."}, "S058": {"b": "Undershoot reflects fickle speculative positioning", "s": "The USDJPY undershoot likely reflects speculative positioning that may be sensitive to changing expectations about the BoJ and the GPIF."}, "S059": {"b": "Takaichi pressing ahead with fiscal expansion", "s": "The Takaichi administration continues to push ahead with fiscal expansion."}, "S060": {"b": "FY27 budget requests likely to rise further", "s": "FY27 budget requests are likely to rise further once unspecified requests are included."}, "S061": {"b": "Fiscal-driven term premium and JPY risk", "s": "The risk that renewed fiscal concerns push JGB term premia higher and weaken the JPY at the same time warrants attention."}, "S062": {"b": "Structural JPY selling persists as headwind", "s": "Structural JPY selling pressure in FX supply-demand will persist and remain a headwind to the JPY."}, "S063": {"b": "Fresh USDJPY highs no longer likely", "s": "A move to fresh USDJPY highs no longer appears likely."}, "S064": {"b": "Intervention concerns persist", "s": "Market concerns about further intervention persist."}, "S065": {"b": "Sustained JPY gains need structural changes", "s": "Sustained medium- to long-term JPY appreciation would need structural changes, such as rate convergence through Fed cuts, a higher equity risk premium as the AI-led rally narrative reverses, or a change in the Takaichi administration's reflationary stance."}, "S066": {"b": "Q3 supply-demand to swing to JPY7trn buying", "s": "JPY FX supply-demand is likely to swing to net JPY buying of around JPY7trn in Q3."}, "S067": {"b": "Speculators may have absorbed some intervention", "s": "Part of the intervention may have been absorbed by speculative investors adjusting their positions."}, "S068": {"b": "Inward FDI eases JPY selling short term", "s": "Growing inward direct investment should gradually ease JPY selling pressure in the short term."}, "S069": {"b": "Inward FDI won't quickly change the balance", "s": "Inward direct investment will not immediately change the overall JPY supply-demand balance."}, "S070": {"b": "NISA-driven JPY selling likely to persist", "s": "Household JPY selling through overseas investment via NISA is likely to persist."}, "S071": {"b": "No significant change in AI equity narrative", "s": "The AI equity narrative sees no significant change."}, "S072": {"b": "NISA JPY selling accelerating, no H2 slowdown", "s": "Retail JPY selling through NISA is accelerating, with no slowdown in the second half of the year."}, "S073": {"b": "Inward FDI only partly offsets outward selling", "s": "The weak JPY, better corporate governance and government promotion have expanded inward direct investment, which is starting to offset part of the JPY selling from outward M&A."}, "S074": {"b": "FDI income flows biased to JPY selling", "s": "Direct investment income flows lean toward JPY selling: outward FDI profits are often reinvested abroad, while inward FDI by overseas funds is more likely to send income out of Japan."}, "S075": {"b": "Retail and corporate outflows exceed CA surplus", "s": "Investment outflows from retail investors and corporations continue to exceed the current account surplus."}, "S076": {"b": "Households shifting from cash to investment", "s": "Japanese households continue to shift their financial assets from cash and deposits toward investment."}, "S077": {"b": "Household overseas investing has weakened JPY", "s": "Households' active investing, overwhelmingly into overseas-asset products, has contributed to JPY depreciation."}, "S078": {"b": "No household shift back to JPY assets", "s": "There is no sign of households shifting back toward JPY assets."}, "S079": {"b": "Corporate outward investment selling largely unchanged", "s": "Persistent JPY selling from Japanese corporate outward direct investment, together with strong outward portfolio investment, remains largely unchanged."}, "S080": {"b": "Corporate M&A expansion to continue in 2026", "s": "Japanese corporate overseas M&A will keep expanding at roughly the same pace in 2026."}, "S081": {"b": "Corporate M&A keeps weighing on JPY", "s": "Corporate M&A remains a source of downward pressure on the JPY."}, "S082": {"b": "Inward FDI could weaken JPY longer term", "s": "Over the longer term, growing inward direct investment could create lasting JPY depreciation pressure through dividend payments and related outflows."}, "S083": {"b": "US intervention share likely small", "s": "The US share of the end-July coordinated intervention was likely small, well below the USD5-10bn reportedly cited in Bessent's memo."}, "S084": {"b": "Signal of US participation matters most", "s": "In coordinated intervention, the signal sent by US participation matters more than the amount."}, "S085": {"b": "US played important signalling role", "s": "The US played an important signalling role in the coordinated intervention."}, "S086": {"b": "US intervention likely ESF-funded", "s": "The US intervention was likely funded from the ESF's foreign-currency holdings."}, "S087": {"b": "Japan funded most of the intervention", "s": "Japan provided most of the actual funding for the coordinated intervention."}, "S088": {"b": "Japan retains ample intervention capacity", "s": "Japan retains ample capacity for further FX intervention."}, "S089": {"b": "JPY rally reduced need for intervention", "s": "The JPY's recent appreciation has reduced the need for intervention."}, "S090": {"b": "Initiative for JPY support now with Japan", "s": "Bessent's comments could signal that the initiative for further JPY-strengthening steps, including intervention, now rests with the Japanese authorities."}, "S091": {"b": "FIMA repo enables flexible intervention funding", "s": "Using the FIMA Repo Facility would let the authorities raise intervention funds flexibly without selling US Treasuries."}, "S092": {"b": "JPY depreciation pressure intensifies again", "s": "JPY depreciation pressure intensifies again."}}}</script>
+<script>
+const STMTS = JSON.parse(document.getElementById('stmts').textContent);
+const DOCS = [
+  { id: 'beam', short: 'Beam yields up', src: 'State Street DM FX Weekly', title: '"Beam yields up, Scotty?"', date: '2026-08-26' },
+  { id: 'france', short: 'France risks for EUR', src: 'BofA Liquid Insight', title: '"France risks for EUR"' },
+  { id: 'fomc', short: 'Sept FOMC', src: 'BofA', title: '"Sept FOMC: hike or bond spike"' },
+  { id: 'jpy', short: 'Structural JPY weakness', src: 'Barclays FX Views', title: '"Structural JPY weakness unchanged"' },
+];
+const STATUS_OF = { '✅': 'ok', '🟡': 'build', '❌': 'fail' };
+const ST = { ok: { label: 'Resolves now', icon: '✓' }, build: { label: 'Buildable', icon: '◐' }, fail: { label: "Can't resolve", icon: '✕' } };
+const STATUSES = ['ok', 'build', 'fail'];
+const FAMS = {
+  mkt: { label: 'Markets', prefixes: ['ccy', 'fx', 'bond', 'rate', 'index', 'cmdty', 'INS'] },
+  mac: { label: 'Macro & geography', prefixes: ['ind', 'meas', 'geo'] },
+  act: { label: 'Institutions & people', prefixes: ['org', 'person'] },
+  evt: { label: 'Events & policies', prefixes: ['event', 'policy'] },
+  miss: { label: 'Missing (?)', prefixes: [] },
+};
+const FAM_OF = {};
+for (const [k, f] of Object.entries(FAMS)) for (const p of f.prefixes) FAM_OF[p] = k;
+const KINDS = { position: 'Position', state: 'State', causal: 'Causal', none: 'No key' };
+const REASONS = [
+  ['Not a state', 'communication, procedure, beliefs of actors', 23],
+  ['Missing registry entry', 'CAC 40, REER, ESF, FIMA repo, Minister Ueno…', 13],
+  ['No subject type', 'FX carry, AI themes, risk assets, risk appetite', 11],
+  ['Model-factor attribution', 'Boost/Forest drivers of a trade', 5],
+  ['Correlation or beta', 'needs a pair as subject', 2],
+];
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const family = id => id.startsWith('?') ? 'miss' : (FAM_OF[id.split(/[:\[]/)[0]] || 'oth');
+const isPos = s => s.length === 3 && /^(long|short|neutral)$/.test(s[1]);
+
+function firstEmoji(text) {
+  let best = -1, which = null;
+  for (const e of Object.keys(STATUS_OF)) {
+    const i = text.indexOf(e);
+    if (i >= 0 && (best < 0 || i < best)) { best = i; which = e; }
+  }
+  return [best, which];
+}
+
+function analyse(key) {
+  if (!key) return { kind: 'none', links: [], subjects: [] };
+  const links = key.split(' -> ').map(seg => seg.split(' ; ').map(s => s.split(' | ').map(x => x.trim())));
+  const states = links.flat();
+  const kind = links.length > 1 ? 'causal' : states.every(isPos) ? 'position' : 'state';
+  const subjects = [...new Set(states.flatMap(s => s[0].split(', ')).filter(x => x && x !== '…'))];
+  return { kind, links, subjects };
+}
+
+function parse(doc) {
+  const raw = document.getElementById('raw-' + doc.id).textContent;
+  return raw.split('\n').map(l => l.trim()).filter(l => l.startsWith('- **S')).map(l => {
+    const [, id, rest] = l.match(/^- \*\*(S\d+)\*\* (.*)$/);
+    const tick = rest.indexOf('`');
+    const [ei] = firstEmoji(rest);
+    let brief, key = null, after;
+    if (tick >= 0 && (ei < 0 || tick < ei)) {
+      const close = rest.indexOf('`', tick + 1);
+      brief = rest.slice(0, tick); key = rest.slice(tick + 1, close); after = rest.slice(close + 1);
+    } else { brief = rest.slice(0, ei); after = rest.slice(ei); }
+    const [pi, pw] = firstEmoji(after);
+    const src = STMTS[doc.id][id] || { b: brief.trim().replace(/:$/, ''), s: '' };
+    return { doc: doc.id, id, brief: src.b, stmt: src.s, key, status: STATUS_OF[pw],
+      note: after.slice(pi + pw.length).trim(), ...analyse(key) };
+  });
+}
+
+const ROWS = DOCS.flatMap(parse);
+const DOC_BY = Object.fromEntries(DOCS.map(d => [d.id, d]));
+
+/* ---------- key rendering ---------- */
+function subjChip(subj) {
+  return subj.split(', ').map(s => {
+    if (s === '…') return `<span class="hz">…</span>`;
+    const f = family(s);
+    return `<button type="button" class="subjchip fam fam-${f}" data-subj="${esc(s)}" data-tip="${esc(FAMS[f] ? FAMS[f].label : 'Other')} · click to filter"><i class="dot"></i>${esc(s)}</button>`;
+  }).join('');
+}
+function varHTML(v) { return esc(v).replace(/\[([^\]]*)\]/g, '<i>[$1]</i>'); }
+function valHTML(v) {
+  let s = esc(v);
+  s = s.replace(/^(UP|DOWN|FLAT)/, m => ({ UP: '▲ UP', DOWN: '▼ DOWN', FLAT: '▬ FLAT' }[m]));
+  return s;
+}
+function stateHTML(s) {
+  if (isPos(s)) {
+    const arrow = { long: '↑', short: '↓', neutral: '·' }[s[1]];
+    return `<span class="st">${subjChip(s[0])}<span class="dir" data-tip="direction">${arrow} ${esc(s[1])}</span><span class="act" data-tip="action">${esc(s[2])}</span></span>`;
+  }
+  const [subj, v, val, hz] = s;
+  let h = `<span class="st">${subjChip(subj)}`;
+  if (v !== undefined) h += `<span class="var" data-tip="variable">${varHTML(v)}</span>`;
+  if (val !== undefined) h += `<span class="val" data-tip="value">${valHTML(val)}</span>`;
+  if (hz !== undefined && hz !== '-') h += `<span class="hz" data-tip="horizon">${esc(hz)}</span>`;
+  return h + '</span>';
+}
+function keyHTML(r) {
+  if (!r.key) return `<div class="key"><span class="nokey">No key: ${r.status === 'fail' ? 'not expressible as a state' : '—'}</span></div>`;
+  return `<div class="key">${r.links.map(link =>
+    `<span class="link">${link.map(stateHTML).join('<span class="semi">;</span>')}</span>`
+  ).join('<span class="arrow" aria-label="leads to">→</span>')}</div>`;
+}
+function noteHTML(n) { return esc(n).replace(/`([^`]+)`/g, '<code>$1</code>'); }
+function pill(st) { return `<span class="pill ${st}"><span class="ic">${ST[st].icon}</span>${ST[st].label}</span>`; }
+
+/* ---------- summary bars ---------- */
+const filt = { doc: 'all', status: new Set(STATUSES), kind: 'all', fam: 'all', q: '' };
+
+function counts(rows) { const c = { ok: 0, build: 0, fail: 0 }; rows.forEach(r => c[r.status]++); return c; }
+function stackHTML(c, n, label, total) {
+  return `<div class="stack${total ? ' total' : ''}">` + STATUSES.filter(s => c[s]).map(s => {
+    const pct = Math.round(c[s] / n * 100);
+    return `<span class="seg ${s}" style="flex:${c[s]}" data-tip="${esc(label)} · ${ST[s].label}: ${c[s]} of ${n} (${pct}%)">${c[s] / n > 0.09 ? `${ST[s].icon} ${c[s]}` : ''}</span>`;
+  }).join('') + '</div>';
+}
+function renderBars() {
+  const el = document.getElementById('bars');
+  const all = counts(ROWS);
+  let h = `<button type="button" class="barrow" data-doc="all" aria-pressed="${filt.doc === 'all'}"><span class="barlabel"><b>All four documents</b><small>${ROWS.length} statements</small></span>${stackHTML(all, ROWS.length, 'All', true)}</button>`;
+  for (const d of DOCS) {
+    const rs = ROWS.filter(r => r.doc === d.id);
+    h += `<button type="button" class="barrow" data-doc="${d.id}" aria-pressed="${filt.doc === d.id}"><span class="barlabel"><b>${esc(d.short)}</b><small>${esc(d.src)} · ${rs.length}</small></span>${stackHTML(counts(rs), rs.length, d.short)}</button>`;
+  }
+  el.innerHTML = h;
+}
+
+function renderSubjects() {
+  const tally = new Map();
+  for (const r of ROWS) for (const s of r.subjects) {
+    if (!tally.has(s)) tally.set(s, { ok: 0, build: 0, fail: 0, n: 0 });
+    const t = tally.get(s); t[r.status]++; t.n++;
+  }
+  const top = [...tally.entries()].sort((a, b) => b[1].n - a[1].n || a[0].localeCompare(b[0])).slice(0, 12);
+  const max = top[0][1].n;
+  document.getElementById('subjects').innerHTML = top.map(([s, t]) => {
+    const f = family(s);
+    return `<button type="button" class="subjrow" data-subj="${esc(s)}"><span class="mono fam fam-${f}" style="display:inline-flex;gap:6px;align-items:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><i class="dot"></i>${esc(s)}</span>
+      <span style="display:flex"><span style="width:${t.n / max * 100}%">${stackHTML(t, t.n, s)}</span></span><span class="n">${t.n}</span></button>`;
+  }).join('');
+  document.getElementById('famlegend').innerHTML = Object.entries(FAMS).map(([k, f]) =>
+    `<span class="fam fam-${k}"><i class="dot"></i>${f.label}</span>`).join('');
+}
+
+function renderReasons() {
+  const max = REASONS[0][2];
+  document.getElementById('reasons').innerHTML = REASONS.map(([t, sub, n]) =>
+    `<div class="reason"><span>${esc(t)}<small>${esc(sub)}</small></span><span class="track"><span class="fill" style="display:block;width:${n / max * 100}%"></span></span><span class="n">${n}</span></div>`).join('');
+}
+
+/* ---------- filters ---------- */
+function btn(group, val, label, pressed, extra = '') {
+  return `<button type="button" class="chipbtn" data-g="${group}" data-v="${val}" aria-pressed="${pressed}">${extra}${label}</button>`;
+}
+function matches(r, skip) {
+  if (skip !== 'doc' && filt.doc !== 'all' && r.doc !== filt.doc) return false;
+  if (skip !== 'status' && !filt.status.has(r.status)) return false;
+  if (skip !== 'kind' && filt.kind !== 'all' && r.kind !== filt.kind) return false;
+  if (skip !== 'fam' && filt.fam !== 'all' && !r.subjects.some(s => family(s) === filt.fam)) return false;
+  if (filt.q) {
+    const hay = (r.id + ' ' + r.brief + ' ' + r.stmt + ' ' + (r.key || '') + ' ' + r.note).toLowerCase();
+    if (!filt.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+function renderControls() {
+  const n = (g, pred) => ROWS.filter(r => matches(r, g) && pred(r)).length;
+  const ct = x => `<span class="ct">${x}</span>`;
+  document.getElementById('f-doc').innerHTML = '<span class="lbl">Doc</span>' +
+    btn('doc', 'all', 'All ' + ct(n('doc', () => true)), filt.doc === 'all') +
+    DOCS.map(d => btn('doc', d.id, esc(d.short) + ' ' + ct(n('doc', r => r.doc === d.id)), filt.doc === d.id)).join('');
+  document.getElementById('f-status').innerHTML = '<span class="lbl">Status</span>' +
+    STATUSES.map(s => btn('status', s, `${ST[s].icon} ${ST[s].label} ` + ct(n('status', r => r.status === s)), filt.status.has(s))).join('');
+  document.getElementById('f-kind').innerHTML = '<span class="lbl">Kind</span>' +
+    btn('kind', 'all', 'All', filt.kind === 'all') +
+    Object.entries(KINDS).map(([k, l]) => btn('kind', k, l + ' ' + ct(n('kind', r => r.kind === k)), filt.kind === k)).join('');
+  document.getElementById('f-fam').innerHTML = '<span class="lbl">Entity</span>' +
+    btn('fam', 'all', 'All', filt.fam === 'all') +
+    Object.entries(FAMS).map(([k, f]) => btn('fam', k, f.label + ' ' + ct(n('fam', r => r.subjects.some(s => family(s) === k))), filt.fam === k, `<i class="dot fam fam-${k}"></i>`)).join('');
+}
+function renderList() {
+  const rows = ROWS.filter(r => matches(r));
+  document.getElementById('shown').textContent = `Showing ${rows.length} of ${ROWS.length}`;
+  if (!rows.length) { document.getElementById('list').innerHTML = '<div class="empty">No statements match. Clear the search or turn a status back on.</div>'; return; }
+  let h = '', cur = null;
+  for (const r of rows) {
+    if (r.doc !== cur) {
+      cur = r.doc; const d = DOC_BY[cur];
+      h += `<div class="docsep"><b>${esc(d.src)}, ${esc(d.title)}</b>${d.date ? `<span>${d.date}</span>` : ''}</div>`;
+    }
+    h += `<div class="row"><span class="sid">${r.id}</span><div class="main"><span class="brief">${esc(r.brief)} <span class="kindtag">${KINDS[r.kind]}</span></span>${r.stmt ? `<p class="stmt">${esc(r.stmt)}</p>` : ''}${keyHTML(r)}${r.note ? `<span class="note">${noteHTML(r.note)}</span>` : ''}</div><span class="pillcell">${pill(r.status)}</span></div>`;
+  }
+  document.getElementById('list').innerHTML = h;
+}
+function render() { renderBars(); renderControls(); renderList(); }
+
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-g]');
+  if (b) {
+    const g = b.dataset.g, v = b.dataset.v;
+    if (g === 'status') {
+      if (filt.status.has(v) && filt.status.size === 3) filt.status = new Set([v]);
+      else if (filt.status.has(v)) { filt.status.delete(v); if (!filt.status.size) filt.status = new Set(STATUSES); }
+      else filt.status.add(v);
+    } else filt[g] = v;
+    render(); return;
+  }
+  const d = e.target.closest('.barrow');
+  if (d) { filt.doc = d.dataset.doc; render(); document.querySelector('.controls').scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
+  const s = e.target.closest('[data-subj]');
+  if (s && !s.closest('#ex-pos, #ex-state, #ex-causal')) {
+    filt.q = s.dataset.subj; document.getElementById('q').value = filt.q; render();
+    if (s.classList.contains('subjrow')) document.querySelector('.controls').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
+document.getElementById('q').addEventListener('input', e => { filt.q = e.target.value.trim(); renderControls(); renderList(); });
+
+/* tooltip */
+const tip = document.getElementById('tip');
+document.addEventListener('mouseover', e => {
+  const t = e.target.closest('[data-tip]');
+  if (!t) { tip.hidden = true; return; }
+  tip.textContent = t.dataset.tip; tip.hidden = false;
+});
+document.addEventListener('mousemove', e => {
+  if (tip.hidden) return;
+  const x = Math.min(e.clientX + 12, window.innerWidth - tip.offsetWidth - 8);
+  tip.style.left = x + 'px'; tip.style.top = (e.clientY + 14) + 'px';
+});
+
+/* examples */
+const ex = (id, key) => { document.getElementById(id).outerHTML = keyHTML({ key, ...analyse(key), status: 'ok' }).replace('class="key"', `class="key" id="${id}"`); };
+ex('ex-pos', 'fx:chfjpy | short | maintain');
+ex('ex-state', 'ind:jp:policy_rate | path vs priced | above | 2026');
+ex('ex-causal', 'cmdty:crude_oil | price | DOWN -> ccy:nok | value | DOWN');
+
+renderSubjects(); renderReasons(); render();
+</script>

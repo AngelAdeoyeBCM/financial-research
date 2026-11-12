@@ -1,0 +1,26 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .pred{background:#fff2a8;border-color:#9a7d00} .pos{background:#fdd9b5;border-color:#b35900} .sent{background:#bff0f5;border-color:#00838f} .view{background:#c9dcf8;border-color:#1a3f8b} .asm{background:#c9dcf8;border-color:#1a3f8b} .causal{background:#e3d4f5;border-color:#5b2c8f} .sup{background:#c4c9cf;border-color:#4f5b66} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} .scn{background:#c4c9cf;border-color:#4f5b66} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · RECOMMENDATION</b><div class='core rec'><span>Initiate Overweight on Ocado credit and SUNs</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Shift to asset-backed tech platform underpins credit strength</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A002 - VIEW</b></span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A004 - VIEW</b></span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Uneven international adoption</span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Cash drag from major new CFC wins</span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Porous covenant package</span><b>[A]</b></div><div class='c view'><span><b>RI:</b> New debt incurrence</span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · VIEW</b><div class='core view'><span>Existing modules more than cover the debt stack</span><b>[A]</b></div><div class='c val'><span><b>S:</b> <b>A003 - VALUATION</b></span><b>[A]</b></div><div class='c fc'><span><b>CA:</b> Additional contract signings now more likely</span><b>[H]</b></div><div class='c fc'><span><b>CA:</b> Possible SBA contract win or trial</span><b>[S]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · VALUATION</b><div class='core val'><span>Estimated LTV of 24% after £765m cash vs £1.8bn debt</span><b>[A]</b></div><div class='c val'><span><b>S:</b> Active modules imply ~£2.8bn EV at £24m each</span><b>[A]</b></div></div>"]
+    A004["<div class='arg'><b>A004 · VIEW</b><div class='core view'><span>Compelling, though now largely carry-based, opportunity</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>11% coupon, ~10.5% running yield, ~1y call protection</mark></span><b>[A]</b></div></div>"]
+    A005["<div class='arg'><b>A005 · VIEW</b><div class='core view'><span>Balance-sheet rehabilitation is credible</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Savings, EBITDA and lower capex offset cash-burn bear case</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Ample liquidity allows repayment of £350m Jan-27 convert</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>£765m cash and £300m undrawn RCF</mark></span><b>[A]</b></div><div class='c fc'><span><b>CA:</b> Possible soft call on 2030 notes</span><b>[S]</b></div></div>"]
+    A006["<div class='arg'><b>A006 · FORECAST</b><div class='core fc'><span>Net leverage 4.9x (1H26) to 3.9x (FY26)</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A005 - VIEW</b></span><b>[A]</b></div></div>"]
+    A007["<div class='arg'><b>A007 · FORECAST</b><div class='core fc'><span>Net leverage 2.3x by FY28</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A005 - VIEW</b></span><b>[A]</b></div></div>"]
+    A008["<div class='arg'><b>A008 · FORECAST</b><div class='core fc'><span>Very modest positive FY27 cash flow (+£2.6m)</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Stronger underlying EBITDA</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Lower Group-level capex</span><b>[A]</b></div><div class='c view'><span><b>CO:</b> Guidance depends on capex discipline</span><b>[A]</b></div><div class='c fc'><span><b>CO:</b> No uncommitted CFC expansion</span><b>[A]</b></div></div>"]
+
+    A002 -- Supporting --> A001
+    A004 -- Supporting --> A001
+    A003 -- Supporting --> A002
+    A005 -- Supporting --> A006
+    A005 -- Supporting --> A007
+
+    classDef fc fill:#eef9ee,stroke:#1a6b3a,stroke-width:2px,color:#111111
+    classDef rec fill:#fdeeee,stroke:#8b1a1a,stroke-width:2px,color:#111111
+    classDef val fill:#f6f0fc,stroke:#5b2c8f,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A006,A007,A008 fc
+    class A001 rec
+    class A003 val
+    class A002,A004,A005 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

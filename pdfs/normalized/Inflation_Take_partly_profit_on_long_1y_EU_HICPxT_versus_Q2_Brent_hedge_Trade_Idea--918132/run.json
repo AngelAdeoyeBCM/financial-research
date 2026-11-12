@@ -1,0 +1,185 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Inflation_Take_partly_profit_on_long_1y_EU_HICPxT_versus_Q2_Brent_hedge_Trade_Idea--918132.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-06",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 0,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {},
+    "leave_reasons": {},
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 12,
+  "kinds": {
+   "deixis": 9,
+   "noun_phrase": 3
+  },
+  "rooted_share": 0.7,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 11,
+  "cost_usd": 0.0636
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 111,
+   "end": 137,
+   "quote": "long 1y EU HICPxT exposure",
+   "name": "the long 1y EU HICPxT exposure"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 297,
+   "end": 337,
+   "quote": "Long 1y EU HICPxT vs Q2 2026 Brent hedge",
+   "name": "the Long 1y EU HICPxT vs Q2 2026 Brent hedge"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 116,
+   "end": 128,
+   "quote": "1y EU HICPxT",
+   "name": "the 1y EU HICPxT"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We reduce' at 97"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We tactically' at 739"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0238208,
+   "duration_ms": 2409,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2633,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 97,
+    "output_tokens_details": {
+     "thinking_tokens": 84
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2633,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 97,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2633,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2633
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.039751499999999995,
+   "duration_ms": 8940,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2639,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 882,
+    "output_tokens_details": {
+     "thinking_tokens": 521
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2639,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 882,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2639,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2639
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

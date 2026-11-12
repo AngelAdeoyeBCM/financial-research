@@ -1,0 +1,274 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Perspectives_-_Is_the_Fed_R-star_restrictive.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-09",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 12,
+    "referents": {
+     "thing": 5,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "expletive": 3
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 16,
+  "kinds": {
+   "deixis": 4,
+   "symbol": 3,
+   "shell": 3,
+   "noun_phrase": 2,
+   "possessive": 1,
+   "pronoun": 1,
+   "answer": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.9130434782608695,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 2
+  },
+  "sentences": 29,
+  "cost_usd": 0.1512
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 300,
+   "end": 318,
+   "quote": "the longer-run dot",
+   "name": "the longer-run dot"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 472,
+   "end": 484,
+   "quote": "Chair Powell",
+   "name": "Chair Powell"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 138,
+   "end": 159,
+   "quote": "DB’s r-star dashboard",
+   "name": "DB’s r-star dashboard"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1745,
+   "end": 1863,
+   "quote": "the current fed funds rate is likely below the neutral setting implied by the average r-star estimate in our dashboard",
+   "name": "the current fed funds rate is likely below the neutral setting implied by the average r-star estimate in our dashboard"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 1957,
+   "end": 2072,
+   "quote": "it may be more accurate to classify policy as somewhat accommodative rather than modestly or moderately restrictive",
+   "name": "it may be more accurate to classify policy as somewhat accommodative rather than modestly or moderately restrictive"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3189,
+   "end": 3210,
+   "quote": "the current overshoot",
+   "name": "the current overshoot"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3039,
+   "end": 3076,
+   "quote": "one-time price increases from tariffs",
+   "name": "one-time price increases from tariffs"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 3822,
+   "end": 3946,
+   "quote": "the Fed staff’s FCI has generally tracked a measure of the Fed’s policy stance (real 5y yield minus HLW r-star) historically",
+   "name": "the Fed staff’s FCI has generally tracked a measure of the Fed’s policy stance (real 5y yield minus HLW r-star) historically"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We update' at 819"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1868",
+   "message": "+23 words: {{this sense => the sense that the current fed funds rate is likely below the neutral setting implied by the average r-star estimate in the author's dashboard}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4031",
+   "message": "+23 words: {{this relationship => the relationship that the Fed staff’s FCI has generally tracked a measure of the Fed’s policy stance (real 5y yield minus HLW r-star) historically}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0429843,
+   "duration_ms": 6551,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3893,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 539,
+    "output_tokens_details": {
+     "thinking_tokens": 432
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3893,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 539,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3893,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3893
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10823399999999998,
+   "duration_ms": 31592,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4334,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3612,
+    "output_tokens_details": {
+     "thinking_tokens": 2746
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4334,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3612,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4334,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4334
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,863 @@
+﻿## Structure
+
+| doc | model | ok | att | sec | $ | src chars | args | stmts | stmts/1k | evid | links | isolated | chain | excl | avg stmt words | avg evid words |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ING | haiku | True | 2 | 339 | 0.06 | 8921 | 16 | 59 | 6.6 | 43 | 9 | 3 | 3 | 16 | 11.9 | 18.7 |
+| ING | sonnet | True | 2 | 72 | 0.26 | 8921 | 7 | 32 | 3.6 | 31 | 4 | 2 | 3 | 3 | 14.8 | 22.9 |
+| ING | opus | True | 2 | 301 | 1.10 | 8921 | 17 | 63 | 7.1 | 47 | 13 | 2 | 3 | 4 | 13.0 | 18.1 |
+| MS | haiku | True | 2 | 243 | 0.04 | 3592 | 10 | 32 | 8.9 | 16 | 5 | 4 | 4 | 3 | 14.4 | 31.6 |
+| MS | sonnet | True | 2 | 62 | 0.22 | 3592 | 5 | 19 | 5.3 | 15 | 2 | 2 | 3 | 2 | 18.7 | 32.1 |
+| MS | opus | True | 1 | 105 | 0.45 | 3592 | 11 | 26 | 7.2 | 15 | 8 | 4 | 5 | 4 | 16.0 | 31.3 |
+| Ocado | haiku | True | 2 | 244 | 0.04 | 4629 | 10 | 40 | 8.6 | 15 | 11 | 1 | 4 | 9 | 10.8 | 31.5 |
+| Ocado | sonnet | True | 2 | 47 | 0.13 | 4629 | 4 | 16 | 3.5 | 14 | 3 | 0 | 2 | 2 | 23.1 | 30.7 |
+| Ocado | opus | True | 2 | 193 | 0.65 | 4629 | 10 | 35 | 7.6 | 18 | 10 | 0 | 4 | 7 | 16.0 | 32.0 |
+| SundayTea | haiku | True | 3 | 533 | 0.10 | 14519 | 28 | 111 | 7.6 | 68 | 13 | 8 | 4 | 8 | 12.7 | 29.1 |
+| SundayTea | sonnet | True | 2 | 100 | 0.29 | 14519 | 14 | 40 | 2.8 | 40 | 4 | 8 | 3 | 2 | 16.4 | 31.9 |
+| SundayTea | opus | True | 1 | 350 | 0.95 | 14519 | 35 | 99 | 6.8 | 67 | 19 | 7 | 4 | 7 | 16.1 | 29.5 |
+
+## Claim types (count) and modality (A/H/S)
+
+| doc | model | RECO | VALU | FORE | VIEW | DATA | OBSE | ASSERTED | HEDGED | SPECULATIVE | core types | exclusion codes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ING | haiku | 0 | 5 | 13 | 27 | 5 | 9 | 46 | 10 | 3 | {'VIEW': 8, 'VALU': 2, 'FORE': 6} | {'META': 2, 'NON_CLAIM': 8, 'TRANSIENT': 3, 'NOT_LOAD_BEARING': 3} |
+| ING | sonnet | 0 | 3 | 10 | 13 | 5 | 1 | 22 | 7 | 3 | {'VIEW': 2, 'FORE': 5} | {'TANGENTIAL': 2, 'NOT_LOAD_BEARING': 1} |
+| ING | opus | 0 | 5 | 20 | 19 | 8 | 11 | 48 | 11 | 4 | {'VIEW': 8, 'FORE': 9} | {'META': 1, 'REDUNDANT': 1, 'NOT_LOAD_BEARING': 1, 'TRANSIENT': 1} |
+| MS | haiku | 3 | 0 | 2 | 14 | 7 | 6 | 29 | 1 | 2 | {'VIEW': 7, 'RECO': 2, 'FORE': 1} | {'NOT_LOAD_BEARING': 1, 'META': 2} |
+| MS | sonnet | 2 | 0 | 1 | 6 | 7 | 3 | 16 | 1 | 2 | {'VIEW': 2, 'RECO': 2, 'FORE': 1} | {'NON_CLAIM': 2} |
+| MS | opus | 2 | 0 | 1 | 10 | 8 | 5 | 23 | 1 | 2 | {'VIEW': 8, 'RECO': 2, 'FORE': 1} | {'NOT_LOAD_BEARING': 1, 'META': 3} |
+| Ocado | haiku | 1 | 5 | 6 | 18 | 5 | 5 | 37 | 1 | 2 | {'RECO': 1, 'VIEW': 6, 'VALU': 1, 'FORE': 2} | {'META': 4, 'NON_CLAIM': 1, 'NOT_LOAD_BEARING': 4} |
+| Ocado | sonnet | 1 | 2 | 3 | 7 | 1 | 2 | 15 | 1 | 0 | {'RECO': 1, 'VALU': 1, 'VIEW': 2} | {'NON_CLAIM': 1, 'META': 1} |
+| Ocado | opus | 2 | 3 | 7 | 15 | 2 | 6 | 32 | 1 | 2 | {'RECO': 2, 'VALU': 1, 'VIEW': 5, 'FORE': 2} | {'META': 6, 'NOT_LOAD_BEARING': 1} |
+| SundayTea | haiku | 7 | 1 | 22 | 48 | 8 | 25 | 84 | 22 | 5 | {'FORE': 13, 'VIEW': 9, 'VALU': 1, 'RECO': 5} | {'NON_CLAIM': 2, 'NOT_LOAD_BEARING': 1, 'TANGENTIAL': 3, 'META': 2} |
+| SundayTea | sonnet | 4 | 1 | 15 | 13 | 5 | 2 | 29 | 10 | 1 | {'FORE': 7, 'RECO': 4, 'VIEW': 3} | {'NON_CLAIM': 2} |
+| SundayTea | opus | 7 | 2 | 25 | 34 | 9 | 22 | 81 | 13 | 5 | {'VIEW': 10, 'FORE': 17, 'VALU': 1, 'RECO': 7} | {'META': 3, 'NOT_LOAD_BEARING': 2, 'TANGENTIAL': 2} |
+
+## Gold scores (gold maps predate the atomic-statement rules)
+
+| doc | model | evidence recall | stmt P | stmt R | stmt F1 | type acc | modality acc | edge F1 |
+|---|---|---|---|---|---|---|---|---|
+| ING | gold | â€“ | â€“ | â€“ | 40 stmts | â€“ | â€“ | 7 links |
+| ING | haiku | 0.95 | 0.58 | 0.85 | 0.69 | 0.94 | 0.91 | 0.00 |
+| ING | sonnet | 0.78 | 0.75 | 0.60 | 0.67 | 0.92 | 0.96 | 0.00 |
+| ING | opus | 0.97 | 0.59 | 0.93 | 0.72 | 0.86 | 0.92 | 0.10 |
+| MS | gold | â€“ | â€“ | â€“ | 14 stmts | â€“ | â€“ | 4 links |
+| MS | haiku | 1.00 | 0.38 | 0.86 | 0.52 | 1.00 | 0.92 | 0.22 |
+| MS | sonnet | 1.00 | 0.63 | 0.86 | 0.73 | 0.92 | 0.92 | 0.00 |
+| MS | opus | 1.00 | 0.50 | 0.93 | 0.65 | 1.00 | 0.92 | 0.67 |
+| Ocado | gold | â€“ | â€“ | â€“ | 26 stmts | â€“ | â€“ | 5 links |
+| Ocado | haiku | 0.93 | 0.53 | 0.81 | 0.64 | 0.90 | 0.95 | 0.00 |
+| Ocado | sonnet | 0.86 | 0.75 | 0.46 | 0.57 | 0.92 | 1.00 | 0.50 |
+| Ocado | opus | 1.00 | 0.66 | 0.88 | 0.75 | 0.91 | 0.96 | 0.13 |
+
+## Pairwise agreement between models on matched statements
+
+| doc | pair | stmt overlap F1 | type agreement | modality agreement | link F1 |
+|---|---|---|---|---|---|
+| ING | haiku-sonnet | 0.57 | 0.92 | 0.96 | 0.00 |
+| ING | haiku-opus | 0.87 | 0.83 | 0.94 | 0.36 |
+| ING | sonnet-opus | 0.65 | 0.94 | 0.97 | 0.00 |
+| MS | haiku-sonnet | 0.75 | 0.79 | 1.00 | 0.00 |
+| MS | haiku-opus | 0.79 | 0.91 | 1.00 | 0.15 |
+| MS | sonnet-opus | 0.76 | 0.88 | 1.00 | 0.00 |
+| Ocado | haiku-sonnet | 0.50 | 0.79 | 0.86 | 0.00 |
+| Ocado | haiku-opus | 0.75 | 0.93 | 1.00 | 0.19 |
+| Ocado | sonnet-opus | 0.59 | 0.87 | 0.93 | 0.31 |
+| SundayTea | haiku-sonnet | 0.41 | 0.77 | 0.74 | 0.00 |
+| SundayTea | haiku-opus | 0.84 | 0.84 | 0.85 | 0.06 |
+| SundayTea | sonnet-opus | 0.49 | 0.85 | 0.85 | 0.09 |
+
+## Maps
+
+
+===== ING / haiku =====
+A001 [VIEW/A] Overbought signals don't justify a reversal call
+   supp VIEW/A: Technicals point to stretched USD rally <== A002
+   supp VIEW/A: No clear catalyst for dollar reversal <== A004
+   supp VIEW/A: Firmer oil keeps dollar on solid footing
+A002 [VIEW/A] Technicals point to stretched USD rally
+   supp VALU/A: USD overvalued vs G10 except GBP <== A003
+   rati DATA/A: Net long USD positioning at 24% of OI
+   rati OBSE/A: Options risk reversals near prior peaks
+A003 [VALU/A] USD overvalued vs G10 except GBP
+   supp VALU/A: USD 1.1% overvalued vs G10 equal-weighted
+   supp VALU/A: EUR, SEK, NZD cheap vs fair value
+A004 [VIEW/A] No clear catalyst for dollar reversal
+   supp VIEW/A: Fed tightening stickier than peers, limiting downside
+   supp VIEW/A: Bond weakness supports defensive USD demand
+   supp VIEW/A: Consensus limits scope for negative USD reaction
+   rati OBSE/A: March 2025: Sell-America shock derailed USD
+   rati OBSE/A: March 2026: static Fed blocked USD gains
+   rati DATA/A: Consensus: 0.2% core CPI MoM tomorrow
+   risk VIEW/H: US midterms: underappreciated USD risk <== A005
+A005 [VIEW/H] US midterms: underappreciated USD risk
+   qual VIEW/H: Pre-midterm USD-negative positioning may wait
+A006 [FORE/A] EUR/USD forecast 1.13 for 4Q26 and 1Q27
+   supp VIEW/A: Lower EUR forecasts reflect durable fiscal premium
+   supp VIEW/A: Limited scope for hawkish euro support <== A007
+   supp VIEW/A: Few other euro drivers this week
+   supp VIEW/A: Hardly a welcoming environment for EUR bulls
+   supp VIEW/H: France risk may be entrenching in euro <== A008
+   risk FORE/A: Test of 1.110 remains EUR/USD risk
+   qual FORE/A: EUR/USD expected to stabilise today
+A007 [VIEW/A] Limited scope for hawkish euro support
+   supp FORE/H: October move still looks unlikely
+   rati OBSE/A: Markets fully price a December hike
+A008 [VIEW/H] France risk may be entrenching in euro
+   supp VALU/A: EUR/USD ~1.5% undervalued vs fundamentals
+   risk VIEW/S: Premium could widen if French bonds keep falling
+   qual VIEW/A: Further premium expansion not baseline
+A009 [FORE/H] OAT-Bund may stay below 150-160bp
+   rati OBSE/A: Market expects budget passage by decree
+   qual VIEW/A: Too early to call OAT-Bund retightening
+A010 [FORE/A] EUR/GBP 0.84-0.85 for several months
+   supp VIEW/H: BoE hike prospects pressure EUR/GBP
+   supp FORE/H: One or two BoE hikes increasingly likely <== A011
+   supp VIEW/H: Euro idiosyncratic risks persist
+   supp VIEW/A: Delayed dovish shift underpins GBP
+   risk VIEW/S: UK budget 28 Oct potential sterling risk <== A012
+A011 [FORE/H] One or two BoE hikes increasingly likely
+   supp FORE/H: Dovish shift may wait into 2027
+   rati OBSE/A: BoE signalled readiness to hike
+   qual VIEW/A: BoE 2027 pricing (100bp) too hawkish
+A012 [VIEW/S] UK budget 28 Oct potential sterling risk
+   rati OBSE/A: Markets price little fiscal concern
+   qual VIEW/H: Chancellor and PM mindful of markets
+   qual FORE/A: Budget not expected to spur bond volatility
+   qual FORE/A: Budget not expected to hurt GBP lastingly
+A013 [FORE/A] Romanian inflation to rise modestly to year-end
+   rati DATA/A: Romania CPI rose 6.2% to 6.6% in September
+   rati OBSE/A: Reversed part of August's sharp decline
+A014 [FORE/A] CNB expected to hike again in November
+   supp FORE/A: Core CPI nowcast 3.1-3.2%, above CNB forecast
+   rati DATA/A: Czech Sept inflation expected at 2.5%
+   rati DATA/A: CNB long viewed 3.0% as hike trigger
+   rati OBSE/A: Headline inflation above forecast
+A015 [VALU/A] CZK fair value at 24.250
+   cond FORE/A: CNB expected to hike again in November <== A014
+   cata VIEW/S: Hawkish breakdown could catalyse koruna
+A016 [VIEW/A] Bearish view on CEE currencies
+   supp VIEW/A: Energy and EUR/USD lows pressure EM today
+   qual VIEW/A: Czech koruna is the bearish-view exception
+   EXCL META: THINK Economic and financial analysis Article | 13 October 2026 FX FX Daily: No trigger in sight for
+   EXCL NON_CLAIM: Dollar strength continues to climb, supported by firmer oil prices
+   EXCL NON_CLAIM: USD: Overbought signals not that relevant for now
+   EXCL NON_CLAIM: EUR: 1.13 is our new year-end target
+   EXCL NON_CLAIM: GBP: On firmer ground
+   EXCL NON_CLAIM: CEE: Energy headwinds keeps EM under pressure
+   EXCL TRANSIENT: The start of the week has brought more dollar strength.
+   EXCL TRANSIENT: Todayâ€™s calendar is unlikely to be particularly impactful, with the NFIB survey and home sales figur
+   EXCL NOT_LOAD_BEARING: Positioning tells a similar story.
+   EXCL META: We have published the October edition of FX Talking: Au revoir, euro bulls, with updated FX forecast
+   EXCL NOT_LOAD_BEARING: However, markets have long priced in the possibility of Republicans losing control of Congress
+   EXCL NOT_LOAD_BEARING: While the budget will be closely scrutinised
+   EXCL TRANSIENT: CEE trading was subdued yesterday amid US market closures, leaving our outlook largely unchanged.
+   EXCL NON_CLAIM: Francesco Pesole FX Strategist francesco.pesole@ing.com
+   EXCL NON_CLAIM: This publication has been prepared by the Economic and Financial Analysis Division of ING Bank N.V. 
+   EXCL NON_CLAIM: Copyright and database rights protection exists in this report and it may not be reproduced, distrib
+
+===== ING / sonnet =====
+A001 [VIEW/A] No imminent USD reversal
+   supp VALU/A: USD overvalued 1.1% vs G10
+   supp VIEW/A: Fed expectations limit USD downside
+   supp VIEW/A: Bond weakness supports USD
+   supp VIEW/A: Oil supports dollar
+   rati DATA/A: Net long USD at 24% of OI
+   rati DATA/A: DXY risk reversals near peaks
+   rati OBSE/A: Past reversals needed catalysts
+   rati DATA/A: Consensus 0.2% core CPI
+   risk VIEW/H: Midterms underappreciated USD risk
+   qual VIEW/H: Midterm risk largely priced
+A002 [FORE/A] EUR/USD 1.13 for 4Q26, 1Q27
+   supp VALU/A: EUR/USD 1.5% undervalued
+   supp VIEW/H: French risk premium in euro
+   supp VIEW/A: ECB hike priced, limited support
+   supp VIEW/A: No imminent USD reversal <== A001
+   risk FORE/S: Test of 1.110 risk
+   cond FORE/H: OAT-Bund spread contained <== A007
+A003 [FORE/A] EUR/GBP 0.84-0.85 range
+   supp VIEW/H: Euro risks persist, BoE ready
+   supp FORE/H: One or two BoE hikes likely
+   supp FORE/H: BoE dovish shift late, GBP strength
+   risk VIEW/S: UK budget potential GBP risk
+   qual VIEW/A: BoE 2027 pricing too hawkish
+   qual FORE/A: Budget unlikely to hurt GBP
+A004 [FORE/A] CNB hike in November
+   supp FORE/A: Czech core above CNB forecast
+A005 [VIEW/A] Bearish CEE currencies
+   supp FORE/A: EUR/USD 1.13 for 4Q26, 1Q27 <== A002
+   rati DATA/A: Czech CPI expected 2.5%
+   cata VIEW/S: Hawkish breakdown CZK catalyst
+   qual VALU/A: CZK fair value 24.250
+   qual FORE/A: CNB hike in November <== A004
+A006 [FORE/A] Romania inflation to rise then fall
+   rati DATA/A: Romania inflation up to 6.6%
+A007 [FORE/H] OAT-Bund spread contained
+   cond VIEW/H: French risk premium in euro
+   EXCL TANGENTIAL: Todayâ€™s calendar is unlikely to be particularly impactful, with the NFIB survey and home sales figur
+   EXCL TANGENTIAL: Beyond several ECB appearances, including Lagarde's, there are few other domestic drivers for the eu
+   EXCL NOT_LOAD_BEARING: EUR, SEK and NZD stand out as particularly cheap, undershooting fair value by 1.5-2.5% and sitting b
+
+===== ING / opus =====
+A001 [VIEW/H] Dollar rally becoming stretched
+   supp VALU/A: USD overvalued vs all G10 except GBP
+   supp VALU/A: USD 1.1% overvalued vs G10
+   supp VALU/A: EUR, SEK, NZD particularly cheap
+   rati DATA/A: Net long USD at 24% of open interest
+   rati DATA/A: DXY risk reversals near prior peaks
+A002 [FORE/A] No imminent dollar reversal
+   supp VIEW/A: No clear catalyst for USD reversal in sight <== A003
+   supp VIEW/A: Reversal needs a clear catalyst
+   supp VIEW/A: Firmer oil keeps dollar on solid footing
+   rati OBSE/A: More dollar strength at start of week
+   rati OBSE/A: March 2025: Sell-America shock derailed USD
+   rati OBSE/A: March 2026: static Fed capped dollar
+   risk VIEW/H: Dollar rally becoming stretched <== A001
+A003 [VIEW/A] No clear catalyst for USD reversal in sight
+   supp VIEW/A: Sticky Fed expectations limit USD downside
+   supp VIEW/A: Global bond weakness supports defensive currency
+   supp FORE/H: Today's US calendar unlikely impactful
+   supp VIEW/A: Limited scope for negative USD CPI reaction
+   rati DATA/A: Consensus 0.2% core CPI MoM
+   rati OBSE/A: Republican loss of Congress long priced
+   risk VIEW/H: US midterms an underappreciated USD risk
+   qual FORE/H: Pre-vote USD-negative positioning not before late October
+A004 [VIEW/H] France-related risk entrenched in euro
+   supp VALU/A: EUR/USD ~1.5% undervalued
+A005 [FORE/A] Further premium expansion not baseline
+   supp FORE/H: Decree budget may cap OAT-Bund below 150-160bp
+   risk FORE/S: Euro risk premium could expand further
+A006 [VIEW/A] Unwelcoming environment for EUR bulls
+   supp VIEW/A: Few domestic euro drivers this week
+   supp VIEW/A: Limited scope for extra hawkish euro support
+   supp FORE/H: October ECB hike unlikely
+   rati OBSE/A: December ECB hike fully priced
+A007 [FORE/S] Risk of EUR/USD testing 1.110
+   supp VIEW/A: Unwelcoming environment for EUR bulls <== A006
+   qual FORE/A: Some EUR/USD stabilisation today
+A008 [FORE/A] EUR/USD forecast cut to 1.13
+   supp VIEW/A: Euro carries more durable fiscal risk premium
+   supp VIEW/H: France-related risk entrenched in euro <== A004
+   supp VIEW/A: Unwelcoming environment for EUR bulls <== A006
+   risk FORE/S: Risk of EUR/USD testing 1.110 <== A007
+   cond FORE/A: Further premium expansion not baseline <== A005
+A009 [FORE/H] One or two BoE hikes increasingly likely
+   rati OBSE/A: BoE signalled readiness to hike
+   rati DATA/A: Market prices 100bp BoE hikes by July
+   qual VIEW/A: BoE 2027 pricing too hawkish
+A010 [VIEW/A] Delayed dovish shift underpins GBP
+   supp FORE/H: One or two BoE hikes increasingly likely <== A009
+   supp FORE/H: BoE dovish shift delayed into 2027
+A011 [FORE/A] EUR/GBP in 0.84-0.85 for months
+   supp FORE/H: Euro idiosyncratic risks to persist
+   supp FORE/H: One or two BoE hikes increasingly likely <== A009
+   supp VIEW/A: Delayed dovish shift underpins GBP <== A010
+   risk VIEW/S: 28 October UK budget a sterling risk <== A012
+A012 [VIEW/S] 28 October UK budget a sterling risk
+   rati OBSE/A: Markets price little UK fiscal concern
+   qual FORE/A: Budget not to trigger big gilt volatility
+A013 [FORE/A] Budget not to leave lasting GBP damage
+   supp FORE/A: Budget not to trigger big gilt volatility
+   rati OBSE/A: Healey and Burnham mindful of markets
+   risk VIEW/S: 28 October UK budget a sterling risk <== A012
+A014 [FORE/A] Romania CPI up to year-end, then disinflation
+   rati DATA/A: Romania CPI rose to 6.6%
+A015 [FORE/A] CNB to hike again in November
+   supp FORE/A: Czech core inflation est. 3.1-3.2%
+   rati DATA/A: Czech September CPI 2.5%
+   rati DATA/A: CNB core forecast 2.9%
+   rati DATA/A: CNB sees 3.0% as hike trigger
+   rati OBSE/A: Czech headline inflation above forecast
+A016 [VIEW/A] Bearish on CEE currencies
+   supp FORE/H: Continued pressure on EM today
+   rati OBSE/A: Energy prices rising, EUR/USD at fresh lows
+   qual VIEW/A: Koruna the exception to CEE bearishness <== A017
+A017 [VIEW/A] Koruna the exception to CEE bearishness
+   supp VALU/A: Koruna fair value 24.250
+   rati OBSE/A: Czech rate pricing hawkish
+   cata VIEW/S: Hawkish CPI breakdown could lift CZK
+   EXCL META: We have published the October edition of FX Talking: Au revoir, euro bulls, with updated FX forecast
+   EXCL REDUNDANT: USD: Overbought signals not that relevant for now
+   EXCL NOT_LOAD_BEARING: Positioning tells a similar story.
+   EXCL TRANSIENT: CEE trading was subdued yesterday amid US market closures, leaving our outlook largely unchanged.
+
+===== MS / haiku =====
+A001 [VIEW/A] Desk sentiment into quarter-end not encouraging
+   supp VIEW/A: Rates turmoil reinforced lack of policy control <== A002
+   supp VIEW/A: Sentiment that 2026 P&L was made in Q1
+   supp VIEW/A: Clients with 2026 P&L desperate to protect it
+   rati OBSE/A: Desks in wait-and-see mode, little client re-engagement
+   rati DATA/A: Global L/S HFs down ~1% MTD
+A002 [VIEW/A] Rates turmoil reinforced lack of policy control
+   rati DATA/A: 30Y Treasury at 5.51%, highest since 2004
+   rati DATA/A: US 30y fixed mortgages at 7.18%
+A003 [VIEW/A] Awkward asymmetry into Q4
+   supp VIEW/A: Desk sentiment into quarter-end not encouraging <== A001
+   supp VIEW/A: Clients and desks equally paranoid; FOMO palpable
+   cata VIEW/S: Hormuz headline could spark rally and rates reversal
+A004 [RECO/A] Client talks focus on hedges to run more risk
+   supp VIEW/A: Desk sentiment into quarter-end not encouraging <== A001
+   supp VIEW/A: Awkward asymmetry into Q4 <== A003
+   qual RECO/A: Hedge preserving downside, keeping Q4 participation
+A005 [VIEW/A] HF re-grossing accelerating, led by US equities
+   rati OBSE/A: HFs net buyers of global equities last week
+   rati OBSE/A: European equities net sold; HFs pressed shorts
+   rati OBSE/A: HFs sold EU A&D and EU Industrial Transports
+   qual VIEW/A: US L/S gross leverage near 12m lows despite re-grossing
+   qual VIEW/A: EU equity selling led entirely by Industrials
+A007 [VIEW/A] HFs leaning into less-crowded AI trade pockets
+   rati OBSE/A: HF net exposure rising in Agentic AI and Hyperscalers
+   qual VIEW/A: Memory net positioning well off peak levels <== A008
+A008 [VIEW/A] Memory net positioning well off peak levels
+   rati DATA/A: Memory positioning ~6% vs ~12% at peaks
+A009 [RECO/A] Recommend short EU AI Agent Risk basket (MSSTARSK)
+   supp VIEW/S: Investors can imagine AI automation threatening EU sectors
+A010 [FORE/H] Your First Home should support new-build demand
+   rati DATA/A: Your First Home: 2.5% deposits, 20% equity loan
+   rati DATA/A: Help to Buy: completions up ~33% in five years
+   rati DATA/A: UK Homebuilders basket up ~11.5% this morning
+A011 [VIEW/A] Retail activity has dropped off significantly
+   supp FORE/A: Sept retail demand est. down 23% from August
+   rati OBSE/A: Metli note flagged significant retail activity drop-off
+   EXCL NOT_LOAD_BEARING: We had a bumper week last week in new Equity Thematics launched last week, with some new tradable ba
+   EXCL META: Please ask if you would like to discuss positioning & flows here.
+   EXCL META: Please let us know how we can help.
+
+===== MS / sonnet =====
+A001 [VIEW/A] Desk sentiment unencouraging, wait-and-see
+   supp VIEW/A: Rates turmoil reinforced perceived policy-control loss
+   supp VIEW/A: 2026 P&L made in Q1; funds cutting gross
+   rati DATA/A: 30Y UST 5.51%, mortgages 7.18%
+   rati DATA/A: Global L/S HFs down ~1% MTD in September
+   rati DATA/A: Retail demand down 23% in September
+   risk VIEW/S: Clients fear Hormuz headline-driven rally
+A002 [VIEW/A] Awkward asymmetry into Q4
+   supp VIEW/A: Desk sentiment unencouraging, wait-and-see <== A001
+   supp VIEW/S: Clients fear Hormuz headline-driven rally
+   rati OBSE/A: HFs net buyers of global equities via longs
+   rati DATA/A: HF net exposure rising in Agentic AI, Hyperscalers
+   rati OBSE/A: US L/S gross leverage near 12m lows
+A003 [RECO/A] Use hedges to create room to run risk
+   supp VIEW/A: Awkward asymmetry into Q4 <== A002
+A004 [RECO/A] Short EU AI Agent Risk basket
+   supp VIEW/S: EU Telecoms, Classifieds, Ticketing threatened by AI automation
+   rati OBSE/A: European equities net sold, led by Industrials
+A005 [FORE/H] Scheme should support new-build demand
+   rati DATA/A: UK 'Your First Home' scheme announced
+   rati DATA/A: Help to Buy lifted builder completions ~33%
+   rati DATA/A: UK Homebuilders basket up ~11.5%
+   EXCL NON_CLAIM: Please ask if you would like to discuss positioning & flows here.
+   EXCL NON_CLAIM: Please let us know how we can help.
+
+===== MS / opus =====
+A001 [VIEW/A] Desk sentiment into quarter-end not encouraging
+   supp VIEW/A: Rates turmoil reinforced perceived policy lack of control <== A002
+   supp VIEW/A: 2026 P&L was made in Q1 <== A003
+   supp VIEW/A: Funds protecting P&L via lower gross exposure <== A004
+   rati OBSE/A: Desks in wait-and-see mode, little client re-engagement
+A002 [VIEW/A] Rates turmoil reinforced perceived policy lack of control
+   rati DATA/A: 30Y Treasury at 5.51%, highest since 2004
+   rati DATA/A: US 30y fixed mortgages at 7.18%
+A003 [VIEW/A] 2026 P&L was made in Q1
+   rati DATA/A: Global L/S HFs down ~1% MTD in September
+A004 [VIEW/A] Funds protecting P&L via lower gross exposure
+   supp VIEW/A: 2026 P&L was made in Q1 <== A003
+   rati OBSE/A: US L/S gross leverage near 12m lows
+A005 [VIEW/A] FOMO among clients and desks is palpable
+   supp VIEW/S: Hormuz resolution headline could spark rally, rates reversal
+A006 [VIEW/A] Awkward asymmetry into Q4
+   supp VIEW/A: Desk sentiment into quarter-end not encouraging <== A001
+   supp VIEW/A: Funds protecting P&L via lower gross exposure <== A004
+   supp VIEW/A: FOMO among clients and desks is palpable <== A005
+A007 [RECO/A] Use hedges to create room to run more risk
+   supp VIEW/A: Awkward asymmetry into Q4 <== A006
+   cata VIEW/S: Hormuz resolution headline could spark rally, rates reversal
+A008 [VIEW/A] HFs leaning into less-crowded AI pockets
+   rati OBSE/A: HFs net buyers of global equities; US re-grossing
+   rati OBSE/A: HF net exposure up in Agentic AI, Hyperscalers
+   rati DATA/A: Memory net positioning ~6% vs ~12% peak
+A009 [RECO/A] Short EU AI Agent Risk basket (MSSTARSK)
+   supp VIEW/S: AI automation could threaten EU Telecoms, Classifieds, Ticketing
+   rati OBSE/A: Short MSSTARSK idea gaining client traction
+A010 [FORE/H] Scheme should support UK new-build demand
+   rati DATA/A: UK 'Your First Home': 2.5% deposit, 20% equity loan
+   rati DATA/A: Help to Buy: big-3 completions rose ~33% (2013â€“18)
+   rati DATA/A: UK Homebuilders basket (MSSTUKHB) up ~11.5%
+A011 [VIEW/A] Significant drop-off in retail activity
+   rati DATA/A: Sept retail daily demand down 23% vs August
+   EXCL NOT_LOAD_BEARING: European equities ended net sold over the week as HFs largely pressed shorts â€“ though, the selling w
+   EXCL META: We had a bumper week last week in new Equity Thematics launched last week, with some new tradable ba
+   EXCL META: Please ask if you would like to discuss positioning & flows here.
+   EXCL META: Please let us know how we can help.
+
+===== Ocado / haiku =====
+A001 [RECO/A] Overweight Ocado credit and SUNs
+   supp VIEW/A: Credit strength underpinned by business shift <== A002
+   supp VALU/A: Ocado valuation is unchallenged <== A003
+   supp VIEW/A: Opportunity is a compelling one <== A010
+   supp VIEW/A: Balance sheet rehabilitation is credible <== A007
+   supp FORE/A: Net leverage to fall to 3.9x FY26, 2.3x FY28 <== A008
+   risk VIEW/A: Risk: uneven international adoption
+   risk VIEW/A: Risk: cash drag from major new CFC wins
+   risk VIEW/A: Risk: porous covenant package
+   risk VIEW/A: Risk: new debt incurrence
+   cata VIEW/A: Contract wins and SBA trials are free options <== A004
+   cata VIEW/S: Potential shareholder-loan recovery source <== A006
+   qual VIEW/A: Strong YTD returns make it carry-based
+A002 [VIEW/A] Credit strength underpinned by business shift
+   supp VALU/A: Ocado valuation is unchallenged <== A003
+   rati OBSE/A: Tech Solutions is now the main EBITDA engine
+A003 [VALU/A] Ocado valuation is unchallenged
+   supp VALU/A: Existing modules more than cover debt stack
+   supp VALU/A: Modules imply Â£2.8bn EV at Â£24m per module
+   supp VALU/A: Estimated 24% LTV after Â£765m cash
+   supp VIEW/A: Contract wins and SBA trials are free options <== A004
+   rati DATA/A: Debt stack is Â£1.8bn
+   rati DATA/A: Liquidity: Â£765m cash, Â£300m undrawn RCF
+   qual VALU/A: Coverage holds before valuing future options
+A004 [VIEW/A] Contract wins and SBA trials are free options
+   supp FORE/H: Additional contract signings more likely now
+   rati OBSE/A: Exclusivity has rolled off in key markets
+A005 [VIEW/A] Heritage supermarket a key OSP proof point
+   qual VIEW/A: Heritage supermarket outside Restricted Group
+A006 [VIEW/S] Potential shareholder-loan recovery source
+   qual VIEW/A: Heritage supermarket outside Restricted Group
+A007 [VIEW/A] Balance sheet rehabilitation is credible
+   supp VIEW/A: Cost savings and capex offset cash burn bear case
+   supp FORE/A: Net leverage to fall to 3.9x FY26, 2.3x FY28 <== A008
+   supp FORE/A: Group cash flow +Â£2.6m in FY27 <== A009
+A008 [FORE/A] Net leverage to fall to 3.9x FY26, 2.3x FY28
+   supp VIEW/A: Liquidity is ample
+   supp VIEW/A: Liquidity allows repaying Â£350m convert
+   rati DATA/A: Liquidity: Â£765m cash, Â£300m undrawn RCF
+   rati DATA/A: 2030 notes: 10% with 103 soft call
+   cata VIEW/S: Possible further debt reduction via soft call
+A009 [FORE/A] Group cash flow +Â£2.6m in FY27
+   supp FORE/A: Underlying EBITDA expected to strengthen
+   supp FORE/A: Group-level capex expected to be lower
+   supp VIEW/A: Lower CFC capex inadvertently supported cash flow
+   rati OBSE/A: Management guides positive cash flow in 4Q26, FY27
+   rati OBSE/A: New orders have dried up
+   rati OBSE/A: Kroger and Sobeyâ€™s closed or cancelled CFCs
+   cond VIEW/A: Cash-flow guidance depends on capex discipline
+   cond FORE/A: Model assumes no uncommitted CFC expansion
+A010 [VIEW/A] Opportunity is a compelling one
+   rati DATA/A: 11% coupon implies ~10.5% running yield
+   rati DATA/A: Nearly one year of call protection remaining
+   qual VIEW/A: Strong YTD returns make it carry-based
+   EXCL META: We will be hosting a webinar later today, 08 February at 1400 UKT, with Marcus Diebel who covers Oca
+   EXCL META: We will also offer an opportunity for Q&A.
+   EXCL NON_CLAIM: Please register here.
+   EXCL NOT_LOAD_BEARING: Founded in 2000 as a pure-play online supermarket in the UK, Ocado is now more accurately described 
+   EXCL NOT_LOAD_BEARING: Ocado now generates profit through two distinct but complimentary businesses: Technology Solutions, 
+   EXCL NOT_LOAD_BEARING: Ocado has long framed high cash burn as a positive, being that it signifies strong demand for its ca
+   EXCL NOT_LOAD_BEARING: The corollary, of course, is a consistent need for fresh capital.
+   EXCL META: In this note we expand on the above the points, present summary models including at the consolidated
+   EXCL META: We also outline our expectations for cash flow, including the crucial variable of capex, over the ne
+
+===== Ocado / sonnet =====
+A001 [RECO/A] Overweight on Ocado SUNs
+   supp VIEW/A: Shift to asset-backed tech platform
+   supp VIEW/A: Opportunity largely carry-based, compelling <== A003
+   supp VALU/A: Modules more than cover debt <== A002
+   supp VIEW/A: Balance sheet rehabilitation credible <== A004
+   risk VIEW/A: Risks to the recommendation
+A002 [VALU/A] Modules more than cover debt
+   supp VALU/A: Modules imply Â£2.8bn EV, 24% LTV
+   supp VIEW/A: Contract wins and SBA are free options
+   supp FORE/H: More contract signings likely
+   rati OBSE/A: ORL outside restricted group
+A003 [VIEW/A] Opportunity largely carry-based, compelling
+   rati DATA/A: 11% coupon, ~10.5% running yield
+A004 [VIEW/A] Balance sheet rehabilitation credible
+   supp VIEW/A: Ample liquidity
+   supp FORE/A: Net leverage to fall to 2.3x by FY28
+   supp FORE/A: FY27 cash flow +Â£2.6m
+   rati OBSE/A: Lower CFC capex supported cash flow
+   cond VIEW/A: Guidance depends on capex discipline
+   EXCL NON_CLAIM: We will be hosting a webinar later today, 08 February at 1400 UKT, with Marcus Diebel who covers Oca
+   EXCL META: In this note we expand on the above the points, present summary models including at the consolidated
+
+===== Ocado / opus =====
+A001 [RECO/A] Initiate Ocado credit and SUNs at Overweight
+   supp VIEW/A: Credit strength from shift to tech platform
+   supp VALU/A: Existing modules more than cover debt stack <== A002
+   supp VIEW/A: Ocado carry opportunity is compelling <== A003
+   supp VIEW/A: Balance sheet rehabilitation credible <== A006
+   supp FORE/A: Net leverage to 3.9x FY26, 2.3x FY28
+   rati OBSE/A: Ocado now a technology solutions partner
+   rati OBSE/A: Profits from Tech Solutions and Logistics
+   risk VIEW/A: Risk: uneven international adoption
+   risk VIEW/A: Risk: cash drag from new CFC wins
+   risk VIEW/A: Risk: porous covenant package
+   risk VIEW/A: Risk: new debt incurrence
+A002 [VALU/A] Existing modules more than cover debt stack
+   supp VALU/A: Active modules imply ~Â£2.8bn EV
+   supp VALU/A: Estimated 24% LTV
+   supp VIEW/A: ORL is key OSP proof point
+   rati OBSE/A: Tech Solutions is main EBITDA engine
+   rati OBSE/A: ORL outside Restricted Group, no bondholder claim
+   cata VIEW/A: New contracts and SBA are free options <== A005
+   cata VIEW/S: ORL potential shareholder-loan recovery source
+A003 [VIEW/A] Ocado carry opportunity is compelling
+   rati DATA/A: 11% coupon, ~10.5% running yield
+   qual VIEW/A: Opportunity now largely carry-based
+A004 [RECO/A] JPM equity research also Overweight Ocado
+   supp VALU/A: Existing modules more than cover debt stack <== A002
+A005 [VIEW/A] New contracts and SBA are free options
+   supp FORE/H: More contract signings now more likely
+   rati OBSE/A: Exclusivity rolled off in US
+A006 [VIEW/A] Balance sheet rehabilitation credible
+   supp VIEW/A: Savings, EBITDA, capex offset cash-burn bear case <== A007
+   supp FORE/A: FY27 cash flow +Â£2.6m, matching guidance <== A010
+   supp VIEW/A: Ample liquidity covers Jan-2027 convert <== A008
+   supp FORE/S: Possible debt reduction via 2030 soft call <== A009
+   supp FORE/A: Net leverage to 3.9x FY26, 2.3x FY28
+A007 [VIEW/A] Savings, EBITDA, capex offset cash-burn bear case
+   supp FORE/A: Stronger Tech Solutions EBITDA expected
+   supp FORE/A: Lower Group-level capex expected
+   supp VIEW/A: Lower CFC capex inadvertently supported cash flow
+A008 [VIEW/A] Ample liquidity covers Jan-2027 convert
+   rati DATA/A: Â£765m cash, Â£300m undrawn RCF
+A009 [FORE/S] Possible debt reduction via 2030 soft call
+   supp VIEW/A: Ample liquidity covers Jan-2027 convert <== A008
+A010 [FORE/A] FY27 cash flow +Â£2.6m, matching guidance
+   supp FORE/A: Stronger Tech Solutions EBITDA expected
+   supp FORE/A: Lower Group-level capex expected
+   supp VIEW/A: Lower CFC capex inadvertently supported cash flow
+   rati OBSE/A: Orders dried up; Kroger, Sobey's closed CFCs
+   cond VIEW/A: Cash flow guidance hinges on capex discipline
+   cond FORE/A: Model assumes no uncommitted CFC expansion
+   EXCL META: From online grocery pureplay to one-stop retail technology business:
+   EXCL META: Valuation unchallenged:
+   EXCL META: Cash and balance sheet rehabilitation:
+   EXCL NOT_LOAD_BEARING: Ocado has long framed high cash burn as a positive, being that it signifies strong demand for its ca
+   EXCL META: A renewed focus on profitability and cash flow support management guidance :
+   EXCL META: In this note we expand on the above the points, present summary models including at the consolidated
+   EXCL META: We also outline our expectations for cash flow, including the crucial variable of capex, over the ne
+
+===== SundayTea / haiku =====
+A001 [FORE/A] FOMC to skip in October, wait until December
+   supp VIEW/H: Soft payrolls and PCE ease FOMC pressure
+   rati DATA/A: September payrolls rose a soft 29k
+   rati OBSE/A: PCE revisions show softer core inflation pace
+A002 [FORE/A] FOMC to deliver at least two more hikes
+   supp VIEW/A: Data does not change hot-economy tightening case
+   supp VIEW/A: Recent data points to robust US activity
+   supp VIEW/A: Headline NFP belied stronger underlying picture
+   supp VIEW/A: Rising hours worked signals labour utilization
+   supp VIEW/A: Unemployment rise mainly from participation
+   supp FORE/A: Unemployment would be 3.9% with steady participation
+   supp VIEW/A: Hikes needed to remove insurance cuts
+   supp FORE/S: Lower energy could require tighter Fed policy <== A003
+   rati DATA/A: Household-survey employment rose 406k
+   rati DATA/A: Unemployment rate rose from 4.1% to 4.2%
+A003 [FORE/S] Lower energy could require tighter Fed policy
+   supp VIEW/A: Energy is not the primary US pressure driver
+   supp VIEW/A: US pressure from services inflation and demand
+   cond FORE/H: Some near-term scope for lower crude prices <== A004
+A004 [FORE/H] Some near-term scope for lower crude prices
+   rati DATA/A: G7 to release up to 100m barrels
+   rati OBSE/A: Middle East crude flows near pre-war levels
+   risk VIEW/H: Crude strength suggests risks remain
+   risk VIEW/A: Every energy workaround vulnerable to disruption
+   risk VIEW/S: Iran may rebuild Hormuz leverage otherwise
+A005 [VIEW/A] Back-end relief no reason to go bullish long end
+   supp VIEW/A: Fed needs further hikes for credibility
+   rati OBSE/A: Recent developments gave US back end some relief
+   rati OBSE/A: US fiscal fundamentals have not changed
+   risk VIEW/A: Scope for wider US term premiums
+   cond FORE/A: FOMC to deliver at least two more hikes <== A002
+A006 [VIEW/A] K-shaped bifurcation evident across markets
+   supp VIEW/A: Product prices partly pressured by diesel-ban speculation
+   supp VIEW/A: OAT selling driven by debt sustainability concerns
+   rati OBSE/A: US stocks decoupled from rest of world
+   rati OBSE/A: UST front end outperformed back end
+   rati OBSE/A: EGB spreads widened sharply, not broad sell-off
+   rati OBSE/A: Bunds rallied on flight to quality
+A007 [VIEW/A] OAT-Bund widening exceeds fundamentals
+   supp VIEW/H: Latest leg is stop-out-driven, not fundamental
+   supp VIEW/A: French fundamentals not suddenly deteriorated
+   supp VALU/H: 150bp OAT-Bund consistent with BBB+ pricing <== A008
+   rati DATA/A: OAT-Bund touched 150bp, highest since 2012
+   rati OBSE/A: First signs of broader EGB, bank and credit stress
+   rati OBSE/A: Spread widening ongoing since early September
+   qual VIEW/H: Sustained tightening needs several circuit breakers
+A008 [VALU/H] 150bp OAT-Bund consistent with BBB+ pricing
+   rati DATA/A: OAT-Bund touched 150bp, highest since 2012
+A009 [VIEW/H] Sustained OAT rally needs fundamentals to reassert
+   cond VIEW/H: Positioning must be cleared, especially front-end longs
+   cond VIEW/H: French budget must pass this year
+   cond VIEW/H: Strong OAT auctions needed for price discovery
+   cond VIEW/H: RN fiscal plan details needed
+   cond VIEW/H: Shift in French opinion polls needed
+A010 [VIEW/A] High bar for ECB to use TPI
+   supp VIEW/S: TPI use could create moral hazard
+   rati OBSE/A: TPI unveiled 2022, remains untested
+   rati OBSE/A: TPI designed against unwarranted, disorderly moves
+A011 [FORE/H] Near-zero chance of ECB October hike
+   supp VIEW/H: Energy decline a welcome relief for ECB
+   supp VIEW/A: ECB price pressures externally driven
+   rati OBSE/A: Financial conditions tightened, peripheral spreads wider
+A012 [FORE/A] One more ECB hike in December, then pause
+   supp FORE/A: ECB to deliver fewer hikes than priced <== A013
+A013 [FORE/A] ECB to deliver fewer hikes than priced
+   supp FORE/H: Governing Council likely prefers high-for-longer
+A014 [VIEW/A] French election premium embedding sooner than thought
+   supp VIEW/A: Forecasts captured premium in prior election years
+   risk VIEW/A: Downside risk to 1.14 EURUSD year-end target
+A015 [RECO/A] BNPP prefers hedging EUR via EURAUD and EURMXN
+   supp VIEW/A: OAT-Bund widening exceeds fundamentals <== A007
+   supp VIEW/A: French election premium embedding sooner than thought <== A014
+   supp RECO/A: Added short EURAUD last week for OAT protection
+   supp RECO/A: BNPP holds EURMXN ratio put spread
+   supp VIEW/A: Room for EUR risk premium to keep rising
+   qual VIEW/A: Base case: French election risks evenly balanced
+A016 [RECO/A] BNPP favours and holds long GBPUSD
+   supp VIEW/A: UK political uncertainty has reduced
+   supp VIEW/A: Broader fiscal concerns did not extend to UK <== A017
+   rati OBSE/A: UK M&A inflows ongoing
+   rati OBSE/A: Wide rate differentials
+   rati OBSE/A: GBP positioning extended short into seasonal bullish period
+A017 [VIEW/A] Broader fiscal concerns did not extend to UK
+   supp VIEW/A: Phased reforms limit budget implications
+   rati OBSE/A: Gilts outperformed most European peers
+   rati OBSE/A: UK assets solid despite Labour conference
+   rati DATA/A: Social care service about GBP18bn/year announced
+   rati OBSE/A: Pension triple lock reform partly funds care
+   rati OBSE/A: Government pursuing phased approach to reforms
+   risk FORE/H: Further tax hikes or spending cuts likely needed
+A018 [FORE/A] Events raise probability of BoJ quarterly hikes
+   supp VIEW/A: Tokyo CPI spillovers from energy, chips, wages
+   rati OBSE/A: Tankan resilience from AI boom
+   rati OBSE/A: Tokyo CPI signalled consumer inflation resurgence
+A019 [FORE/H] Consecutive BoJ hike in October is limited
+   supp FORE/A: Events raise probability of BoJ quarterly hikes <== A018
+   supp VIEW/S: Tankan expectations softening may aid BoJ
+   rati OBSE/A: BoJ September Summary of Opinions relatively neutral
+   cata FORE/A: Ueda speech Tuesday to stay non-committal
+A020 [FORE/H] 3-4pp first-round gap suggests second-round tie
+   rati DATA/A: Lula leads first round by 3pp in aggregator
+   rati OBSE/A: First round sets Congress and runoff races
+A021 [FORE/H] BanRep October hike probability rises
+   rati DATA/A: BanRep surprises with 25bp hike
+A022 [RECO/A] BNPP holds short MXNCOP, conviction reinforced
+   supp FORE/H: BanRep October hike probability rises <== A021
+   rati DATA/A: BanRep surprises with 25bp hike
+A023 [RECO/A] BNPP initiated long Coltes 2031 UVR vs SOFR
+   supp FORE/H: BanRep October hike probability rises <== A021
+   rati DATA/A: BanRep surprises with 25bp hike
+A024 [RECO/A] BNPP initiated z36-3y COP basis payer
+   supp FORE/H: BanRep October hike probability rises <== A021
+   rati DATA/A: BanRep surprises with 25bp hike
+A025 [VIEW/A] BNPP revised CEE central bank outlook
+   supp VIEW/A: No clear path to energy price decline
+A026 [FORE/A] BNPP sees Czech 25bp hike in November
+   supp FORE/A: Inflation to exceed CNB band early 2027
+   cond VIEW/A: BNPP revised CEE central bank outlook <== A025
+   qual FORE/A: Czech sustained hold into late 2027
+A027 [FORE/H] NBH likely to remain on hold for now
+   supp VIEW/A: Hungary has bigger mitigating factors
+   supp FORE/A: BNPP removed one of two Hungarian Q4 cuts
+   cond VIEW/H: Hold lasts until external sentiment improves
+A028 [VIEW/A] Subsidies reduce NBP short-term hike risk
+   supp VIEW/A: Subsidies challenge BNPP Polish rates forecast
+   supp FORE/H: Subsidies should improve short-term inflation outlook
+   supp FORE/S: Subsidies could shift NBP tightening to next year
+   rati OBSE/A: President announced large fuel subsidies to year-end
+   EXCL NON_CLAIM: A key question we have been receiving in recent days and weeks is whether a decline in energy prices
+   EXCL NON_CLAIM: Of course, the key question is where to from here?
+   EXCL NOT_LOAD_BEARING: We agree with that premise.
+   EXCL TANGENTIAL: We will be watching closely the cacophony of ECB Governing Council members due to speak this week wh
+   EXCL META: Join us on Monday 5 October 08:00 BST to discuss the political and fiscal â€˜end gameâ€™ for France with
+   EXCL TANGENTIAL: Brazilâ€™s first round election will take place today, with results to be finalized and announced by 9
+   EXCL META: Join us to discuss the results of the first round and political implications with political analyst 
+   EXCL TANGENTIAL: The NBPâ€™s post-MPC press conference this coming week is likely to provide more colour on how the cen
+
+===== SundayTea / sonnet =====
+A001 [FORE/A] FOMC skip in October
+   supp VIEW/A: Hot economy, sticky prices
+   supp VIEW/A: Underlying jobs stronger than headline
+   rati DATA/A: Soft NFP and core PCE
+   rati DATA/A: Household survey +406k, unemployment 4.2%
+A002 [FORE/A] At least two more Fed hikes
+   supp VIEW/A: Hot economy, sticky prices
+   supp VIEW/A: Energy not main US pressure driver
+   supp VIEW/H: Lower energy could mean tighter policy
+   supp VIEW/A: Underlying jobs stronger than headline
+   rati DATA/A: Household survey +406k, unemployment 4.2%
+A003 [RECO/A] Not bullish on US long end
+   supp FORE/A: Wider term premiums, Fed credibility
+   supp FORE/A: At least two more Fed hikes <== A002
+A004 [FORE/A] ECB one more hike in December
+   supp FORE/A: No ECB October hike
+   supp VIEW/A: Energy decline helps ECB more
+   supp FORE/H: ECB fewer hikes than priced
+A005 [VIEW/H] OAT move stop-out driven
+   supp VALU/A: 150bp implies BBB+ pricing
+   rati DATA/A: OAT-Bund at 150bp
+   cond VIEW/A: Circuit breakers needed for OAT rally
+A006 [VIEW/A] High bar for TPI
+   supp VIEW/H: OAT move stop-out driven <== A005
+A007 [FORE/A] Downside risk to EURUSD 1.14
+   cata VIEW/H: OAT move stop-out driven <== A005
+   qual VIEW/A: Election risks balanced
+A008 [RECO/A] Short EURAUD and EURMXN put spread
+   supp FORE/A: Downside risk to EURUSD 1.14 <== A007
+A009 [RECO/A] Long GBPUSD
+   supp VIEW/H: GBP well placed
+   supp VIEW/H: Phased UK reforms, limited budget impact
+   rati OBSE/A: UK resilient to fiscal concerns
+A010 [FORE/A] BoJ quarterly hiking more likely
+   rati OBSE/A: Tankan shows resilience and inflation
+   qual FORE/H: BoJ October hike unlikely
+A011 [FORE/H] Brazil first round neutral scenario
+   rati DATA/A: Poll aggregator shows Lula 3pp lead
+A012 [RECO/A] Colombia/Mexico trades
+   supp FORE/A: Another Banrep hike likelier
+   rati DATA/A: Banrep surprise 25bp hike
+A013 [VIEW/A] CEE outlook revised on energy
+   supp FORE/A: Czech hike in November
+   supp FORE/H: NBH on hold
+   supp FORE/S: NBP hike may shift later
+A014 [FORE/H] Near-term downside for crude
+   qual VIEW/H: Energy risks remain
+   EXCL NON_CLAIM: Join us on Monday 5 October 08:00 BST to discuss the political and fiscal â€˜end gameâ€™ for France with
+   EXCL NON_CLAIM: Join us to discuss the results of the first round and political implications with political analyst 
+
+===== SundayTea / opus =====
+A001 [VIEW/A] K-shaped bifurcation now visible across markets
+   supp VIEW/A: OAT selling driven by debt sustainability fears
+   rati OBSE/A: US stocks and Nasdaq decoupling
+   rati OBSE/A: UST front end outperformed back end
+   rati OBSE/A: Crude falling, product price pressure persists
+   rati OBSE/A: Sharp EGB spread widening, not broad sell-off
+   rati OBSE/A: Bunds rallied, OATs sold
+   rati OBSE/A: First signs of broader stress and spillovers
+A002 [FORE/A] FOMC to skip October, wait until December
+   supp VIEW/H: Soft data eases pressure on FOMC
+   rati DATA/A: September NFP rose a soft 29k
+   rati OBSE/A: PCE revisions showed softer core inflation
+A003 [VIEW/A] Headline NFP belied stronger labour picture
+   rati DATA/A: Household survey employment +406k
+   rati DATA/A: Unemployment 4.1%â†’4.2% on participation rise
+   rati DATA/A: Unemployment 3.9% at steady participation
+A004 [VIEW/A] Hot US economy still warrants tightening
+   supp VIEW/A: Recent data show robust US activity
+   supp VIEW/A: Headline NFP belied stronger labour picture <== A003
+   supp VIEW/A: Entrenched services inflation, elevated demand
+A005 [FORE/A] At least two more FOMC hikes
+   supp VIEW/A: Hot US economy still warrants tightening <== A004
+   supp VIEW/A: Energy not primary driver of US pressure <== A008
+   supp FORE/H: Lower energy could require even tighter Fed
+   qual FORE/A: FOMC to skip October, wait until December <== A002
+A006 [VIEW/A] Energy risks remain; no imminent resolution
+   supp VIEW/A: Every supply workaround vulnerable
+   supp VIEW/S: Iran may rebuild leverage by other means
+A007 [FORE/H] Near-term downside for crude and products
+   rati OBSE/A: Middle East crude flows near pre-war levels
+   rati DATA/A: G7 reportedly releasing up to 100mn barrels
+   risk VIEW/A: Energy risks remain; no imminent resolution <== A006
+A008 [VIEW/A] Energy not primary driver of US pressure
+   supp VIEW/A: Entrenched services inflation, elevated demand
+A009 [VIEW/A] No reason to turn bullish on UST long end
+   supp FORE/A: At least two more FOMC hikes <== A005
+   supp VIEW/A: Fed must deliver hikes to restore credibility
+   supp VIEW/A: US fiscal fundamentals unchanged
+   supp FORE/H: Scope for wider US term premiums
+A010 [FORE/A] Near-zero chance of October ECB hike
+   supp VIEW/A: Lower energy more welcome relief for ECB
+   rati OBSE/A: Euro-area financial conditions tightened
+A011 [FORE/A] ECB to hike less than priced
+   supp VIEW/A: Lower energy more welcome relief for ECB
+   rati OBSE/A: Euro-area financial conditions tightened
+   rati DATA/A: 10y OAT-Bund touched 150bp, highest since 2012
+A012 [FORE/A] ECB: one more hike in December, then pause
+   supp FORE/A: Near-zero chance of October ECB hike <== A010
+   supp FORE/A: ECB to hike less than priced <== A011
+A013 [VALU/A] OAT-Bund widening overshoots fundamentals
+   supp VIEW/H: Latest OAT leg is stop-out selling
+   supp VIEW/A: French fundamentals weak but not suddenly worse
+   supp VALU/H: 150bp OAT-Bund prices France toward BBB+
+   rati DATA/A: 10y OAT-Bund touched 150bp, highest since 2012
+A014 [VIEW/A] Sustained OAT tightening needs circuit breakers
+   cond VIEW/A: Need positioning cleared, esp. front-end longs
+   cond VIEW/A: Need French budget to pass this year
+   cond VIEW/A: Need strong OAT auctions
+   cond VIEW/A: Need RN fiscal consolidation details
+   cond VIEW/A: Need shift in French opinion polls
+A015 [VIEW/A] High bar for ECB to use TPI
+   supp VIEW/S: TPI intervention risks moral hazard
+   rati OBSE/A: TPI unveiled 2022, untested
+   rati OBSE/A: TPI targets unwarranted, disorderly moves
+A016 [FORE/A] Downside risk to 1.14 EURUSD year-end target
+   supp VIEW/A: EUR election premium building faster than expected
+   rati OBSE/A: EUR premium seen before past French elections
+A017 [RECO/A] Hedge against further EUR weakness
+   supp FORE/A: Downside risk to 1.14 EURUSD year-end target <== A016
+   supp FORE/S: Room for EUR risk premium to keep rising
+   qual VIEW/A: Base case: French election risks balanced
+A018 [RECO/A] Short EURAUD added as EUR downside hedge
+   supp RECO/A: Hedge against further EUR weakness <== A017
+   supp VIEW/A: Sustained OAT tightening needs circuit breakers <== A014
+A019 [RECO/A] Hold EURMXN ratio put spread
+   supp RECO/A: Hedge against further EUR weakness <== A017
+A020 [VIEW/A] UK political uncertainty reduced
+   supp VIEW/A: UK government taking phased approach to reform
+   supp FORE/H: Limited implications for 28 October budget
+   rati DATA/A: Burnham: ~GBP18bn/yr social care service
+   risk FORE/H: Extra tax hikes or cuts likely needed
+A021 [FORE/A] GBP well placed in coming weeks
+   supp VIEW/A: UK political uncertainty reduced <== A020
+   rati OBSE/A: Gilts outperformed; fiscal concern spared UK
+   rati OBSE/A: GBP held its ground
+   rati OBSE/A: Ongoing M&A inflows to UK
+   rati OBSE/A: Wide GBP rate differentials
+A022 [RECO/A] Long GBPUSD entered
+   supp FORE/A: GBP well placed in coming weeks <== A021
+   rati OBSE/A: Extended GBP shorts into bullish season
+A023 [FORE/A] BoJ quarterly hiking cycle more likely
+   rati OBSE/A: Tankan: AI-backed resilience, sustained inflation
+   rati OBSE/A: Tokyo CPI signals inflation resurgence
+   qual FORE/H: Consecutive BoJ hike in October unlikely <== A024
+A024 [FORE/H] Consecutive BoJ hike in October unlikely
+   supp VIEW/S: Softer expectations could relieve BoJ
+   rati OBSE/A: Tankan inflation expectations softened slightly
+   rati OBSE/A: Neutral BoJ Summary of Opinions
+A025 [FORE/A] Ueda speech to stay non-committal
+   supp FORE/H: Consecutive BoJ hike in October unlikely <== A024
+A026 [VIEW/H] 3-4pp gap implies Brazil runoff tie
+   rati DATA/A: Poll aggregator: Lula ahead by 3pp
+A027 [FORE/A] Higher odds of 30 October BanRep hike
+   supp VIEW/A: BanRep has turned hawkish
+   rati DATA/A: BanRep surprise 25bp hike
+A028 [RECO/A] Short MXNCOP, conviction reinforced
+   supp VIEW/A: BanRep has turned hawkish
+   supp FORE/A: Higher odds of 30 October BanRep hike <== A027
+A029 [RECO/A] Long Coltes 2031 UVR vs pay 5y SOFR
+   supp VIEW/A: BanRep has turned hawkish
+   rati DATA/A: BanRep surprise 25bp hike
+A030 [RECO/A] z36-3y COP basis payer initiated
+   supp VIEW/A: BanRep has turned hawkish
+   rati DATA/A: BanRep surprise 25bp hike
+A031 [FORE/A] CNB 25bp hike in November, then hold
+   supp FORE/A: Czech inflation to breach CNB band
+   supp VIEW/A: No clear path to lower energy; CEE revised
+A032 [FORE/H] NBH on hold until risk sentiment improves
+   supp VIEW/A: No clear path to lower energy; CEE revised
+A033 [FORE/A] One of two Q4 NBH cuts removed
+   supp FORE/H: NBH on hold until risk sentiment improves <== A032
+   supp VIEW/A: No clear path to lower energy; CEE revised
+   qual VIEW/A: Hungary has bigger inflation mitigants
+A034 [FORE/A] Lower risk of near-term NBP hike
+   supp FORE/H: Subsidies improve Polish inflation outlook
+   rati OBSE/A: Polish fuel subsidies re-introduced
+A035 [FORE/S] NBP tightening may slip to early next year
+   supp FORE/A: Lower risk of near-term NBP hike <== A034
+   cata FORE/H: NBP press conference to clarify risks
+   EXCL META: Of course, the key question is where to from here?
+   EXCL META: A key question we have been receiving in recent days and weeks is whether a decline in energy prices
+   EXCL META: However, we have received fewer questions on the likely path for ECB policy rates over the last week
+   EXCL NOT_LOAD_BEARING: We will be watching closely the cacophony of ECB Governing Council members due to speak this week wh
+   EXCL NOT_LOAD_BEARING: The solid performance of UK assets materialised, despite the timing of the Labour Party conference a
+   EXCL TANGENTIAL: Brazilâ€™s first round election will take place today, with results to be finalized and announced by 9
+   EXCL TANGENTIAL: The first round will set the results for both houses of Congress and define the second rounds for th

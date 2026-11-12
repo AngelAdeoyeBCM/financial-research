@@ -1,0 +1,317 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BC_Thinking_Macro_-_Are_inflation_markets_calm_or_complacent.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-05",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 18,
+    "referents": {
+     "claim": 7,
+     "thing": 4
+    },
+    "decisions": {
+     "link": 12,
+     "leave": 6
+    },
+    "leave_reasons": {
+     "expletive": 4,
+     "generic": 2
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 17,
+  "kinds": {
+   "proposition": 6,
+   "deixis": 4,
+   "demonstrative": 2,
+   "shell": 2,
+   "pronoun": 1,
+   "symbol": 1,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.9818181818181818,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 3
+  },
+  "sentences": 42,
+  "cost_usd": 0.1741
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 59,
+   "end": 205,
+   "quote": "Inflation markets, and by implication broader US fixed income, are priced remarkably close to levels consistent with the Fed’s 2% inflation target",
+   "name": "Inflation markets, and by implication broader US fixed income, are priced remarkably close to levels consistent with the Fed’s 2% inflation target"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 660,
+   "end": 672,
+   "quote": "1y CPI swaps",
+   "name": "1y CPI swaps"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1214,
+   "end": 1265,
+   "quote": "potential inflationary drivers from a top-down lens",
+   "name": "the potential inflationary drivers from a top-down lens"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 2437,
+   "end": 2489,
+   "quote": "when growth is above trend, unemployment should fall",
+   "name": "when growth is above trend, unemployment should fall"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2344,
+   "end": 2354,
+   "quote": "Okun’s law",
+   "name": "Okun’s law"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 3012,
+   "end": 3109,
+   "quote": "with robust productivity growth, solid growth can be sustained even with a loosening labor market",
+   "name": "with robust productivity growth, solid growth can be sustained even with a loosening labor market"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 3521,
+   "end": 3557,
+   "quote": "Okun’s law begins to reassert itself",
+   "name": "Okun’s law begins to reassert itself"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3746,
+   "end": 3769,
+   "quote": "a bottom-up perspective",
+   "name": "the bottom-up perspective"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 4045,
+   "end": 4182,
+   "quote": "goods were in slight deflation, shelter ran above target and core services ex-shelter adjusted as needed to move overall core near target",
+   "name": "goods were in slight deflation, shelter ran above target and core services ex-shelter adjusted as needed to move overall core near target"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 4899,
+   "end": 4947,
+   "quote": "shelter inflation runs below the pre-COVID trend",
+   "name": "shelter inflation runs below the pre-COVID trend"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 4965,
+   "end": 5163,
+   "quote": "“supercore” inflation (a key sub component closely monitored by FOMC officials composed of services which are especially labor market sensitive) likely must sustainably run higher in order to offset",
+   "name": "“supercore” inflation (a key sub component closely monitored by FOMC officials composed of services which are especially labor market sensitive) likely must sustainably run higher in order to offset"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we enter' at 350"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 322",
+   "message": "+21 words: {{this => that Inflation markets, and by implication broader US fixed income, are priced remarkably close to levels consistent with the Fed’s 2% inflation target}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4200",
+   "message": "+23 words: {{this => that goods were in slight deflation, shelter ran above target and core services ex-shelter adjusted as needed to move overall core near target}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5228",
+   "message": "+30 words: {{this dimension => the dimension that “supercore” inflation (a key sub component closely monitored by FOMC officials composed of services which are especially labor market sensitive) likely must sustainably run higher in order to offset}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0486988,
+   "duration_ms": 7634,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4253,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 677,
+    "output_tokens_details": {
+     "thinking_tokens": 664
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4253,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 677,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4253,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4253
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1254167,
+   "duration_ms": 34748,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4961,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4225,
+    "output_tokens_details": {
+     "thinking_tokens": 3008
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4961,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4225,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4961,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4961
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

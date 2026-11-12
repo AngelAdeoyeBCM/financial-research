@@ -1,0 +1,393 @@
+{
+  "batch_id": "2026-05-17",
+  "window": [
+    "2026-05-17",
+    "2026-05-17"
+  ],
+  "generated_at": "2026-10-29T16:29:06",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-17_2026-05-20.json",
+      "sha256": "7498cc3995179581b97c0415d8f8696849789d3eaea86d514f9273cbc0a7bb79",
+      "records": 1229,
+      "dates": [
+        "2026-05-17",
+        "2026-05-20"
+      ],
+      "records_for_batch": 124
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 5,
+    "out_of_scope": 2,
+    "compiled": 2,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 22,
+    "edits": 49,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-05-17",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-05-17",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 5,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-05-17.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "9a2fb02f7f9fc450fb2d151a1694cc1a62b8664f",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Fedspeak Calendar Source: Bloomberg Finance LP, Deutsche Bank Research Figure 2: DB US eco'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 3: Data calendar & DB forecasts Source: Deutsche Bank Research Provided for the exclusive use'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 17/05/2026 14:01:12 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 17/05/2026 14:01:12 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Justin Weidner Economist +1-212-469-1679 Amy Yang Economist +1-212-250-9959 Brett Ryan Senior US Economist +1-212-250-6294"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-05-18T17:32+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "17 May 2026 US Economic Notes Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Chief US Economist +1-212-250-6161"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-05-18T17:32+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "17 May 2026 US Economic Notes Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-05-18T17:32+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 7,
+        "disclaimer": 7,
+        "signature": 2
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " )",
+              "after": ")"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " What you need to know for the week ahead ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_US_Economics_Analyst_-_Concentration__Profits__and_the_Competitive_Landscape_Ahead_of_AI_Disruption",
+      "document": "GS_US Economics Analyst - Concentration, Profits, and the Competitive Landscape Ahead of AI Disruption.pdf",
+      "date": "2026-05-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 28,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.118,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_US_Week_Ahead_-_May_18_-_May_24",
+      "document": "GS_US Week Ahead - May 18 - May 24.pdf",
+      "date": "2026-05-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Australia_Macroplus_Week_Ahead_-_The_Global_Outlook",
+      "document": "MS_Australia Macroplus Week Ahead - The Global Outlook.pdf",
+      "date": "2026-05-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 40,
+      "page_count": 17,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.216,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Onward_and_upward_Sunday_Tea_with_BNP_Paribas--924278",
+      "document": "Sunday_Tea_with_BNPP_Onward_and_upward_Sunday_Tea_with_BNP_Paribas--924278.pdf",
+      "date": "2026-05-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/Sunday_Tea_with_BNPP_Onward_and_upward_Sunday_Tea_with_BNP_Paribas--924278.txt",
+      "asset_class_share": 0.857,
+      "fingerprint": "5a6d44563e27137317210a785221b756a4cd7154",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "a s a s Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "R I B A S"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "A L M A R K"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        },
+        {
+          "rule": "rule_line",
+          "section": "artefact",
+          "text": "____________________"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "header": 2,
+        "promotion": 1,
+        "artefact": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 12,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 24,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " Sunday Tea with BNPP: Onward and upward ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            },
+            {
+              "before": " • ",
+              "after": "\n- "
+            }
+          ]
+        },
+        "numbered_list": {
+          "count": 5,
+          "examples": [
+            {
+              "before": "1) ",
+              "after": "\n1. "
+            },
+            {
+              "before": "2) ",
+              "after": "\n2. "
+            },
+            {
+              "before": "3) ",
+              "after": "\n3. "
+            },
+            {
+              "before": "4) ",
+              "after": "\n4. "
+            },
+            {
+              "before": "5) ",
+              "after": "\n5. "
+            }
+          ]
+        },
+        "heading": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

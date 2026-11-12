@@ -1,0 +1,1059 @@
+schema_version: phase1-0.6
+atoms_source: outputs/atomise_v04/norm-opus_atom-opus/atoms.jsonl
+document:
+  title: 'Liquid Insight: Sept FOMC: hike or bond spike'
+  publisher: BofA Global Research
+  authors:
+  - Mark Cabana
+  - Aditya Bhave
+  - Alex Cohen
+  - Oliver Levingston
+  desk: Global Rates & Currencies Research
+  asset_classes:
+  - Rates
+  - FX
+  source_email_sent_at: null
+  publication_date: '2026-09-14'
+  source_preprocessing:
+  - Normalised by normalise_v20 (opus) and atomised by atomise_v04 (opus).
+  source_notes:
+  - Evidence lists atom IDs (P###-n). Data atoms are cited as evidence only, never
+    as statements.
+statements:
+- id: S001
+  brief: Fed to hike 25bp in September
+  statement: The Fed will hike rates by 25bp at the September FOMC.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  - quantitative
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P005-1
+  - P139-1
+  - P012-1
+- id: S003
+  brief: 'Fed choice: hike or bond spike'
+  statement: 'At the September FOMC the Fed faces a simple choice: hike, or risk a
+    large bond spike.'
+  claim_type: VIEW
+  subkinds:
+  - event
+  modality: ASSERTED
+  modality_cue: simple
+  evidence:
+  - P007-1
+  - P007-2
+  - P016-1
+  - P016-2
+  - P102-1
+  - P102-2
+  - P141-1
+  - P141-2
+- id: S004
+  brief: Bond likes orthodoxy - hikes, not buybacks
+  statement: The bond market favours orthodoxy, in which rate hikes, not buybacks,
+    slow inflation and quell long-end rate spikes.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: likes
+  evidence:
+  - P008-1
+  - P019-1
+  - P020-1
+- id: S005
+  brief: Warsh delivers hawkish hike, Jackson Hole-style presser
+  statement: Warsh will deliver a hawkish hike, with hawkish FOMC communication and
+    a press conference closer to his Jackson Hole stance than to the July FOMC.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P009-1
+  - P142-1
+  - P021-1
+  - P025-1
+  - P026-1
+  - P085-1
+  - P086-2
+  - P106-1
+  - P107-1
+- id: S006
+  brief: Higher front end, modest UST twist flattening
+  statement: Front-end rates will rise and the UST curve will twist flatten modestly.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: HEDGED
+  modality_cue: should support
+  evidence:
+  - P009-2
+  - P009-3
+  - P142-2
+  - P142-3
+  - P026-2
+  - P081-1
+- id: S007
+  brief: USD hinges on Fed out-hawking others
+  statement: The USD outcome will be determined by the Fed's ability to out-hawk market
+    expectations and other G10 central banks.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: will be determined
+  evidence:
+  - P010-1
+  - P143-1
+- id: S008
+  brief: Jackson Hole and data drove hike repricing
+  statement: Warsh's Jackson Hole speech and stronger labour and inflation data drove
+    the sharp rise in Fed hike pricing.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: catalyzed by
+  evidence:
+  - P013-1
+  - P013-2
+  - P014-1
+  - P014-2
+  - P014-3
+  - P014-4
+- id: S009
+  brief: CPI all but locks in the hike
+  statement: Friday's CPI data all but lock in a rate hike this week.
+  claim_type: CAUSAL
+  subkinds:
+  - event
+  modality: ASSERTED
+  modality_cue: all but lock in
+  evidence:
+  - P030-1
+- id: S010
+  brief: Cost of disappointing expectations raised
+  statement: Warsh's Jackson Hole remarks and current market pricing have significantly
+    raised the cost of disappointing hike expectations.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: have raised
+  evidence:
+  - P031-1
+- id: S011
+  brief: Twist flattening gives further justification for hike
+  statement: Friday's twist flattening of the Treasury curve gives Warsh further justification
+    for a hike, as evidence that tighter policy reinforces inflation-fighting credibility.
+  claim_type: VIEW
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: further justification
+  evidence:
+  - P032-1
+  - P032-2
+- id: S012
+  brief: Rate pricing firmly supports a hike
+  statement: Rate pricing is firmly in the zone to support a hike.
+  claim_type: VIEW
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: firmly
+  evidence:
+  - P080-1
+  - P079-1
+  - P079-2
+- id: S013
+  brief: A hold would be unprecedentedly dovish
+  statement: A September hold at current pricing would be an unprecedented dovish
+    hold.
+  claim_type: VIEW
+  subkinds:
+  - event
+  modality: HEDGED
+  modality_cue: would represent
+  evidence:
+  - P109-3
+  - P028-1
+  - P110-1
+  - P111-1
+  - P111-2
+  - P111-3
+  - P111-4
+  - P111-5
+  - P111-6
+  - P111-7
+  - P112-1
+  - P113-1
+  - P113-2
+- id: S014
+  brief: Fed and administration understand hold's bond risk
+  statement: Warsh, others at the Fed and the Trump administration understand the
+    bond risk of a September hold.
+  claim_type: VIEW
+  subkinds:
+  - sentiment
+  modality: ASSERTED
+  modality_cue: thinks
+  evidence:
+  - P101-1
+  - P101-2
+  - P101-3
+- id: S015
+  brief: 'Administration choice: front-end or long-end pain'
+  statement: The Trump administration's choice is likely between tolerating modestly
+    higher front-end rates and materially higher long-end rates.
+  claim_type: VIEW
+  subkinds:
+  - market_state
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P103-1
+- id: S016
+  brief: Bessent and Warsh explain the tradeoff to Trump
+  statement: Bessent and Warsh will effectively explain the administration's choice
+    to Trump.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  modality: ASSERTED
+  modality_cue: expects
+  evidence:
+  - P104-1
+- id: S017
+  brief: Trump won't like the choice
+  statement: Trump will not like the administration's choice.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  modality: ASSERTED
+  modality_cue: won’t like
+  evidence:
+  - P105-1
+- id: S018
+  brief: Trump should understand bond un-anchoring risk
+  statement: Trump should understand the risks of bond un-anchoring and the market
+    implications.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  modality: HEDGED
+  modality_cue: should understand
+  evidence:
+  - P105-2
+- id: S019
+  brief: Hawkish line is largely to support the bond
+  statement: Warsh will take the Jackson Hole line largely to support the bond market.
+  claim_type: CAUSAL
+  subkinds:
+  - event
+  modality: HEDGED
+  modality_cue: largely
+  evidence:
+  - P025-1
+  - P025-2
+- id: S020
+  brief: USD supported
+  statement: The USD will be supported.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P026-3
+- id: S021
+  brief: Risk assets challenged
+  statement: Risk assets will be challenged.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P026-4
+- id: S022
+  brief: Hawkish hike challenges lower-belly-rates bias
+  statement: A hawkish hike will challenge the author's prior bias for lower belly
+    rates, with higher front-end rates and twist flattening.
+  claim_type: VIEW
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: will challenge
+  evidence:
+  - P107-2
+- id: S023
+  brief: Hawkish hike supports long-end asset swap view
+  statement: A hawkish hike should support the author's constructive long-end asset
+    swap spread view.
+  claim_type: VIEW
+  subkinds:
+  - valuation
+  modality: HEDGED
+  modality_cue: should support
+  evidence:
+  - P108-1
+- id: S024
+  brief: Lower risks and credibility support UST confidence
+  statement: Lower growth and inflation risk and enhanced Fed credibility should support
+    UST investor confidence.
+  claim_type: CAUSAL
+  subkinds:
+  - sentiment
+  modality: HEDGED
+  modality_cue: should support
+  evidence:
+  - P108-2
+  - P108-3
+- id: S025
+  brief: Rate reaction depends on communications mix
+  statement: The rate reaction to a hike will depend on the mix of Fed communications,
+    with the Warsh press conference the key question.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: will depend
+  evidence:
+  - P084-1
+  - P086-1
+- id: S026
+  brief: Waller may dissent dovishly
+  statement: Governor Waller may cast a dovish dissent against a hike, depending on
+    his estimate of August core PCE.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  modality: HEDGED
+  modality_cue: may
+  evidence:
+  - P022-2
+  - P041-2
+- id: S027
+  brief: Dovish hike or hold moves markets more
+  statement: A dovish hike or a Fed hold would likely move markets more than a hawkish
+    hike.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P082-1
+- id: S028
+  brief: Further hikes in October and December
+  statement: The Fed will hike again in both October and December, for 75bp of hikes
+    in 2026.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  - quantitative
+  modality: ASSERTED
+  modality_cue: expects
+  evidence:
+  - P035-3
+  - P035-4
+  - P015-1
+  - P015-2
+  - P034-1
+  - P034-2
+  - P123-2
+- id: S029
+  brief: Data soften or Fed turns dovish
+  statement: Incoming data soften materially or Fed communication turns unexpectedly
+    dovish.
+  claim_type: SUPPOSITION
+  subkinds:
+  - market_state
+  modality: HYPOTHETICAL
+  modality_cue: Unless
+  evidence:
+  - P035-1
+  - P035-2
+- id: S030
+  brief: Policy path uncertain beyond September
+  statement: Uncertainty around the policy path beyond the September meeting remains.
+  claim_type: VIEW
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: remains
+  evidence:
+  - P033-1
+- id: S031
+  brief: Fed hikes in September
+  statement: The Fed hikes at the September FOMC.
+  claim_type: SUPPOSITION
+  subkinds:
+  - event
+  modality: HYPOTHETICAL
+  modality_cue: If
+  evidence:
+  - P038-1
+  - P041-1
+  - P045-1
+  - P058-1
+  - P060-2
+  - P127-1
+  - P134-1
+- id: S053
+  brief: Warsh sounds impatient on inflation
+  statement: Warsh sounds impatient on inflation at the press conference, suggesting
+    recent data do not show an adequate disinflation trend or that the hike is the
+    first of a sequence.
+  claim_type: SUPPOSITION
+  subkinds:
+  - event
+  modality: HYPOTHETICAL
+  modality_cue: If
+  evidence:
+  - P087-1
+  - P087-2
+  - P060-1
+  - P130-1
+- id: S054
+  brief: Market raises hike peak, pulls forward timing
+  statement: The market will raise the hike peak and pull forward its timing.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P087-3
+  - P087-4
+  - P131-1
+- id: S055
+  brief: About 100bp of hikes priced, 60-65bp by end-2026
+  statement: Total hikes priced would rise to about 100bp, with 60-65bp by end-2026.
+  claim_type: PREDICTION
+  subkinds:
+  - quantitative
+  modality: SPECULATIVE
+  modality_cue: might
+  evidence:
+  - P088-1
+  - P088-2
+  - P060-3
+  - P060-4
+- id: S056
+  brief: 2Y up 5-10bp, 30Y down 5-10bp
+  statement: 2Y rates would rise 5-10bp and 30Y rates fall 5-10bp.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  - quantitative
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P089-1
+  - P089-2
+- id: S057
+  brief: Lower risks and credible Fed lower bond yields
+  statement: Downside growth and inflation risk and a more credible Fed returning
+    to orthodoxy would lower bond yields.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: due to
+  evidence:
+  - P090-1
+  - P090-2
+  - P090-3
+- id: S058
+  brief: Warsh gives dovish or non-committal presser
+  statement: Warsh gives a dovish or non-committal press conference, implying the
+    hike is unpopular, few hikes will follow or inflation is improving, reassuring
+    markets the Fed will proceed cautiously, or muddling his reaction function.
+  claim_type: SUPPOSITION
+  subkinds:
+  - event
+  modality: HYPOTHETICAL
+  modality_cue: If
+  evidence:
+  - P027-1
+  - P061-1
+  - P091-1
+  - P091-2
+  - P091-3
+  - P134-2
+  - P136-1
+- id: S059
+  brief: Market cuts hike peak, pushes out timing
+  statement: The market will reduce the hike peak and push out its timing.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P091-4
+  - P091-5
+- id: S060
+  brief: Hikes priced fall to 85bp, 40-45bp by end-2026
+  statement: Total hikes priced would drop to 85bp, with 40-45bp by end-2026.
+  claim_type: PREDICTION
+  subkinds:
+  - quantitative
+  modality: SPECULATIVE
+  modality_cue: might guess
+  evidence:
+  - P092-1
+  - P092-2
+- id: S061
+  brief: 2Y down 5bp, 30Y up 5bp
+  statement: 2Y rates would fall 5bp and 30Y rates rise 5bp.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  - quantitative
+  modality: HEDGED
+  modality_cue: likely
+  evidence:
+  - P093-1
+  - P093-2
+- id: S062
+  brief: Dovish action and confusion lift bond yields
+  statement: Dovish Fed action and confusion about Warsh's policy direction and reaction
+    function would push bond yields higher.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: due to
+  evidence:
+  - P094-1
+  - P094-2
+  - P094-3
+  - P136-3
+- id: S064
+  brief: Bigger Bessent 'house' needed for bond
+  statement: A bigger Bessent "house" would be needed to support the bond.
+  claim_type: VIEW
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: needed
+  evidence:
+  - P027-2
+- id: S065
+  brief: Fed holds despite hike pricing
+  statement: The Fed holds at the September FOMC despite elevated hike pricing and
+    sticky inflation.
+  claim_type: SUPPOSITION
+  subkinds:
+  - event
+  modality: HYPOTHETICAL
+  modality_cue: if
+  evidence:
+  - P017-1
+  - P095-1
+  - P109-1
+  - P109-2
+  - P133-1
+- id: S066
+  brief: Disorderly long-end selloff, 30Y tests 5.75%
+  statement: The UST long end would see a sharp and disorderly selloff, with the 30Y
+    yield testing 5.75%.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  - quantitative
+  modality: SPECULATIVE
+  modality_cue: could
+  evidence:
+  - P017-2
+  - P018-1
+  - P099-1
+  - P099-2
+- id: S067
+  brief: Buybacks futile against long-end move
+  statement: UST buybacks would prove futile in stopping the long-end move.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  modality: HEDGED
+  modality_cue: would likely
+  evidence:
+  - P018-2
+  - P100-1
+  - P100-2
+- id: S068
+  brief: Front end falls, curve twist steepens
+  statement: Front-end rates would decline materially and the curve would twist steepen
+    sharply.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: ASSERTED
+  modality_cue: expects
+  evidence:
+  - P095-2
+  - P095-3
+- id: S069
+  brief: Hikes priced fall to 65-75bp, 30-35bp by end-2026
+  statement: Total hikes priced would decline to 65-75bp, with 30-35bp by end-2026.
+  claim_type: PREDICTION
+  subkinds:
+  - quantitative
+  modality: ASSERTED
+  modality_cue: to decline
+  evidence:
+  - P096-1
+  - P096-2
+- id: S070
+  brief: 2Y down 15-20bp, 30Y up 10-15bp
+  statement: Initially 2Y rates would fall 15-20bp and 30Y rates rise 10-15bp.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  - quantitative
+  modality: SPECULATIVE
+  modality_cue: might guess
+  evidence:
+  - P097-1
+  - P097-2
+- id: S071
+  brief: Steepening from lower path and long-end premia
+  statement: Twist steepening would come from a lower near-term policy path and a
+    perceived very high bar to hike, and from long-end rates reflecting a higher inflation
+    risk premium and a Warsh credibility discount.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: HEDGED
+  modality_cue: would come from
+  evidence:
+  - P098-1
+  - P098-2
+  - P098-3
+  - P098-4
+  - P098-5
+- id: S072
+  brief: Dollar depreciates swiftly and significantly
+  statement: The dollar would depreciate swiftly and significantly.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: ASSERTED
+  modality_cue: expects
+  evidence:
+  - P133-2
+- id: S074
+  brief: No balance sheet changes
+  statement: There will be no balance sheet changes at the September FOMC.
+  claim_type: PREDICTION
+  subkinds:
+  - event
+  modality: ASSERTED
+  modality_cue: expected
+  evidence:
+  - P115-1
+- id: S085
+  brief: USD sideways into year-end, ex-JPY
+  statement: The USD will trade more-or-less sideways into year-end, excluding JPY.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: ASSERTED
+  modality_cue: sees
+  evidence:
+  - P123-3
+- id: S086
+  brief: High bar for Fed to out-hawk
+  statement: The bar for the Fed to out-hawk both expectations and other G10 central
+    banks appears high.
+  claim_type: VIEW
+  subkinds:
+  - market_state
+  modality: HEDGED
+  modality_cue: appears
+  evidence:
+  - P122-1
+  - P122-2
+  - P123-1
+- id: S087
+  brief: Global repricing explains subdued dollar
+  statement: The broader repricing of central banks and curves globally partly explains
+    why the dollar has stayed subdued despite higher Fed hike pricing.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: HEDGED
+  modality_cue: Part of
+  evidence:
+  - P121-1
+  - P117-1
+  - P117-2
+- id: S088
+  brief: July presser soured dollar sentiment
+  statement: Dollar sentiment has soured since Warsh's July press conference raised
+    credibility concerns over the lack of a plan for above-target inflation.
+  claim_type: CAUSAL
+  subkinds:
+  - sentiment
+  modality: ASSERTED
+  modality_cue: ever since
+  evidence:
+  - P118-1
+  - P118-2
+  - P119-1
+  - P119-2
+  - P119-3
+  - P119-4
+  - P119-5
+  - P136-2
+- id: S089
+  brief: Energy rally usually lifts the dollar
+  statement: A reacceleration in oil, gas and refined energy products is typically
+    associated with dollar appreciation.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: typically
+  evidence:
+  - P120-3
+  - P120-1
+  - P120-2
+- id: S090
+  brief: Considerable two-way USD risk at FOMC
+  statement: There is considerable two-way risk for the USD at the September FOMC.
+  claim_type: VIEW
+  subkinds:
+  - market_state
+  modality: ASSERTED
+  modality_cue: considerable
+  evidence:
+  - P125-1
+  - P125-2
+  - P126-1
+- id: S091
+  brief: Markets impatient with 'one and done'
+  statement: Markets may not have the patience for anything that sounds like a "one
+    and done" hike under the veil of no forward guidance.
+  claim_type: VIEW
+  subkinds:
+  - sentiment
+  modality: HEDGED
+  modality_cue: may
+  evidence:
+  - P135-1
+- id: S092
+  brief: Guidance aversion makes USD bull case hard
+  statement: Warsh's aversion to forward guidance would make the bullish USD case
+    challenging.
+  claim_type: VIEW
+  subkinds:
+  - event
+  modality: HEDGED
+  modality_cue: would make
+  evidence:
+  - P132-1
+  - P132-2
+- id: S093
+  brief: SEP shows broadening support for hikes
+  statement: The SEP shows broadening support for additional hikes relative to the
+    June SEP.
+  claim_type: SUPPOSITION
+  subkinds:
+  - event
+  modality: HYPOTHETICAL
+  modality_cue: are met
+  evidence:
+  - P127-2
+  - P128-1
+- id: S094
+  brief: Growth and inflation forecasts stay elevated
+  statement: Growth and inflation forecasts stay elevated even with further hike guidance.
+  claim_type: SUPPOSITION
+  subkinds:
+  - market_state
+  modality: HYPOTHETICAL
+  modality_cue: are met
+  evidence:
+  - P129-1
+  - P129-2
+- id: S095
+  brief: USD softens
+  statement: The USD would soften.
+  claim_type: PREDICTION
+  subkinds:
+  - directional
+  modality: SPECULATIVE
+  modality_cue: could
+  evidence:
+  - P134-3
+  - P136-4
+- id: S096
+  brief: Broader committee reluctant to tighten
+  statement: The broader committee, outside the known hawks, appears reluctant to
+    tighten policy.
+  claim_type: SUPPOSITION
+  subkinds:
+  - sentiment
+  modality: HYPOTHETICAL
+  modality_cue: if
+  evidence:
+  - P137-2
+- id: S097
+  brief: Restrained dot plot weighs on dollar
+  statement: A more restrained SEP dot plot would weigh on the dollar.
+  claim_type: CAUSAL
+  subkinds:
+  - market_state
+  modality: SPECULATIVE
+  modality_cue: could
+  evidence:
+  - P137-1
+arguments:
+- id: A001
+  brief: Fed hikes 25bp in September
+  summary: 'The Fed is likely to hike 25bp in September [S001]. The reasons given
+    are: Friday''s CPI all but locks it in [S009]; Jackson Hole and stronger data
+    drove the repricing [S008]; the cost of disappointing expectations is now high
+    [S010]; the twist flattening gives further justification [S011]; rate pricing
+    is firmly in hike territory [S012]; and a hold would be historically unprecedented
+    [S013]. The ''hike or bond spike'' choice and policymakers'' understanding of
+    the bond risk also support it. Policy tools shift up 25bp [S073], with no balance
+    sheet changes [S074]. A Fed hold is the alternative.'
+  conclusion: S001
+  premises:
+  - S009
+  - S008
+  - S010
+  - S011
+  - S012
+  - S013
+  - A002
+  - A003
+  qualifiers:
+  - S074
+  alternatives:
+  - SC003
+- id: A002
+  brief: 'Fed choice: hike or bond spike'
+  summary: 'The Fed''s choice is simple: hike or risk a large bond spike [S003], because
+    the bond favours orthodoxy - rate hikes, not buybacks [S004]. The Fed-hold scenario
+    sets out the spike.'
+  conclusion: S003
+  premises:
+  - S004
+  implications:
+  - SC003
+- id: A003
+  brief: Fed and administration understand the bond risk
+  summary: Warsh, the Fed and the Trump administration understand the bond risk of
+    a hold [S014]. The Fed faces a hike-or-spike choice, and Trump should understand
+    the bond-anchoring risk.
+  conclusion: S014
+  premises:
+  - A002
+  - A004
+- id: A004
+  brief: Trump should accept the tradeoff
+  summary: Trump should understand the risks of bond un-anchoring [S018], because
+    the administration's choice is between higher front-end and higher long-end rates
+    [S015] and Bessent and Warsh will explain it [S016]. The author concedes Trump
+    will not like the choice [S017].
+  conclusion: S018
+  premises:
+  - S015
+  - S016
+  concessions:
+  - S017
+- id: A005
+  brief: Warsh delivers a hawkish hike
+  summary: Warsh is likely to deliver a hawkish hike with a Jackson Hole-style presser
+    [S005], given the expected hike and the need to support the bond [S019]. The reaction
+    depends on the communications mix [S025], and Waller may dissent dovishly [S026].
+    The implications are a supported USD [S020], challenged risk assets [S021], a
+    challenge to the house bias for lower belly rates [S022] and support for the long-end
+    asset swap view. A dovish presser is the alternative.
+  conclusion: S005
+  premises:
+  - A001
+  - S019
+  qualifiers:
+  - S025
+  concessions:
+  - S026
+  alternatives:
+  - SC002
+  implications:
+  - S020
+  - S021
+  - S022
+  - A007
+  - SC001
+- id: A006
+  brief: Hawkish hike brings modest twist flattening
+  summary: A hawkish hike should lift front-end rates and modestly twist flatten the
+    UST curve [S006]. A dovish hike or a hold would move markets more [S027]; both
+    are alternatives.
+  conclusion: S006
+  premises:
+  - A005
+  qualifiers:
+  - S027
+  alternatives:
+  - SC002
+  - SC003
+- id: A007
+  brief: Hawkish hike supports long-end asset swap view
+  summary: A hawkish hike should support the constructive long-end asset swap spread
+    view [S023], because lower growth and inflation risk and enhanced Fed credibility
+    should support UST investor confidence [S024].
+  conclusion: S023
+  premises:
+  - S024
+- id: A008
+  brief: Further hikes in October and December
+  summary: The Fed will hike again in October and December, for 75bp in 2026 [S028],
+    unless data soften or communication turns dovish [S029]. The author concedes that
+    the path beyond September is uncertain [S030].
+  conclusion: S028
+  conditions:
+  - S029
+  concessions:
+  - S030
+- id: A024
+  brief: USD sideways into year-end
+  summary: The USD will trade broadly sideways into year-end, ex-JPY [S085]. The reasons
+    are that the bar for the Fed to out-hawk others is high and dollar sentiment has
+    soured since July [S088]; the USD outcome turns on out-hawking [S007]. The author
+    concedes the prospect of further hikes [S028] and the usual energy link to dollar
+    strength [S089].
+  conclusion: S085
+  premises:
+  - A025
+  - S088
+  warrants:
+  - S007
+  concessions:
+  - S028
+  - S089
+- id: A025
+  brief: High bar for Fed to out-hawk
+  summary: The bar for the Fed to out-hawk expectations and other G10 central banks
+    appears high [S086], partly because central banks and curves have repriced globally
+    [S087].
+  conclusion: S086
+  premises:
+  - S087
+- id: A026
+  brief: Two-way USD risk at the FOMC
+  summary: The USD faces considerable two-way risk at the FOMC [S090], because its
+    outcome turns on the Fed out-hawking others [S007] and markets may not tolerate
+    a 'one and done' hike [S091]. Warsh's aversion to guidance makes the bull case
+    hard [S092]. The bull and bear cases are the alternatives.
+  conclusion: S090
+  premises:
+  - S007
+  - S091
+  qualifiers:
+  - S092
+  alternatives:
+  - SC004
+  - SC005
+scenarios:
+- id: SC001
+  label: Hawkish presser
+  evidence:
+  - P087-1
+  - P087-2
+  - P060-1
+  assumptions:
+  - S031
+  - S053
+  implications:
+  - S054
+  - S055
+  - S056
+  - S057
+- id: SC002
+  label: Dovish presser
+  evidence:
+  - P091-1
+  - P091-2
+  - P091-3
+  - P027-1
+  - P061-1
+  - P134-2
+  assumptions:
+  - S031
+  - S058
+  implications:
+  - S059
+  - S060
+  - S061
+  - S062
+  - S064
+  - S095
+- id: SC003
+  label: Fed hold
+  evidence:
+  - P095-1
+  - P017-1
+  - P109-1
+  - P109-2
+  - P133-1
+  assumptions:
+  - S065
+  implications:
+  - S066
+  - S067
+  - S068
+  - S069
+  - S070
+  - S071
+  - S072
+  - S013
+- id: SC004
+  label: Bullish USD case
+  evidence:
+  - P127-1
+  - P127-2
+  assumptions:
+  - S031
+  - S093
+  - S094
+  - S053
+  implications:
+  - S054
+  - S020
+- id: SC005
+  label: Bearish USD case
+  evidence:
+  - P133-1
+  - P134-2
+  - P137-2
+  assumptions:
+  - S065
+  - S058
+  - S096
+  implications:
+  - S072
+  - S095
+  - S097
+exclusions:
+- atom: P066-1
+  code: META
+  reason: Says what the authors will watch for.
+- atom: P073-1
+  code: META
+  reason: Expresses curiosity, not a claim.
+- atom: P083-1
+  code: META
+  reason: Signposting.

@@ -1,0 +1,262 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Closing_SORA_5s10s_flattener_Trade_Idea--922665.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-22",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 3,
+    "referents": {
+     "thing": 2,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 2,
+     "link": 1
+    },
+    "leave_reasons": {
+     "expletive": 2
+    },
+    "extra": 7,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 26,
+  "kinds": {
+   "deixis": 18,
+   "noun_phrase": 7,
+   "proposition": 1
+  },
+  "rooted_share": 0.7884615384615384,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 18,
+  "cost_usd": 0.1252
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 273,
+   "end": 320,
+   "quote": "our m25, 5s10s flattener position in SORA rates",
+   "name": "the m25, 5s10s flattener position in SORA rates"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 2206,
+   "end": 2229,
+   "quote": "our outlook has changed",
+   "name": "our outlook has changed"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 531,
+   "end": 561,
+   "quote": "a steepening of the SORA curve",
+   "name": "the steepening of the SORA curve"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 1485"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 2730"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E004",
+      "phrase": "the position",
+      "occurrence": 2,
+      "referent": "R1"
+     },
+     "reason": "phrase 'the position' (occurrence 2) is not in E004 as written"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.028875,
+   "duration_ms": 2520,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3295,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 82,
+    "output_tokens_details": {
+     "thinking_tokens": 74
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3295,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 82,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3295,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3295
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0589488,
+   "duration_ms": 13328,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3412,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1522,
+    "output_tokens_details": {
+     "thinking_tokens": 926
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3412,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1522,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3412,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3412
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0373329,
+   "duration_ms": 4545,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3623,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 355,
+    "output_tokens_details": {
+     "thinking_tokens": 285
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3623,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 355,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3623,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3623
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

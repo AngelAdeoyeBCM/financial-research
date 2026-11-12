@@ -1,0 +1,224 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-04",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 8,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "link": 3,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "relative": 2,
+     "generic": 1,
+     "time": 2
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 22,
+  "kinds": {
+   "deixis": 14,
+   "symbol": 4,
+   "noun_phrase": 2,
+   "demonstrative": 1,
+   "possessive": 1
+  },
+  "rooted_share": 0.5517241379310345,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 34,
+  "cost_usd": 0.0995
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 874,
+   "end": 916,
+   "quote": "slightly higher than usual standard errors",
+   "name": "the slightly higher than usual standard errors"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2073,
+   "end": 2103,
+   "quote": "December private sector hiring",
+   "name": "December private sector hiring"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 5063,
+   "end": 5137,
+   "quote": "conflicting signals with respect to the underlying strength of the economy",
+   "name": "the conflicting signals with respect to the underlying strength of the economy"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3320,
+   "end": 3350,
+   "quote": "accommodations & food services",
+   "name": "accommodations & food services"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0369773,
+   "duration_ms": 3130,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4248,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 101,
+    "output_tokens_details": {
+     "thinking_tokens": 93
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4248,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 101,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4248,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4248
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0625552,
+   "duration_ms": 11319,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4571,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1240,
+    "output_tokens_details": {
+     "thinking_tokens": 714
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4571,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1240,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4571,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4571
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1026 @@
+{
+  "batch_id": "2026-09-01",
+  "window": [
+    "2026-09-01",
+    "2026-09-01"
+  ],
+  "generated_at": "2026-10-29T16:31:19",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-29_2026-09-01.json",
+      "sha256": "d5457cbcdcb1bcca5aa4a95910fb25cc0d8562d5c57f493625eacd7912c43bf6",
+      "records": 1009,
+      "dates": [
+        "2026-08-29",
+        "2026-09-01"
+      ],
+      "records_for_batch": 202
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 5,
+    "out_of_scope": 2,
+    "compiled": 0,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 48,
+    "DISTORTED_TABLE": 32,
+    "UNSTRUCTURED_TEXT": 31,
+    "NON_ENGLISH_SCRIPT": 9,
+    "MISSING_CHUNKS": 5,
+    "GARBLED_TEXT": 3
+  },
+  "documents": [
+    {
+      "stem": "BofA_Euro_Area_Viewpoint_-_Back_to_school___September_2026_edition",
+      "document": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf",
+      "date": "2026-09-01",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 17,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +44 20 7995 1476 | +34 91 514 3053 | +33 1 8770 0292",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 0.5 Q1-26 Q2-26 Q3-26",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 0.5 Q1-26 Q2-26 Q3-26",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 50 80 110 140 Mar-26 Jun-26 Sep-26 Dec-26 Mar-27 Jun-27 Sep-27",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F0B5 x39",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-5-15",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 numeric rows: Aug 50.4 50.3 50.2 | Aug 51.1 51.3 51.3 | Aug 51.5 51.5 51.5",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F0B5 x71",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-6-16",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45% of tokens are numeric/date values",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F0B5 x24",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-6-17",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: Aug 51.7 51.7 51.7 | Aug 52.1 52.1 52.1 | Aug 52.8 52.8 52.8",
+          "chunk_id": "BofA_Euro Area Viewpoint - Back to school – September 2026 edition.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_FX___9.2026___Same_Carry_Playbook_Plus_TWD",
+      "document": "EM FX – 9.2026 – Same Carry Playbook Plus TWD.pdf",
+      "date": "2026-09-01",
+      "publisher": "State Street",
+      "document_type": "Monthly",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -4% -2% 0% 2% 4% Sep-25 Nov-25 Jan-26 Mar-26 May-26 Jul-26",
+          "chunk_id": "EM FX – 9.2026 – Same Carry Playbook Plus TWD.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 10 30 50 Aug 14 Aug 16 Aug 18 Aug 2",
+          "chunk_id": "EM FX – 9.2026 – Same Carry Playbook Plus TWD.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "17 consecutive numeric/date tokens: 10 30 50 Aug 14 Aug 16 Aug 18 Aug 20 Aug",
+          "chunk_id": "EM FX – 9.2026 – Same Carry Playbook Plus TWD.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: Aug-26 Jul-26 Jun-26 May-26 Apr-26 Mar-26 Feb-26 Jan-26 Dec-25 Nov-25 Oct-25 Sep-25",
+          "chunk_id": "EM FX – 9.2026 – Same Carry Playbook Plus TWD.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "EM FX – 9.2026 – Same Carry Playbook Plus TWD.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "EM FX – 9.2026 – Same Carry Playbook Plus TWD.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "EM FX – 9.2026 – Same Carry Playbook Plus TWD.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828",
+      "document": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf",
+      "date": "2026-09-01",
+      "publisher": "BNP Paribas",
+      "document_type": "Positioning and flows",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -20% -14% -8% -2% 4% 10% Jun-19 Jul-20 Aug-21 Sep-22 Oct-23 Nov-24",
+          "chunk_id": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 -1.0%",
+          "chunk_id": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "39 consecutive numeric/date tokens: Q2 26 -0.5% 0.9% -0.9% 0.0% 2.4% 0.8% 3.9% 0.3% 2.2% 0.6%",
+          "chunk_id": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "285 consecutive numeric/date tokens: Q2 26 -0.5% 0.9% -0.9% 0.0% 2.4% 0.8% 3.9% 0.3% 2.2% 0.6%",
+          "chunk_id": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41 consecutive numeric/date tokens: 4% 1.4% 1.1% 0.0% -2.6% Q4 19 -1.7% -0.2% -3.2% -0.9% -1.1%",
+          "chunk_id": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "228 consecutive numeric/date tokens: Q2 26 4.2% 3.5% 7.7% 3.1% 10.0% 1.8% 7.8% 2.0% 6.9% 10.5%",
+          "chunk_id": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "133 consecutive numeric/date tokens: 0.3% 9.7% 2.5% 6.1% 10.0% 2.9% 9.4% 0.6% 10.3% 8.3% 5.3% 6.1%",
+          "chunk_id": "EM_Local_Debt_Real_Money_Positioning_Tracker_Chasing_Carry_Desknote--930828.pdf-4-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Higher_Rates._New_Equity_Reality",
+      "document": "Higher Rates. New Equity Reality?.pdf",
+      "date": "2026-09-01",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 44,
+      "page_count": 40,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        26,
+        28,
+        44
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 26, 28, 44]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 10% 20% 30% 40% 50% 60% '99 '02 '05 '08 '11 '14",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -10 -5 0 5 10 15 Jan-25 May-25 Sep-25 Jan-26 May-26 Sep-26",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-5-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Sep-25 Nov-25 Feb-26 Apr-26 Jun-26 Sep-26",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-6-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-6-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -0.10 -0.05 0.00 0.05 0.10 0.15 0.20 Mar-26 Apr-26 Jun-26 Jul-26 Sep-26",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-7-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -0.80% -0.60% -0.40% -0.20% 0.00% 0.20% 0.40% 0.60% 0.80% 1.00%",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-8-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 215 220 225 230 235 240 245 250 255 18 19 19",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-9-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-9-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 5 10 15 20 25 30 35 Jan-26 Feb-26 Mar-26 Apr-26 May-26",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-10-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 7 -10 -5 0 5 10 15 20 25 30 0 15",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-11-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 95 100 105 110 115 120 125 130 135 140 145 Jan-26",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-12-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 Jan-25 May-25 Aug-25 Dec-25 Apr-26 Aug-26",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-13-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 5 10 15 20 25",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-14-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-14-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 '96 '99 '03 '07",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-15-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-15-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -1.5% -1.0% -0.5% 0.0% 0.5% 1.0% 1.5% '00 '02 '04 '06 '08",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-16-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 5 10 15 20 25 30 40 45 50 55 60",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-17-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-17-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 40 60 80 100 120 140 160 60 80 100 120 140",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-18-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 50 70 90 110 130 150 '71 '76 '81 '86 '91 '96",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-19-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-19-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.006 -0.004 -0.002 0.000 0.002 '99 '02 '05 '08 '11 '14 '17",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-20-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 0% 10% 20% 30% 40% 50%",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-22-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-22-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 0.5 1 1.5 2 2.5 3 3.5 '22 '23 '24 '25",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-25-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 '76 '78 '80 '82 '84",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-27-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 4 4.2 4.4 4.6 4.8 5 5.2 -3 -2 -1 0 1",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-29-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 0.5 1 1.5 2 2.5 3 3.5 4 0 1 2",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-30-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 0 1 2 3 4 5 6 -30% -20% -10% 0% 10%",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-31-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -6% -4% -2% 0% 2% 4% 6% 8% 10% Jan-24 May-24 Sep-24",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-32-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 5 10 15 '05 '09 '13 '17 '22 '26",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-33-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0.6 0.8 1 1.2 1.4 1.6 1.8 2.0 2.5 3.0 3.5 4.0",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-34-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -5.8 -4.8 -3.8 -2.8 -1.8 -0.8 0.2 1.2 2.2 3.2 Sep-21 Feb-22",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-35-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-35-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 1.8 1.9 2 2.1 2.2 2.3 2.4 -10% 5% 20% 35% 50%",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-36-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 3.5 3.7 3.9 4.1 4.3 4.5 4.7 4.9 -10 0 10 20",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-37-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 50 55 60 65 70 75 80 85 90 95 0 1",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-38-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 20% 21% 22% 23% 24% 25% 26% 0% 2% 4% 6% 8%",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-40-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-40-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -1 -0.5 0 0.5 1 1.5 2 2.5 3 3.5 4 0",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-41-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 Dec-02 Aug-07 Apr-12 Dec-16",
+          "chunk_id": "Higher Rates. New Equity Reality?.pdf-42-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Japan_Equity_Monthly_Strategy_-_Japanese_stocks_can_withstand_rise_in_long-term_interest_rates_to_4per",
+      "document": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf",
+      "date": "2026-09-01",
+      "publisher": "JP Morgan",
+      "document_type": "Monthly",
+      "chunk_count": 76,
+      "page_count": 24,
+      "status": "skipped",
+      "missing_indices": [
+        40,
+        48,
+        52,
+        55,
+        75
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [40, 48, 52, 55, 75]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 90 100 110 120 130 140 150 26/01 26/02 26/03 26/04 26/05",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 3.0 3.5 0 2 4 6 8 10 12 14 16 18",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 4,375 2,227 2,700 7203 | 46,062 3,156 3,900 7988 | 531 5,300 5,300 6501",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: 2,430 4,328 5,700 7550 | 1,895 11,790 10,100 2801 | 1,779 1,835 2,200 2269",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x9, HIRAGANA x2",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-8-20",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0.6 0 10 20 30 40 50 60 70 80 -1 0",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-11-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -0.2 0.0 0.2 0.4 0.6 0.8 1.0 1.2",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 100% 100% 4.35 13.8% 13.8% 46.3% 46.3% 66.8% 66.8% 2.55 24.7% 34.4%",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-13-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-13-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 99% 100% (9.98) 6.6% 0.4% 21.1% 0.7% 21.9% 0.6% 0.69 24.6% 28.2%",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-13-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 100% 100% (0.38) 16.8% 10.3% 67.7% 41.0% 76.3% 51.5% 3.09 25.0% 36.1%",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-13-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: rofitSales lueCrest ksmVowc",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-13-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 208.4 241.7 277.9 50 100 150 200 250 300",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-19-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 16.0x 16.5x 17.0x 17.5x 18.0x +20% 250 278 4,450",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-19-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-19-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 500 7712 7,800 1% 315 16% | 393 420 7% 23.8 18% | 10824 11,000 2% 807 18% -",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-19-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-20-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-20-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-20-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 45,000 50,000 55,000 60,000 65,000 70,000 75,000 80,000 85,000 90,000 8/28/2026 1M",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-21-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-21-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: (2005) -10 -5 0 5 10 15 20 Jan Feb Mar Apr",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-21-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x62, KATAKANA x50, KATAKANA-HIRAGANA x4",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-66",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 45,478 -3.3 -7.2 1.0 13.2 36.9 33.2 9983",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in KATAKANA x65, KATAKANA-HIRAGANA x6, CJK x90",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-67",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 4,263 1.1 -7.0 1.2 13.9 16.9 20.2 9766",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x94, KATAKANA x75, HIRAGANA x3, KATAKANA-HIRAGANA x5",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-68",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 556 2.3 19.8 1.3 2.7 508.8 30.1 4912",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x51, KATAKANA x41, KATAKANA-HIRAGANA x6, HIRAGANA x2",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-69",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 270 3.6 -16.8 2.2 13.0 3034.1 11.5 3697",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-22-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x61, KATAKANA x66, KATAKANA-HIRAGANA x10",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-71",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 numeric rows: 470 -30.4% (1.18) 0.92% 2432 | 311 -22.2% (1.53) 0.75% 3994 | 374 -20.1% (1.06) 0.72% 6146",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in KATAKANA x54, CJK x103, KATAKANA-HIRAGANA x6, HIRAGANA x3",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-72",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "17 numeric rows: 327 -10.4% (2.22) 0.27% 7936 | 3,379 -13.3% (1.74) 0.27% 6770 | 466 -12.8% (1.04) 0.26% 6632",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x92, KATAKANA x43, KATAKANA-HIRAGANA x4, HIRAGANA x4",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-73",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 numeric rows: 262 -51.0% (1.83) 0.17% 2875 | 1,173 -32.2% (1.04) 0.15% 8227 | 732 -31.8% (1.36) 0.15% 4676",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x73, KATAKANA x27, KATAKANA-HIRAGANA x3",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-74",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 1,706 -17.7% (1.79) 0.11% 3231 | 859 -33.0% (1.04) 0.11% 9401 | 953 -26.8% (2.18) 0.10% 8801",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-23-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2912.7 70.2% 74.1% 72.0% 72.3% 71.5% -15.9% -15.6% 6.1% 11.2% 28.6% 2",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 586.9 58.9% 57.7% 58.3% 57.2% 56.2% 66.5% 19.8% 10.0% 8.7% 10.7% 11",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 701.1 48.1% 51.1% 49.8% 48.7% 47.7% -40.4% 45.3% 20.3% 19.9% 20.1% 22",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 1195.4 52.5% 50.9% 45.6% 44.3% 42.9% 31.3% 16.6% 10.7% 9.3% 10.4% 33",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: profitMarket oftBank lueCrest ksmVowc",
+          "chunk_id": "JPM_Japan Equity Monthly Strategy - Japanese stocks can withstand rise in long-term interest rates to 4per.pdf-24-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

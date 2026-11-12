@@ -1,0 +1,285 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DM_rates_Trail_stop_on_Long_1y_EU_HICPxT_vs_Q2_2026_Brent_hedge_Trade_Idea--916662.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-16",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 3,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 2,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     1,
+     2
+    ],
+    "undecided_per_attempt": [
+     3,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 2,
+   "possessive": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6363636363636364,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "REFERENCES_REJECTED": 2
+  },
+  "sentences": 13,
+  "cost_usd": 0.1154
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 89,
+   "end": 105,
+   "quote": "The 1y EU HICPxT",
+   "name": "the 1y EU HICPxT"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 564,
+   "end": 585,
+   "quote": "The situation in Iran",
+   "name": "the situation in Iran"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 247,
+   "end": 266,
+   "quote": "Q2 2026 Brent hedge",
+   "name": "the Q2 2026 Brent hedge"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we deem' at 767"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we extend' at 857"
+  },
+  {
+   "severity": "warning",
+   "code": "REFERENCES_REJECTED",
+   "segment": "R3",
+   "message": "name 'the Long 1y EU HICPxT vs Q2 2026 Brent hedge trade' has words not in the quote: ['trade']"
+  },
+  {
+   "severity": "warning",
+   "code": "REFERENCES_REJECTED",
+   "segment": "E007",
+   "message": "referent 'R3' is not in the referent table"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "response": "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"thing\", \"sid\": \"E005\", \"quote\": \"The 1y EU HICPxT\", \"name\": \"the 1y EU HICPxT\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E008\", \"quote\": \"The situation "
+     },
+     "reason": "unparseable JSON: Expecting value: line 13 column 77 (char 898)"
+    }
+   ],
+   [
+    {
+     "item": {
+      "id": "R3",
+      "type": "thing",
+      "sid": "E006",
+      "quote": "Long 1y EU HICPxT vs Q2 2026 Brent hedge",
+      "name": "the Long 1y EU HICPxT vs Q2 2026 Brent hedge trade"
+     },
+     "reason": "name 'the Long 1y EU HICPxT vs Q2 2026 Brent hedge trade' has words not in the quote: ['trade']"
+    },
+    {
+     "item": {
+      "sid": "E007",
+      "phrase": "the trade",
+      "occurrence": 1,
+      "referent": "R3"
+     },
+     "reason": "referent 'R3' is not in the referent table"
+    }
+   ]
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0240735,
+   "duration_ms": 2333,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2665,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 97,
+    "output_tokens_details": {
+     "thinking_tokens": 84
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2665,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 97,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2665,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2665
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0432243,
+   "duration_ms": 9633,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2772,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 992,
+    "output_tokens_details": {
+     "thinking_tokens": 535
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2772,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 992,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2772,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2772
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.048062499999999994,
+   "duration_ms": 10425,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3084,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1109,
+    "output_tokens_details": {
+     "thinking_tokens": 604
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3084,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1109,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3084,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3084
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

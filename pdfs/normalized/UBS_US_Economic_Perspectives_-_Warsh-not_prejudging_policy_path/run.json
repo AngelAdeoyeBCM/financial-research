@@ -1,0 +1,243 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_US_Economic_Perspectives_-_Warsh-not_prejudging_policy_path.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 25,
+    "referents": {
+     "thing": 8
+    },
+    "decisions": {
+     "link": 24,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 33,
+  "kinds": {
+   "pronoun": 13,
+   "possessive": 11,
+   "deixis": 5,
+   "noun_phrase": 2,
+   "symbol": 1,
+   "fragment": 1
+  },
+  "rooted_share": 0.8920863309352518,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 27,
+  "cost_usd": 0.1273
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 103,
+   "end": 136,
+   "quote": "Federal Reserve Chair Kevin Warsh",
+   "name": "Federal Reserve Chair Kevin Warsh"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1289,
+   "end": 1296,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2342,
+   "end": 2384,
+   "quote": "the Fed's Productivity and Jobs task force",
+   "name": "the Fed's Productivity and Jobs task force"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2681,
+   "end": 2715,
+   "quote": "the AI buildout and implementation",
+   "name": "the AI buildout and implementation"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4049,
+   "end": 4083,
+   "quote": "FRB of Cleveland President Hammack",
+   "name": "FRB of Cleveland President Hammack"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3621,
+   "end": 3645,
+   "quote": "the September CPI report",
+   "name": "the September CPI report"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3397,
+   "end": 3408,
+   "quote": "his remarks",
+   "name": "his remarks"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 233,
+   "end": 294,
+   "quote": "fireside chat with IMF Managing Director Kristalina Georgieva",
+   "name": "the fireside chat with IMF Managing Director Kristalina Georgieva"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C025",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 3352",
+   "message": "+22 words: {{ => , Federal Reserve Chair Kevin Warsh noted that one of Federal Reserve Chair Kevin Warsh's objectives in introducing the task forces was to}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'his' in \"Reserve Chair Kevin Warsh's remarks, as his remarks did not specifically pertain to\""
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.045249,
+   "duration_ms": 7852,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3750,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 710,
+    "output_tokens_details": {
+     "thinking_tokens": 578
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3750,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 710,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3750,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3750
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.08207020000000002,
+   "duration_ms": 21009,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4731,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2145,
+    "output_tokens_details": {
+     "thinking_tokens": 976
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4731,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2145,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4731,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4731
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

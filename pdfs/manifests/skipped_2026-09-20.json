@@ -1,0 +1,249 @@
+{
+  "batch_id": "2026-09-20",
+  "window": [
+    "2026-09-20",
+    "2026-09-20"
+  ],
+  "generated_at": "2026-10-29T16:31:54",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-18_2026-09-21.json",
+      "sha256": "f534bc371164879a02af7440fb5b963dddc232084fb8162e17b6456b4c8c31b0",
+      "records": 2041,
+      "dates": [
+        "2026-09-18",
+        "2026-09-21"
+      ],
+      "records_for_batch": 100
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 4,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 5,
+    "edits": 51,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 18,
+    "UNSTRUCTURED_TEXT": 3,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "DB_US_Economics_-_What_you_need_to_know_for_the_week_ahead",
+      "document": "DB_US Economics - What you need to know for the week ahead.pdf",
+      "date": "2026-09-20",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_China_Matters_-_Path_of_Least_Resistance",
+      "document": "GS_China Matters - Path of Least Resistance.pdf",
+      "date": "2026-09-20",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: August -35 -30 -25 -20 -15 -10 -5 0 5 10 15",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 -5 -4",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 50 100 150 200 250 300 350 50 100 150 200 250",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 50 100 150 200 250 300 350 50 100 150 200 250",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 97 98 99 100 101 102 103 97 98 99 100 101",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 97 98 99 100 101 102 103 97 98 99 100 101",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -4 0 4 8 12 16 20 -4 0 4 8 12",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -4 0 4 8 12 16 20 -4 0 4 8 12",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 2 3 4 5 6 7 8 9 10 2 3 4",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16 0 2 4",
+          "chunk_id": "GS_China Matters - Path of Least Resistance.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_China_Musings_-_The_Deleveraging_Trap___A_Fragile_Balance_Sheet",
+      "document": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf",
+      "date": "2026-09-20",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 50% 60% 70% 80% 90% 100% 110% 120% Jun-13 Dec-13 Jun-14 Dec-14",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: 2022 4.0% 5.0% 6.0% 7.0% 8.0% 9.0% 10.0% 11.0% 12.0% 13.0% Dec-13",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 11.0% 11.5% 12.0% 12.5% 13.0% 13.5% 14.0% 14.5% Dec-19 Jun-20 Dec-20 Jun-21",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -30 -25 -20 -15 -10 -5 0 5 10 15 20 25",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "44 consecutive numeric/date tokens: 33% 35% 37% 39% 41% 43% 45% 47% 49% 51% 53% 0%",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 170 175 180 185 190 195 200 205 210 215 13.6 13.8",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: Jul-04 Aug-05 Sep-06 Oct-07 Nov-08 Dec-09 Jan-11 Feb-12 Mar-13 Apr-14 May-15 Jun-16",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 2008 2009 2010 2011",
+          "chunk_id": "MS_China Musings - The Deleveraging Trap – A Fragile Balance Sheet.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fixed_Income_Blog_-_When_positioning_becomes_a_policy_problem.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-13",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 9,
+    "referents": {
+     "thing": 5,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     1,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 10,
+  "kinds": {
+   "pronoun": 3,
+   "proposition": 2,
+   "demonstrative": 2,
+   "noun_phrase": 1,
+   "fragment": 1,
+   "deixis": 1
+  },
+  "rooted_share": 1.0,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 30,
+  "cost_usd": 0.1525
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 111,
+   "end": 130,
+   "quote": "Hedge fund leverage",
+   "name": "hedge fund leverage"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 776,
+   "end": 892,
+   "quote": "high leverage, crowded trades and bank to non-bank financial institutions (NBFI) interconnections can amplify shocks",
+   "name": "high leverage, crowded trades and bank to non-bank financial institutions (NBFI) interconnections can amplify shocks"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1246,
+   "end": 1283,
+   "quote": "a number of solutions being discussed",
+   "name": "the solutions being discussed"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1939,
+   "end": 1968,
+   "quote": "central clearing and haircuts",
+   "name": "central clearing and haircuts"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2139,
+   "end": 2171,
+   "quote": "they will take time to implement",
+   "name": "they will take time to implement"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2223,
+   "end": 2277,
+   "quote": "central bank backstops during periods of severe stress",
+   "name": "central bank backstops during periods of severe stress"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2316,
+   "end": 2328,
+   "quote": "intervention",
+   "name": "intervention"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 2683,
+   "end": 2796,
+   "quote": "separating price movements caused by fundamentals from those driven by market dysfunction can be very challenging",
+   "name": "separating price movements caused by fundamentals from those driven by market dysfunction can be very challenging"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "his",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 10",
+   "message": "'his' in 'Ultimately, t his still leaves markets reliant on central'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "candidate": "C006",
+      "action": "link",
+      "referent": "R5"
+     },
+     "reason": "'his' is possessive; it must link to a thing"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0410802,
+   "duration_ms": 6818,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3362,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 665,
+    "output_tokens_details": {
+     "thinking_tokens": 499
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3362,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 665,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3362,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3362
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.07301120000000001,
+   "duration_ms": 18933,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3636,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2130,
+    "output_tokens_details": {
+     "thinking_tokens": 1400
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3636,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2130,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3636,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3636
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0383597,
+   "duration_ms": 3954,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3971,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 266,
+    "output_tokens_details": {
+     "thinking_tokens": 214
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3971,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 266,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3971,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3971
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

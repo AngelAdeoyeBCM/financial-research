@@ -1,0 +1,1375 @@
+{
+  "batch_id": "2026-02-16",
+  "window": [
+    "2026-02-16",
+    "2026-02-16"
+  ],
+  "generated_at": "2026-10-29T16:27:02",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-02-14_2026-02-17.json",
+      "sha256": "5c9d28a16095568eb695944b503934a21f81e2f115037d47957dadf81c224f28",
+      "records": 585,
+      "dates": [
+        "2026-02-15",
+        "2026-02-17"
+      ],
+      "records_for_batch": 348
+    }
+  ],
+  "counts": {
+    "documents": 19,
+    "in_scope": 18,
+    "out_of_scope": 1,
+    "compiled": 3,
+    "skipped": 15,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 54,
+    "edits": 67,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 86,
+    "UNSTRUCTURED_TEXT": 38,
+    "DISTORTED_TABLE": 28,
+    "MISSING_CHUNKS": 6
+  },
+  "documents": [
+    {
+      "stem": "DB_Focus_Germany_-_Private_pension_reform_in_Germany___a_bold_move_towards_capital_markets",
+      "document": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf",
+      "date": "2026-02-16",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 51,
+      "page_count": 18,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        19,
+        28,
+        41
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 19, 28, 41]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 5 10 15 20 01 03 05 07 09 11 13",
+          "chunk_id": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 5 10 15 20 25 14 16 18 20 22 24",
+          "chunk_id": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -100 100 300 500 700 900 03 07 11 15 19 23",
+          "chunk_id": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -100 0 100 200 300 400 500 600 700 800 10 12",
+          "chunk_id": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 0 50",
+          "chunk_id": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 1 3 5 7",
+          "chunk_id": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf-10-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 2023 0 10 20 30 40 50 60 0 2 4 6",
+          "chunk_id": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf-14-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9",
+          "chunk_id": "DB_Focus Germany - Private pension reform in Germany – a bold move towards capital markets.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_rates_Long_CZGB_3.60_36_ASW_Trade_Idea--918784",
+      "document": "EM_rates_Long_CZGB_3.60_36_ASW_Trade_Idea--918784.pdf",
+      "date": "2026-02-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 10 20 30 40 50 60 Jan-23 Aug-23 Mar-24 Oct-24 May-25",
+          "chunk_id": "EM_rates_Long_CZGB_3.60_36_ASW_Trade_Idea--918784.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -500 -400 -300 -200 -100 0 100 Jan-15 Dec-16 Nov-18 Oct-20 Sep-22",
+          "chunk_id": "EM_rates_Long_CZGB_3.60_36_ASW_Trade_Idea--918784.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_GLOBAL_MARKETS_ANALYST_-_EMerging_Resilience",
+      "document": "GS_GLOBAL MARKETS ANALYST - EMerging Resilience.pdf",
+      "date": "2026-02-16",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 19,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: -2.0 -1.0 0.0 1.0 2.0 | 0.0 0.1 0.2 0.3 0.4 | 0.0 5.0 10.0 15.0 20.0",
+          "chunk_id": "GS_GLOBAL MARKETS ANALYST - EMerging Resilience.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 0.2 0.4 0.6 0.8 1 1.2 12345 0 0.2 0.4 0.6",
+          "chunk_id": "GS_GLOBAL MARKETS ANALYST - EMerging Resilience.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 0.2 0.4 0.6 0.8 1 1.2 12345 0 0.2 0.4 0.6",
+          "chunk_id": "GS_GLOBAL MARKETS ANALYST - EMerging Resilience.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 0.2 0.4 0.6 0.8 1 1.2 12345 0 0.2 0.4 0.6",
+          "chunk_id": "GS_GLOBAL MARKETS ANALYST - EMerging Resilience.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_GLOBAL MARKETS ANALYST - EMerging Resilience.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Views_-_More_Noise_Than__Macro__News",
+      "document": "GS_Global Views - More Noise Than (Macro) News.pdf",
+      "date": "2026-02-16",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "56 consecutive numeric/date tokens: 2.9 2.4 2.3 1.8 1.9 2.0 2.0 1.1 0.6 0.8 1.2 0.9",
+          "chunk_id": "GS_Global Views - More Noise Than (Macro) News.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 0",
+          "chunk_id": "GS_Global Views - More Noise Than (Macro) News.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 25 50 75 100 125 150 175 200 0 25 50",
+          "chunk_id": "GS_Global Views - More Noise Than (Macro) News.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0.00 0.02 0.04 0.06 0.08 0.10 0.12 0.14 0.16 0.00 0.02 0.04",
+          "chunk_id": "GS_Global Views - More Noise Than (Macro) News.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_Global Views - More Noise Than (Macro) News.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 -1.0 -0.5 0.0 0.5",
+          "chunk_id": "GS_Global Views - More Noise Than (Macro) News.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 -1.0 -0.5 0.0 0.5",
+          "chunk_id": "GS_Global Views - More Noise Than (Macro) News.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_Global Views - More Noise Than (Macro) News.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_ECONOMICS_ANALYST_-_Early_Steps_Toward_Labor_Market_Stabilization",
+      "document": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf",
+      "date": "2026-02-16",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 24,
+      "page_count": 13,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        9,
+        13,
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 9, 13, 16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -1 0 1 2 3 4 5 -1 0 1 2 3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2025 2026 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 -0.4 -0.2",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2025 2026 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 -0.4 -0.2",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 2026 0 50 100 150 200 250 0 50 100 150 200",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -100 0 100 200 300 400 -100 0 100 200 300 400",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -200 -100 0 100 200 300 400 500 -200 -100 0 100",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1 2 3 4 5 6 7 8 9 2 4 6",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 2 4 6 8 10 12 14 16 2 4 6 8",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -8 -6 -4 -2 0 2 4 6 8 -8 -6 -4",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 -0.5 0.0 0.5 1.0 2017 2018 2019 2020",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: -3 -2 -1 0 1 2 3 4 5 6 7 -3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-10-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -14 -12 -10 -8 -6 -4 -2 0 -14 -12 -10 -8",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-12-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-12-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 665 685 674 670 644 655 665 696 680 690 690 662",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-12-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-12-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 3.88 4.58 4.18 4.20 4.25 4.23 4.24 4.16 4.18 4.20 4.20 4.20",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Early Steps Toward Labor Market Stabilization.pdf-12-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Equity_Strategy_-_Key_positioning_and_themes",
+      "document": "JPM_Equity Strategy - Key positioning and themes.pdf",
+      "date": "2026-02-16",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 81,
+      "page_count": 27,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        10,
+        21,
+        25,
+        31,
+        59,
+        76,
+        79
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 10, 21, 25, 31, 59, 76, 79]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 87 92 97 102 107 112 117 122 127 Jan 25 Mar",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 90 95 100 105 110 115 120 125 Jan 24 Apr 24",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 numeric rows: 6 18 20 22 24 26 | -18.4% 16.5% 1.3% 9.0% 10.5% 8.6% | -20.8% 25.0% 14.1% 8.2% 16.3% 1.2%",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 90 92 94 96 98 100 102 104 Jan 25 Mar 25",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 95 100 105 110 115 120 125 Jan 25 Apr 25 Jul",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0.5 0.6 0.7 0.8 0.9 1.0 03 04 05 06 07 08",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 03 04 05",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 55 65 75 85 95 105 115 Jan 25 Mar 25 May",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 2024 2025 2026 2027 2028 2029 | 466 503 521 508 546 572 | 0 -6 -8 -34 -64 -74",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: 50 55 60 65 70 75 80 85 90 91 93 95",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: -80 -70 -60 -50 -40 -30 -20 -10 Jan 25 Feb 25",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 80 85 90 95 100 105 110 115 120 125 130 10",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 95 100 105 110 115 120 Jan-25 Mar-25 May-25 Jul-25 Sep-25 Nov-25",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 600 100 120 140 160 180 200 220 240 260 280 300",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-9-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 0.4 0.5 0.6 0.7 0.8 0.9 1.0 02 03 04 05 06",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-9-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 600 95 105 115 125 135 145 155 Jan-25 Mar-25 May-25 Jul-25",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-10-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: (2024) 0 20 40 60 80 100 0 100 200 300 400",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-10-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 1800 2300 2800 3300 3800 4300 4800 Jan 25 Apr 25 Jul",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-11-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "64 consecutive numeric/date tokens: 22 21 22 22 24 26 28 30 30 32 35 34",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-11-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -80 -30 20 70 120 1990 1992 1994 1996 1998 2000 2002",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-11-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 10 11 12 13 14 15 16 95 97 99 01 03",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-12-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 2026 35 40 45 50 55 60 65 70 Aug 25 Sep",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-12-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-14-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 30 35 40 45 50 55 60 65 2025 2030 2035 2040",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-15-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-15-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-15-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-16-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-16-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 95 97 99 101 103 105 107 109 111 113 115 Feb-25",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-17-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 43.8 100% 25% 0% 0.6% 33.6 21.4 57% 40% 115%",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-19-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-19-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 12.3 -1% 3% 9% 3.7% 20.2 19.6 3% -7% 12%",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-19-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-19-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 6.6 16% 44% 16% 4.7% 13.0 15.6 -17% 42% 43%",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-19-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -0.7% 0.0% 0.2% 0.2% -0.8% -0.6% -0.4% -0.2% 0.0% 0.2% 0.4%",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-20-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -50% 0% 50% 100% 150% 200% Jan 17 Jan 18 Jan 19",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-20-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 10 30 50 70 90 22 23 24 25 26",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-21-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-21-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "52% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-22-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-22-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "61% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-22-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-22-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "60% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-23-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-23-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "47% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-23-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 2025e 2026e 2027e 2025e 2026e 2027e 2025e 2026e 2027e 2025e 2026e 2027e",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-24-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-24-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 18.7 16.5 14.5 2.9% 3.1% 3.4% 11.0 9.6 8.8 4.3 4.0 3.7",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-24-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "49% of tokens are numeric/date values",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-25-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 2.3 2.6 2.0 2.3 2.0 1.5 1.7 2.3 2.3 2.9 2.7 3.2",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-26-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-26-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 12-Feb-26 Mar 26 Jun 26 Sep 26 Dec 26",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-26-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-27-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "JPM_Equity Strategy - Key positioning and themes.pdf-27-88",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Japan_Macro_Market_Topics_-_Bond_Funds_and_FX_-_How_the_proposed_NISA_changes_could_shake_things_up",
+      "document": "JPM_Japan Macro Market Topics - Bond Funds and FX - How the proposed NISA changes could shake things up.pdf",
+      "date": "2026-02-16",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "46 consecutive numeric/date tokens: 0.0 0.0 0.0 0.0 0.0 0.3 0.2 0.2 0.2 0.2 0.3 0.4",
+          "chunk_id": "JPM_Japan Macro Market Topics - Bond Funds and FX - How the proposed NISA changes could shake things up.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.74 0 500 1,000 1,500 2,000 0.0% 0.2% 0.4% 0.6% 0.8% 1.0%",
+          "chunk_id": "JPM_Japan Macro Market Topics - Bond Funds and FX - How the proposed NISA changes could shake things up.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Japan_Consumption_tax_cut_plan_fiscal_food_for_thought_Desknote--918726",
+      "document": "Japan_Consumption_tax_cut_plan_fiscal_food_for_thought_Desknote--918726.pdf",
+      "date": "2026-02-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -10.0 -7.2 -4.4 -1.6 1.2 4.0 80 82 84 86 88 90",
+          "chunk_id": "Japan_Consumption_tax_cut_plan_fiscal_food_for_thought_Desknote--918726.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 60 70 80 90 100 110 120 1 1.5 2 2.5 3",
+          "chunk_id": "Japan_Consumption_tax_cut_plan_fiscal_food_for_thought_Desknote--918726.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Global_Economic_Briefing_-_The_Weekly_Worldview_-_Tailwinds_from_Japan_s_Election",
+      "document": "MS_Global Economic Briefing - The Weekly Worldview - Tailwinds from Japan's Election.pdf",
+      "date": "2026-02-16",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -1.0 -0.5 -16 -14 -12 -10 -8 -6 -4 -2 0 2",
+          "chunk_id": "MS_Global Economic Briefing - The Weekly Worldview - Tailwinds from Japan's Election.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Japan_Economics_-_A_Modest_Upgrade_to_Japan_s_Growth_Outlook",
+      "document": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf",
+      "date": "2026-02-16",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-3-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-3-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 0.1 0.2 0.1 0.4 1.7 0.6 | 0.0 0.1 0.9 0.1 0.6 1.1 | 0.1 0.4 1.3 0.2 0.9 1.5",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 40 50 60 70 80 90 100 110 120 130 140 1980",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: April 2027) -2.0 -1.0 0.0 1.0 2.0 3.0 4.0 2010 2012 2014",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 1Q 2Q 3Q 4Q 1Q 2Q 3Q 4Q 1Q 2Q 3Q 4Q",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-8-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-8-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 1.2 1.1 -1.7 -3.1 -2.7 -1.9 -0.2 1.0 1.1 1.1 1.3 1.9",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: 5.3 5.3 4.1 3.4 2.9 2.1 3.3 3.6 3.7 2.6 2.5 2.4",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 consecutive numeric/date tokens: -0.1 0.4 -0.3 -0.1 0.3 0.2 0.1 0.1 0.1 0.2 0.1 0.1",
+          "chunk_id": "MS_Japan Economics - A Modest Upgrade to Japan’s Growth Outlook.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_USD_Asia_looks_oversold_heading_into_Lunar_New_Year_Trade_Idea--918771",
+      "document": "STEER_USD_Asia_looks_oversold_heading_into_Lunar_New_Year_Trade_Idea--918771.pdf",
+      "date": "2026-02-16",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 1.2616 1.2781 1.2483 - 0.00 | 58.3290 58.7046 57.7239 - -0.70 09-Feb-2026 | 856.9200 879.5356 836.2435 - 0.57",
+          "chunk_id": "STEER_USD_Asia_looks_oversold_heading_into_Lunar_New_Year_Trade_Idea--918771.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "73% of tokens are numeric/date values",
+          "chunk_id": "STEER_USD_Asia_looks_oversold_heading_into_Lunar_New_Year_Trade_Idea--918771.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Softer_Dollar__Fragile_Risk_Sentiment",
+      "document": "Softer Dollar, Fragile Risk Sentiment.pdf",
+      "date": "2026-02-16",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        9,
+        11,
+        14,
+        16
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9, 11, 14, 16]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 6 7 8 9 10 11 12 13 14 95 100 105",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 0% 25% 50% 75% 100% | 0% 25% 50% 75% 100% | 0.90 1.00 1.10 1.20 1.30",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 800 900 1000 0%",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 800 900 1000 0.50",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Feb-25 Apr-25 Jun-25 Aug-25 Oct-25 Dec-25 Feb-26",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Feb-25 Apr-25 Jun-25 Aug-25 Oct-25 Dec-25 Feb-26",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Feb-25 Apr-25 Jun-25 Aug-25 Oct-25 Dec-25 Feb-26",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Feb-25 Apr-25 Jun-25 Aug-25 Oct-25 Dec-25 Feb-26",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-8-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Feb-25 Apr-25 Jun-25 Aug-25 Oct-25 Dec-25 Feb-26",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Feb-25 Apr-25 Jun-25 Aug-25 Oct-25 Dec-25 Feb-26",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Softer Dollar, Fragile Risk Sentiment.pdf-10-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "These_aren_t_normal_times__but_what_s_next",
+      "document": "These aren’t normal times, but what’s next?.pdf",
+      "date": "2026-02-16",
+      "publisher": "State Street",
+      "document_type": "Positioning and flows",
+      "chunk_count": 17,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        12
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -16 -11 -6 -1 4 9 14 Aug-22 May-23 Jan-24 Sep-24 May-25",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -16 -11 -6 -1 4 9 14 Aug-22 May-23 Jan-24 Sep-24 May-25",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: - 2 0% 20% 40% 60% 80% 100% Feb-25 Apr-25 Jul-25 Sep-25",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: - 2 0% 20% 40% 60% 80% 100% Feb-25 Apr-25 Jul-25 Sep-25",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 9% 0% 25% 50% 75% 100% 0% 25% 50% 75%",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 9% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48% of tokens are numeric/date values",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Jan-25 Apr-25 Aug-25 Nov-25 Feb-26",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "These aren’t normal times, but what’s next?.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Economics___Strategy_-_Core_Convictions__Multi-Asset_Rundown__2026-02-16",
+      "document": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf",
+      "date": "2026-02-16",
+      "publisher": "UBS",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "UBS_Global Economics & Strategy - Core Convictions (Multi-Asset Rundown).pdf-2-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_Rates_Map_-_Close_long_bund__still_long_10y_US",
+      "document": "UBS_Global Strategy - Rates Map - Close long bund, still long 10y US.pdf",
+      "date": "2026-02-16",
+      "publisher": "UBS",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        10
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [10]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -8 -7 -6 -5 -4 -3 -2 -1 0 Jan Feb Mar",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Close long bund, still long 10y US.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 5 10 15 20 25 30 1999 2001 2003 2005 2007",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Close long bund, still long 10y US.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 2026E 0.0 2.0 4.0 6.0 8.0 10.0 -500 0 500 1000 1500",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Close long bund, still long 10y US.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 3.2 3.1 2.9 2.8 2.0 2.2 2.4 2.6 2.8 3.0 3.2 3.4",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Close long bund, still long 10y US.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

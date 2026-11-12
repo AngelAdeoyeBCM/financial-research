@@ -1,0 +1,1117 @@
+{
+  "batch_id": "2026-06-17",
+  "window": [
+    "2026-06-17",
+    "2026-06-17"
+  ],
+  "generated_at": "2026-10-29T16:29:55",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-14_2026-06-17.json",
+      "sha256": "7bf12f7d0a40285d595182cfd482d918daad0d31b02982169def9d9c8b470b69",
+      "records": 1582,
+      "dates": [
+        "2026-06-14",
+        "2026-06-17"
+      ],
+      "records_for_batch": 491
+    }
+  ],
+  "counts": {
+    "documents": 24,
+    "in_scope": 18,
+    "out_of_scope": 6,
+    "compiled": 2,
+    "skipped": 16,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 19,
+    "edits": 44,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 71,
+    "DISTORTED_TABLE": 28,
+    "MISSING_CHUNKS": 8,
+    "UNSTRUCTURED_TEXT": 6,
+    "NON_ENGLISH_SCRIPT": 4,
+    "GARBLED_TEXT": 3
+  },
+  "documents": [
+    {
+      "stem": "BofA_Japan_Viewpoint_-_BoJ_watching_101_-_Economics_and_Rates",
+      "document": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf",
+      "date": "2026-06-17",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 46,
+      "page_count": 16,
+      "status": "skipped",
+      "missing_indices": [
+        27,
+        32
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [27, 32]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x10, HIRAGANA x2",
+          "chunk_id": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf-2-4",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x26, HIRAGANA x5",
+          "chunk_id": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf-2-5",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -3 -2 -1 0 1 2 3 4 5 05 07 09",
+          "chunk_id": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in CJK x14",
+          "chunk_id": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf-7-22",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "NON_ENGLISH_SCRIPT",
+          "detail": "letters in KATAKANA x2",
+          "chunk_id": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf-8-25",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -2 -1 0 1 2 3 4 92 94 96 98 00",
+          "chunk_id": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf-9-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30",
+          "chunk_id": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf-10-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1 0 1 2 3 4 5 16 17 18 19 20",
+          "chunk_id": "BofA_Japan Viewpoint - BoJ watching 101 - Economics and Rates.pdf-11-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_UK_Watch_-_Inflation_Review_-_Inflation_surprises_to_the_downside",
+      "document": "BofA_UK Watch - Inflation Review - Inflation surprises to the downside.pdf",
+      "date": "2026-06-17",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 3.5 -5.0 25.6 1.2 3.9 3.32.2 -8.6 24.6 0.9 3.7 2.8 -15",
+          "chunk_id": "BofA_UK Watch - Inflation Review - Inflation surprises to the downside.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_US_Watch_-_June_FOMC_-_A_single_mandate",
+      "document": "BofA_US Watch - June FOMC - A single mandate.pdf",
+      "date": "2026-06-17",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        10
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 10]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: +1 646 855 9929 | +1 646 743 7013 | +1 646 743 7015",
+          "chunk_id": "BofA_US Watch - June FOMC - A single mandate.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Central_bank_reaction_to_the_US-Iran_agreement",
+      "document": "Central bank reaction to the US-Iran agreement.pdf",
+      "date": "2026-06-17",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "Central bank reaction to the US-Iran agreement.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Central bank reaction to the US-Iran agreement.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 20 May 2026 10.785 10.795 3 Jun 2026 -0.04%",
+          "chunk_id": "Central bank reaction to the US-Iran agreement.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1.20 1.40 1.60 1.80 -3.00 -2.00 -1.00 0.00 1.00 2.00 '07 '10",
+          "chunk_id": "Central bank reaction to the US-Iran agreement.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -1.00 -0.50 0.00 0.50 1.00 -100 -50 0 50",
+          "chunk_id": "Central bank reaction to the US-Iran agreement.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Europe_Blog_-_What_to_expect_for_China_trade_defence__competitiveness___the_next_EU_budget",
+      "document": "DB_Europe Blog - What to expect for China trade defence, competitiveness & the next EU budget.pdf",
+      "date": "2026-06-17",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 21,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 1 2 3 4 02 06 10 14 18 22 26",
+          "chunk_id": "DB_Europe Blog - What to expect for China trade defence, competitiveness & the next EU budget.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F098 x1, U+F099 x8",
+          "chunk_id": "DB_Europe Blog - What to expect for China trade defence, competitiveness & the next EU budget.pdf-5-13",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 200 400 600 800 1,000 1,200 1,400 1,600 1,800 2,000",
+          "chunk_id": "DB_Europe Blog - What to expect for China trade defence, competitiveness & the next EU budget.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F0A2 x8, U+F098 x19, U+F099 x13",
+          "chunk_id": "DB_Europe Blog - What to expect for China trade defence, competitiveness & the next EU budget.pdf-7-19",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: Nov 2024 June 2026 | Q3 2026 Q3 2027 | Q3 2026 Q4 2027",
+          "chunk_id": "DB_Europe Blog - What to expect for China trade defence, competitiveness & the next EU budget.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F098 x26, U+F099 x22, U+F0A2 x13, U+F020 x2",
+          "chunk_id": "DB_Europe Blog - What to expect for China trade defence, competitiveness & the next EU budget.pdf-7-20",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: Jul 2026 Q1 2027 | Dec 2025 Q3 2026 | Q2 2026 Q4 2026",
+          "chunk_id": "DB_Europe Blog - What to expect for China trade defence, competitiveness & the next EU budget.pdf-7-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_Entering_a_tactical_long_CLPCOP_position_Trade_Idea--926506",
+      "document": "FX_Entering_a_tactical_long_CLPCOP_position_Trade_Idea--926506.pdf",
+      "date": "2026-06-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 90 92 94 96 98 100 102 104 106",
+          "chunk_id": "FX_Entering_a_tactical_long_CLPCOP_position_Trade_Idea--926506.pdf-1-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 3380 3480 3580 3680 3780 Mar-26 Apr-26 May-26 Jun-26",
+          "chunk_id": "FX_Entering_a_tactical_long_CLPCOP_position_Trade_Idea--926506.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Daily_-_June_FOMC_Recap_-_Hikes_Look_More_Likely_but_Are_Still_Not_Our_Base_Case",
+      "document": "GS_US Daily - June FOMC Recap - Hikes Look More Likely but Are Still Not Our Base Case.pdf",
+      "date": "2026-06-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 3.85 3.90 3.95 4.00 4.05 4.10 4.15 3.85 3.90 3.95 4.00 4.05",
+          "chunk_id": "GS_US Daily - June FOMC Recap - Hikes Look More Likely but Are Still Not Our Base Case.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Global_Markets_Strategy_-_Post-FOMC_rates_update_-_You_ll_get_nothing_and_like_it__2",
+      "document": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf",
+      "date": "2026-06-17",
+      "publisher": "JP Morgan",
+      "document_type": "Catalyst Review",
+      "chunk_count": 25,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        17
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [17]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 1 2 2 7 7 0 0 00 0 0 1 8",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 6/17 0% 10% 20% 30% 40% 6/16/2026 6/17/2026",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 30 40 50 60 70 80 90 100 110 120 130 Dec",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "60 consecutive numeric/date tokens: 12/19/24 2.121 22 7.4 2.10 23.1 51.4 74.6 14.2 59.4 4/17/25 1.702",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 Jun 19 Jun 20 Jun",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-5-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: Jun 30, 2028 Jun 30, 2031 Jun 30, 2033",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-6-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 2 0 2 5 - 2 0 2 6",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-6-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0.8 1.0 1.2 1.4 1.6 Jun 25 Aug 25 Oct 25 Dec",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-8-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -0.5 -0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 Jun 25 Aug 25",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-8-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -10 -5 0 5 10 15 Jun 25 Aug 25 Oct 25",
+          "chunk_id": "JPM_Global Markets Strategy - Post-FOMC rates update - You’ll get nothing and like it (2).pdf-8-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Monthly_Inflation_Outlook_-_Breakevens_likely_floored_for_now",
+      "document": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf",
+      "date": "2026-06-17",
+      "publisher": "JP Morgan",
+      "document_type": "Monthly",
+      "chunk_count": 81,
+      "page_count": 31,
+      "status": "skipped",
+      "missing_indices": [
+        29,
+        43,
+        61,
+        79
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [29, 43, 61, 79]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 4Q25 1Q26",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 4Q25 1Q26 2Q26 3Q26",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 27 Feb - 20 Mar 20 Mar - 15 Jun",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 2.57 3.38 2.52 86 -88 102% | 2.55 2.49 2.32 17 5 31% | 2.40 2.36 2.40 -4 4 101% 10Y",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 3M -0.02 -0.01 0.00 0.01 0.02 0.03 0.04 Feb 26 Mar 26",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2.0 2.5 3.0 3.5 4.0 Mar 24 Mar 25 Mar 26 Mar",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2.0 2.5 3.0 3.5 4.0 Mar 24 Mar 25 Mar 26 Mar",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 1 Jan 2026 -0.01 0.00 0.01 0.02 0.03 0.04 0% 20% 40%",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "22 consecutive numeric/date tokens: 0 5 10 15 Jan 22 Jul 22 Jan 23 Jul 23",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 Dec 25 Jan 26 Feb",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-9-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 Nov 10 Nov 12",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-10-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -30.0 -25.0 -20.0 -15.0 -10.0 -5.0 0.0 5.0",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -30.0 -25.0 -20.0 -15.0 -10.0 -5.0 0.0 5.0",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 6M -0.005 0.000 0.005 0.010 0.015 0.020 0.025 0.030 Dec 25 Jan",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-13-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 82% -0.2 0.0 0.2 0.4 0.6 0.8 1.0 3.00 3.50 4.00 4.50",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-13-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 15 20 25 30",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-14-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -25 -20 -15 -10 -5 0 5 10 15 20 25 30",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-14-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2.0 2.5 3.0 3.5 4.0 4.5 5.0 0 5 10 15 20",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-15-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0.70 0.80 0.90 1.00 1.10 1.20 1.30 Jun 25 Aug 25 Oct",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-16-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-16-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 300 320 340 360 380 400 420 220 230 240 250 260",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-17-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 235 237 245 6/16/2026 237 230 222 254 244 240",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-17-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -11 -10 -45 -40 -35 -30 -25 -20 -15 -10 -5 0",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-18-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "24 consecutive numeric/date tokens: 5Y 12 -23 56 10Y 6 -22 57 30Y 2 -22 57",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-19-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -5% 0% 5% 10% 15% 2018 2020 2022 2024 2026",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-19-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 5Y 237 245 255 260 265 265 10Y 230 235 240 245",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-20-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 1.10 1.30 1.50 1.70 1.90 2.10 2.30 2.50",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-21-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -2.0% -1.0% 0.0% 1.0% 2.0% 3.0% 4.0% 5.0% 2019 2020 2021 2022",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-23-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -2.0% -1.0% 0.0% 1.0% 2.0% 3.0% 4.0% 5.0% 2019 2020 2021 2022",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-23-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 2021 2022 2023 2024 2025 2026",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-24-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "88 consecutive numeric/date tokens: 5/10/2026 111.40 1.141 1.131 1.123 1.114 1.126 1.114 1.070 1.047 1.016 6/10/2026",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-24-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 6 3 3 0 50% -17 | - - - - - - | 2 2 - - 100% 10",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-27-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: Jul 30 May 30 256 220 210 200 200 10Y",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-28-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 0 10 20 30 40 50",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-29-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "202 consecutive numeric/date tokens: May 26 103.1 0.1% 3.1% 102.4 0.1% 2.4% 415.3 0.2% 3.1% 142.4",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-30-82",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "177 consecutive numeric/date tokens: 4.8% 145.0 0.7% 3.5% 337.9 0.2% 3.4% Mar 27 104.2 0.7% 2.2%",
+          "chunk_id": "JPM_Monthly Inflation Outlook - Breakevens likely floored for now.pdf-30-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_Post-FOMC_rates_update_-_You_ll_get_nothing_and_like_it",
+      "document": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf",
+      "date": "2026-06-17",
+      "publisher": "JP Morgan",
+      "document_type": "Catalyst Review",
+      "chunk_count": 25,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        17
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [17]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 1 2 2 7 7 0 0 00 0 0 1 8",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 6/17 0% 10% 20% 30% 40% 6/16/2026 6/17/2026",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 30 40 50 60 70 80 90 100 110 120 130 Dec",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "60 consecutive numeric/date tokens: 12/19/24 2.121 22 7.4 2.10 23.1 51.4 74.6 14.2 59.4 4/17/25 1.702",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 Jun 19 Jun 20 Jun",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-5-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: Jun 30, 2028 Jun 30, 2031 Jun 30, 2033",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-6-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 2 0 2 5 - 2 0 2 6",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-6-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0.8 1.0 1.2 1.4 1.6 Jun 25 Aug 25 Oct 25 Dec",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-8-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -0.5 -0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 Jun 25 Aug 25",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-8-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -10 -5 0 5 10 15 Jun 25 Aug 25 Oct 25",
+          "chunk_id": "JPM_Post-FOMC rates update - You’ll get nothing and like it.pdf-8-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "June_FOMC__We_ve_got_a_task_force_for_that",
+      "document": "June FOMC: We’ve got a task force for that.pdf",
+      "date": "2026-06-17",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "33 consecutive numeric/date tokens: 1 2 2 7 7 1 8 3 5 1 1 3",
+          "chunk_id": "June FOMC: We’ve got a task force for that.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "51 consecutive numeric/date tokens: 1 2 2 7 7 1 8 3 5 1 1 3",
+          "chunk_id": "June FOMC: We’ve got a task force for that.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Federal_Reserve_Monitor_-_June_FOMC_Statement_and_SEP_Quick_Reaction_-_A_hawkish_shift__less_communication",
+      "document": "MS_Federal Reserve Monitor - June FOMC Statement and SEP Quick Reaction - A hawkish shift, less communication.pdf",
+      "date": "2026-06-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: June 2.2 2.3 2.2 2.0 March 2.4 2.3 2.1 2.0",
+          "chunk_id": "MS_Federal Reserve Monitor - June FOMC Statement and SEP Quick Reaction - A hawkish shift, less communication.pdf-4-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "MS_Federal Reserve Monitor - June FOMC Statement and SEP Quick Reaction - A hawkish shift, less communication.pdf-4-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16 18",
+          "chunk_id": "MS_Federal Reserve Monitor - June FOMC Statement and SEP Quick Reaction - A hawkish shift, less communication.pdf-5-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16 18",
+          "chunk_id": "MS_Federal Reserve Monitor - June FOMC Statement and SEP Quick Reaction - A hawkish shift, less communication.pdf-6-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Federal_Reserve_Monitor_-_June_FOMC_Takeaways_-_Hawkish__less_guidance__reformist",
+      "document": "MS_Federal Reserve Monitor - June FOMC Takeaways - Hawkish, less guidance, reformist.pdf",
+      "date": "2026-06-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16 18",
+          "chunk_id": "MS_Federal Reserve Monitor - June FOMC Takeaways - Hawkish, less guidance, reformist.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16 18",
+          "chunk_id": "MS_Federal Reserve Monitor - June FOMC Takeaways - Hawkish, less guidance, reformist.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_UK_Inflation_Watch_-_Europe_-_A_Clean_Sheet",
+      "document": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf",
+      "date": "2026-06-17",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 18,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2.0 - 2.0 4.0 6.0 8.0 10.0 12.0 2019 2020 2021 2022",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -0.15 -0.10 -0.05 0.00 0.05 0.10 0.15 0.20 0.25 0.30",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -0.5 -0.4 -0.3 -0.2 -0.1 0 0.1 0.2 0.3 0.4",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -1.0 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 2019 2020",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -1.0 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 2019 2020",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "153 consecutive numeric/date tokens: Jan-24 3.98 131.48 5.05 2.67 6.54 -14.89 6.94 80.12 4.22 4.91 378.00",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "55 consecutive numeric/date tokens: Mar-26 3.32 141.01 3.15 0.79 4.48 4.94 3.71 103.13 3.43 4.07 411.40",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44 consecutive numeric/date tokens: 2024 2.54 3.73 0.82 5.50 -12.91 2.72 80.53 3.28 3.59 105.57 2025",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "MS_UK Inflation Watch - Europe - A Clean Sheet.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_signals_long_EURNOK_remains_short_USDSGD_Trade_Idea--926494",
+      "document": "STEER_signals_long_EURNOK_remains_short_USDSGD_Trade_Idea--926494.pdf",
+      "date": "2026-06-17",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 10.9953 11.129 10.9285 - -0.01 | 1.2815 1.2691 1.2935 - -0.01 | 94.815 - - 95.2625",
+          "chunk_id": "STEER_signals_long_EURNOK_remains_short_USDSGD_Trade_Idea--926494.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "STEER_signals_long_EURNOK_remains_short_USDSGD_Trade_Idea--926494.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_FX_Strategy_-_FX_Compass_-_Risk_scores_again_with_MoU",
+      "document": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf",
+      "date": "2026-06-17",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 37,
+      "page_count": 13,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 60 70 80 90 100 110 120 130 140 150 Jan-26 Feb-26",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 Jan-23 Jul-23 Jan-24 Jul-24 Jan-25",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.861 0.863 0.865 0.867 0.869 0.871 0.873 0.875 -165 -160 -155 -150",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 10 12 14 16 18 20 22 24 26",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 Jan-20 Jan-21",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-8-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -3.0 -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 Jan-22 Jan-23 Jan-24",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-8-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 148 150 152 154 156 158 160 162 164 104 106 108",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-9-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 10.60 10.80 11.00 11.20 11.40 11.60 11.80 12.0055 60 65 70 75",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 11.00 11.20 11.40 11.60 11.80 12.00 -195 -190 -185 -180 -175 -170",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-12-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 numeric rows: 8-Jan-26 0.19% 0.01% 8-Jul-26 -0.18% -0.17% | 8-Jan-26 0.17% 0.00% 8-Jul-26 -0.17% -0.07% | 1-Apr-26 0.19% 0.12% 29-Dec-26 -0.07% 0.00%",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-13-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "55% of tokens are numeric/date values",
+          "chunk_id": "UBS_Global FX Strategy - FX Compass - Risk scores again with MoU.pdf-13-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .view{background:#c9dcf8;border-color:#1a3f8b} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · FORECAST</b><div class='core fc'><span>FOMC skip in October</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Hot economy, sticky prices</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Underlying jobs stronger than headline</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Soft NFP and core PCE</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Household survey +406k, unemployment 4.2%</mark></span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · FORECAST</b><div class='core fc'><span>At least two more Fed hikes</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Hot economy, sticky prices</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Energy not main US pressure driver</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Lower energy could mean tighter policy</span><b>[H]</b></div><div class='c view'><span><b>S:</b> Underlying jobs stronger than headline</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Household survey +406k, unemployment 4.2%</mark></span><b>[A]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · RECOMMENDATION</b><div class='core rec'><span>Not bullish on US long end</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Wider term premiums, Fed credibility</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> <b>A002 - FORECAST</b></span><b>[A]</b></div></div>"]
+    A004["<div class='arg'><b>A004 · FORECAST</b><div class='core fc'><span>ECB one more hike in December</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> No ECB October hike</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Energy decline helps ECB more</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> ECB fewer hikes than priced</span><b>[H]</b></div></div>"]
+    A005["<div class='arg'><b>A005 · VIEW</b><div class='core view'><span>OAT move stop-out driven</span><b>[H]</b></div><div class='c val'><span><b>S:</b> 150bp implies BBB+ pricing</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>OAT-Bund at 150bp</mark></span><b>[A]</b></div><div class='c view'><span><b>CO:</b> Circuit breakers needed for OAT rally</span><b>[A]</b></div></div>"]
+    A006["<div class='arg'><b>A006 · VIEW</b><div class='core view'><span>High bar for TPI</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A005 - VIEW</b></span><b>[H]</b></div></div>"]
+    A007["<div class='arg'><b>A007 · FORECAST</b><div class='core fc'><span>Downside risk to EURUSD 1.14</span><b>[A]</b></div><div class='c view'><span><b>CA:</b> <b>A005 - VIEW</b></span><b>[H]</b></div><div class='c view'><span><b>Q:</b> Election risks balanced</span><b>[A]</b></div></div>"]
+    A008["<div class='arg'><b>A008 · RECOMMENDATION</b><div class='core rec'><span>Short EURAUD and EURMXN put spread</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> <b>A007 - FORECAST</b></span><b>[A]</b></div></div>"]
+    A009["<div class='arg'><b>A009 · RECOMMENDATION</b><div class='core rec'><span>Long GBPUSD</span><b>[A]</b></div><div class='c view'><span><b>S:</b> GBP well placed</span><b>[H]</b></div><div class='c view'><span><b>S:</b> Phased UK reforms, limited budget impact</span><b>[H]</b></div></div>"]
+    A010["<div class='arg'><b>A010 · FORECAST</b><div class='core fc'><span>BoJ quarterly hiking more likely</span><b>[A]</b></div><div class='c fc'><span><b>Q:</b> BoJ October hike unlikely</span><b>[H]</b></div></div>"]
+    A011["<div class='arg'><b>A011 · FORECAST</b><div class='core fc'><span>Brazil first round neutral scenario</span><b>[H]</b></div><div class='c dp'><span><b>RA:</b> <mark>Poll aggregator shows Lula 3pp lead</mark></span><b>[A]</b></div></div>"]
+    A012["<div class='arg'><b>A012 · RECOMMENDATION</b><div class='core rec'><span>Colombia/Mexico trades</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Another Banrep hike likelier</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Banrep surprise 25bp hike</mark></span><b>[A]</b></div></div>"]
+    A013["<div class='arg'><b>A013 · VIEW</b><div class='core view'><span>CEE outlook revised on energy</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Czech hike in November</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> NBH on hold</span><b>[H]</b></div><div class='c fc'><span><b>S:</b> NBP hike may shift later</span><b>[S]</b></div></div>"]
+    A014["<div class='arg'><b>A014 · FORECAST</b><div class='core fc'><span>Near-term downside for crude</span><b>[H]</b></div><div class='c view'><span><b>Q:</b> Energy risks remain</span><b>[H]</b></div></div>"]
+
+    A002 -- Supporting --> A003
+    A005 -- Supporting --> A006
+    A005 -. Catalyst .-> A007
+    A007 -- Supporting --> A008
+
+    classDef fc fill:#eef9ee,stroke:#1a6b3a,stroke-width:2px,color:#111111
+    classDef rec fill:#fdeeee,stroke:#8b1a1a,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A001,A002,A004,A007,A010,A011,A014 fc
+    class A003,A008,A009,A012 rec
+    class A005,A006,A013 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

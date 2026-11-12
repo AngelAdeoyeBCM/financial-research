@@ -1,0 +1,191 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Taking_profit_on_CLP_basis_receiver_Trade_Idea--920185.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-09",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "link": 2,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 21,
+  "kinds": {
+   "deixis": 13,
+   "noun_phrase": 6,
+   "possessive": 2
+  },
+  "rooted_share": 0.8108108108108109,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 2
+  },
+  "sentences": 14,
+  "cost_usd": 0.0739
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 398,
+   "end": 426,
+   "quote": "Chilean pension funds (AFPs)",
+   "name": "Chilean pension funds (AFPs)"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 73,
+   "end": 101,
+   "quote": "our CLP basis receiver trade",
+   "name": "the CLP basis receiver trade"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 484",
+   "message": "not verbatim in source: ['s'] in {{their => Chilean pension funds (AFPs)'s}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 1511",
+   "message": "not verbatim in source: ['s'] in {{their => Chilean pension funds (AFPs)'s}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.026310200000000002,
+   "duration_ms": 4062,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2892,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 117,
+    "output_tokens_details": {
+     "thinking_tokens": 104
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2892,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 117,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2892,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2892
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0475867,
+   "duration_ms": 10816,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3021,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1114,
+    "output_tokens_details": {
+     "thinking_tokens": 657
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3021,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1114,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3021,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3021
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,244 @@
+{
+  "batch_id": "2026-07-30",
+  "window": [
+    "2026-07-30",
+    "2026-07-30"
+  ],
+  "generated_at": "2026-10-29T16:30:42",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_27_31.json",
+      "sha256": "5965830b77a419f936faf0a0f8c3959f9cf37e9955607a291ba167dbba71cfc2",
+      "records": 202,
+      "dates": [
+        "2026-07-27",
+        "2026-07-31"
+      ],
+      "records_for_batch": 52
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 6,
+    "out_of_scope": 1,
+    "compiled": 2,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 7,
+    "edits": 14,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 14,
+    "DISTORTED_TABLE": 6,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "A_month_of_two_halves",
+      "document": "A month of two halves.pdf",
+      "date": "2026-07-30",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats",
+          "chunk_id": "A month of two halves.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "A month of two halves.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "A month of two halves.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats",
+          "chunk_id": "A month of two halves.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats",
+          "chunk_id": "A month of two halves.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats riceStats",
+          "chunk_id": "A month of two halves.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "A month of two halves.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Carry_Prevails_Despite_Fed_Headwinds",
+      "document": "Carry Prevails Despite Fed Headwinds.pdf",
+      "date": "2026-07-30",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 30 July 2026 1 | 7 May 2026 84.49 79 86.5 +0.7% | 25 Jun 2026 52.93 51 55.5 +0.4%",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 2019 2020 2022 2023",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 2019 2020 2022 2023",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -15% -10% -5% 0% 5% 10% 15% 20% 25%",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -15% -10% -5% 0% 5% 10% 15% 20% 25%",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 3.75% 08/06 0.26 n/a | 5.75% 08/25 -0.47 67% 25bps | 3.75% 09/09 -0.01 64%",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 9 Jul 2026 1726.55 1670 24 Jul 2026 +3.69%",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "Carry Prevails Despite Fed Headwinds.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "China_politburo_Focus_firmly_on_implementation_not_new_stimulus_Desknote--929225",
+      "document": "China_politburo_Focus_firmly_on_implementation_not_new_stimulus_Desknote--929225.pdf",
+      "date": "2026-07-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "86 consecutive numeric/date tokens: 230 July 2026 0 100 200 300 400 500 600 700 800",
+          "chunk_id": "China_politburo_Focus_firmly_on_implementation_not_new_stimulus_Desknote--929225.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPY_rates_Impact_of_rate_hikes_on_BoJ_earnings_looks_manageable_in_2026_Desknote--929189",
+      "document": "JPY_rates_Impact_of_rate_hikes_on_BoJ_earnings_looks_manageable_in_2026_Desknote--929189.pdf",
+      "date": "2026-07-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 0 100 200 300 400 Jun-26 Dec-26 Jun-27",
+          "chunk_id": "JPY_rates_Impact_of_rate_hikes_on_BoJ_earnings_looks_manageable_in_2026_Desknote--929189.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 1.3 1.7 2.1 2.9 3.5 4.1 | 1.1 1.5 1.7 1.6 1.7 1.7 | 0.3 0.4 0.4 0.1 0.2 0.2",
+          "chunk_id": "JPY_rates_Impact_of_rate_hikes_on_BoJ_earnings_looks_manageable_in_2026_Desknote--929189.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: −0.1 −9 −28 −45 −60 -- | 16 37 33 57 66 -- | 0.22% 0.30% 0.36% 0.50%",
+          "chunk_id": "JPY_rates_Impact_of_rate_hikes_on_BoJ_earnings_looks_manageable_in_2026_Desknote--929189.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 16 37 33 57 66 0.22% 0.30% 0.36% 0.50% 0.61% 0.75%",
+          "chunk_id": "JPY_rates_Impact_of_rate_hikes_on_BoJ_earnings_looks_manageable_in_2026_Desknote--929189.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

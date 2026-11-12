@@ -1,0 +1,156 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_Canada_Economics_Comment_-_Headline_Inflation_Surprises_to_the_Upside__Preferred_Core_Measures_In_Line_With_Expectations.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-22",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 1,
+    "referents": {
+     "thing": 1
+    },
+    "decisions": {
+     "link": 1
+    },
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 7,
+  "kinds": {
+   "deixis": 6,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.5,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 32,
+  "cost_usd": 0.0875
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 4876,
+   "end": 4998,
+   "quote": "volatile categories (e.g. travel services and clothing) and components that are directly exposed to energy price increases",
+   "name": "the volatile categories and components that are directly exposed to energy price increases"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0393493,
+   "duration_ms": 4007,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4408,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 155,
+    "output_tokens_details": {
+     "thinking_tokens": 147
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4408,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 155,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4408,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4408
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0481989,
+   "duration_ms": 6402,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4458,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 568,
+    "output_tokens_details": {
+     "thinking_tokens": 408
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4458,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 568,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4458,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4458
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

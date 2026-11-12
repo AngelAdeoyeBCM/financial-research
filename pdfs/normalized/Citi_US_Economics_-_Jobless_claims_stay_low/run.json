@@ -1,0 +1,211 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_US_Economics_-_Jobless_claims_stay_low.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "claim": 2,
+     "thing": 3
+    },
+    "decisions": {
+     "link": 4,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 1,
+     "relative": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 6,
+  "kinds": {
+   "proposition": 2,
+   "noun_phrase": 1,
+   "possessive": 1,
+   "deixis": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.92,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 17,
+  "cost_usd": 0.0724
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 626,
+   "end": 708,
+   "quote": "Jobless claims have been remarkably stable at low levels over the last three weeks",
+   "name": "Jobless claims have been remarkably stable at low levels over the last three weeks"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1057,
+   "end": 1138,
+   "quote": "Continuing jobless claims are running around 1700k, down from 1800k in the summer",
+   "name": "Continuing jobless claims are running around 1700k, down from 1800k in the summer"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1432,
+   "end": 1453,
+   "quote": "the unemployment rate",
+   "name": "the unemployment rate"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 852,
+   "end": 887,
+   "quote": "the sustained lower level of claims",
+   "name": "the sustained lower level of claims"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2044,
+   "end": 2055,
+   "quote": "wage growth",
+   "name": "wage growth"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0259304,
+   "duration_ms": 2912,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2939,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 79,
+    "output_tokens_details": {
+     "thinking_tokens": 66
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2939,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 79,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2939,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2939
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0465041,
+   "duration_ms": 10979,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3155,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1011,
+    "output_tokens_details": {
+     "thinking_tokens": 538
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3155,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1011,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3155,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3155
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

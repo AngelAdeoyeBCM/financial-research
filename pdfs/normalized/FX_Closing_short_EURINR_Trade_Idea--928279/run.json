@@ -1,0 +1,214 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Closing_short_EURINR_Trade_Idea--928279.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 6
+    },
+    "decisions": {
+     "link": 7
+    },
+    "leave_reasons": {},
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 28,
+  "kinds": {
+   "deixis": 14,
+   "noun_phrase": 7,
+   "pronoun": 4,
+   "possessive": 2,
+   "symbol": 1
+  },
+  "rooted_share": 0.7608695652173914,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 19,
+  "cost_usd": 0.0928
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 69,
+   "end": 122,
+   "quote": "The trade idea we opened in FX: Sell EURINR on 1 July",
+   "name": "the FX: Sell EURINR trade idea"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 615,
+   "end": 622,
+   "quote": "the EUR",
+   "name": "the EUR"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1333,
+   "end": 1357,
+   "quote": "some unwind of USD longs",
+   "name": "the unwind of USD longs"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 20,
+   "end": 26,
+   "quote": "EURINR",
+   "name": "EURINR"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 291,
+   "end": 316,
+   "quote": "the Reserve Bank of India",
+   "name": "the Reserve Bank of India"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1273,
+   "end": 1295,
+   "quote": "a softer US CPI report",
+   "name": "the softer US CPI report"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 154"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 1569"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.030720600000000004,
+   "duration_ms": 3111,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3281,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 180,
+    "output_tokens_details": {
+     "thinking_tokens": 167
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3281,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 180,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3281,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3281
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.06208100000000001,
+   "duration_ms": 14762,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3599,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1610,
+    "output_tokens_details": {
+     "thinking_tokens": 844
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3599,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1610,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3599,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3599
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

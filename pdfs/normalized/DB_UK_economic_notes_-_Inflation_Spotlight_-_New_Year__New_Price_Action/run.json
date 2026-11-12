@@ -1,0 +1,278 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_UK_economic_notes_-_Inflation_Spotlight_-_New_Year__New_Price_Action.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-12",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 10,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 7
+    },
+    "leave_reasons": {},
+    "extra": 8,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 84,
+  "kinds": {
+   "deixis": 64,
+   "noun_phrase": 8,
+   "symbol": 5,
+   "possessive": 3,
+   "proposition": 2,
+   "pronoun": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.5754716981132075,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 99,
+  "cost_usd": 0.1702
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1370,
+   "end": 1385,
+   "quote": "Services prices",
+   "name": "services prices"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1484,
+   "end": 1568,
+   "quote": "private rents to have picked up by 0.2% m-o-m, with social rents up 0.6% m-o-m (CPI)",
+   "name": "private rents to have picked up by 0.2% m-o-m, with social rents up 0.6% m-o-m (CPI)"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1822,
+   "end": 1849,
+   "quote": "travel and transport prices",
+   "name": "travel and transport prices"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2725,
+   "end": 2738,
+   "quote": "Weatherspoons",
+   "name": "Weatherspoons"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4158,
+   "end": 4175,
+   "quote": "electrical prices",
+   "name": "electrical prices"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 4282,
+   "end": 4335,
+   "quote": "Indications of new year discounts have been plentiful",
+   "name": "Indications of new year discounts have been plentiful"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 10404,
+   "end": 10422,
+   "quote": "April price resets",
+   "name": "April price resets"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3234,
+   "end": 3274,
+   "quote": "other recreational and personal services",
+   "name": "other recreational and personal services"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 7252,
+   "end": 7288,
+   "quote": "the food, alcohol and tobacco basket",
+   "name": "the food, alcohol and tobacco basket"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 430,
+   "end": 449,
+   "quote": "the Bank of England",
+   "name": "the Bank of England"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6975,
+   "end": 6982,
+   "quote": "alcohol",
+   "name": "alcohol"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 6987,
+   "end": 7001,
+   "quote": "tobacco prices",
+   "name": "tobacco prices"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We breakdown' at 1287"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We break' at 7696"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We break' at 8716"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 9",
+   "message": "'their' in 'nal pullback Core goods prices will see their regular pull back in January.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0625132,
+   "duration_ms": 5723,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6682,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 392,
+    "output_tokens_details": {
+     "thinking_tokens": 379
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6682,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 392,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6682,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6682
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1077058,
+   "duration_ms": 21621,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6957,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2531,
+    "output_tokens_details": {
+     "thinking_tokens": 1481
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6957,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2531,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6957,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6957
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

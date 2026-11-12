@@ -1,0 +1,414 @@
+{
+  "batch_id": "2026-09-09",
+  "window": [
+    "2026-09-09",
+    "2026-09-09"
+  ],
+  "generated_at": "2026-10-29T16:31:36",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-06_2026-09-09.json",
+      "sha256": "b01083231b235f6b978d0e28b585145589aad4aec7fcf9c24d1f9337c40df36a",
+      "records": 2100,
+      "dates": [
+        "2026-09-06",
+        "2026-09-09"
+      ],
+      "records_for_batch": 130
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 6,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 3,
+    "edits": 4,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 21,
+    "UNSTRUCTURED_TEXT": 13,
+    "DISTORTED_TABLE": 4,
+    "MISSING_CHUNKS": 3,
+    "GARBLED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "All_Rise_for_CPI",
+      "document": "All Rise for CPI.pdf",
+      "date": "2026-09-09",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 9 September 2026 1 | 12 Aug 2026 0.9835 0.9532 0.9988 -1.67% | 12 Aug 2026 0.8540 0.8700 0.8460 +0.37%",
+          "chunk_id": "All Rise for CPI.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 0.1 0.2 0.3 0.4 Feb-25 May-25 Aug-25 Nov-25 Feb-26 May-26 Aug-26",
+          "chunk_id": "All Rise for CPI.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 12 Aug 2026 0.5829 0.5736 24 Aug 2026 -1.63%",
+          "chunk_id": "All Rise for CPI.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -8.0 -6.0 -4.0 -2.0 0.0 2.0 4.0 6.0 6.5 7.0 7.5 8.0",
+          "chunk_id": "All Rise for CPI.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -20% 0% 20% 40% 60% 80% 100% 120%",
+          "chunk_id": "All Rise for CPI.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -20% 0% 20% 40% 60% 80% 100% 120%",
+          "chunk_id": "All Rise for CPI.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "All Rise for CPI.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_China_-_Trump-Xi_Meeting_2.0",
+      "document": "BC_China - Trump-Xi Meeting 2.0.pdf",
+      "date": "2026-09-09",
+      "publisher": "Barclays",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 28,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        16,
+        19,
+        28
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [16, 19, 28]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 10 20 30 40 50 60 Oct-22 Feb-23 Jun-23 Oct-23 Feb-24",
+          "chunk_id": "BC_China - Trump-Xi Meeting 2.0.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -1,500 -1,000 -500 0 500 1,000 1,500 2,000 1997 1999 2001 2003",
+          "chunk_id": "BC_China - Trump-Xi Meeting 2.0.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -2,000 -1,500 -1,000 -500 0 500 1,000 Jul-22 Oct-22 Jan-23 Apr-23 Jul-23",
+          "chunk_id": "BC_China - Trump-Xi Meeting 2.0.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_European_Equity_Strategy_-_UPDATE-Europe_s_resilience_test",
+      "document": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf",
+      "date": "2026-09-09",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 35,
+      "page_count": 17,
+      "status": "skipped",
+      "missing_indices": [
+        15
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [15]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "GARBLED_TEXT",
+          "detail": "unrendered characters U+F1DA x1",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-1-0",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -15% -10% -5% 0% 5% 10% 15% 20% 25% 30%",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -20 -10 0 10 20 30 40 50 60 70",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -100 -80 -60 -40 -20 0 20 40 60 80 100 1.75",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 40 42 44 46 48 50 52 54 56 58 60 Jan-22",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -1.00 0.00 1.00 2.00 3.00 4.00 5.00 -40 -20 0 20 40",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -25 0 25 50 -200 -100 0 100 200 300 400 05",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -30 -25 -20 -15 -10 -5 020 40 60 80 100 120",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -0.7 -0.6 -0.5 -0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 95",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-13-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-13-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 2024 2 12 22 32 42 52 62 72 82 92 102",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-14-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-14-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-15-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-15-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-15-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ediaFor ediaFor rosiebenSat",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-16-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-16-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: onvaTec ssilorLuxottica ondonMetric",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-16-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-16-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-16-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-17-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "BC_European Equity Strategy - UPDATE-Europe's resilience test.pdf-17-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_Short_MXNCOP_Trade_Idea--931346",
+      "document": "FX_Short_MXNCOP_Trade_Idea--931346.pdf",
+      "date": "2026-09-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -3 2 7 12 17 22 0 1 2 3 4 5",
+          "chunk_id": "FX_Short_MXNCOP_Trade_Idea--931346.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 109 September 2026 -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0 4.0 -0.8",
+          "chunk_id": "FX_Short_MXNCOP_Trade_Idea--931346.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: -50 -40 -30 -20 -10 0 10 20 30 40 50 60",
+          "chunk_id": "FX_Short_MXNCOP_Trade_Idea--931346.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_signals_short_GBPUSD_EURNOK_undervalued_Trade_Idea--931319",
+      "document": "STEER_signals_short_GBPUSD_EURNOK_undervalued_Trade_Idea--931319.pdf",
+      "date": "2026-09-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 1.3559 1.3358 1.3661 - 0.00 | 17797 - - 17580 (09-Sep-26) -1.22 | 3.0348 2.9388 3.0930 - 0.62 07-Sep-2026",
+          "chunk_id": "STEER_signals_short_GBPUSD_EURNOK_undervalued_Trade_Idea--931319.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 3.0348 2.9388 3.0930 - 0.62 07-Sep-2026 | 62.7440 61.9352 63.6473 - 0.45 | 156.5 - - 156.09 (07-Sep-26) -0.26 31-Aug-2026",
+          "chunk_id": "STEER_signals_short_GBPUSD_EURNOK_undervalued_Trade_Idea--931319.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

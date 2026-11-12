@@ -1,0 +1,1095 @@
+{
+  "batch_id": "2026-08-27",
+  "window": [
+    "2026-08-27",
+    "2026-08-27"
+  ],
+  "generated_at": "2026-10-29T16:31:10",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-25_2026-08-28.json",
+      "sha256": "5b07b6a23099aa2ffe503fd13a7bca3089e2bc25ceef5a3c3fb7283f73601984",
+      "records": 2520,
+      "dates": [
+        "2026-08-25",
+        "2026-08-28"
+      ],
+      "records_for_batch": 493
+    }
+  ],
+  "counts": {
+    "documents": 25,
+    "in_scope": 20,
+    "out_of_scope": 5,
+    "compiled": 2,
+    "skipped": 17,
+    "duplicate": 0,
+    "protected": 1,
+    "compiled_with_warnings": 1,
+    "stripped_items": 22,
+    "edits": 21,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 74,
+    "UNSTRUCTURED_TEXT": 21,
+    "MISSING_CHUNKS": 10,
+    "DISTORTED_TABLE": 10
+  },
+  "documents": [
+    {
+      "stem": "BofA_Liquid_Insight_-_Fiscal_dominance___fiat_competition",
+      "document": "BofA_Liquid Insight - Fiscal dominance = fiat competition.pdf",
+      "date": "2026-08-27",
+      "publisher": "Bank of America",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 100 200 300 400 500 02 04 06 08 10 12",
+          "chunk_id": "BofA_Liquid Insight - Fiscal dominance = fiat competition.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 100 200 300 400 500 02 04 06 08 10 12",
+          "chunk_id": "BofA_Liquid Insight - Fiscal dominance = fiat competition.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 80 95 110 -40 -20 0 20 40 2020 2021 2022 2023",
+          "chunk_id": "BofA_Liquid Insight - Fiscal dominance = fiat competition.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -3 0 3 6 9 10 11 12 13 14 15 16",
+          "chunk_id": "BofA_Liquid Insight - Fiscal dominance = fiat competition.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 -40.00 -30.00 -20.00 -10.00 0.00",
+          "chunk_id": "BofA_Liquid Insight - Fiscal dominance = fiat competition.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "BofA_Liquid Insight - Fiscal dominance = fiat competition.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_Global_Macro_Strategy_-_Views_and_Trade_Ideas_-_Mythbusting_UST_Concerns_Amid_the_Global_Bond_Glut",
+      "document": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf",
+      "date": "2026-08-27",
+      "publisher": "Citi",
+      "document_type": "Trade Idea",
+      "chunk_count": 35,
+      "page_count": 15,
+      "status": "skipped",
+      "missing_indices": [
+        15,
+        26
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [15, 26]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 800 900 Jan-14 Jan-16",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: trades68%49%50%2026 penClosed imeOpen ateClose penCurrent loseTarget",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: call15-Dec-2025Open1,683,5020.150.34100.000.0019.34%149,070244,3830.15%0.24%6m 15704-Mar-2026Open628,93115.9%25.0%0.000.009.1%57,23357,2330.06%0.06%Pay OIS09-Jul-2026Open40,000121.50147.17150.00110.0025.7 CHF14-Jul-2026Open50,000,000100.0099.51105.0098.00-0.49%-52,616-52,616-0.05%-0.05%Long EURUSD28-Jul-2026Open25,000,0001.141.161.181.132.3%537,541537,5410.54%0.54%Buy touch28-Jul-2026Open862,0690.170.59100.000.0041.76%360,025360,0250.36%0.36%Short",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: call11-May-20265-Aug-262,000,00020.0%0.0%100.0%0.0%-20%-400,000-400,000-0.40%-0.40%Buy payer01-Jun-20263-Aug-265,000138.00113.4288.00163.0024.6 Z6)14-May-202614-Jul-2610,000208.00211.00260.00178.00-3 11-Jun-2026)09-Apr-20269-Jul-264,0006.665.386.107.00127.9 VG112-Jun-20269-Jul-2611,594,3576160.006273.006600.005900.001.82%62,00062,0000.06%0.06%Buy spot17-Jun-20262-Jul-2626,200,0009.619.8510.109.452.4%633,871633,8710.63%0.63%Long",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: call30-Apr-202625-Jun-262,500,00020%0%100%0%-20%-500,000-500,000-0.50%-0.50%Dec26/Dec27 call10-Mar-202610-Jun-261,000,0000.16000.0000100.00000.0000-16%-160,000-160,000-0.16%-0.16%Long spot08-Apr-20266-Jun-263,018,0114780.004014.085600.004400.00-17.46%-320,093-320,093-0.32%-0.32%USD steepener15-May-20266-Jun-2645,00024.0010.7845.0013.00-13.2 TP08-Apr-20265-Jun-261,976,826896.501305.001100.00790.0037.55%1,321,5581,321,5581.32%1.32%Long COP14-May-202629-May-266,000,00010098.01110.095.0-1.99%-119,000-119,000-0.12%-0.12%Short",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: pr-202629-Apr-2630,0002.71502.9181275.0000195.0000-20.3 IRS17-Apr-202629-Apr-268,00013.088013.772512.750013.3500-68.5 2031s09-Apr-202617-Apr-264,0006.66005.90306.10007.000075.7 (1.1949)20-Jan-202617-Apr-262,512,5630.09950.00000.00000.0000-9.95%-250,000-250,000-0.25%-0.25%3m (1.2066)20-Jan-202617-Apr-262,551,0200.04900.00000.00000.0000-4.9%-125,000-125,000-0.13%-0.13%3m (4.161%)14-Jan-202614-Apr-26819,6720.06100.00000.00000.0000-6.1%-50,000-50,000-0.05%-0.05%Receive",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: DV0105-Feb-202612-Mar-2613,00096.790096.605097.250096.6000-18.5 spot20-Jan-20263-Mar-2634,624,3981.17181.16031.21251.1550-0.98%-408,000-408,000-0.41%-0.41%2y weight)17-Dec-20253-Mar-2620,0005.736.105.005.980.4 IRS29-Jan-202620-Feb-269,00012.6612.5911.5013.10-6.6 JPY29-Jan-202624-Feb-2630,000173.00160.45210.00160.00-12.6 13-Feb-2026)29-Jan-202624-Feb-2630,000132.00119.7590.00130.0012.2",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_Global Macro Strategy - Views and Trade Ideas - Mythbusting UST Concerns Amid the Global Bond Glut.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_ECB_Watcher_-_July_Accounts__A_temporary_pause",
+      "document": "DB_ECB Watcher - July Accounts –A temporary pause.pdf",
+      "date": "2026-08-27",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 15",
+          "chunk_id": "DB_ECB Watcher - July Accounts –A temporary pause.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 15",
+          "chunk_id": "DB_ECB Watcher - July Accounts –A temporary pause.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 27 August 2026 0 1 2 3 4 5 15 16 17",
+          "chunk_id": "DB_ECB Watcher - July Accounts –A temporary pause.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 2024 2025 2026F 2027F 2028F | 1.0 1.3 0.5 1.1 1.3 | 2.4 2.1 3.0 2.6 2.2",
+          "chunk_id": "DB_ECB Watcher - July Accounts –A temporary pause.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Europe_Blog_-_Flash_August_HICP_preview",
+      "document": "DB_Europe Blog - Flash August HICP preview.pdf",
+      "date": "2026-08-27",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 6,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        1,
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [1, 4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Fixed_Income_Blog_-_G10_Rates_Chartpack_-_August_2026",
+      "document": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf",
+      "date": "2026-08-27",
+      "publisher": "Deutsche Bank",
+      "document_type": "Chart Pack",
+      "chunk_count": 73,
+      "page_count": 39,
+      "status": "skipped",
+      "missing_indices": [
+        19
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [19]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "41 consecutive numeric/date tokens: -11.2 -7.9 -7.3 -4.7 -2.9 -2.0 1.8 2.8 7.1 24.5 -20.0 -11.6",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-3-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: chgTightening urplusDeficit urplusDeficit",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0.3383 -60 -50 -40 -30 -20 -10 0 10 20 30 40",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.7564 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 -200% -100%",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-6-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.5555 0 20 40 60 80 100 120 140 160 -200% -100%",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-7-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% Mar-04 Mar-09 Mar-14",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% Mar-04 Mar-09 Mar-14 Mar-19 Mar-24",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-8-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -40 -20 0 20 40 60 80 100 120 140",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-9-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -10 0 10 20 30 40 50 60 70",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-10-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-10-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 3.0 3.5 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-11-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-11-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -40 -20 0 20 40 60 80 100",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-12-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 2026 - 2028 -1.0 0.0 1.0 2.0 3.0 4.0 5.0",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-13-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -4.0 -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0 4.0",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-13-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -2 0 2 4 6 8 10 12 14 16 -3 -2",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-14-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-14-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -2.0 -1.0 0.0 1.0 2.0 3.0 4.0 5.0 6.0",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-14-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "76% of tokens are numeric/date values",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-15-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-15-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "76% of tokens are numeric/date values",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-15-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-15-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "63% of tokens are numeric/date values",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-15-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: Dec 1 2 3 4 5 6 7 8 9 10 11",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-16-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "DB_Fixed Income Blog - G10 Rates Chartpack - August 2026.pdf-16-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_Long_GBPCAD_via_3m_seagull_Trade_Idea--930583",
+      "document": "FX_Long_GBPCAD_via_3m_seagull_Trade_Idea--930583.pdf",
+      "date": "2026-08-27",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -100% -75% -50% -25% 0% 25% 50% 75% 100%",
+          "chunk_id": "FX_Long_GBPCAD_via_3m_seagull_Trade_Idea--930583.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_G10_Rates_Views_Shallow_Relief_For_Long-End_Woes",
+      "document": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf",
+      "date": "2026-08-27",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 16,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 -1 0 1 2",
+          "chunk_id": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 -1 0 1 2",
+          "chunk_id": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -2 -1 0 1 2 3 4 5 6 -2 -1 0",
+          "chunk_id": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 3 4 5 6 7 8 9 10 -100 -50 0 50",
+          "chunk_id": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 1, August 26 2025) 3.35 3.45 3.55 3.65 3.75 3.85 3.95 4.05",
+          "chunk_id": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 1, August 26 2025) 3.35 3.45 3.55 3.65 3.75 3.85 3.95 4.05",
+          "chunk_id": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 0.0 1.0 2.0 3.0 4.0 5.0",
+          "chunk_id": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 3.9 4.1 4.3 4.5 4.7 4.9 5.1 4.9 5.0 5.1 5.2 5.3",
+          "chunk_id": "GS_Global Markets Daily - G10 Rates Views—Shallow Relief For Long-End Woes.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Daily_-_Friday_s_Preliminary_Benchmark_Revision_to_Payrolls_-_No_Longer_Negative",
+      "document": "GS_US Daily - Friday’s Preliminary Benchmark Revision to Payrolls - No Longer Negative.pdf",
+      "date": "2026-08-27",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 8,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 2022 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 -1000",
+          "chunk_id": "GS_US Daily - Friday’s Preliminary Benchmark Revision to Payrolls - No Longer Negative.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2019 2020 2021 2022 2023 2024 2025 -100 0 100 200 300",
+          "chunk_id": "GS_US Daily - Friday’s Preliminary Benchmark Revision to Payrolls - No Longer Negative.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2017 2018 2019 2020 2021 2022 2023 2024 2025",
+          "chunk_id": "GS_US Daily - Friday’s Preliminary Benchmark Revision to Payrolls - No Longer Negative.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPM_ECB_-_Minutes_lean_hawkish_as_credit_growth_picks_up",
+      "document": "JPM_ECB - Minutes lean hawkish as credit growth picks up.pdf",
+      "date": "2026-08-27",
+      "publisher": "JP Morgan",
+      "document_type": "Catalyst Review",
+      "chunk_count": 4,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -30 0 30 60 90 03 05 07 09 11 13 15",
+          "chunk_id": "JPM_ECB - Minutes lean hawkish as credit growth picks up.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Federal_Reserve_Monitor_-_Upward_revisions_to_core_PCE_inflation_means_the_Fed_has_less_margin_for_error",
+      "document": "MS_Federal Reserve Monitor - Upward revisions to core PCE inflation means the Fed has less margin for error.pdf",
+      "date": "2026-08-27",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_US_Rates_Strategy_-_Buy_Higher_Rates_Protection_at_a_30per_Discount",
+      "document": "MS_US Rates Strategy - Buy Higher Rates Protection at a 30per Discount.pdf",
+      "date": "2026-08-27",
+      "publisher": "Morgan Stanley",
+      "document_type": "Trade Idea",
+      "chunk_count": 18,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 12 13 14 15 16 17 18 19 -50 -40 -30 -20",
+          "chunk_id": "MS_US Rates Strategy - Buy Higher Rates Protection at a 30per Discount.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -500 500 1,500 2,500 3,500 4,500 -50 -40 -30 -20 -10 0",
+          "chunk_id": "MS_US Rates Strategy - Buy Higher Rates Protection at a 30per Discount.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1 2 3 4 5 6 Dec-40 Sep-43 Jun-46 Mar-49 Dec-51",
+          "chunk_id": "MS_US Rates Strategy - Buy Higher Rates Protection at a 30per Discount.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -5 0 5 10 15 20 25 30 35 -100 -80 -60",
+          "chunk_id": "MS_US Rates Strategy - Buy Higher Rates Protection at a 30per Discount.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_US Rates Strategy - Buy Higher Rates Protection at a 30per Discount.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Oil_back_in_the_driver_seat",
+      "document": "Oil back in the driver seat.pdf",
+      "date": "2026-08-27",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats",
+          "chunk_id": "Oil back in the driver seat.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats",
+          "chunk_id": "Oil back in the driver seat.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats riceStats",
+          "chunk_id": "Oil back in the driver seat.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "Oil back in the driver seat.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Refining_Carry_Exposure",
+      "document": "Refining Carry Exposure.pdf",
+      "date": "2026-08-27",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 7 May 2026 84.49 79 86.5 +1.0% | 6 Aug 2026 20685 21500 20310 -0.1% | 6 Aug 2026 1.89 2.01 1.88 +3.2%",
+          "chunk_id": "Refining Carry Exposure.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 20 -1.2 -1 -0.8",
+          "chunk_id": "Refining Carry Exposure.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75%",
+          "chunk_id": "Refining Carry Exposure.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Refining Carry Exposure.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 numeric rows: 3.75% 09/17 0.29 n/a June | 5.50% 09/22 -0.17 64% 25bps | 3.75% 09/09 0.02 53%",
+          "chunk_id": "Refining Carry Exposure.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 13 Aug 2026 16.16 15.95 27 Aug 2026 +1.41%",
+          "chunk_id": "Refining Carry Exposure.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_FX_Strategy_-_FX_and_month-end_equity_rebalancing_-_Aug__26",
+      "document": "UBS_Global FX Strategy - FX and month-end equity rebalancing - Aug '26.pdf",
+      "date": "2026-08-27",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: August -5 -4 -3 -2 -1 0 1 2 3 4 5",
+          "chunk_id": "UBS_Global FX Strategy - FX and month-end equity rebalancing - Aug '26.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 5",
+          "chunk_id": "UBS_Global FX Strategy - FX and month-end equity rebalancing - Aug '26.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -3.0 -2.0 -1.0 0.0 1.0 2.0 3.0 2014 2015 2016 2018 2019",
+          "chunk_id": "UBS_Global FX Strategy - FX and month-end equity rebalancing - Aug '26.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_Rates_Map_-_Mostly_about_monetary_policy_adjustment_more_structural_than_cyclical",
+      "document": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf",
+      "date": "2026-08-27",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 12,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 07-Aug-26 4.20 4.20 3.95 4.35 0 | 03-Aug-26 -10 -9 -4 -14 1 | Dec'26 04-Aug-26 40 40 25 50 0",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "58% of tokens are numeric/date values",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 7 8 9 10",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -6 -4 -2 0 2 4 6 8 10Y",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -7 -6 -5 -4 -3 -2 -1 0 Jan Feb Mar Apr",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 0 10 20 30 40 50 60 70 0 1 2",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf-7-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 3.2 3.4 Jul-27, 2.2 Jul-28, 2.4 Dec-28, 2.31.0 2.0 3.0 4.0 5.0",
+          "chunk_id": "UBS_Global Strategy - Rates Map - Mostly about monetary policy adjustment more structural than cyclical.pdf-8-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_Trade_deficit_widens__hawks_at_Jackson_Hole",
+      "document": "UBS_US Daily Data Recap - Trade deficit widens, hawks at Jackson Hole.pdf",
+      "date": "2026-08-27",
+      "publisher": "UBS",
+      "document_type": "Daily",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 40 50 60 70 80 90 100 110 120 130 140 150",
+          "chunk_id": "UBS_US Daily Data Recap - Trade deficit widens, hawks at Jackson Hole.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: July June 7 8 9 10 11 12 13 Dec 20 Dec",
+          "chunk_id": "UBS_US Daily Data Recap - Trade deficit widens, hawks at Jackson Hole.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 180 200 220 240 260 Jan-23 Jun-23 Nov-23 Apr-24 Sep-24 Feb-25 Jul-25",
+          "chunk_id": "UBS_US Daily Data Recap - Trade deficit widens, hawks at Jackson Hole.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 3.703.34 2.28 -2.0 0.0 2.0 4.0 6.0 8.0 2000 2005 2010 2015",
+          "chunk_id": "UBS_US Daily Data Recap - Trade deficit widens, hawks at Jackson Hole.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 numeric rows: May Jun Jul Aug | 8 11 9 10 | 9 19 17 17",
+          "chunk_id": "UBS_US Daily Data Recap - Trade deficit widens, hawks at Jackson Hole.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Under_Bessent_s_hood__intervention__buybacks_and_raiding_TGA",
+      "document": "Under Bessent's hood: intervention, buybacks and raiding TGA.pdf",
+      "date": "2026-08-27",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 190 240 290 340 390 440 '21 '22 '23 '24 '25 '26",
+          "chunk_id": "Under Bessent's hood: intervention, buybacks and raiding TGA.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16 Q2 24 Q3",
+          "chunk_id": "Under Bessent's hood: intervention, buybacks and raiding TGA.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 10.5 11 11.5 12 12.5 13 13.5 22 23 24 25 26",
+          "chunk_id": "Under Bessent's hood: intervention, buybacks and raiding TGA.pdf-3-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.4683 0 0.5 1 1.5 2 2.5 3 3.5 4 0 0.1",
+          "chunk_id": "Under Bessent's hood: intervention, buybacks and raiding TGA.pdf-4-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.4683 0 0.5 1 1.5 2 2.5 3 3.5 4 0 0.1",
+          "chunk_id": "Under Bessent's hood: intervention, buybacks and raiding TGA.pdf-4-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

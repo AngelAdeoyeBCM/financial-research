@@ -1,0 +1,185 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Closing_paid_KRW_1s3s10s_fly_add_tactical_receiver_Trade_Idea--928274.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "link": 2,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 12,
+  "kinds": {
+   "deixis": 10,
+   "possessive": 1,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.375,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 9,
+  "cost_usd": 0.0599
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 898,
+   "end": 904,
+   "quote": "USDKRW",
+   "name": "USDKRW"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 765,
+   "end": 820,
+   "quote": "the external factors that were driving KRW rates higher",
+   "name": "the external factors that were driving KRW rates higher"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 490"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0258147,
+   "duration_ms": 2576,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2907,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 86,
+    "output_tokens_details": {
+     "thinking_tokens": 73
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2907,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 86,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2907,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2907
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0341151,
+   "duration_ms": 4762,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3035,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 440,
+    "output_tokens_details": {
+     "thinking_tokens": 236
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3035,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 440,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3035,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3035
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+  "batch_id": "2026-05-19",
+  "window": [
+    "2026-05-19",
+    "2026-05-19"
+  ],
+  "generated_at": "2026-10-29T16:29:09",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-17_2026-05-20.json",
+      "sha256": "7498cc3995179581b97c0415d8f8696849789d3eaea86d514f9273cbc0a7bb79",
+      "records": 1229,
+      "dates": [
+        "2026-05-17",
+        "2026-05-20"
+      ],
+      "records_for_batch": 10
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "in_scope": 2,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 2,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "FX_Close_long_EURGBP_for_a_small_gain_Trade_Idea--924513",
+      "document": "FX_Close_long_EURGBP_for_a_small_gain_Trade_Idea--924513.pdf",
+      "date": "2026-05-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Close_long_EURGBP_for_a_small_gain_Trade_Idea--924513.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "38790e9d2f33ce026c7e7d3c6ad30e163b0aafc3",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA T R A D E I D E A 19/05/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FX: Close long EURGBP for a small gain ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "US_rates_The_Continuing_To_De-anchor_CTD_problem_Desknote--924530",
+      "document": "US_rates_The_Continuing_To_De-anchor_CTD_problem_Desknote--924530.pdf",
+      "date": "2026-05-19",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

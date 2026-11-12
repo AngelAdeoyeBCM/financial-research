@@ -1,0 +1,34 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .view{background:#c9dcf8;border-color:#1a3f8b} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · RECOMMENDATION</b><div class='core rec'><span>Overweight Ocado credit and SUNs</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A002 - VIEW</b></span><b>[A]</b></div><div class='c val'><span><b>S:</b> <b>A003 - VALUATION</b></span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A010 - VIEW</b></span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A007 - VIEW</b></span><b>[A]</b></div><div class='c fc'><span><b>S:</b> <b>A008 - FORECAST</b></span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Risk: uneven international adoption</span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Risk: cash drag from major new CFC wins</span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Risk: porous covenant package</span><b>[A]</b></div><div class='c view'><span><b>RI:</b> Risk: new debt incurrence</span><b>[A]</b></div><div class='c view'><span><b>CA:</b> <b>A004 - VIEW</b></span><b>[A]</b></div><div class='c view'><span><b>CA:</b> <b>A006 - VIEW</b></span><b>[S]</b></div><div class='c view'><span><b>Q:</b> Strong YTD returns make it carry-based</span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · VIEW</b><div class='core view'><span>Credit strength underpinned by business shift</span><b>[A]</b></div><div class='c val'><span><b>S:</b> <b>A003 - VALUATION</b></span><b>[A]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · VALUATION</b><div class='core val'><span>Ocado valuation is unchallenged</span><b>[A]</b></div><div class='c val'><span><b>S:</b> Existing modules more than cover debt stack</span><b>[A]</b></div><div class='c val'><span><b>S:</b> Modules imply £2.8bn EV at £24m per module</span><b>[A]</b></div><div class='c val'><span><b>S:</b> Estimated 24% LTV after £765m cash</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A004 - VIEW</b></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Debt stack is £1.8bn</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Liquidity: £765m cash, £300m undrawn RCF</mark></span><b>[A]</b></div><div class='c val'><span><b>Q:</b> Coverage holds before valuing future options</span><b>[A]</b></div></div>"]
+    A004["<div class='arg'><b>A004 · VIEW</b><div class='core view'><span>Contract wins and SBA trials are free options</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Additional contract signings more likely now</span><b>[H]</b></div></div>"]
+    A005["<div class='arg'><b>A005 · VIEW</b><div class='core view'><span>Heritage supermarket a key OSP proof point</span><b>[A]</b></div><div class='c view'><span><b>Q:</b> Heritage supermarket outside Restricted Group</span><b>[A]</b></div></div>"]
+    A006["<div class='arg'><b>A006 · VIEW</b><div class='core view'><span>Potential shareholder-loan recovery source</span><b>[S]</b></div><div class='c view'><span><b>Q:</b> Heritage supermarket outside Restricted Group</span><b>[A]</b></div></div>"]
+    A007["<div class='arg'><b>A007 · VIEW</b><div class='core view'><span>Balance sheet rehabilitation is credible</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Cost savings and capex offset cash burn bear case</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> <b>A008 - FORECAST</b></span><b>[A]</b></div><div class='c fc'><span><b>S:</b> <b>A009 - FORECAST</b></span><b>[A]</b></div></div>"]
+    A008["<div class='arg'><b>A008 · FORECAST</b><div class='core fc'><span>Net leverage to fall to 3.9x FY26, 2.3x FY28</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Liquidity is ample</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Liquidity allows repaying £350m convert</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Liquidity: £765m cash, £300m undrawn RCF</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>2030 notes: 10% with 103 soft call</mark></span><b>[A]</b></div><div class='c view'><span><b>CA:</b> Possible further debt reduction via soft call</span><b>[S]</b></div></div>"]
+    A009["<div class='arg'><b>A009 · FORECAST</b><div class='core fc'><span>Group cash flow +£2.6m in FY27</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Underlying EBITDA expected to strengthen</span><b>[A]</b></div><div class='c fc'><span><b>S:</b> Group-level capex expected to be lower</span><b>[A]</b></div><div class='c view'><span><b>S:</b> Lower CFC capex inadvertently supported cash flow</span><b>[A]</b></div><div class='c view'><span><b>CO:</b> Cash-flow guidance depends on capex discipline</span><b>[A]</b></div><div class='c fc'><span><b>CO:</b> Model assumes no uncommitted CFC expansion</span><b>[A]</b></div></div>"]
+    A010["<div class='arg'><b>A010 · VIEW</b><div class='core view'><span>Opportunity is a compelling one</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>11% coupon implies ~10.5% running yield</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Nearly one year of call protection remaining</mark></span><b>[A]</b></div><div class='c view'><span><b>Q:</b> Strong YTD returns make it carry-based</span><b>[A]</b></div></div>"]
+
+    A002 -- Supporting --> A001
+    A003 -- Supporting --> A001
+    A010 -- Supporting --> A001
+    A007 -- Supporting --> A001
+    A008 -- Supporting --> A001
+    A004 -. Catalyst .-> A001
+    A006 -. Catalyst .-> A001
+    A003 -- Supporting --> A002
+    A004 -- Supporting --> A003
+    A008 -- Supporting --> A007
+    A009 -- Supporting --> A007
+
+    classDef fc fill:#eef9ee,stroke:#1a6b3a,stroke-width:2px,color:#111111
+    classDef rec fill:#fdeeee,stroke:#8b1a1a,stroke-width:2px,color:#111111
+    classDef val fill:#f6f0fc,stroke:#5b2c8f,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A008,A009 fc
+    class A001 rec
+    class A003 val
+    class A002,A004,A005,A006,A007,A010 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

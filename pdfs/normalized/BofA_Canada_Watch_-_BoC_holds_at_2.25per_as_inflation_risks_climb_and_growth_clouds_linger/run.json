@@ -1,0 +1,210 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BofA_Canada_Watch_-_BoC_holds_at_2.25per_as_inflation_risks_climb_and_growth_clouds_linger.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-02",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 8,
+    "referents": {
+     "thing": 6
+    },
+    "decisions": {
+     "link": 7,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "time": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 28,
+  "kinds": {
+   "deixis": 18,
+   "possessive": 4,
+   "noun_phrase": 3,
+   "demonstrative": 2,
+   "pronoun": 1
+  },
+  "rooted_share": 0.42424242424242425,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 25,
+  "cost_usd": 0.1158
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 531,
+   "end": 538,
+   "quote": "The BoC",
+   "name": "the BoC"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 549,
+   "end": 562,
+   "quote": "hold at 2.25%",
+   "name": "the hold at 2.25%"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3682,
+   "end": 3721,
+   "quote": "some tightening in financial conditions",
+   "name": "the tightening in financial conditions"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3844,
+   "end": 3851,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2958,
+   "end": 2975,
+   "quote": "the BoC statement",
+   "name": "the BoC statement"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1754,
+   "end": 1802,
+   "quote": "the recent escalation of the US-Canada trade war",
+   "name": "the escalation of the US-Canada trade war"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0414825,
+   "duration_ms": 5857,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3945,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 449,
+    "output_tokens_details": {
+     "thinking_tokens": 441
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3945,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 449,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3945,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3945
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0743061,
+   "duration_ms": 17459,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4350,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1917,
+    "output_tokens_details": {
+     "thinking_tokens": 1252
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4350,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1917,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4350,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4350
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

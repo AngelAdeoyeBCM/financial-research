@@ -1,0 +1,157 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Take_profit_on_paid_5y_MYR_swaps_Trade_Idea--928865.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-07-24",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 1,
+    "referents": {
+     "thing": 1
+    },
+    "decisions": {
+     "link": 1
+    },
+    "leave_reasons": {},
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 11,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 3,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8275862068965517,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 12,
+  "cost_usd": 0.0619
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 68,
+   "end": 105,
+   "quote": "paid position in the m26, 5y MYR swap",
+   "name": "the paid position in the m26, 5y MYR swap"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.025024900000000003,
+   "duration_ms": 2394,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2859,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 66,
+    "output_tokens_details": {
+     "thinking_tokens": 58
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2859,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 66,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2859,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2859
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0368624,
+   "duration_ms": 6682,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2898,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 624,
+    "output_tokens_details": {
+     "thinking_tokens": 378
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2898,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 624,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2898,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2898
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

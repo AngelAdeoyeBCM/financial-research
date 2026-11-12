@@ -1,0 +1,63 @@
+{
+  "batch_id": "2026-02-10",
+  "window": [
+    "2026-02-10",
+    "2026-02-10"
+  ],
+  "generated_at": "2026-10-29T16:26:54",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-02-10_2026-02-13.json",
+      "sha256": "a0ac5fe3320cdb73ae26a400515cf8622f516417a8b0289b3eae79fbc113dade",
+      "records": 2233,
+      "dates": [
+        "2026-02-10",
+        "2026-02-13"
+      ],
+      "records_for_batch": 4
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "in_scope": 2,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 1,
+    "edits": 1,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 1
+  },
+  "documents": [
+    {
+      "stem": "FX_Taking_profit_on_short_USDARS_trade_Trade_Idea--918392",
+      "document": "FX_Taking_profit_on_short_USDARS_trade_Trade_Idea--918392.pdf",
+      "date": "2026-02-10",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 500 1000 1500 2000 0 50 100 150 200",
+          "chunk_id": "FX_Taking_profit_on_short_USDARS_trade_Trade_Idea--918392.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "batch_id": "2026-01-30",
+  "window": [
+    "2026-01-30",
+    "2026-01-30"
+  ],
+  "generated_at": "2026-10-29T16:26:34",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-29_2026-02-01.json",
+      "sha256": "08f88139f38dfeb520a899ea28ea3f5b43601076d9724627a5dfd17ae7c6c1e6",
+      "records": 1909,
+      "dates": [
+        "2026-01-29",
+        "2026-02-01"
+      ],
+      "records_for_batch": 1083
+    }
+  ],
+  "counts": {
+    "documents": 34,
+    "in_scope": 30,
+    "out_of_scope": 4,
+    "compiled": 2,
+    "skipped": 28,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 21,
+    "edits": 30,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Market_Strategy_Japan_-_Markets_and_US_take_issue_with_VAT_cut_proposals",
+      "document": "BC_Market Strategy Japan - Markets and US take issue with VAT cut proposals.pdf",
+      "date": "2026-01-30",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 55,
+      "page_count": 23,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_US_Money_Markets_-_Warsh_and_the_Fed_s_balance_sheet",
+      "document": "BC_US Money Markets - Warsh and the Fed's balance sheet.pdf",
+      "date": "2026-01-30",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/BC_US_Money_Markets_-_Warsh_and_the_Fed_s_balance_sheet.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "2ea86dfe6b151ee6f186315718236b09c9a0ceb3",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'FIGURE 1. Overdrafts were substantial pre-GFC... FIGURE 2. ... as reserves were much lower Source: F'",
+          "chunk_id": "BC_US Money Markets - Warsh and the Fed's balance sheet.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "This document is intended for institutional investors and is not subject to all of the independence and disclosure standards applicable to debt research reports prepared for retail investors under U.S. FINRA Rule 2242. Barclays trades the securities covered in this report for its own account and on a discretionary basis on behalf of certain clients. Such trading interests may be contrary to the recommendations offered in this report."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please see analyst certifications and important disclosures beginning on page 4."
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Completed: 30-Jan-26, 16:27 GMT Released: 30-Jan-26, 16:31 GMT Restricted - External"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "FICC Research Interest Rates 30 January 2026 Samuel Earl + 1 212 526 5426 samuel.earl@barclays.com BCI, US Demi Hu, CFA +1 212 526 7398 demi.hu@barclays.com BCI, US Apostolos Apostolou +1 212 526 5051 apostolos.apostolou@barclays.com BCI, US"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "30 January 2026 2 Barclays | US Money Markets"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "30 January 2026 3 Barclays | US Money Markets"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 2,
+        "footer": 3,
+        "signature": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "US Money Markets Warsh and the Fed's balance sheet ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 11,
+          "examples": [
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "“",
+              "after": "\""
+            },
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            },
+            {
+              "before": "’",
+              "after": "'"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "BofA_Asia_Economic_Weekly_--_China_-_Will_AI_replace_property_to_drive_investment",
+      "document": "BofA_Asia Economic Weekly -- China - Will AI replace property to drive investment.pdf",
+      "date": "2026-01-30",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 15,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.7,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Europe_Economic_Weekly_-_A_lot_of_waiting",
+      "document": "BofA_Europe Economic Weekly - A lot of waiting.pdf",
+      "date": "2026-01-30",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 50,
+      "page_count": 22,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Global_Economic_Weekly_-_The_curious_case_of_the_US_dollar",
+      "document": "BofA_Global Economic Weekly - The curious case of the US dollar.pdf",
+      "date": "2026-01-30",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 54,
+      "page_count": 22,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.767,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_January_CPI_-_Ongoing_drag_from_negative_base_effects",
+      "document": "BofA_January CPI - Ongoing drag from negative base effects.pdf",
+      "date": "2026-01-30",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_The_curious_case_of_the_US_dollar",
+      "document": "BofA_The curious case of the US dollar.pdf",
+      "date": "2026-01-30",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 54,
+      "page_count": 22,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.756,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_US_Economic_Weekly_-_The_great_neutral_rate_debate__2",
+      "document": "BofA_US Economic Weekly - The great neutral rate debate (2).pdf",
+      "date": "2026-01-30",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 37,
+      "page_count": 14,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_US_Economic_Weekly_-_The_great_neutral_rate_debate",
+      "document": "BofA_US Economic Weekly - The great neutral rate debate.pdf",
+      "date": "2026-01-30",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 37,
+      "page_count": 14,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.935,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_US_Economics_-_NFP_Preview___Strong_seasonality_in_January_jobs",
+      "document": "Citi_US Economics - NFP Preview – Strong seasonality in January jobs.pdf",
+      "date": "2026-01-30",
+      "publisher": "Citi",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_US_Rates_Weekly_-_Loosely_neutral__firmly_bullish__the_front-end",
+      "document": "Citi_US Rates Weekly - Loosely neutral, firmly bullish (the front-end).pdf",
+      "date": "2026-01-30",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 74,
+      "page_count": 24,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.973,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Agency_MBS_Weekly_-_Will_Funds_Trim_MBS_Overweights",
+      "document": "DB_Agency MBS Weekly - Will Funds Trim MBS Overweights.pdf",
+      "date": "2026-01-30",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 36,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.806,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_DB_AI_hawk-dove_update_-_Fedspeak_joins_policy_at_loosely_neutral",
+      "document": "DB_DB AI hawk-dove update - Fedspeak joins policy at loosely neutral.pdf",
+      "date": "2026-01-30",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Fed_Notes_-_What_Warsh_could_mean_for_the_Fed",
+      "document": "DB_Fed Notes - What Warsh could mean for the Fed.pdf",
+      "date": "2026-01-30",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "compiled",
+      "output": "pdfs/DB_Fed_Notes_-_What_Warsh_could_mean_for_the_Fed.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "f4c29058bd71870ebb37af51d65cb85430e24dd5",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 30/01/2026 13:58:58 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 30/01/2026 13:58:58 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-30T19:13+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "30 January 2026 Fed Notes Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Chief US Economist +1-212-250-6161 Brett Ryan Senior US Economist +1-212-250-6294 Justin Weidner Economist +1-212-469-1679 Amy Yang Economist +1-212-250-9959 Matthew Raskin Strategist +1-212-250-1741"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-30T19:13+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "30 January 2026 Fed Notes Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-30T19:13+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 7,
+        "disclaimer": 7,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 7,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "annou nced",
+              "after": "announced"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 9,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " What Warsh could mean for the Fed ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "DB_Focus_Germany_-_Tracking_Germany_s_fiscal_regime_shift_-_2025_budget_results___a_status_check",
+      "document": "DB_Focus Germany - Tracking Germany's fiscal regime shift - 2025 budget results – a status check.pdf",
+      "date": "2026-01-30",
+      "publisher": "Deutsche Bank",
+      "document_type": "Research Note",
+      "chunk_count": 27,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_Japan_Economic_Notes_-_Overview_of_the_next_week__2026-01-30",
+      "document": "DB_Japan Economic Notes - Overview of the next week.pdf",
+      "date": "2026-01-30",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_BoE_Preview_Holding_in_February_but_Further_Easing_Ahead",
+      "document": "GS_BoE Preview—Holding in February but Further Easing Ahead.pdf",
+      "date": "2026-01-30",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 21,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_European_Daily_-_ECB_Preview_New_Year__No_Change",
+      "document": "GS_European Daily - ECB Preview—New Year, No Change.pdf",
+      "date": "2026-01-30",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 13,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.917,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Euro_Cash_-_Fading_long-end_supply_pressures",
+      "document": "JPM_Euro Cash - Fading long-end supply pressures.pdf",
+      "date": "2026-01-30",
+      "publisher": "JP Morgan",
+      "document_type": "Research Note",
+      "chunk_count": 41,
+      "page_count": 20,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Global_Fixed_Income_Markets_Weekly__Advance_version__-_Tactically_trade_cross-market_valuations",
+      "document": "JPM_Global Fixed Income Markets Weekly (Advance version) - Tactically trade cross-market valuations.pdf",
+      "date": "2026-01-30",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 203,
+      "page_count": 80,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.984,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Japan_Fixed_Income_Markets_Weekly_-_Unpacking_the_market_narrative_for_JPY_rates_in_the_wake_of_US-Japan_coordinated_rate_check",
+      "document": "JPM_Japan Fixed Income Markets Weekly - Unpacking the market narrative for JPY rates in the wake of US-Japan coordinated rate check.pdf",
+      "date": "2026-01-30",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 21,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Euro_Area_Inflation_-_January_Repricing_Confirmed",
+      "document": "MS_Euro Area Inflation - January Repricing Confirmed.pdf",
+      "date": "2026-01-30",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 8,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.857,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Euroean_Equities_-_Dusting_Off_Our_Higher_EUR_Playbook",
+      "document": "MS_Euroean Equities - Dusting Off Our Higher EUR Playbook.pdf",
+      "date": "2026-01-30",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 50,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.245,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_European_Economics_Weekly_-_EUR_and_Oil_up_-_What_does_it_mean_for_EA_macro",
+      "document": "MS_European Economics Weekly - EUR and Oil up - What does it mean for EA macro.pdf",
+      "date": "2026-01-30",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 15,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.857,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Japan_Equity_-_Sho-Time_-_Noise_to_Poise_-_Changes_to_Japan_Focus_List",
+      "document": "MS_Japan Equity - Sho-Time - Noise to Poise - Changes to Japan Focus List.pdf",
+      "date": "2026-01-30",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 29,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.241,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_US_Economics_Weekly_-_Finishing_on_a_strong_note__but_with_a_conundrum",
+      "document": "MS_US Economics Weekly - Finishing on a strong note, but with a conundrum.pdf",
+      "date": "2026-01-30",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 39,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.792,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS__US_Economic_Data_-_Core_PCE_prices_to_rise_0.34per__PPI_elevated",
+      "document": "UBS_ US Economic Data - Core PCE prices to rise 0.34per; PPI elevated.pdf",
+      "date": "2026-01-30",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 10,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_European_Economic_Comment_-_SNB_outlook_-_Where_could_we_be_wrong",
+      "document": "UBS_European Economic Comment - SNB outlook - Where could we be wrong.pdf",
+      "date": "2026-01-30",
+      "publisher": "UBS",
+      "document_type": "Outlook",
+      "chunk_count": 24,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_US_curve_under_a_new_Fed_chair",
+      "document": "UBS_Global Strategy - US curve under a new Fed chair.pdf",
+      "date": "2026-01-30",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_Japan_Macro_Watch_-_General_Election__Inflation__and_BoJ_Policy",
+      "document": "UBS_Japan Macro Watch - General Election, Inflation, and BoJ Policy.pdf",
+      "date": "2026-01-30",
+      "publisher": "UBS",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 30,
+      "page_count": 16,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.85,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

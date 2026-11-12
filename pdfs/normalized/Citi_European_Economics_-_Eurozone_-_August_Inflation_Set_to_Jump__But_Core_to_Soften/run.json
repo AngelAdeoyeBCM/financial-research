@@ -1,0 +1,142 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_European_Economics_-_Eurozone_-_August_Inflation_Set_to_Jump__But_Core_to_Soften.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-31",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 0,
+    "referents": {},
+    "decisions": {},
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 2,
+  "kinds": {
+   "deixis": 2
+  },
+  "rooted_share": 0.0,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 12,
+  "cost_usd": 0.0548
+ },
+ "referents": [],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.025859200000000002,
+   "duration_ms": 3526,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2782,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 139,
+    "output_tokens_details": {
+     "thinking_tokens": 131
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2782,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 139,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2782,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2782
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0289724,
+   "duration_ms": 3976,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2788,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 283,
+    "output_tokens_details": {
+     "thinking_tokens": 256
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2788,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 283,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2788,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2788
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

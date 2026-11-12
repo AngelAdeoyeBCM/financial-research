@@ -1,0 +1,67 @@
+{
+  "batch_id": "2026-10-18",
+  "window": [
+    "2026-10-18",
+    "2026-10-18"
+  ],
+  "generated_at": "2026-10-29T16:32:46",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-16_2026-10-19.json",
+      "sha256": "1c7039b0545c2360da8499de60928e2ed3ae04de223ec7a2ce170ed328712acb",
+      "records": 3110,
+      "dates": [
+        "2026-10-16",
+        "2026-10-19"
+      ],
+      "records_for_batch": 37
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 2,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 21,
+    "edits": 17,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "GS_European_Daily_-_Spain_Snap_Election_As_a_Catalyst_for_Sovereign_Resilience",
+      "document": "GS_European Daily - Spain—Snap Election As a Catalyst for Sovereign Resilience.pdf",
+      "date": "2026-10-18",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 6,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        5,
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 5, 7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

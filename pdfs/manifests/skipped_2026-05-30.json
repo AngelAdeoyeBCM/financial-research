@@ -1,0 +1,642 @@
+{
+  "batch_id": "2026-05-30",
+  "window": [
+    "2026-05-30",
+    "2026-05-30"
+  ],
+  "generated_at": "2026-10-29T16:29:24",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-29_2026-06-01.json",
+      "sha256": "d5f9a236e012399e149407e7e63aa2e6059fb29c556d80a5cd495b82ba26d8f6",
+      "records": 2274,
+      "dates": [
+        "2026-05-29",
+        "2026-06-01"
+      ],
+      "records_for_batch": 253
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 45,
+    "DISTORTED_TABLE": 27,
+    "UNSTRUCTURED_TEXT": 8,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "JPM_Global_Fixed_Income_Markets_Weekly_-_Reduce_duration_and_curve_exposure",
+      "document": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf",
+      "date": "2026-05-30",
+      "publisher": "JP Morgan",
+      "document_type": "Weekly",
+      "chunk_count": 253,
+      "page_count": 100,
+      "status": "skipped",
+      "missing_indices": [
+        14,
+        19,
+        35,
+        40,
+        59,
+        85,
+        92,
+        95,
+        99,
+        127,
+        159,
+        189,
+        199,
+        243,
+        246
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [14, 19, 35, 40, 59, 85, 92, 95, 99, 127, 159, 189, 199, 243, 246]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "66% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-16-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-16-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-30-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -12 -27 -24 -21 -21 -19 -19 -19 -17 -15 2.40 2.60",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-32-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -40 -20 0 20 40 Jan 25 May 25 Sep",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-33-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -40 -20 0 20 40 Jan 25 May 25 Sep 25 Jan",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-33-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 23 14 19 10 10 3 4 2 0 -1 -3 -2",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-34-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 86% 10 20 30 40 50 2.20 2.40 2.60 2.80 3.00 2Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-34-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 0 40 Jan 26 Feb 26 Mar 26 Apr 26 May 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-34-79",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -5 0 5 10 15 Jan 25 May 25 Sep 25 Jan",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-35-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -5 0 5 10 15 Jan 25 May 25 Sep 25 Jan",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-35-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 42% 70 80 90 100 110 120 130 3.50 3.60 3.70 3.80",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-36-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -1.1 -1.2 0.3 3.6 -1.8 -1.6 0.2 4.0 -2 -1 0 1",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-36-84",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 1 2 3 4 5 6 Jan 21 Jan 22 Jan",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-37-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 5 Jul",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-38-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2.0 2.5 3.0 3.5 4.0 -20 -15 -10 -5 0 5 10",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-39-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -8.7 -4.4 0.6 -3.1 -3.7 7.1 7.5 -3.0 6.7 0.6 1.2 1.4",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-39-94",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: -1.6 -1.4 -1.2 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 3.0 3.5 4.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-40-97",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 numeric rows: 1.2 17 5.7 73 3.4 41 | 2.1 58 5.0 55 3.1 68 | 2.3 51 4.1 39 3.3 70",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-40-98",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -3 -2 -1 0 1 2 2.0 3.0 4.0 5.0 6.0 7.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-41-100",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 6.4 5.3 4.5 4.4 5.5 4.6 3.5 3.5 4.4 3.5 2.4 2.6",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-42-103",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 4.1 24 27 2.84 2.82 2.58 3.11 | 5.0 44 47 2.74 2.78 2.27 3.21 | 4.3 36 40 2.82 2.74 2.43 3.22",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-42-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 94% -1.0 -0.5 0.0 0.5 1.0 2.0 3.0 4.0 5.0 6.0 7.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-43-106",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 65% -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 80 90 100 110",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-43-107",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 numeric rows: 30-May-25 11-Jul-25 -6.0 Jun25 | 11-Jul-25 24-Jul-25 -3.0 Jul25 | 11-Apr-25 15-Aug-25 0.5 Sep25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-46-114",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "43% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-46-115",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-46-115",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-46-116",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -18 -17 -14 -40 -35 -30 -25 -20 -15 -10 -5 0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-48-121",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 25 50 -10 -5 0 5 10 15 20",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-48-122",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -25 0 25 50 75 Jun 26 Sep 26 Dec 26 Mar",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-49-124",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -25 0 25 50 75 Jun 26 Sep 26 Dec 26 Mar",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-49-125",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 1 Mar26 0% 20% 40% 60% 80% 100% -0.02 -0.01 0.00 0.01",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-50-128",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 43% 40% 7% 4% 3% 2% 1% 34% 45% 0 3% 7%",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-51-131",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 May 25 Aug 25 Nov",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-52-133",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: -1.6 -1.4 -1.2 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 5.0 5.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-52-134",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.0 2.0 4.0 6.0 8.0 10.0 12.0 Dec 25 Jan 26 Feb",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-53-136",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 0.14 0.27 -0.72 87% -32 78 0.1 2Y 5Y 10Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-54-138",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 numeric rows: 0.48 1.04 -1.90 81% -35 90 0.1 | -0.30 0.49 -1.93 67% -29 87 0.0 | -0.71 0.92 -4.09 68% -55 91 0.0",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-54-139",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 1.0 Jan 25 Apr 25 Jul 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-54-140",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 5/29/26 -11.1 -28.6 -43.8 -8.4 -34.4 -29.5 -14.2 -22.4 -36.2 -4.5 -25.5",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-58-148",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "41 consecutive numeric/date tokens: 1 5 9 16 20 28 32 33 33 33 30 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-58-150",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 6.4bp 120 140 160 180 200 60 80 100 120 140 160",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-59-153",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 200 60 80 100 120 140 160 180",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-59-154",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 2.8 3.0 3.2 3.4 3.6 3.8 4.0 4.280 85 90 95 100",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-60-155",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 85 90 95 100 105 110 115 Nov 25 Dec 25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-60-156",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 4 41 73 55 2% 60% -0.17 0.91 -0.12 -5.1 -1.2",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-60-157",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 08/15/25 08/22/25 -8.1 55% | 09/12/25 10/16/25 -8.4 50:50 | 03/20/26 04/02/26 9.4 50:50",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-62-160",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 03/20/25 06/13/25 -1.5 3.25% | 04/01/25 07/02/25 -5.8 100% | 06/27/25 07/17/25 1.5 88:25",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-62-161",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-62-161",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 109.3 -17.2 92.1 92.1 112.1 20.1 | 7409 172 7580 4454 4571 117 | 4540 0 4540 4454 4571 117",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-64-165",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 7409 172 7580 4454 4571 117 | 4540 0 4540 4454 4571 117 | 99.3 -0.3 98.9 98.9 99.3 0.4 2Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-64-166",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 numeric rows: 6.29 -0.41 5.88 5.87 6.15 6.42 | 5.88 -0.57 5.31 5.31 5.65 5.97 | 5.15 -0.48 4.67 4.67 4.99 5.33",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-65-168",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "63 consecutive numeric/date tokens: 2Y 14% -13% -24% -1% 4.1 -2.0 -2.1 -0.2 3Y 10% -56%",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-65-169",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 14% -56% -52% -55% 0.2 -0.5 -0.3 -0.5 3M",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-65-170",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: -72.4 -17.1 145.4 524.5 -8.8 -1.2 5.4 8.7",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-66-171",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: -17.3 -43.9 -78.8 -158.6 -20.5 -20.7 -16.4 -13.7 5.9 5.3 4.7 4.2",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-66-172",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2/27/2026, 2/27 - 5/29 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-67-174",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.4 0.5 0.6 0.7 0.8 Mar 26 Apr 26 May 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-67-175",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.4 0.5 0.6 0.7 0.8 Mar 26 Apr 26 May 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-67-176",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 6M -10.0 -9.5 -9.0 -8.5 -8.0 -7.5 -7.0 Dec 25 Feb 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-68-178",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.6 -0.4 -0.2 0.0 0.2 0.4 Dec 25 Jan 26 Feb 26",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-69-180",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 1.95 -0.21 -0.07 -0.23 0.17 0.02 -0.05 -0.05 -0.02 0.06 -0.07 -0.11",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-69-181",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 2.44 -0.33 -0.40 -0.24 0.15 0.31 -0.08 -0.28 -0.02 0.05 -0.33 -0.32",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-69-182",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 4.375% May 15 2036 | 4.375% May 15 2036 | 5% May 15 2056",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-71-187",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-73-193",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 2Y 5Y 7Y 10Y 15Y",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-80-215",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 4.2 2.0 21.9 28.1 4.1 1.6 20.5 26.2 -1,380 -1,365",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-85-231",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0.05 0.10 0.15 0.20 0.25 0.30 0.35 -1 1 3 5 7",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-89-241",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 25 -40 -20 0 20",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-90-244",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 2 4 6 8 10 12 14 09 10 11 12 13",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-91-247",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 7 8 9 10 11 Jan 23 Jul 23 Jan 24 Jul",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-91-248",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -5 0 5 10 15 20 25 30 35",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-93-252",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-95-257",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-96-260",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "65% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-97-262",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-97-262",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "75% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-97-263",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-97-263",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "52% of tokens are numeric/date values",
+          "chunk_id": "JPM_Global Fixed Income Markets Weekly - Reduce duration and curve exposure.pdf-97-264",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

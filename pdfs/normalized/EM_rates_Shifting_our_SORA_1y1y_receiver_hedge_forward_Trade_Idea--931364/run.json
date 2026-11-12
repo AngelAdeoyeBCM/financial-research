@@ -1,0 +1,310 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Shifting_our_SORA_1y1y_receiver_hedge_forward_Trade_Idea--931364.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-10",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 8,
+    "referents": {
+     "thing": 6,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 6,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 1,
+     "time": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 33,
+  "kinds": {
+   "deixis": 14,
+   "symbol": 13,
+   "possessive": 2,
+   "noun_phrase": 2,
+   "proposition": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.6153846153846154,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "EDIT_DROPPED_OVERLAP": 1,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 20,
+  "cost_usd": 0.122
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 770,
+   "end": 777,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 942,
+   "end": 960,
+   "quote": "the Dec/Mar spread",
+   "name": "the Dec/Mar spread"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 942,
+   "end": 1042,
+   "quote": "the Dec/Mar spread could flatten, undermining its protection against further sell-offs in SORA rates",
+   "name": "the Dec/Mar spread could flatten, undermining its protection against further sell-offs in SORA rates"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1116,
+   "end": 1139,
+   "quote": "the Oct/Jan FOMC spread",
+   "name": "the Oct/Jan FOMC spread"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1701,
+   "end": 1726,
+   "quote": "the loan-to-deposit ratio",
+   "name": "the loan-to-deposit ratio"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1392,
+   "end": 1418,
+   "quote": "the September FOMC meeting",
+   "name": "the September FOMC meeting"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2297,
+   "end": 2307,
+   "quote": "SORA rates",
+   "name": "SORA rates"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We now shift' at 209"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We opt' at 1374"
+  },
+  {
+   "severity": "warning",
+   "code": "EDIT_DROPPED_OVERLAP",
+   "segment": "src 1141",
+   "message": "references edit 'This Oct/Jan spread' -> 'The Oct or Jan FOMC spread' overlaps ' or '"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1056",
+   "message": "+21 words: {{this => that the Dec or Mar spread could flatten, undermining the Dec or Mar spread's protection against further sell-offs in SORA rates}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E020",
+      "phrase": "the latter",
+      "occurrence": 1,
+      "referent": "R7"
+     },
+     "reason": "E020 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.028051,
+   "duration_ms": 2421,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3217,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 84,
+    "output_tokens_details": {
+     "thinking_tokens": 71
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3217,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 84,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3217,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3217
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.06007210000000001,
+   "duration_ms": 13451,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3550,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1520,
+    "output_tokens_details": {
+     "thinking_tokens": 852
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3550,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1520,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3550,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3550
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0339076,
+   "duration_ms": 2410,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3831,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 122,
+    "output_tokens_details": {
+     "thinking_tokens": 95
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3831,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 122,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3831,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3831
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Commitment_of_Traders_-_Weekly_Update__2026-04-10.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-10",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 13,
+    "referents": {
+     "thing": 7,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 13
+    },
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     0,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 13,
+  "kinds": {
+   "possessive": 8,
+   "noun_phrase": 2,
+   "shell": 1,
+   "proposition": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 1.0,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 19,
+  "cost_usd": 0.1629
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 135,
+   "end": 149,
+   "quote": "Asset Managers",
+   "name": "Asset Managers"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 135,
+   "end": 223,
+   "quote": "Asset Managers expanded their total exposure to Treasury futures by $6.0 million in DV01",
+   "name": "Asset Managers expanded their total exposure to Treasury futures by $6.0 million in DV01"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 397,
+   "end": 412,
+   "quote": "Leveraged Funds",
+   "name": "Leveraged Funds"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 397,
+   "end": 495,
+   "quote": "Leveraged Funds saw a modest $0.2 million DV01 increase in their overall Treasury futures exposure",
+   "name": "Leveraged Funds saw a modest $0.2 million DV01 increase in their overall Treasury futures exposure"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 668,
+   "end": 675,
+   "quote": "Dealers",
+   "name": "Dealers"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 746,
+   "end": 761,
+   "quote": "Net speculators",
+   "name": "Net speculators"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2052,
+   "end": 2065,
+   "quote": "daily reports",
+   "name": "the daily reports"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2259,
+   "end": 2275,
+   "quote": "a reporting firm",
+   "name": "the reporting firm"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 2,
+   "end": 39,
+   "quote": "Commitment of Traders - Weekly Update",
+   "name": "the Commitment of Traders - Weekly Update"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 6",
+   "message": "'its' in 'Commodity Futures Trading Commission in its weekly Commitments of Traders Reports.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "sid": "E011",
+      "phrase": "The report",
+      "occurrence": 1,
+      "referent": "R9"
+     },
+     "reason": "E011 is a heading, question or figure caption"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0342221,
+   "duration_ms": 2584,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3891,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 108,
+    "output_tokens_details": {
+     "thinking_tokens": 100
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3891,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 108,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3891,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3891
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0865181,
+   "duration_ms": 21216,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4485,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2473,
+    "output_tokens_details": {
+     "thinking_tokens": 1567
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4485,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2473,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4485,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4485
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0421427,
+   "duration_ms": 2749,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4811,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 116,
+    "output_tokens_details": {
+     "thinking_tokens": 89
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4811,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 116,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4811,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4811
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

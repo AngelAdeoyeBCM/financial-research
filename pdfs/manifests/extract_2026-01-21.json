@@ -1,0 +1,224 @@
+{
+  "batch_id": "2026-01-21",
+  "window": [
+    "2026-01-21",
+    "2026-01-21"
+  ],
+  "generated_at": "2026-10-29T16:26:21",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-17_2026-01-20.json",
+      "sha256": "76c56001edd30f180fd63bd46954ee91b598b3de1d4fb87af9685988188cf41b",
+      "records": 2584,
+      "dates": [
+        "2026-01-21",
+        "2026-01-24"
+      ],
+      "records_for_batch": 80
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 6,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 6,
+    "edits": 6,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "2026_still_the_year_of_the_great_divide",
+      "document": "2026 still the year of the great divide?.pdf",
+      "date": "2026-01-21",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_UK_Watch_-_Inflation_Review_-_Upside_inflation_surprise_seals_a_February_hold",
+      "document": "BofA_UK Watch - Inflation Review - Upside inflation surprise seals a February hold.pdf",
+      "date": "2026-01-21",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Global_FX_Strategy_-_Quick_thoughts_across_G10",
+      "document": "Citi_Global FX Strategy - Quick thoughts across G10.pdf",
+      "date": "2026-01-21",
+      "publisher": "Citi",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Re-entering_long_KRW_funded_with_USD_and_CNH_Trade_Idea--916955",
+      "document": "FX_Re-entering_long_KRW_funded_with_USD_and_CNH_Trade_Idea--916955.pdf",
+      "date": "2026-01-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/FX_Re-entering_long_KRW_funded_with_USD_and_CNH_Trade_Idea--916955.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "905acfcf184653597469409a3ae83f67237f6992",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: We think the early-May episode could replay again We re-enter long KRW as we believe it stan'",
+          "chunk_id": "FX_Re-entering_long_KRW_funded_with_USD_and_CNH_Trade_Idea--916955.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 3: FX Positioning looks favorable Sources: Bloomberg, BNP Paribas Fig. 2: KRW weakness is more '",
+          "chunk_id": "FX_Re-entering_long_KRW_funded_with_USD_and_CNH_Trade_Idea--916955.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 21/01/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "L O C A L E"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "R A G L O B A L V"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 2,
+        "disclaimer": 1,
+        "promotion": 1,
+        "header": 2
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FX: Re-entering long KRW, funded with USD and CNH ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "heading": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            },
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947",
+      "document": "Japan_Fiscal_expansion_regardless_of_election_outcome_Desknote--916947.pdf",
+      "date": "2026-01-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 21,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.706,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "STEER_takes_profit_on_long_NZDUSD_adds_short_USDINR_Trade_Idea--916981",
+      "document": "STEER_takes_profit_on_long_NZDUSD_adds_short_USDINR_Trade_Idea--916981.pdf",
+      "date": "2026-01-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

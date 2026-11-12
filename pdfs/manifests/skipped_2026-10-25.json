@@ -1,0 +1,475 @@
+{
+  "batch_id": "2026-10-25",
+  "window": [
+    "2026-10-25",
+    "2026-10-25"
+  ],
+  "generated_at": "2026-10-29T16:32:59",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_20261028_new/raw/browse_2026-10-25_2026-10-27.json",
+      "sha256": "262999118ad16644baf0fe6503ca46ba016ff0dc203119327ad25b8b5b1d1932",
+      "records": 918,
+      "dates": [
+        "2026-10-25",
+        "2026-10-27"
+      ],
+      "records_for_batch": 139
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 4,
+    "out_of_scope": 3,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 4,
+    "edits": 49,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "UNSTRUCTURED_TEXT": 21,
+    "DISTORTED_TABLE": 18,
+    "DISTORTED_FIGURE": 14,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "DB_Metals___Mining_-_LME_Week_feedback_-_weak_sentiment._Results_and_week_ahead._Valuations",
+      "document": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf",
+      "date": "2026-10-25",
+      "publisher": "Deutsche Bank",
+      "document_type": "Catalyst Review",
+      "chunk_count": 29,
+      "page_count": 13,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        24
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 24]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 3,369 3,706 -9% 0.27 0.41 -35% 0.00 na na 14,967 14,984 0%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 9,089 9,533 -5% 2.28 2.34 -3% 0.0 0 na na 21,883 18,397",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "21 consecutive numeric/date tokens: 4,700 3,625 30% 57,228 71,941 36.8 15.0 18.7 9.6 7.1 8.0 5.6",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "35 consecutive numeric/date tokens: 3,600 3,025 19% 39,965 46,774 20.8 19.5 21.5 9.1 8.1 8.0 0.7",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "35 consecutive numeric/date tokens: 3,600 3,025 19% 39,965 46,774 21.7 20.1 17.4 9.5 8.3 7.0 0.4",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 3,032 2,706 2,254 2,420 2,631 3,310 3,050 -8%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 14.0 -1.1% -2. 1% 4.5% 37.3% 320.5% 64.3%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -30% -25% -20% -15% -10% -5% 0% 5% 10% 15% 20%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -20% -10% 0% 10% 20% 30% 40% 50%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-10-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-10-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 1% 2% 3% 4% 5% 6% 7% 8%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-11-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 57.2 3,625 -11% -12% -3% 29% 18% -16% 34% 33% 20% -39%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-12-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-12-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 9.3 235 -4% -11% -11% 32% 4% -34% 27% 36% 72% -16%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-12-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-12-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 44.7 232 -4% -13% 8% 22% 12% -17% 26% 76% 6% -19%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-12-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-12-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 23.9 18 -8% -16% -23% -29% -45% -55% 0% 177% 84% -13%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-12-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -40% -30% -20% -10% 0% 10% 20% 30%",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "DB_Metals & Mining - LME Week feedback - weak sentiment. Results and week ahead. Valuations.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Week_Ahead_-_October_26___November_1",
+      "document": "GS_Global Week Ahead - October 26 – November 1.pdf",
+      "date": "2026-10-25",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: October 26 – November 1 25 October 2026",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "60% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "56% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "57% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: onsensusLocal imeEconomies nitLast",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Global Week Ahead - October 26 – November 1.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Economics_Analyst_-_October_FOMC_Preview_-_Hiking_at_a_Slower_Pace",
+      "document": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf",
+      "date": "2026-10-25",
+      "publisher": "Goldman Sachs",
+      "document_type": "Central Bank Preview",
+      "chunk_count": 21,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [
+        15
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [15]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: Jan-26 Mar-26 May-26 Jul-26 Sep-26 -60 -40 -20 0 20 40 60",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 2.5 3.0 3.5 4.0 4.5 5.0 2.5 3.0 3.5 4.0 4.5 5.0",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0.00 0.25 0.50 0.75 1.00 1.25 1.50 1.75 0.00 0.25 0.50 0.75",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2020 2021 2022 2023 2024 2025 2026 2027 -0.25 0.00 0.25 0.50",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 2027 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 -0.3",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 -0.3 -0.2",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 666 684 679 638 596 622 650 664 618 599 590 595",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 3.88 4.58 4.18 4.75 4.40 4.30 4.44 5.29 4.75 4.65 4.55 4.45",
+          "chunk_id": "GS_US Economics Analyst - October FOMC Preview - Hiking at a Slower Pace.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_Sector_Flows_Flash_Update_-_Markets_internals_shift_back_to_Tightening_financial_conditions_fears_as_Goldilocks_hopes_fade.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "link": 7
+    },
+    "leave_reasons": {},
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 21,
+  "kinds": {
+   "deixis": 14,
+   "possessive": 4,
+   "noun_phrase": 2,
+   "pronoun": 1
+  },
+  "rooted_share": 0.6764705882352942,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 42,
+  "cost_usd": 0.0915
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1744,
+   "end": 1777,
+   "quote": "long-only and hedge fund managers",
+   "name": "long-only and hedge fund managers"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2876,
+   "end": 2887,
+   "quote": "Hedge funds",
+   "name": "Hedge funds"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 4422,
+   "end": 4463,
+   "quote": "the variables highlighted at Jackson Hole",
+   "name": "the variables highlighted at Jackson Hole"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4157,
+   "end": 4184,
+   "quote": "a repricing of rates higher",
+   "name": "the repricing of rates higher"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We give' at 181"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We previously' at 4260"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.036097500000000005,
+   "duration_ms": 3629,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4125,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 107,
+    "output_tokens_details": {
+     "thinking_tokens": 99
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4125,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 107,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4125,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4125
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.05539109999999999,
+   "duration_ms": 8829,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4415,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 945,
+    "output_tokens_details": {
+     "thinking_tokens": 520
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4415,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 945,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4415,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4415
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

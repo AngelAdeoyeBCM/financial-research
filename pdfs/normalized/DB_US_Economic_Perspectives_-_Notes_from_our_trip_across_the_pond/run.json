@@ -1,0 +1,266 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Perspectives_-_Notes_from_our_trip_across_the_pond.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-18",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 15,
+    "referents": {
+     "thing": 8,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 13,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "expletive": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 30,
+  "kinds": {
+   "deixis": 10,
+   "noun_phrase": 9,
+   "pronoun": 5,
+   "symbol": 3,
+   "possessive": 2,
+   "shell": 1
+  },
+  "rooted_share": 0.8870967741935484,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "UNGROUNDED_WORD": 1
+  },
+  "sentences": 29,
+  "cost_usd": 0.1323
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 40,
+   "end": 64,
+   "quote": "our trip across the pond",
+   "name": "our trip across the pond"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 487,
+   "end": 528,
+   "quote": "a strong bearish bond bias across clients",
+   "name": "the strong bearish bond bias across clients"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 680,
+   "end": 687,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1095,
+   "end": 1127,
+   "quote": "low conviction / risk allocation",
+   "name": "the low conviction / risk allocation"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2646,
+   "end": 2659,
+   "quote": "any Fed hikes",
+   "name": "Fed hikes"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 3006,
+   "end": 3047,
+   "quote": "the prevailing Fed narrative on inflation",
+   "name": "the prevailing Fed narrative on inflation"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1704,
+   "end": 1723,
+   "quote": "new Fed chair Warsh",
+   "name": "Fed chair Warsh"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4290,
+   "end": 4322,
+   "quote": "benign funding market conditions",
+   "name": "benign funding market conditions"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 4605,
+   "end": 4650,
+   "quote": "policymakers appear committed to this outcome",
+   "name": "policymakers appear committed to this outcome"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C009",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we spent' at 129"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we spoke' at 206"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 3220",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0363447,
+   "duration_ms": 3790,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3837,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 236,
+    "output_tokens_details": {
+     "thinking_tokens": 223
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3837,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 236,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3837,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3837
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0959718,
+   "duration_ms": 24557,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4467,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2953,
+    "output_tokens_details": {
+     "thinking_tokens": 1774
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4467,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2953,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4467,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4467
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

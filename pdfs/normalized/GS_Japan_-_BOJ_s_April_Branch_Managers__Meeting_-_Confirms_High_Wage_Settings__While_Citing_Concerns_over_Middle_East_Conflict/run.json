@@ -1,0 +1,200 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_Japan_-_BOJ_s_April_Branch_Managers__Meeting_-_Confirms_High_Wage_Settings__While_Citing_Concerns_over_Middle_East_Conflict.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-06",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 8,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "link": 7,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "time": 1
+    },
+    "extra": 7,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "noun_phrase": 9,
+   "possessive": 3,
+   "pronoun": 2
+  },
+  "rooted_share": 0.9487179487179487,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 18,
+  "cost_usd": 0.0949
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 175,
+   "end": 192,
+   "quote": "The Bank of Japan",
+   "name": "the Bank of Japan"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 862,
+   "end": 873,
+   "quote": "all regions",
+   "name": "all regions"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 831,
+   "end": 860,
+   "quote": "regional economic assessments",
+   "name": "the regional economic assessments"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1320,
+   "end": 1345,
+   "quote": "the Middle East situation",
+   "name": "the Middle East situation"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 285,
+   "end": 327,
+   "quote": "report on the current state of the economy",
+   "name": "the report on the current state of the economy"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0291598,
+   "duration_ms": 2315,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3298,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 95,
+    "output_tokens_details": {
+     "thinking_tokens": 87
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3298,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 95,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3298,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3298
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0657802,
+   "duration_ms": 15543,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3616,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1788,
+    "output_tokens_details": {
+     "thinking_tokens": 1018
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3616,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1788,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3616,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3616
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

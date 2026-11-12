@@ -1,0 +1,385 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_How_high_might_they_go.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-18",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 32,
+    "referents": {
+     "thing": 11,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 17,
+     "leave": 15
+    },
+    "leave_reasons": {
+     "time": 4,
+     "not_a_reference": 7,
+     "relative": 3,
+     "expletive": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 37,
+  "kinds": {
+   "deixis": 18,
+   "pronoun": 10,
+   "noun_phrase": 6,
+   "shell": 1,
+   "proposition": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.8307692307692308,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNGROUNDED_WORD": 1
+  },
+  "sentences": 41,
+  "cost_usd": 0.1884
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 95,
+   "end": 106,
+   "quote": "Chair Warsh",
+   "name": "Chair Warsh"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 95,
+   "end": 140,
+   "quote": "Chair Warsh’s framing of the tightening cycle",
+   "name": "Chair Warsh’s framing of the tightening cycle"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 1109,
+   "end": 1149,
+   "quote": "the hike was for risk management reasons",
+   "name": "the hike was for risk management reasons"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1055,
+   "end": 1074,
+   "quote": "three possibilities",
+   "name": "the three possibilities"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1817,
+   "end": 1838,
+   "quote": "The first two options",
+   "name": "the first two options"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2130,
+   "end": 2151,
+   "quote": "The third possibility",
+   "name": "the third possibility"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2587,
+   "end": 2609,
+   "quote": "the September decision",
+   "name": "the September decision"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3466,
+   "end": 3486,
+   "quote": "2027, 2028, and 2029",
+   "name": "2027, 2028, and 2029"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 3280,
+   "end": 3324,
+   "quote": "a Taylor rule with an assumed r-star of 1.5%",
+   "name": "a Taylor rule with an assumed r-star of 1.5%"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 3326,
+   "end": 3357,
+   "quote": "The implied fed funds rate path",
+   "name": "the implied fed funds rate path"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 4640,
+   "end": 4661,
+   "quote": "the unemployment rate",
+   "name": "the unemployment rate"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 5374,
+   "end": 5416,
+   "quote": "the real neutral rate could be 1.75 -2.25%",
+   "name": "the real neutral rate could be 1.75 -2.25%"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 5775,
+   "end": 5799,
+   "quote": "50bps more of rate hikes",
+   "name": "50bps more of rate hikes"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C019",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C029",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C030",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C031",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C032",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we first' at 3183"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 84",
+   "message": "not verbatim in source: ['discusses'] in {{We discuss => The author discusses}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.046834,
+   "duration_ms": 6064,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4490,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 496,
+    "output_tokens_details": {
+     "thinking_tokens": 483
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4490,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 496,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4490,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4490
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1415885,
+   "duration_ms": 39708,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5679,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4743,
+    "output_tokens_details": {
+     "thinking_tokens": 2949
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5679,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4743,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5679,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5679
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

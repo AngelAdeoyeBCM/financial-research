@@ -1,0 +1,114 @@
+# Events. IDs: event:<slug>. Recurring series (recurrence set) and named
+# one-offs (dates set). A dated occurrence ("FOMC Sep-26") is the series plus
+# a mention-level date. Data releases are indicators, not events.
+# Closed set: one policy_meeting per central bank (HKMA excepted: currency board).
+
+# == policy meetings (closed set) =============================================
+- {type: event, entity_id: event:fomc, name: FOMC meeting, kind: policy_meeting, recurrence: scheduled, aliases: [FOMC, Fed meeting, FOMC decision, Fed], relations: {held_by: [org:fed]}}
+- {type: event, entity_id: event:ecb_meeting, name: ECB meeting, kind: policy_meeting, recurrence: scheduled, aliases: [ECB, ECB Governing Council meeting, ECB monetary policy meeting, ECB press conference, ECB decision], relations: {held_by: [org:ecb]}}
+- {type: event, entity_id: event:boe_mpc, name: BoE MPC meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BoE, MPC, BoE MPC, MPC meeting, BoE meeting, BoE decision], relations: {held_by: [org:boe]}}
+- {type: event, entity_id: event:boj_mpm, name: BoJ MPM, kind: policy_meeting, recurrence: scheduled, aliases: [BoJ, BoJ meeting, BoJ Monetary Policy Meeting, BoJ decision], relations: {held_by: [org:boj]}}
+- {type: event, entity_id: event:snb_meeting, name: SNB meeting, kind: policy_meeting, recurrence: scheduled, aliases: [SNB, SNB decision, SNB assessment], relations: {held_by: [org:snb]}}
+- {type: event, entity_id: event:boc_meeting, name: BoC meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BoC, BoC decision], relations: {held_by: [org:boc]}}
+- {type: event, entity_id: event:rba_meeting, name: RBA meeting, kind: policy_meeting, recurrence: scheduled, aliases: [RBA, RBA board meeting, RBA decision], relations: {held_by: [org:rba]}}
+- {type: event, entity_id: event:rbnz_meeting, name: RBNZ meeting, kind: policy_meeting, recurrence: scheduled, aliases: [RBNZ, RBNZ MPS, RBNZ decision], relations: {held_by: [org:rbnz]}}
+- {type: event, entity_id: event:riksbank_meeting, name: Riksbank meeting, kind: policy_meeting, recurrence: scheduled, aliases: [Riksbank, Riksbank decision], relations: {held_by: [org:riksbank]}}
+- {type: event, entity_id: event:norges_bank_meeting, name: Norges Bank meeting, kind: policy_meeting, recurrence: scheduled, aliases: [Norges Bank, Norges Bank decision], relations: {held_by: [org:norges_bank]}}
+- {type: event, entity_id: event:lpr_fixing, name: LPR fixing, kind: policy_meeting, recurrence: monthly, aliases: [LPR fixing, PBOC LPR fixing], relations: {held_by: [org:pboc]}}
+- {type: event, entity_id: event:bok_meeting, name: BoK meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BoK, BoK decision], relations: {held_by: [org:bok]}}
+- {type: event, entity_id: event:cbc_meeting, name: CBC meeting, kind: policy_meeting, recurrence: quarterly, aliases: [CBC, CBC decision], relations: {held_by: [org:cbc]}}
+- {type: event, entity_id: event:rbi_mpc, name: RBI MPC meeting, kind: policy_meeting, recurrence: scheduled, aliases: [RBI, RBI MPC, RBI meeting, RBI decision], relations: {held_by: [org:rbi]}}
+- {type: event, entity_id: event:bi_meeting, name: BI meeting, kind: policy_meeting, recurrence: monthly, aliases: [BI, BI board meeting, BI decision], relations: {held_by: [org:bi]}}
+- {type: event, entity_id: event:bnm_mpc, name: BNM MPC meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BNM, BNM MPC, BNM decision], relations: {held_by: [org:bnm]}}
+- {type: event, entity_id: event:bsp_meeting, name: BSP meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BSP, BSP decision], relations: {held_by: [org:bsp]}}
+- {type: event, entity_id: event:mas_mps, name: MAS policy statement, kind: policy_meeting, recurrence: quarterly, aliases: [MAS, MAS MPS, MAS decision], relations: {held_by: [org:mas]}}
+- {type: event, entity_id: event:bot_mpc, name: BoT MPC meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BoT, BoT MPC, BoT decision], relations: {held_by: [org:bot]}}
+- {type: event, entity_id: event:copom, name: Copom meeting, kind: policy_meeting, recurrence: scheduled, aliases: [Copom, BCB, Copom decision], relations: {held_by: [org:bcb]}}
+- {type: event, entity_id: event:banxico_meeting, name: Banxico meeting, kind: policy_meeting, recurrence: scheduled, aliases: [Banxico, Banxico decision], relations: {held_by: [org:banxico]}}
+- {type: event, entity_id: event:bcch_meeting, name: BCCh meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BCCh, BCCh decision], relations: {held_by: [org:bcch]}}
+- {type: event, entity_id: event:banrep_meeting, name: BanRep meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BanRep, BanRep decision, Colombia central bank decision], relations: {held_by: [org:banrep]}}
+- {type: event, entity_id: event:sarb_mpc, name: SARB MPC meeting, kind: policy_meeting, recurrence: scheduled, aliases: [SARB, SARB MPC, SARB decision], relations: {held_by: [org:sarb]}}
+- {type: event, entity_id: event:cbrt_mpc, name: CBRT MPC meeting, kind: policy_meeting, recurrence: scheduled, aliases: [CBRT, CBRT MPC, CBRT decision], relations: {held_by: [org:cbrt]}}
+- {type: event, entity_id: event:nbp_meeting, name: NBP meeting, kind: policy_meeting, recurrence: monthly, aliases: [NBP, MPC Poland, NBP decision], relations: {held_by: [org:nbp]}}
+- {type: event, entity_id: event:mnb_meeting, name: MNB meeting, kind: policy_meeting, recurrence: monthly, aliases: [MNB, MNB decision], relations: {held_by: [org:mnb]}}
+- {type: event, entity_id: event:cnb_meeting, name: CNB meeting, kind: policy_meeting, recurrence: scheduled, aliases: [CNB, CNB decision], relations: {held_by: [org:cnb]}}
+- {type: event, entity_id: event:boi_meeting, name: BoI meeting, kind: policy_meeting, recurrence: scheduled, aliases: [BoI, BoI decision], relations: {held_by: [org:boi]}}
+
+# == publications =============================================================
+- {type: event, entity_id: event:fomc_minutes, name: FOMC minutes, kind: publication, recurrence: scheduled, aliases: [Fed minutes], relations: {held_by: [org:fed]}}
+- {type: event, entity_id: event:fed_sep, name: SEP, kind: publication, recurrence: quarterly, aliases: [Summary of Economic Projections, dot plot, FOMC dot plot, dots], relations: {held_by: [org:fed]}}
+- {type: event, entity_id: event:beige_book, name: Beige Book, kind: publication, recurrence: scheduled, relations: {held_by: [org:fed]}}
+- {type: event, entity_id: event:ecb_staff_projections, name: ECB staff projections, kind: publication, recurrence: quarterly, aliases: [ECB projections, ECB adverse scenario, ECB June staff projections], relations: {held_by: [org:ecb]}}
+- {type: event, entity_id: event:boj_outlook_report, name: BoJ Outlook Report, kind: publication, recurrence: quarterly, aliases: [Outlook Report], relations: {held_by: [org:boj]}}
+- {type: event, entity_id: event:boj_summary_of_opinions, name: BoJ summary of opinions, kind: publication, recurrence: scheduled, aliases: [summary of opinions], relations: {held_by: [org:boj]}}
+- {type: event, entity_id: event:rba_somp, name: RBA SoMP, kind: publication, recurrence: quarterly, aliases: [Statement on Monetary Policy, SoMP], relations: {held_by: [org:rba]}}
+- {type: event, entity_id: event:riksbank_mpu, name: Riksbank MPU, kind: publication, recurrence: scheduled, aliases: [Riksbank Monetary Policy Update], relations: {held_by: [org:riksbank]}}
+- {type: event, entity_id: event:boc_bos, name: BoC Business Outlook Survey, kind: publication, recurrence: quarterly, aliases: [Business Outlook Survey, BOS], relations: {held_by: [org:boc]}}
+- {type: event, entity_id: event:pboc_mpr, name: PBOC Monetary Policy Report, kind: publication, recurrence: quarterly, aliases: [Monetary Policy Report, PBOC MPR], relations: {held_by: [org:pboc]}}
+- {type: event, entity_id: event:rbi_minutes, name: RBI MPC minutes, kind: publication, recurrence: scheduled, aliases: [RBI minutes, RBI meeting minutes], relations: {held_by: [org:rbi]}}
+- {type: event, entity_id: event:mas_fsr, name: MAS Financial Stability Review, kind: publication, recurrence: annual, aliases: [MAS FSR], relations: {held_by: [org:mas]}}
+- {type: event, entity_id: event:cn_five_year_plan, name: Five-Year Plan, kind: publication, aliases: [15th Five-Year Plan, China Five-Year Plan], geography_id: geo:cn, relations: {held_by: [org:cn_state_council]}}
+
+# == fiscal ===================================================================
+- {type: event, entity_id: event:ust_refunding, name: Treasury quarterly refunding, kind: fiscal, recurrence: quarterly, aliases: [Treasury refunding, quarterly refunding, refunding, Treasury refunding questionnaire], relations: {held_by: [org:us_treasury]}}
+- {type: event, entity_id: event:ust_auctions, name: Treasury auctions, kind: fiscal, recurrence: scheduled, aliases: [UST auctions, coupon auctions, coupon supply], relations: {held_by: [org:us_treasury]}}
+- {type: event, entity_id: event:us_debt_ceiling, name: US debt ceiling, kind: fiscal, aliases: [debt ceiling, debt limit], geography_id: geo:us}
+- {type: event, entity_id: event:uk_budget, name: UK Budget, kind: fiscal, recurrence: annual, aliases: [Autumn Budget, UK Autumn Budget], geography_id: geo:gb, relations: {held_by: [org:hm_treasury]}}
+- {type: event, entity_id: event:uk_spring_statement, name: Spring Statement, kind: fiscal, recurrence: annual, aliases: [UK Spring Statement], geography_id: geo:gb, relations: {held_by: [org:hm_treasury]}}
+- {type: event, entity_id: event:uk_defence_investment_plan, name: Defence Investment Plan, kind: fiscal, aliases: [UK Defence Investment Plan], geography_id: geo:gb}
+- {type: event, entity_id: event:fr_budget, name: French budget, kind: fiscal, recurrence: annual, aliases: [France budget, French budget negotiations, French budget agreement, France Budget], geography_id: geo:fr}
+- {type: event, entity_id: event:kr_budget, name: South Korea budget, kind: fiscal, recurrence: annual, aliases: [Korea budget, KTB supply reduction announcement], geography_id: geo:kr, relations: {held_by: [org:kr_moef]}}
+- {type: event, entity_id: event:cn_state_council_meeting, name: State Council meeting, kind: fiscal, recurrence: scheduled, aliases: [China State Council meeting, State Council executive meeting], geography_id: geo:cn, relations: {held_by: [org:cn_state_council]}}
+- {type: event, entity_id: event:cn_fiscal_press_conference, name: China fiscal policy press conference, kind: fiscal, aliases: [fiscal policy press conference, MoF press conference], geography_id: geo:cn, relations: {held_by: [org:cn_mof]}}
+
+# == political ================================================================
+- {type: event, entity_id: event:us_midterms_2026, name: US midterm elections, kind: political, start_date: 2026-11-03, aliases: [US midterms, US mid-term elections, midterm elections, midterms], geography_id: geo:us}
+- {type: event, entity_id: event:fr_presidential_2027, name: French presidential election, kind: political, aliases: [France presidential election, French presidential elections], geography_id: geo:fr}
+- {type: event, entity_id: event:fr_senate_2026, name: French Senate election, kind: political, start_date: 2026-09-27, aliases: [Senate election], geography_id: geo:fr}
+- {type: event, entity_id: event:fr_ps_primary_2026, name: PS-Place Publique primary, kind: political, aliases: [PS primary, left primary], geography_id: geo:fr}
+- {type: event, entity_id: event:fr_article_49_3, name: Article 49.3, kind: political, aliases: ['49.3'], geography_id: geo:fr}
+- {type: event, entity_id: event:es_snap_election_2026, name: Spain snap election, kind: political, aliases: [Spanish snap election, Spanish snap elections, Spain general election], geography_id: geo:es}
+- {type: event, entity_id: event:es_investiture_vote, name: Spain investiture vote, kind: political, aliases: [investiture vote], geography_id: geo:es}
+- {type: event, entity_id: event:es_housing_decrees_vote, name: Spain housing decrees vote, kind: political, geography_id: geo:es}
+- {type: event, entity_id: event:de_mv_election_2026, name: Mecklenburg-Western Pomerania state election, kind: political, aliases: [Mecklenburg-Vorpommern state election], geography_id: geo:de}
+- {type: event, entity_id: event:de_st_election_2026, name: Saxony-Anhalt state election, kind: political, geography_id: geo:de}
+- {type: event, entity_id: event:de_nrw_election, name: North Rhine-Westphalia state election, kind: political, aliases: [NRW state election], geography_id: geo:de}
+- {type: event, entity_id: event:de_pension_reform, name: German pension reform, kind: political, aliases: [pension reform package], geography_id: geo:de}
+- {type: event, entity_id: event:de_debt_brake_reform, name: German debt brake reform, kind: political, aliases: [debt brake reform, Schuldenbremse reform], geography_id: geo:de}
+- {type: event, entity_id: event:br_election_2026, name: Brazil general election, kind: political, start_date: 2026-10-04, aliases: [Brazil election, Brazil first round election, Brazil presidential election], geography_id: geo:br}
+- {type: event, entity_id: event:cn_politburo, name: Politburo meeting, kind: political, recurrence: scheduled, aliases: [China Politburo meeting, July Politburo meeting], geography_id: geo:cn}
+- {type: event, entity_id: event:ecb_board_appointments, name: ECB Executive Board appointments, kind: political, aliases: [ECB Executive Board package deal, ECB board succession], geography_id: geo:ea, relations: {held_by: [org:european_council]}}
+
+# == geopolitical =============================================================
+- {type: event, entity_id: event:middle_east_conflict, name: Middle East conflict, kind: geopolitical, aliases: [Middle East war, Middle East tensions, Middle East escalation, Middle East risk-off, Middle East war energy price shock, Iran war, Iran conflict, US-Iran war, US/Iran conflict, US-Iran conflict, Riyadh airport attacks, Hormuz], geography_id: geo:middle_east}
+- {type: event, entity_id: event:russia_ukraine_war, name: Russia-Ukraine war, kind: geopolitical, aliases: [Ukraine war, Russia-Ukraine, war in Ukraine], geography_id: geo:ua}
+- {type: event, entity_id: event:us_tariffs, name: US tariffs, kind: geopolitical, aliases: [tariffs, trade war, US trade policy]}
+- {type: event, entity_id: event:us_canada_trade_war, name: US-Canada trade war, kind: geopolitical, aliases: [US-Canada trade dispute], geography_id: geo:ca}
+- {type: event, entity_id: event:usmca_review, name: USMCA review, kind: geopolitical, aliases: [USMCA renewal, USMCA], geography_id: geo:north_america}
+- {type: event, entity_id: event:trump_xi_summit, name: Trump-Xi summit, kind: geopolitical, aliases: [Trump-Xi meeting, US-China summit]}
+- {type: event, entity_id: event:trump_putin_diesel_deal, name: Trump/Putin diesel deal, kind: geopolitical, aliases: [Trump-Putin diesel deal]}
+- {type: event, entity_id: event:g7_reserves_release, name: G7 reserves release, kind: geopolitical, aliases: [G7 strategic reserves release, G7 oil reserves release]}
+- {type: event, entity_id: event:g20_meeting, name: G20 meeting, kind: geopolitical, recurrence: scheduled, aliases: [G20 summit, G20 finance ministers meeting]}
+- {type: event, entity_id: event:eu_council_summit, name: European Council summit, kind: geopolitical, recurrence: scheduled, aliases: [EU summit, European Council meeting, European Council], relations: {held_by: [org:european_council]}}
+- {type: event, entity_id: event:unga, name: UN General Assembly, kind: geopolitical, recurrence: annual, aliases: [UNGA]}
+- {type: event, entity_id: event:eu_china_trade_measures, name: EU-China trade measures, kind: geopolitical, aliases: [French-German non-paper, Industrial Accelerator Act, EU anti-dumping measures]}
+
+# == conferences ==============================================================
+- {type: event, entity_id: event:jackson_hole, name: Jackson Hole symposium, kind: conference, recurrence: annual, aliases: [Jackson Hole, Jackson Hole Symposium, Jackson Hole Economic Policy Symposium], relations: {held_by: [org:fed]}}
+- {type: event, entity_id: event:ecb_sintra, name: ECB Forum on Central Banking, kind: conference, recurrence: annual, aliases: [Sintra, ECB Sintra forum], relations: {held_by: [org:ecb]}}
+- {type: event, entity_id: event:imf_wb_meetings, name: IMF/World Bank meetings, kind: conference, recurrence: scheduled, aliases: [IMF annual meetings, IMF spring meetings, IMF/WB meetings], relations: {held_by: [org:imf]}}
+- {type: event, entity_id: event:lujiazui_forum, name: Lujiazui Forum, kind: conference, recurrence: annual, geography_id: geo:cn}
+- {type: event, entity_id: event:financial_street_forum, name: Financial Street Forum, kind: conference, recurrence: annual, geography_id: geo:cn}
+- {type: event, entity_id: event:ciie, name: China International Import Expo, kind: conference, recurrence: annual, aliases: [CIIE], geography_id: geo:cn}
+- {type: event, entity_id: event:lbma_conference, name: LBMA annual conference, kind: conference, recurrence: annual, aliases: [LBMA conference]}
+
+# == market events ============================================================
+- {type: event, entity_id: event:msci_index_review, name: MSCI index review, kind: market, recurrence: quarterly, aliases: [MSCI review, MSCI rebalance], relations: {held_by: [org:msci]}}
+- {type: event, entity_id: event:wgbi_inclusion, name: FTSE WGBI inclusion, kind: market, aliases: [WGBI inclusion, WGBI index inclusion], relations: {held_by: [org:ftse_russell]}}
+- {type: event, entity_id: event:ust_futures_ctd_switch, name: CTD switch, kind: market, aliases: [cheapest-to-deliver switch]}
+- {type: event, entity_id: event:ust_clearing_mandate, name: UST central clearing mandate, kind: market, aliases: [Treasury clearing mandate, central clearing mandate]}
+- {type: event, entity_id: event:boe_clearing_consultation, name: BoE central clearing and haircut consultation, kind: market, relations: {held_by: [org:boe]}}
+- {type: event, entity_id: event:tw_dividend_repatriation, name: Taiwan dividend repatriation, kind: market, recurrence: annual, aliases: [dividend repatriation], geography_id: geo:tw}
+- {type: event, entity_id: event:ldi_crisis_2022, name: LDI crisis, kind: market, start_date: 2022-09-23, aliases: [LDI stress, LDI stress 2022, 2022 LDI crisis, gilt crisis], geography_id: geo:gb}
+- {type: event, entity_id: event:dash_for_cash_2020, name: Dash for cash, kind: market, aliases: [Dash for cash 2020, March 2020 dash for cash]}
+- {type: event, entity_id: event:ltcm_1998, name: LTCM, kind: market, start_date: 1998-09-23, aliases: [LTCM collapse, Long-Term Capital Management]}

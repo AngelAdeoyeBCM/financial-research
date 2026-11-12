@@ -1,0 +1,431 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BC_European_Equity_Strategy___Economics_Research_-_Tariffs_3.0.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-18",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 42,
+    "referents": {
+     "thing": 20
+    },
+    "decisions": {
+     "link": 30,
+     "leave": 12
+    },
+    "leave_reasons": {
+     "relative": 2,
+     "not_a_reference": 5,
+     "time": 2,
+     "expletive": 3
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 69,
+  "kinds": {
+   "deixis": 32,
+   "noun_phrase": 10,
+   "possessive": 9,
+   "pronoun": 8,
+   "demonstrative": 5,
+   "symbol": 4,
+   "fragment": 1
+  },
+  "rooted_share": 0.815028901734104,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4
+  },
+  "sentences": 82,
+  "cost_usd": 0.2532
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 61,
+   "end": 82,
+   "quote": "Barclays Capital Inc.",
+   "name": "Barclays Capital Inc."
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 4708,
+   "end": 4748,
+   "quote": "a collective response to Trump’s tariffs",
+   "name": "the collective response to Trump’s tariffs"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 828,
+   "end": 872,
+   "quote": "Recent developments between the EU/UK and US",
+   "name": "the recent developments between the EU/UK and US"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 6292,
+   "end": 6344,
+   "quote": "the new tariffs President Trump threatened to impose",
+   "name": "the new tariffs President Trump threatened to impose"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1146,
+   "end": 1203,
+   "quote": "President Trump’s threat to impose 10% additional tariffs",
+   "name": "President Trump’s threat to impose 10% additional tariffs"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 9087,
+   "end": 9175,
+   "quote": "eight countries (Germany, France, UK, Netherlands, Norway, Sweden, Denmark, and Finland)",
+   "name": "the eight countries (Germany, France, UK, Netherlands, Norway, Sweden, Denmark, and Finland)"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4442,
+   "end": 4458,
+   "quote": "European leaders",
+   "name": "European leaders"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5183,
+   "end": 5201,
+   "quote": "the European Union",
+   "name": "the European Union"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5661,
+   "end": 5733,
+   "quote": "the counter-measures package prepared by the European Commission in 2025",
+   "name": "the counter-measures package prepared by the European Commission in 2025"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 8804,
+   "end": 8829,
+   "quote": "the events of the weekend",
+   "name": "the events of the weekend"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 7101,
+   "end": 7121,
+   "quote": "the effect via trade",
+   "name": "the effect via trade"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 7308,
+   "end": 7325,
+   "quote": "the EU and the UK",
+   "name": "the EU and the UK"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 9224,
+   "end": 9230,
+   "quote": "the US",
+   "name": "the US"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9677,
+   "end": 9683,
+   "quote": "the EU",
+   "name": "the EU"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 5103,
+   "end": 5149,
+   "quote": "the activation of the Anti-Coercion Instrument",
+   "name": "the activation of the Anti-Coercion Instrument"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 10613,
+   "end": 10633,
+   "quote": "the renewed tensions",
+   "name": "the renewed tensions"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 12574,
+   "end": 12590,
+   "quote": "global investors",
+   "name": "global investors"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 12158,
+   "end": 12219,
+   "quote": "the slow-building ‘sell America’ bias among global allocators",
+   "name": "the slow-building ‘sell America’ bias among global allocators"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 13046,
+   "end": 13101,
+   "quote": "incremental diversification into international equities",
+   "name": "incremental diversification into international equities"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 8059,
+   "end": 8084,
+   "quote": "more European integration",
+   "name": "more European integration"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we cover' at 1868"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we wait' at 1892"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we cover' at 6202"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we pause' at 8688"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0772018,
+   "duration_ms": 11114,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6913,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1033,
+    "output_tokens_details": {
+     "thinking_tokens": 897
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6913,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1033,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6913,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6913
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.17597639999999998,
+   "duration_ms": 42457,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8393,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5363,
+    "output_tokens_details": {
+     "thinking_tokens": 3050
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8393,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5363,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8393,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8393
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

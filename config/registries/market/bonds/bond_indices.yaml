@@ -1,0 +1,18 @@
+# Bond indices: key = slug -> bidx:<slug>. segment_id: the segment the index tracks, where it tracks one;
+# broad indices (Global Agg, WGBI, GBI-EM, EMBI) set none. Written 2026-11-10; hand-maintained.
+
+bbg_us_agg: {name: Bloomberg US Aggregate, provider: bloomberg}
+bbg_global_agg: {name: Bloomberg Global Aggregate, provider: bloomberg}
+bbg_us_corp: {name: Bloomberg US Corporate, provider: bloomberg, segment_id: USD.corp.ig}
+bbg_us_hy: {name: Bloomberg US Corporate High Yield, provider: bloomberg, segment_id: USD.corp.hy}
+bbg_muni: {name: Bloomberg Municipal Bond Index, provider: bloomberg, segment_id: USD.muni}
+bbg_long_muni: {name: Bloomberg Long Municipal Index, provider: bloomberg, segment_id: USD.muni}
+ice_bofa_us_hy: {name: ICE BofA US High Yield, provider: ice, segment_id: USD.corp.hy}
+ice_bofa_us_corp: {name: ICE BofA US Corporate, provider: ice, segment_id: USD.corp.ig}
+jpm_us_hy: {name: J.P. Morgan US High Yield, provider: jpm, segment_id: USD.corp.hy}
+jpm_gbi_em: {name: J.P. Morgan GBI-EM Global Diversified, provider: jpm}
+jpm_embi_gd: {name: J.P. Morgan EMBI Global Diversified, provider: jpm}
+ftse_wgbi: {name: FTSE WGBI, provider: ftse}
+iboxx_eur_covered: {name: iBoxx EUR Covered, provider: iboxx, segment_id: EUR.covered}
+iboxx_eur_corp: {name: iBoxx EUR Corporates, provider: iboxx, segment_id: EUR.corp.ig}
+iboxx_eur_hy: {name: iBoxx EUR High Yield, provider: iboxx, segment_id: EUR.corp.hy}

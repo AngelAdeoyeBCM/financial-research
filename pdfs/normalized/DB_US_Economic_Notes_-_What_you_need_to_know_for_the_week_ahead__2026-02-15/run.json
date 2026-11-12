@@ -1,0 +1,266 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-02-15.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-15",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 16,
+    "referents": {
+     "thing": 10
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 13
+    },
+    "leave_reasons": {
+     "time": 2,
+     "expletive": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 34,
+  "kinds": {
+   "deixis": 16,
+   "possessive": 8,
+   "symbol": 4,
+   "pronoun": 4,
+   "noun_phrase": 2
+  },
+  "rooted_share": 0.7833333333333333,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 42,
+  "cost_usd": 0.1351
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 3175,
+   "end": 3200,
+   "quote": "Thursday’s jobless claims",
+   "name": "Thursday’s jobless claims"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 4011,
+   "end": 4052,
+   "quote": "the unemployment rate for 20-24 year-olds",
+   "name": "the unemployment rate for 20-24 year-olds"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 4148,
+   "end": 4206,
+   "quote": "The employment / population ratio for the 20-24 age cohort",
+   "name": "the employment / population ratio for the 20-24 age cohort"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4272,
+   "end": 4313,
+   "quote": "the unemployment rate for 16-19 year-olds",
+   "name": "the unemployment rate for 16-19 year-olds"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4466,
+   "end": 4479,
+   "quote": "Fed officials",
+   "name": "Fed officials"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4660,
+   "end": 4692,
+   "quote": "Vice Chair of Supervision Bowman",
+   "name": "Vice Chair of Supervision Bowman"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 5052,
+   "end": 5112,
+   "quote": "the impact of AI on the labor market and the broader economy",
+   "name": "the impact of AI on the labor market and the broader economy"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5960,
+   "end": 5980,
+   "quote": "Atlanta Fed’s Bostic",
+   "name": "Atlanta Fed’s Bostic"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5800,
+   "end": 5825,
+   "quote": "hawkish leaning officials",
+   "name": "the hawkish leaning officials"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5380,
+   "end": 5404,
+   "quote": "the January FOMC meeting",
+   "name": "the January FOMC meeting"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'e January CPI data, see “Every rose has its thorn”.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0438605,
+   "duration_ms": 3791,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4725,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 252,
+    "output_tokens_details": {
+     "thinking_tokens": 239
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4725,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 252,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4725,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4725
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.09125740000000002,
+   "duration_ms": 19713,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5423,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2330,
+    "output_tokens_details": {
+     "thinking_tokens": 1322
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5423,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2330,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5423,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5423
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_US_Economics_Notes_-_What_you_need_to_know_for_the_week_ahead.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-23",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 17,
+    "referents": {
+     "thing": 10,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 6,
+     "link": 11
+    },
+    "leave_reasons": {
+     "time": 3,
+     "relative": 2,
+     "expletive": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 25,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 5,
+   "pronoun": 5,
+   "abbreviation": 3,
+   "vp": 1,
+   "symbol": 1,
+   "demonstrative": 1,
+   "possessive": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.8961038961038961,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 9
+  },
+  "sentences": 32,
+  "cost_usd": 0.1493
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1015,
+   "end": 1092,
+   "quote": "the second to last sentence explaining the rationale behind last month’s hike",
+   "name": "the second to last sentence explaining the rationale behind last month’s hike"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1196,
+   "end": 1209,
+   "quote": "the Committee",
+   "name": "the Committee"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1771,
+   "end": 1833,
+   "quote": "Dallas Fed President Logan and Cleveland Fed President Hammack",
+   "name": "Dallas Fed President Logan and Cleveland Fed President Hammack"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 811,
+   "end": 831,
+   "quote": "October FOMC meeting",
+   "name": "the October FOMC meeting"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2477,
+   "end": 2497,
+   "quote": "Financial conditions",
+   "name": "financial conditions"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2730,
+   "end": 2787,
+   "quote": "tightening is needed to catch up to a rising neutral rate",
+   "name": "tightening to catch up to a rising neutral rate"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 389,
+   "end": 400,
+   "quote": "Chair Warsh",
+   "name": "Chair Warsh"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5671,
+   "end": 5697,
+   "quote": "September’s core PCE print",
+   "name": "September’s core PCE print"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 349,
+   "end": 356,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 6764,
+   "end": 6847,
+   "quote": "the Fed is likely to maintain a hawkish outlook despite not raising rates this week",
+   "name": "the Fed is likely to maintain a hawkish outlook despite not raising rates this week"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 389,
+   "end": 419,
+   "quote": "Chair Warsh’s press conference",
+   "name": "Chair Warsh’s press conference"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in 'll not meaningfully restrictive, indeed they remain accommodative on many metrics.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'He' in 'He could note that they are, of course, wa'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'they' in 'He could note that they are, of course, watching issues related'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'cial stability risks; however, we think he will avoid any language that would incr'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'He' in 'He will likely want to avoid the type of p'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'kely want to avoid the type of phrasing he used in the July press conference that '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'In short, he will likely make clear that tightening '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'he' in 'Recall that he announced last week at his IMF appearan'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'his' in 'Recall that he announced last week at his IMF appearance that “Among the external'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0464121,
+   "duration_ms": 5405,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4576,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 440,
+    "output_tokens_details": {
+     "thinking_tokens": 337
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4576,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 440,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4576,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4576
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.10288800000000001,
+   "duration_ms": 24056,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5249,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2982,
+    "output_tokens_details": {
+     "thinking_tokens": 1696
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5249,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2982,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5249,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5249
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,247 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Receive_January_28_DI_Trade_Idea--921921.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 8,
+    "referents": {
+     "thing": 7
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 5
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "relative": 2
+    },
+    "extra": 11,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 34,
+  "kinds": {
+   "deixis": 14,
+   "noun_phrase": 11,
+   "pronoun": 5,
+   "symbol": 4
+  },
+  "rooted_share": 0.7959183673469388,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 48,
+  "cost_usd": 0.1126
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1772,
+   "end": 1783,
+   "quote": "January 28s",
+   "name": "January 28s"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 489,
+   "end": 516,
+   "quote": "the temporary US–Iran truce",
+   "name": "the temporary US–Iran truce"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1077,
+   "end": 1100,
+   "quote": "Banco Central do Brasil",
+   "name": "Banco Central do Brasil"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1077,
+   "end": 1115,
+   "quote": "Banco Central do Brasil’s easing cycle",
+   "name": "Banco Central do Brasil’s easing cycle"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 905,
+   "end": 917,
+   "quote": "the DI curve",
+   "name": "the DI curve"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2207,
+   "end": 2251,
+   "quote": "the potential premium reduction in EM curves",
+   "name": "the potential premium reduction in EM curves"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2338,
+   "end": 2362,
+   "quote": "the Middle East conflict",
+   "name": "the Middle East conflict"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We initiate' at 2148"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We enter' at 3928"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0383244,
+   "duration_ms": 3048,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4249,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 162,
+    "output_tokens_details": {
+     "thinking_tokens": 154
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4249,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 162,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4249,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4249
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0742701,
+   "duration_ms": 15477,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4590,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1818,
+    "output_tokens_details": {
+     "thinking_tokens": 776
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4590,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1818,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4590,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4590
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

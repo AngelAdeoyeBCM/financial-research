@@ -1,0 +1,384 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_October_FOMC_preview-A_tricky_meeting_amidst_no_inflation_treats.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-22",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 44,
+    "referents": {
+     "thing": 16,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 36,
+     "leave": 8
+    },
+    "leave_reasons": {
+     "not_a_reference": 1,
+     "relative": 4,
+     "expletive": 3
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 53,
+  "kinds": {
+   "pronoun": 23,
+   "deixis": 13,
+   "noun_phrase": 9,
+   "possessive": 3,
+   "demonstrative": 2,
+   "vp": 1,
+   "proposition": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.7293233082706767,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 54,
+  "cost_usd": 0.1953
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 192,
+   "end": 203,
+   "quote": "Chair Warsh",
+   "name": "Chair Warsh"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 134,
+   "end": 141,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 262,
+   "end": 275,
+   "quote": "the Committee",
+   "name": "the Committee"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2284,
+   "end": 2346,
+   "quote": "Dallas Fed President Logan and Cleveland Fed President Hammack",
+   "name": "Dallas Fed President Logan and Cleveland Fed President Hammack"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 166,
+   "end": 190,
+   "quote": "the October FOMC meeting",
+   "name": "the October FOMC meeting"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1047,
+   "end": 1089,
+   "quote": "a sharp tightening of financial conditions",
+   "name": "a sharp tightening of financial conditions"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1164,
+   "end": 1179,
+   "quote": "more tightening",
+   "name": "more tightening"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 1526,
+   "end": 1553,
+   "quote": "the second to last sentence",
+   "name": "the second to last sentence"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 3304,
+   "end": 3382,
+   "quote": "the economy has evolved broadly in line with their expectations from September",
+   "name": "the economy has evolved broadly in line with their expectations from September"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 3745,
+   "end": 3765,
+   "quote": "Financial conditions",
+   "name": "Financial conditions"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 3998,
+   "end": 4008,
+   "quote": "tightening",
+   "name": "tightening"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 4472,
+   "end": 4669,
+   "quote": "Growth momentum remains solid, the labor market is stable with risks of re-tightening, inflation pressures remain broad and elevated, and financial conditions are still not meaningfully restrictive",
+   "name": "Growth momentum remains solid, the labor market is stable with risks of re-tightening, inflation pressures remain broad and elevated, and financial conditions are still not meaningfully restrictive"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 5132,
+   "end": 5179,
+   "quote": "the idea of “removing a dose of accommodation.”",
+   "name": "the idea of “removing a dose of accommodation.”"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 5597,
+   "end": 5664,
+   "quote": "differen t justifications, including risk management considerations",
+   "name": "differen t justifications, including risk management considerations"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 6400,
+   "end": 6402,
+   "quote": "AI",
+   "name": "AI"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 6793,
+   "end": 6854,
+   "quote": "issues related to AI valuations and financial stability risks",
+   "name": "issues related to AI valuations and financial stability risks"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 192,
+   "end": 222,
+   "quote": "Chair Warsh’s press conference",
+   "name": "Chair Warsh’s press conference"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 2787,
+   "end": 2813,
+   "quote": "the September FOMC meeting",
+   "name": "the September FOMC meeting"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C032",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we envision' at 1496"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4727",
+   "message": "+29 words: {{this backdrop => the backdrop that Growth momentum remains solid, the labor market is stable with risks of re-tightening, inflation pressures remain broad and elevated, and financial conditions are still not meaningfully restrictive}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'he' in 'mittee’s 2 percent goal.” To be sure, t he Committee could provide a new basis for'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0485649,
+   "duration_ms": 6242,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4854,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 435,
+    "output_tokens_details": {
+     "thinking_tokens": 357
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4854,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 435,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4854,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4854
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1467727,
+   "duration_ms": 37257,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6531,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4657,
+    "output_tokens_details": {
+     "thinking_tokens": 2412
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6531,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4657,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 6531,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6531
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

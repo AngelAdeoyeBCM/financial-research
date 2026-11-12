@@ -1,0 +1,191 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Take_profit_on_short_AUDZAR_Trade_Idea--925835.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 1,
+     "generic": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 9,
+  "kinds": {
+   "deixis": 5,
+   "noun_phrase": 4
+  },
+  "rooted_share": 0.7777777777777778,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 7,
+  "cost_usd": 0.0621
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 53,
+   "end": 97,
+   "quote": "the trade idea we opened in FX: Short AUDZAR",
+   "name": "the trade idea FX: Short AUDZAR"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 91,
+   "end": 97,
+   "quote": "AUDZAR",
+   "name": "AUDZAR"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we deem' at 530"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.022267699999999998,
+   "duration_ms": 1709,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2662,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 8,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2662,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 8,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2662,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2662
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0398095,
+   "duration_ms": 8298,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2749,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 836,
+    "output_tokens_details": {
+     "thinking_tokens": 469
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2749,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 836,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2749,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2749
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

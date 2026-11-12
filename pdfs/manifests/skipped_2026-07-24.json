@@ -1,0 +1,135 @@
+{
+  "batch_id": "2026-07-24",
+  "window": [
+    "2026-07-24",
+    "2026-07-24"
+  ],
+  "generated_at": "2026-10-29T16:30:39",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 34
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 2,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 8,
+    "edits": 64,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_TABLE": 5,
+    "UNSTRUCTURED_TEXT": 5,
+    "DISTORTED_FIGURE": 1
+  },
+  "documents": [
+    {
+      "stem": "BofA_Asia_Economic_Weekly_-_RBI_Threading_a_three-circuit_policy_path",
+      "document": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf",
+      "date": "2026-07-24",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 21,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: -14.0 27.8 95.5 45.3 -1.4 -2.8 18.2 -19.0 -6.9 48.9 -12.5 88.1",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: -0.5 2.0 -1.1 -1.1 1.3 -1.1 -3.8 -4.7 -8.3 -8.7 -10.4 -5.7",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 9.00 8.95 8.90 8.75 8.60 8.60 8.55 8.50 8.45 8.40 8.45 8.40",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "41% of tokens are numeric/date values",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 163.08 152.00 145.00 2025 2026 2027 2025 2026 2027",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: -1.3 -2.0 -2.5 2025 2026 2027 2025 2026 2027",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "BofA_Asia Economic Weekly - RBI Threading a three-circuit policy path.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

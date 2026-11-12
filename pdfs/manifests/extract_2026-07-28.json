@@ -1,0 +1,160 @@
+{
+  "batch_id": "2026-07-28",
+  "window": [
+    "2026-07-28",
+    "2026-07-28"
+  ],
+  "generated_at": "2026-10-29T16:30:41",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_27_31.json",
+      "sha256": "5965830b77a419f936faf0a0f8c3959f9cf37e9955607a291ba167dbba71cfc2",
+      "records": 202,
+      "dates": [
+        "2026-07-27",
+        "2026-07-31"
+      ],
+      "records_for_batch": 48
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 4,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 3,
+    "edits": 6,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "EM_rates_Exiting_long_Feb_2030_Coltes_ASW_Trade_Idea--929115",
+      "document": "EM_rates_Exiting_long_Feb_2030_Coltes_ASW_Trade_Idea--929115.pdf",
+      "date": "2026-07-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EUR_rates_Stopped_out_of_10s40s_steepener_Trade_Idea--929104",
+      "document": "EUR_rates_Stopped_out_of_10s40s_steepener_Trade_Idea--929104.pdf",
+      "date": "2026-07-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EUR_rates_Stopped_out_of_10s40s_steepener_Trade_Idea--929104.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "7555cdedfb6af6d1a8b0fb18a21b4ef90dcb8b6d",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 28 July 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 28 JULY 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Steven Montgomery Rates Strategist, Europe| MAR BNP Paribas London Branch steven.montgomery@uk.bnpparibas.com Camille De Courcel Head of DM Rates Strategy and Economics, Europe| MAR BNP Paribas London Branch camille.decourcel@uk.bnpparibas.com"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 4,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EUR rates: Stopped out of 10s40s steepener ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Hong_Kong_Offshore_CGB_futures_to_accelerate_RMB_internationalisation_Desknote--929067",
+      "document": "Hong_Kong_Offshore_CGB_futures_to_accelerate_RMB_internationalisation_Desknote--929067.pdf",
+      "date": "2026-07-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.9,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Quant_Trades_of_the_Week_De-escalation_and_CBs_EURNOK_GBP_2s5s_FX_carry_Trade_Idea--929045",
+      "document": "Quant_Trades_of_the_Week_De-escalation_and_CBs_EURNOK_GBP_2s5s_FX_carry_Trade_Idea--929045.pdf",
+      "date": "2026-07-28",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 34,
+      "page_count": 13,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.781,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

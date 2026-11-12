@@ -1,0 +1,74 @@
+version: "1"
+
+# Structured claim task: run on one claim span at a time, not on a whole document.
+# Field keys are the output keys. Defaults are merged into each field with `<<`;
+# allow_none is true because a claim span usually omits most slots.
+x-single: &single
+  dtype: str
+  allow_multiple: false
+  allow_none: true
+  status: active
+
+id: claim_forecast
+type: structured
+name: forecast
+
+fields:
+  subject:
+    <<: *single
+    name: Subject
+    description: "The country, market, or instrument the forecast is about, as written."
+
+  metric:
+    <<: *single
+    name: Metric
+    description: "The variable being forecast, such as GDP growth, core CPI, or the 10Y yield."
+
+  value:
+    <<: *single
+    name: Value
+    description: "The forecast number, range, or level, as written."
+
+  value_kind:
+    <<: *single
+    name: Value kind
+    description: "Whether the value is a level, a change, a growth rate, a probability, or a range."
+    choices: [level, change, growth_rate, probability, range]
+
+  direction:
+    <<: *single
+    name: Direction
+    description: "Expected movement of the metric as written. Do not invert for yields or spreads."
+    choices: [up, down, flat, range_bound, volatile, mixed]
+
+  target_period:
+    <<: *single
+    name: Target period
+    description: "The period the forecast is for, such as Q4 2026 or end-2027."
+
+  previous_value:
+    <<: *single
+    name: Previous value
+    description: "The author's earlier forecast for the same metric and period."
+
+  consensus_value:
+    <<: *single
+    name: Consensus value
+    description: "The consensus or market-implied figure the forecast is compared with."
+
+  revision:
+    <<: *single
+    name: Revision
+    description: "Whether the forecast was raised, lowered, left unchanged, or newly initiated."
+    choices: [raised, lowered, unchanged, initiated]
+
+  revision_reason:
+    <<: *single
+    name: Revision reason
+    description: "The reason given for changing or holding the forecast."
+
+  attribution:
+    <<: *single
+    name: Attribution
+    description: "Whose forecast it is: the author, another named source, consensus, or market pricing."
+    choices: [author, third_party, consensus, market_implied]

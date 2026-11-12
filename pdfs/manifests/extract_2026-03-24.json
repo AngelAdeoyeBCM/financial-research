@@ -1,0 +1,155 @@
+{
+  "batch_id": "2026-03-24",
+  "window": [
+    "2026-03-24",
+    "2026-03-24"
+  ],
+  "generated_at": "2026-10-29T16:27:49",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-22_2026-03-25.json",
+      "sha256": "41876a182f75276475bb5d15a2f094b5b63e6d7b8a7fbbd04093102cce686c3e",
+      "records": 903,
+      "dates": [
+        "2026-03-22",
+        "2026-03-25"
+      ],
+      "records_for_batch": 44
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 4,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 2,
+    "edits": 5,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212",
+      "document": "Brazil_election_tracker_Tight_race_high_stakes_Desknote--921212.pdf",
+      "date": "2026-03-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 21,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_strategy_Close_KRW_m26_x_z26_implied_yields_Trade_Idea--921167",
+      "document": "EM_strategy_Close_KRW_m26_x_z26_implied_yields_Trade_Idea--921167.pdf",
+      "date": "2026-03-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_strategy_Close_KRW_m26_x_z26_implied_yields_Trade_Idea--921167.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "bbea4d97f947cfb527e565ed22fd61fb2b485c75",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 24/03/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM strategy: Close KRW m26 x z26 implied yields ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "FX_Short_GBPCHF_Trade_Idea--921201",
+      "document": "FX_Short_GBPCHF_Trade_Idea--921201.pdf",
+      "date": "2026-03-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPY_rates_Reviewing_trades_post_BoJ_and_as_stress_builds_Desknote--921159",
+      "document": "JPY_rates_Reviewing_trades_post_BoJ_and_as_stress_builds_Desknote--921159.pdf",
+      "date": "2026-03-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 9,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

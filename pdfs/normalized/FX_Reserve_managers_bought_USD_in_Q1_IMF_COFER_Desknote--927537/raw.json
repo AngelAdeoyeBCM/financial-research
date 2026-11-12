@@ -1,0 +1,8 @@
+{
+ "references": [
+  "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"claim\", \"sid\": \"E004\", \"quote\": \"reserve manager allocations to the USD increased from 56.4% to 57.1%\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E006\", \"quote\": \"FX-valuation-adjusted increase in USD reserve holdings of approximately USD70bn\", \"name\": \"the FX-valuation-adjusted increase in USD reserve holdings of approximately USD70bn\"},\n  {\"id\": \"R3\", \"type\": \"claim\", \"sid\": \"E027\", \"quote\": \"reserve managers actively sold JPY when the JPY weakened moderately\"},\n  {\"id\": \"R4\", \"type\": \"thing\", \"sid\": \"E011\", \"quote\": \"The IMF’s COFER data for Q1 2026\", \"name\": \"the IMF’s COFER data for Q1 2026\"}],\n \"decisions\": [\n  {\"candidate\": \"C001\", \"action\": \"link\", \"referent\": \"R1\"},\n  {\"candidate\": \"C002\", \"action\": \"link\", \"referent\": \"R2\", \"phrase\": \"this valuation-adjusted increase in USD holdings\"},\n  {\"candidate\": \"C003\", \"action\": \"link\", \"referent\": \"R3\"},\n  {\"candidate\": \"C004\", \"action\": \"leave\", \"reason\": \"not_a_reference\"}],\n \"extra\": [\n  {\"sid\": \"E006\", \"phrase\": \"The data\", \"occurrence\": 1, \"referent\": \"R4\"},\n  {\"sid\": \"E029\", \"phrase\": \"the data\", \"occurrence\": 1, \"referent\": \"R4\"}]}\n```"
+ ],
+ "ellipsis": [
+  "{\"items\": []}"
+ ]
+}

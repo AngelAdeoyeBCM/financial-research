@@ -1,0 +1,184 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Close_long_SGDNEER_Trade_Idea--923238.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 5
+    },
+    "leave_reasons": {},
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 24,
+  "kinds": {
+   "deixis": 10,
+   "noun_phrase": 5,
+   "abbreviation": 4,
+   "possessive": 3,
+   "pronoun": 2
+  },
+  "rooted_share": 0.8939393939393939,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 12,
+  "cost_usd": 0.0761
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 77,
+   "end": 137,
+   "quote": "long SGD position against a proxy version of the NEER basket",
+   "name": "the long SGD position against a proxy version of the NEER basket"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 344,
+   "end": 375,
+   "quote": "Monetary Authority of Singapore",
+   "name": "the Monetary Authority of Singapore"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 122,
+   "end": 137,
+   "quote": "the NEER basket",
+   "name": "the NEER basket"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 1396"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0267528,
+   "duration_ms": 2497,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3043,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 78,
+    "output_tokens_details": {
+     "thinking_tokens": 70
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3043,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 78,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3043,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3043
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0493009,
+   "duration_ms": 10219,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3273,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1103,
+    "output_tokens_details": {
+     "thinking_tokens": 557
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3273,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1103,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3273,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3273
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

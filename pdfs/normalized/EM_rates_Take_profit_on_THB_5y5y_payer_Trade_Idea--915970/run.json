@@ -1,0 +1,218 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Take_profit_on_THB_5y5y_payer_Trade_Idea--915970.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-07",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 4,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 6,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 7,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 35,
+  "kinds": {
+   "deixis": 23,
+   "noun_phrase": 8,
+   "possessive": 2,
+   "pronoun": 1,
+   "proposition": 1
+  },
+  "rooted_share": 0.6538461538461539,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 19,
+  "cost_usd": 0.0861
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 254,
+   "end": 286,
+   "quote": "our THOR u30-5y payer trade idea",
+   "name": "our THOR u30-5y payer trade idea"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 746,
+   "end": 760,
+   "quote": "the government",
+   "name": "the government"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1651,
+   "end": 1670,
+   "quote": "Anutin Charnvirakul",
+   "name": "Anutin Charnvirakul"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2161,
+   "end": 2181,
+   "quote": "the Bank of Thailand",
+   "name": "the Bank of Thailand"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2161,
+   "end": 2228,
+   "quote": "the Bank of Thailand (BoT) cut its policy rate to 1.25% in December",
+   "name": "the Bank of Thailand (BoT) cut its policy rate to 1.25% in December"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 1322"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we close' at 2438"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0276668,
+   "duration_ms": 2655,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3153,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 79,
+    "output_tokens_details": {
+     "thinking_tokens": 71
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3153,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 79,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3153,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3153
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0584336,
+   "duration_ms": 12884,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3435,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1494,
+    "output_tokens_details": {
+     "thinking_tokens": 719
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3435,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1494,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3435,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3435
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

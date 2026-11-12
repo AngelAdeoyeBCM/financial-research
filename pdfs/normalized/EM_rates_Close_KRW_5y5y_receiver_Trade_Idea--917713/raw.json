@@ -1,0 +1,8 @@
+{
+ "references": [
+  "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"thing\", \"sid\": \"E007\", \"quote\": \"KRW rates\", \"name\": \"KRW rates\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E012\", \"quote\": \"our receive KRW H31,5y NDIRS trade idea\", \"name\": \"the receive KRW H31,5y NDIRS trade idea\"},\n  {\"id\": \"R3\", \"type\": \"thing\", \"sid\": \"E003\", \"quote\": \"our received position in KRW H31,5y NDIRS\", \"name\": \"the received position in KRW H31,5y NDIRS\"},\n  {\"id\": \"R4\", \"type\": \"thing\", \"sid\": \"E004\", \"quote\": \"Bank of Korea\", \"name\": \"the Bank of Korea\"}],\n \"decisions\": [\n  {\"candidate\": \"C001\", \"action\": \"leave\", \"reason\": \"not_a_reference\"},\n  {\"candidate\": \"C002\", \"action\": \"leave\", \"reason\": \"time\"},\n  {\"candidate\": \"C003\", \"action\": \"link\", \"referent\": \"R1\"},\n  {\"candidate\": \"C004\", \"action\": \"link\", \"referent\": \"R2\"},\n  {\"candidate\": \"C005\", \"action\": \"link\", \"referent\": \"R2\", \"phrase\": \"this position\"},\n  {\"candidate\": \"C006\", \"action\": \"leave\", \"reason\": \"not_a_reference\"}],\n \"extra\": [\n  {\"sid\": \"E004\", \"phrase\": \"the idea\", \"occurrence\": 1, \"referent\": \"R3\"},\n  {\"sid\": \"E005\", \"phrase\": \"the central bank\", \"occurrence\": 1, \"referent\": \"R4\"}]}\n```"
+ ],
+ "ellipsis": [
+  "```json\n{\"items\": []}\n```"
+ ]
+}

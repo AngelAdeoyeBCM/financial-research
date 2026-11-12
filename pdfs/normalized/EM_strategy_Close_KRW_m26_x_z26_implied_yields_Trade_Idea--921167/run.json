@@ -1,0 +1,180 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_strategy_Close_KRW_m26_x_z26_implied_yields_Trade_Idea--921167.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-24",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "link": 3
+    },
+    "leave_reasons": {},
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 17,
+  "kinds": {
+   "deixis": 10,
+   "noun_phrase": 5,
+   "pronoun": 2
+  },
+  "rooted_share": 0.9038461538461539,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 11,
+  "cost_usd": 0.0713
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 183,
+   "end": 226,
+   "quote": "trade idea to receive KRW FX implied yields",
+   "name": "the trade idea to receive KRW FX implied yields"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1056,
+   "end": 1145,
+   "quote": "a sharp sell-off in rates across the world and a corresponding increase in implied yields",
+   "name": "the sharp sell-off in rates across the world and the corresponding increase in implied yields"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 170"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we respect' at 1537"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.024256399999999997,
+   "duration_ms": 3109,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2779,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 60,
+    "output_tokens_details": {
+     "thinking_tokens": 52
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2779,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 60,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2779,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2779
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0470079,
+   "duration_ms": 10658,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2913,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1134,
+    "output_tokens_details": {
+     "thinking_tokens": 693
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2913,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1134,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2913,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2913
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

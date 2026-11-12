@@ -1,0 +1,237 @@
+{
+  "batch_id": "2026-06-24",
+  "window": [
+    "2026-06-24",
+    "2026-06-24"
+  ],
+  "generated_at": "2026-10-29T16:30:04",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-22_2026-06-25.json",
+      "sha256": "1a9c085a8c595324e12ba690879225daf95f3c88910886dbd4972cd9264424fd",
+      "records": 1002,
+      "dates": [
+        "2026-06-22",
+        "2026-06-25"
+      ],
+      "records_for_batch": 71
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 6,
+    "out_of_scope": 0,
+    "compiled": 2,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 3,
+    "edits": 22,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "EM_rates_Green_shoots_in_Thailand_pay_1s5s_Desknote--926889",
+      "document": "EM_rates_Green_shoots_in_Thailand_pay_1s5s_Desknote--926889.pdf",
+      "date": "2026-06-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 19,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.933,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Taking_profit_on_Mbonos_ASW_long_position_Trade_Idea--926968",
+      "document": "EM_rates_Taking_profit_on_Mbonos_ASW_long_position_Trade_Idea--926968.pdf",
+      "date": "2026-06-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Taking_profit_on_Mbonos_ASW_long_position_Trade_Idea--926968.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "9568177a90bab275f629ea8a6f9b9357ab830726",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 24/06/2026 1"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 13,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " )",
+              "after": ")"
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Taking profit on Mbonos ASW long position ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "FX_Closing_out_long_AUDNZD_Trade_Idea--926938",
+      "document": "FX_Closing_out_long_AUDNZD_Trade_Idea--926938.pdf",
+      "date": "2026-06-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Closing_out_long_AUDNZD_Trade_Idea--926938.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "5e6d48a7547b1ef6a85bd73e059b6a4d534823d6",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "a s a s Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 5,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Closing out long AUDNZD ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "STEER_USD_overvaluation_increases_Short_EURHUF_Trade_Idea--926922",
+      "document": "STEER_USD_overvaluation_increases_Short_EURHUF_Trade_Idea--926922.pdf",
+      "date": "2026-06-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 12,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "TWD_Summertime_softness_Desknote--926894",
+      "document": "TWD_Summertime_softness_Desknote--926894.pdf",
+      "date": "2026-06-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 22,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Warsh_Strait_Talk",
+      "document": "Warsh Strait Talk.pdf",
+      "date": "2026-06-24",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

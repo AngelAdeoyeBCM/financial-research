@@ -1,0 +1,8 @@
+{
+ "references": [
+  "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"claim\", \"sid\": \"E006\", \"quote\": \"the US remains an equally important driver of USDJPY\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E008\", \"quote\": \"boost domestic allocations\", \"name\": \"a boost of domestic allocations\"},\n  {\"id\": \"R3\", \"type\": \"thing\", \"sid\": \"E008\", \"quote\": \"Japan’s GPIF\"},\n  {\"id\": \"R4\", \"type\": \"thing\", \"sid\": \"E002\", \"quote\": \"our long AUDJPY spot position\"},\n  {\"id\": \"R5\", \"type\": \"thing\", \"sid\": \"E004\", \"quote\": \"the JPY\"}],\n \"decisions\": [\n  {\"candidate\": \"C001\", \"action\": \"link\", \"referent\": \"R1\", \"phrase\": \"this regard\", \"connective\": \"that\"},\n  {\"candidate\": \"C002\", \"action\": \"link\", \"referent\": \"R2\"},\n  {\"candidate\": \"C003\", \"action\": \"link\", \"referent\": \"R3\"}],\n \"extra\": [\n  {\"sid\": \"E003\", \"phrase\": \"the trade\", \"occurrence\": 1, \"referent\": \"R4\"},\n  {\"sid\": \"E008\", \"phrase\": \"the currency\", \"occurrence\": 1, \"referent\": \"R5\"}]}\n```"
+ ],
+ "ellipsis": [
+  "```json\n{\"items\": []}\n```\n\nI found no gaps to list. No sentence leaves out words that a reader of that sentence alone would need:\n\n- **E002–E007**: every sentence is complete. None has an auxiliary or modal missing its verb, a short answer, or a fragment.\n- **E008**: \"pursues this\" is a reference back to \"boost domestic allocations\", not missing words, so it's left out under the rules. The broken word \"implie d\" is a typo, not a gap.\n- **E001**: this is a heading, so it's context only."
+ ]
+}

@@ -1,0 +1,80 @@
+{
+  "doc": "BofA_Sept_FOMC_-_hike_or_bond_spike",
+  "model": "opus",
+  "example": null,
+  "taxonomy_version": "0.12",
+  "source_metadata": {
+    "Document": "BofA_Sept FOMC - hike or bond spike.pdf",
+    "Date": "2026-09-14",
+    "Source": "Bank of America",
+    "Type": "Catalyst Preview",
+    "Chunks": "17",
+    "Asset classes": "FX, Rates",
+    "Preferred share (FX/Rates)": "100%"
+  },
+  "arguments": 27,
+  "statements": 91,
+  "evidence": 111,
+  "exclusions": 11,
+  "scenarios": 4,
+  "edges": 7,
+  "scenario_links": 11,
+  "isolated": 16,
+  "max_chain": 3,
+  "types": {
+    "PREDICTION": 45,
+    "VIEW": 21,
+    "CAUSAL": 17,
+    "SUPPOSITION": 8
+  },
+  "proposition_kinds": {},
+  "subkinds": {
+    "PREDICTION:event": 20,
+    "PREDICTION:quantitative": 17,
+    "VIEW:event": 5,
+    "CAUSAL:market_state": 13,
+    "PREDICTION:directional": 18,
+    "SUPPOSITION:event": 6,
+    "CAUSAL:event": 1,
+    "VIEW:market_state": 12,
+    "SUPPOSITION:market_state": 2,
+    "VIEW:sentiment": 4,
+    "CAUSAL:sentiment": 3
+  },
+  "modalities": {
+    "HEDGED": 35,
+    "ASSERTED": 36,
+    "HYPOTHETICAL": 8,
+    "SPECULATIVE": 12
+  },
+  "coverage": {
+    "sentences": 139,
+    "cited": 100,
+    "excluded": 18,
+    "silent": 21,
+    "must_keep": 15,
+    "must_keep_silent": 2
+  },
+  "ok": true,
+  "attempts": 1,
+  "errors": 0,
+  "warnings": 11,
+  "issue_codes": {
+    "ARGUMENT_WITHOUT_RELATION": 4,
+    "MUST_KEEP_EXCLUDED": 1,
+    "PREMISE_DUPLICATES_CORE": 4,
+    "MUST_KEEP_UNCOVERED": 2
+  },
+  "seconds": 501.3,
+  "src_chars": 18849,
+  "cost_usd": 1.3503,
+  "api_seconds": 498.4,
+  "input_tokens": 2,
+  "output_tokens": 63861,
+  "cache_read_input_tokens": 15182,
+  "cache_creation_input_tokens": 8642,
+  "resolved_models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+  ]
+}

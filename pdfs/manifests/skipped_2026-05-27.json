@@ -1,0 +1,63 @@
+{
+  "batch_id": "2026-05-27",
+  "window": [
+    "2026-05-27",
+    "2026-05-27"
+  ],
+  "generated_at": "2026-10-29T16:29:19",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-25_2026-05-28.json",
+      "sha256": "7b8c622d71e254f786506c65ba13a98e0c997c4ea4b9b2cd1ae1b500d5aef5c9",
+      "records": 668,
+      "dates": [
+        "2026-05-25",
+        "2026-05-28"
+      ],
+      "records_for_batch": 11
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_TABLE": 1
+  },
+  "documents": [
+    {
+      "stem": "STEER_remains_long_USDJPY_and_USDMYR_Trade_Idea--925053",
+      "document": "STEER_remains_long_USDJPY_and_USDMYR_Trade_Idea--925053.pdf",
+      "date": "2026-05-27",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 156.8700 160.4271 154.4900 - 1.53 25-May-2026 | 3.9557 3.9934 3.8947 - 0.39 | 1.2719 - - 1.2823 (19-May-2026) -0.82 29-Apr-2026",
+          "chunk_id": "STEER_remains_long_USDJPY_and_USDMYR_Trade_Idea--925053.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

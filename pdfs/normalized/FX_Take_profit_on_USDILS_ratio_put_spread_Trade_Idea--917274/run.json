@@ -1,0 +1,249 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Take_profit_on_USDILS_ratio_put_spread_Trade_Idea--917274.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-26",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 2,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "leave": 1,
+     "link": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     2,
+     0
+    ],
+    "undecided_per_attempt": [
+     1,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 9,
+  "kinds": {
+   "deixis": 6,
+   "noun_phrase": 3
+  },
+  "rooted_share": 0.8,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 10,
+  "cost_usd": 0.0974
+ },
+ "referents": [
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 96,
+   "end": 140,
+   "quote": "long 3m (25-Feb) USDILS 3.21-3.15 put spread",
+   "name": "the long 3m (25-Feb) USDILS 3.21-3.15 put spread"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 249,
+   "end": 292,
+   "quote": "USDILS is currently close to four-year lows",
+   "name": "USDILS close to four-year lows"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we deem' at 451"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "id": "R1",
+      "type": "thing",
+      "sid": "E006",
+      "quote": "four-year lows",
+      "name": "USDILS four-year lows"
+     },
+     "reason": "name 'USDILS four-year lows' has words not in the quote: ['usdil']"
+    },
+    {
+     "item": {
+      "candidate": "C001",
+      "action": "link",
+      "referent": "R1",
+      "phrase": "this level"
+     },
+     "reason": "referent 'R1' is not in the referent table"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0233424,
+   "duration_ms": 2492,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2639,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 71,
+    "output_tokens_details": {
+     "thinking_tokens": 63
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2639,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 71,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2639,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2639
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.039202900000000006,
+   "duration_ms": 8107,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2713,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 818,
+    "output_tokens_details": {
+     "thinking_tokens": 499
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2713,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 818,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2713,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2713
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0349025,
+   "duration_ms": 5540,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2999,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 494,
+    "output_tokens_details": {
+     "thinking_tokens": 365
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2999,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 494,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2999,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2999
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

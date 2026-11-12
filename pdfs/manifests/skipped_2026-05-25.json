@@ -1,0 +1,214 @@
+{
+  "batch_id": "2026-05-25",
+  "window": [
+    "2026-05-25",
+    "2026-05-25"
+  ],
+  "generated_at": "2026-10-29T16:29:17",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-25_2026-05-28.json",
+      "sha256": "7b8c622d71e254f786506c65ba13a98e0c997c4ea4b9b2cd1ae1b500d5aef5c9",
+      "records": 668,
+      "dates": [
+        "2026-05-25",
+        "2026-05-28"
+      ],
+      "records_for_batch": 47
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 2,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 14,
+    "DISTORTED_TABLE": 3,
+    "UNSTRUCTURED_TEXT": 2,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "GS_US_Economics_Analyst_-_2026_Mid-Year_Capex_Update_-_On_Track_for_a_Solid_Year",
+      "document": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf",
+      "date": "2026-05-25",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 28,
+      "page_count": 15,
+      "status": "skipped",
+      "missing_indices": [
+        23
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [23]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 2025 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 -5 -4",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 - 7 - 6 -",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 2026 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 200 220",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -4 -3 -2 -1 0 -4 -3 -2 -1 0",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 0 20",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 2026 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-12-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 -10 -5 0 5 10",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-13-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q4 Q1 Q2 Q3 Q4 Q1 Q2",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-14-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-14-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 1,421 1,371 1,356 1,286 1,322 1,323 1,280 1,290 1,280 1,292 1,304 1,316",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-14-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-14-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 3.88 4.58 4.18 4.10 4.15 4.18 4.30 4.30 4.20 4.10 4.10 4.10",
+          "chunk_id": "GS_US Economics Analyst - 2026 Mid-Year Capex Update - On Track for a Solid Year.pdf-14-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_USD_overvaluation_reduces_long_USDMYR_Trade_Idea--924910",
+      "document": "STEER_USD_overvaluation_reduces_long_USDMYR_Trade_Idea--924910.pdf",
+      "date": "2026-05-25",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: 3.9557 4.0167 3.8947 - 0.00 | 96.8225 - - 95.3037 | 156.8700 162.5740 154.4900 - 1.27",
+          "chunk_id": "STEER_USD_overvaluation_reduces_long_USDMYR_Trade_Idea--924910.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

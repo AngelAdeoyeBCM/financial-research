@@ -1,0 +1,249 @@
+{
+  "batch_id": "2026-03-18",
+  "window": [
+    "2026-03-18",
+    "2026-03-18"
+  ],
+  "generated_at": "2026-10-29T16:27:40",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-18_2026-03-21.json",
+      "sha256": "5acd7092166c1a372edf9dac9058c634fe46262d8b2eb6047af83f2517436159",
+      "records": 2933,
+      "dates": [
+        "2026-03-18",
+        "2026-03-20"
+      ],
+      "records_for_batch": 64
+    }
+  ],
+  "counts": {
+    "documents": 8,
+    "in_scope": 6,
+    "out_of_scope": 2,
+    "compiled": 0,
+    "skipped": 6,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 11,
+    "UNSTRUCTURED_TEXT": 4,
+    "DISTORTED_TABLE": 3
+  },
+  "documents": [
+    {
+      "stem": "Central_and_Eastern_Europe_Cool_heads_for_now_Desknote--920797",
+      "document": "Central_and_Eastern_Europe_Cool_heads_for_now_Desknote--920797.pdf",
+      "date": "2026-03-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 Jan-25 May-25 Sep-25 Jan-26 May-26 Sep-26",
+          "chunk_id": "Central_and_Eastern_Europe_Cool_heads_for_now_Desknote--920797.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Dutch_PF_UST_selling_and_hedge_divergence_in_Q4_2025_Desknote--920823",
+      "document": "Dutch_PF_UST_selling_and_hedge_divergence_in_Q4_2025_Desknote--920823.pdf",
+      "date": "2026-03-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 2024) -20 -15 -10 -5 0 5 10 15 Q4 2024 Q1",
+          "chunk_id": "Dutch_PF_UST_selling_and_hedge_divergence_in_Q4_2025_Desknote--920823.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 consecutive numeric/date tokens: -140,000 -120,000 -100,000 -80,000 -60,000 -40,000 -20,000 0 Q4 2022 Q4 2023",
+          "chunk_id": "Dutch_PF_UST_selling_and_hedge_divergence_in_Q4_2025_Desknote--920823.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "March_FOMC__We_just_don_t_know",
+      "document": "March FOMC: We just don't know.pdf",
+      "date": "2026-03-18",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "54 consecutive numeric/date tokens: 1 1 2 4 4 4 3 1 2 2 7 7",
+          "chunk_id": "March FOMC: We just don't know.pdf-1-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 3/31/2026 0% 10% 20% 30% 40% 50% 0.00 0.05 0.10 0.15 0.20",
+          "chunk_id": "March FOMC: We just don't know.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "One_central_bank_battle_after_another__ECB_vs_BOE",
+      "document": "One central bank battle after another: ECB vs BOE.pdf",
+      "date": "2026-03-18",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats riceStats",
+          "chunk_id": "One central bank battle after another: ECB vs BOE.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "One central bank battle after another: ECB vs BOE.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Risk_off_and_carry",
+      "document": "Risk off and carry?.pdf",
+      "date": "2026-03-18",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 17,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%",
+          "chunk_id": "Risk off and carry?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Risk off and carry?.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 7 Jan 2026 0.8658 0.8638 18 Mar 2026 -0.57%",
+          "chunk_id": "Risk off and carry?.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0% 25% 50% 75% 100% Jan 25 Apr 25 Jul 25 Oct",
+          "chunk_id": "Risk off and carry?.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -2 0 2 4 6 8 10 -15 -10 -5 0 5",
+          "chunk_id": "Risk off and carry?.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -2 0 2 4 6 8 10 -15 -10 -5 0 5",
+          "chunk_id": "Risk off and carry?.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Risk off and carry?.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0.9 1.0 1.1 1.2 1.3 Mar-23 Oct-23 May-24 Jan-25 Aug-25 Mar-26",
+          "chunk_id": "Risk off and carry?.pdf-5-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1.0 1.1 1.2 1.3 1.4 1.5 1.6 Mar-23 Oct-23 May-24 Jan-25 Aug-25",
+          "chunk_id": "Risk off and carry?.pdf-5-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_USD_overvaluation_reduces_still_short_USDCAD_Trade_Idea--920783",
+      "document": "STEER_USD_overvaluation_reduces_still_short_USDCAD_Trade_Idea--920783.pdf",
+      "date": "2026-03-18",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 1.3718 1.3512 1.3882 - 0.09 | 389.53 - - 385.23 (04-Mar-2026) 1.10 02-Mar-2026 | 3.3616 - - 3.3959 (03-Mar-2026) -1.02 25-Feb-2026",
+          "chunk_id": "STEER_USD_overvaluation_reduces_still_short_USDCAD_Trade_Idea--920783.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "STEER_USD_overvaluation_reduces_still_short_USDCAD_Trade_Idea--920783.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

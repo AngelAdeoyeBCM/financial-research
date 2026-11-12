@@ -1,0 +1,360 @@
+# Phase 1 GOLD argument map — Ocado Smart Carry (hand-adjudicated)
+# Aim: the author's core arguments, each the sufficient set of components that keeps its reasoning coherent.
+# claim_type: RECOMMENDATION | VALUATION | FORECAST | VIEW | DATA_POINT | OBSERVATION
+#   Type test order: advises an action -> RECOMMENDATION; worth vs price -> VALUATION;
+#   identifiable future outcome or the author's own estimate -> FORECAST;
+#   reported fact with a substantive number -> DATA_POINT; reported fact without one -> OBSERVATION;
+#   explicit judgement, interpretation or causal attribution -> VIEW; anything else is excluded.
+# modality:   SPECULATIVE < HEDGED < ASSERTED (DATA_POINT and OBSERVATION are always ASSERTED)
+# modality_cue: required; verbatim phrase from the statement's evidence.
+# Roles:
+#   core_claim, supporting, risks, conditions, catalysts, qualifiers -> RECOMMENDATION | VALUATION | FORECAST | VIEW
+#   rationale                                                        -> DATA_POINT | OBSERVATION
+#   qualifiers: explicitly restricts the scope, applicability, magnitude or duration of the core, incl. exceptions.
+# Every argument needs at least one relation other than an OBSERVATION in rationale.
+# OBSERVATIONs are kept only where an argument needs them; diagrams hide them by default.
+# Evidence is full verbatim sentences; one sentence may ground several statements.
+# exclusions.code: TANGENTIAL | NOT_LOAD_BEARING | REDUNDANT | VAGUE | TRANSIENT | UNFAITHFUL | META | NON_CLAIM
+# brief: short display label used by diagrams.
+# Summaries cite the statements they rely on, e.g. [S012].
+
+schema_version: phase1-0.6
+document:
+  title: Ocado Smart Carry
+  publisher: J.P. Morgan
+  authors:
+  - Neill Keaney
+  desk: European Credit Research
+  asset_classes:
+  - credit
+  source_email_sent_at: '2026-09-08T06:17:00'
+  publication_date: null
+  source_preprocessing:
+  - Whitespace collapsed to single spaces.
+  - Line-break hyphenation joined ("capex-\nintensive" -> "capex-intensive").
+  - Page furniture removed ("Overweight OCDOLN 2").
+  source_notes:
+  - Email research extract, not the linked full report.
+  - Email dated 8 September 2026 but webinar copy says 08 February; publication date not inferred.
+
+evidence:
+- id: E001
+  text: 'We initiate on the Ocado credit and its outstanding SUNs with an Overweight recommendation.'
+- id: E002
+  text: 'Credit strength is underpinned by a shift from cash-burning online grocery pureplay to asset-backed retail technology and logistics platform.'
+- id: E003
+  text: 'Technology Solutions is now the main EBITDA engine, with live-module economics, recurring capacity fees and a growing international footprint supporting our view that the existing module portfolio more than covers the debt stack even before assigning value to future contract wins, SBA trials or ORL.'
+- id: E004
+  text: 'Whilst strong ytd returns mean that the opportunity is now largely carry-based, it is a compelling one: The 11% coupon means a running yield of almost 10.5% with nearly one year of call protection remaining.'
+- id: E005
+  text: 'We will discuss the investment case from both sides of the balance sheet centred around our aligned thesis that valuation is unchallenged given the present value of current modules leaving further contract wins and opportunities within SBA and ISF as free options.'
+- id: E006
+  text: 'Founded in 2000 as a pure-play online supermarket in the UK, Ocado is now more accurately described as a technology solutions partner for an international network of grocery retailers.'
+- id: E007
+  text: 'Existing active modules imply almost £2.8bn of EV at £24m per module, driving an estimated 24% LTV after £765m of cash against the £1.8bn debt stack.'
+- id: E008
+  text: 'Additional contract signings - more likely now we expect given exclusivity has rolled off in key markets such as the US - and the potential for a contract win or even an announcement of a trial of Ocado’s store-based automation (SBA) system, both serve as free options, further supporting our estimate of asset coverage.'
+- id: E009
+  text: 'The prospect of balance sheet rehabilitation is credible in our view as cost savings, stronger Solutions EBITDA and lower capex offset the historic bear case around structural cash burn.'
+- id: E010
+  text: 'Management’s guidance for positive cash flow in 4Q26 and FY27 depends most on capex discipline, with our model assuming no uncommitted CFC expansion.'
+- id: E011
+  text: 'Liquidity is ample, including £765m of cash and a £300m undrawn RCF, allowing repayment of the £350m January 2027 convert and potentially further debt reduction through the 10% 103 soft call on the 2030 notes.'
+- id: E012
+  text: 'We expect net leverage, on a ratio basis, to decline to 3.9x at FY26 from 4.9x at 1H26 and to 2.3x by FY28.'
+- id: E013
+  text: 'We expect stronger underlying EBITDA, driven by recurring fee income and cost savings at Tech Solutions and lower Group-level capex to deliver a very modest positive (+£2.6m) cash flow in FY27, in line with management guidance.'
+- id: E014
+  text: 'Risks to our recommendation include uneven international adoption, the cash drag from major new CFC wins, a porous covenant package, and new debt incurrence'
+
+statements:
+- id: S001
+  brief: Initiate Overweight on Ocado credit and SUNs
+  statement: The analyst initiates on Ocado credit and its outstanding SUNs with an Overweight recommendation.
+  claim_type: RECOMMENDATION
+  modality: ASSERTED
+  modality_cue: We initiate
+  evidence: [E001]
+- id: S002
+  brief: Shift to asset-backed tech platform underpins credit strength
+  statement: Ocado’s credit strength is underpinned by its shift from a cash-burning online grocery pureplay to an asset-backed retail technology and logistics platform.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: is underpinned by
+  evidence: [E002, E006]
+- id: S003
+  brief: Tech Solutions is the main EBITDA engine
+  statement: Technology Solutions is now Ocado’s main EBITDA engine, with live-module economics, recurring capacity fees and a growing international footprint.
+  claim_type: OBSERVATION
+  modality: ASSERTED
+  modality_cue: is now the main EBITDA engine
+  evidence: [E003]
+- id: S004
+  brief: Existing modules more than cover the debt stack
+  statement: The present value of Ocado’s existing modules more than covers its debt stack, leaving valuation unchallenged even before assigning value to future contract wins, SBA or ISF opportunities, or ORL.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: more than covers
+  evidence: [E003, E005]
+- id: S005
+  brief: Compelling, though now largely carry-based, opportunity
+  statement: Ocado credit is a compelling opportunity, although strong year-to-date returns mean it is now largely carry-based.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: it is a compelling one
+  evidence: [E004]
+- id: S006
+  brief: 11% coupon, ~10.5% running yield, ~1y call protection
+  statement: The 11% coupon on Ocado’s notes gives a running yield of almost 10.5%, with nearly one year of call protection remaining.
+  claim_type: DATA_POINT
+  modality: ASSERTED
+  modality_cue: The 11% coupon means
+  evidence: [E004]
+- id: S007
+  brief: Active modules imply ~£2.8bn EV at £24m each
+  statement: Ocado’s existing active modules imply almost £2.8bn of enterprise value at £24m per module.
+  claim_type: VALUATION
+  modality: ASSERTED
+  modality_cue: Existing active modules imply
+  evidence: [E007]
+- id: S008
+  brief: Estimated LTV of 24% after £765m cash vs £1.8bn debt
+  statement: The analyst estimates Ocado’s loan-to-value at 24%, after £765m of cash against a £1.8bn debt stack.
+  claim_type: VALUATION
+  modality: ASSERTED
+  modality_cue: estimated
+  evidence: [E007]
+- id: S009
+  brief: Additional contract signings now more likely
+  statement: Additional contract signings for Ocado are now more likely, given exclusivity has rolled off in key markets such as the US.
+  claim_type: FORECAST
+  modality: HEDGED
+  modality_cue: more likely now we expect
+  evidence: [E008]
+- id: S010
+  brief: Possible SBA contract win or trial
+  statement: Ocado could secure a contract win or announce a trial of its store-based automation (SBA) system.
+  claim_type: FORECAST
+  modality: SPECULATIVE
+  modality_cue: the potential for
+  evidence: [E008]
+- id: S011
+  brief: Balance-sheet rehabilitation is credible
+  statement: Rehabilitation of Ocado’s balance sheet is credible.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: credible in our view
+  evidence: [E009]
+- id: S012
+  brief: Savings, EBITDA and lower capex offset cash-burn bear case
+  statement: Cost savings, stronger Solutions EBITDA and lower capex offset the historic bear case around Ocado’s structural cash burn.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: offset the historic bear case
+  evidence: [E009]
+- id: S013
+  brief: Guidance depends on capex discipline
+  statement: Management’s guidance for positive cash flow in 4Q26 and FY27 depends most on capex discipline.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: depends most on
+  evidence: [E010]
+- id: S014
+  brief: No uncommitted CFC expansion
+  statement: Ocado will undertake no uncommitted CFC expansion over the forecast period.
+  claim_type: FORECAST
+  modality: ASSERTED
+  modality_cue: our model assuming
+  evidence: [E010]
+- id: S015
+  brief: £765m cash and £300m undrawn RCF
+  statement: Ocado has £765m of cash and a £300m undrawn RCF.
+  claim_type: DATA_POINT
+  modality: ASSERTED
+  modality_cue: including £765m of cash
+  evidence: [E011]
+- id: S016
+  brief: Ample liquidity allows repayment of £350m Jan-27 convert
+  statement: Ocado’s liquidity is ample, allowing repayment of the £350m convertible due January 2027.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: Liquidity is ample
+  evidence: [E011]
+- id: S017
+  brief: Possible soft call on 2030 notes
+  statement: Ocado could reduce debt further through the 10% 103 soft call on its 2030 notes.
+  claim_type: FORECAST
+  modality: SPECULATIVE
+  modality_cue: potentially
+  evidence: [E011]
+- id: S018
+  brief: Net leverage 4.9x (1H26) to 3.9x (FY26)
+  statement: Ocado’s net leverage will decline to 3.9x at FY26 from 4.9x at 1H26.
+  claim_type: FORECAST
+  modality: ASSERTED
+  modality_cue: We expect
+  evidence: [E012]
+- id: S019
+  brief: Net leverage 2.3x by FY28
+  statement: Ocado’s net leverage will decline to 2.3x by FY28.
+  claim_type: FORECAST
+  modality: ASSERTED
+  modality_cue: We expect
+  evidence: [E012]
+- id: S020
+  brief: Stronger underlying EBITDA
+  statement: Ocado’s underlying EBITDA will strengthen, driven by recurring fee income and cost savings at Technology Solutions.
+  claim_type: FORECAST
+  modality: ASSERTED
+  modality_cue: We expect
+  evidence: [E013]
+- id: S021
+  brief: Lower Group-level capex
+  statement: Ocado’s Group-level capex will be lower.
+  claim_type: FORECAST
+  modality: ASSERTED
+  modality_cue: We expect
+  evidence: [E013]
+- id: S022
+  brief: Very modest positive FY27 cash flow (+£2.6m)
+  statement: Ocado will deliver a very modest positive cash flow of £2.6m in FY27, in line with management guidance.
+  claim_type: FORECAST
+  modality: ASSERTED
+  modality_cue: We expect
+  evidence: [E013]
+- id: S023
+  brief: Uneven international adoption
+  statement: Uneven international adoption is a risk to the Overweight recommendation.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: Risks to our recommendation include
+  evidence: [E014]
+- id: S024
+  brief: Cash drag from major new CFC wins
+  statement: Cash drag from major new CFC wins is a risk to the Overweight recommendation.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: Risks to our recommendation include
+  evidence: [E014]
+- id: S025
+  brief: Porous covenant package
+  statement: A porous covenant package is a risk to the Overweight recommendation.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: Risks to our recommendation include
+  evidence: [E014]
+- id: S026
+  brief: New debt incurrence
+  statement: New debt incurrence is a risk to the Overweight recommendation.
+  claim_type: VIEW
+  modality: ASSERTED
+  modality_cue: Risks to our recommendation include
+  evidence: [E014]
+
+arguments:
+- id: A001
+  summary: The analyst initiates Overweight on Ocado credit [S001], citing its shift to an asset-backed technology platform [S002], module value that covers the debt stack [S004] and a compelling, largely carry-based opportunity [S005]. Risks are uneven international adoption, cash drag from new CFC wins, a porous covenant package and new debt [S023, S024, S025, S026].
+  core_claim: S001
+  supporting: [S002, S004, S005]
+  rationale: []
+  risks: [S023, S024, S025, S026]
+  conditions: []
+  catalysts: []
+  qualifiers: []
+- id: A002
+  summary: Existing modules more than cover the debt stack, leaving valuation unchallenged before any value for future wins, SBA/ISF or ORL [S004], backed by an estimated 24% LTV [S008] and Technology Solutions’ role as the main EBITDA engine [S003]. More likely contract signings [S009] and a possible SBA contract or trial [S010] are free options.
+  core_claim: S004
+  supporting: [S008]
+  rationale: [S003]
+  risks: []
+  conditions: []
+  catalysts: [S009, S010]
+  qualifiers: []
+- id: A003
+  summary: The analyst estimates a 24% LTV [S008], driven by almost £2.8bn of enterprise value implied by existing active modules at £24m each [S007].
+  core_claim: S008
+  supporting: [S007]
+  rationale: []
+  risks: []
+  conditions: []
+  catalysts: []
+  qualifiers: []
+- id: A004
+  summary: Ocado credit is a compelling, though now largely carry-based, opportunity [S005], given an 11% coupon, a running yield of almost 10.5% and nearly one year of call protection [S006].
+  core_claim: S005
+  supporting: []
+  rationale: [S006]
+  risks: []
+  conditions: []
+  catalysts: []
+  qualifiers: []
+- id: A005
+  summary: Balance-sheet rehabilitation is credible [S011] because cost savings, stronger Solutions EBITDA and lower capex offset the historic cash-burn bear case [S012], and ample liquidity [S016] of £765m cash and a £300m undrawn RCF [S015] allows repayment of the January 2027 convert. A soft call on the 2030 notes could reduce debt further [S017].
+  core_claim: S011
+  supporting: [S012, S016]
+  rationale: [S015]
+  risks: []
+  conditions: []
+  catalysts: [S017]
+  qualifiers: []
+- id: A006
+  summary: The analyst forecasts net leverage falling to 3.9x at FY26 from 4.9x at 1H26 [S018], within the balance-sheet rehabilitation case [S011].
+  core_claim: S018
+  supporting: [S011]
+  rationale: []
+  risks: []
+  conditions: []
+  catalysts: []
+  qualifiers: []
+- id: A007
+  summary: The analyst forecasts net leverage reaching 2.3x by FY28 [S019], within the balance-sheet rehabilitation case [S011].
+  core_claim: S019
+  supporting: [S011]
+  rationale: []
+  risks: []
+  conditions: []
+  catalysts: []
+  qualifiers: []
+- id: A008
+  summary: The analyst forecasts a very modest positive £2.6m FY27 cash flow, in line with guidance [S022], driven by stronger EBITDA from recurring fees and Tech Solutions savings [S020] and lower Group capex [S021]. Guidance depends most on capex discipline [S013], and the forecast assumes no uncommitted CFC expansion [S014].
+  core_claim: S022
+  supporting: [S020, S021]
+  rationale: []
+  risks: []
+  conditions: [S013, S014]
+  catalysts: []
+  qualifiers: []
+
+# Tempting links deliberately NOT created (negative examples).
+rejected_links:
+- {source: S011, target: S001, role: supporting, reason: Rehabilitation is never tied to the recommendation in the source.}
+- {source: S003, target: S002, role: rationale, reason: The source attaches it to S004 only.}
+- {source: S012, target: S022, role: supporting, reason: 'Similar drivers, different section, no source link.'}
+- {source: S016, target: S018, role: supporting, reason: Cash-funded repayment does not reduce net leverage; no source link.}
+- {source: S024, target: S014, role: conditions, reason: 'Thematically related (CFC expansion), no source link.'}
+
+# Source sentences intentionally not represented.
+exclusions:
+- {text: 'We will be hosting a webinar later today, 08 February at 1400 UKT, with Marcus Diebel who covers Ocado within our European Equity Research team and also holds an Overweight recommendation.', code: META, reason: 'Event logistics; equity rating is context, not argued.'}
+- {text: 'We will also offer an opportunity for Q&A.', code: NON_CLAIM, reason: Non-claim.}
+- {text: 'Please register here.', code: NON_CLAIM, reason: Non-claim.}
+- {text: 'Ocado has long framed high cash burn as a positive, being that it signifies strong demand for its capex-intensive Solutions business.', code: TANGENTIAL, reason: Historical background; not essential to any argument.}
+- {text: 'The corollary, of course, is a consistent need for fresh capital.', code: TANGENTIAL, reason: Historical background; not essential to any argument.}
+- {text: 'Ocado now generates profit through two distinct but complimentary businesses: Technology Solutions, which offers vertically integrated software and physical retail solutions, predominantly via the Ocado Smart Platform (OSP) and Ocado Logistics, which provides fulfilment services to Ocado’s UK clients, including Ocado Retail Limited (ORL).', code: NOT_LOAD_BEARING, reason: Describes the business mix; adds nothing S002 needs.}
+- {text: 'The heritage online supermarket is outside the Restricted Group and bondholders have no claim on Ocado’s 50% stake, but it remains a key proof point for the OSP model and a potential source of shareholder-loan recovery.', code: TANGENTIAL, reason: ORL is never argued for or against any thesis.}
+- {text: 'In this note we expand on the above the points, present summary models including at the consolidated Group-level but also for Tech Solutions, Ocado Logistics and ORL as well as offering deep dives into all three divisions.', code: META, reason: Meta-text.}
+- {text: 'We also outline our expectations for cash flow, including the crucial variable of capex, over the next three years.', code: META, reason: Meta-text.}
+- {text: 'However, as new orders have dried up and existing clients (Kroger, Sobey’s) have closed existing CFCs or cancelled planned openings, cash flow has been inadvertently supported by significantly lower CFC capex.', code: UNFAITHFUL, reason: 'A caveat on the quality of past cash flow, not a reason for the FY27 forecast.'}
+
+# Judgement calls for adjudication review.
+adjudication_notes:
+- S002 absorbs E006 ("now more accurately described as a technology solutions partner") as extra evidence because it restates the same shift; the former A002 is now a component of A001.
+- Liquidity (former A009) is internal to A005; S016 supports rehabilitation and S015 grounds it.
+- S004 merges E003 (credit view) and E005 (aligned equity/credit thesis) as one proposition; it stays VIEW, borderline VALUATION.
+- S005 keeps its concession ("now largely carry-based") because it defines the opportunity.
+- S008 (LTV) is typed VALUATION because it is derived from the S007 enterprise-value estimate.
+- S009 absorbs its stated reason (exclusivity rolled off) instead of a separate OBSERVATION, since the reason serves a catalyst rather than a core.
+- S014 restates the model assumption as a FORECAST so it can serve as a condition.
+- S006 and S015 are reported quantitative facts, typed DATA_POINT.
+- S003 is an OBSERVATION kept because A002 needs it; diagrams hide it by default.
+- S010 keeps the source ambiguity on whether the "contract win" is SBA-specific.

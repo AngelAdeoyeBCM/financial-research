@@ -1,0 +1,9 @@
+{
+ "references": [
+  "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"thing\", \"sid\": \"E008\", \"quote\": \"business sentiment surveys\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E013\", \"quote\": \"a second appearance on Friday\", \"name\": \"Governor Waller's second appearance on Friday\"},\n  {\"id\": \"R3\", \"type\": \"thing\", \"sid\": \"E011\", \"quote\": \"the minutes to the April FOMC meeting\"},\n  {\"id\": \"R4\", \"type\": \"thing\", \"sid\": \"E017\", \"quote\": \"Governor Waller\"},\n  {\"id\": \"R5\", \"type\": \"thing\", \"sid\": \"E011\", \"quote\": \"the April FOMC meeting\"}],\n \"decisions\": [\n  {\"candidate\": \"C001\", \"action\": \"link\", \"referent\": \"R1\"},\n  {\"candidate\": \"C002\", \"action\": \"link\", \"referent\": \"R2\", \"phrase\": \"this one\"},\n  {\"candidate\": \"C003\", \"action\": \"link\", \"referent\": \"R3\"},\n  {\"candidate\": \"C004\", \"action\": \"link\", \"referent\": \"R4\"},\n  {\"candidate\": \"C005\", \"action\": \"link\", \"referent\": \"R4\"},\n  {\"candidate\": \"C006\", \"action\": \"link\", \"referent\": \"R4\"}],\n \"extra\": [\n  {\"sid\": \"E016\", \"phrase\": \"that meeting\", \"occurrence\": 1, \"referent\": \"R5\"}]}\n```",
+  "```json\n{\"referents\": [\n  {\"id\": \"R6\", \"type\": \"thing\", \"sid\": \"E013\", \"quote\": \"a second appearance on Friday\", \"name\": \"the second appearance on Friday\"}],\n \"decisions\": [\n  {\"candidate\": \"C002\", \"action\": \"link\", \"referent\": \"R6\", \"phrase\": \"this one\"}],\n \"extra\": []}\n```"
+ ],
+ "ellipsis": [
+  "```json\n{\"items\": []}\n```"
+ ]
+}

@@ -1,0 +1,847 @@
+{
+  "batch_id": "2026-08-30",
+  "window": [
+    "2026-08-30",
+    "2026-08-30"
+  ],
+  "generated_at": "2026-10-29T16:31:17",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-08-29_2026-09-01.json",
+      "sha256": "d5457cbcdcb1bcca5aa4a95910fb25cc0d8562d5c57f493625eacd7912c43bf6",
+      "records": 1009,
+      "dates": [
+        "2026-08-29",
+        "2026-09-01"
+      ],
+      "records_for_batch": 412
+    }
+  ],
+  "counts": {
+    "documents": 15,
+    "in_scope": 11,
+    "out_of_scope": 4,
+    "compiled": 3,
+    "skipped": 8,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 40,
+    "edits": 37,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 57,
+    "UNSTRUCTURED_TEXT": 19,
+    "DISTORTED_TABLE": 12,
+    "MISSING_CHUNKS": 6,
+    "TEMPLATE_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "BC_FX___EM_Weekly_Thoughts_-_Dollar_premium_roller-coaster",
+      "document": "BC_FX & EM Weekly Thoughts - Dollar premium roller-coaster.pdf",
+      "date": "2026-08-30",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 20,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        13,
+        17,
+        21
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [13, 17, 21]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +44 (0) 20 7773 2002 | +44 (0) 20 3555 6549 | +1 212 526 8954",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Dollar premium roller-coaster.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 2016 2017 2018 2019 2020",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Dollar premium roller-coaster.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Dollar premium roller-coaster.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BC_Global_Portfolio_Manager_s_Digest_-_Rates__Risk_and_Resilience",
+      "document": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf",
+      "date": "2026-08-30",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 23,
+      "page_count": 15,
+      "status": "skipped",
+      "missing_indices": [
+        3,
+        9,
+        11,
+        20,
+        25,
+        27
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3, 9, 11, 20, 25, 27]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 1 212 526 7578 | +1 212 526 8257 | +1 212 526 8351",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 July-16 July-17 July-18 July-19",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2010 -200 -100 0 100 200 300 400 500 600 700",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -0.8% -0.6% -0.4% -0.2% 0.0% 0.2% 0.4% 0.6%",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 50 55 60 65 70 75 80 85 9096 98 100 102",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 90 95 100 105 110 115 48 53 58 63 68 73",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: +0d 20 37 14 62 15 +1m 18 31 14 41 -",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-10-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 3 -1 -4 -7 -2 -2 -3 -4 1 0 -1 0",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: Dec 2027 0 20 40 60 80 100 120",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-12-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-13-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: +1 212 526 7578 +1 212 526 8257",
+          "chunk_id": "BC_Global Portfolio Manager's Digest - Rates, Risk and Resilience.pdf-15-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Beyond_the_summer_Sunday_Tea_with_BNP_Paribas--930694",
+      "document": "Beyond_the_summer_Sunday_Tea_with_BNP_Paribas--930694.pdf",
+      "date": "2026-08-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'Add author details'",
+          "chunk_id": "Beyond_the_summer_Sunday_Tea_with_BNP_Paribas--930694.pdf-1-4",
+          "reprocess": null,
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_ECONOMICS_ANALYST_-_Looking_for_Pockets_of_Overheating",
+      "document": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf",
+      "date": "2026-08-30",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 24,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        12
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2 4 6 8 10 12 14 16 2 4 6 8",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 5 -5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 5 -5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 20 40 60 80 100 0 20 40 60 80 100",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 50 60 70 80 90 100 50 60 70 80 90 100",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 2 4 6 8 0 2 4 6 8",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-7-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 2 4 6 8 0 2 4 6 8",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 20 70 75 80",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 70 80 90 100 70 80 90 100 2007 2008 2009 2010",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 70 80 90 100 70 80 90 100",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 2004 2006 2008 2010 2012 2014 2016 2018 2020 2022 2024 2026",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.88 4.58 4.18 4.40 4.25 4.30 4.44 4.45 4.40 4.35 4.30 4.25",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.88 4.58 4.18 4.40 4.25 4.30 4.44 4.45 4.40 4.35 4.30 4.25",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Looking for Pockets of Overheating.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Week_Ahead_-_August_31_-_September_6",
+      "document": "GS_US Week Ahead - August 31 - September 6.pdf",
+      "date": "2026-08-30",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 5,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: August 31 - September 6 30 August 2026",
+          "chunk_id": "GS_US Week Ahead - August 31 - September 6.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Sunday_Start_-_What_s_Next_in_Global_Macro_-_Inflation_Is_a_Choice__but_How_Do_You_Choose",
+      "document": "MS_Sunday Start - What's Next in Global Macro - Inflation Is a Choice… but How Do You Choose.pdf",
+      "date": "2026-08-30",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Canada_Economic_Perspectives_-_Broad-based_Q2_growth__BoC_still_on_hold",
+      "document": "UBS_Canada Economic Perspectives - Broad-based Q2 growth, BoC still on hold.pdf",
+      "date": "2026-08-30",
+      "publisher": "UBS",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 10 Sep-23",
+          "chunk_id": "UBS_Canada Economic Perspectives - Broad-based Q2 growth, BoC still on hold.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 1.8 1.6 0.4 -0.1 1.9 -0.3 -0.1 0.4 -0.5 0.0 0.5 1.0",
+          "chunk_id": "UBS_Canada Economic Perspectives - Broad-based Q2 growth, BoC still on hold.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48% of tokens are numeric/date values",
+          "chunk_id": "UBS_Canada Economic Perspectives - Broad-based Q2 growth, BoC still on hold.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Economic_Presentation_-_US_Economic_Outlook_2026-2028_-_still_bumpy__2026-08-30",
+      "document": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf",
+      "date": "2026-08-30",
+      "publisher": "UBS",
+      "document_type": "Outlook",
+      "chunk_count": 43,
+      "page_count": 38,
+      "status": "skipped",
+      "missing_indices": [
+        5,
+        10,
+        14,
+        16,
+        19,
+        21,
+        23,
+        29,
+        34,
+        36,
+        40,
+        46
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5, 10, 14, 16, 19, 21, 23, 29, 34, 36, 40, 46]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 2023 2024 2025 2026 2027 2028 | 3.4 2.4 2.0 2.1 2.1 2.6 | 3.8 4.2 4.5 4.4 4.5 4.4",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -6.00 -4.00 -2.00 0.00 2.00 4.00 6.00 8.00 Q4-23 Q1-24 Q2-24 Q3-24",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0.9 0.9 0.3 2.1 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-3-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2.10% -0.12% 2.33% -0.5% 0.0% 0.5% 1.0% 1.5% 2.0% 2.5% 3.0% 3.5%",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-4-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 28 58 11 18 61 16 35 55 8 25 59 13",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-5-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2.5 3.0 3.5 4.0 4.5 1979 1988 1997 2006 2016 2025",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-6-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-6-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 55,000 60,000 65,000 70,000 75,000 80,000 85,000 90,000 2020 2021 2022 2023",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-7-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "150 consecutive numeric/date tokens: 2024 - Q1 704.8 796.2 666.9 92.7 763.0 2024 - Q1 693.1",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-8-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-8-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -6% -4% -2% 0% 2% 4% 6% 8% 10% 12% 14% Sep-23",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-9-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-9-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 -4.0 -3.0 -2.0 -1.0 0.0",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-10-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-10-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-11-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 2026. 317 379 0 50 100 150 200 250 300 350 400",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-12-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -6.2 -6.5 -6.3 -6.2 -16 -12 -8 -4 0 4 1996 1999",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-13-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 12.9 0 5 10 15 20 25 30 1900 1914 1928 1942",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-14-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -40 -20 0 20 40 60 80 100 2015 2016 2017 2018",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-15-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 7.91 4.09 3.4 3.8 4.2 4.6 6.4 6.8 7.2 7.6 8.0 8.4",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-16-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "51 consecutive numeric/date tokens: 753 167 293 399 87 -108 169 282247 -27 -245 674 -799",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-17-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-17-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 12.1 6.3 4.5 5.5 6.5 7.5 8.5 9.0 11.0 13.0 15.0 17.0",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-18-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-18-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0 2.0",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-19-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-19-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 0 50 100 150",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-20-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-20-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -10% -5% 0% 5% 10% 15% 2015 2017 2019 2021 2023 2025",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-21-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -1.2% 0.0% 1.2% 2.4% Jan Feb Mar Apr May Jun Jul Aug",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-22-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-22-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "180 consecutive numeric/date tokens: Jan-25 0.350 0.315 2.607 2.780 Feb-25 0.402 0.448 2.710 2.969 Mar-25 0.016",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-23-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-23-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 0.0 1.0 2.0 3.0",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-24-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0 1,000 2,000 3,000 4,000 5,000 6,000 7,000 8,000 9,000 10,000 '07",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-25-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 2026 2027 2028",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-26-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 2040 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-27-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-27-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 Sep-82 Jun-90 Feb-98 Nov-05",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-27-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-28-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 3.11% 60 61 62 63 64 65 66 67 68",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-29-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-29-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 2% 2.7 1.5 2.9 1.6 0.0 0.5 1.0 1.5 2.0 2.5 3.0",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-30-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 2% 2.7 1.5 2.9 1.6 0.0 0.5 1.0 1.5 2.0 2.5 3.0",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-30-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 7.8 7.2 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-31-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: $0.40 $0.50 $0.60 $0.70 $0.80 $0.90 $1.00 $1.10 -400 -300 -200 -100",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-32-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 1000 1100 1200 1300 1400 1500 45000 50000 55000 60000 65000 70000",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-33-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 10 20 30 40 50 60 1967 1978 1990 2002 2014",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-34-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 35 45 55 65 75 85 95 105 1974 1979 1984 1989",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-35-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-36-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "123 consecutive numeric/date tokens: 2025 Jan 4.25 4.50 0.00 4.375 Mar 4.25 4.50 0.00 4.375 May",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-37-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-37-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 2023 2024 2025 2026 2027 2028 | 3.4 2.4 2.0 2.1 2.1 2.6 | 3.8 4.2 4.5 4.4 4.5 4.4",
+          "chunk_id": "UBS_US Economic Presentation - US Economic Outlook 2026-2028 - still bumpy.pdf-38-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "batch_id": "2026-05-21",
+  "window": [
+    "2026-05-21",
+    "2026-05-21"
+  ],
+  "generated_at": "2026-10-29T16:29:12",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-21_2026-05-24.json",
+      "sha256": "950195d97d764705078cbfce12439ffa3706aa3c4715e1378a96e9237fe583ca",
+      "records": 2426,
+      "dates": [
+        "2026-05-21",
+        "2026-05-24"
+      ],
+      "records_for_batch": 1066
+    }
+  ],
+  "counts": {
+    "documents": 27,
+    "in_scope": 20,
+    "out_of_scope": 7,
+    "compiled": 2,
+    "skipped": 18,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 30,
+    "edits": 21,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "AUD_rates_Pay_June_Aug_RBA_Trade_Idea--924662",
+      "document": "AUD_rates_Pay_June_Aug_RBA_Trade_Idea--924662.pdf",
+      "date": "2026-05-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 10,
+      "page_count": 2,
+      "status": "compiled",
+      "output": "pdfs/AUD_rates_Pay_June_Aug_RBA_Trade_Idea--924662.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "2e63bb5c1c346758213d6a78cc60cf60c0a39be3",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Hours worked increased in April We are adding a paid position in the June/Aug RBA spread, fo'",
+          "chunk_id": "AUD_rates_Pay_June_Aug_RBA_Trade_Idea--924662.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 2: Unemployment rate remained steady in trend terms, while underemployment fell (%)'",
+          "chunk_id": "AUD_rates_Pay_June_Aug_RBA_Trade_Idea--924662.pdf-1-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 21/05/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Sources: ABS, Macrobond, BNP Paribas Fig."
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": "BNP PARIBAS GLOBAL MARKETS APP: SCAN THE QR CODE TO READ OUR PUBLICATIONS ON OUR MOBILE APP"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "keep page margin clear keep page margin clear keep page gutter clear"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "more upside risks to inflation than downside risks to"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Sources: ABS, Macrobond, BNP Paribas Fig."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "more upside risks to inflation than downside risks to"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "L O C A L E"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "R A G L O B A L V"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 6,
+        "disclaimer": 1,
+        "promotion": 1,
+        "header": 2
+      },
+      "edits": {
+        "split_word": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "AUD rates: Pay June/Aug RBA ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "quote_style": {
+          "count": 9,
+          "examples": [
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            },
+            {
+              "before": "'",
+              "after": "’"
+            }
+          ]
+        },
+        "heading": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            },
+            {
+              "before": "KEY MESSAGES",
+              "after": "\n\n## KEY MESSAGES\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "BC_Asia_Credit_Alpha_-_Carry_or_worry",
+      "document": "BC_Asia Credit Alpha - Carry or worry.pdf",
+      "date": "2026-05-21",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 74,
+      "page_count": 30,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.027,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BC_Global_Rates_Weekly_-_Round_and_round",
+      "document": "BC_Global Rates Weekly - Round and round.pdf",
+      "date": "2026-05-21",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 145,
+      "page_count": 67,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.993,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Global_Economic_Viewpoint_-_AI_Matters_3_-_A_large_productivity_takeoff_is_ahead_-_just_not_immediately",
+      "document": "BofA_Global Economic Viewpoint - AI Matters 3 - A large productivity takeoff is ahead - just not immediately.pdf",
+      "date": "2026-05-21",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 23,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.8,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Washington_Matters_-_Crypto_and_housing_take_a_step_forward",
+      "document": "BofA_Washington Matters - Crypto and housing take a step forward.pdf",
+      "date": "2026-05-21",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 20,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.062,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_World_at_a_Glance_-_Summer_Jitters",
+      "document": "BofA_World at a Glance - Summer Jitters.pdf",
+      "date": "2026-05-21",
+      "publisher": "Bank of America",
+      "document_type": "Monthly",
+      "chunk_count": 265,
+      "page_count": 91,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.837,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Carry_Trade_Hits_a_Speedbump",
+      "document": "Carry Trade Hits a Speedbump.pdf",
+      "date": "2026-05-21",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.923,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Asia_Economics_Week_Ahead_-_25_May___31_May",
+      "document": "Citi_Asia Economics Week Ahead - 25 May – 31 May.pdf",
+      "date": "2026-05-21",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.875,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Global_Economic_Outlook___Strategy_-_Global_Resilience_Could_Growth_Surprise_to_the_Upside__Yet_Again",
+      "document": "Citi_Global Economic Outlook & Strategy - Global Resilience—Could Growth Surprise to the Upside (Yet Again).pdf",
+      "date": "2026-05-21",
+      "publisher": "Citi",
+      "document_type": "Outlook",
+      "chunk_count": 97,
+      "page_count": 37,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.637,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Citi_Global_Economic_Outlook__Strategy_Global_ResilienceCould_Growth_Surprise_to_the_Upside_Yet_Again-Global_Economic_Outlook__Strategy",
+      "document": "Citi_Global_Economic_Outlook__Strategy_Global_ResilienceCould_Growth_Surprise_to_the_Upside_Yet_Again-Global_Economic_Outlook__Strategy.pdf",
+      "date": "2026-05-21",
+      "publisher": "Citi",
+      "document_type": "Outlook",
+      "chunk_count": 97,
+      "page_count": 37,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.63,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_China_Matters_-_Not_Too_Worried_About_the_April_Data_Miss",
+      "document": "GS_China Matters - Not Too Worried About the April Data Miss.pdf",
+      "date": "2026-05-21",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 16,
+      "page_count": 8,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.1,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_European_Daily_-_Euro_Area_Checking_in_on_Inflation_Expectations",
+      "document": "GS_European Daily - Euro Area—Checking in on Inflation Expectations.pdf",
+      "date": "2026-05-21",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 11,
+      "page_count": 6,
+      "status": "compiled",
+      "output": "pdfs/GS_European_Daily_-_Euro_Area_Checking_in_on_Inflation_Expectations.txt",
+      "asset_class_share": 0.75,
+      "fingerprint": "f20f764e2ee5995fcef2fa31e411ea3e8c6ebf51",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Exhibit 1: Consumer, Firms, and Analysts’ Inflation Expectations Moved up, But Mostly for the Short-'",
+          "chunk_id": "GS_European Daily - Euro Area—Checking in on Inflation Expectations.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Exhibit 2: Market Expectations Have Shifted More Notably Towards Higher Inflation Outcomes Than Anal'",
+          "chunk_id": "GS_European Daily - Euro Area—Checking in on Inflation Expectations.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Exhibit 3: Short-term CES Expectations Moved a Lot Across the Board, and the Skew Became More Positi'",
+          "chunk_id": "GS_European Daily - Euro Area—Checking in on Inflation Expectations.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Source: Goldman Sachs Global Investment Research, Haver Analytics, ECB'",
+          "chunk_id": "GS_European Daily - Euro Area—Checking in on Inflation Expectations.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Exhibit 5: The Income Quintile Split Reveals Most of the Move Higher is Driven by Lower Earners; Inc'",
+          "chunk_id": "GS_European Daily - Euro Area—Checking in on Inflation Expectations.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Source: Goldman Sachs Global Investment Research, ECB'",
+          "chunk_id": "GS_European Daily - Euro Area—Checking in on Inflation Expectations.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Katya Vashkinskaya +44(20)7774-4833 | katya.vashkinskaya@gs.com Goldman Sachs International"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Investors should consider this report as only a single factor in making their investment decision."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "www.gs.com/research/hedge.html."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "21 May 2026 2 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Goldman Sachs Global Investment Research, Haver Analytics, ECB"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Goldman Sachs Global Investment Research, Haver Analytics,"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "21 May 2026 3 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Goldman Sachs Global Investment Research, Haver Analytics, ECB"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "21 May 2026 4 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "Source: Goldman Sachs Global Investment Research, Haver Analytics, ECB"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "21 May 2026 5 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "21 May 2026 6 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Goldman Sachs Global Investment Research, ECB     European Economics Team Sven Jari Stehn +44(20)7774-8061 jari.stehn@gs.com Goldman Sachs International Filippo Taddei +44(20)7774-5458 filippo.taddei@gs.com Goldman Sachs International Alexandre Stott +33(1)4212-1108 alexandre.stott@gs.com Goldman Sachs Bank Europe SE - Paris Branch James Moberly +44(20)7774-9444 james.r.moberly@gs.com Goldman Sachs International Niklas Garnadt +49(69)7532-1537 niklas.garnadt@gs.com Goldman Sachs Bank Europe SE Katya Vashkinskaya +44(20)7774-4833 katya.vashkinskaya@gs.com Goldman Sachs International Giovanni Pierdomenico +44(20)7051-6807 giovanni.pierdomenico@gs.com Goldman Sachs International"
+        }
+      ],
+      "stripped_by_section": {
+        "signature": 2,
+        "disclaimer": 8,
+        "footer": 10
+      },
+      "edits": {
+        "bullet": {
+          "count": 4,
+          "examples": [
+            {
+              "before": "n ",
+              "after": ""
+            },
+            {
+              "before": "n ",
+              "after": ""
+            },
+            {
+              "before": "n ",
+              "after": ""
+            },
+            {
+              "before": "n ",
+              "after": ""
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "European Daily: Euro Area—Checking in on Inflation Expectations ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_ANALYST_-_Revisiting_the_Outlook_for_the_Fed_s_Balance_Sheet",
+      "document": "GS_Global Markets ANALYST - Revisiting the Outlook for the Fed's Balance Sheet.pdf",
+      "date": "2026-05-21",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 31,
+      "page_count": 12,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.967,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Asia_Finding_it_Harder_to_Look_Through_the_Energy_Shock",
+      "document": "GS_Global Markets Daily - Asia Finding it Harder to Look Through the Energy Shock.pdf",
+      "date": "2026-05-21",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.909,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Has_the_Fed_lost_its_inflation_anchor__again",
+      "document": "Has the Fed lost its inflation anchor, again?.pdf",
+      "date": "2026-05-21",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.5,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Japan_Underlying_inflation_could_rise_towards_3_Desknote--924710",
+      "document": "Japan_Underlying_inflation_could_rise_towards_3_Desknote--924710.pdf",
+      "date": "2026-05-21",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 12,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.6,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_April_Fiscal_Monitor_-_Spring_Brings_Signals_of_Acceleration",
+      "document": "MS_April Fiscal Monitor - Spring Brings Signals of Acceleration.pdf",
+      "date": "2026-05-21",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 12,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Germany_Economics_-_April_Fiscal_Monitor_-_Spring_Brings_Signals_of_Acceleration",
+      "document": "MS_Germany Economics - April Fiscal Monitor - Spring Brings Signals of Acceleration.pdf",
+      "date": "2026-05-21",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 12,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_Global_Macro_Commentary_-_May_21_-_Inflation_Risks_Complicate_Relief_Rally",
+      "document": "MS_Global Macro Commentary - May 21 - Inflation Risks Complicate Relief Rally.pdf",
+      "date": "2026-05-21",
+      "publisher": "Morgan Stanley",
+      "document_type": "Market commentary",
+      "chunk_count": 24,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.95,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_UK_PMI_-_Keep_Calm_and_Carry_On",
+      "document": "MS_UK PMI - Keep Calm and Carry On.pdf",
+      "date": "2026-05-21",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.8,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

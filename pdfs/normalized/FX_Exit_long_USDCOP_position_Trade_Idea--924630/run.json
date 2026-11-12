@@ -1,0 +1,216 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Exit_long_USDCOP_position_Trade_Idea--924630.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-22",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 7,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 4
+    },
+    "leave_reasons": {
+     "relative": 2,
+     "not_a_reference": 1
+    },
+    "extra": 7,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 24,
+  "kinds": {
+   "deixis": 13,
+   "noun_phrase": 8,
+   "possessive": 3
+  },
+  "rooted_share": 0.6785714285714286,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 16,
+  "cost_usd": 0.082
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 41,
+   "end": 65,
+   "quote": "the long USDCOP position",
+   "name": "the long USDCOP position"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 224,
+   "end": 227,
+   "quote": "COP",
+   "name": "COP"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 306,
+   "end": 353,
+   "quote": "the first-round presidential election on 31 May",
+   "name": "the first-round presidential election on 31 May"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 271,
+   "end": 298,
+   "quote": "outperformance versus peers",
+   "name": "the outperformance versus peers"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 33"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.026991700000000004,
+   "duration_ms": 3891,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2922,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 139,
+    "output_tokens_details": {
+     "thinking_tokens": 126
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2922,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 139,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2922,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2922
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.055047599999999995,
+   "duration_ms": 12529,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3230,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1401,
+    "output_tokens_details": {
+     "thinking_tokens": 681
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3230,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1401,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3230,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3230
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

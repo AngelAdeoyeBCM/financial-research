@@ -1,0 +1,269 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Collecting_carry_Sunday_Tea_with_BNP_Paribas--930015.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 13,
+    "referents": {
+     "thing": 10,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 11,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "relative": 1,
+     "time": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 39,
+  "kinds": {
+   "deixis": 23,
+   "noun_phrase": 7,
+   "possessive": 3,
+   "pronoun": 2,
+   "proposition": 2,
+   "vp": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.7926829268292683,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 45,
+  "cost_usd": 0.1346
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 713,
+   "end": 741,
+   "quote": "expectations for a rate hike",
+   "name": "expectations for a rate hike"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 881,
+   "end": 911,
+   "quote": "a 0.25%m/m reading on core PCE",
+   "name": "the 0.25%m/m reading on core PCE"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1209,
+   "end": 1234,
+   "quote": "NY Fed President Williams",
+   "name": "NY Fed President Williams"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1284,
+   "end": 1361,
+   "quote": "much of the upside in July PCE is expected to be driven by portfolio services",
+   "name": "much of the upside in July PCE is expected to be driven by portfolio services"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1539,
+   "end": 1580,
+   "quote": "the next employment and inflation numbers",
+   "name": "the next employment and inflation numbers"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 2177,
+   "end": 2273,
+   "quote": "this week’s eurozone activity surveys could be negatively affected by recent extreme hot weather",
+   "name": "this week’s eurozone activity surveys could be negatively affected by recent extreme hot weather"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2832,
+   "end": 2868,
+   "quote": "system atic (CTA & Vol target) flows",
+   "name": "system atic (CTA & Vol target) flows"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 3746,
+   "end": 3785,
+   "quote": "atm vol on 2y5y, 3y5y, 5y10y and 10y10y",
+   "name": "atm vol on 2y5y, 3y5y, 5y10y and 10y10y"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 3922,
+   "end": 3925,
+   "quote": "AUD",
+   "name": "AUD"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4207,
+   "end": 4214,
+   "quote": "the JPY",
+   "name": "the JPY"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 4292,
+   "end": 4304,
+   "quote": "short CLPCOP",
+   "name": "short CLPCOP"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 3909,
+   "end": 3920,
+   "quote": "long AUDJPY",
+   "name": "long AUDJPY"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0539665,
+   "duration_ms": 10671,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4270,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 935,
+    "output_tokens_details": {
+     "thinking_tokens": 829
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4270,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 935,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4270,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4270
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0806395,
+   "duration_ms": 16783,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4764,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2066,
+    "output_tokens_details": {
+     "thinking_tokens": 959
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4764,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2066,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4764,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4764
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

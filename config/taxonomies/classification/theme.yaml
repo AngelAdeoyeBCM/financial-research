@@ -1,0 +1,188 @@
+# Themes taxonomy for financial research.
+#
+# Status:
+#   active: Available for new document tags.
+#   deprecated: Retained for historical tags; not assigned to new documents.
+#   pending: Proposed entry awaiting validation.
+#
+# Theme keys are stable identifiers. Do not change them when renaming a theme.
+#
+# Length budget: GLiNER2 encodes the prompt, every description and every example
+# alongside each text chunk. Keep descriptions to ~15 words, examples to <=4.
+# Example labels are keys; SchemaBuilder maps them to display names.
+version: "1"
+
+id: theme
+type: classification
+
+multi_label: true
+threshold: 0.8
+
+name: Theme
+prompt: >-
+  Themes that are a main subject of the research.
+
+labels:
+  growth:
+    name: Growth
+    description: >-
+      GDP, output, consumption, investment, PMIs, and the growth or
+      recession outlook.
+    status: active
+
+  inflation:
+    name: Inflation
+    description: >-
+      CPI and PPI, price pressures, inflation expectations,
+      disinflation, and deflation.
+    status: active
+
+  labour_market:
+    name: Labour market
+    description: >-
+      Payrolls, unemployment, hiring, vacancies, participation,
+      and wage growth.
+    status: active
+
+  economic_data:
+    name: Economic data
+    description: >-
+      Data calendars, data revisions, and reviews spanning several
+      indicators.
+    status: active
+
+  central_bank_policy:
+    name: Central bank policy
+    description: >-
+      Policy-rate decisions and expectations, forward guidance,
+      QE, QT, and central-bank balance sheets.
+    status: active
+
+  fiscal_policy:
+    name: Fiscal policy
+    description: >-
+      Government spending, taxes, budgets, deficits, stimulus,
+      and public debt.
+    status: active
+
+  external_balance:
+    name: External balance
+    description: >-
+      Trade balance, current account, balance of payments,
+      external financing needs, and FX reserves.
+    status: active
+
+  politics:
+    name: Politics
+    description: >-
+      Elections, leadership changes, coalitions, legislation,
+      and political stability.
+    status: active
+
+  geopolitics:
+    name: Geopolitics
+    description: >-
+      War, diplomacy, sanctions, strategic rivalry, and geopolitical risk.
+    status: active
+
+  trade_policy:
+    name: Trade policy
+    description: >-
+      Tariffs, trade agreements, import or export restrictions,
+      and protectionism.
+    status: active
+
+  regulation:
+    name: Regulation
+    description: >-
+      New or changing rules, supervision, enforcement, and legal frameworks
+      for firms or financial markets.
+    status: active
+
+  capital_flows:
+    name: Capital flows
+    description: >-
+      Fund subscriptions and redemptions, cross-border portfolio and direct
+      investment, positioning and flow data.
+    status: active
+
+  liquidity:
+    name: Liquidity
+    description: >-
+      Market depth, bid-ask spreads, funding availability, collateral,
+      repo, and short-term financing stress.
+    status: active
+
+  financial_stability:
+    name: Financial stability
+    description: >-
+      Banking-system stress, systemic risk, contagion,
+      and financial-sector resilience.
+    status: active
+
+  sovereign_credit:
+    name: Sovereign credit
+    description: >-
+      Sovereign ratings, default risk, debt restructuring,
+      and sovereign debt distress.
+    status: active
+
+  corporate_credit:
+    name: Corporate credit
+    description: >-
+      Issuer ratings, leverage, covenants, refinancing,
+      corporate default risk, and restructuring.
+    status: active
+
+  supply_issuance:
+    name: Supply and issuance
+    description: >-
+      Bond or equity issuance, auctions, financing calendars,
+      and net supply.
+    status: active
+
+  corporate:
+    name: Corporate developments
+    description: >-
+      Earnings, operating results, guidance, M&A, buybacks,
+      and other corporate actions.
+    status: active
+
+  valuation:
+    name: Valuation
+    description: >-
+      Fair value, relative value, multiples, risk premia,
+      and whether assets look cheap or expensive.
+    status: active
+
+  volatility:
+    name: Volatility
+    description: >-
+      Realised and implied volatility, skew, option-implied
+      distributions, and volatility pricing.
+    status: active
+
+  technical:
+    name: Technical analysis
+    description: >-
+      Chart patterns, momentum, trend indicators, trading signals,
+      and support or resistance levels.
+    status: active
+
+  climate:
+    name: Climate
+    description: >-
+      Climate policy, transition and physical risk, decarbonisation,
+      and carbon pricing.
+    status: active
+
+  technology:
+    name: Technology
+    description: >-
+      AI, automation, semiconductors, and digital adoption
+      and infrastructure.
+    status: active
+
+
+# Few-shot examples lowered precision for this task in testing; descriptions alone scored better.
+examples: []

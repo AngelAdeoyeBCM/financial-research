@@ -1,0 +1,446 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_UK_Weekly_Digest_-_How_high_will_it_go_-_A_look_at_the_2026-27_gilt_remit_revision.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 35,
+    "referents": {
+     "thing": 23,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 10,
+     "link": 25
+    },
+    "leave_reasons": {
+     "not_a_reference": 2,
+     "expletive": 1,
+     "time": 6,
+     "relative": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 106,
+  "kinds": {
+   "deixis": 66,
+   "abbreviation": 11,
+   "possessive": 11,
+   "demonstrative": 8,
+   "noun_phrase": 5,
+   "pronoun": 2,
+   "proposition": 1,
+   "fragment": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.7584541062801933,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3
+  },
+  "sentences": 145,
+  "cost_usd": 0.2804
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1009,
+   "end": 1081,
+   "quote": "HMRC cash receipts running nearly GBP 3bn ahead of the OBR's projections",
+   "name": "HMRC cash receipts running nearly GBP 3bn ahead of the OBR's projections"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2129,
+   "end": 2204,
+   "quote": "the seasonally adjusted \"persistent\" element of the current CGNCR overshoot",
+   "name": "the seasonally adjusted \"persistent\" element of the current CGNCR overshoot"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2457,
+   "end": 2510,
+   "quote": "around GBP 2bn of the current GBP 3bn CGNCR overshoot",
+   "name": "around GBP 2bn of the current GBP 3bn CGNCR overshoot"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3677,
+   "end": 3698,
+   "quote": "Higher interest rates",
+   "name": "higher interest rates"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4034,
+   "end": 4054,
+   "quote": "higher energy prices",
+   "name": "higher energy prices"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 4488,
+   "end": 4544,
+   "quote": "the size of the APF will be larger than the OBR expected",
+   "name": "the size of the APF will be larger than the OBR expected"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2056,
+   "end": 2078,
+   "quote": "four different factors",
+   "name": "the four different factors"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5269,
+   "end": 5283,
+   "quote": "the net effect",
+   "name": "the net effect"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5708,
+   "end": 5715,
+   "quote": "The DMO",
+   "name": "the DMO"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5902,
+   "end": 5918,
+   "quote": "a modest upgrade",
+   "name": "a modest upgrade"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 6214,
+   "end": 6255,
+   "quote": "GBP 1 - 3bn in additional T-bill issuance",
+   "name": "GBP 1 - 3bn in additional T-bill issuance"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 6862,
+   "end": 6865,
+   "quote": "HMT",
+   "name": "HMT"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7963,
+   "end": 7970,
+   "quote": "the MPC",
+   "name": "the MPC"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 8396,
+   "end": 8405,
+   "quote": "inflation",
+   "name": "inflation"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 9161,
+   "end": 9195,
+   "quote": "The composite PMI employment index",
+   "name": "the composite PMI employment index"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 9998,
+   "end": 10007,
+   "quote": "vacancies",
+   "name": "vacancies"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 10979,
+   "end": 11007,
+   "quote": "Orders placed with suppliers",
+   "name": "Orders placed with suppliers"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 11071,
+   "end": 11083,
+   "quote": "online sales",
+   "name": "online sales"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 12028,
+   "end": 12035,
+   "quote": "The OBR",
+   "name": "the OBR"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 12162,
+   "end": 12171,
+   "quote": "September",
+   "name": "September"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 12652,
+   "end": 12696,
+   "quote": "plenty of surveys to watch in the week ahead",
+   "name": "the surveys to watch in the week ahead"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 13439,
+   "end": 13454,
+   "quote": "Governor Bailey",
+   "name": "Governor Bailey"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 4366,
+   "end": 4394,
+   "quote": "The BoE's latest QT decision",
+   "name": "the BoE's latest QT decision"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 2475,
+   "end": 2510,
+   "quote": "the current GBP 3bn CGNCR overshoot",
+   "name": "the current GBP 3bn CGNCR overshoot"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we inch' at 138"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We also examine' at 500"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We convert' at 3409"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0823183,
+   "duration_ms": 10000,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7638,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 995,
+    "output_tokens_details": {
+     "thinking_tokens": 764
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7638,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 995,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 7638,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7638
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1980785,
+   "duration_ms": 54625,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8959,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 6239,
+    "output_tokens_details": {
+     "thinking_tokens": 4033
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8959,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 6239,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8959,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8959
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

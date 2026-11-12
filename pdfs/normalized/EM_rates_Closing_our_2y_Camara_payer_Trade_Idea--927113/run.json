@@ -1,0 +1,228 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Closing_our_2y_Camara_payer_Trade_Idea--927113.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-26",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 4,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "relative": 2
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 26,
+  "kinds": {
+   "deixis": 19,
+   "possessive": 3,
+   "noun_phrase": 3,
+   "pronoun": 1
+  },
+  "rooted_share": 0.46875,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "UNGROUNDED_WORD": 1,
+   "MODALITY_CHANGED": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 18,
+  "cost_usd": 0.0745
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 50,
+   "end": 78,
+   "quote": "our 2y Camara payer position",
+   "name": "our 2y Camara payer position"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 368,
+   "end": 376,
+   "quote": "the BCCh",
+   "name": "the BCCh"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 170,
+   "end": 186,
+   "quote": "the Camara curve",
+   "name": "the Camara curve"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 41"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 1572"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 2303",
+   "message": "not verbatim in source: ['will'] in {{we’ll => the author will}}"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 2303",
+   "message": "dropped [] added ['will'] in {{we’ll => the author will}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'its' in 'tilts toward sell-off as BCCh concludes its easing cycle (%) Sources: Bloomberg, BN'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0294022,
+   "duration_ms": 3332,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3222,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 138,
+    "output_tokens_details": {
+     "thinking_tokens": 130
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3222,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 138,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3222,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3222
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0450829,
+   "duration_ms": 7616,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3488,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 798,
+    "output_tokens_details": {
+     "thinking_tokens": 369
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3488,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 798,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3488,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3488
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

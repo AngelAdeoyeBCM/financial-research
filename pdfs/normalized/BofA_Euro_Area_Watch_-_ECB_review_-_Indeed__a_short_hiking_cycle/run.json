@@ -1,0 +1,243 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BofA_Euro_Area_Watch_-_ECB_review_-_Indeed__a_short_hiking_cycle.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-11",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 18,
+    "referents": {
+     "thing": 7,
+     "claim": 4
+    },
+    "decisions": {
+     "link": 18
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 37,
+  "kinds": {
+   "deixis": 17,
+   "pronoun": 9,
+   "proposition": 3,
+   "possessive": 3,
+   "demonstrative": 2,
+   "noun_phrase": 1,
+   "symbol": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.7580645161290323,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 38,
+  "cost_usd": 0.131
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 90,
+   "end": 97,
+   "quote": "the ECB",
+   "name": "the ECB"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 181,
+   "end": 206,
+   "quote": "the well-telegraphed hike",
+   "name": "the well-telegraphed hike"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 458,
+   "end": 465,
+   "quote": "Lagarde",
+   "name": "Lagarde"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 620,
+   "end": 692,
+   "quote": "we are in a scenario that needs a measured response (not a forceful one)",
+   "name": "we are in a scenario that needs a measured response (not a forceful one)"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 808,
+   "end": 838,
+   "quote": "the ECB is likely not done yet",
+   "name": "the ECB is likely not done yet"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 1555,
+   "end": 1623,
+   "quote": "the adverse scenario could be seen as consistent with two hikes also",
+   "name": "the adverse scenario could be seen as consistent with two hikes also"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 1833,
+   "end": 1847,
+   "quote": "“One and done”",
+   "name": "“One and done”"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2242,
+   "end": 2262,
+   "quote": "another hike in July",
+   "name": "another hike in July"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 3248,
+   "end": 3290,
+   "quote": "the different types of energy price shocks",
+   "name": "the different types of energy price shocks"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 4482,
+   "end": 4537,
+   "quote": "inflation proves persistent due to second-round effects",
+   "name": "inflation proves persistent due to second-round effects"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 1406,
+   "end": 1436,
+   "quote": "the mild scenario from the ECB",
+   "name": "the mild scenario from the ECB"
+  }
+ ],
+ "decisions": [],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0386014,
+   "duration_ms": 5301,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3839,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 348,
+    "output_tokens_details": {
+     "thinking_tokens": 335
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3839,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 348,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3839,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3839
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0924143,
+   "duration_ms": 23217,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4502,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2754,
+    "output_tokens_details": {
+     "thinking_tokens": 1622
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4502,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2754,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4502,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4502
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

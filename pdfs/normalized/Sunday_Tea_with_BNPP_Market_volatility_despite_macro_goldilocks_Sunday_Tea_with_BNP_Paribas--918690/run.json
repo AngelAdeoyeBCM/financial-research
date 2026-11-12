@@ -1,0 +1,354 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Sunday_Tea_with_BNPP_Market_volatility_despite_macro_goldilocks_Sunday_Tea_with_BNP_Paribas--918690.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-15",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 20,
+    "referents": {
+     "thing": 11,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 16,
+     "leave": 4
+    },
+    "leave_reasons": {
+     "not_a_reference": 2,
+     "relative": 1,
+     "time": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 4,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 72,
+  "kinds": {
+   "deixis": 51,
+   "noun_phrase": 5,
+   "possessive": 5,
+   "fragment": 4,
+   "pronoun": 4,
+   "shell": 2,
+   "proposition": 1
+  },
+  "rooted_share": 0.7039473684210527,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "MODALITY_CHANGED": 3,
+   "LONG_RESOLUTION": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 70,
+  "cost_usd": 0.212
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 750,
+   "end": 780,
+   "quote": "The January US employment data",
+   "name": "the January US employment data"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 3099,
+   "end": 3120,
+   "quote": "short EURBRL position",
+   "name": "the short EURBRL position"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 3617,
+   "end": 3653,
+   "quote": "the BoJ will remain behind the curve",
+   "name": "the BoJ will remain behind the curve"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3830,
+   "end": 3833,
+   "quote": "161",
+   "name": "161"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 4308,
+   "end": 4366,
+   "quote": "seasonality is turning bullish for USD pairs in the region",
+   "name": "seasonality is turning bullish for USD pairs in the region"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 6658,
+   "end": 6685,
+   "quote": "Prime Minister Kier Starmer",
+   "name": "Prime Minister Kier Starmer"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 7246,
+   "end": 7289,
+   "quote": "three potential scenarios for fiscal policy",
+   "name": "the three potential scenarios for fiscal policy"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 8050,
+   "end": 8185,
+   "quote": "there is a growing sense of urgency among European leaders to cut bureaucracy and deliver reforms that boost the bloc’s competitiveness",
+   "name": "there is a growing sense of urgency among European leaders to cut bureaucracy and deliver reforms that boost the bloc’s competitiveness"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 8446,
+   "end": 8499,
+   "quote": "common issuance and the creation of an E U safe asset",
+   "name": "common issuance and the creation of an E U safe asset"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 8765,
+   "end": 8797,
+   "quote": "the creation of an EU safe asset",
+   "name": "the creation of an EU safe asset"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 9067,
+   "end": 9102,
+   "quote": "last year’s policy shift in Germany",
+   "name": "last year’s policy shift in Germany"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 9778,
+   "end": 9784,
+   "quote": "SCOTUS",
+   "name": "SCOTUS"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 9867,
+   "end": 9884,
+   "quote": "an IEEPA decision",
+   "name": "an IEEPA decision"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9971,
+   "end": 9977,
+   "quote": "a call",
+   "name": "the call"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "he",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we rather' at 4214"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we examine' at 7235"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We conclude' at 7336"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 4753",
+   "message": "dropped [] added ['think', 'will'] in {{ => , The author thinks the Korean government will actively support local assets via measures such as}}"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 4798",
+   "message": "dropped [] added ['think', 'will'] in {{ => , The author thinks the Korean government will actively support local assets via measures such as}}"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 4873",
+   "message": "dropped [] added ['think', 'will'] in {{ => , The author thinks the Korean government will actively support local assets via measures such as}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 8187",
+   "message": "+21 words: {{That => That there is a growing sense of urgency among European leaders to cut bureaucracy and deliver reforms that boost the bloc’s competitiveness}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 15",
+   "message": "'he' in 'y one route for contagion, given that t he asset class is quite exposed to the sof'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0720093,
+   "duration_ms": 8870,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6478,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 942,
+    "output_tokens_details": {
+     "thinking_tokens": 502
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6478,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 942,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6478,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6478
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1399877,
+   "duration_ms": 34100,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7251,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4026,
+    "output_tokens_details": {
+     "thinking_tokens": 2649
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7251,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4026,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7251,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7251
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

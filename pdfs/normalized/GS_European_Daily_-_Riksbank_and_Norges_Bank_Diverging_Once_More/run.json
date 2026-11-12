@@ -1,0 +1,286 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/GS_European_Daily_-_Riksbank_and_Norges_Bank_Diverging_Once_More.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-21",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 19,
+    "referents": {
+     "thing": 10
+    },
+    "decisions": {
+     "leave": 3,
+     "link": 16
+    },
+    "leave_reasons": {
+     "not_a_reference": 2,
+     "expletive": 1
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 58,
+  "kinds": {
+   "deixis": 35,
+   "possessive": 8,
+   "noun_phrase": 5,
+   "pronoun": 5,
+   "demonstrative": 2,
+   "symbol": 2,
+   "abbreviation": 1
+  },
+  "rooted_share": 0.38461538461538464,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4
+  },
+  "sentences": 58,
+  "cost_usd": 0.183
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1817,
+   "end": 1856,
+   "quote": "a hike at the September meeting to 4.5%",
+   "name": "a hike at the September meeting to 4.5%"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 2386,
+   "end": 2417,
+   "quote": "Norges Bank’s September meeting",
+   "name": "Norges Bank’s September meeting"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 917,
+   "end": 929,
+   "quote": "the Riksbank",
+   "name": "the Riksbank"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4665,
+   "end": 4685,
+   "quote": "our commodities team",
+   "name": "our commodities team"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 5443,
+   "end": 5462,
+   "quote": "private consumption",
+   "name": "private consumption"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 5979,
+   "end": 5993,
+   "quote": "the output gap",
+   "name": "the output gap"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 6147,
+   "end": 6183,
+   "quote": "most measures of labour market slack",
+   "name": "most measures of labour market slack"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 8364,
+   "end": 8375,
+   "quote": "Norges Bank",
+   "name": "Norges Bank"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 9014,
+   "end": 9032,
+   "quote": "headline inflation",
+   "name": "headline inflation"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 3479,
+   "end": 3504,
+   "quote": "Riksbank’s August meeting",
+   "name": "the Riksbank's August meeting"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we update' at 171"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we nudge' at 1276"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we update' at 2076"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we also incorporate' at 5272"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.06237260000000001,
+   "duration_ms": 7312,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6576,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 428,
+    "output_tokens_details": {
+     "thinking_tokens": 420
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6576,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 428,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6576,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6576
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1206572,
+   "duration_ms": 26435,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7486,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2955,
+    "output_tokens_details": {
+     "thinking_tokens": 1807
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7486,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2955,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7486,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7486
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

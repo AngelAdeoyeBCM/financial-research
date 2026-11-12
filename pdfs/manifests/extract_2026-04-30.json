@@ -1,0 +1,312 @@
+{
+  "batch_id": "2026-04-30",
+  "window": [
+    "2026-04-30",
+    "2026-04-30"
+  ],
+  "generated_at": "2026-10-29T16:28:36",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-04-27_2026-04-30.json",
+      "sha256": "bc2248dd47e4e6afd8fb5f798156fc5588eb628028fadca1b9588c8ce2ce5b08",
+      "records": 1101,
+      "dates": [
+        "2026-04-27",
+        "2026-04-30"
+      ],
+      "records_for_batch": 382
+    }
+  ],
+  "counts": {
+    "documents": 19,
+    "in_scope": 12,
+    "out_of_scope": 7,
+    "compiled": 1,
+    "skipped": 11,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 12,
+    "edits": 4,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Global_Rates_Weekly_-_In_no_rush",
+      "document": "BC_Global Rates Weekly - In no rush.pdf",
+      "date": "2026-04-30",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 92,
+      "page_count": 43,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.967,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Asia_Economic_Weekly_-_Thailand___Maneuvering_in_a_tight_fiscal_space",
+      "document": "BofA_Asia Economic Weekly - Thailand – Maneuvering in a tight fiscal space.pdf",
+      "date": "2026-04-30",
+      "publisher": "Bank of America",
+      "document_type": "Weekly",
+      "chunk_count": 20,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.889,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_Euro_Area_Watch_-_ECB_review_-_June_it_is",
+      "document": "BofA_Euro Area Watch - ECB review - June it is.pdf",
+      "date": "2026-04-30",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 7,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "BofA_UK_Watch_-_BoE_review_-_Active_hold__hike_door_open",
+      "document": "BofA_UK Watch - BoE review - Active hold, hike door open.pdf",
+      "date": "2026-04-30",
+      "publisher": "Bank of America",
+      "document_type": "Catalyst Review",
+      "chunk_count": 13,
+      "page_count": 6,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EUR_rates_vol_Preparing_to_fade_top-left_richness_Desknote--923177",
+      "document": "EUR_rates_vol_Preparing_to_fade_top-left_richness_Desknote--923177.pdf",
+      "date": "2026-04-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Buying_the_dip_in_USDJPY_Trade_Idea--923202",
+      "document": "FX_Buying_the_dip_in_USDJPY_Trade_Idea--923202.pdf",
+      "date": "2026-04-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_European_Daily_-_BoE_Recap_Keeping_Options_Open",
+      "document": "GS_European Daily - BoE Recap—Keeping Options Open.pdf",
+      "date": "2026-04-30",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/GS_European_Daily_-_BoE_Recap_Keeping_Options_Open.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "0fcc72fc5bef5dc9f9ec7e346b194888781a31ec",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Exhibit 1: We See Unchanged Bank Rate but with a Low Hurdle for Two Hikes Source: Goldman Sachs Glob'",
+          "chunk_id": "GS_European Daily - BoE Recap—Keeping Options Open.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "James Moberly +44(20)7774-9444 | james.r.moberly@gs.com Goldman Sachs International Sven Jari Stehn +44(20)7774-8061 | jari.stehn@gs.com Goldman Sachs International"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Investors should consider this report as only a single factor in making their investment decision."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "www.gs.com/research/hedge.html."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "30 April 2026 2 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "30 April 2026 3 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "30 April 2026 4 Goldman Sachs European Daily"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "For the exclusive use of CAYLA.BUETTNER@BLUECRESTCAPITAL.COM 7595159db82544668b3260609400172c"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Goldman Sachs Global Investment Research, Bloomberg     European Economics Team Sven Jari Stehn +44(20)7774-8061 jari.stehn@gs.com Goldman Sachs International Filippo Taddei +44(20)7774-5458 filippo.taddei@gs.com Goldman Sachs International Alexandre Stott +33(1)4212-1108 alexandre.stott@gs.com Goldman Sachs Bank Europe SE - Paris Branch James Moberly +44(20)7774-9444 james.r.moberly@gs.com Goldman Sachs International Niklas Garnadt +49(69)7532-1537 niklas.garnadt@gs.com Goldman Sachs Bank Europe SE Katya Vashkinskaya +44(20)7774-4833 katya.vashkinskaya@gs.com Goldman Sachs International Giovanni Pierdomenico +44(20)7051-6807 giovanni.pierdomenico@gs.com Goldman Sachs International"
+        }
+      ],
+      "stripped_by_section": {
+        "signature": 2,
+        "disclaimer": 6,
+        "footer": 4
+      },
+      "edits": {
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": "n ",
+              "after": ""
+            },
+            {
+              "before": "n ",
+              "after": ""
+            },
+            {
+              "before": "n ",
+              "after": ""
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "European Daily: BoE Recap—Keeping Options Open ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Hot_to_the_touch__but_not_the_core",
+      "document": "Hot to the touch, but not the core.pdf",
+      "date": "2026-04-30",
+      "publisher": "State Street",
+      "document_type": "Catalyst Review",
+      "chunk_count": 9,
+      "page_count": 3,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.8,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPM_Global_Markets_Strategy_-_US_Treasury_Market_Daily",
+      "document": "JPM_Global Markets Strategy - US Treasury Market Daily.pdf",
+      "date": "2026-04-30",
+      "publisher": "JP Morgan",
+      "document_type": "Daily",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "JPY_rates_Close_IRS_5s10s_flattener_Trade_Idea--923150",
+      "document": "JPY_rates_Close_IRS_5s10s_flattener_Trade_Idea--923150.pdf",
+      "date": "2026-04-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "MS_ECB_Review_-_Any_Summer_Plans_-_Hiking_in_June",
+      "document": "MS_ECB Review - Any Summer Plans - Hiking in June.pdf",
+      "date": "2026-04-30",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 16,
+      "page_count": 7,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.938,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "Staying_with_carry__selectively",
+      "document": "Staying with carry (selectively).pdf",
+      "date": "2026-04-30",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

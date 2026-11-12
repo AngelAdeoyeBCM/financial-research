@@ -1,0 +1,163 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fixed_Income_Blog_-_The_term_premium_is_at_a_decade_high._But_is_it_too_high.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-30",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {},
+    "decisions": {
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 2
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 1,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 3,
+  "kinds": {
+   "answer": 1,
+   "symbol": 1,
+   "deixis": 1
+  },
+  "rooted_share": 1.0,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 14,
+  "cost_usd": 0.0613
+ },
+ "referents": [],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C002",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0295423,
+   "duration_ms": 4686,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2807,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 299,
+    "output_tokens_details": {
+     "thinking_tokens": 215
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2807,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 299,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2807,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2807
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.031800300000000004,
+   "duration_ms": 6333,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2733,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 456,
+    "output_tokens_details": {
+     "thinking_tokens": 379
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2733,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 456,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2733,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2733
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

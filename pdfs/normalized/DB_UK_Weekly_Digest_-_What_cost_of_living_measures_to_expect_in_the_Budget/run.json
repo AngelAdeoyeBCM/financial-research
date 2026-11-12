@@ -1,0 +1,342 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_UK_Weekly_Digest_-_What_cost_of_living_measures_to_expect_in_the_Budget.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-09",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 17,
+    "referents": {
+     "thing": 11,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 12,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "relative": 1,
+     "expletive": 4
+    },
+    "extra": 4,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 62,
+  "kinds": {
+   "deixis": 36,
+   "symbol": 10,
+   "noun_phrase": 6,
+   "demonstrative": 4,
+   "pronoun": 3,
+   "possessive": 2,
+   "proposition": 1
+  },
+  "rooted_share": 0.6701030927835051,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 5,
+   "UNGROUNDED_WORD": 3
+  },
+  "sentences": 104,
+  "cost_usd": 0.2116
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 2,
+   "end": 18,
+   "quote": "UK Weekly Digest",
+   "name": "the UK Weekly Digest"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1524,
+   "end": 1541,
+   "quote": "Chancellor Healey",
+   "name": "Chancellor Healey"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2359,
+   "end": 2379,
+   "quote": "just under GBP 2,100",
+   "name": "just under GBP 2,100"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3241,
+   "end": 3262,
+   "quote": "the cliff-edge effect",
+   "name": "the cliff-edge effect"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 5561,
+   "end": 5607,
+   "quote": "a GBP 1 50 increase in the Warm Homes Discount",
+   "name": "a GBP 1 50 increase in the Warm Homes Discount"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 6510,
+   "end": 6538,
+   "quote": "all six measures noted above",
+   "name": "all six measures noted above"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 8241,
+   "end": 8309,
+   "quote": "topping-up/widening the Government’s industrial electricity discount",
+   "name": "topping-up/widening the Government’s industrial electricity discount"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 9629,
+   "end": 9712,
+   "quote": "August GDP to have stalled after July’s stronger-than-expected 0.4% m-o-m expansion",
+   "name": "August GDP to have stalled after July’s stronger-than-expected 0.4% m-o-m expansion"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 10874,
+   "end": 10917,
+   "quote": "Governor Bailey and Deputy Governor Breeden",
+   "name": "Governor Bailey and Deputy Governor Breeden"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 1646,
+   "end": 1687,
+   "quote": "a temporary VAT cut to electricity prices",
+   "name": "the temporary VAT cut to electricity prices"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 8678,
+   "end": 8733,
+   "quote": "a temporary (Jan-Jun) capped small-firm energy discount",
+   "name": "a temporary (Jan-Jun) capped small-firm energy discount"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 9629,
+   "end": 9639,
+   "quote": "August GDP",
+   "name": "August GDP"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we inch' at 126"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We assess' at 835"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we wouldn’t' at 3430"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We don’t' at 7508"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we wouldn’t' at 8657"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 11038",
+   "message": "not verbatim in source: [\"breeden's\"] in {{their => Governor Bailey and Deputy Governor Breeden's}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 11063",
+   "message": "not verbatim in source: ['breeden'] in {{they => Governor Bailey and Deputy Governor Breeden}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 11211",
+   "message": "not verbatim in source: ['breeden'] in {{they => Governor Bailey and Deputy Governor Breeden}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0818165,
+   "duration_ms": 15497,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 6650,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1370,
+    "output_tokens_details": {
+     "thinking_tokens": 1357
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6650,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1370,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 6650,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 6650
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1298327,
+   "duration_ms": 29857,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7336,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3484,
+    "output_tokens_details": {
+     "thinking_tokens": 2204
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7336,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3484,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7336,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7336
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

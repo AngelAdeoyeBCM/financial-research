@@ -1,0 +1,93 @@
+[
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[7].conditions[0]",
+    "message": "S029 is in conditions, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states the condition; an adopted working premise belongs in assumptions."
+  },
+  {
+    "code": "ASSUMPTION_NOT_EXPLICIT",
+    "severity": "error",
+    "path": "$.arguments[8].assumptions[0]",
+    "message": "S031 is in assumptions, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Use assumptions only when the evidence says the author assumes or adopts the proposition; otherwise use premises or conditions."
+  },
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[9].conditions[0]",
+    "message": "S031 is in conditions, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states the condition; an adopted working premise belongs in assumptions."
+  },
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[11].warrants[0]",
+    "message": "S039 is in warrants, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states a general principle; otherwise move the statement to premises."
+  },
+  {
+    "code": "ASSUMPTION_NOT_EXPLICIT",
+    "severity": "error",
+    "path": "$.arguments[17].assumptions[0]",
+    "message": "S031 is in assumptions, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Use assumptions only when the evidence says the author assumes or adopts the proposition; otherwise use premises or conditions."
+  },
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[20].conditions[0]",
+    "message": "S079 is in conditions, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states the condition; an adopted working premise belongs in assumptions."
+  },
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[22].conditions[0]",
+    "message": "S083 is in conditions, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states the condition; an adopted working premise belongs in assumptions."
+  },
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[23].warrants[0]",
+    "message": "S007 is in warrants, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states a general principle; otherwise move the statement to premises."
+  },
+  {
+    "code": "PREMISE_DUPLICATES_CORE",
+    "severity": "warning",
+    "path": "$.arguments[8].assumptions[0]",
+    "message": "S031 restates S001, the conclusion of A001 (word overlap 0.60).",
+    "suggested_action": "Reference A001 (or S001) instead of restating it."
+  },
+  {
+    "code": "PREMISE_DUPLICATES_CORE",
+    "severity": "warning",
+    "path": "$.arguments[9].conditions[0]",
+    "message": "S031 restates S001, the conclusion of A001 (word overlap 0.60).",
+    "suggested_action": "Reference A001 (or S001) instead of restating it."
+  },
+  {
+    "code": "PREMISE_DUPLICATES_CORE",
+    "severity": "warning",
+    "path": "$.arguments[17].assumptions[0]",
+    "message": "S031 restates S001, the conclusion of A001 (word overlap 0.60).",
+    "suggested_action": "Reference A001 (or S001) instead of restating it."
+  },
+  {
+    "code": "PREMISE_DUPLICATES_CORE",
+    "severity": "warning",
+    "path": "$.arguments[23].warrants[0]",
+    "message": "S007 restates S086, the conclusion of A025 (word overlap 0.64).",
+    "suggested_action": "Reference A025 (or S086) instead of restating it."
+  },
+  {
+    "code": "PREMISE_DUPLICATES_CORE",
+    "severity": "warning",
+    "path": "$.arguments[25].premises[0]",
+    "message": "S007 restates S086, the conclusion of A025 (word overlap 0.64).",
+    "suggested_action": "Reference A025 (or S086) instead of restating it."
+  }
+]

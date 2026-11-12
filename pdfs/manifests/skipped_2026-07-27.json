@@ -1,0 +1,142 @@
+{
+  "batch_id": "2026-07-27",
+  "window": [
+    "2026-07-27",
+    "2026-07-27"
+  ],
+  "generated_at": "2026-10-29T16:30:40",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_27_31.json",
+      "sha256": "5965830b77a419f936faf0a0f8c3959f9cf37e9955607a291ba167dbba71cfc2",
+      "records": 202,
+      "dates": [
+        "2026-07-27",
+        "2026-07-31"
+      ],
+      "records_for_batch": 54
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 5,
+    "DISTORTED_TABLE": 2,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "Brazil_How_to_trade_the_election_Desknote--929049",
+      "document": "Brazil_How_to_trade_the_election_Desknote--929049.pdf",
+      "date": "2026-07-27",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 33 38 43 48 53 58 63 -4 -3 -2 -1 0",
+          "chunk_id": "Brazil_How_to_trade_the_election_Desknote--929049.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 10 20 30 40 50 60 Jan Feb Mar Apr May",
+          "chunk_id": "Brazil_How_to_trade_the_election_Desknote--929049.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 Jan-24 Nov-24 Sep-25 Jul-26",
+          "chunk_id": "Brazil_How_to_trade_the_election_Desknote--929049.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2026 2022 2018 2014 2010 2006 2002 -40 -30 -20 -10 0",
+          "chunk_id": "Brazil_How_to_trade_the_election_Desknote--929049.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Global_Macro_The_Great_Reversal_Japan_s_potential_domestic_pivot_Desknote--929001",
+      "document": "Global_Macro_The_Great_Reversal_Japan_s_potential_domestic_pivot_Desknote--929001.pdf",
+      "date": "2026-07-27",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 32,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 80,679 26.9% −0.3% 80,443 24.8% | 73,399 24.5% 3.1% 75.654 23.3% | 71,391 23.8% 14.6% 81,840 25.2%",
+          "chunk_id": "Global_Macro_The_Great_Reversal_Japan_s_potential_domestic_pivot_Desknote--929001.pdf-3-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14",
+          "chunk_id": "Global_Macro_The_Great_Reversal_Japan_s_potential_domestic_pivot_Desknote--929001.pdf-4-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "STEER_USD_overvaluation_reduces_in_Asia_long_EURNOK_Trade_Idea--929016",
+      "document": "STEER_USD_overvaluation_reduces_in_Asia_long_EURNOK_Trade_Idea--929016.pdf",
+      "date": "2026-07-27",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "69% of tokens are numeric/date values",
+          "chunk_id": "STEER_USD_overvaluation_reduces_in_Asia_long_EURNOK_Trade_Idea--929016.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

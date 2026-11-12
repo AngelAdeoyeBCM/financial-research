@@ -1,0 +1,228 @@
+﻿version: "1"
+
+task:
+  name: event
+  type: classification
+  multiple_labels: true
+  allow_empty: true
+  prompt:
+    - "Identify substantive real-world events discussed in the document."
+    - "Classify each event using the most specific applicable event type."
+    - "Do not treat general themes, views, forecasts, or recurring conditions as events."
+    - "An event must refer to a discrete occurrence, scheduled occurrence, or materially developing real-world situation."
+    - "Create separate event instances when the document discusses distinct occurrences."
+    - "Event type describes what kind of event occurred; event status describes its temporal state."
+    - "Do not infer an event that is not substantively supported by the source text."
+    - "Preserve the source wording for event names and dates where practical."
+
+labels:
+  geopolitical_conflict:
+    name: Geopolitical conflict
+    description: >
+      Armed conflict, military escalation, invasion, strikes, attacks,
+      ceasefires, territorial conflict, or materially changing hostilities
+      between states or organised armed groups.
+    status: active
+
+  diplomatic_meeting:
+    name: Diplomatic meeting
+    description: >
+      A meeting, summit, call, negotiation, or formal engagement between
+      political leaders, governments, diplomats, or international institutions.
+    status: active
+
+  election:
+    name: Election
+    description: >
+      National or subnational elections, referenda, election rounds,
+      or materially important electoral processes.
+    status: active
+
+  political_transition:
+    name: Political transition
+    description: >
+      Leadership changes, resignations, appointments, government formation,
+      coalition changes, coups, confidence votes, or transfers of political power.
+    status: active
+
+  policy_announcement:
+    name: Policy announcement
+    description: >
+      A substantive government policy announcement, legislative decision,
+      executive action, or major change in domestic public policy.
+    status: active
+
+  central_bank_decision:
+    name: Central bank decision
+    description: >
+      A monetary-policy decision, policy-rate change, balance-sheet decision,
+      intervention, or formal central-bank policy announcement.
+    status: active
+
+  economic_release:
+    name: Economic release
+    description: >
+      The publication of a scheduled or unscheduled macroeconomic data release,
+      including revisions to previously published data.
+    status: active
+
+  fiscal_event:
+    name: Fiscal event
+    description: >
+      Budgets, fiscal statements, tax packages, spending packages,
+      debt-ceiling decisions, borrowing announcements, or other discrete
+      government-finance events.
+    status: active
+
+  trade_policy_event:
+    name: Trade policy event
+    description: >
+      The imposition, removal, escalation, suspension, or formal announcement
+      of tariffs, quotas, export controls, import restrictions, or trade agreements.
+    status: active
+
+  sanctions_event:
+    name: Sanctions event
+    description: >
+      The introduction, expansion, relaxation, suspension, or removal of
+      economic, financial, trade, or individual sanctions.
+    status: active
+
+  regulatory_event:
+    name: Regulatory event
+    description: >
+      A new regulation, regulatory ruling, enforcement action, approval,
+      prohibition, supervisory decision, or material legal-regulatory change.
+    status: active
+
+  earnings_release:
+    name: Earnings release
+    description: >
+      A company earnings report, trading update, or formal financial-results release.
+    status: active
+
+  corporate_action:
+    name: Corporate action
+    description: >
+      A discrete corporate event such as a merger, acquisition, divestiture,
+      restructuring, bankruptcy, management change, capital return,
+      financing transaction, or major strategic announcement.
+    status: active
+
+  rating_change:
+    name: Rating change
+    description: >
+      A credit-rating upgrade, downgrade, outlook change, watch placement,
+      or other formal rating-agency action involving a sovereign or corporate issuer.
+    status: active
+
+  sovereign_credit_event:
+    name: Sovereign credit event
+    description: >
+      A sovereign default, debt restructuring, debt exchange, payment failure,
+      creditor agreement, or other material sovereign-credit development
+      not limited to a rating action.
+    status: active
+
+  corporate_credit_event:
+    name: Corporate credit event
+    description: >
+      A corporate default, restructuring, distressed exchange, covenant breach,
+      bankruptcy filing, or other material corporate-credit development.
+    status: active
+
+  market_dislocation:
+    name: Market dislocation
+    description: >
+      An unusually large or disorderly market move, liquidity disruption,
+      trading halt, squeeze, crash, market closure, or other discrete
+      market-functioning disturbance.
+    status: active
+
+  supply_issuance_event:
+    name: Supply and issuance event
+    description: >
+      A security issuance, auction, syndication, refinancing, redemption,
+      buyback, or other discrete financing event affecting market supply.
+    status: active
+
+  natural_disaster:
+    name: Natural disaster
+    description: >
+      Earthquakes, floods, hurricanes, wildfires, droughts, or other natural
+      disasters with substantive economic, political, corporate, or market relevance.
+    status: active
+
+  public_health_event:
+    name: Public health event
+    description: >
+      A disease outbreak, pandemic development, public-health emergency,
+      or major government health intervention with substantive economic
+      or market relevance.
+    status: active
+
+  labour_action:
+    name: Labour action
+    description: >
+      Strikes, industrial action, lockouts, or other organised labour
+      disputes with substantive economic, corporate, or market relevance.
+    status: active
+
+
+disambiguation:
+  - >
+      geopolitical_conflict concerns armed hostilities or material military
+      escalation; diplomatic_meeting concerns formal political or diplomatic
+      engagement even when the meeting relates to an existing conflict.
+
+  - >
+      political_transition concerns changes in political leadership or government
+      composition; election concerns the electoral process or result itself.
+
+  - >
+      policy_announcement concerns general government policy actions;
+      fiscal_event should be used when the action specifically concerns taxation,
+      public spending, budgets, borrowing, deficits, or other government finances.
+
+  - >
+      central_bank_decision concerns monetary-policy or central-bank actions;
+      economic_release concerns the publication of macroeconomic data.
+
+  - >
+      trade_policy_event concerns tariffs, trade agreements, export controls,
+      quotas, and trade restrictions; sanctions_event concerns targeted economic
+      or financial restrictions imposed for political or foreign-policy purposes.
+
+  - >
+      regulatory_event concerns rules, approvals, enforcement, or supervision;
+      policy_announcement concerns broader government policy decisions.
+
+  - >
+      earnings_release concerns publication of company financial results;
+      corporate_action concerns mergers, management changes, restructurings,
+      capital actions, and other discrete company developments.
+
+  - >
+      rating_change concerns formal rating-agency actions;
+      sovereign_credit_event and corporate_credit_event concern defaults,
+      restructurings, payment failures, and other credit events themselves.
+
+  - >
+      market_dislocation should be used for unusually large or disorderly
+      market-functioning events rather than ordinary price moves.
+
+  - >
+      supply_issuance_event concerns discrete security issuance, auction,
+      redemption, refinancing, or buyback events rather than general discussion
+      of market supply.
+
+  - >
+      labour_action concerns organised strikes, industrial action, or
+      lockouts; geopolitical_conflict concerns armed hostilities, and
+      market_dislocation concerns disorderly market-functioning disturbances
+      rather than their labour-dispute cause.
+
+  - >
+      Event status is independent of event type. A geopolitical_conflict,
+      election, diplomatic_meeting, or any other event type may be scheduled,
+      ongoing, completed, postponed, cancelled, or uncertain.

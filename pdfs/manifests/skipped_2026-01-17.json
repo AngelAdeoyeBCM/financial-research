@@ -1,0 +1,181 @@
+{
+  "batch_id": "2026-01-17",
+  "window": [
+    "2026-01-17",
+    "2026-01-17"
+  ],
+  "generated_at": "2026-10-29T16:26:18",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-25_2026-01-28.json",
+      "sha256": "5dfd5842e7e7518b563ed08eef4d020963b3f6596dfed2cca8eda50d9b351bc3",
+      "records": 1144,
+      "dates": [
+        "2026-01-17",
+        "2026-01-20"
+      ],
+      "records_for_batch": 22
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "in_scope": 1,
+    "out_of_scope": 0,
+    "compiled": 0,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 12,
+    "DISTORTED_TABLE": 2,
+    "UNSTRUCTURED_TEXT": 2,
+    "MISSING_CHUNKS": 1
+  },
+  "documents": [
+    {
+      "stem": "GS_US_ECONOMICS_ANALYST_-_Economic_Data_Surprises__Our_Forecast_Performance__and_Market_Reactions_in_2025",
+      "document": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf",
+      "date": "2026-01-17",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 22,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        14
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 14]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 2.4 1.8 -1 0 1 2 3 -1.0 -0.5 0.0 0.5 1.0",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 5 Jan-26 0 5 10 15 20 25 0 5 10 15",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -4 -3 -2 -1 0 1 2 3 4 5 6 -4",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -4 -3 -2 -1 0 1 2 3 4 5 6 -4",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 2.8 2.9 -3 -2 -1 0 1 2 3 4 5 6",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 100 100 100 90 67 67 64 60 58 56 50 44",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "46 consecutive numeric/date tokens: 100 100 100 90 67 67 64 60 58 56 50 44",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "54 consecutive numeric/date tokens: 100 83 78 75 75 71 67 64 60 60 60 56",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 0",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 0",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 60.1 59.9 59.7 59.5 59.3 59.9 59.7 59.7 59.7 59.6 59.5 59.5",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 3.88 4.58 4.18 4.20 4.25 4.23 4.24 4.16 4.18 4.20 4.20 4.20",
+          "chunk_id": "GS_US ECONOMICS ANALYST - Economic Data Surprises, Our Forecast Performance, and Market Reactions in 2025.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "summary": {
+    "ok": true,
+    "sentences_file": "outputs/normalise_v20/opus/sentences.jsonl",
+    "model": "haiku",
+    "prompt": "atomise_v03.md",
+    "attempts": 1,
+    "sentences": 143,
+    "targets": 126,
+    "atoms": 253,
+    "atoms_per_sentence": 2.01,
+    "claim_type": {
+      "PREDICTION": 115,
+      "VIEW": 53,
+      "OBSERVATION": 46,
+      "FORECAST": 39
+    },
+    "modality": {
+      "ASSERTED": 168,
+      "HEDGED": 64,
+      "SPECULATIVE": 21
+    },
+    "role": {
+      "statement": 190,
+      "consequent": 32,
+      "antecedent": 31
+    },
+    "formulas": 26,
+    "relations": {
+      "causal": 34,
+      "contrast": 7,
+      "attribution": 2,
+      "temporal": 2
+    },
+    "topics": 8,
+    "open_connectives": 8,
+    "errors": 0,
+    "warnings": {
+      "UNCONSUMED_CONNECTIVE": 6,
+      "SOFT_CONNECTIVE_IN_ATOM": 5,
+      "HEDGE_IN_TEXT": 13,
+      "PRONOUN_IN_ATOM": 1
+    },
+    "cost_usd": 0.0466
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P030",
+      "message": "['but']"
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P034-1",
+      "message": "['before']: There will be only one additional employment report before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P034-1",
+      "message": "['will']: There will be only one additional employment report before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P034-2",
+      "message": "['before']: There will be only one CPI release before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P034-2",
+      "message": "['will']: There will be only one CPI release before the October meeting."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P034",
+      "message": "['before']"
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P038-2",
+      "message": "['will']: The language around inflation will be modified to rationalize the Fed hike."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P043-1",
+      "message": "['may']: The SEP's days may be numbered."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P043-2",
+      "message": "['will']: The Sept FOMC will still deliver an updated set of Fed projections."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P044-1",
+      "message": "['will']: The Fed projections will also include policymakers' first estimates for 2029."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P048-2",
+      "message": "['will']: Many policymakers will assume that higher rates will help quell inflation."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P050",
+      "message": "['although']"
+    },
+    {
+      "severity": "warning",
+      "code": "PRONOUN_IN_ATOM",
+      "segment": "P052-1",
+      "message": "['its']: The Fed lowers its growth forecasts by 0.1pp beyond this year."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P054",
+      "message": "['however']"
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P059-1",
+      "message": "['will']: Warsh will face a balancing act in responding to questions about the policy path going forward."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P061-1",
+      "message": "['will']: Warsh attempts a \"dovish hike\" by reassuring markets that the Fed will proceed cautiously."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P065-2",
+      "message": "['would']: Warsh pointing to the increase in oil as upside risk to inflation would contradict Warsh's prior stance."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P065-3",
+      "message": "['should']: Warsh's prior stance is that oil shocks should be treated as one-offs."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P086-1",
+      "message": "['will']: The key question will be the Warsh presser."
+    },
+    {
+      "severity": "warning",
+      "code": "HEDGE_IN_TEXT",
+      "segment": "P105-2",
+      "message": "['should']: Trump should understand risks of bond un-anchoring and market implications."
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P111-3",
+      "message": "['before']: June '23 was a Fed hold before delivering last post COVID hike with 8.5bps priced."
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P111-4",
+      "message": "['despite']: Warsh held steady in July '26 despite 40% priced, with 10bps priced."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P111",
+      "message": "['before', 'despite']"
+    },
+    {
+      "severity": "warning",
+      "code": "SOFT_CONNECTIVE_IN_ATOM",
+      "segment": "P113-1",
+      "message": "['since']: Since '07, there have been 74 meetings where market priced some hike likelihood and Fed held."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCONSUMED_CONNECTIVE",
+      "segment": "P113",
+      "message": "['since']"
+    }
+  ],
+  "usage": [
+    {
+      "cost_usd": 0.046584829999999994,
+      "duration_ms": 287765,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 12661,
+        "cache_read_input_tokens": 2013,
+        "output_tokens": 86682,
+        "output_tokens_details": {
+          "thinking_tokens": 60991
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 12661,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 86682,
+            "cache_read_input_tokens": 2013,
+            "cache_creation_input_tokens": 12661,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 12661
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "models": [
+        "claude-haiku-5-5"
+      ]
+    }
+  ]
+}

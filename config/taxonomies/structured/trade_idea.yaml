@@ -1,0 +1,78 @@
+version: "1"
+
+# Structured claim task: run on one claim span at a time, not on a whole document.
+# Field keys are the output keys. Defaults are merged into each field with `<<`;
+# allow_none is true because a claim span usually omits most slots.
+x-single: &single
+  dtype: str
+  allow_multiple: false
+  allow_none: true
+  status: active
+x-multi: &multi
+  dtype: list
+  allow_multiple: true
+  allow_none: true
+  status: active
+
+id: claim_trade_idea
+type: structured
+name: trade_idea
+
+fields:
+  action:
+    <<: *single
+    name: Action
+    description: "The action the reader is asked to take."
+    choices: [buy, sell, long, short, pay, receive, overweight, underweight, hedge, close]
+
+  instrument:
+    <<: *multi
+    name: Instrument
+    description: "Instruments or markets to be traded, as written."
+
+  against_instrument:
+    <<: *multi
+    name: Against instrument
+    description: "The short or funding leg of a relative-value, curve, or pair trade."
+
+  structure:
+    <<: *single
+    name: Structure
+    description: "The form of the trade."
+    choices: [outright, relative_value, curve, spread, pair, option_strategy, carry, hedge]
+
+  entry:
+    <<: *single
+    name: Entry
+    description: "Entry level, price, or condition."
+
+  target:
+    <<: *single
+    name: Target
+    description: "Profit target level or price."
+
+  stop:
+    <<: *single
+    name: Stop
+    description: "Stop-loss level or price."
+
+  timeframe:
+    <<: *single
+    name: Timeframe
+    description: "Intended holding period of the trade."
+
+  risks:
+    <<: *multi
+    name: Risks
+    description: "Risks to the trade named by the author."
+
+  trade_status:
+    <<: *single
+    name: Trade status
+    description: "Where the trade stands: newly proposed, maintained, hit target, stopped out, or closed."
+    choices: [new, maintained, target_hit, stopped_out, closed]
+
+  rationale:
+    <<: *single
+    name: Rationale
+    description: "The reason the author gives for the trade."

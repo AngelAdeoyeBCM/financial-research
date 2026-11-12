@@ -1,0 +1,186 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_US_Investor_Visit_-_Post_Ruling_Party_Landslide_in_Lower_House_Election.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 4,
+    "referents": {
+     "thing": 2,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 3,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 9,
+  "kinds": {
+   "deixis": 5,
+   "pronoun": 2,
+   "shell": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.7777777777777778,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 25,
+  "cost_usd": 0.0791
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 936,
+   "end": 967,
+   "quote": "a potential consumption tax cut",
+   "name": "a potential consumption tax cut"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1174,
+   "end": 1223,
+   "quote": "fiscal easing would likely be pursued selectively",
+   "name": "fiscal easing would likely be pursued selectively"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3425,
+   "end": 3475,
+   "quote": "the “Summary of Opinions” from the January meeting",
+   "name": "the “Summary of Opinions” from the January meeting"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.032508,
+   "duration_ms": 2867,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3620,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 132,
+    "output_tokens_details": {
+     "thinking_tokens": 124
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3620,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 132,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3620,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3620
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.04656299999999999,
+   "duration_ms": 7174,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3789,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 757,
+    "output_tokens_details": {
+     "thinking_tokens": 459
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3789,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 757,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3789,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3789
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

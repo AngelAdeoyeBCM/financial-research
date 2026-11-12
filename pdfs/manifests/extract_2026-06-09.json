@@ -1,0 +1,241 @@
+{
+  "batch_id": "2026-06-09",
+  "window": [
+    "2026-06-09",
+    "2026-06-09"
+  ],
+  "generated_at": "2026-10-29T16:29:40",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-06_2026-06-09.json",
+      "sha256": "bf118a5dc46fb69bd6d894ccebe6be78ae55b54e7b7ba9ae8b9ef1a5a0b397cc",
+      "records": 1130,
+      "dates": [
+        "2026-06-07",
+        "2026-06-09"
+      ],
+      "records_for_batch": 39
+    }
+  ],
+  "counts": {
+    "documents": 5,
+    "in_scope": 5,
+    "out_of_scope": 0,
+    "compiled": 2,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 12,
+    "edits": 7,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "China___Narratives_Remain_Intact__Long_Yuan_Remains_Intact",
+      "document": "China – Narratives Remain Intact, Long Yuan Remains Intact.pdf",
+      "date": "2026-06-09",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.833,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "ECB_Preview__Insurance_hike_or_a_new_cycle",
+      "document": "ECB Preview: Insurance hike or a new cycle?.pdf",
+      "date": "2026-06-09",
+      "publisher": "State Street",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Close_short_CNHTWD_Trade_Idea--925954",
+      "document": "FX_Close_short_CNHTWD_Trade_Idea--925954.pdf",
+      "date": "2026-06-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Close_short_CNHTWD_Trade_Idea--925954.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "d15a6d3fcc0141831dc9de51869d222cc2b76886",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 2,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Close short CNHTWD ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "unicode": {
+          "count": 2,
+          "examples": [
+            {
+              "before": "‑",
+              "after": "‐"
+            },
+            {
+              "before": "‑",
+              "after": "‐"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "FX_Exit_long_USDPEN_Trade_Idea--925978",
+      "document": "FX_Exit_long_USDPEN_Trade_Idea--925978.pdf",
+      "date": "2026-06-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Exit_long_USDPEN_Trade_Idea--925978.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "37b3c88af30b2da21086fac570ca01b672b9d3de",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 09/06/2026 1"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "in USDPEN (see FX: Long USDPEN on"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "To recap, we initiated the position on 5 June because we"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "a negatively asymmetric risk profile in the wake of the election."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "risks toward an upward move in USDPEN (see FX: Long USDPEN on election uncertainty)."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "To recap, we initiated the position on 5 June because we"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "a negatively asymmetric risk profile in the wake of the election."
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "risks toward an upward move in USDPEN (see FX: Long USDPEN on election uncertainty)."
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 8
+      },
+      "edits": {
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "FX: Exit long USDPEN ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "FX_The_USD_and_rate_hikes_Desknote--925708",
+      "document": "FX_The_USD_and_rate_hikes_Desknote--925708.pdf",
+      "date": "2026-06-09",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 24,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/G10_FX_Entering_a_long_NZDCAD_trade_Trade_Idea--916692.txt",
+  "model": "opus",
+  "replayed": true,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-01-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 14,
+    "referents": {
+     "thing": 8,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 12,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "time": 2
+    },
+    "extra": 9,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 3,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 54,
+  "kinds": {
+   "deixis": 30,
+   "noun_phrase": 9,
+   "proposition": 4,
+   "demonstrative": 4,
+   "fragment": 3,
+   "possessive": 2,
+   "pronoun": 2
+  },
+  "rooted_share": 0.8141592920353983,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 49,
+  "cost_usd": 0.175
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 736,
+   "end": 758,
+   "quote": "Canada and New Zealand",
+   "name": "Canada and New Zealand"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1299,
+   "end": 1359,
+   "quote": "we are more doubtful about seeing a similar economic rebound",
+   "name": "we are more doubtful about seeing a similar economic rebound"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1546,
+   "end": 1571,
+   "quote": "the USTR Ambassador Greer",
+   "name": "the USTR Ambassador Greer"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4530,
+   "end": 4572,
+   "quote": "The USTR’s preliminary assessment of USMCA",
+   "name": "the USTR’s preliminary assessment of USMCA"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1539,
+   "end": 1544,
+   "quote": "USMCA",
+   "name": "USMCA"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 1951,
+   "end": 2019,
+   "quote": "this period of uncertainty will be reflected in future Canadian data",
+   "name": "this period of uncertainty will be reflected in future Canadian data"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2531,
+   "end": 2558,
+   "quote": "a long NZDCAD spot position",
+   "name": "the long NZDCAD spot position"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 1252,
+   "end": 1289,
+   "quote": "easier financial conditions in Canada",
+   "name": "easier financial conditions in Canada"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 4942,
+   "end": 5016,
+   "quote": "this period of uncertainty will be reflected in the upcoming Canadian data",
+   "name": "this period of uncertainty will be reflected in the upcoming Canadian data"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 496,
+   "end": 519,
+   "quote": "long USDCAD via options",
+   "name": "long USDCAD via options"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 2302,
+   "end": 2326,
+   "quote": "the Trump administration",
+   "name": "the Trump administration"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we approach' at 1187"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we approach' at 3198"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we approach' at 4178"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we hesitate' at 4288"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 13",
+   "message": "'its' in 'said USMCA is “no real advantage to us, its irrelevant really.” The author interpre'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0540251,
+   "duration_ms": 9360,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4301,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 932,
+    "output_tokens_details": {
+     "thinking_tokens": 660
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4301,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 932,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4301,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4301
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1209255,
+   "duration_ms": 34725,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4829,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4054,
+    "output_tokens_details": {
+     "thinking_tokens": 2680
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4829,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4054,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4829,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4829
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

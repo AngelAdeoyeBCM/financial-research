@@ -1,0 +1,255 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Covered_Bonds_and_SSA_Update_-_Germany_government_support_for_munis__BAWAG_-_collateral_among_strongest_globally.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-29",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 11,
+    "referents": {
+     "thing": 5,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 10,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "time": 1
+    },
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 23,
+  "kinds": {
+   "noun_phrase": 6,
+   "proposition": 6,
+   "deixis": 6,
+   "possessive": 4,
+   "symbol": 1
+  },
+  "rooted_share": 0.9477611940298507,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 3
+  },
+  "sentences": 30,
+  "cost_usd": 0.1173
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 549,
+   "end": 570,
+   "quote": "German federal states",
+   "name": "German federal states"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 755,
+   "end": 905,
+   "quote": "the Bund will cover 80% of the costs or lower revenues arising from new federal regulations (excluding tax laws) for federal states and municipalities",
+   "name": "the Bund will cover 80% of the costs or lower revenues arising from new federal regulations (excluding tax laws) for federal states and municipalities"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 2070,
+   "end": 2129,
+   "quote": "Cover pool quality of CB seems to have no impact on pricing",
+   "name": "Cover pool quality of CB seems to have no impact on pricing"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2824,
+   "end": 2891,
+   "quote": "Austrian BAWAG, Bausparkasse Wuestenrot and Raiffeisen Bausparkasse",
+   "name": "Austrian BAWAG, Bausparkasse Wuestenrot and Raiffeisen Bausparkasse"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3936,
+   "end": 3941,
+   "quote": "BAWAG",
+   "name": "BAWAG"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 4064,
+   "end": 4250,
+   "quote": "Austrian mortgage CB issued by BAWAG, Raiffeisen Bausparkasse and Wuestenrot do not trade significantly tighter than mortgage CB issued by other Austrian CB with higher collateral scores",
+   "name": "Austrian mortgage CB issued by BAWAG, Raiffeisen Bausparkasse and Wuestenrot do not trade significantly tighter than mortgage CB issued by other Austrian CB with higher collateral scores"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4512,
+   "end": 4559,
+   "quote": "Norwegian, Singaporean, Korean and Slovakian CB",
+   "name": "Norwegian, Singaporean, Korean and Slovakian CB"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 615,
+   "end": 668,
+   "quote": "relief measures for federal states and municipalities",
+   "name": "relief measures for federal states and municipalities"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we struggle' at 1533"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 979",
+   "message": "+23 words: {{This => That the Bund will cover 80% of the costs or lower revenues arising from new federal regulations (excluding tax laws) for federal states and municipalities}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4258",
+   "message": "+27 words: {{this => that Austrian mortgage CB issued by BAWAG, Raiffeisen Bausparkasse and Wuestenrot do not trade significantly tighter than mortgage CB issued by other Austrian CB with higher collateral scores}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 4351",
+   "message": "+27 words: {{it => that Austrian mortgage CB issued by BAWAG, Raiffeisen Bausparkasse and Wuestenrot do not trade significantly tighter than mortgage CB issued by other Austrian CB with higher collateral scores}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.035298399999999994,
+   "duration_ms": 3729,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3819,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 191,
+    "output_tokens_details": {
+     "thinking_tokens": 178
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3819,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 191,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3819,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3819
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0820174,
+   "duration_ms": 18905,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4243,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2346,
+    "output_tokens_details": {
+     "thinking_tokens": 1185
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4243,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2346,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4243,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4243
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Swiss_Watch_-_SNB_preview_-_the_Swiss_need_not_raise_rates.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-21",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 28,
+    "referents": {
+     "thing": 6,
+     "claim": 5
+    },
+    "decisions": {
+     "leave": 11,
+     "link": 17
+    },
+    "leave_reasons": {
+     "expletive": 5,
+     "time": 1,
+     "not_a_reference": 4,
+     "generic": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 43,
+  "kinds": {
+   "deixis": 18,
+   "possessive": 9,
+   "abbreviation": 6,
+   "shell": 3,
+   "pronoun": 2,
+   "proposition": 2,
+   "symbol": 2,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.7619047619047619,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 47,
+  "cost_usd": 0.1745
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 307,
+   "end": 314,
+   "quote": "the SNB",
+   "name": "the SNB"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 682,
+   "end": 781,
+   "quote": "the SNB to keep its policy rate unchanged at 0.0% at its upcoming quarterly meeting on 24 September",
+   "name": "the SNB to keep its policy rate unchanged at 0.0% at its upcoming quarterly meeting on 24 September"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1266,
+   "end": 1283,
+   "quote": "the exchange rate",
+   "name": "the exchange rate"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1353,
+   "end": 1404,
+   "quote": "it is now adding upward pressure on consumer prices",
+   "name": "it is now adding upward pressure on consumer prices"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 1696,
+   "end": 1776,
+   "quote": "OIS markets price in roughly two 25bp rate hikes by the SNB meeting in June 2027",
+   "name": "OIS markets price in roughly two 25bp rate hikes by the SNB meeting in June 2027"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1999,
+   "end": 2014,
+   "quote": "inflation rates",
+   "name": "inflation rates"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 2559,
+   "end": 2667,
+   "quote": "monthly inflation rates should rise further from 0.8% yoy in August and may peak at around 11⁄4% this winter",
+   "name": "monthly inflation rates should rise further from 0.8% yoy in August and may peak at around 11⁄4% this winter"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 3629,
+   "end": 3706,
+   "quote": "suppliers need to report their prices for the year ahead by the end of August",
+   "name": "suppliers need to report their prices for the year ahead by the end of August"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4763,
+   "end": 4806,
+   "quote": "the SNB’s very large foreign asset holdings",
+   "name": "the SNB’s very large foreign asset holdings"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5473,
+   "end": 5500,
+   "quote": "European Central Bank (ECB)",
+   "name": "the European Central Bank"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5564,
+   "end": 5581,
+   "quote": "The Swiss economy",
+   "name": "the Swiss economy"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C023",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C026",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C027",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C028",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we struggle' at 1809"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'in January and suppliers need to report their prices for the year ahead by the end of'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'Due to that suppliers need to report their prices for the year ahead by the end of'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'In addition, with its very solid public finances, Switzerland'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0415672,
+   "duration_ms": 4105,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4462,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 244,
+    "output_tokens_details": {
+     "thinking_tokens": 231
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4462,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 244,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4462,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4462
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1329795,
+   "duration_ms": 37549,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5584,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4351,
+    "output_tokens_details": {
+     "thinking_tokens": 2896
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5584,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4351,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5584,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5584
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

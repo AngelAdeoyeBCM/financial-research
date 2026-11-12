@@ -1,0 +1,420 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/JPM_US_-_The_Fed_under_Warsh.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-01",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 57,
+    "referents": {
+     "thing": 14,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 45,
+     "leave": 12
+    },
+    "leave_reasons": {
+     "expletive": 5,
+     "time": 1,
+     "not_a_reference": 3,
+     "generic": 2,
+     "relative": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 59,
+  "kinds": {
+   "pronoun": 19,
+   "deixis": 14,
+   "possessive": 14,
+   "demonstrative": 7,
+   "noun_phrase": 3,
+   "proposition": 2
+  },
+  "rooted_share": 0.76,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3,
+   "UNGROUNDED_WORD": 1,
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 76,
+  "cost_usd": 0.2584
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 3176,
+   "end": 3187,
+   "quote": "Kevin Warsh",
+   "name": "Warsh"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1887,
+   "end": 1895,
+   "quote": "the FOMC",
+   "name": "the FOMC"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 492,
+   "end": 556,
+   "quote": "there are several problems with linking AI to lower policy rates",
+   "name": "there are several problems with linking AI to lower policy rates"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 2593,
+   "end": 2613,
+   "quote": "improved measurement",
+   "name": "improved measurement"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2926,
+   "end": 2953,
+   "quote": "A smaller Fed balance sheet",
+   "name": "a smaller Fed balance sheet"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4183,
+   "end": 4201,
+   "quote": "Fed communications",
+   "name": "Fed communications"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 4582,
+   "end": 4608,
+   "quote": "pre-appointment statements",
+   "name": "pre-appointment statements"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4935,
+   "end": 4972,
+   "quote": "a more dovish view of monetary policy",
+   "name": "a more dovish view of monetary policy"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 5729,
+   "end": 5762,
+   "quote": "dissent against his own committee",
+   "name": "dissent against his own committee"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 2936,
+   "end": 2953,
+   "quote": "Fed balance sheet",
+   "name": "the Fed balance sheet"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 7249,
+   "end": 7301,
+   "quote": "several options to reduce banks’ demand for reserves",
+   "name": "several options to reduce banks’ demand for reserves"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 7736,
+   "end": 7752,
+   "quote": "forward guidance",
+   "name": "forward guidance"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 8269,
+   "end": 8281,
+   "quote": "the dot plot",
+   "name": "the dot plot"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 8325,
+   "end": 8341,
+   "quote": "many on the FOMC",
+   "name": "many on the FOMC"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 9035,
+   "end": 9052,
+   "quote": "press conferences",
+   "name": "the press conferences"
+  },
+  {
+   "id": "R16",
+   "type": "claim",
+   "start": 9333,
+   "end": 9388,
+   "quote": "Warsh is opposed to keeping policy unchanged next month",
+   "name": "Warsh is opposed to keeping policy unchanged next month"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C007",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C043",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C047",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C057",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we start' at 5133"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We don’t' at 5764"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we don’t' at 7508"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 3287",
+   "message": "not verbatim in source: ['discusses'] in {{we discuss => the author discusses}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'their' in 'icipants ask of a new Fed chair is what their pre-appointment statements tell the aut'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'their' in 'ntment statements tell the author about their policy leanings.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 11",
+   "message": "'his' in 'orians would likely see dissent against his own committee as a sign of a failed cha'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0756001,
+   "duration_ms": 14497,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5886,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1369,
+    "output_tokens_details": {
+     "thinking_tokens": 1356
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5886,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1369,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5886,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5886
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1828155,
+   "duration_ms": 48057,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8134,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 5810,
+    "output_tokens_details": {
+     "thinking_tokens": 3475
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8134,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5810,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 8134,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8134
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

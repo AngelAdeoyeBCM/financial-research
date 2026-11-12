@@ -1,0 +1,297 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Notes_-_Warsh_and_Peace.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-26",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 22,
+    "referents": {
+     "thing": 9,
+     "claim": 1
+    },
+    "decisions": {
+     "leave": 6,
+     "link": 16
+    },
+    "leave_reasons": {
+     "time": 1,
+     "relative": 3,
+     "expletive": 1,
+     "generic": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 24,
+  "kinds": {
+   "noun_phrase": 11,
+   "deixis": 7,
+   "pronoun": 4,
+   "shell": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.9302325581395349,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 1,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 40,
+  "cost_usd": 0.1399
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 863,
+   "end": 895,
+   "quote": "three scenarios for negotiations",
+   "name": "the three scenarios for negotiations"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 928,
+   "end": 950,
+   "quote": "Scenario 1: Peace deal",
+   "name": "Scenario 1: Peace deal"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2454,
+   "end": 2511,
+   "quote": "Scenario 2: Peace deal fails and muddle through continues",
+   "name": "Scenario 2: Peace deal fails and muddle through continues"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3905,
+   "end": 3930,
+   "quote": "Scenario 3: Re-escalation",
+   "name": "Scenario 3: Re-escalation"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 1567,
+   "end": 1711,
+   "quote": "Fed officials will likely be inclined to “look-through” near-term core inflation pressures that might be tied to the recent run-up in oil prices",
+   "name": "Fed officials will likely be inclined to “look-through” near-term core inflation pressures that might be tied to the recent run-up in oil prices"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4448,
+   "end": 4489,
+   "quote": "an un-anchoring of inflation expectations",
+   "name": "an un-anchoring of inflation expectations"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 5054,
+   "end": 5093,
+   "quote": "a further step up in oil and gas prices",
+   "name": "a further step up in oil and gas prices"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5275,
+   "end": 5282,
+   "quote": "The Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4210,
+   "end": 4247,
+   "quote": "two-sided risks to the policy outlook",
+   "name": "the two-sided risks to the policy outlook"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 220,
+   "end": 260,
+   "quote": "a deal to extend the ceasefire with Iran",
+   "name": "a deal to extend the ceasefire with Iran"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "This",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C018",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 852",
+   "message": "not verbatim in source: ['discusses'] in {{We discuss => The author discusses}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 1837",
+   "message": "+27 words: {{this inclination => the inclination that Fed officials will likely be inclined to “look-through” near-term core inflation pressures that might be tied to the recent run-up in oil prices}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0375551,
+   "duration_ms": 2819,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4206,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 147,
+    "output_tokens_details": {
+     "thinking_tokens": 139
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4206,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 147,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4206,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4206
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1023768,
+   "duration_ms": 27602,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5097,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 3018,
+    "output_tokens_details": {
+     "thinking_tokens": 1673
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5097,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3018,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5097,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5097
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

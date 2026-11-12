@@ -1,0 +1,326 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/MS_Agency_MBS_Research_-_A_Few_Quick_Thoughts_on_Fannie_s_Earnings.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-02-11",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 22,
+    "referents": {
+     "thing": 6,
+     "claim": 3
+    },
+    "decisions": {
+     "link": 14,
+     "leave": 8
+    },
+    "leave_reasons": {
+     "relative": 3,
+     "generic": 1,
+     "not_a_reference": 2,
+     "expletive": 2
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 54,
+  "kinds": {
+   "deixis": 37,
+   "noun_phrase": 5,
+   "possessive": 3,
+   "pronoun": 3,
+   "proposition": 2,
+   "shell": 2,
+   "symbol": 1,
+   "demonstrative": 1
+  },
+  "rooted_share": 0.6310679611650486,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2,
+   "UNGROUNDED_WORD": 1,
+   "MODALITY_CHANGED": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 34,
+  "cost_usd": 0.1784
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 104,
+   "end": 114,
+   "quote": "Fannie Mae",
+   "name": "Fannie Mae"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 2630,
+   "end": 2711,
+   "quote": "Fannie's net basis position after accounting for TBA and pools increased $8bn QoQ",
+   "name": "Fannie's net basis position after accounting for TBA and pools increased $8bn QoQ"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 3304,
+   "end": 3369,
+   "quote": "FHFA increased the prior limitation on our agency MBS investments",
+   "name": "FHFA increased the prior limitation on our agency MBS investments"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3917,
+   "end": 3988,
+   "quote": "maintaining an asset duration closely matched to our liability duration",
+   "name": "maintaining an asset duration closely matched to our liability duration"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 4116,
+   "end": 4154,
+   "quote": "interest-rate risk management strategy",
+   "name": "the interest-rate risk management strategy"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 104,
+   "end": 137,
+   "quote": "Fannie Mae reported 4Q25 earnings",
+   "name": "Fannie Mae's 4Q25 earnings"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 5858,
+   "end": 5892,
+   "quote": "the preference to add pools vs TBA",
+   "name": "the preference to add pools vs TBA"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 6269,
+   "end": 6340,
+   "quote": "their recent behavior includes both hedging of rates and increasing vol",
+   "name": "their recent behavior includes both hedging of rates and increasing vol"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 2915,
+   "end": 2957,
+   "quote": "the announcement of the $200bn buy program",
+   "name": "the announcement of the $200bn buy program"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C004",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we fund' at 5386"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we likely' at 6088"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 6724",
+   "message": "not verbatim in source: ['would'] in {{we'd => the author would}}"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 6724",
+   "message": "dropped [] added ['would'] in {{we'd => the author would}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'their' in 'earch as only a single factor in making their investment decision.'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0447316,
+   "duration_ms": 4150,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4726,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 295,
+    "output_tokens_details": {
+     "thinking_tokens": 287
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4726,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 295,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4726,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4726
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1336911,
+   "duration_ms": 37397,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5570,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4392,
+    "output_tokens_details": {
+     "thinking_tokens": 3053
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5570,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4392,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5570,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5570
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

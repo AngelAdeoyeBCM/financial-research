@@ -1,0 +1,238 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Fed_Watcher_-_A_divided_Fed_keeps_September_in_play.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-24",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 4
+    },
+    "decisions": {
+     "leave": 4,
+     "link": 6
+    },
+    "leave_reasons": {
+     "not_a_reference": 2,
+     "time": 1,
+     "generic": 1
+    },
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 16,
+  "kinds": {
+   "symbol": 7,
+   "pronoun": 3,
+   "possessive": 3,
+   "deixis": 2,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.8620689655172413,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 3
+  },
+  "sentences": 67,
+  "cost_usd": 0.1258
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1038,
+   "end": 1059,
+   "quote": "SF Fed President Daly",
+   "name": "SF Fed President Daly"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1548,
+   "end": 1579,
+   "quote": "St. Louis Fed President Musalem",
+   "name": "St. Louis Fed President Musalem"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 4594,
+   "end": 4601,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 227,
+   "end": 265,
+   "quote": "The minutes from the July FOMC meeting",
+   "name": "the minutes from the July FOMC meeting"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C006",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "time",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "its",
+   "action": "leave",
+   "reason": "generic",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'their' in 'ation over the remainder of the year as their baseline outlook, many officials highli'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 12",
+   "message": "'its' in ' make the total greater than the sum of its parts.'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 21",
+   "message": "'their' in '- Various officials noted that their overall assessment of the economy were '"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0474364,
+   "duration_ms": 4683,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4959,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 336,
+    "output_tokens_details": {
+     "thinking_tokens": 328
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4959,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 336,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4959,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4959
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0783737,
+   "duration_ms": 15417,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5336,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1721,
+    "output_tokens_details": {
+     "thinking_tokens": 1145
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5336,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1721,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5336,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5336
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Citi_Global_FX_Strategy_-_USD_bulls_could_face_a_challenging_week.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-08",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 25,
+    "referents": {
+     "claim": 6,
+     "thing": 11
+    },
+    "decisions": {
+     "link": 24,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 50,
+  "kinds": {
+   "deixis": 21,
+   "proposition": 10,
+   "noun_phrase": 7,
+   "pronoun": 4,
+   "possessive": 4,
+   "demonstrative": 2,
+   "symbol": 2
+  },
+  "rooted_share": 0.8467741935483871,
+  "errors": 0,
+  "warnings": {
+   "UNGROUNDED_WORD": 2
+  },
+  "sentences": 41,
+  "cost_usd": 0.1681
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 150,
+   "end": 193,
+   "quote": "drone launch counts from Iran start to fall",
+   "name": "drone launch counts from Iran start to fall"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 86,
+   "end": 104,
+   "quote": "a strong USD rally",
+   "name": "the strong USD rally"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 890,
+   "end": 996,
+   "quote": "Citi Commodities see $80-90/bbl Brent for at least the next 1-2 weeks, before seeing prices moderate in 2Q",
+   "name": "Citi Commodities see $80-90/bbl Brent for at least the next 1-2 weeks, before seeing prices moderate in 2Q"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 175,
+   "end": 179,
+   "quote": "Iran",
+   "name": "Iran"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 1377,
+   "end": 1403,
+   "quote": "its drones remain a threat",
+   "name": "its drones remain a threat"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1574,
+   "end": 1609,
+   "quote": "Secretary Hegseth and General Caine",
+   "name": "Secretary Hegseth and General Caine"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 2039,
+   "end": 2048,
+   "quote": "US forces",
+   "name": "US forces"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 1446,
+   "end": 1460,
+   "quote": "daily UAE data",
+   "name": "the daily UAE data"
+  },
+  {
+   "id": "R9",
+   "type": "claim",
+   "start": 2330,
+   "end": 2370,
+   "quote": "there is already some progress by Monday",
+   "name": "there is already some progress by Monday"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 251,
+   "end": 282,
+   "quote": "the weak US labor market report",
+   "name": "the weak US labor market report"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 3442,
+   "end": 3480,
+   "quote": "inflation expectations remain elevated",
+   "name": "inflation expectations remain elevated"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 4426,
+   "end": 4450,
+   "quote": "foreign equity investors",
+   "name": "foreign equity investors"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 4259,
+   "end": 4279,
+   "quote": "USD/SPX correlations",
+   "name": "USD/SPX correlations"
+  },
+  {
+   "id": "R14",
+   "type": "claim",
+   "start": 4259,
+   "end": 4295,
+   "quote": "USD/SPX correlations are normalizing",
+   "name": "USD/SPX correlations are normalizing"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 350,
+   "end": 375,
+   "quote": "the geopolitical backdrop",
+   "name": "the geopolitical backdrop"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 4775,
+   "end": 4781,
+   "quote": "Europe",
+   "name": "Europe"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 463,
+   "end": 487,
+   "quote": "big picture developments",
+   "name": "the big picture developments"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C011",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 2706",
+   "message": "not verbatim in source: ['has'] in {{We have => The author has}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 4236",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0428604,
+   "duration_ms": 6441,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3999,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 496,
+    "output_tokens_details": {
+     "thinking_tokens": 483
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3999,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 496,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3999,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3999
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1252894,
+   "duration_ms": 34493,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4928,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4232,
+    "output_tokens_details": {
+     "thinking_tokens": 2601
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4928,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4232,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4928,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4928
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

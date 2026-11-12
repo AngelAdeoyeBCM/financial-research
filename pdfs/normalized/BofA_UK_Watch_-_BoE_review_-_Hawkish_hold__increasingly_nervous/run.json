@@ -1,0 +1,474 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BofA_UK_Watch_-_BoE_review_-_Hawkish_hold__increasingly_nervous.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-17",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 66,
+    "referents": {
+     "thing": 22,
+     "claim": 4
+    },
+    "decisions": {
+     "link": 55,
+     "leave": 11
+    },
+    "leave_reasons": {
+     "expletive": 5,
+     "not_a_reference": 3,
+     "relative": 3
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 117,
+  "kinds": {
+   "deixis": 52,
+   "pronoun": 34,
+   "noun_phrase": 8,
+   "possessive": 6,
+   "symbol": 6,
+   "proposition": 5,
+   "demonstrative": 3,
+   "vp": 2,
+   "shell": 1
+  },
+  "rooted_share": 0.8436018957345972,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4
+  },
+  "sentences": 112,
+  "cost_usd": 0.3079
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 94,
+   "end": 101,
+   "quote": "The BoE",
+   "name": "the BoE"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 363,
+   "end": 395,
+   "quote": "the recent rise in energy prices",
+   "name": "the recent rise in energy prices"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 910,
+   "end": 917,
+   "quote": "The MPC",
+   "name": "the MPC"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1291,
+   "end": 1342,
+   "quote": "the excessive market pricing of close to four hikes",
+   "name": "the excessive market pricing of close to four hikes"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 1571,
+   "end": 1590,
+   "quote": "recent energy moves",
+   "name": "recent energy moves"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 2285,
+   "end": 2328,
+   "quote": "The Bank's overhaul of the QT sales process",
+   "name": "the Bank's overhaul of the QT sales process"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1098,
+   "end": 1110,
+   "quote": "Swing voters",
+   "name": "the Swing voters"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5576,
+   "end": 5582,
+   "quote": "Bailey",
+   "name": "Bailey"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5794,
+   "end": 5814,
+   "quote": "second round effects",
+   "name": "second round effects"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 6546,
+   "end": 6557,
+   "quote": "the minutes",
+   "name": "the minutes"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7419,
+   "end": 7493,
+   "quote": "our commodities team upside revision to gas forecasts and recent oil moves",
+   "name": "our commodities team upside revision to gas forecasts and recent oil moves"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 9939,
+   "end": 9998,
+   "quote": "a market pricing in almost four Bank Rate hikes by mid-2027",
+   "name": "the market pricing in almost four Bank Rate hikes by mid-2027"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 10846,
+   "end": 10871,
+   "quote": "the £20bn of active sales",
+   "name": "the £20bn of active sales"
+  },
+  {
+   "id": "R16",
+   "type": "claim",
+   "start": 11130,
+   "end": 11244,
+   "quote": "the plan is to conduct £20bn/year of active sales until 2034 directly to the government, rather than to the market",
+   "name": "the plan is to conduct £20bn/year of active sales until 2034 directly to the government, rather than to the market"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 11462,
+   "end": 11474,
+   "quote": "active sales",
+   "name": "active sales"
+  },
+  {
+   "id": "R18",
+   "type": "claim",
+   "start": 12038,
+   "end": 12077,
+   "quote": "it could sell Gilts directly to the DMO",
+   "name": "it could sell Gilts directly to the DMO"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 12320,
+   "end": 12346,
+   "quote": "the Debt Management Office",
+   "name": "the Debt Management Office"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 11888,
+   "end": 11912,
+   "quote": "the New Zealand solution",
+   "name": "the New Zealand solution"
+  },
+  {
+   "id": "R21",
+   "type": "claim",
+   "start": 12707,
+   "end": 12779,
+   "quote": "The Bank will not be selling Gilts maturing earlier than 2035 to the DMO",
+   "name": "The Bank will not be selling Gilts maturing earlier than 2035 to the DMO"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 12915,
+   "end": 12941,
+   "quote": "Gilts maturing beyond 2049",
+   "name": "Gilts maturing beyond 2049"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 13115,
+   "end": 13137,
+   "quote": "the very longest Gilts",
+   "name": "the very longest Gilts"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 13778,
+   "end": 13820,
+   "quote": "the additional sales of Gilts from the DMO",
+   "name": "the additional sales of Gilts from the DMO"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 13948,
+   "end": 13985,
+   "quote": "Transactions between the Bank and DMO",
+   "name": "Transactions between the Bank and DMO"
+  },
+  {
+   "id": "R26",
+   "type": "claim",
+   "start": 13948,
+   "end": 14017,
+   "quote": "Transactions between the Bank and DMO will be done \"at market prices\"",
+   "name": "Transactions between the Bank and DMO will be done \"at market prices\""
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 14278,
+   "end": 14309,
+   "quote": "The price the DMO pays the Bank",
+   "name": "the price the DMO pays the Bank"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 16665,
+   "end": 16692,
+   "quote": "the same dilemma as the BoE",
+   "name": "the same dilemma as the BoE"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C020",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C032",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C043",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C060",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C061",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C062",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C063",
+   "phrase": "those",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We don’t' at 8045"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We don’t' at 8257"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we don’t' at 8613"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We and' at 10641"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0893233,
+   "duration_ms": 12859,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8078,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1167,
+    "output_tokens_details": {
+     "thinking_tokens": 957
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8078,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1167,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 8078,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8078
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.2185689,
+   "duration_ms": 51071,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10553,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 6618,
+    "output_tokens_details": {
+     "thinking_tokens": 3370
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 10553,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 6618,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 10553,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 10553
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

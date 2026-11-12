@@ -1,0 +1,238 @@
+{
+  "batch_id": "2026-07-22",
+  "window": [
+    "2026-07-22",
+    "2026-07-22"
+  ],
+  "generated_at": "2026-10-29T16:30:37",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 33
+    }
+  ],
+  "counts": {
+    "documents": 5,
+    "in_scope": 5,
+    "out_of_scope": 0,
+    "compiled": 2,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 8,
+    "edits": 7,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "A_calm_market_in_a_noisy_summer",
+      "document": "A calm market in a noisy summer.pdf",
+      "date": "2026-07-22",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.923,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DM_rates_Stop_out_of_Dec_26_27_Sonia_flattener_Trade_Idea--928748",
+      "document": "DM_rates_Stop_out_of_Dec_26_27_Sonia_flattener_Trade_Idea--928748.pdf",
+      "date": "2026-07-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/DM_rates_Stop_out_of_Dec_26_27_Sonia_flattener_Trade_Idea--928748.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "8a72ff12781dd063b6b39bea4bb14710584dc71a",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 22 July 2026"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "‹#›"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 22 JULY 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Katherine Yoon G10 Rates Strategist| MAR BNP Paribas London Branch katherine.yoon@uk.bnpparibas.com Camille De Courcel Head of DM Rates Strategy and Economics, Europe| MAR BNP Paribas London Branch camille.decourcel@uk.bnpparibas.com Dani Stoilova Europe Economist | MAR BNP Paribas London Branch camille.decourcel@uk.bnpparibas.com"
+        },
+        {
+          "rule": "repeated_phrase",
+          "section": "footer",
+          "text": "## ## ## ## ## ## ## ## ## ## ## ## ## ## ##"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "footer": 3,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "DM rates: Stop out of Dec 26–27 Sonia flattener ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "EM_rates_Stopping_out_of_3y_INR_NDS_receiver_Trade_Idea--928522",
+      "document": "EM_rates_Stopping_out_of_3y_INR_NDS_receiver_Trade_Idea--928522.pdf",
+      "date": "2026-07-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Stopping_out_of_3y_INR_NDS_receiver_Trade_Idea--928522.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "dbbd46cdebd5f9056727768a524807d7c86d8bef",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: Net bond inflows into India, 2-month rolling sum (USDbn) Fig. 2: INR 3y NDS (%) vs oil price'",
+          "chunk_id": "EM_rates_Stopping_out_of_3y_INR_NDS_receiver_Trade_Idea--928522.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 2: INR 3y NDS (%) vs oil prices (USD) Sources: Bloomberg, Macrobond, BNP Paribas Sources: Bloom'",
+          "chunk_id": "EM_rates_Stopping_out_of_3y_INR_NDS_receiver_Trade_Idea--928522.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures 22 July 2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA 22 JULY 2026"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Bloomberg, Macrobond, BNP Paribas   Chandresh Jain EM Asia FX and Rates Strategist | MAR BNP Paribas Singapore Branch chandresh.jain@asia.bnpparibas.com Joey Li FX and Rates Strategist, APAC BNP Paribas Singapore Branch joey.j.li@asia.bnpparibas.com"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "footer": 1,
+        "signature": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "sho uld",
+              "after": "should"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Stopping out of 3y INR NDS receiver ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "STEER_Dislocations_little_changed_EURUSD_appears_cheap_Trade_Idea--928734",
+      "document": "STEER_Dislocations_little_changed_EURUSD_appears_cheap_Trade_Idea--928734.pdf",
+      "date": "2026-07-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 11,
+      "page_count": 9,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "South_Africa__Fiscal_Discipline_Meets_Monetary_Credibility",
+      "document": "South Africa: Fiscal Discipline Meets Monetary Credibility.pdf",
+      "date": "2026-07-22",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.8,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

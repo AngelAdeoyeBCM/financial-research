@@ -1,0 +1,29 @@
+id: C001
+type: FORECAST
+
+subject:
+  kind: entity # entity | variable | instrument
+  id: null
+  name: "EUR/USD"
+
+assertion: "We expect EUR/USD to reach 1.14 by year-end."
+
+attributes: {}
+
+horizon: "2026-12-31"
+
+conditions: []
+attributed_to: null
+
+evidence:
+  - text: "We expect EUR/USD to reach 1.14 by year-end."
+    start: null
+    end: null
+
+extraction_confidence: null
+
+# Field	Allowed values
+# outcome.kind	level, direction, change, range, event, state
+# direction	increase, decrease, stable, null
+# comparator	equal, greater_than, less_than, at_least, at_most, null
+# scenario_role	baseline, upside_risk, downside_risk, alternative, unspecified

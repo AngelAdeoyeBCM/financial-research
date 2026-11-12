@@ -1,0 +1,241 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Closing_short_EURAUD_at_entry_Trade_Idea--933703.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-15",
+  "stages": {
+   "references": {
+    "attempts": 2,
+    "candidates": 2,
+    "referents": {
+     "thing": 1
+    },
+    "decisions": {
+     "leave": 1,
+     "link": 1
+    },
+    "leave_reasons": {
+     "expletive": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     1,
+     0
+    ],
+    "undecided_per_attempt": [
+     2,
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 17,
+  "kinds": {
+   "deixis": 15,
+   "symbol": 1,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.55,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 3
+  },
+  "sentences": 20,
+  "cost_usd": 0.1267
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 2197,
+   "end": 2262,
+   "quote": "short exposure to EUR crosses via short EURBRL spot, short EURMXN",
+   "name": "the short exposure to EUR crosses via short EURBRL spot, short EURMXN"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C001",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we exit' at 476"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We nonetheless' at 1644"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we exit' at 2152"
+  }
+ ],
+ "rejected": {
+  "references": [
+   [
+    {
+     "item": {
+      "response": "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"thing\", \"sid\": \"E018\", \"quote\": \"short exposure to EUR crosses via short EURBRL spot, short EURMXN\", \"name\": \"the short exposure to EUR crosses via shor"
+     },
+     "reason": "unparseable JSON: Expecting value: line 12 column 71 (char 900)"
+    }
+   ],
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0304952,
+   "duration_ms": 3456,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3147,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 223,
+    "output_tokens_details": {
+     "thinking_tokens": 210
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3147,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 223,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3147,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3147
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0563514,
+   "duration_ms": 13381,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3223,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1469,
+    "output_tokens_details": {
+     "thinking_tokens": 1029
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3223,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1469,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3223,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3223
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.039811,
+   "duration_ms": 5418,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3494,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 539,
+    "output_tokens_details": {
+     "thinking_tokens": 350
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3494,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 539,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3494,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3494
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

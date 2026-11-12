@@ -1,0 +1,217 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BofA_Federal_Reserve_Watch_-_The_hunt_for_Fed_October.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-19",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 10,
+    "referents": {
+     "thing": 5,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 10
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 22,
+  "kinds": {
+   "deixis": 8,
+   "pronoun": 5,
+   "possessive": 4,
+   "fragment": 2,
+   "symbol": 1,
+   "proposition": 1,
+   "noun_phrase": 1
+  },
+  "rooted_share": 0.8043478260869565,
+  "errors": 0,
+  "warnings": {
+   "MODALITY_CHANGED": 2
+  },
+  "sentences": 37,
+  "cost_usd": 0.1136
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 803,
+   "end": 813,
+   "quote": "the NASDAQ",
+   "name": "the NASDAQ"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1004,
+   "end": 1016,
+   "quote": "Policymakers",
+   "name": "policymakers"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1208,
+   "end": 1230,
+   "quote": "Williams and Jefferson",
+   "name": "Williams and Jefferson"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1380,
+   "end": 1385,
+   "quote": "Warsh",
+   "name": "Warsh"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 2099,
+   "end": 2193,
+   "quote": "policymakers might not want to risk a market disruption by delivering a large hawkish surprise",
+   "name": "policymakers might not want to risk a market disruption by delivering a large hawkish surprise"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2331,
+   "end": 2350,
+   "quote": "hike or hold in Oct",
+   "name": "the hike or hold in Oct"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 1082",
+   "message": "dropped [] added ['must', 'whether'] in {{ => , Policymakers must decide whether policymakers want to validate}}"
+  },
+  {
+   "severity": "warning",
+   "code": "MODALITY_CHANGED",
+   "segment": "src 1170",
+   "message": "dropped [] added ['must'] in {{ => , Policymakers must decide whether policymakers want to validate}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0425029,
+   "duration_ms": 7518,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3454,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 699,
+    "output_tokens_details": {
+     "thinking_tokens": 477
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3454,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 699,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3454,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3454
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.07109670000000001,
+   "duration_ms": 18432,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3811,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1975,
+    "output_tokens_details": {
+     "thinking_tokens": 1356
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3811,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1975,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3811,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3811
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+{
+  "batch_id": "2026-09-13",
+  "window": [
+    "2026-09-13",
+    "2026-09-13"
+  ],
+  "generated_at": "2026-10-29T16:31:44",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-09-10_2026-09-13.json",
+      "sha256": "0a0b670d5e0d39df625ba611a960e21c01a36c7b18b50441bd3c92062af42614",
+      "records": 2586,
+      "dates": [
+        "2026-09-10",
+        "2026-09-13"
+      ],
+      "records_for_batch": 100
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 5,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 14,
+    "MISSING_CHUNKS": 5,
+    "DISTORTED_TABLE": 2,
+    "UNSTRUCTURED_TEXT": 2
+  },
+  "documents": [
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead__2026-09-13",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-09-13",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 7,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        5
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [5]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_China_-_Gauging_the_Impact_of_Government_Bond_Supply_on_Bond_Yields",
+      "document": "GS_China - Gauging the Impact of Government Bond Supply on Bond Yields.pdf",
+      "date": "2026-09-13",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 17,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 -0.5 0.0",
+          "chunk_id": "GS_China - Gauging the Impact of Government Bond Supply on Bond Yields.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -5 0 5 10 15 -5 0 5 10 15",
+          "chunk_id": "GS_China - Gauging the Impact of Government Bond Supply on Bond Yields.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 0 5 10 15 20 25 30 0 5 10 15 20",
+          "chunk_id": "GS_China - Gauging the Impact of Government Bond Supply on Bond Yields.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Fed_Chatterbox_-_September_Edition",
+      "document": "GS_Fed Chatterbox - September Edition.pdf",
+      "date": "2026-09-13",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 15,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        14
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [14]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Economics_Analyst_-_A_Hike_Without_a_Signal",
+      "document": "GS_US Economics Analyst - A Hike Without a Signal.pdf",
+      "date": "2026-09-13",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 20,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        6
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 2.00 2.25 2.50 2.75 3.00 3.25 3.50 3.75 4.00 2.00 2.25 2.50",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 0",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 36% 0 10 20 30 40 50 60 70 80 90 100",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 2026 2027 2028 2029 | 2.0 2.2 2.3 2.3 | 2.1 2.3 2.2 2.1 2.0 June",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "44% of tokens are numeric/date values",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ercentEnd ercentEnd ercentEnd",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: ercentEnd ercentEnd ercentLonger",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 0 1 2 3",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 2023 2024 2025 2026 2027 Q1 Q2 Q3 Q4 Q1 Q2 Q3",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-9-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.88 4.58 4.18 4.40 4.25 4.30 4.44 4.45 4.40 4.35 4.30 4.25",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-9-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 3.88 4.58 4.18 4.40 4.25 4.30 4.44 4.45 4.40 4.35 4.30 4.25",
+          "chunk_id": "GS_US Economics Analyst - A Hike Without a Signal.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Go_for_launch_Sunday_Tea_with_BNP_Paribas--931630",
+      "document": "Go_for_launch_Sunday_Tea_with_BNP_Paribas--931630.pdf",
+      "date": "2026-09-13",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        4
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [4]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: (0.8) (0.6) (0.4) (0.2) 0.0 0.2 0.4 0.6 0.8 1.0 2017 2018",
+          "chunk_id": "Go_for_launch_Sunday_Tea_with_BNP_Paribas--931630.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: (0.8) (0.6) (0.4) (0.2) 0.0 0.2 0.4 0.6 0.8 1.0 2017 2018",
+          "chunk_id": "Go_for_launch_Sunday_Tea_with_BNP_Paribas--931630.pdf-2-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

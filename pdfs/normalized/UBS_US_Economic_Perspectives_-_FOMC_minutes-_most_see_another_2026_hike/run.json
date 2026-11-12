@@ -1,0 +1,310 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/UBS_US_Economic_Perspectives_-_FOMC_minutes-_most_see_another_2026_hike.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-07",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 15,
+    "referents": {
+     "thing": 3,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 8,
+     "leave": 7
+    },
+    "leave_reasons": {
+     "not_a_reference": 6,
+     "expletive": 1
+    },
+    "extra": 0,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 3,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 19,
+  "kinds": {
+   "deixis": 7,
+   "demonstrative": 4,
+   "fragment": 3,
+   "pronoun": 2,
+   "proposition": 1,
+   "possessive": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.963963963963964,
+  "errors": 0,
+  "warnings": {
+   "LONG_RESOLUTION": 3,
+   "UNRESOLVED_PRONOUN": 8
+  },
+  "sentences": 31,
+  "cost_usd": 0.1616
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 191,
+   "end": 318,
+   "quote": "the acknowledgement that \"most\" view another increase in the target range for the federal funds rate as appropriate by year end",
+   "name": "the acknowledgement that \"most\" view another increase in the target range for the federal funds rate as appropriate by year end"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1364,
+   "end": 1398,
+   "quote": "a higher path for the target range",
+   "name": "a higher path for the target range"
+  },
+  {
+   "id": "R3",
+   "type": "claim",
+   "start": 2439,
+   "end": 2601,
+   "quote": "\"a couple\" of participants raised their appropriate setting for the federal funds rate given upward revisions to their estimates of the neutral federal funds rate",
+   "name": "\"a couple\" of participants raised their appropriate setting for the federal funds rate given upward revisions to their estimates of the neutral federal funds rate"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3046,
+   "end": 3054,
+   "quote": "the FOMC",
+   "name": "the FOMC"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C004",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C007",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C008",
+   "phrase": "their",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C010",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "they",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C014",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 2410",
+   "message": "+37 words: {{ => , \"many\" commented that \"despite the recent rise in longer-term Treasury yields, financial conditions appeared to be supportive of economic growth, with equity prices having risen substantially this year and spreads on corporate bonds having remained narrow.\"}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 2603",
+   "message": "+25 words: {{That => That \"a couple\" of participants raised their appropriate setting for the federal funds rate given upward revisions to their estimates of the neutral federal funds rate}}"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 5967",
+   "message": "+35 words: {{ => , The manager noted that the pace of RMPs was not on a preset course and that the Desk would continue to make decisions each month with the goal of keeping reserves within the ample range.}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'for the target range as necessary given their modal outlooks rather than risk-managem'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in ' that \"a couple\" of participants raised their appropriate setting for the federal fun'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'al funds rate given upward revisions to their estimates of the neutral federal funds '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'That \"a couple\" of participants raised their appropriate setting for the federal fun'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'al funds rate given upward revisions to their estimates of the neutral federal funds '"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'they' in 'er, participants explicitly stated that they had \" not seen sufficient progress on l'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'y prices weighing disproportionately on their real disposable income.\" Some balance s'"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'They' in 'They suggested strengthening the Federal Res'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.07618280000000001,
+   "duration_ms": 18111,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4313,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 2035,
+    "output_tokens_details": {
+     "thinking_tokens": 1347
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4313,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2035,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 4313,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4313
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.08540360000000001,
+   "duration_ms": 20100,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4930,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 2237,
+    "output_tokens_details": {
+     "thinking_tokens": 1542
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4930,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 2237,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4930,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4930
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

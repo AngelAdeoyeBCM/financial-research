@@ -1,0 +1,238 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/AUD_rates_Take_profit_on_paid_March_RBA_Trade_Idea--920688.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-03-16",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 9,
+    "referents": {
+     "thing": 4,
+     "claim": 1
+    },
+    "decisions": {
+     "link": 7,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 2
+    },
+    "extra": 5,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 59,
+  "kinds": {
+   "deixis": 36,
+   "symbol": 11,
+   "noun_phrase": 7,
+   "pronoun": 3,
+   "possessive": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.546875,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 4
+  },
+  "sentences": 29,
+  "cost_usd": 0.1115
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1153,
+   "end": 1183,
+   "quote": "our paid position in March RBA",
+   "name": "our paid position in March RBA"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 887,
+   "end": 897,
+   "quote": "rate hikes",
+   "name": "rate hikes"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 3161,
+   "end": 3180,
+   "quote": "a Feb/Mar RBA payer",
+   "name": "the Feb/Mar RBA payer"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3401,
+   "end": 3408,
+   "quote": "the RBA",
+   "name": "the RBA"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 4492,
+   "end": 4528,
+   "quote": "March RBA is now almost fully priced",
+   "name": "March RBA is now almost fully priced"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C003",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C009",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We chose' at 1354"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 2195"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We chose' at 3902"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 4631"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.035742199999999995,
+   "duration_ms": 2929,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3992,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 143,
+    "output_tokens_details": {
+     "thinking_tokens": 135
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3992,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 143,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3992,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3992
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.07572530000000001,
+   "duration_ms": 17478,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 4347,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1983,
+    "output_tokens_details": {
+     "thinking_tokens": 1216
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 4347,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1983,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 4347,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 4347
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

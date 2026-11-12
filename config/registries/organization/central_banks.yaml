@@ -1,0 +1,92 @@
+# Central banks: key -> org:<KEY>. One per currency in market/fx/currencies.yaml, plus Eurosystem national banks.
+# Rewritten 2026-11-11; hand-maintained.
+#   key                CB.<ISO 3166 alpha-2> of the jurisdiction (CB.US); the ECB is CB.EZ, ISO's code reserved
+#                      for the eurozone. A currency names its bank (Currency.central_bank_id). QLib's
+#                      CentralBankCode (FED, CBB, ...) is mapped in market/external/qlib.py.
+#   name               official name, as the bank styles itself
+#   short_name         the name markets use
+#   jurisdiction_id    the country (cntry:US) or group (geo:euro_area) its policy covers
+#   system_id          the system a national bank belongs to (CB.DE -> CB.EZ)
+#   policy_rate_id     the headline policy rate (market/rates/policy_rates.yaml)
+#   inflation_target   point target, % y/y;  inflation_band: [low, high], tolerance or target range
+#   inflation_measure  cpi | cpif | hicp | pce
+# Mandates as of 2026-11; `# verify` marks values to confirm against the bank. Pegged and unanchored
+# regimes have none. Meeting dates are in dates/central_bank_meetings.yaml.
+
+# -- G10 -----------------------------------------------------------------------------------------------------------
+CB.US: {name: Federal Reserve System, short_name: Fed, jurisdiction_id: "cntry:US", policy_rate_id: USD.FDTR, inflation_target: 2.0, inflation_measure: pce}
+CB.EZ: {name: European Central Bank, short_name: ECB, jurisdiction_id: "geo:euro_area", policy_rate_id: EUR.DFR, inflation_target: 2.0, inflation_measure: hicp}
+CB.GB: {name: Bank of England, short_name: BoE, jurisdiction_id: "cntry:GB", policy_rate_id: GBP.BANKRATE, inflation_target: 2.0, inflation_measure: cpi}
+CB.JP: {name: Bank of Japan, short_name: BoJ, jurisdiction_id: "cntry:JP", policy_rate_id: JPY.BOJRATE, inflation_target: 2.0, inflation_measure: cpi}
+CB.CH: {name: Swiss National Bank, short_name: SNB, jurisdiction_id: "cntry:CH", policy_rate_id: CHF.SNBRATE, inflation_band: [0, 2], inflation_measure: cpi}
+CB.CA: {name: Bank of Canada, short_name: BoC, jurisdiction_id: "cntry:CA", policy_rate_id: CAD.BOCR, inflation_target: 2.0, inflation_band: [1, 3], inflation_measure: cpi}
+CB.AU: {name: Reserve Bank of Australia, short_name: RBA, jurisdiction_id: "cntry:AU", policy_rate_id: AUD.CASHRATE, inflation_target: 2.5, inflation_band: [2, 3], inflation_measure: cpi}
+CB.NZ: {name: Reserve Bank of New Zealand, short_name: RBNZ, jurisdiction_id: "cntry:NZ", policy_rate_id: NZD.OCR, inflation_target: 2.0, inflation_band: [1, 3], inflation_measure: cpi}
+CB.SE: {name: Sveriges Riksbank, short_name: Riksbank, jurisdiction_id: "cntry:SE", policy_rate_id: SEK.POLICY, inflation_target: 2.0, inflation_measure: cpif}
+CB.NO: {name: Norges Bank, short_name: Norges Bank, jurisdiction_id: "cntry:NO", policy_rate_id: NOK.POLICY, inflation_target: 2.0, inflation_measure: cpi}
+
+# -- Eurosystem and euro-pegged ----------------------------------------------------------------------------------
+CB.DE: {name: Deutsche Bundesbank, short_name: Bundesbank, jurisdiction_id: "cntry:DE", system_id: CB.EZ}
+CB.FI: {name: Bank of Finland, short_name: Bank of Finland, jurisdiction_id: "cntry:FI", system_id: CB.EZ}
+CB.BG: {name: Bulgarian National Bank, short_name: BNB, jurisdiction_id: "cntry:BG", system_id: CB.EZ}  # euro from 2026-01-01
+CB.DK: {name: Danmarks Nationalbank, short_name: DN, jurisdiction_id: "cntry:DK"}  # DKK pegged to EUR
+
+# -- Asia ------------------------------------------------------------------------------------------------------------
+CB.CN: {name: People's Bank of China, short_name: PBoC, jurisdiction_id: "cntry:CN", policy_rate_id: CNY.RR7D}
+CB.HK: {name: Hong Kong Monetary Authority, short_name: HKMA, jurisdiction_id: "cntry:HK", policy_rate_id: HKD.BASE}  # USD peg
+CB.TW: {name: Central Bank of the Republic of China (Taiwan), short_name: CBC, jurisdiction_id: "cntry:TW", policy_rate_id: TWD.DISCOUNT}
+CB.KR: {name: Bank of Korea, short_name: BoK, jurisdiction_id: "cntry:KR", policy_rate_id: KRW.BASE, inflation_target: 2.0, inflation_measure: cpi}
+CB.IN: {name: Reserve Bank of India, short_name: RBI, jurisdiction_id: "cntry:IN", policy_rate_id: INR.REPO, inflation_target: 4.0, inflation_band: [2, 6], inflation_measure: cpi}
+CB.ID: {name: Bank Indonesia, short_name: BI, jurisdiction_id: "cntry:ID", policy_rate_id: IDR.BIRATE, inflation_target: 2.5, inflation_band: [1.5, 3.5], inflation_measure: cpi}
+CB.MY: {name: Bank Negara Malaysia, short_name: BNM, jurisdiction_id: "cntry:MY", policy_rate_id: MYR.OPR}
+CB.PH: {name: Bangko Sentral ng Pilipinas, short_name: BSP, jurisdiction_id: "cntry:PH", policy_rate_id: PHP.RRP, inflation_target: 3.0, inflation_band: [2, 4], inflation_measure: cpi}
+CB.SG: {name: Monetary Authority of Singapore, short_name: MAS, jurisdiction_id: "cntry:SG"}  # steers the S$NEER band, no policy rate
+CB.TH: {name: Bank of Thailand, short_name: BoT, jurisdiction_id: "cntry:TH", policy_rate_id: THB.POLICY, inflation_band: [1, 3], inflation_measure: cpi}
+CB.VN: {name: State Bank of Vietnam, short_name: SBV, jurisdiction_id: "cntry:VN"}
+CB.PK: {name: State Bank of Pakistan, short_name: SBP, jurisdiction_id: "cntry:PK", inflation_band: [5, 7], inflation_measure: cpi}  # verify
+CB.LK: {name: Central Bank of Sri Lanka, short_name: CBSL, jurisdiction_id: "cntry:LK", inflation_target: 5.0, inflation_measure: cpi}  # verify
+
+# -- Latin America -------------------------------------------------------------------------------------------------
+CB.BR: {name: Banco Central do Brasil, short_name: BCB, jurisdiction_id: "cntry:BR", policy_rate_id: BRL.SELIC, inflation_target: 3.0, inflation_band: [1.5, 4.5], inflation_measure: cpi}
+CB.MX: {name: Banco de México, short_name: Banxico, jurisdiction_id: "cntry:MX", policy_rate_id: MXN.TARGET, inflation_target: 3.0, inflation_band: [2, 4], inflation_measure: cpi}
+CB.CL: {name: Banco Central de Chile, short_name: BCCh, jurisdiction_id: "cntry:CL", policy_rate_id: CLP.TPM, inflation_target: 3.0, inflation_band: [2, 4], inflation_measure: cpi}
+CB.CO: {name: Banco de la República, short_name: BanRep, jurisdiction_id: "cntry:CO", policy_rate_id: COP.POLICY, inflation_target: 3.0, inflation_band: [2, 4], inflation_measure: cpi}
+CB.PE: {name: Banco Central de Reserva del Perú, short_name: BCRP, jurisdiction_id: "cntry:PE", inflation_target: 2.0, inflation_band: [1, 3], inflation_measure: cpi}
+CB.AR: {name: Banco Central de la República Argentina, short_name: BCRA, jurisdiction_id: "cntry:AR"}
+CB.UY: {name: Banco Central del Uruguay, short_name: BCU, jurisdiction_id: "cntry:UY", inflation_target: 4.5, inflation_band: [3, 6], inflation_measure: cpi}  # verify
+CB.PY: {name: Banco Central del Paraguay, short_name: BCP, jurisdiction_id: "cntry:PY"}
+CB.DO: {name: Banco Central de la República Dominicana, short_name: BCRD, jurisdiction_id: "cntry:DO", inflation_target: 4.0, inflation_band: [3, 5], inflation_measure: cpi}
+CB.GT: {name: Banco de Guatemala, short_name: Banguat, jurisdiction_id: "cntry:GT", inflation_target: 4.0, inflation_band: [3, 5], inflation_measure: cpi}
+CB.VE: {name: Banco Central de Venezuela, short_name: BCV, jurisdiction_id: "cntry:VE"}
+
+# -- CEE and CIS -----------------------------------------------------------------------------------------------------
+CB.PL: {name: Narodowy Bank Polski, short_name: NBP, jurisdiction_id: "cntry:PL", policy_rate_id: PLN.REF, inflation_target: 2.5, inflation_band: [1.5, 3.5], inflation_measure: cpi}
+CB.HU: {name: Magyar Nemzeti Bank, short_name: MNB, jurisdiction_id: "cntry:HU", policy_rate_id: HUF.BASE, inflation_target: 3.0, inflation_band: [2, 4], inflation_measure: cpi}
+CB.CZ: {name: Česká národní banka, short_name: CNB, jurisdiction_id: "cntry:CZ", policy_rate_id: CZK.REPO2W, inflation_target: 2.0, inflation_band: [1, 3], inflation_measure: cpi}
+CB.RO: {name: Banca Națională a României, short_name: BNR, jurisdiction_id: "cntry:RO", inflation_target: 2.5, inflation_band: [1.5, 3.5], inflation_measure: cpi}
+CB.RS: {name: National Bank of Serbia, short_name: NBS, jurisdiction_id: "cntry:RS", inflation_target: 3.0, inflation_band: [1.5, 4.5], inflation_measure: cpi}
+CB.UA: {name: National Bank of Ukraine, short_name: NBU, jurisdiction_id: "cntry:UA", inflation_target: 5.0, inflation_band: [4, 6], inflation_measure: cpi}
+CB.RU: {name: Central Bank of the Russian Federation, short_name: CBR, jurisdiction_id: "cntry:RU", inflation_target: 4.0, inflation_measure: cpi}
+CB.TR: {name: Central Bank of the Republic of Türkiye, short_name: CBRT, jurisdiction_id: "cntry:TR", policy_rate_id: TRY.REPO1W, inflation_target: 5.0, inflation_measure: cpi}  # verify
+CB.KZ: {name: National Bank of Kazakhstan, short_name: NBK, jurisdiction_id: "cntry:KZ", inflation_target: 5.0, inflation_measure: cpi}  # verify
+CB.UZ: {name: Central Bank of the Republic of Uzbekistan, short_name: CBU, jurisdiction_id: "cntry:UZ", inflation_target: 5.0, inflation_measure: cpi}  # verify
+CB.TJ: {name: National Bank of Tajikistan, short_name: NBT, jurisdiction_id: "cntry:TJ"}
+
+# -- Middle East and Africa ----------------------------------------------------------------------------------------
+CB.IL: {name: Bank of Israel, short_name: BoI, jurisdiction_id: "cntry:IL", policy_rate_id: ILS.POLICY, inflation_band: [1, 3], inflation_measure: cpi}
+CB.ZA: {name: South African Reserve Bank, short_name: SARB, jurisdiction_id: "cntry:ZA", policy_rate_id: ZAR.REPO, inflation_target: 3.0, inflation_band: [2, 4], inflation_measure: cpi}  # verify: 3% target adopted 2025
+CB.EG: {name: Central Bank of Egypt, short_name: CBE, jurisdiction_id: "cntry:EG"}  # dated interim targets, not a standing one
+CB.AE: {name: Central Bank of the United Arab Emirates, short_name: CBUAE, jurisdiction_id: "cntry:AE"}  # USD peg
+CB.SA: {name: Saudi Central Bank, short_name: SAMA, jurisdiction_id: "cntry:SA"}  # USD peg
+CB.QA: {name: Qatar Central Bank, short_name: QCB, jurisdiction_id: "cntry:QA"}  # USD peg
+CB.KW: {name: Central Bank of Kuwait, short_name: CBK, jurisdiction_id: "cntry:KW"}  # basket peg
+CB.BH: {name: Central Bank of Bahrain, short_name: CBB, jurisdiction_id: "cntry:BH"}  # USD peg
+CB.OM: {name: Central Bank of Oman, short_name: CBO, jurisdiction_id: "cntry:OM"}  # USD peg
+CB.IR: {name: Central Bank of the Islamic Republic of Iran, short_name: CBI, jurisdiction_id: "cntry:IR"}
+CB.LB: {name: Banque du Liban, short_name: BdL, jurisdiction_id: "cntry:LB"}
+CB.DZ: {name: Bank of Algeria, short_name: Bank of Algeria, jurisdiction_id: "cntry:DZ"}
+CB.ET: {name: National Bank of Ethiopia, short_name: NBE, jurisdiction_id: "cntry:ET"}
+CB.GH: {name: Bank of Ghana, short_name: BoG, jurisdiction_id: "cntry:GH", inflation_target: 8.0, inflation_band: [6, 10], inflation_measure: cpi}
+CB.KE: {name: Central Bank of Kenya, short_name: CBK, jurisdiction_id: "cntry:KE", inflation_target: 5.0, inflation_band: [2.5, 7.5], inflation_measure: cpi}
+CB.NG: {name: Central Bank of Nigeria, short_name: CBN, jurisdiction_id: "cntry:NG"}
+CB.ZM: {name: Bank of Zambia, short_name: BoZ, jurisdiction_id: "cntry:ZM", inflation_band: [6, 8], inflation_measure: cpi}

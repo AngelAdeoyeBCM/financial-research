@@ -1,0 +1,2621 @@
+{
+  "batch_id": "2026-10-15",
+  "window": [
+    "2026-10-15",
+    "2026-10-15"
+  ],
+  "generated_at": "2026-10-29T16:32:39",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_aug_oct/raw/browse_2026-10-12_2026-10-15.json",
+      "sha256": "6bc0c554a5aa71bdad002e778ef8ed20583a400410915f76c269fbfebe63abe2",
+      "records": 1523,
+      "dates": [
+        "2026-10-12",
+        "2026-10-15"
+      ],
+      "records_for_batch": 630
+    }
+  ],
+  "counts": {
+    "documents": 30,
+    "in_scope": 22,
+    "out_of_scope": 8,
+    "compiled": 2,
+    "skipped": 20,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 6,
+    "edits": 19,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 170,
+    "DISTORTED_TABLE": 73,
+    "UNSTRUCTURED_TEXT": 72,
+    "MISSING_CHUNKS": 10,
+    "TEMPLATE_TEXT": 2
+  },
+  "documents": [
+    {
+      "stem": "BC_Global_Rates_Weekly_-_AI_jitters",
+      "document": "BC_Global Rates Weekly - AI jitters.pdf",
+      "date": "2026-10-15",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 105,
+      "page_count": 49,
+      "status": "skipped",
+      "missing_indices": [
+        43
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [43]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: -4 -11 -15 -17 -1 -4 -7 -10 -2 -5 -7 -8",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 2.3 0.4 0.1 0.7 -0.5 -0.2 2.7 2.7 1.4 0.8 -0.2 -0.1",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -40 -20 0 20 40 60 80 100 120 Dec-25 Jan-26 Feb-26",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 1 2 3 4 5 6 Sep-16 Sep-18 Sep-20 Sep-22 Sep-24",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 8,181 4,654 6,362 4,072 - 2,000 4,000 6,000 8,000 10,000",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-17-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 15 October 2026 20 | +1 212 412 1848 | +1 212 526 8690",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-20-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 60 70 80 90 100 110 120 Apr-26 May-26 Jun-26 Jul-26 Aug-26",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-21-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -4 0 4 8 12 2 5 7 10 20 30",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-22-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 15 October 2026 24 | +44 (0) 20 7773 0533 | +44 (0) 20 3134 1456",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-24-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "50% of tokens are numeric/date values",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-24-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -15 -10 -5 0 5 10 2y 5y 10y 30y",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-25-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 28 55 40 45 19 36 34 20 55 14 37 0",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-26-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -35 -16 -34 -33 -46 -35 -30 -60 -30 -41 -31 27",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-27-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 38.7% 72.3% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90%",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-28-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-29-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -3 -2 -1 0 1 2 3 4 5 6 -3 -2",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-30-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 '10 '12 '14",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-30-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 50 100 150 200 250 300 Jan-20 Jul-20 Jan-21 Jul-21 Jan-22",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-32-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 390 40 237 18 153 22 -75 15 -31 -45 228 8",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-33-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -30 -20 -10 0 10 20 30 40 50 0.0 1.0 2.0",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-34-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -1.00 -0.80 -0.60 -0.40 -0.20 0.00 0.20 0.40 0.60 0.80 1.00 1.20",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-36-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -200 -150 -100 -50 0 50 100 150 200 250 300 350",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-37-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -30 -25 -20 -15 -10 -5 0 5 10 1y",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-38-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 '13 '14",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-39-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 1.2 Feb 26 Mar",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-40-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 7 24 2y -19 -6 | -2 14 5y -7 9 | -6 5 10y -11 5",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-41-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-43-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 15 October 2026 45 | +81 3 4530 1374 | +1 212 412 3681",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-45-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48 consecutive numeric/date tokens: 2y 5y 10y 30y Q426 4.80 5.00 5.25 5.60 2.30 Q426 -15",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-48-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-48-102",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "51% of tokens are numeric/date values",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-48-103",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: +1 212 412 3681 +1 212 412 1848 +1 212 526 8690",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-49-104",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: +81 3 4530 1374 +81 3 4530 1379",
+          "chunk_id": "BC_Global Rates Weekly - AI jitters.pdf-49-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_Credit_Strategy_-_Situation_Room_-_Buying_more_stocks__fewer_bonds",
+      "document": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf",
+      "date": "2026-10-15",
+      "publisher": "Bank of America",
+      "document_type": "Positioning and Flows",
+      "chunk_count": 22,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        12,
+        15,
+        23
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12, 15, 23]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 9 10 11",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 5 10 15 20 25 30 -40 -20 0 20 40",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 2 4 6 8 10 12 -8 -4 0 4 8",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -200 -160 -120 -80 -40 0 40 80 120",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -1% 0% 1% 2% 3% 4% 5% 6% 7% 8% 9%",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 5.407 62 0 0 59 | 5.632 72 7 -1 71 | 5.851 85 0 0 85",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "21 consecutive numeric/date tokens: -117 493 1,935 2,547 5,228 -310 378 860 1,941 2,478 12,457 12,573",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 504 601 3,045 3,083 7,187 -12 386 1,060 2,689 3,077 18,884 18,380",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: -100 49 120 504 390 -92 62 99 334 84 372 473",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 122 9 200 21 -397 91 -4 157 55 -228 330 208",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -10 -8 -6 -4 -2 0 2 4 6 8 -2,000 -1,000",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -300 -250 -200 -150 -100 -50 0 50 100 150",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -45 -35 -25 -15 -5 5 15 25 35",
+          "chunk_id": "BofA_Credit Strategy - Situation Room - Buying more stocks, fewer bonds.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "BofA_US_Watch_-_September_PCE_inflation_tracking-0.34per_m-m_core_PCE",
+      "document": "BofA_US Watch - September PCE inflation tracking-0.34per m-m core PCE.pdf",
+      "date": "2026-10-15",
+      "publisher": "Bank of America",
+      "document_type": "Research Note",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -0.8% -0.6% -0.4% -0.2% 0.0% 0.2% 0.4% 0.6% 0.8% 17 18 19",
+          "chunk_id": "BofA_US Watch - September PCE inflation tracking-0.34per m-m core PCE.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_Asia_Economics_Week_Ahead_-_Takeaways_from_IMF-WB_Meetings",
+      "document": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf",
+      "date": "2026-10-15",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 27,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 2026 2027 Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 2.0 2.2 2.3 2.1 2.2 2.0 2.6 2.2 2.1 2.1 2.1 2.1",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 330.8 - - 330.0 331.3 355.0 330.0 332.5 335.0 337.5 340.0",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 consecutive numeric/date tokens: 25,886 26,032 26,552 26,190 26,256 27,018 26,190 26,321 26,453 26,585 26,718",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 3.31 3.18 3.18 3.18 3.18 3.28 3.38 3.48 3.58",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2.31 2.30 2.30 2.30 2.30 2.25 2.20 2.15 2.10",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "54 consecutive numeric/date tokens: 2025 1.2 2.0 0.2 5.0 3.5 7.8 5.1 1.1 6.9 5.2 3.2",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-10-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "54 consecutive numeric/date tokens: 2025 -- -- -- 5.4 15.5 0.9 6.6 3.8 -0.1 11.0 4.4",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "33 consecutive numeric/date tokens: 265 22043 452 4083 1497 2350 30 566 453 518 680 112",
+          "chunk_id": "Citi_Asia Economics Week Ahead - Takeaways from IMF-WB Meetings.pdf-10-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Citi_European_Rates_Weekly_-_Wave_management_for_OATs",
+      "document": "Citi_European Rates Weekly - Wave management for OATs.pdf",
+      "date": "2026-10-15",
+      "publisher": "Citi",
+      "document_type": "Weekly",
+      "chunk_count": 47,
+      "page_count": 16,
+      "status": "skipped",
+      "missing_indices": [
+        23
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [23]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 0 20",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 60 70 80 90 100 110 120 0 10 20 30 40",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 20 40 60 80 100 120 140 160 180 -10 0 10",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 500",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -10 -5 0 5 10 15 20 Apr May Jun Jul Aug",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -15 -10 -5 0 5 10 15 20 08/09 09/10 10/11 11/12",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -100 -80 -60 -40 -20 0 20 40 60 80 100 2012",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-9-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 10 20 30 40 50 60 70 80 90 100",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 10 20 30 40 50 60 70 80 90 100 110 120",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-10-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -20 -15 -10 -5 0 5 10 15 20",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "370 consecutive numeric/date tokens: 4.0 7.5 5.6 6.1 5.2 3.8 4.2 0.0 6.4 5.2 1.7 0.0",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-11-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "371 consecutive numeric/date tokens: 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-11-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "213 consecutive numeric/date tokens: 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.4 0.0 0.0",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-11-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: Jul39 04-Dec-25 -3.3 -6.5 -6.5 -17.0 3.6 0 3",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-12-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 24-Sep-26 17.4 9.2 9.2 6.0 24.0 2.2 9",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-12-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 24-Sep-26 13.9 14.2 14.2 5.0 20.0 0.7 2",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-14-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 10-Sep-26 13 18.0 18.0 5 18 0.3 -4",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-14-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 09-Sep-26 46 49.0 49.0 40 49 -0.1 -3",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-14-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 10-Jun-26 44 58.8 58.8 15 59 0.0 -15",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-14-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 20-Mar-26 181 202.0 202.0 140 202 0.0 -21",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-14-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 03-Mar-26 2 2.4 2.4 20 10 8.0 -10",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-14-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 09-Feb-26 274 285.0 285.0 305 285 -5.8 5",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-14-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 04-Dec-25 13 6.7 6.7 2 19 2.1 14",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-15-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 04-Dec-25 48 43.4 43.4 60 42 0.6 -6",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-15-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 06-Nov-25 128 105.7 105.7 100 120 -2.0 22",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-15-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 2.65% 2.65% 2.15% 2.40% 2.65% 2.90% 3.15% 3.15% 3.15% 3.15%",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-16-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-16-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "17 consecutive numeric/date tokens: Q1 26 Q2 26 Q3 26 Q4 26 Q1 27 Q2 27",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-16-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 1Q26 2Q26 3Q26 4Q26 1Q27 2Q27 3Q27 4Q27",
+          "chunk_id": "Citi_European Rates Weekly - Wave management for OATs.pdf-16-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762",
+      "document": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762.pdf",
+      "date": "2026-10-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'optional cover page'",
+          "chunk_id": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762.pdf-1-0",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -400 100 600 1100 1600 2010 2012 2014 2016 2018 2020 2022",
+          "chunk_id": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "TEMPLATE_TEXT",
+          "detail": "document template text: 'SELECT PUBLICATION TYPE'",
+          "chunk_id": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762.pdf-1-1",
+          "reprocess": null,
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -400 100 600 1100 1600 2010 2012 2014 2016 2018 2020 2022",
+          "chunk_id": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 215 October 2026 Jan Feb Mar Apr May Jun Jul Aug Sep",
+          "chunk_id": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 179 27 114 61 86 72 16 30 65 -39 1 -34",
+          "chunk_id": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "EGBs_Preliminary_supply_forecasts_for_2027_Desknote--933762.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "EM_FX_Carry__Expensive_But_Under-owned",
+      "document": "EM FX Carry: Expensive But Under-owned.pdf",
+      "date": "2026-10-15",
+      "publisher": "State Street",
+      "document_type": "Research Note",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 5 10 15 '21 '22 '23 '24 '25 '26",
+          "chunk_id": "EM FX Carry: Expensive But Under-owned.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 0 5 10 15 '21 '22 '23 '24 '25 '26",
+          "chunk_id": "EM FX Carry: Expensive But Under-owned.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "EM FX Carry: Expensive But Under-owned.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Credit_Trader_-_AI__Credit__and_a_Higher_Cost_of_Capital",
+      "document": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf",
+      "date": "2026-10-15",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 43,
+      "page_count": 27,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        13
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 13]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 150 200 250 300 350 400 Jan Feb Mar Apr May Jun",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 70 80 90 100 110 120 130 140 Jan Feb Mar Apr",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0 20 40 60 80 100 120 10 11 12 13 14",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 0 20 40 60 80 100 120 10 11 12 13 14",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 1 2 3 4 5 6 7 8 10 11 12",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 5 10 15 20 25 Dec 31 2025 Oct 14 2026",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 0 5 10 15 20 25 90 92 94 96 98 100",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-8-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-8-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "69% of tokens are numeric/date values",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-10-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 0.01 0.01 0.4 13 -- | 314 -- -0.44 -0.44 2.6 70 -- | 72 -- -0.06 -0.06 0.4 17 --",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 4 7 7 10 14 18 19 20 28 29 31 35",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-11-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: itchBook itchBook itchBook itchBook",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-12-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0.8 1.3 1.8 2.3 2.8 3.3 3.8 0.8 1.3 1.8 2.3 2.8",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-13-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -150 -100 -50 0 50 100 -100 -90 -80 -70 -60 -50",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-14-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-14-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 13 14 15 16",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-15-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 0.3 0.5 0.7 0.9 1.1 1.3 1.5 0.15 0.20 0.25 0.30 0.35",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-16-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -2 0 2 4 6 8 10 12 14 16 18 20",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-17-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 Oct Nov",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-18-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "80 consecutive numeric/date tokens: 634 677 824 897 946 1,093 1,147 1,206 1,107 1,055 1,739 1,358",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-19-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "59 consecutive numeric/date tokens: 256 225 521 192 189 414 381 348 41 21 61 78",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-19-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 900 0 100 200 300 400 500 600 700 800 900 0",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-20-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 0 500 1000 1500 2000 2500 10 11 12 13 14 15",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-21-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: $1,000 $1,150 -200 0 200 400 600 800 1,000 1,200 -200 0",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-22-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-22-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0 5 10 15 20 25 0 50 100 150 200 250",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-23-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-23-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 0 2 4 6 8 0 50 100 150 200 250 10",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-23-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "75 consecutive numeric/date tokens: 700 696 651 675 958 1,260 1,126 907 1,096 1,263 751 1,491",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-24-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 500 16",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-25-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-25-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "48 consecutive numeric/date tokens: 134 819 1,136 1,112 1,065 968 663 594 516 548 551 236",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-26-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-26-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 5 91 40 0 20 40 60 80 100 120 27 28",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-26-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16 18 00 01",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-27-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 10 -120 -100 -80 -60 -40 -20 0 20 40 60 -120",
+          "chunk_id": "GS_Global Credit Trader - AI, Credit, and a Higher Cost of Capital.pdf-27-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Daily_-_Brazil_Equities-Benchmarking_the_Election_Rally__Scope_for_Further_Gains_if_Policy_Delivers",
+      "document": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf",
+      "date": "2026-10-15",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 20,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 80 90 100 110 120 130 140 80 90 100 110 120",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 80 90 100 110 120 130 140 80 90 100 110 120",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "46 consecutive numeric/date tokens: -1 0 1 2 3 4 5 6 7 8 9 10",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-3-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 12 -1 0 1 2 3 4 5 6 7 8 9",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "77 consecutive numeric/date tokens: Jan-10 — Aug-10 -203 0% 13% 0% 1% 1% 1% 6% Jul-11",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -300 -250 -200 -150 -100 -50 00 5 10 15 20 25",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -300 -250 -200 -150 -100 -50 00 5 10 15 20 25",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 4.0 6.0 8.0 10.0 12.0 14.0 16.0 18.0 20.05x 7x 9x 11x",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -22 Jun-23 Dec-23 Jun-24 Dec-24 Jun-25 Dec-25 Jun-26",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: (9.7x) -10.0 -9.0 -8.0 -7.0 -6.0 -5.0 -4.0 -3.0 -2.0 -1.0 (20.0%)",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 100 75 80 85 90 95 100 105 110 75 80 85",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "GS_Global Markets Daily - Brazil Equities-Benchmarking the Election Rally; Scope for Further Gains if Policy Delivers.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Hedging_AI_risks_via_short_USDCHF_and_taking_profit_on_long_USDTHB_Trade_Idea--933710",
+      "document": "Hedging_AI_risks_via_short_USDCHF_and_taking_profit_on_long_USDTHB_Trade_Idea--933710.pdf",
+      "date": "2026-10-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 6,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "JPY_rates_Closing_IRS_5s20s_steepener_at_flat_10y_swap_spread_at_1bp_Trade_Idea--933663",
+      "document": "JPY_rates_Closing_IRS_5s20s_steepener_at_flat_10y_swap_spread_at_1bp_Trade_Idea--933663.pdf",
+      "date": "2026-10-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 45 50 55 60 65 70 75 80 105 110 115 120",
+          "chunk_id": "JPY_rates_Closing_IRS_5s20s_steepener_at_flat_10y_swap_spread_at_1bp_Trade_Idea--933663.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 45 50 55 60 65 70 75 80 105 110 115 120",
+          "chunk_id": "JPY_rates_Closing_IRS_5s20s_steepener_at_flat_10y_swap_spread_at_1bp_Trade_Idea--933663.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Europe_-_Commodities_-_metal_rock_-_LME_Week_2026_-_Key_Debates",
+      "document": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf",
+      "date": "2026-10-15",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 66,
+      "page_count": 48,
+      "status": "skipped",
+      "missing_indices": [
+        9,
+        18
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [9, 18]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -50000 0 50000 100000 150000 200000 250000 Jan-20 Jan-21 Jan-22 Jan-23 Jan-24",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -100 100 300 500 700 900 1,100 1,300 Mar-25 May-25 Jul-25 Sep-25",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 3 3.5 4 4.5 5 Jan-21 Jan-22 Jan-23 Jan-24 Jan-25 Jan-26",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: - 200 400 600 800 1,000 1,200 1,400 1,600 1,800 2,000 Jan-24",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -60 -40 -20 0 20 40 60 80 100 Jan-21 Jan-22 Jan-23",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -400 -350 -300 -250 -200 -150 -100 -50 0 50 100 -20%",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-4-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: August 0 2 4 6 2021 2022 2023 2024 2025 2026",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: -100,000 -80,000 -60,000 -40,000 -20,000 - 20,000 40,000 60,000",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0 100 200 300 400 500 600 Jan Feb Mar Apr May",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 70 80 90 100 110 120 130 140 150",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "23 consecutive numeric/date tokens: 3Q 26a 4Q 26e 1Q 27e 2Q 27e 3Q 27e 4Q 27e",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-8-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 1,856 1,925 1,900 1,900 1,900 1,900 1,900 1,900 1,916 1,900 1,950 2,000",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-8-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 0.71 0.71 0.71 0.70 0.70 0.70 0.70 0.70 0.71 0.70 0.70 0.70",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% 120% 140% 160%",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-10-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0% 20% 40% 60% 80% 100% 120% 140% 160%",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-10-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-10-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "17 consecutive numeric/date tokens: 0% 0% -1% -1% -4% -5% 0% 0% -1% 0% -2% -2%",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-11-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-12-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-12-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 9.5 9.6 -0.6% 1 | 3.4 3.4 -0.2% 1 | 10.0 10.0 0.1% 1",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-12-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -15 -5 5 15 25 2011 2012 2013 2014 2015 2016 2017",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-13-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -40 -30 -20 -10 0 10 20 30 40 50 2015 2016",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-14-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-14-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -100% -75% -50% -25% 0% 25% 50% 75% 100% Jan Feb Mar",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -40% -20% 0% 20% 40% 60% 80% 2019 2020 2021 2022 2023",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-16-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-16-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 Jan Feb Mar Apr May",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-17-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-17-34",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -20% -15% -10% -5% 0% 5% 10% 15% Jan-15 Jan-16 Jan-17 Jan-18",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-18-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-18-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 1000 1500 2000 2500 3000 3500 - 10 20 30 40 50",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-19-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-19-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 Jan Feb Mar Apr May Jun Jul Aug",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-20-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-20-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -4% -2% 0% 2% 4% 6% 8% 10% 12% Jan-20 Jan-21 Jan-22",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-21-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-21-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 0 100 200 300 400 500 600 700 - 10 20 30",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-22-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-22-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0.0 0.1 0.1 0.2 0.2 0.3 0.3 0.4 0.4 0.5 Jan Feb",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-23-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-23-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -80% -60% -40% -20% 0% 20% 40% 60% 2019 2020 2021 2022",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-24-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-24-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 0.0 0.1 0.1 0.2 0.2 0.3 0.3 0.4 0.4 0.5 Jan Feb",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-25-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-25-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: -20% -10% 0% 10% 20% 30% 40% Jan-08 Jan-10 Jan-12 Jan-14 Jan-16",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-26-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-26-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 20 40 60 80 100 120 140 160 180 200 -",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-27-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-27-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 500 1,000 1,500 2,000 2,500 3,000 6 8 10 12 14 16",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-28-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 20 40 60 80 100 120 Jan-18 Jan-20 Jan-22 Jan-24 Jan-26",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-29-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-29-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0 1000 2000 3000 4000 5000 6000 -300 -200 -100 0 100",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-30-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-30-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 80 85 90 95 100 105 110 115 120 -2.00 -1.00 0.00",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-31-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-31-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 500",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-32-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-32-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 200 250 300 350 400 450 500 550",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-33-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-33-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 600 650 700 750 800 850 900 Jan Feb Mar Apr May",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-34-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-34-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 70% 75% 80% 85% 90% 95% 100% Jan Feb Mar Apr May",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-35-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-35-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 70% 75% 80% 85% 90% 95% 100% Jan Feb Mar Apr May",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-36-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-36-53",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 0 0.2 0.4 0.6 0.8 1 1.2 1.4 1 3 5 7",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-37-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-37-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 1 2 3 4",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-38-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-38-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 10 15 20 25 30 1 2 3 4 5 6 7",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-39-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-39-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 4 8 12 16 1 2 3 4 5 6 7",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-40-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-40-57",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 2.0 3.0 4.0 5.0 1 6 11 16 21 26 31 36",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-41-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-41-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 50 100 150 200 250 Sep-24 Nov-24 Jan-25 Mar-25 May-25 Jul-25 Sep-25",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-42-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-42-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 20 40 60 80 100 120 Sep-24 Nov-24 Jan-25 Mar-25 May-25",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-43-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-43-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 50 100 150 200 250 300 Sep-24 Nov-24 Jan-25 Mar-25 May-25 Jul-25",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-44-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-44-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 50 100 150 200 250 300 Sep-24 Nov-24 Jan-25 Mar-25 May-25",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-45-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-45-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 50 100 150 200 250 300 Sep-24 Nov-24 Jan-25 Mar-25 May-25",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-46-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-46-63",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 50 60 70 80 90 100 110 120 Sep-24 Nov-24 Jan-25 Mar-25",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-47-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-47-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "114 consecutive numeric/date tokens: 2026e 1.54 1.48 1.43 6.48 6.24 6.00 8.11 7.82 7.53 1.74 1.67",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-48-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-48-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "114 consecutive numeric/date tokens: 2026e 111 100 93 269 250 231 168 137 105 5.6 5.1",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-48-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-48-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "18 consecutive numeric/date tokens: 151 104 78 319 236 177 192 148 111 6.8 5.7 4.5",
+          "chunk_id": "MS_Europe - Commodities - metal&rock - LME Week 2026 - Key Debates.pdf-48-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Global_Macro_Commentary_-_October_15_-_AI_Selloff_Fuels_Bond_Rally",
+      "document": "MS_Global Macro Commentary - October 15 - AI Selloff Fuels Bond Rally.pdf",
+      "date": "2026-10-15",
+      "publisher": "Morgan Stanley",
+      "document_type": "Market Commentary",
+      "chunk_count": 29,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        12,
+        18
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [12, 18]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "64 consecutive numeric/date tokens: 2wk 2y 4.738 (5.9) 3.102 (2.3) 4.883 (1.9) 1.899 (1.9) 3y 4.824",
+          "chunk_id": "MS_Global Macro Commentary - October 15 - AI Selloff Fuels Bond Rally.pdf-6-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "100 consecutive numeric/date tokens: (10/14) 1.228 0.0 -- 10/28/26 3.947 4.0 (1.5) 10/29/26 2.465 2.5 (0.6)",
+          "chunk_id": "MS_Global Macro Commentary - October 15 - AI Selloff Fuels Bond Rally.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "MS_Global Macro Commentary - October 15 - AI Selloff Fuels Bond Rally.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "MS_Global Macro Commentary - October 15 - AI Selloff Fuels Bond Rally.pdf-11-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_UK_GDP_-_Doing_Much_More_With_Less",
+      "document": "MS_UK GDP - Doing Much More With Less.pdf",
+      "date": "2026-10-15",
+      "publisher": "Morgan Stanley",
+      "document_type": "Catalyst Review",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 0.8% 0.0% -0.1% 0.3% | 1.2% 0.0% 0.0% 1.0% | 0.0% -0.2% -0.1% 0.5%",
+          "chunk_id": "MS_UK GDP - Doing Much More With Less.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711",
+      "document": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf",
+      "date": "2026-10-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 22,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        19
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [19]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: -7.00 -6.00 -5.00 -4.00 -3.00 -2.00 -1.00 0.00 1.00 2.00 3.00 Mar-08",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -10.00 -5.00 0.00 5.00 Mar-12 Dec-12 Sep-13 Jun-14 Mar-15 Dec-15 Sep-16 Jun-17",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-2-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "29 consecutive numeric/date tokens: 2.00 2.50 3.00 3.50 4.00 4.50 5.00 5.50 6.00 Jun-08 May-09 Apr-10",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 numeric rows: -0.010 0.429 0.044 0.788 | -0.017 0.389 0.023 0.659 | 0.021 0.596 0.027 0.617",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-4-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "54 consecutive numeric/date tokens: -0.25 -0.20 -0.15 -0.10 -0.05 0.00 0.05 0.10 Jun-08 Jun-09 Jun-10 Jun-11",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-4-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-4-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 515 October 2026 0 6 12 18 24 30",
+          "chunk_id": "Mexico_labor_market_Slack_builds_as_services_inflation_stays_sticky_Desknote--933711.pdf-5-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Strong_Dollar__Stronger_Differentiation",
+      "document": "Strong Dollar, Stronger Differentiation.pdf",
+      "date": "2026-10-15",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 15 October 2026 1 | 20 Aug 2026 2.99 3.1 2.95 -2.0% | 27 Aug 2026 48.14 47.29 50 +1.7%",
+          "chunk_id": "Strong Dollar, Stronger Differentiation.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 24 Sep 2026 33.42 34 33 +0.6% | 1 Oct 2026 1.102 1.065 1.118 -1.7% | 8 Oct 2026 5.01 4.6 5.25 -0.1%",
+          "chunk_id": "Strong Dollar, Stronger Differentiation.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 6.2 6.4 6.6 6.8 7.0 7.2 1 2 3 4 5 6",
+          "chunk_id": "Strong Dollar, Stronger Differentiation.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 numeric rows: 3.75% 11/05 0.63 n/a | 5.50% 10/20 0.00 63% 25bps | 3.75% 11/04 0.54 46%",
+          "chunk_id": "Strong Dollar, Stronger Differentiation.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 1 Oct 2026 1.1 1.12 9 Oct 2026 -1.66%",
+          "chunk_id": "Strong Dollar, Stronger Differentiation.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "Strong Dollar, Stronger Differentiation.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_Rates_Map_-_AI_resilience_and_bonds",
+      "document": "UBS_Global Strategy - Rates Map - AI resilience and bonds.pdf",
+      "date": "2026-10-15",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "50% of tokens are numeric/date values",
+          "chunk_id": "UBS_Global Strategy - Rates Map - AI resilience and bonds.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_Global Strategy - Rates Map - AI resilience and bonds.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -100 -50 0 50 100 150 1996 2000 2004 2008 2012 2016",
+          "chunk_id": "UBS_Global Strategy - Rates Map - AI resilience and bonds.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 0 2 4 6 8 10 12 14 16",
+          "chunk_id": "UBS_Global Strategy - Rates Map - AI resilience and bonds.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 2.7 3.7 Sep-27, 2.6 Sep-28, 2.5 Dec-28, 2.5 1.0 2.0 3.0 4.0",
+          "chunk_id": "UBS_Global Strategy - Rates Map - AI resilience and bonds.pdf-6-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Strategy_-_The_Neocloud_Credit_Selloff-Higher_Yields_Raise_The_Bar",
+      "document": "UBS_Global Strategy - The Neocloud Credit Selloff-Higher Yields Raise The Bar.pdf",
+      "date": "2026-10-15",
+      "publisher": "UBS",
+      "document_type": "Market Commentary",
+      "chunk_count": 12,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 1000bps 300 400 500 600 700 800 900 1000 1100 1200 65",
+          "chunk_id": "UBS_Global Strategy - The Neocloud Credit Selloff-Higher Yields Raise The Bar.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -0.1 -0.7 -0.6 -0.7 -0.8 0.3 1.2 1.0 1.4 1.6 0.2 0.7",
+          "chunk_id": "UBS_Global Strategy - The Neocloud Credit Selloff-Higher Yields Raise The Bar.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: -11% 9% -5% 43% -20% -10% 0% 10% 20% 30% 40% 50%",
+          "chunk_id": "UBS_Global Strategy - The Neocloud Credit Selloff-Higher Yields Raise The Bar.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: oreWeave oreWeave oreWeave",
+          "chunk_id": "UBS_Global Strategy - The Neocloud Credit Selloff-Higher Yields Raise The Bar.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_US_Daily_Data_Recap_-_Core_PCE_translation_at_0.35per__Warsh_ahead",
+      "document": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf",
+      "date": "2026-10-15",
+      "publisher": "UBS",
+      "document_type": "Daily",
+      "chunk_count": 19,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0% 1% 2% 3% 4% 5% 6% 7% 8% 9% Dec-18 Dec-20",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: -1.2 -0.7 -0.2 0.3 0.8 1.3 1.8 2.3 Feb Mar Apr May",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "40% of tokens are numeric/date values",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "43% of tokens are numeric/date values",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -2 0 2 4 6 8 10 12 16 17 18 19",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 200K 180 200 220 240 260 Jan-23 Jun-23 Nov-23 Apr-24 Sep-24 Feb-25",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1500 1600 1700 1800 1900 2000 Jan-23 Jun-23 Nov-23 Apr-24 Sep-24 Feb-25",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "20 numeric rows: Jul Aug Sep Oct | 15.6 20.6 7.6 25.5 | 27.9 32.1 29.0 21.0",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 numeric rows: 34.4 73.6 52.9 33.0 | 37.0 30.1 29.2 4.3 | 33.7 27.7 27.7 15.3",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 250 350 450 550 650 750 380 412 444 476 508 540",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 30 60 90 120 150 Dec-03 Dec-08 Dec-13 Dec-18 Dec-23 Dec-28",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 4.5 5.0 5.5 2021 2022 2023 2024 2025 2026",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-6-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 100.0 0.05 0.31 0.53 0.23 0.16 0.21 0.23",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-7-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0.0 0.78 -0.71 0.16 -0.38 0.53 0.12 0.04",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-7-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 4.3 -0.38 0.72 0.33 0.13 0.17 0.29 0.79",
+          "chunk_id": "UBS_US Daily Data Recap - Core PCE translation at 0.35per; Warsh ahead.pdf-7-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698",
+      "document": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf",
+      "date": "2026-10-15",
+      "publisher": "BNP Paribas",
+      "document_type": "Catalyst Preview",
+      "chunk_count": 49,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45 consecutive numeric/date tokens: 2026/27 115.5 137.2 -1.1% 82.6% 131.1 152.9 -1.5% 83.2% 2027/28 96.5 145.1",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 96.5 86.0 0.1% 94.7 63.4 93.2 0.7% 69.4 99.2 0.5% 59.0 0.8%",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-1-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "14 consecutive numeric/date tokens: 96.5 86.0 0.1% 94.7 63.4 93.2 0.7% 69.4 99.2 0.5% 59.0 0.8%",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-1-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 215 October 2026 0 25 50 75 100 125 150 Apr May",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-2-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "63 consecutive numeric/date tokens: 2.25 2.50 2.75 3.00 3.25 3.50 3.75 4.00 4.25 2.75 -0.5 -0.2",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-3-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "80 consecutive numeric/date tokens: 00 -0.7 -0.5 -0.2 0.0 0.2 0.5 0.7 1.0 1.2 3.25 -1.0",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-3-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "100 consecutive numeric/date tokens: 0.4% 2.25 2.50 2.75 3.00 3.25 3.50 3.75 4.00 4.25 2.75 -0.5",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-4-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -6.00 -4.00 -2.00 0.00 2.00 4.00 6.00 8.00 2000 2004 2008 2012",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-4-29",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 95.0 38.6% 105.8 41.5% 10.8 - | 76.0 30.9% 84.8 33.3% 8.8 - | 22.4 9.1% 24.2 9.5% 1.8 -",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-5-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "30 consecutive numeric/date tokens: 137.2 152.9 15.7 140.2 140.2 - 0.5 0.5 - 0.7 0.7 -",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-5-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 8.7 5.0 12.0 7.0 251.2 267.0 15.7 2.3 2.3 0.0",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-5-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 14.617.322.9",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-6-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: 14.617.322.9",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-6-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 5% 10% 15% 20% 25% 30% 35% 40% 45% 50%",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-6-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 715 October 2026 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 0",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-7-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 2.5% 2.5% 2.5% 2.5% 0% 2% 4% 6% 8% 10% 12%",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-8-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -160 -120 -80 -40 0 40 80 120 1pp 5pp 10pp -4000",
+          "chunk_id": "UK_budget_preview_A_budget_of_continuity_for_now_Desknote--933698.pdf-8-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

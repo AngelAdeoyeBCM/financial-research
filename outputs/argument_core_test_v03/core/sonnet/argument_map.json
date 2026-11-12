@@ -1,0 +1,320 @@
+{
+ "map": {
+  "arguments": [
+   {
+    "id": "A001",
+    "summary": "The Fed's choice is to hike or risk a large bond spike, since bonds favour orthodoxy of using rate hikes rather than buybacks to quell long-end rates.",
+    "conclusion": "P016-2",
+    "premises": [
+     "P019-1",
+     "P020-1"
+    ],
+    "conditions": [],
+    "qualifiers": [
+     "P016-1"
+    ],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC001",
+     "SC002"
+    ]
+   },
+   {
+    "id": "A002",
+    "summary": "The Fed likely hikes 25bp because CPI locks it in, pricing is firmly supportive, disappointing is costly, a hold would be unprecedented, and the alternative is a bond spike.",
+    "conclusion": "P005-1",
+    "premises": [
+     "A001",
+     "P030-1",
+     "P031-1",
+     "P031-2",
+     "P013-1",
+     "P080-1",
+     "P028-1",
+     "P032-3"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A003",
+    "summary": "Warsh likely delivers a hawkish hike, given hawkish communications, a Jackson Hole-style presser and the rates reaction analysis, which supports higher front end rates and twist flattening.",
+    "conclusion": "P009-1",
+    "premises": [
+     "A005",
+     "A004",
+     "P021-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [
+     "P009-2",
+     "P009-3"
+    ],
+    "alternatives": []
+   },
+   {
+    "id": "A004",
+    "summary": "The rate reaction to a hike depends on the mix of Fed communications, with a dovish hike producing a larger market move.",
+    "conclusion": "P084-1",
+    "premises": [
+     "P082-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC003",
+     "SC004"
+    ]
+   },
+   {
+    "id": "A005",
+    "summary": "Warsh in the presser is more Jackson Hole than July, because that speech was more transparent and transparency reduces miscommunication risk, largely to support the bond.",
+    "conclusion": "P086-2",
+    "premises": [
+     "P025-2",
+     "P074-1",
+     "P075-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC005",
+     "SC006"
+    ]
+   },
+   {
+    "id": "A006",
+    "summary": "The bar for the FOMC to out-hawk expectations and other G10 central banks is high because more than 3 hikes are priced for the Fed.",
+    "conclusion": "P118-2",
+    "premises": [
+     "P118-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A007",
+    "summary": "The USD outcome is determined by the Fed's ability to out-hawk market expectations and other G10 central banks, given global re-pricing and the high bar.",
+    "conclusion": "P010-1",
+    "premises": [
+     "A006",
+     "A008",
+     "P117-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": []
+   },
+   {
+    "id": "A008",
+    "summary": "There is considerable two-way USD risk at the FOMC, as sentiment soured after July and signals since have been mixed.",
+    "conclusion": "P121-1",
+    "premises": [
+     "P114-1",
+     "P115-1"
+    ],
+    "conditions": [],
+    "qualifiers": [],
+    "concessions": [],
+    "risks": [],
+    "implications": [],
+    "alternatives": [
+     "SC007",
+     "SC008"
+    ]
+   }
+  ],
+  "scenarios": [
+   {
+    "id": "SC001",
+    "label": "Fed holds in September",
+    "assumptions": [
+     "P017-1"
+    ],
+    "implications": [
+     "P017-2",
+     "P018-1",
+     "P095-2",
+     "P095-3",
+     "P096-12"
+    ],
+    "complements": [
+     "SC002"
+    ]
+   },
+   {
+    "id": "SC002",
+    "label": "Fed hikes in September",
+    "assumptions": [
+     "P045-1"
+    ],
+    "implications": [
+     "P045-2",
+     "P045-3",
+     "P038-2",
+     "P058-2"
+    ],
+    "complements": [
+     "SC001"
+    ]
+   },
+   {
+    "id": "SC003",
+    "label": "Hawkish presser",
+    "assumptions": [
+     "P087-1"
+    ],
+    "implications": [
+     "P087-3",
+     "P087-4",
+     "P089-1",
+     "P089-2"
+    ],
+    "complements": [
+     "SC004"
+    ]
+   },
+   {
+    "id": "SC004",
+    "label": "Dovish presser",
+    "assumptions": [
+     "P091-1"
+    ],
+    "implications": [
+     "P091-4",
+     "P091-5",
+     "P093-1",
+     "P093-2"
+    ],
+    "complements": [
+     "SC003"
+    ]
+   },
+   {
+    "id": "SC005",
+    "label": "Warsh as at Jackson Hole",
+    "assumptions": [
+     "P026-1"
+    ],
+    "implications": [
+     "P026-2",
+     "P026-3",
+     "P026-4"
+    ],
+    "complements": [
+     "SC006"
+    ]
+   },
+   {
+    "id": "SC006",
+    "label": "Warsh not as at Jackson Hole",
+    "assumptions": [
+     "P027-1"
+    ],
+    "implications": [
+     "P027-2"
+    ],
+    "complements": [
+     "SC005"
+    ]
+   },
+   {
+    "id": "SC007",
+    "label": "Bullish USD case",
+    "assumptions": [
+     "P123-2",
+     "P124-1",
+     "P126-1"
+    ],
+    "implications": [
+     "P127-1",
+     "P127-2"
+    ],
+    "complements": [
+     "SC008"
+    ]
+   },
+   {
+    "id": "SC008",
+    "label": "Bearish USD case: Fed holds",
+    "assumptions": [
+     "P129-1"
+    ],
+    "implications": [
+     "P129-2"
+    ],
+    "complements": [
+     "SC007"
+    ]
+   }
+  ]
+ },
+ "errors": [],
+ "attempts": 1,
+ "usage": [
+  {
+   "cost_usd": 0.136433,
+   "duration_ms": 28967,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 22983,
+    "cache_read_input_tokens": 2013,
+    "output_tokens": 4218,
+    "output_tokens_details": {
+     "thinking_tokens": 2514
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 22983,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4218,
+      "cache_read_input_tokens": 2013,
+      "cache_creation_input_tokens": 22983,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 22983
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-sonnet-5-5"
+   ]
+  }
+ ]
+}

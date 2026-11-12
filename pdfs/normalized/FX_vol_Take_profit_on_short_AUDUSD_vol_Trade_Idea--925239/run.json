@@ -1,0 +1,190 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_vol_Take_profit_on_short_AUDUSD_vol_Trade_Idea--925239.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-05-29",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 2
+    },
+    "leave_reasons": {},
+    "extra": 1,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 12,
+  "kinds": {
+   "deixis": 7,
+   "noun_phrase": 2,
+   "symbol": 2,
+   "pronoun": 1
+  },
+  "rooted_share": 0.7142857142857143,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 12,
+  "cost_usd": 0.0666
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 850,
+   "end": 867,
+   "quote": "the EKO structure",
+   "name": "the EKO structure"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 660,
+   "end": 692,
+   "quote": "a US–Iran de-escalation scenario",
+   "name": "the US–Iran de-escalation scenario"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 93,
+   "end": 145,
+   "quote": "the trade idea we opened in FX vol: Short AUDUSD vol",
+   "name": "the Short AUDUSD vol trade idea"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 84"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 5",
+   "message": "'its' in 'Figure 1: 3m implied vol is near its post-2020 low Figure 2: The AUDUSD impl'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0254254,
+   "duration_ms": 2263,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2859,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 86,
+    "output_tokens_details": {
+     "thinking_tokens": 78
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2859,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 86,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2859,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2859
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.041181699999999995,
+   "duration_ms": 8020,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2951,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 821,
+    "output_tokens_details": {
+     "thinking_tokens": 495
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2951,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 821,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2951,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2951
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

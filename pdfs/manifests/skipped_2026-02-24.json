@@ -1,0 +1,320 @@
+{
+  "batch_id": "2026-02-24",
+  "window": [
+    "2026-02-24",
+    "2026-02-24"
+  ],
+  "generated_at": "2026-10-29T16:27:11",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-02-22_2026-02-25.json",
+      "sha256": "e341e6c8c0827f27dcefe814107761edd53a60147b0bad5ea9056d891307e98b",
+      "records": 984,
+      "dates": [
+        "2026-02-22",
+        "2026-02-25"
+      ],
+      "records_for_batch": 81
+    }
+  ],
+  "counts": {
+    "documents": 5,
+    "in_scope": 4,
+    "out_of_scope": 1,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 6,
+    "edits": 26,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 11,
+    "UNSTRUCTURED_TEXT": 9,
+    "DISTORTED_TABLE": 9,
+    "MISSING_CHUNKS": 3
+  },
+  "documents": [
+    {
+      "stem": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283",
+      "document": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf",
+      "date": "2026-02-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 53,
+      "page_count": 29,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        14,
+        22,
+        23,
+        30,
+        54
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 14, 22, 23, 30, 54]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-2-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 0.5 27590 26570.0 26242 29109 26570.0 (22 Sep 25) 18 0.037 665",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-7-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "15 consecutive numeric/date tokens: 0.4 113.4 110.86 110.86 122.9 110.86 (22 Sep 25) 6 2.2% 134",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-7-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-7-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 numeric rows: 9:30 9:30 9:30 9:30 | – – – – 9:30 | – – – 13:00 –",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-8-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -0.36 0.03 90 290 2013 2014 2015 2017 2018 2019 2020 2021",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-9-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 1.1 2.4 2.5 2.70 28% 96% 39% 1.0",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-11-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 1% of words are English function words",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-11-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0.0 0.3 0.3 3.84 35% 57% 80% 44.1",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-11-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0.7 1.1 1.1 1.51 55% 94% 84% 2.2",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 0% of words are English function words",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-11-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 0.5 0.3 0.5 1.22 78% 56% 43% 22.7",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-11-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "45% of tokens are numeric/date values",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-18-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-18-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "66% of tokens are numeric/date values",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-18-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 5.50 6.00 6.50 7.00 7.50 8.00 2014 2016 2018 2020 2022 2024",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-21-39",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-22-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 0 1 2 3 4 5 2008 2010 2012 2014 2016 2018",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-28-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1 2 3 4 5 6 7 8 9 10 11 12",
+          "chunk_id": "Cross-Asset_Macro_Quantitative_Strategy_Pitchbook_Presentation--919283.pdf-28-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "FX_vol_roadmap_Trading_the_policy_credibility_regime_Desknote--919282",
+      "document": "FX_vol_roadmap_Trading_the_policy_credibility_regime_Desknote--919282.pdf",
+      "date": "2026-02-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 11,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 20% 40% 60% 80% Apr-23 Oct-23 Apr-24 Oct-24 Apr-25 Oct-25",
+          "chunk_id": "FX_vol_roadmap_Trading_the_policy_credibility_regime_Desknote--919282.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 0 -0.25% -0.50% -0.75%",
+          "chunk_id": "FX_vol_roadmap_Trading_the_policy_credibility_regime_Desknote--919282.pdf-2-3",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 7 8 9 10 0 2 4 6 8 10",
+          "chunk_id": "FX_vol_roadmap_Trading_the_policy_credibility_regime_Desknote--919282.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.95 1.00 1.05 1.10 1.15 1.20 16 17 18 19 20 21",
+          "chunk_id": "FX_vol_roadmap_Trading_the_policy_credibility_regime_Desknote--919282.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0 0.008 0.016 0.024 0.032 0.04 -200 -150 -100 -50 0 50",
+          "chunk_id": "FX_vol_roadmap_Trading_the_policy_credibility_regime_Desknote--919282.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "US_K-shaped_capex_nets_to_stronger_near-term_growth_Desknote--919280",
+      "document": "US_K-shaped_capex_nets_to_stronger_near-term_growth_Desknote--919280.pdf",
+      "date": "2026-02-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -0.1 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0 100 200",
+          "chunk_id": "US_K-shaped_capex_nets_to_stronger_near-term_growth_Desknote--919280.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "US_K-shaped_capex_nets_to_stronger_near-term_growth_Desknote--919280.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 2025 2026 2027 2025 2026 2027 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "US_K-shaped_capex_nets_to_stronger_near-term_growth_Desknote--919280.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "US_K-shaped_capex_nets_to_stronger_near-term_growth_Desknote--919280.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

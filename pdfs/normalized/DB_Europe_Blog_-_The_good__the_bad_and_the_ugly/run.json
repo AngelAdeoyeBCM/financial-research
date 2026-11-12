@@ -1,0 +1,488 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/DB_Europe_Blog_-_The_good__the_bad_and_the_ugly.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-08-28",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 41,
+    "referents": {
+     "thing": 23,
+     "claim": 7
+    },
+    "decisions": {
+     "link": 31,
+     "leave": 10
+    },
+    "leave_reasons": {
+     "expletive": 7,
+     "relative": 3
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 2,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 60,
+  "kinds": {
+   "deixis": 13,
+   "abbreviation": 11,
+   "pronoun": 8,
+   "demonstrative": 8,
+   "proposition": 6,
+   "noun_phrase": 5,
+   "possessive": 5,
+   "fragment": 2,
+   "shell": 1,
+   "symbol": 1
+  },
+  "rooted_share": 0.8914285714285715,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "LONG_RESOLUTION": 1
+  },
+  "sentences": 154,
+  "cost_usd": 0.3005
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1622,
+   "end": 1635,
+   "quote": "euro area GDP",
+   "name": "euro area GDP"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1531,
+   "end": 1562,
+   "quote": "The household real income shock",
+   "name": "the household real income shock"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2000,
+   "end": 2048,
+   "quote": "a targeted and temporary easing of fiscal policy",
+   "name": "the targeted and temporary easing of fiscal policy"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 4124,
+   "end": 4130,
+   "quote": "Europe",
+   "name": "Europe"
+  },
+  {
+   "id": "R5",
+   "type": "claim",
+   "start": 4124,
+   "end": 4204,
+   "quote": "Europe might have benefited from temporary stock-building in its export partners",
+   "name": "Europe might have benefited from temporary stock-building in its export partners"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 4423,
+   "end": 4443,
+   "quote": "the AI spending boom",
+   "name": "the AI spending boom"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 5201,
+   "end": 5216,
+   "quote": "our German team",
+   "name": "our German team"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 5436,
+   "end": 5468,
+   "quote": "raising the policy rate to 2.50%",
+   "name": "raising the policy rate to 2.50%"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 1368,
+   "end": 1426,
+   "quote": "the negative energy supply shock triggered by the Iran war",
+   "name": "the negative energy supply shock triggered by the Iran war"
+  },
+  {
+   "id": "R10",
+   "type": "claim",
+   "start": 6275,
+   "end": 6325,
+   "quote": "a hike to 2.50% in September seems all but certain",
+   "name": "a hike to 2.50% in September seems all but certain"
+  },
+  {
+   "id": "R11",
+   "type": "claim",
+   "start": 6759,
+   "end": 6790,
+   "quote": "neutral is higher than expected",
+   "name": "neutral is higher than expected"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 7690,
+   "end": 7753,
+   "quote": "the ECB decides that a restrictive policy stance is appropriate",
+   "name": "the ECB decides that a restrictive policy stance is appropriate"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7798,
+   "end": 7860,
+   "quote": "moving from a “measured” tightening to a “forceful” tightening",
+   "name": "moving from a “measured” tightening to a “forceful” tightening"
+  },
+  {
+   "id": "R14",
+   "type": "claim",
+   "start": 8273,
+   "end": 8329,
+   "quote": "gas prices are more consistent with the adverse scenario",
+   "name": "gas prices are more consistent with the adverse scenario"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 9086,
+   "end": 9115,
+   "quote": "persistence risk to inflation",
+   "name": "persistence risk to inflation"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 9117,
+   "end": 9148,
+   "quote": "The recent resilience of growth",
+   "name": "the recent resilience of growth"
+  },
+  {
+   "id": "R17",
+   "type": "claim",
+   "start": 10034,
+   "end": 10131,
+   "quote": "core inflation will converge down to headline in the medium term or headline converges up to core",
+   "name": "core inflation will converge down to headline in the medium term or headline converges up to core"
+  },
+  {
+   "id": "R18",
+   "type": "thing",
+   "start": 10003,
+   "end": 10024,
+   "quote": "the Governing Council",
+   "name": "the Governing Council"
+  },
+  {
+   "id": "R19",
+   "type": "thing",
+   "start": 10297,
+   "end": 10330,
+   "quote": "the risk of inflation persistence",
+   "name": "the risk of inflation persistence"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 13909,
+   "end": 13943,
+   "quote": "the course of French fiscal policy",
+   "name": "the course of French fiscal policy"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 12933,
+   "end": 12960,
+   "quote": "Rassemblement National (RN)",
+   "name": "RN"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 14457,
+   "end": 14478,
+   "quote": "The election campaign",
+   "name": "the election campaign"
+  },
+  {
+   "id": "R23",
+   "type": "thing",
+   "start": 14792,
+   "end": 14846,
+   "quote": "The extent of the RN’s intention to challenge Brussels",
+   "name": "the extent of the RN’s intention to challenge Brussels"
+  },
+  {
+   "id": "R24",
+   "type": "claim",
+   "start": 15112,
+   "end": 15193,
+   "quote": "the first task for the new parliament would be the preparation of the 2028 budget",
+   "name": "the first task for the new parliament would be the preparation of the 2028 budget"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 14974,
+   "end": 14997,
+   "quote": "Post-election decisions",
+   "name": "post-election decisions"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 14508,
+   "end": 14525,
+   "quote": "RN’s fiscal plans",
+   "name": "RN’s fiscal plans"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 16168,
+   "end": 16185,
+   "quote": "weak fundamentals",
+   "name": "weak fundamentals"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 15638,
+   "end": 15644,
+   "quote": "France",
+   "name": "France"
+  },
+  {
+   "id": "R29",
+   "type": "thing",
+   "start": 2162,
+   "end": 2189,
+   "quote": "the euro area fiscal stance",
+   "name": "the euro area fiscal stance"
+  },
+  {
+   "id": "R30",
+   "type": "thing",
+   "start": 3013,
+   "end": 3038,
+   "quote": "the earlier ECB rate cuts",
+   "name": "the earlier ECB rate cuts"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C005",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C017",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C021",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C024",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C025",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C039",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We don’t' at 1732"
+  },
+  {
+   "severity": "warning",
+   "code": "LONG_RESOLUTION",
+   "segment": "src 10561",
+   "message": "+21 words: {{ => , there is some risk of persistence, but not as much as 2022 and not enough to warrant an outright restrictive policy stance}}"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0912681,
+   "duration_ms": 11328,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8351,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 1154,
+    "output_tokens_details": {
+     "thinking_tokens": 885
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 8351,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1154,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 8351,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 8351
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.20919230000000003,
+   "duration_ms": 50647,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9822,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 6445,
+    "output_tokens_details": {
+     "thinking_tokens": 3737
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 9822,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 6445,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 9822,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 9822
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

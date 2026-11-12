@@ -1,0 +1,1150 @@
+{
+  "batch_id": "2026-04-02",
+  "window": [
+    "2026-04-02",
+    "2026-04-02"
+  ],
+  "generated_at": "2026-10-29T16:27:58",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-30_2026-04-02.json",
+      "sha256": "ee3b572a635064014f93d2524f02c1920ccd2c11fa43438d46a41fab305d6f25",
+      "records": 705,
+      "dates": [
+        "2026-03-30",
+        "2026-04-02"
+      ],
+      "records_for_batch": 284
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "in_scope": 5,
+    "out_of_scope": 1,
+    "compiled": 0,
+    "skipped": 5,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 0,
+    "edits": 0,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 110,
+    "UNSTRUCTURED_TEXT": 19,
+    "DISTORTED_TABLE": 14,
+    "MISSING_CHUNKS": 3
+  },
+  "documents": [
+    {
+      "stem": "BC_Global_Rates_Weekly_-_In_Limbo",
+      "document": "BC_Global Rates Weekly - In Limbo.pdf",
+      "date": "2026-04-02",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 111,
+      "page_count": 55,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        11,
+        19,
+        31,
+        34,
+        37,
+        70,
+        107
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 11, 19, 31, 34, 37, 70, 107]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -10 -8 -4 4 6 11 16 -25 -20 -15 -10 -5",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 2 April 2026 3 | +1 212 412 3681 | +1 212 526 7398",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 Jul-05 Jul-10 Jul-15 Jul-20",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-4-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 Jul-05 Jul-10 Jul-15 Jul-20",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 2.2",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "19 consecutive numeric/date tokens: 1.8% 2.0% 2.3% 2.5% 2.8% 3.0% 3.3% 3.5% 3.8% 4.0% 1/30 2/6",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 1 1 3 4 9 21 36 20 4 31 1 1",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: 2 April 2026 22 | +1 212 412 1848 | +44 (0) 20 7773 4954",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-22-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 40 50 60 70 80 90 100 110 120 130 140 Apr-25",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-23-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -15 -10 -5 0 5 2 5 7 10 20 30",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-24-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: -6.0 -5.0 -4.0 -3.0 -2.0 -1.0 0.0 Jan-26 Apr-26 Jul-26 Oct-26",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-25-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 numeric rows: 75 88 2.49 10y | 21 28 2.15 10y | 33 61 1.81 10y",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-26-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70%",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-27-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 43.1% 31.0% 6.0% 15.0% 4.9% -5% 5% 15% 25% 35% 45% 55%",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-28-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 35 60 47 47 21 38 37 22 61 18 40 0",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-29-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: Q2 25 120 130 140 150 160 170 180 Sep-16 Mar-18 Sep-19",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-30-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "49 consecutive numeric/date tokens: 158.6 2203 2045 1789 1534 1278 1022 155 2153 1999 1749 1499",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-30-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 10 20 30 40 50 60 70 80 90 100 2024",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-31-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: April 0 5 10 15 20 25 30 35 40",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-32-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "7 numeric rows: -10.5 -30.0 0.0 -14.9 4.4 | 79 100 67 67 -12 | 11.5 30.0 -0.5 4.0 -8",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-32-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 1530 2389 0 500 1000 1500 2000 2500 3000 3500 4000 4500",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-34-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0.0 5.0 10.0 15.0 20.0 25.0 30.0 35.0",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-35-73",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: Jan-2026 -1000 -800 -600 -400 -200 0 200 400",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-36-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 6.0 16.4 3.9 7.0 2.4 5.3 8.7 4.3 3.7 5.2 5.7 5.6",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-37-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: 1.6 1.8 2.0 2.2 2.4 2.6 1y 3y 5y 7y 9y 11y",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-38-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: -30 -10 10 30 50 70 1y 3y 5y 7y 9y 11y",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-40-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-40-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 1m 0% 5% 10% 15% 20% 25% 30%",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-41-84",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-42-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: 8 16 14 9 3 1 0 5 10 15 20 25",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-43-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -40 -20 0 20 40 60 80 100 120",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-44-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -5 -4 -3 -2 -1 0 1 2 3 4 '19 '20",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-45-93",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: March -0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 Mar 25",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-46-96",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "19 consecutive numeric/date tokens: -1 0 1 2 3 4 5 '15 '16 '17 '18 '19",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-47-99",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 2022 2023 2024",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-48-101",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -14.0 -12.0 -10.0 -8.0 -6.0 -4.0 -2.0 0.0 2.0 4.0 6.0 8.0",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-50-105",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.6 2.8 3.0 3.2 3.4",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-51-108",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "6 numeric rows: 2 April 2026 52 | +1 212 412 3681 | +44 (0) 20 7773 0533",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-52-111",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "48 consecutive numeric/date tokens: 2y 5y 10y 30y Q226 3.60 3.75 4.15 4.85 2.35 Q226 -10",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-55-117",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-55-117",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "53% of tokens are numeric/date values",
+          "chunk_id": "BC_Global Rates Weekly - In Limbo.pdf-55-118",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "DB_Investor_Positioning_and_Flows_-_Continued_Slide_Amidst_the_Whipsaw",
+      "document": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf",
+      "date": "2026-04-02",
+      "publisher": "Deutsche Bank",
+      "document_type": "Positioning and flows",
+      "chunk_count": 92,
+      "page_count": 41,
+      "status": "skipped",
+      "missing_indices": [
+        34,
+        57,
+        63,
+        79,
+        82
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [34, 57, 63, 79, 82]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "21 numeric rows: - Mar 27 2026 | - Mar 20 2026 | - Mar 13 2026",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-4-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "43% of tokens are numeric/date values",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 -2.5 -2.0 -1.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: 2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-5-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: 42 44 46 48 50 52 54 56 58 60 62 64",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-6-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 -2.0 -1.5 -1.0",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-6-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 -2.0 -1.5 -1.0",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 -2.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-7-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 -2.0 -1.5 -1.0 -0.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 -2.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 3% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 -1.5 -1.0 -0.5 0.0 0.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: -3.0 -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 -3.0 -2.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-9-19",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.0 0.1 0.2",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-9-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 15% 25% 35% 45% 55% 65% 75% 15% 25% 35% 45% 55%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-10-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: -4 -2 0 2 4 6 8 10 -4 -2 0 2",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-10-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: -50% -30% -10% 10% 30% 50% 70% 90% 110% -50% -30% -10%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-11-23",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 -2.0 -1.5 -1.0 -0.5 0.0",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-11-24",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: -80% -60% -40% -20% 0% 20% 40% 60% 80% 100% -80% -60%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-12-25",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 4% -2% 0% 2% 4% 6% 8% 10% Nov-12 Nov-13 Nov-14 Nov-15",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-12-26",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.0 0.1 0.2",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-13-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-13-27",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.05 0.10 0.15 0.20 0.25",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-13-28",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: 9 -60 -40 -20 0 20 40 60 -60 -40 -20 0",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-14-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-14-30",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0 30 40 50 60 0 10 20 30 40 50 60",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-14-31",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 300010 2.25% 2.75% 3.25% 3.75% 4.25% 4.75% 2.25% 2.75% 3.25% 3.75% 4.25%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-15-32",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: 1.8% 2.2% 2.6% 3.0% 3.4% 3.8% Jan-10 Jan-11 Jan-12 Jan-13 Jan-14 Jan-15",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-15-33",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "30 consecutive numeric/date tokens: 1.0% 2.0% 3.0% 4.0% 5.0% 6.0% 7.0% 8.0% 1.0% 2.0% 3.0% 4.0%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-16-35",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 0.30 0.40 0.50 -0.30 -0.20 -0.10 0.00 0.10 0.20 0.30 0.40",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-16-36",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "40 consecutive numeric/date tokens: 13 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-17-37",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: -1200 -800 -400 0 400 800 1200 1600 2000 -1200 -800 -400",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-17-38",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: 0 200 400 600 800 1000 1200 1400 1600 1800 2000 200",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-18-40",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 14 -10 0 10 20 30 40 50 -10 0 10 20",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-18-41",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 10 15 20 25 30 35 40 45 50 55 0 10",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-19-42",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "36 consecutive numeric/date tokens: 500 0.82 0.86 0.90 0.94 0.98 1.02 1.06 1.10 1.14 0.82 0.86",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-19-43",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 -1.5 -1.0 -0.5 0.0",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-20-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 4% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-20-44",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 -1.0 -0.5 0.0 0.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-20-45",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 -0.4 -0.3 -0.2 -0.1",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-21-46",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26 Mar-26",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-21-47",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: -0.5 -0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 0.5 -0.6",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-22-48",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: -50 0 50 100 150 200 250 300 350 400 -50 0",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-22-49",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-23-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-23-50",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -150 -50 50 150 250 350 450 -150 -50 50 150 250",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-23-51",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 -0.8 -0.6 -0.4 -0.2",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-24-52",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 -0.8 -0.6 -0.4",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-25-54",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -0.5 0.0 0.5 1.0 1.5 -0.5 0.0 0.5 1.0 1.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-25-55",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -2.5 -2.0 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 -2.5 -2.0 -1.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-26-56",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "42 consecutive numeric/date tokens: -15% -11% -7% -3% 1% 5% 9% 13% 17% 21% 25% 29%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-27-58",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: -120 -70 -20 30 80 130 180 230 280 40 45 50",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-27-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-27-59",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: -20% -10% 0% 10% 20% 30% 40% 50% -20% -10% 0% 10%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-27-60",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: 3500 4000 4500 5000 5500 6000 6500 7000 7500 -300 -100 100",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-28-61",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: -150 -100 -50 0 50 100 150 200 -150 -100 -50 0",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-28-62",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 800 900 1000 1100 1200 1300 1400 1500 1600 1700 -50 50",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-29-64",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "32 consecutive numeric/date tokens: -4200 -3700 -3200 -2700 -2200 -1700 -1200 -700 -4200 -3700 -3200 -2700",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-30-65",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: -40% -35% -30% -25% -20% -15% -10% -5% 0% 5% 10% -40%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-30-66",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "37 consecutive numeric/date tokens: -550 -450 -350 -250 -150 -50 50 150 250 350 -550 -450",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-30-67",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-31-68",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: -6000 -4000 -2000 0 2000 4000 6000 -6000 -4000 -2000 0 2000",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-31-69",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "35 consecutive numeric/date tokens: -4000 -3000 -2000 -1000 0 1000 2000 3000 4000 -4000 -3000 -2000",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-31-70",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-32-71",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "33 consecutive numeric/date tokens: -700 -500 -300 -100 100 300 500 700 -700 -500 -300 -100",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-32-72",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 84 86 88 90 92 94 96 98 100 102 104 106",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-33-74",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: -60% -45% -30% -15% 0% 15% 30% 45% 60% -60% -45% -30%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-33-75",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: Sep-23 Jan-24 May-24 Sep-24 Jan-25 May-25 Sep-25 Jan-26",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-33-76",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: 0.95 1.00 1.05 1.10 1.15 1.20 1.25 -100 -70 -40 -10 20",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-34-77",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "44 consecutive numeric/date tokens: -120 -100 -80 -60 -40 -20 0 20 40 60 80 100",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-34-78",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "28 consecutive numeric/date tokens: 1.20 1.25 1.30 1.35 1.40 1.45 -200 -150 -100 -50 0 50",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-35-80",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: -120 -100 -80 -60 -40 -20 0 20 40 60 80 -120",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-35-81",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: 1.30 1.35 1.40 1.45 1.50 1.55 1.60 1.65 1.70 1.75",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-36-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 5% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-36-83",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "34 consecutive numeric/date tokens: -50 0 50 100 150 200 -50 0 50 100 150 200",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-36-84",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: -24 Oct-24 Jan-25 Apr-25 Jul-25 Oct-25 Jan-26 Apr-26",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-36-85",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 -5% 0% 5%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-37-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-37-86",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 1500 2000 2500 3000 3500 4000 4500 5000 5500 -50 0 50",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-37-87",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: -60% -50% -40% -30% -20% -10% 0% 10% 20% 30% 40% -60%",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-38-89",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "38 consecutive numeric/date tokens: 0 50 100 150 200 250 300 350 400 450 500 550",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-39-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-39-90",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "46 consecutive numeric/date tokens: 75 80 85 90 95 100 105 110 115 120 75 80",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-39-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "DB_Investor Positioning and Flows - Continued Slide Amidst the Whipsaw.pdf-39-91",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Japan_Near-term_resilience_to_energy_shock_scenarios_Desknote--921706",
+      "document": "Japan_Near-term_resilience_to_energy_shock_scenarios_Desknote--921706.pdf",
+      "date": "2026-04-02",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 10,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "15 consecutive numeric/date tokens: 60 70 80 90 100 110 120 130 140 Mar-26 Jul-26 Nov-26",
+          "chunk_id": "Japan_Near-term_resilience_to_energy_shock_scenarios_Desknote--921706.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "10 consecutive numeric/date tokens: 1 2.1 2.5 2.3 2.4 0.8 0.9 0.9 0.9 2.00",
+          "chunk_id": "Japan_Near-term_resilience_to_energy_shock_scenarios_Desknote--921706.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "The_Ides_of_March",
+      "document": "The Ides of March.pdf",
+      "date": "2026-04-02",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "4 numeric rows: 2 April 2026 1 | 8 Jan 2026 43.05 41.0 45.0 3.8% | 26 Feb 2026 13,273 13,700 12,950 -0.8%",
+          "chunk_id": "The Ides of March.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70%",
+          "chunk_id": "The Ides of March.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "8 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70%",
+          "chunk_id": "The Ides of March.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: 0% 25% 50% 75% 100% '21 '22 '23 '24 '25 '26",
+          "chunk_id": "The Ides of March.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "11 consecutive numeric/date tokens: May-25 Jun-25 Jul-25 Aug-25 Sep-25 Oct-25 Nov-25 Dec-25 Jan-26 Feb-26 Mar-26",
+          "chunk_id": "The Ides of March.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "16 numeric rows: 3.50% 05/07 0.58 n/a | 6.25% 04/28 0.40 95% | 3.75% 04/09 0.22 15%",
+          "chunk_id": "The Ides of March.pdf-3-7",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 19 Mar 2026 6.03 6.04 26 Mar 2026 0.10%",
+          "chunk_id": "The Ides of March.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "chart labels without spaces: riceStats riceStats riceStats",
+          "chunk_id": "The Ides of March.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "UBS_Global_Rates_Strategy_-_Spillovers_in_2y_rates_across_G-10",
+      "document": "UBS_Global Rates Strategy - Spillovers in 2y rates across G-10.pdf",
+      "date": "2026-04-02",
+      "publisher": "UBS",
+      "document_type": "Research Note",
+      "chunk_count": 5,
+      "page_count": 2,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0% 10% 20% 30% 40% 50% 60% 70% 80% 1996 2000 2004",
+          "chunk_id": "UBS_Global Rates Strategy - Spillovers in 2y rates across G-10.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

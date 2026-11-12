@@ -1,0 +1,8 @@
+{
+ "references": [
+  "```json\n{\"referents\": [\n  {\"id\": \"R1\", \"type\": \"thing\", \"sid\": \"E002\", \"quote\": \"Citigroup Global Markets Inc.\", \"name\": \"Citigroup Global Markets Inc.\"},\n  {\"id\": \"R2\", \"type\": \"thing\", \"sid\": \"E029\", \"quote\": \"strength in AI-related investment that was offset by weakness in other categories of investment\", \"name\": \"the strength in AI-related investment that was offset by weakness in other categories of investment\"},\n  {\"id\": \"R3\", \"type\": \"thing\", \"sid\": \"E012\", \"quote\": \"The Q4 government shutdown\", \"name\": \"the Q4 government shutdown\"}],\n \"decisions\": [\n  {\"candidate\": \"C001\", \"action\": \"link\", \"referent\": \"R1\"},\n  {\"candidate\": \"C002\", \"action\": \"leave\", \"reason\": \"relative\"},\n  {\"candidate\": \"C003\", \"action\": \"leave\", \"reason\": \"not_a_reference\"},\n  {\"candidate\": \"C004\", \"action\": \"leave\", \"reason\": \"relative\"},\n  {\"candidate\": \"C005\", \"action\": \"leave\", \"reason\": \"relative\"},\n  {\"candidate\": \"C006\", \"action\": \"leave\", \"reason\": \"not_a_reference\"},\n  {\"candidate\": \"C007\", \"action\": \"link\", \"referent\": \"R2\"}],\n \"extra\": [\n  {\"sid\": \"E014\", \"phrase\": \"the shutdown\", \"occurrence\": 1, \"referent\": \"R3\"}]}\n```"
+ ],
+ "ellipsis": [
+  "```json\n{\"items\": [{\"sid\": \"E002\", \"kind\": \"vp\", \"remnant\": \"which does\", \"insert\": \"do business with companies covered in its research reports\", \"antecedent\": {\"sid\": \"E002\", \"quote\": \"seeks to do business with companies covered in its research reports\"}}]}\n```"
+ ]
+}

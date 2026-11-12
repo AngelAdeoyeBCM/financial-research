@@ -1,0 +1,252 @@
+{
+  "batch_id": "2026-03-01",
+  "window": [
+    "2026-03-01",
+    "2026-03-01"
+  ],
+  "generated_at": "2026-10-29T16:27:15",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-02-26_2026-03-01.json",
+      "sha256": "c0bdf2041408e5dce0d9b7c8871fc6c0cf8775c6ff641735086cb71cddc9f441",
+      "records": 1100,
+      "dates": [
+        "2026-02-26",
+        "2026-03-01"
+      ],
+      "records_for_batch": 231
+    }
+  ],
+  "counts": {
+    "documents": 11,
+    "in_scope": 7,
+    "out_of_scope": 4,
+    "compiled": 3,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 65,
+    "edits": 44,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 14,
+    "UNSTRUCTURED_TEXT": 4,
+    "MISSING_CHUNKS": 3
+  },
+  "documents": [
+    {
+      "stem": "Citi_Global_Multi-Asset_Strategy_-_Making_market_sense_of_Iran-US_conflict",
+      "document": "Citi_Global Multi-Asset Strategy - Making market sense of Iran-US conflict.pdf",
+      "date": "2026-03-01",
+      "publisher": "Citi",
+      "document_type": "Catalyst Review",
+      "chunk_count": 27,
+      "page_count": 11,
+      "status": "skipped",
+      "missing_indices": [
+        3
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [3]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "9 consecutive numeric/date tokens: -0.2 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4",
+          "chunk_id": "Citi_Global Multi-Asset Strategy - Making market sense of Iran-US conflict.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 6% of words are English function words",
+          "chunk_id": "Citi_Global Multi-Asset Strategy - Making market sense of Iran-US conflict.pdf-3-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "Citi_Global Multi-Asset Strategy - Making market sense of Iran-US conflict.pdf-3-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "10 consecutive numeric/date tokens: -3% 0% 3% 6% 9% 10.20 10.70 11.20 11.70 12.20",
+          "chunk_id": "Citi_Global Multi-Asset Strategy - Making market sense of Iran-US conflict.pdf-6-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 0.91 -500 -400 -300 -200 -100 0 100 200 300 400 500",
+          "chunk_id": "Citi_Global Multi-Asset Strategy - Making market sense of Iran-US conflict.pdf-8-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_EUROPEAN_ECONOMICS_ANALYST_-_Global_Markets_Comment_-_Market_Thoughts_Following_the_Strikes_in_Iran",
+      "document": "GS_EUROPEAN ECONOMICS ANALYST - Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf",
+      "date": "2026-03-01",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: October 2026 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 -0.5 0.0",
+          "chunk_id": "GS_EUROPEAN ECONOMICS ANALYST - Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -0.10 -0.05 0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 -0.10 -0.05",
+          "chunk_id": "GS_EUROPEAN ECONOMICS ANALYST - Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -0.10 -0.05 0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 -0.10 -0.05",
+          "chunk_id": "GS_EUROPEAN ECONOMICS ANALYST - Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 55 57 59 61 63 65 67 2.25 2.35 2.45 2.55 2.65",
+          "chunk_id": "GS_EUROPEAN ECONOMICS ANALYST - Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 45 50 55 60 65 70 75 1.5 1.6 1.7 1.8 1.9",
+          "chunk_id": "GS_EUROPEAN ECONOMICS ANALYST - Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_EUROPEAN ECONOMICS ANALYST - Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Global_Markets_Comment_-_Market_Thoughts_Following_the_Strikes_in_Iran",
+      "document": "GS_Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf",
+      "date": "2026-03-01",
+      "publisher": "Goldman Sachs",
+      "document_type": "Catalyst Review",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        9
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 9]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "23 consecutive numeric/date tokens: October 2026 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 -0.5 0.0",
+          "chunk_id": "GS_Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -0.10 -0.05 0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 -0.10 -0.05",
+          "chunk_id": "GS_Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-4-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -0.10 -0.05 0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 -0.10 -0.05",
+          "chunk_id": "GS_Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-4-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "21 consecutive numeric/date tokens: 55 57 59 61 63 65 67 2.25 2.35 2.45 2.55 2.65",
+          "chunk_id": "GS_Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-5-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "22 consecutive numeric/date tokens: 45 50 55 60 65 70 75 1.5 1.6 1.7 1.8 1.9",
+          "chunk_id": "GS_Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_Global Markets Comment - Market Thoughts Following the Strikes in Iran.pdf-5-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_All_eyes_on_Iran_Sunday_Tea_with_BNP_Paribas--919602",
+      "document": "Sunday_Tea_with_BNPP_All_eyes_on_Iran_Sunday_Tea_with_BNP_Paribas--919602.pdf",
+      "date": "2026-03-01",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 13,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 40 60 80 100 120 Jan-25 Jun-25 Nov-25 Apr-26 Sep-26 Feb-27 Jul-27",
+          "chunk_id": "Sunday_Tea_with_BNPP_All_eyes_on_Iran_Sunday_Tea_with_BNP_Paribas--919602.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

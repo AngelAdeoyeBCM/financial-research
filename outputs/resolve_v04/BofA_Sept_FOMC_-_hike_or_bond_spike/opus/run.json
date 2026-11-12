@@ -1,0 +1,424 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../../../samples/BofA_Sept_FOMC_-_hike_or_bond_spike.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-14",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 55,
+    "referents": {
+     "thing": 23,
+     "claim": 5
+    },
+    "decisions": {
+     "link": 50,
+     "leave": 5
+    },
+    "leave_reasons": {
+     "expletive": 4,
+     "relative": 1
+    },
+    "extra": 7,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 5,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 142,
+  "kinds": {
+   "symbol": 43,
+   "deixis": 34,
+   "pronoun": 19,
+   "noun_phrase": 14,
+   "possessive": 11,
+   "demonstrative": 7,
+   "abbreviation": 3,
+   "verdict": 3,
+   "vp": 2,
+   "proposition": 2,
+   "fragment": 2,
+   "answer": 1,
+   "shell": 1
+  },
+  "rooted_share": 0.8382978723404255,
+  "errors": 0,
+  "warnings": {},
+  "sentences": 143,
+  "cost_usd": 0.2672
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 481,
+   "end": 488,
+   "quote": "The Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 6854,
+   "end": 6868,
+   "quote": "Sept FOMC hike",
+   "name": "the Sept FOMC hike"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 971,
+   "end": 1011,
+   "quote": "a sharp and disorderly UST long end move",
+   "name": "the sharp and disorderly UST long end move"
+  },
+  {
+   "id": "R4",
+   "type": "claim",
+   "start": 1269,
+   "end": 1313,
+   "quote": "Sept FOMC communications likely lean hawkish",
+   "name": "Sept FOMC communications likely lean hawkish"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 2972,
+   "end": 2983,
+   "quote": "Gov. Waller",
+   "name": "Gov. Waller"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 873,
+   "end": 882,
+   "quote": "Sept FOMC",
+   "name": "the Sept FOMC"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3805,
+   "end": 3859,
+   "quote": "the PCE methodology changes scheduled for September 30",
+   "name": "the PCE methodology changes scheduled for September 30"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4461,
+   "end": 4517,
+   "quote": "the median projections for the end of this year and next",
+   "name": "the median projections for the end of this year and next"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4886,
+   "end": 4931,
+   "quote": "questions about the policy path going forward",
+   "name": "questions about the policy path going forward"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 4846,
+   "end": 4857,
+   "quote": "Chair Warsh",
+   "name": "Chair Warsh"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5092,
+   "end": 5099,
+   "quote": "markets",
+   "name": "markets"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 5525,
+   "end": 5595,
+   "quote": "He might also point to the increase in oil as upside risk to inflation",
+   "name": "He might also point to the increase in oil as upside risk to inflation"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 6190,
+   "end": 6230,
+   "quote": "the Dallas Fed's trimmed-mean PCE metric",
+   "name": "the Dallas Fed's trimmed-mean PCE metric"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 7339,
+   "end": 7354,
+   "quote": "Hawkish presser",
+   "name": "the Hawkish presser"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 7762,
+   "end": 7776,
+   "quote": "Dovish presser",
+   "name": "the Dovish presser"
+  },
+  {
+   "id": "R16",
+   "type": "thing",
+   "start": 8727,
+   "end": 8744,
+   "quote": "Treasury buybacks",
+   "name": "Treasury buybacks"
+  },
+  {
+   "id": "R17",
+   "type": "thing",
+   "start": 8867,
+   "end": 8878,
+   "quote": "Trump admin",
+   "name": "Trump admin"
+  },
+  {
+   "id": "R18",
+   "type": "claim",
+   "start": 9015,
+   "end": 9091,
+   "quote": "tolerate modestly higher front end rates or materially higher long end rates",
+   "name": "tolerate modestly higher front end rates or materially higher long end rates"
+  },
+  {
+   "id": "R19",
+   "type": "claim",
+   "start": 9294,
+   "end": 9323,
+   "quote": "Warsh delivers a hawkish hike",
+   "name": "Warsh delivers a hawkish hike"
+  },
+  {
+   "id": "R20",
+   "type": "thing",
+   "start": 7259,
+   "end": 7273,
+   "quote": "a hawkish hike",
+   "name": "the hawkish hike"
+  },
+  {
+   "id": "R21",
+   "type": "thing",
+   "start": 8167,
+   "end": 8175,
+   "quote": "Fed hold",
+   "name": "the Fed hold"
+  },
+  {
+   "id": "R22",
+   "type": "thing",
+   "start": 10161,
+   "end": 10224,
+   "quote": "74 meetings where market priced some hike likelihood & Fed held",
+   "name": "the 74 meetings where market priced some hike likelihood & Fed held"
+  },
+  {
+   "id": "R23",
+   "type": "claim",
+   "start": 11486,
+   "end": 11592,
+   "quote": "the bar for this committee to “out-hawk” both expectations as well as other G10 central banks appears high",
+   "name": "the bar for this committee to “out-hawk” both expectations as well as other G10 central banks appears high"
+  },
+  {
+   "id": "R24",
+   "type": "thing",
+   "start": 11445,
+   "end": 11484,
+   "quote": "more than 3 hikes priced in for the Fed",
+   "name": "the more than 3 hikes priced in for the Fed"
+  },
+  {
+   "id": "R25",
+   "type": "thing",
+   "start": 12034,
+   "end": 12050,
+   "quote": "Bullish USD case",
+   "name": "the Bullish USD case"
+  },
+  {
+   "id": "R26",
+   "type": "thing",
+   "start": 2552,
+   "end": 2570,
+   "quote": "the FOMC statement",
+   "name": "the FOMC statement"
+  },
+  {
+   "id": "R27",
+   "type": "thing",
+   "start": 3152,
+   "end": 3185,
+   "quote": "an updated set of Fed projections",
+   "name": "the updated set of Fed projections"
+  },
+  {
+   "id": "R28",
+   "type": "thing",
+   "start": 673,
+   "end": 703,
+   "quote": "Warsh Jackson Hole (JH) speech",
+   "name": "Warsh Jackson Hole speech"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C009",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C028",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C039",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C055",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  }
+ ],
+ "issues": [],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0332717,
+   "duration_ms": 14617,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 10619,
+    "output_tokens": 1524,
+    "output_tokens_details": {
+     "thinking_tokens": 971
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1524,
+      "cache_read_input_tokens": 10619,
+      "cache_creation_input_tokens": 0,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 0
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.23395090000000002,
+   "duration_ms": 56043,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 11185,
+    "cache_read_input_tokens": 2464,
+    "output_tokens": 7155,
+    "output_tokens_details": {
+     "thinking_tokens": 3830
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 11185,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 7155,
+      "cache_read_input_tokens": 2464,
+      "cache_creation_input_tokens": 11185,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 11185
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

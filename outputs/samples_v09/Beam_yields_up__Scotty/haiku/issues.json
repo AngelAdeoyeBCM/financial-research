@@ -1,0 +1,30 @@
+[
+  {
+    "code": "EXCLUSION_NOT_VERBATIM",
+    "severity": "warning",
+    "path": "$.exclusions[17].text",
+    "message": "An exclusion is not a substring of the source.",
+    "suggested_action": "Copy the excluded sentence exactly from the document; only whitespace may differ."
+  },
+  {
+    "code": "EXCLUSION_NOT_VERBATIM",
+    "severity": "warning",
+    "path": "$.exclusions[18].text",
+    "message": "An exclusion is not a substring of the source.",
+    "suggested_action": "Copy the excluded sentence exactly from the document; only whitespace may differ."
+  },
+  {
+    "code": "BRIEF_TOO_LONG",
+    "severity": "warning",
+    "path": "$.statements[22].brief",
+    "message": "S023 brief has 11 words; the limit is 10.",
+    "suggested_action": "Shorten the brief to ten words or fewer."
+  },
+  {
+    "code": "BRIEF_TOO_LONG",
+    "severity": "warning",
+    "path": "$.statements[27].brief",
+    "message": "S028 brief has 11 words; the limit is 10.",
+    "suggested_action": "Shorten the brief to ten words or fewer."
+  }
+]

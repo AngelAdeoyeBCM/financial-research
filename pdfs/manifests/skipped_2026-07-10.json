@@ -1,0 +1,137 @@
+{
+  "batch_id": "2026-07-10",
+  "window": [
+    "2026-07-10",
+    "2026-07-10"
+  ],
+  "generated_at": "2026-10-29T16:30:29",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "research_chunks/_recovery/july_01_26.json",
+      "sha256": "fe59b50de3e5640bae23ee6c9818aee793edd2bb6b981b088bd8fe100dddbe6c",
+      "records": 1308,
+      "dates": [
+        "2026-07-01",
+        "2026-07-26"
+      ],
+      "records_for_batch": 39
+    }
+  ],
+  "counts": {
+    "documents": 3,
+    "in_scope": 3,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 2,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 4,
+    "edits": 3,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 6,
+    "DISTORTED_TABLE": 1,
+    "MISSING_CHUNKS": 1,
+    "UNSTRUCTURED_TEXT": 1
+  },
+  "documents": [
+    {
+      "stem": "FX_Asia_Q3_dividend_seasonal_patterns_and_their_impact_on_FX_Desknote--927909",
+      "document": "FX_Asia_Q3_dividend_seasonal_patterns_and_their_impact_on_FX_Desknote--927909.pdf",
+      "date": "2026-07-10",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 14,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 10, 15, 17, 22, 27, 28, 30, 31 July,",
+          "chunk_id": "FX_Asia_Q3_dividend_seasonal_patterns_and_their_impact_on_FX_Desknote--927909.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913",
+      "document": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf",
+      "date": "2026-07-10",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 24,
+      "page_count": 7,
+      "status": "skipped",
+      "missing_indices": [
+        14
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [14]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: -3.0% -2.0% -1.0% 0.0% 1.0% 2002 2012 2022 2032 2042 2052 2062",
+          "chunk_id": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 5 10 15 20 25 30 35 2025 2030 2035 2040",
+          "chunk_id": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf-3-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 40 45 50 55 60 65 70 150 155 160 165 170",
+          "chunk_id": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf-4-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: 76 78 80 82 84 86 -1 0 1 2 3 4",
+          "chunk_id": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf-5-20",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 7.8% 7.5% 6.1% 0.8% 0.3% 6.4% 0.3% 1.1% 2.7% 0.7% 2.0% 3.1%",
+          "chunk_id": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf-6-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 2045 2070 58 60 87 42 40 13 0 20 40 60",
+          "chunk_id": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf-6-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "France_Pension_debate_kicks_off_as_presidential_vote_nears_Desknote--927913.pdf-6-22",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

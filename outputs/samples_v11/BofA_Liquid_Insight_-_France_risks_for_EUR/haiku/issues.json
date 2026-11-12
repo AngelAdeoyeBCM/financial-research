@@ -1,0 +1,16 @@
+[
+  {
+    "code": "EVIDENCE_UNUSED",
+    "severity": "warning",
+    "path": "$.evidence[16]",
+    "message": "E017 is not referenced by any statement.",
+    "suggested_action": "Attach the span to a statement, or remove it if no claim uses it."
+  },
+  {
+    "code": "EXCLUSION_NOT_VERBATIM",
+    "severity": "warning",
+    "path": "$.exclusions[13].text",
+    "message": "An exclusion is not a substring of the source.",
+    "suggested_action": "Copy the excluded sentence exactly from the document; only whitespace may differ."
+  }
+]

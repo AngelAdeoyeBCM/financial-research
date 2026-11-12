@@ -1,0 +1,300 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/Sunday_Tea_with_BNPP_Ready_to_act_Sunday_Tea_with_BNP_Paribas--922883.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-04-26",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 16,
+    "referents": {
+     "claim": 4,
+     "thing": 11
+    },
+    "decisions": {
+     "link": 15,
+     "leave": 1
+    },
+    "leave_reasons": {
+     "not_a_reference": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 55,
+  "kinds": {
+   "deixis": 38,
+   "possessive": 4,
+   "demonstrative": 4,
+   "noun_phrase": 3,
+   "proposition": 3,
+   "pronoun": 2,
+   "shell": 1
+  },
+  "rooted_share": 0.6111111111111112,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 68,
+  "cost_usd": 0.1961
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "claim",
+   "start": 804,
+   "end": 846,
+   "quote": "onshore oil inventories are declining fast",
+   "name": "onshore oil inventories are declining fast"
+  },
+  {
+   "id": "R2",
+   "type": "claim",
+   "start": 1020,
+   "end": 1065,
+   "quote": "the US economy has remained notably resilient",
+   "name": "the US economy has remained notably resilient"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 2628,
+   "end": 2635,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 3470,
+   "end": 3482,
+   "quote": "Chair Powell",
+   "name": "Chair Powell"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 3652,
+   "end": 3677,
+   "quote": "the Department of Justice",
+   "name": "the Department of Justice"
+  },
+  {
+   "id": "R6",
+   "type": "claim",
+   "start": 3703,
+   "end": 3754,
+   "quote": "it had dropped its criminal investigation of Powell",
+   "name": "it had dropped its criminal investigation of Powell"
+  },
+  {
+   "id": "R7",
+   "type": "thing",
+   "start": 3946,
+   "end": 3989,
+   "quote": "our two core views on the leadership change",
+   "name": "the two core views on the leadership change"
+  },
+  {
+   "id": "R8",
+   "type": "claim",
+   "start": 4553,
+   "end": 4584,
+   "quote": "the greenback can’t catch a bid",
+   "name": "the greenback can’t catch a bid"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4616,
+   "end": 4686,
+   "quote": "renewed interest by global investors in diversifying away from the USD",
+   "name": "renewed interest by global investors in diversifying away from the USD"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 5082,
+   "end": 5103,
+   "quote": "hike at a later point",
+   "name": "a hike at a later point"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 5907,
+   "end": 5945,
+   "quote": "The BoJ also has an important decision",
+   "name": "the BoJ's important decision"
+  },
+  {
+   "id": "R12",
+   "type": "thing",
+   "start": 6530,
+   "end": 6545,
+   "quote": "the Philippines",
+   "name": "the Philippines"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 7313,
+   "end": 7338,
+   "quote": "our Spring Global Outlook",
+   "name": "the Spring Global Outlook"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 251,
+   "end": 271,
+   "quote": "the Strait of Hormuz",
+   "name": "the Strait of Hormuz"
+  },
+  {
+   "id": "R15",
+   "type": "thing",
+   "start": 5375,
+   "end": 5382,
+   "quote": "the BoE",
+   "name": "the BoE"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "this",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we ultimately' at 5215"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We ultimately' at 5463"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.049814599999999994,
+   "duration_ms": 5393,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5356,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 289,
+    "output_tokens_details": {
+     "thinking_tokens": 276
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5356,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 289,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5356,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5356
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.14627189999999998,
+   "duration_ms": 41304,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5943,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4870,
+    "output_tokens_details": {
+     "thinking_tokens": 3508
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5943,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4870,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 5943,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5943
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

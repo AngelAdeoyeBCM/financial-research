@@ -1,0 +1,183 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/FX_Exit_long_CLPCOP_position_Trade_Idea--926779.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-22",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 5,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 5
+    },
+    "leave_reasons": {},
+    "extra": 3,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 20,
+  "kinds": {
+   "deixis": 12,
+   "pronoun": 3,
+   "noun_phrase": 3,
+   "possessive": 2
+  },
+  "rooted_share": 0.5185185185185185,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 22,
+  "cost_usd": 0.0778
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 41,
+   "end": 65,
+   "quote": "our long CLPCOP position",
+   "name": "our long CLPCOP position"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 811,
+   "end": 818,
+   "quote": "the CLP",
+   "name": "the CLP"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 294,
+   "end": 301,
+   "quote": "the COP",
+   "name": "the COP"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We exit' at 33"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.031063900000000002,
+   "duration_ms": 3513,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3279,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 198,
+    "output_tokens_details": {
+     "thinking_tokens": 185
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3279,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 198,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3279,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3279
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0467328,
+   "duration_ms": 8681,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3507,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 874,
+    "output_tokens_details": {
+     "thinking_tokens": 448
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3507,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 874,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3507,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3507
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

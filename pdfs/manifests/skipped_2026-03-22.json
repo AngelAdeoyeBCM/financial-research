@@ -1,0 +1,63 @@
+{
+  "batch_id": "2026-03-22",
+  "window": [
+    "2026-03-22",
+    "2026-03-22"
+  ],
+  "generated_at": "2026-10-29T16:27:47",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-03-22_2026-03-25.json",
+      "sha256": "41876a182f75276475bb5d15a2f094b5b63e6d7b8a7fbbd04093102cce686c3e",
+      "records": 903,
+      "dates": [
+        "2026-03-22",
+        "2026-03-25"
+      ],
+      "records_for_batch": 153
+    }
+  ],
+  "counts": {
+    "documents": 9,
+    "in_scope": 4,
+    "out_of_scope": 5,
+    "compiled": 3,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 3,
+    "stripped_items": 49,
+    "edits": 43,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_TABLE": 1
+  },
+  "documents": [
+    {
+      "stem": "GS_US_Week_Ahead_-_March_23_-_March_29",
+      "document": "GS_US Week Ahead - March 23 - March 29.pdf",
+      "date": "2026-03-22",
+      "publisher": "Goldman Sachs",
+      "document_type": "Weekly",
+      "chunk_count": 6,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: March 23 - March 29 22 March 2026",
+          "chunk_id": "GS_US Week Ahead - March 23 - March 29.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

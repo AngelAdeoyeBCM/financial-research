@@ -1,0 +1,63 @@
+{
+  "batch_id": "2026-06-30",
+  "window": [
+    "2026-06-30",
+    "2026-06-30"
+  ],
+  "generated_at": "2026-10-29T16:30:12",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-30_2026-06-30.json",
+      "sha256": "9ec0118c007c9cac6e973102f0afe301784c1622a4a1a4c741a450cfaa251666",
+      "records": 5,
+      "dates": [
+        "2026-06-30",
+        "2026-06-30"
+      ],
+      "records_for_batch": 5
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "in_scope": 2,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 4,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 1
+  },
+  "documents": [
+    {
+      "stem": "DM_rates_Adding_to_our_short_5y5y_Germany_Trade_Idea--927295",
+      "document": "DM_rates_Adding_to_our_short_5y5y_Germany_Trade_Idea--927295.pdf",
+      "date": "2026-06-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "27 consecutive numeric/date tokens: -1.50 -1.00 -0.50 0.00 0.50 1.00 1.50 2.00 2.50 3.00 3.50 4.00",
+          "chunk_id": "DM_rates_Adding_to_our_short_5y5y_Germany_Trade_Idea--927295.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

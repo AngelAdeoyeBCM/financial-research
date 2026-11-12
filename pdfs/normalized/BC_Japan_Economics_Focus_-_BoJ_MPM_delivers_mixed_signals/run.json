@@ -1,0 +1,363 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/BC_Japan_Economics_Focus_-_BoJ_MPM_delivers_mixed_signals.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-18",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 42,
+    "referents": {
+     "thing": 12,
+     "claim": 2
+    },
+    "decisions": {
+     "link": 31,
+     "leave": 11
+    },
+    "leave_reasons": {
+     "expletive": 4,
+     "not_a_reference": 5,
+     "relative": 2
+    },
+    "extra": 6,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 54,
+  "kinds": {
+   "deixis": 17,
+   "pronoun": 14,
+   "possessive": 11,
+   "noun_phrase": 8,
+   "demonstrative": 2,
+   "proposition": 2
+  },
+  "rooted_share": 0.6888888888888889,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 2
+  },
+  "sentences": 64,
+  "cost_usd": 0.2015
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 360,
+   "end": 367,
+   "quote": "The BoJ",
+   "name": "the BoJ"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 7317,
+   "end": 7335,
+   "quote": "the September move",
+   "name": "the September move"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 415,
+   "end": 457,
+   "quote": "monetary policy meeting on 17-18 September",
+   "name": "the monetary policy meeting on 17-18 September"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1759,
+   "end": 1772,
+   "quote": "Governor Ueda",
+   "name": "Governor Ueda"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 1995,
+   "end": 2006,
+   "quote": "his remarks",
+   "name": "his remarks"
+  },
+  {
+   "id": "R6",
+   "type": "thing",
+   "start": 2525,
+   "end": 2538,
+   "quote": "the next hike",
+   "name": "the next hike"
+  },
+  {
+   "id": "R7",
+   "type": "claim",
+   "start": 3491,
+   "end": 3575,
+   "quote": "Governor Ueda’s tone has sometimes differed from that of the Policy Board as a whole",
+   "name": "Governor Ueda’s tone has sometimes differed from that of the Policy Board as a whole"
+  },
+  {
+   "id": "R8",
+   "type": "thing",
+   "start": 4268,
+   "end": 4273,
+   "quote": "Asada",
+   "name": "Asada"
+  },
+  {
+   "id": "R9",
+   "type": "thing",
+   "start": 4481,
+   "end": 4485,
+   "quote": "Sato",
+   "name": "Sato"
+  },
+  {
+   "id": "R10",
+   "type": "thing",
+   "start": 8051,
+   "end": 8062,
+   "quote": "his remarks",
+   "name": "his remarks"
+  },
+  {
+   "id": "R11",
+   "type": "thing",
+   "start": 8582,
+   "end": 8595,
+   "quote": "the next hike",
+   "name": "the next hike"
+  },
+  {
+   "id": "R12",
+   "type": "claim",
+   "start": 9709,
+   "end": 9793,
+   "quote": "Governor Ueda’s tone has sometimes differed from that of the Policy Board as a whole",
+   "name": "Governor Ueda’s tone has sometimes differed from that of the Policy Board as a whole"
+  },
+  {
+   "id": "R13",
+   "type": "thing",
+   "start": 3446,
+   "end": 3466,
+   "quote": "the September Tankan",
+   "name": "the September Tankan"
+  },
+  {
+   "id": "R14",
+   "type": "thing",
+   "start": 3398,
+   "end": 3441,
+   "quote": "the September meeting’s summary of opinions",
+   "name": "the September meeting’s summary of opinions"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C005",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C012",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C013",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C015",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C016",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C022",
+   "phrase": "It",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C034",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C035",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C037",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "relative",
+   "referents": []
+  },
+  {
+   "candidate": "C038",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  },
+  {
+   "candidate": "C041",
+   "phrase": "that",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 8",
+   "message": "'his' in \"overnor Ueda's remarks was nothing new, his remarks left markets with a hawkish imp\""
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 13",
+   "message": "'his' in \"overnor Ueda's remarks was nothing new, his remarks left markets with a hawkish imp\""
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.053414500000000004,
+   "duration_ms": 5414,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 5695,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 337,
+    "output_tokens_details": {
+     "thinking_tokens": 329
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5695,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 337,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 5695,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 5695
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.1480791,
+   "duration_ms": 36706,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7285,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 4417,
+    "output_tokens_details": {
+     "thinking_tokens": 2235
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7285,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4417,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 7285,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 7285
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": "2026-05-24",
+  "window": [
+    "2026-05-24",
+    "2026-05-24"
+  ],
+  "generated_at": "2026-10-29T16:29:16",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-05-21_2026-05-24.json",
+      "sha256": "950195d97d764705078cbfce12439ffa3706aa3c4715e1378a96e9237fe583ca",
+      "records": 2426,
+      "dates": [
+        "2026-05-21",
+        "2026-05-24"
+      ],
+      "records_for_batch": 46
+    }
+  ],
+  "counts": {
+    "documents": 4,
+    "in_scope": 4,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 19,
+    "edits": 17,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 3,
+    "MISSING_CHUNKS": 2
+  },
+  "documents": [
+    {
+      "stem": "GS_European_ECONOMICS_ANALYST_-_Spain___Structural_Resilience_Beyond_the_Energy_Shock",
+      "document": "GS_European ECONOMICS ANALYST - Spain – Structural Resilience Beyond the Energy Shock.pdf",
+      "date": "2026-05-24",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 16,
+      "page_count": 12,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        8,
+        10,
+        17
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 8, 10, 17]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Sunday_Start_-_What_s_Next_in_Global_Macro_-_The_Inelastic_Economy",
+      "document": "MS_Sunday Start - What's Next in Global Macro - The Inelastic Economy.pdf",
+      "date": "2026-05-24",
+      "publisher": "Morgan Stanley",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "14 consecutive numeric/date tokens: 0 20 40 60 80 100 1952 1962 1972 1982 1992 2002",
+          "chunk_id": "MS_Sunday Start - What's Next in Global Macro - The Inelastic Economy.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Higher_rates_weigh_on_risk_Sunday_Tea_with_BNP_Paribas--924835",
+      "document": "Sunday_Tea_with_BNPP_Higher_rates_weigh_on_risk_Sunday_Tea_with_BNP_Paribas--924835.pdf",
+      "date": "2026-05-24",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 11,
+      "page_count": 3,
+      "status": "skipped",
+      "missing_indices": [],
+      "issues": [
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "25 consecutive numeric/date tokens: 300 400 500 600 700 800 Jan-17 Jul-17 Jan-18 Jul-18 Jan-19 Jul-19",
+          "chunk_id": "Sunday_Tea_with_BNPP_Higher_rates_weigh_on_risk_Sunday_Tea_with_BNP_Paribas--924835.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "17 consecutive numeric/date tokens: 0.0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 2019 2020 2021",
+          "chunk_id": "Sunday_Tea_with_BNPP_Higher_rates_weigh_on_risk_Sunday_Tea_with_BNP_Paribas--924835.pdf-3-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}

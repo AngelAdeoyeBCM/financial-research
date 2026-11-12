@@ -1,0 +1,189 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EUR_rates_Closing_and_taking_profit_on_three_trades_Trade_Idea--933044.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-02",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 2,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 2
+    },
+    "leave_reasons": {},
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "deixis": 10,
+   "noun_phrase": 2,
+   "pronoun": 1,
+   "possessive": 1
+  },
+  "rooted_share": 0.8,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 2
+  },
+  "sentences": 12,
+  "cost_usd": 0.0619
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1106,
+   "end": 1139,
+   "quote": "6m fwd 2s10s ESTR flattener hedge",
+   "name": "the 6m fwd 2s10s ESTR flattener hedge"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 69,
+   "end": 119,
+   "quote": "long 15 Portugal vs Austria spread tightener trade",
+   "name": "the long 15 Portugal vs Austria spread tightener trade"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 629,
+   "end": 653,
+   "quote": "5s30s SPGB-GER flattener",
+   "name": "the 5s30s SPGB-GER flattener"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 56"
+  },
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 1093"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.024486,
+   "duration_ms": 2245,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2760,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 72,
+    "output_tokens_details": {
+     "thinking_tokens": 59
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2760,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 72,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2760,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2760
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0374451,
+   "duration_ms": 6590,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2880,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 657,
+    "output_tokens_details": {
+     "thinking_tokens": 270
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2880,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 657,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 2880,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2880
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

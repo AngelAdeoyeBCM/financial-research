@@ -1,0 +1,30 @@
+[
+  {
+    "code": "EXCLUSION_SNAPPED",
+    "severity": "warning",
+    "path": "$.exclusions[4].text",
+    "message": "Exclusion matched the source by fuzzy alignment (score 0.983); replaced with the source text.",
+    "suggested_action": "None; the repair has been applied."
+  },
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[5].conditions[0]",
+    "message": "S007 is in conditions, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states the condition; an adopted working premise belongs in assumptions."
+  },
+  {
+    "code": "PREMISE_DUPLICATES_CORE",
+    "severity": "warning",
+    "path": "$.arguments[0].premises[3]",
+    "message": "S026 restates S021, the conclusion of A004 (word overlap 0.63).",
+    "suggested_action": "Reference A004 (or S021) instead of restating it."
+  },
+  {
+    "code": "MUST_KEEP_UNCOVERED",
+    "severity": "warning",
+    "path": "$.evidence",
+    "message": "A sentence that looks like a claim is neither cited nor excluded: 'For example, the 3m6m FVA is compared with the 6m ATM volatility BofA GLOBAL RESEARCH Exhibit 5: Z-scores of forward vol premia since 2015 suggest that the mark'.",
+    "suggested_action": "Cite it as evidence of a statement, or list it under exclusions with a reason."
+  }
+]

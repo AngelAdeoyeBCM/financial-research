@@ -1,0 +1,303 @@
+{
+  "batch_id": "2026-01-04",
+  "window": [
+    "2026-01-04",
+    "2026-01-04"
+  ],
+  "generated_at": "2026-10-29T16:26:02",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-01_2026-01-04.json",
+      "sha256": "0933c9faeba37b25021d73d5dbb0af41e26b48ddd92a257fe36c1d23dd47ebdc",
+      "records": 650,
+      "dates": [
+        "2026-01-01",
+        "2026-01-04"
+      ],
+      "records_for_batch": 230
+    }
+  ],
+  "counts": {
+    "documents": 7,
+    "in_scope": 5,
+    "out_of_scope": 2,
+    "compiled": 1,
+    "skipped": 4,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 19,
+    "edits": 21,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BC_Venezuela_-_A_political_transition_has_started",
+      "document": "BC_Venezuela - A political transition has started.pdf",
+      "date": "2026-01-04",
+      "publisher": "Barclays",
+      "document_type": "Research Note",
+      "chunk_count": 30,
+      "page_count": 10,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.125,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead",
+      "document": "DB_US Economic Notes - What you need to know for the week ahead.pdf",
+      "date": "2026-01-04",
+      "publisher": "Deutsche Bank",
+      "document_type": "Weekly",
+      "chunk_count": 8,
+      "page_count": 4,
+      "status": "compiled",
+      "output": "pdfs/DB_US_Economic_Notes_-_What_you_need_to_know_for_the_week_ahead.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "1cc8d8c56de9f2a3735a9aa400ce324704922692",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Fedspeak C'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-2-4",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 1: Fedspeak Calendar Source: Deutsche Bank Research Provided for the exclusive use of cayla.b'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-2-5",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 2: DB US Economic Forecast Summary Source: Deutsche Bank Research Provided for the exclusive '",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-3-6",
+          "reprocess": "chart",
+          "severity": "warning"
+        },
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Figure 3: Data Calendar and DB Forecasts Source: Deutsche Bank Research Provided for the exclusive u'",
+          "chunk_id": "DB_US Economic Notes - What you need to know for the week ahead.pdf-4-7",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "7T2se3r0Ot6kwoPa"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 04/01/2026 15:00:05 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Distributed on: 04/01/2026 15:00:05 GMT"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "Deutsche Bank Research Deutsche Bank Securities Inc."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "IMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. UNTIL 19th MARCH 2021 INCOMPLETE DISCLOSURE INFORMATION MAY HAVE BEEN DISPLAYED, PLEASE SEE APPENDIX 1 FOR FURTHER DETAILS."
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Brett Ryan Senior US Economist +1-212-250-6294"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-05T20:20+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "4 January 2026 US Economic Notes Deutsche Bank Securities Inc. Page 2"
+        },
+        {
+          "rule": "contact_block",
+          "section": "signature",
+          "text": "Chief US Economist +1-212-250-6161 Justin Weidner Economist +1-212-469-1679 Amy Yang Economist +1-212-250-9959"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-05T20:20+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "4 January 2026 US Economic Notes Deutsche Bank Securities Inc. Page 3"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-05T20:20+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        },
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "4 January 2026 US Economic Notes Deutsche Bank Securities Inc. Page 4"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Provided for the exclusive use of cayla.buettner@bluecrestcapital.com on 2026-01-05T20:20+00:00."
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "DO NOT REDISTRIBUTE"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 8,
+        "disclaimer": 9,
+        "signature": 2
+      },
+      "edits": {
+        "split_word": {
+          "count": 6,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 14,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " :",
+              "after": ":"
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " What you need to know for the week ahead ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "GS_2026_Inflation_Outlook_-_Traveling_Toward_Target",
+      "document": "GS_2026 Inflation Outlook - Traveling Toward Target.pdf",
+      "date": "2026-01-04",
+      "publisher": "Goldman Sachs",
+      "document_type": "Outlook",
+      "chunk_count": 31,
+      "page_count": 14,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "GS_US_ECONOMICS_ANALYST_-_2026_Inflation_Outlook_-_Traveling_Toward_Target",
+      "document": "GS_US ECONOMICS ANALYST - 2026 Inflation Outlook - Traveling Toward Target.pdf",
+      "date": "2026-01-04",
+      "publisher": "Goldman Sachs",
+      "document_type": "Outlook",
+      "chunk_count": 31,
+      "page_count": 14,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "UBS_US_Economic_Outlook_2026-2028_-_What_next",
+      "document": "UBS_US Economic Outlook 2026-2028 - What next.pdf",
+      "date": "2026-01-04",
+      "publisher": "UBS",
+      "document_type": "Outlook",
+      "chunk_count": 41,
+      "page_count": 37,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.929,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

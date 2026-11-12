@@ -1,0 +1,22 @@
+%%{init: {"flowchart": {"htmlLabels": true, "nodeSpacing": 20, "rankSpacing": 60}, "themeCSS": ".arg{width:330px;text-align:left;color:#111111} .core,.c{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-top:4px;padding:3px 6px;color:#111111} .core{border:2px solid} .c{border:1.5px solid;border-radius:10px} .rec{background:#f8c9c9;border-color:#8b1a1a} .val{background:#e3d4f5;border-color:#5b2c8f} .fc{background:#c9ecc9;border-color:#1a6b3a} .pred{background:#fff2a8;border-color:#9a7d00} .pos{background:#fdd9b5;border-color:#b35900} .sent{background:#bff0f5;border-color:#00838f} .view{background:#c9dcf8;border-color:#1a3f8b} .asm{background:#c9dcf8;border-color:#1a3f8b} .causal{background:#e3d4f5;border-color:#5b2c8f} .sup{background:#c4c9cf;border-color:#4f5b66} .dp{background:#d4d4d4;border-color:#5f5f5f} .obs{background:#e6e6e6;border-color:#888888} .scn{background:#c4c9cf;border-color:#4f5b66} mark{background:#e6e6e6;color:#111111;padding:0 2px} .edgeLabel,.edgeLabel *{color:#9a9a9a !important;fill:#9a9a9a !important}"}}%%
+flowchart LR
+    A001["<div class='arg'><b>A001 · VIEW</b><div class='core view'><span>Desk sentiment not encouraging</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A002 - VIEW</b></span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A003 - VIEW</b></span><b>[A]</b></div></div>"]
+    A002["<div class='arg'><b>A002 · VIEW</b><div class='core view'><span>Rates turmoil reinforced lack of policy control</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>30Y at 5.51%, mortgages at 7.18%</mark></span><b>[A]</b></div></div>"]
+    A003["<div class='arg'><b>A003 · VIEW</b><div class='core view'><span>2026 P&amp;L made in Q1; protect via lower gross</span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>L/S HFs down ~1% MTD</mark></span><b>[A]</b></div></div>"]
+    A004["<div class='arg'><b>A004 · VIEW</b><div class='core view'><span>Awkward asymmetry into Q4</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A001 - VIEW</b></span><b>[A]</b></div><div class='c view'><span><b>S:</b> Hormuz-rally FOMO</span><b>[A]</b></div></div>"]
+    A005["<div class='arg'><b>A005 · RECOMMENDATION</b><div class='core rec'><span>Use hedges to run more risk</span><b>[A]</b></div><div class='c view'><span><b>S:</b> <b>A004 - VIEW</b></span><b>[A]</b></div></div>"]
+    A006["<div class='arg'><b>A006 · RECOMMENDATION</b><div class='core rec'><span>Short EU AI Agent Risk basket (MSSTARSK)</span><b>[A]</b></div><div class='c view'><span><b>S:</b> AI automation may threaten EU Telecoms / Classifieds / Ticketing</span><b>[S]</b></div></div>"]
+    A007["<div class='arg'><b>A007 · FORECAST</b><div class='core fc'><span>‘Your First Home’ to support new-build demand</span><b>[H]</b></div><div class='c dp'><span><b>RA:</b> <mark>2.5% deposit + 20% equity loan</mark></span><b>[A]</b></div><div class='c dp'><span><b>RA:</b> <mark>Help to Buy lifted completions ~33%</mark></span><b>[A]</b></div></div>"]
+
+    A002 -- Supporting --> A001
+    A003 -- Supporting --> A001
+    A001 -- Supporting --> A004
+    A004 -- Supporting --> A005
+
+    classDef fc fill:#eef9ee,stroke:#1a6b3a,stroke-width:2px,color:#111111
+    classDef rec fill:#fdeeee,stroke:#8b1a1a,stroke-width:2px,color:#111111
+    classDef view fill:#eef4fd,stroke:#1a3f8b,stroke-width:2px,color:#111111
+    class A007 fc
+    class A005,A006 rec
+    class A001,A002,A003,A004 view
+    linkStyle default stroke:#333333,stroke-width:2px,color:#9a9a9a

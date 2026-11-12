@@ -1,0 +1,25 @@
+flowchart LR
+    m1["US core PCE"] --> e1["Indicator<br/>pce x us, basket core"]
+    m2["core PCE"] --> e2["Indicator<br/>pce x us (default), basket core"]
+    m3["HICPx / HICP fixings"] --> e3["Indicator<br/>cpi x ea, basket ex_tobacco"]
+    m4["Japan core CPI"] --> e4["Indicator<br/>cpi x jp, basket core<br/>(today an alias of headline)"]
+    m5["ADP private payrolls"] --> e5["Indicator<br/>payrolls x us, source org:adp"]
+    m6["ISM manufacturing"] --> e6["Indicator<br/>pmi x us, basket manufacturing, source org:ism"]
+    m7["ECB deposit rate"] --> e7["Indicator<br/>policy_rate x ea, basket deposit"]
+    m8["HLW r* estimates"] --> e8["Indicator<br/>neutral_rate x us, source HLW"]
+    m9["r-star / term premium"] --> e9["Measure<br/>no geography given"]
+    m10["ECB TPI / PEPP"] --> e10["PolicyTool<br/>backstop / asset_purchase, org:ecb"]
+    m11["PBOC relending quotas"] --> e11["PolicyTool<br/>lending_facility, org:pboc"]
+    m12["VAT cut on electricity"] --> e12["PolicyTool<br/>tax, org:hmt<br/>(the cut is a state)"]
+    m13["gilt remit"] --> e13["PolicyTool<br/>debt_management, org:uk_dmo"]
+    m14["UK Budget"] --> e14["Event<br/>decides fiscal tools"]
+    m15["TIPS breakevens"] --> e15["Breakeven instrument<br/>(remove meas:breakeven_inflation)"]
+
+    classDef mention fill:#eef3fb,stroke:#4a6fa5,color:#000
+    classDef macro fill:#f3e5f5,stroke:#7b1fa2,color:#000
+    classDef policy fill:#fff3e0,stroke:#ef6c00,color:#000
+    classDef other fill:#eeeeee,stroke:#757575,color:#000
+    class m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14,m15 mention
+    class e1,e2,e3,e4,e5,e6,e7,e8,e9 macro
+    class e10,e11,e12,e13 policy
+    class e14,e15 other

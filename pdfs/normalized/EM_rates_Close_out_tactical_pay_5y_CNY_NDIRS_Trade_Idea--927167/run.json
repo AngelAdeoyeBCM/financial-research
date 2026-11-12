@@ -1,0 +1,175 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Close_out_tactical_pay_5y_CNY_NDIRS_Trade_Idea--927167.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-06-29",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 3,
+    "referents": {
+     "thing": 2
+    },
+    "decisions": {
+     "link": 3
+    },
+    "leave_reasons": {},
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 14,
+  "kinds": {
+   "deixis": 9,
+   "noun_phrase": 3,
+   "possessive": 1,
+   "pronoun": 1
+  },
+  "rooted_share": 0.7837837837837838,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1
+  },
+  "sentences": 17,
+  "cost_usd": 0.0666
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 70,
+   "end": 133,
+   "quote": "The trade idea we opened in EM rates: Tactical pay 5y CNY NDIRS",
+   "name": "the Tactical pay 5y CNY NDIRS trade idea"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 811,
+   "end": 854,
+   "quote": "the Lujiazui Forum announcements on 18 June",
+   "name": "the Lujiazui Forum announcements on 18 June"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'We close' at 171"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.026583,
+   "duration_ms": 3122,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2915,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 121,
+    "output_tokens_details": {
+     "thinking_tokens": 113
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2915,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 121,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 2915,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 2915
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.03998279999999999,
+   "duration_ms": 7444,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3047,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 720,
+    "output_tokens_details": {
+     "thinking_tokens": 357
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3047,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 720,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3047,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3047
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

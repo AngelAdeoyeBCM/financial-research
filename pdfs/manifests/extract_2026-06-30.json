@@ -1,0 +1,116 @@
+{
+  "batch_id": "2026-06-30",
+  "window": [
+    "2026-06-30",
+    "2026-06-30"
+  ],
+  "generated_at": "2026-10-29T16:30:12",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-06-30_2026-06-30.json",
+      "sha256": "9ec0118c007c9cac6e973102f0afe301784c1622a4a1a4c741a450cfaa251666",
+      "records": 5,
+      "dates": [
+        "2026-06-30",
+        "2026-06-30"
+      ],
+      "records_for_batch": 5
+    }
+  ],
+  "counts": {
+    "documents": 2,
+    "in_scope": 2,
+    "out_of_scope": 0,
+    "compiled": 1,
+    "skipped": 1,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 0,
+    "stripped_items": 4,
+    "edits": 2,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "DM_rates_Adding_to_our_short_5y5y_Germany_Trade_Idea--927295",
+      "document": "DM_rates_Adding_to_our_short_5y5y_Germany_Trade_Idea--927295.pdf",
+      "date": "2026-06-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 4,
+      "page_count": 1,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_vol_Take_profit_on_USDJPY_call_EKO_Trade_Idea--927321",
+      "document": "FX_vol_Take_profit_on_USDJPY_call_EKO_Trade_Idea--927321.pdf",
+      "date": "2026-06-30",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 1,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_vol_Take_profit_on_USDJPY_call_EKO_Trade_Idea--927321.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "913fa3c2b2f4947d294ee76171740352889837ec",
+      "gate_warnings": [],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX vol: Take profit on USDJPY call EKO ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    }
+  ]
+}

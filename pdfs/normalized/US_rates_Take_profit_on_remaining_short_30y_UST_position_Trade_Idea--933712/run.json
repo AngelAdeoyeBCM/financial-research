@@ -1,0 +1,201 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/US_rates_Take_profit_on_remaining_short_30y_UST_position_Trade_Idea--933712.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-10-15",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 1,
+    "referents": {
+     "thing": 3
+    },
+    "decisions": {
+     "link": 1
+    },
+    "leave_reasons": {},
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 20,
+  "kinds": {
+   "deixis": 17,
+   "noun_phrase": 3
+  },
+  "rooted_share": 0.5,
+  "errors": 0,
+  "warnings": {
+   "DEIXIS_AGREEMENT": 1,
+   "UNGROUNDED_WORD": 2,
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 23,
+  "cost_usd": 0.069
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 1526,
+   "end": 1554,
+   "quote": "changes to 20y coupon supply",
+   "name": "changes to 20y coupon supply"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 120,
+   "end": 139,
+   "quote": "short 30y UST trade",
+   "name": "the short 30y UST trade"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 862,
+   "end": 910,
+   "quote": "the remaining half of the short 30y UST position",
+   "name": "the remaining half of the short 30y UST position"
+  }
+ ],
+ "decisions": [],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "DEIXIS_AGREEMENT",
+   "segment": null,
+   "message": "agreement unknown after 'we hit' at 144"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 912",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNGROUNDED_WORD",
+   "segment": "src 1239",
+   "message": "not verbatim in source: ['has'] in {{we have => the author has}}"
+  },
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 7",
+   "message": "'its' in '2: US core CPI registered its biggest upside surprise since January 2'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.0293038,
+   "duration_ms": 2990,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3163,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 157,
+    "output_tokens_details": {
+     "thinking_tokens": 149
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3163,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 157,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3163,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3163
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0396924,
+   "duration_ms": 6714,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3203,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 651,
+    "output_tokens_details": {
+     "thinking_tokens": 322
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3203,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 651,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3203,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3203
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

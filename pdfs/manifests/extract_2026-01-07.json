@@ -1,0 +1,261 @@
+{
+  "batch_id": "2026-01-07",
+  "window": [
+    "2026-01-07",
+    "2026-01-07"
+  ],
+  "generated_at": "2026-10-29T16:26:05",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-01-05_2026-01-08.json",
+      "sha256": "e5f7bcf41a3127907a6caba15d26364b223a6a1aaa8529d632413cbcea38511d",
+      "records": 1451,
+      "dates": [
+        "2026-01-05",
+        "2026-01-08"
+      ],
+      "records_for_batch": 55
+    }
+  ],
+  "counts": {
+    "documents": 5,
+    "in_scope": 5,
+    "out_of_scope": 0,
+    "compiled": 2,
+    "skipped": 3,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 2,
+    "stripped_items": 6,
+    "edits": 14,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "documents": [
+    {
+      "stem": "BofA_UK_Watch_-_Back_to_School-_January_2026_edition",
+      "document": "BofA_UK Watch - Back to School- January 2026 edition.pdf",
+      "date": "2026-01-07",
+      "publisher": "Bank of America",
+      "document_type": "Outlook",
+      "chunk_count": 13,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 1.0,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "EM_rates_Take_profit_on_THB_5y5y_payer_Trade_Idea--915970",
+      "document": "EM_rates_Take_profit_on_THB_5y5y_payer_Trade_Idea--915970.pdf",
+      "date": "2026-01-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 2,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/EM_rates_Take_profit_on_THB_5y5y_payer_Trade_Idea--915970.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "6967ecde18585673e5532967260baaac21dcd90f",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Fig. 1: THOR 5y5y has sold-off Chandresh Jain, EM Asia FX and Rates Strategist | MAR | Joey Li, Mark'",
+          "chunk_id": "EM_rates_Take_profit_on_THB_5y5y_payer_Trade_Idea--915970.pdf-1-0",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "footer",
+          "text": "TRADE IDEA TRADE IDEA 07/01/2026 1"
+        },
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "Please refer to important information at the end of the report and MAR disclosures"
+        }
+      ],
+      "stripped_by_section": {
+        "footer": 1,
+        "disclaimer": 1
+      },
+      "edits": {
+        "spacing": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": "EM rates: Take profit on THB 5y5y payer ",
+              "after": "\n\n"
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "Everyone_expects_the_dollar_to_fall___and_that_s_OK",
+      "document": "Everyone expects the dollar to fall – and that’s OK.pdf",
+      "date": "2026-01-07",
+      "publisher": "State Street",
+      "document_type": "Weekly",
+      "chunk_count": 16,
+      "page_count": 5,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.875,
+      "fingerprint": null,
+      "gate_warnings": []
+    },
+    {
+      "stem": "FX_Trail_stop_on_short_USDKRW_Trade_Idea--915977",
+      "document": "FX_Trail_stop_on_short_USDKRW_Trade_Idea--915977.pdf",
+      "date": "2026-01-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Trade Idea",
+      "chunk_count": 3,
+      "page_count": 1,
+      "status": "compiled",
+      "output": "pdfs/FX_Trail_stop_on_short_USDKRW_Trade_Idea--915977.txt",
+      "asset_class_share": 1.0,
+      "fingerprint": "7b61b27c5449c236398048a8c7a4bcd7c1e302e7",
+      "gate_warnings": [
+        {
+          "code": "FIGURE_CAPTION",
+          "detail": "missing chart: 'Sources:'",
+          "chunk_id": "FX_Trail_stop_on_short_USDKRW_Trade_Idea--915977.pdf-1-2",
+          "reprocess": "chart",
+          "severity": "warning"
+        }
+      ],
+      "stripped": [
+        {
+          "rule": "template",
+          "section": "disclaimer",
+          "text": "asas Please refer to important information at the end of the report and MAR disclosures"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "B N P P A R I B A S G L O B A L M A"
+        },
+        {
+          "rule": "letter_spaced",
+          "section": "header",
+          "text": "T S A P P"
+        },
+        {
+          "rule": "app_promo",
+          "section": "promotion",
+          "text": ": Scan the QR code HERE to read our publications on our mobile app"
+        }
+      ],
+      "stripped_by_section": {
+        "disclaimer": 1,
+        "header": 2,
+        "promotion": 1
+      },
+      "edits": {
+        "split_word": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " -",
+              "after": "-"
+            },
+            {
+              "before": "- ",
+              "after": "-"
+            },
+            {
+              "before": "valuation s",
+              "after": "valuations"
+            }
+          ]
+        },
+        "spacing": {
+          "count": 5,
+          "examples": [
+            {
+              "before": " .",
+              "after": "."
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": " ,",
+              "after": ","
+            },
+            {
+              "before": "( ",
+              "after": "("
+            }
+          ]
+        },
+        "title": {
+          "count": 1,
+          "examples": [
+            {
+              "before": " FX: Trail stop on short USDKRW ",
+              "after": "\n\n"
+            }
+          ]
+        },
+        "bullet": {
+          "count": 3,
+          "examples": [
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            },
+            {
+              "before": " ▪ ",
+              "after": "\n- "
+            }
+          ]
+        }
+      },
+      "warnings": []
+    },
+    {
+      "stem": "South_Korea_and_Taiwan_The_2026_policy_rate_pathway_Desknote--915965",
+      "document": "South_Korea_and_Taiwan_The_2026_policy_rate_pathway_Desknote--915965.pdf",
+      "date": "2026-01-07",
+      "publisher": "BNP Paribas",
+      "document_type": "Research Note",
+      "chunk_count": 21,
+      "page_count": 4,
+      "status": "skipped",
+      "output": null,
+      "asset_class_share": 0.952,
+      "fingerprint": null,
+      "gate_warnings": []
+    }
+  ]
+}

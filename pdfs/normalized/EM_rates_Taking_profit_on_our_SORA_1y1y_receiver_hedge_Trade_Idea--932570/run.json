@@ -1,0 +1,219 @@
+{
+ "summary": {
+  "ok": true,
+  "source": "../../documents/EM_rates_Taking_profit_on_our_SORA_1y1y_receiver_hedge_Trade_Idea--932570.txt",
+  "model": "opus",
+  "replayed": false,
+  "prompts": {
+   "references": "references_v04.md",
+   "ellipsis": "ellipsis_v01.md"
+  },
+  "date": "2026-09-24",
+  "stages": {
+   "references": {
+    "attempts": 1,
+    "candidates": 6,
+    "referents": {
+     "thing": 5
+    },
+    "decisions": {
+     "link": 4,
+     "leave": 2
+    },
+    "leave_reasons": {
+     "expletive": 1,
+     "not_a_reference": 1
+    },
+    "extra": 2,
+    "rejected_per_attempt": [
+     0
+    ],
+    "undecided_per_attempt": [
+     0
+    ]
+   },
+   "ellipsis": {
+    "attempts": 1,
+    "accepted": 0,
+    "rejected_per_attempt": [
+     0
+    ]
+   }
+  },
+  "edits": 19,
+  "kinds": {
+   "deixis": 8,
+   "symbol": 5,
+   "noun_phrase": 3,
+   "possessive": 2,
+   "pronoun": 1
+  },
+  "rooted_share": 0.7333333333333333,
+  "errors": 0,
+  "warnings": {
+   "UNRESOLVED_PRONOUN": 1
+  },
+  "sentences": 17,
+  "cost_usd": 0.0876
+ },
+ "referents": [
+  {
+   "id": "R1",
+   "type": "thing",
+   "start": 678,
+   "end": 744,
+   "quote": "more than 32bp in total for the December and January FOMC meetings",
+   "name": "more than 32bp in total for the December and January FOMC meetings"
+  },
+  {
+   "id": "R2",
+   "type": "thing",
+   "start": 1213,
+   "end": 1244,
+   "quote": "the loan-to-deposit (LTD) ratio",
+   "name": "the loan-to-deposit (LTD) ratio"
+  },
+  {
+   "id": "R3",
+   "type": "thing",
+   "start": 1453,
+   "end": 1460,
+   "quote": "the Fed",
+   "name": "the Fed"
+  },
+  {
+   "id": "R4",
+   "type": "thing",
+   "start": 1502,
+   "end": 1514,
+   "quote": "SORA fixings",
+   "name": "SORA fixings"
+  },
+  {
+   "id": "R5",
+   "type": "thing",
+   "start": 408,
+   "end": 430,
+   "quote": "The Oct/Jan FOMC payer",
+   "name": "the Oct/Jan FOMC payer"
+  }
+ ],
+ "decisions": [
+  {
+   "candidate": "C002",
+   "phrase": "it",
+   "action": "leave",
+   "reason": "expletive",
+   "referents": []
+  },
+  {
+   "candidate": "C003",
+   "phrase": "these",
+   "action": "leave",
+   "reason": "not_a_reference",
+   "referents": []
+  }
+ ],
+ "issues": [
+  {
+   "severity": "warning",
+   "code": "UNRESOLVED_PRONOUN",
+   "segment": "line 3",
+   "message": "'their' in 'to SORA fixings, which have remained in their YTD range (%) Sources: Bloomberg, Macro'"
+  }
+ ],
+ "rejected": {
+  "references": [
+   []
+  ],
+  "ellipsis": [
+   []
+  ]
+ },
+ "usage": [
+  {
+   "cost_usd": 0.028173100000000003,
+   "duration_ms": 2831,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3071,
+    "cache_read_input_tokens": 3135,
+    "output_tokens": 130,
+    "output_tokens_details": {
+     "thinking_tokens": 117
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3071,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 130,
+      "cache_read_input_tokens": 3135,
+      "cache_creation_input_tokens": 3071,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3071
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  },
+  {
+   "cost_usd": 0.0594118,
+   "duration_ms": 14268,
+   "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 3337,
+    "cache_read_input_tokens": 4058,
+    "output_tokens": 1575,
+    "output_tokens_details": {
+     "thinking_tokens": 1044
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 3337,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 1575,
+      "cache_read_input_tokens": 4058,
+      "cache_creation_input_tokens": 3337,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 3337
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "models": [
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+   ]
+  }
+ ]
+}

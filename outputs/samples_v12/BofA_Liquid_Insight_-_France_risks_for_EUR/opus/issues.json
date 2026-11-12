@@ -1,0 +1,23 @@
+[
+  {
+    "code": "ROLE_CUE_MISMATCH",
+    "severity": "warning",
+    "path": "$.arguments[0].warrants[0]",
+    "message": "S014 is in warrants, but its evidence has none of the wording that role needs.",
+    "suggested_action": "Check that the evidence states a general principle; otherwise move the statement to premises."
+  },
+  {
+    "code": "PREMISE_DUPLICATES_CORE",
+    "severity": "warning",
+    "path": "$.arguments[6].assumptions[1]",
+    "message": "S029 restates S003, the conclusion of A005 (word overlap 0.71).",
+    "suggested_action": "Reference A005 (or S003) instead of restating it."
+  },
+  {
+    "code": "MUST_KEEP_UNCOVERED",
+    "severity": "warning",
+    "path": "$.evidence",
+    "message": "A sentence that looks like a claim is neither cited nor excluded: 'For example, the 3m6m FVA is compared with the 6m ATM volatility BofA GLOBAL RESEARCH Exhibit 5: Z-scores of forward vol premia since 2015 suggest that the mark'.",
+    "suggested_action": "Cite it as evidence of a statement, or list it under exclusions with a reason."
+  }
+]

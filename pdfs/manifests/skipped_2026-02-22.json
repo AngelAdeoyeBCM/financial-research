@@ -1,0 +1,358 @@
+{
+  "batch_id": "2026-02-22",
+  "window": [
+    "2026-02-22",
+    "2026-02-22"
+  ],
+  "generated_at": "2026-10-29T16:27:09",
+  "asset_classes": [
+    "FX",
+    "Rates"
+  ],
+  "inputs": [
+    {
+      "file": "C:/Users/angel.adeoye/dev/financial_research/research_chunks/research_chunks_jan_jun/raw/browse_2026-02-22_2026-02-25.json",
+      "sha256": "e341e6c8c0827f27dcefe814107761edd53a60147b0bad5ea9056d891307e98b",
+      "records": 984,
+      "dates": [
+        "2026-02-22",
+        "2026-02-25"
+      ],
+      "records_for_batch": 176
+    }
+  ],
+  "counts": {
+    "documents": 11,
+    "in_scope": 7,
+    "out_of_scope": 4,
+    "compiled": 1,
+    "skipped": 6,
+    "duplicate": 0,
+    "protected": 0,
+    "compiled_with_warnings": 1,
+    "stripped_items": 19,
+    "edits": 15,
+    "duplicate_chunks": 0,
+    "unparsed_chunks": 0
+  },
+  "skipped_by_code": {
+    "DISTORTED_FIGURE": 11,
+    "DISTORTED_TABLE": 10,
+    "MISSING_CHUNKS": 6,
+    "UNSTRUCTURED_TEXT": 4
+  },
+  "documents": [
+    {
+      "stem": "BC_FX___EM_Weekly_Thoughts_-_Iran__oil__IEEPA_tariffs_and_FX",
+      "document": "BC_FX & EM Weekly Thoughts - Iran, oil, IEEPA tariffs and FX.pdf",
+      "date": "2026-02-22",
+      "publisher": "Barclays",
+      "document_type": "Weekly",
+      "chunk_count": 25,
+      "page_count": 9,
+      "status": "skipped",
+      "missing_indices": [
+        6,
+        13,
+        25
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [6, 13, 25]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "5 numeric rows: +44 (0) 20 3555 6549 | +44 (0) 20 7773 2002 | +1 212 526 8954",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Iran, oil, IEEPA tariffs and FX.pdf-1-1",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "26 consecutive numeric/date tokens: -1.0 -0.8 -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 95 97",
+          "chunk_id": "BC_FX & EM Weekly Thoughts - Iran, oil, IEEPA tariffs and FX.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_Equity_Research_-_Americas_Banks_-_Setting_out_potential_liquidity_reform_and_impacts_to_LCR",
+      "document": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf",
+      "date": "2026-02-22",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 24,
+      "page_count": 10,
+      "status": "skipped",
+      "missing_indices": [
+        14
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [14]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "39 consecutive numeric/date tokens: 121% 107% 107% 114% 129% 113% 110% 115% 169pp 99pp 52pp 29pp",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-5-10",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "41 consecutive numeric/date tokens: 100% 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-5-11",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "39 consecutive numeric/date tokens: 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 3Q11 1Q12",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 2% of words are English function words",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 2Q23 95 82 137 141 163 184 117",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 6 1 12 15 77 6 1 1 7",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "9 consecutive numeric/date tokens: 6 1 12 15 77 6 1 1 7",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-7-16",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 664 588 946 287 103 116 381 3,085",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "8 consecutive numeric/date tokens: 25% 25% 25% 25% 25% 25% 25% 25%",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "11 numeric rows: 664 588 946 103 116 381 3,085 | 589 510 858 96 108 315 2,699 | 330 159 444 124 205 617 1,878",
+          "chunk_id": "GS_Equity Research - Americas Banks - Setting out potential liquidity reform and impacts to LCR.pdf-9-21",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_UK_Views_-_Firmer_Growth__Lower_Inflation__More_Rate_Cuts",
+      "document": "GS_UK Views - Firmer Growth, Lower Inflation, More Rate Cuts.pdf",
+      "date": "2026-02-22",
+      "publisher": "Goldman Sachs",
+      "document_type": "Research Note",
+      "chunk_count": 6,
+      "page_count": 6,
+      "status": "skipped",
+      "missing_indices": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2, 4, 6, 8]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "GS_US_Daily_-_Tariffs_and_the_Economy_After_the_Supreme_Court_Ruling",
+      "document": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf",
+      "date": "2026-02-22",
+      "publisher": "Goldman Sachs",
+      "document_type": "Daily",
+      "chunk_count": 18,
+      "page_count": 8,
+      "status": "skipped",
+      "missing_indices": [
+        2
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [2]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 9pp 0 2 4 6 8 10 12 14 0 2 4",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-4-9",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "12 consecutive numeric/date tokens: 0 20 40 60 80 100 0 20 40 60 80 100",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-5-12",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "24 consecutive numeric/date tokens: 2026 0.00 0.02 0.04 0.06 0.08 0.10 0.12 0.14 0.16 0.00 0.02",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-6-13",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "16 consecutive numeric/date tokens: January 1.8 2.2 2.6 3.0 3.4 1.8 2.2 2.6 3.0 3.4 Jan-25",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-6-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "31 consecutive numeric/date tokens: Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-7-15",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "13 consecutive numeric/date tokens: 13.4 10.7 10.0 4.2 6. 7 20.9 -16.7 10.1 -6.6 7.5 14.3",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-8-17",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_TABLE",
+          "detail": "12 consecutive numeric/date tokens: 0.3 15.2 0.1 18.9 19. 0 -18.9 14.9 -4.0 0.3 15.0 30.2",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 8% of words are English function words",
+          "chunk_id": "GS_US Daily - Tariffs and the Economy After the Supreme Court Ruling.pdf-8-18",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "MS_Asia_Economics_-_The_Viewpoint_-_Tariff_Volatility_in_Near_Term_but_Non-Tech_Exports_Recovery_Intact",
+      "document": "MS_Asia Economics - The Viewpoint - Tariff Volatility in Near Term but Non-Tech Exports Recovery Intact.pdf",
+      "date": "2026-02-22",
+      "publisher": "Morgan Stanley",
+      "document_type": "Research Note",
+      "chunk_count": 9,
+      "page_count": 5,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "18 consecutive numeric/date tokens: 5% 44% 25% 20% 17% 0% 5% 10% 15% 20% 25% 30%",
+          "chunk_id": "MS_Asia Economics - The Viewpoint - Tariff Volatility in Near Term but Non-Tech Exports Recovery Intact.pdf-2-2",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "20 consecutive numeric/date tokens: -7% -3% -3% -2% -2% -2% -1% 0% 0% 0% 2% 4%",
+          "chunk_id": "MS_Asia Economics - The Viewpoint - Tariff Volatility in Near Term but Non-Tech Exports Recovery Intact.pdf-5-8",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    },
+    {
+      "stem": "Sunday_Tea_with_BNPP_Bullish_despite_geopolitical_risks_Sunday_Tea_with_BNP_Paribas--919107",
+      "document": "Sunday_Tea_with_BNPP_Bullish_despite_geopolitical_risks_Sunday_Tea_with_BNP_Paribas--919107.pdf",
+      "date": "2026-02-22",
+      "publisher": "BNP Paribas",
+      "document_type": "Weekly",
+      "chunk_count": 14,
+      "page_count": 4,
+      "status": "skipped",
+      "missing_indices": [
+        7
+      ],
+      "issues": [
+        {
+          "code": "MISSING_CHUNKS",
+          "detail": "missing indices [7]",
+          "chunk_id": null,
+          "reprocess": "refetch",
+          "severity": "skip"
+        },
+        {
+          "code": "DISTORTED_FIGURE",
+          "detail": "13 consecutive numeric/date tokens: 40 60 80 100 120 Jan-25 Jun-25 Nov-25 Apr-26 Sep-26 Feb-27 Jul-27",
+          "chunk_id": "Sunday_Tea_with_BNPP_Bullish_despite_geopolitical_risks_Sunday_Tea_with_BNP_Paribas--919107.pdf-2-6",
+          "reprocess": "chart",
+          "severity": "skip"
+        },
+        {
+          "code": "UNSTRUCTURED_TEXT",
+          "detail": "only 7% of words are English function words",
+          "chunk_id": "Sunday_Tea_with_BNPP_Bullish_despite_geopolitical_risks_Sunday_Tea_with_BNP_Paribas--919107.pdf-4-14",
+          "reprocess": "chart",
+          "severity": "skip"
+        }
+      ]
+    }
+  ]
+}
